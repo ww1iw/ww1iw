@@ -237,10 +237,12 @@ country_event = {
 	
 	option = {
 		name = world_war_1.6.a	#so you want war?
-		create_wargoal = {
-			type = puppet_wargoal_focus
-			target = SER
-		} 
+		AUS = {	
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SER
+			}
+		}
 	}
 }
 
@@ -258,3 +260,299 @@ country_event = {
 	}
 }
 
+# Austrians meddle with our sphere of influence
+country_event = {
+	id = world_war_1.9
+	title = world_war_1.9.t
+	desc = world_war_1.9.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		AUS = {
+			has_war_with = SER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = world_war_1.9.a	# Demand CP withdrawal
+		ai_chance = { factor = 90 }
+		AUS = {
+			country_event = { id = world_war_1.10 }
+		}
+	}
+	
+	option = {
+		name = world_war_1.9.b	# We won't die for Serbia
+		ai_chance = { factor = 10 }
+	}
+}
+
+# Russia demands our withdrawal
+country_event = {
+	id = world_war_1.10
+	title = world_war_1.10.t
+	desc = world_war_1.10.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world_war_1.10.a	# Spare us!
+		ai_chance = { factor = 10 }
+		AUS = { white_peace = SER }
+	}
+	
+	option = {
+		name = world_war_1.10.b	# F*ck Russia
+		ai_chance = { factor = 90 }
+		FRA = {	
+			add_to_faction = SER
+		}
+		GER = {
+			country_event = { id = world_war_1.11 }
+		}
+	}
+}
+
+# Schlieffen plan
+country_event = {
+	id = world_war_1.11
+	title = world_war_1.11.t
+	desc = world_war_1.11.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world_war_1.10.a	# Through Belgium and the Netherlands
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		GER = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FRA
+			}
+		}
+		GER = {	
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = HOL
+			}
+		}
+		GER = {	
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = BEL
+			}
+		}
+		GER = {	
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = LUX
+			}
+		}			
+	}
+	
+	option = {
+		name = world_war_1.1.b	# Through Belgium and Lux
+		ai_chance = { factor = 90 }
+		GER = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FRA
+			}
+		}
+		GER = {	
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = BEL
+			}
+		}
+		GER = {	
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = LUX
+			}
+		}
+	}
+	option = {
+		name = world_war_1.1.b	# Through Luxembourg
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		GER = {	
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FRA
+			}
+		}
+		GER = {	
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = LUX
+			}
+		}
+	}
+	option = {
+		name = world_war_1.1.b	# Through Switzerland
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		GER = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FRA
+			}
+		}
+		GER = {	
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SWI
+			}
+		}
+	}
+}
+
+# Germans violate Belgian neutrality
+country_event = {
+	id = world_war_1.12
+	title = world_war_1.12.t
+	desc = world_war_1.12.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		GER = {
+			has_war_with = BEL
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = world_war_1.9.a	# Demand CP withdrawal
+		ai_chance = { factor = 90 }
+		GER = {
+			country_event = { id = world_war_1.13 }
+		}
+	}
+	
+	option = {
+		name = world_war_1.9.b	# We won't die for Belgium
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+# Britain demands our withdrawal
+country_event = {
+	id = world_war_1.13
+	title = world_war_1.13.t
+	desc = world_war_1.13.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world_war_1.10.a	# Spare us!
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		GER = { white_peace = BEL }
+	}
+	
+	option = {
+		name = world_war_1.1.b	# F*ck Britain
+		ai_chance = { factor = 90 }
+		ENG = {	
+			dismantle_faction = yes
+		}
+		FRA = {
+			add_to_faction = ENG
+		}
+	}
+}
+
+# Hidden event to put nations at war with the CP in the entente
+country_event = {
+	id = world_war_1.14
+	title = world_war_1.14.t
+	desc = world_war_1.14.d
+	picture = GFX_report_event_physics_lab_01
+	
+	hidden = yes
+	
+	trigger = {
+		any_country = {
+			AND = {
+				has_war_with = GER
+				NOT = {
+					is_in_faction_with = FRA
+					is_in_faction_with = ENG
+				}
+			}
+		}
+		OR = {
+			FRA = {
+				has_war_with = GER
+			}
+			ENG = {
+				has_war_with = GER
+			}
+		}
+		NOT = {
+			has_global_flag = war_to_end_all_wars_ended
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = world_war_1.9.a	# Joins the entente
+		every_country ={
+			limit = {
+				has_war_with = GER
+				NOT = {
+					is_in_faction_with = ENG
+					is_in_faction_with = FRA
+				}
+			}
+			FRA = { add_to_faction = PREV }
+		}
+	}
+}
