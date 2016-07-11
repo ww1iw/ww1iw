@@ -1,0 +1,894 @@
+ideas = {
+
+	country = {
+		government_formation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				#fascism_drift = 0.05
+			}
+		}
+		socialist_absmaj = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				socialist_drift = 0.05
+			}
+		}
+		
+		liberal_absmaj = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				liberal_drift = 0.05
+			}
+		}
+
+		democratic_absmaj = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				democratic_drift = 0.05
+			}
+		}
+
+		conservative_absmaj = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				socialist_drift = 0.05
+			}
+		}
+
+		comsoc_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				communism_drift = 0.03
+				socialist_drift = 0.02
+			}
+		}
+
+		soccom_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				socialist_drift = 0.03
+				communism_drift = 0.02
+			}
+		}
+
+		soclib_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				socialist_drift = 0.03
+				liberal_drift = 0.02
+			}
+		}
+
+		libsoc_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				liberal_drift = 0.03
+				socialist_drift = 0.02
+			}
+		}
+		
+		socdem_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				socialist_drift = 0.03
+				democratic_drift = 0.02
+			}
+		}
+		
+		demsoc_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				democratic_drift = 0.03
+				socialist_drift = 0.02
+			}
+		}
+		
+		libdem_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				liberal_drift = 0.03
+				democratic_drift = 0.02
+			}
+		}
+		
+		demlib_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				democratic_drift = 0.03
+				liberal_drift = 0.02
+			}
+		}
+		
+		demcon_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				democratic_drift = 0.03
+				conservative_drift = 0.02
+			}
+		}
+		
+		condem_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conservative_drift = 0.03
+				democratic_drift = 0.02
+			}
+		}
+		
+		libcon_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				liberal_drift = 0.03
+				conservative_drift = 0.02
+			}
+		}
+		
+		conlib_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conservative_drift = 0.03
+				liberal_drift = 0.02
+			}
+		}
+		
+		conaut_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conservative_drift = 0.03
+				autocratic_drift = 0.02
+			}
+		}
+		
+		autcon_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				autocratic_drift = 0.03
+				conservative_drift = 0.02
+			}
+		}
+		
+		confas_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conservative_drift = 0.03
+				fascism_drift = 0.02
+			}
+		}
+		
+		fascon_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				fascism_drift = 0.03
+				conservative_drift = 0.02
+			}
+		}
+		
+		nscon_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				natsoc_drift = 0.03
+				conservative_drift = 0.02
+			}
+		}
+		
+		conns_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				natsoc_drift = 0.03
+				socialist_drift = 0.02
+			}
+		}
+		
+		autfas_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				autocratic_drift = 0.03
+				fascism_drift = 0.02
+			}
+		}
+		
+		fasaut_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				fascism_drift = 0.03
+				autocratic_drift = 0.02
+			}
+		}
+		
+		nsaut_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				natsoc_drift = 0.03
+				autocratic_drift = 0.02
+			}
+		}
+		
+		autns_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				autocratic_drift = 0.03
+				natsoc_drift = 0.02
+			}
+		}
+		
+		autnsfas_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				autocratic_drift = 0.03
+				natsoc_drift = 0.01
+				fascism_drift = 0.01
+			}
+		}
+		
+		nsfasaut_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				natsoc_drift = 0.03
+				autocratic_drift = 0.01
+				fascism_drift = 0.01
+			}
+		}
+		
+		fasnsaut_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				fascism_drift = 0.03
+				natsoc_drift = 0.01
+				autocratic_drift = 0.01
+
+			}
+		}
+		
+		confasaut_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conservative_drift = 0.03
+				fascism_drift = 0.01
+				autocratic_drift = 0.01
+
+			}
+		}
+		
+		conlibdem_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conservative_drift = 0.03
+				liberal_drift = 0.01
+				democratic_drift = 0.01
+			}
+		}
+	
+		nsconaut_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				natsoc_drift = 0.03
+				conservative_drift = 0.01
+				autocratic_drift = 0.01
+			}
+		}
+		libdemcon_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				liberal_drift = 0.03
+				democratic_drift = 0.01
+				conservative_drift = 0.01
+
+			}
+		}
+	
+		autconns_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				autocratic_drift = 0.03
+				natsoc_drift = 0.01
+				conservative_drift = 0.01
+			}
+		}
+		connsaut_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conservative_drift = 0.03
+				natsoc_drift = 0.01
+				autocratic_drift = 0.01
+
+			}
+		}
+	
+		autconfas_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				autocratic_drift = 0.03
+				fascism_drift = 0.01
+				conservative_drift = 0.01
+			}
+		}
+
+		demlibcon_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				democratic_drift = 0.03
+				liberal_drift = 0.01
+				conservative_drift = 0.01
+			}
+		}		
+
+		demlibsoc_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				democratic_drift = 0.03
+				liberal_drift = 0.01
+				socialist_drift = 0.01
+			}
+		}
+		
+		soclibdem_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				socialist_drift = 0.03
+				liberal_drift = 0.01
+				democratic_drift = 0.01
+			}
+		}
+		
+		libsocdem_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				liberal_drift = 0.03
+				socialist_drift = 0.01
+				democratic_drift = 0.01
+			}
+		}
+			
+		independent_coalition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+			}
+		}
+	}
+}

@@ -1,0 +1,427 @@
+ideas = {
+
+
+	banking_policy = {
+			law = yes
+		international_banking = { #International System
+
+			cost = 40000
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = 0.05
+				consumer_goods_factor = 0.02
+				political_power_factor = -0.05
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		
+		self_reliance = { #Self-Reliant System
+
+			cost = 100000
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = -0.05
+				consumer_goods_factor = -0.05
+				political_power_factor = 0.03
+			}
+		
+			
+			cancel_if_invalid = no
+		}
+
+	}
+
+	taxation_policy = {
+			law = yes
+		taxpolicy1 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.025
+				industrial_capacity_factory = 0.03
+				consumer_goods_factor = 0.01
+				unity_weekly = 0.002
+				production_speed_industrial_complex_factor = -0.02
+			}
+			
+			
+			cancel_if_invalid = no
+		}
+		
+		taxpolicy2 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.05
+				industrial_capacity_factory = 0.01
+				consumer_goods_factor = 0.02
+				unity_weekly = 0.001
+				production_speed_industrial_complex_factor = -0.01
+			}
+			
+			
+			cancel_if_invalid = no
+		}
+		
+		taxpolicy3 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+				industrial_capacity_factory = -0.01
+				consumer_goods_factor = 0.03
+				unity_weekly = -0.001
+				production_speed_industrial_complex_factor = 0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+	taxpolicy4 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.2
+				industrial_capacity_factory = -0.03
+				consumer_goods_factor = 0.06
+				unity_weekly = -0.003
+				production_speed_industrial_complex_factor = 0.02
+			}
+			
+			
+			cancel_if_invalid = no
+		}
+		
+	taxpolicy5 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.35
+				industrial_capacity_factory = -0.05
+				consumer_goods_factor = 0.09
+				unity_weekly = -0.005
+				production_speed_industrial_complex_factor = 0.03
+			}
+			
+			
+			cancel_if_invalid = no
+		}	
+	}
+	investment_policy = {
+			law = yes
+	market_economy = {
+
+			cost = 40000
+			removal_cost = -1
+			
+			available = {
+				NOT = {
+					OR = {
+					has_government = communism
+					has_government = natsoc
+					}
+				}
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+				production_speed_infrastructure_factor = -0.02
+				production_speed_industrial_complex_factor = 0.03
+				production_speed_arms_factory_factor = -0.01
+				liberal_drift = 0.01
+				democratic_drift = 0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		econ_intervention = {
+
+			cost = 60000
+			removal_cost = -1
+			
+			available = {
+				NOT = {
+					has_government = communism
+					has_government = natsoc
+				}
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.01
+				production_speed_infrastructure_factor = -0.01
+				production_speed_industrial_complex_factor = 0.015
+				production_speed_arms_factory_factor = 0.01
+				conversion_cost_mil_to_civ_factor = -0.025
+				conversion_cost_civ_to_mil_factor = -0.025
+				socialist_drift = 0.01
+				conservative_drift = 0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		state_capitalism = {
+
+			cost = 80000
+			removal_cost = -1
+			
+			available = {
+				OR = {
+					has_government = conservative
+					has_government = autocratic
+					has_government = communism
+					has_government = fascism
+					has_government = natsoc
+				}
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.01
+				production_speed_infrastructure_factor = 0.01
+				production_speed_industrial_complex_factor = -0.015
+				production_speed_arms_factory_factor = 0.02
+				conversion_cost_mil_to_civ_factor = -0.05
+				conversion_cost_civ_to_mil_factor = -0.05
+				industrial_capacity_factory =  0.01
+				socialist_drift = 0.01
+				fascism_drift = 0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		planned_economy = {
+
+			cost = 100000
+			removal_cost = -1
+			
+			available = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+					has_government = natsoc
+				}
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.01
+				unity_weekly = -0.001
+				production_speed_infrastructure_factor = 0.02
+				production_speed_industrial_complex_factor = -0.03
+				production_speed_arms_factory_factor = 0.03
+				conversion_cost_mil_to_civ_factor = -0.07
+				conversion_cost_civ_to_mil_factor = -0.07
+				industrial_capacity_factory =  0.01
+				communism_drift = 0.01
+				natsoc_drift = 0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		collectivisation = {
+
+			cost = 120000
+
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				unity_weekly = -0.003
+				communism_drift = -0.02
+				production_speed_infrastructure_factor = 0.03
+				production_speed_industrial_complex_factor = 0.02
+				production_speed_arms_factory_factor = 0.02
+				conversion_cost_mil_to_civ_factor = -1
+				conversion_cost_civ_to_mil_factor = -1
+				industrial_capacity_factory =  0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+
+	}
+	
+	salary = {
+		law = yes
+		salpolicy1 = {
+
+			cost = 30000
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.01
+				army_morale_factor = -0.03
+				conscription = -0.002
+				industrial_capacity_factory =  -0.01
+				communism_drift = 0.01
+				socialist_drift = 0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		salpolicy2 = {
+
+			cost = 75000
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.025
+				army_morale_factor = -0.01
+				conscription = -0.001
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		salpolicy3 = {
+
+			cost = 100000
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.04
+				army_morale_factor = 0.01
+				conscription = 0.001
+				industrial_capacity_factory =  0.01
+				conservative_drift = 0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		salpolicy4 = {
+
+			cost = 125000
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.06
+				army_morale_factor = 0.03
+				conscription = 0.003
+				industrial_capacity_factory =  0.02
+				fascism_drift = 0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	}
+	subsidy = {
+		law = yes
+		balanced_program = {
+
+			cost = 75000
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.01
+				unity_factor = 0.001
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		favor_private = {
+
+			cost = 90000
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.02
+				unity_factor = -0.001
+				conscription = -0.0001
+			}
+			
+			
+			cancel_if_invalid = no
+		}
+		
+		favor_state = {
+
+			cost = 100000
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.03
+				unity_factor = 0.002
+				conscription = 0.0001
+			}
+			
+			
+			cancel_if_invalid = no
+		}
+		
+		favor_military = {
+
+			cost = 115000
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.05
+				unity_factor = 0.003
+				conscription = 0.0002
+				production_speed_arms_factory_factor = -0.05
+			}
+			
+			
+			cancel_if_invalid = no
+		}
+		
+		favor_science = {
+
+			cost = 130000
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.001
+			}
+			
+			
+			cancel_if_invalid = no
+		}
+
+	}
+}

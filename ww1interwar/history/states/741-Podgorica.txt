@@ -1,0 +1,22 @@
+state={
+	id=741
+	name="STATE_741"
+	history = {
+		owner = MTN
+		1923.1.1 = {
+			owner = YUG
+		}
+		add_core_of = MTN
+		add_core_of = YUG
+		
+		victory_points = {
+			9809 1 
+		}
+	}
+
+	provinces={
+		9809 9821 11858 
+	}
+	manpower=455140
+	state_category="rural"
+}

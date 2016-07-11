@@ -1,0 +1,30 @@
+state={
+	id=699
+	name="STATE_699"
+	manpower = 32000
+	
+	state_category = wasteland
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 1
+			8038 = {
+				naval_base = 1
+			}
+			12857 = {
+				naval_base = 1
+			}
+		}
+		add_claim_by = SPR
+		add_core_of = MOR
+		
+		1912.3.30 = {
+			owner = SPR
+		}
+	}
+	
+	provinces={
+		4920 5012 7979 8038 8111 10875 12857 
+	}
+}

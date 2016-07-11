@@ -1,0 +1,321 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Infantry Division"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "National Guard Division"
+
+	regiments = {						
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }  
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Garrison Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+	priority = 0
+}
+
+###### OOB ######
+units = {
+	division= {	
+		name = "1st Infantry Division"
+		location = 3878
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "2nd Infantry Division"
+		location = 3878
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "3rd Infantry Division"
+		location = 3878
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "4th Infantry Division"
+		location = 9814
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "5th Infantry Division"
+		location = 9814
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "6th Infantry Division"
+		location = 9814
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "1st Cavalry Division"
+		location = 3878
+		division_template = "Cavalry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "2nd Cavalry Division"
+		location = 9814
+		division_template = "Cavalry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "1. Homeguard Division"
+		location = 3878
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "2. Homeguard Division"
+		location = 9814
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division = {			
+		name = "Puerto Rico Department"
+		location = 1440
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}			
+	division = {			
+		name = "Panama Canal Force"		
+		location = 7617
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}
+
+
+	####### Pacific Theater	#######
+	### Alaska Defense Command ###
+	division = {			
+		name = "Alaska Defense Command"		
+		location = 13091
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Attu Island Garrison"		
+		location = 13067
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}
+			
+	### Hawaiian Department ###
+	division = {			
+		name = "Hawaiian Division"		
+		location = 4180
+		division_template = "National Guard Division"		# older equipment, less training than NG division
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	# North Pacific Defenses #
+	division= {				
+		name = "Midway Island Garrison"			
+		location = 13052
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}				
+	division= {				
+		name = "Wake Island Garrison"			
+		location = 13047
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}				
+	division= {				
+		name = "Guam Garrison"			
+		location = 12140
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}				
+	
+	# South Pacific Defenses #
+	division= {			
+		name = "Christmas Island Garrison"		
+		location = 13048
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Jarvis Island Garrison"		
+		location = 13049
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Palmyra Garrison"		
+		location = 13050
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Phoenix Island Garrison"		
+		location = 13053
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Johnston Island Garrison"		
+		location = 13051
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	
+	division = {										
+		name = "Phillippine Division"			
+		location = 10265
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+}
+		
+air_wings = {
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "USA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "USA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+}
+#####################

@@ -1,0 +1,32 @@
+state={
+	id=185
+	name="STATE_185"
+	resources={
+		chromium=10
+		steel=10
+	}
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			9805 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GRE
+		1913.5.30 = {
+			owner = GRE
+			remove_core_of = TUR
+			add_claim_by = TUR
+		}
+	}
+
+	provinces={
+		841 3914 3980 9805 9837 9916 
+	}
+	manpower=370230
+	state_category="town"
+}

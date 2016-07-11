@@ -1,0 +1,218 @@
+﻿division_template = {
+	name = "Infanterie-Division"  
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Gebirgs-Division"  
+	# Note: Mountain Divisions are same as Infantry Divisions above, but with mountain regiments
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Gebirgsbrigade" 	
+	# Independent Mountain Brigade, triangle organization
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Grenzbrigade"
+	# Independent Border Brigade, binary organization
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Leichte-Brigade" 			
+	# Independent Cavalry Brigade
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1. Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "5. Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "6. Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Leichte-Brigade"
+		location = 9620
+		division_template = "Leichte-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Leichte-Brigade"
+		location = 9620
+		division_template = "Leichte-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Leichte-Brigade"
+		location = 9620
+		division_template = "Leichte-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Leichte-Brigade"
+		location = 9620
+		division_template = "Leichte-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Gebirgs-Division"
+		location = 9620
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Gebirgs-Division"
+		location = 9620
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Gebirgs-Division"
+		location = 9620
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Gebirgs-Division"
+		location = 9620
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Gebirgs-Division"
+		location = 9620
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Gebirgs-Division"
+		location = 9620
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Gebirgs-Division"
+		location = 9620
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.3
+	}
+}
+
+### Air Wings ###
+air_wings = {
+	##### Schweizer Luftwaffe #####
+	3 = { 
+		# Fliegerregimenter 1 -- Dewotine D.27 fighters
+		fighter_equipment_0 = {
+			owner = "SWI" 
+			amount = 36
+			create_if_missing = yes
+		}
+		# Fliegerregimenter 2 -- EKW C-25 light bombers
+		CAS_equipment_1 = {
+			owner = "SWI" 
+			amount = 12
+			create_if_missing = yes
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SWI"
+		}
+		requested_factories = 1
+		progress = 0.41
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SWI"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

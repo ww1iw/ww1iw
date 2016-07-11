@@ -1,0 +1,373 @@
+﻿division_template = {
+	name = "Infanterie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+	support = {
+        artillery = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Vânători de Munte"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalerie"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }
+	    recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Brigadă Călărași"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {	
+		name = "Grupa Olt-Lotru"
+		location = 9617
+		division_template = "Vânători de Munte"
+		start_experience_factor = 1.5
+	}
+	division= {	
+		name = "Brigada 1 Călărași"
+		location = 9617
+		division_template = "Brigadă Călărași"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Brigada 2 Călărași"
+		location = 9617
+		division_template = "Brigadă Călărași"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Brigada 3 Călărași"
+		location = 9617
+		division_template = "Brigadă Călărași"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Brigada 4 Călărași"
+		location = 9617
+		division_template = "Brigadă Călărași"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Brigada 5 Călărași"
+		location = 9617
+		division_template = "Brigadă Călărași"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Divizia 1 Cavalerie"
+		location = 9617
+		division_template = "Cavalerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Divizia 2 Cavalerie"
+		location = 9617
+		division_template = "Cavalerie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Divizia 1 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "Divizia 2 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "Divizia 3 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "Divizia 5 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 6 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 7 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 8 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 10 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 11 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 12 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 13 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Divizia 14 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "Divizia 15 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 16 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 17 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 18 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 19 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "Divizia 20 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "Divizia 21 Infanterie"
+		location = 9617
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+
+	##### NAVAL UNITS #####
+	navy = {
+		# to be done later
+	}
+
+#No military planes - yet
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	### Ships Under Contruction ###
+	# SS: Type IIA (x2) ("U-25" "U-26"), Type IIB (x6) ("U-14" "U-16" "U-18" "U-15" "U-20" "U-19")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "GER" 
+		}
+		requested_factories = 5
+		progress = 0.75
+		amount = 8
+	}
+	# DD: 1934 class (x4) ("Z1" "Z2" "Z3" "Z4")
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "GER"
+		}
+		requested_factories = 3
+		progress = 0.75
+		amount = 4
+	}
+	# CA: "Graf Spee"
+	add_equipment_production = {
+		equipment = {
+			type = heavy_cruiser_1
+			creator = "GER"
+			version_name = "Deutschland Class"
+		}
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+	}
+}
+
+#####################

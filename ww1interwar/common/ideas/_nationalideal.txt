@@ -1,0 +1,104 @@
+ideas = { 
+
+	country = {		# 7 types - unity, strength, liberty, progress, imperial, revolutionary, neutrality
+		unity_ideal = { #Unity
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		
+		strength_ideal = { #Strength
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+		
+			
+			cancel_if_invalid = no
+		}
+		
+		liberty_ideal = { #Liberty
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+		
+			
+			cancel_if_invalid = no
+		}
+		
+		progress_ideal = { #Progress
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+		
+			
+			cancel_if_invalid = no
+		}
+		
+		imperial_ideal = { #Imperial
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+		
+			
+			cancel_if_invalid = no
+		}
+		
+		revolutionary_ideal = { #Revolutionary
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.01
+				conscription = 0.003
+				send_volunteers_tension = -0.1
+				generate_wargoal_tension = 0.1
+				research_time_factor = 0.02
+			}
+		
+			
+			cancel_if_invalid = no
+		}
+		
+		neutrality_ideal = { #Neutrality
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				conscription = -0.001
+				send_volunteers_tension = 0.05
+				join_faction_tension = 0.1
+				generate_wargoal_tension = 0.2
+				trade_opinion_factor = 0.05
+				research_time_factor = -0.01
+			}
+		
+			
+			cancel_if_invalid = no
+		}
+
+	}
+
+	
+}

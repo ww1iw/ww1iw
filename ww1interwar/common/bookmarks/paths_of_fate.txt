@@ -1,0 +1,75 @@
+bookmarks = {
+	bookmark = {
+		name = "PATHS_OF_FATE_NAME"
+		desc = "PATHS_OF_FATE_DESC"
+		date = 1931.1.1.12
+		picture = "GFX_select_date_1931"
+		default_country = "GER"
+		default = yes
+		
+		"USA"={
+			history = "USA_PATHS_OF_FATE_DESC"
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+		}
+		"GER"={
+			history = "GER_PATHS_OF_FATE_DESC"
+			ideology = liberal
+			ideas = {
+				sour_loser
+				general_staff
+			}
+		}
+		"ITA"={
+			history = "ITA_PATHS_OF_FATE_DESC"
+			ideology = fascism
+			ideas={
+				vittoria_mutilata
+				victor_emmanuel
+			}			
+		}
+		"JAP"={
+			history = "JAP_PATHS_OF_FATE_DESC"
+			ideology = fascism
+			ideas={
+				state_shintoism
+			}			
+		}
+		"CHI"={
+			history = "CHI_PATHS_OF_FATE_DESC"
+			ideology = democratic
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+		}
+		"PRC"={
+			history = "PRC_PATHS_OF_FATE_DESC"
+			ideology = communism
+			ideas={
+			}			
+		}
+		"SOV"={
+			history = "SOV_PATHS_OF_FATE_DESC"
+			ideology = communism
+			ideas = {
+				trotskyite_plot
+				home_of_revolution
+			}
+		}
+
+		"---"={
+			history = "OTHER_PATHS_OF_FATE_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

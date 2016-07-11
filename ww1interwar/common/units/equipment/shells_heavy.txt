@@ -1,0 +1,35 @@
+equipments = {
+
+	
+	shells_heavy = {
+		is_archetype = yes
+		type = {
+			capital_ship
+			screen_ship
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+		
+		active = yes
+
+		ap_attack = 1
+		attack = 1
+
+		#Space taken in convoy
+		lend_lease_cost = 2
+		
+		build_cost_ic = 2
+		resources = {
+			steel = 2
+			minerals = 2
+		}
+	}
+
+	shells_heavy_1 = {
+		archetype = shells_heavy
+		active = yes
+		priority = 30
+	}
+
+}

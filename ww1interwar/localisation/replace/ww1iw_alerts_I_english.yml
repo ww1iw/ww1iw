@@ -1,0 +1,2 @@
+﻿l_english:
+ alert_paused_diplomatic_actions_delayed:0 "Some of your diplomatic actions can't progress because you lack Political Power.\nConsider canceling these actions so they don't affect your Political Power gain.\n\nAffected relations:\n$COUNTRIES$"

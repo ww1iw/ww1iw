@@ -1,0 +1,91 @@
+bookmarks = {
+	bookmark = {
+		name = "The Interwar Period"
+		desc = "temp"
+		date = 1923.1.1.12
+		picture = "GFX_select_date_1923"
+		default_country = "SOV"
+		USA = {
+			history = USA_INTERWAR_DESC
+			ideology = liberal
+			ideas = {
+				progress_ideal
+				home_of_the_free
+				air_war_plans_division_focus
+				bureau_of_ships_focus
+				escort_effort_focus
+			}
+		}
+		ENG = {
+			history = ENG_INTERWAR_DESC
+			ideology = conservative
+			ideas = {
+				unity_ideal
+				stiff_upper_lip
+				ENG_george_vi
+				british_austerity_idea
+				ENG_the_war_to_end_all_wars
+			}
+			
+		}
+
+		GER = {
+			history = GER_INTERWAR_DESC
+			ideology = socialist
+			ideas={
+				neutrality_ideal
+				sour_loser
+				burgfrieden
+			}
+		}
+		SOV = {
+			history = SOV_INTERWAR_DESC
+			ideology = communism
+			ideas = {
+				revolutionary_ideal
+				home_of_revolution
+			}
+		}
+		ITA = {
+			history = ITA_INTERWAR_DESC
+			ideology = fascism
+			ideas={
+				strength_ideal
+				vittoria_mutilata
+				victor_emmanuel
+			}			
+		}
+		FRA = {
+			history = FRA_INTERWAR_DESC
+			ideology = liberal
+			ideas={
+				liberty_ideal
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+		}
+		JAP = {
+			history = JAP_INTERWAR_DESC
+			ideology = autocratic
+			ideas={
+				imperial_ideal
+				state_shintoism
+				the_long_lance
+				spiritual_mobilization_idea
+				warrior_traditions_idea
+				student_mobilization_idea
+				imperial_austerity_idea
+			}			
+		}
+
+		"---"={
+			history = "OTHER_INTERWAR_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

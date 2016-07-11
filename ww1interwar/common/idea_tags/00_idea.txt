@@ -1,0 +1,57 @@
+idea_categories = {
+
+	country = {
+		national_spirit = yes
+		
+		cost = 0
+		removal_cost = -1
+	}
+	
+	government = {
+		slot = civil_liberties
+		slot = foreign_policy
+		slot = trade_laws
+		slot = political_advisor
+		slot = political_advisor
+		slot = political_advisor
+		
+		cost = 120000		
+		removal_cost = 0
+	}
+	economy_banking = {
+		slot = economy
+		slot = investment_policy
+		slot = taxation_policy
+		slot = salary
+		slot = banking_policy
+		slot = subsidy
+		cost = 120000
+		removal_cost = 0
+	}
+	
+	research_production = {
+		slot = tank_manufacturer
+		slot = naval_manufacturer
+		slot = aircraft_manufacturer
+		slot = materiel_manufacturer
+		slot = industrial_concern
+		slot = theorist
+	
+		cost = 120000
+		removal_cost = 0
+
+	}
+	
+	military_staff = {
+		slot = mobilization_laws
+		slot = army_chief 
+		slot = navy_chief 
+		slot = air_chief
+		slot = high_command
+		slot = high_command
+		
+		cost = 120000
+		removal_cost = 0
+	}
+
+}

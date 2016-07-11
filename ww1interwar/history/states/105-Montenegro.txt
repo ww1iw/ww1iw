@@ -1,0 +1,36 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		chromium=36
+		aluminium=112
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SER
+		add_core_of = TUR
+		add_core_of = YUG
+
+		1913.5.30 = {
+			owner = SER
+			remove_core_of = TUR
+			add_claim_by = TUR
+		}
+		1923.1.1 = { 
+			owner = YUG
+		}
+	}
+
+	provinces={
+		833 867 937 3922 6940 9849 9874 
+	}
+	manpower=288650
+	state_category="rural"
+}

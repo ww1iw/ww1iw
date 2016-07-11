@@ -1,0 +1,29 @@
+﻿###########################
+# Party Formation events
+###########################
+
+add_namespace = parties
+
+# German American Bund
+country_event = {
+    id = partyusa.1
+    title = partyusa.1.t
+    desc = partyusa.1.d
+    picture = GFX_report_event_party_formed
+ 
+    trigger = {
+		GER = { has_government = natsoc }
+    }
+ 
+    mean_time_to_happen = {
+        months = 3
+    }
+	
+	option = {
+        name = market.1.a
+        trigger = {
+            always = yes
+        }
+		set_party_name = { ideology = natsoc long_name = USA_nazi_party_long name = USA_nazi_party }
+    }
+}

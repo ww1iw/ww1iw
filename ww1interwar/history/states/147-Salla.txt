@@ -1,0 +1,29 @@
+state=
+{
+	id=147
+	name="STATE_147"
+	manpower = 4630
+	
+	state_category = enclave
+	
+	history = {	
+		owner = SOV
+		1917.10.7 = { 
+			owner = FIN
+			remove_claim_by = SWE
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = FIN
+		add_claim_by = SWE
+
+		victory_points = {
+			197 1
+		}
+	}
+
+	provinces={
+		197 9158 11085 	
+	}
+}

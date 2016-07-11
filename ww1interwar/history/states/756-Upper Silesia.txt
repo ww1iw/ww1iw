@@ -1,0 +1,21 @@
+state={
+	id=756
+	name="STATE_756"
+		resources={
+		steel=20
+	}
+		history={
+		owner = GER
+		1923.1.1 = { owner = POL }
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GER
+		add_core_of = POL
+	}
+		state_category = city
+	provinces={
+		506 6464 
+	}
+	manpower=402591
+}

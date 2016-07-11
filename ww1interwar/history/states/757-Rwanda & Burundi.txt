@@ -1,0 +1,13 @@
+state={
+	id=757
+	name="STATE_757"
+	provinces={
+		2220 9962 
+	}
+	history={
+		owner = GER
+		1923.1.1 = { owner = BEL }
+	}
+	manpower=200000
+	state_category = rural #This needs to be looked into, I noticed there wasn't a category in the error log & am assuming its rural - Snow
+}

@@ -1,0 +1,60 @@
+leader_traits = {
+	
+	### IDEA TRAITS ###
+	
+	# drift is a percent applied weekly	
+	socialist_union_leader = {
+		random = no
+		# Boosts Socialism
+		sprite = 13
+		socialist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	liberal_reformer = {
+		random = no
+		# Boosts Liberalism
+		sprite = 13
+		liberal_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	conservative_nobleman = {
+		random = no
+		# Boosts Conservatism
+		sprite = 13
+		conservative_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	autocratic_soldier = {
+		random = no
+		# Boosts monarchism and autocracy
+		sprite = 13
+		autocratic_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	national_socialist_agitator = {
+		random = no
+		# Boosts National Socialism
+		sprite = 13
+		natsoc_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

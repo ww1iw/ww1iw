@@ -1,0 +1,74 @@
+bookmarks = {
+	bookmark = {
+		name = "Imperial Gambit"
+		desc = "temp"
+		date = 1911.1.1.12
+		picture = "GFX_select_date_1911"
+		default_country = "GER"
+		ENG = {
+			history = ENG_IMPERIAL_GAMBIT_DESC
+			ideology = liberal
+			ideas = {
+				stiff_upper_lip
+				ENG_george_vi
+				british_austerity_idea
+			}
+
+		}
+		GER = {
+			history = GER_IMPERIAL_GAMBIT_DESC
+			ideology = autocratic
+			ideas={
+			general_staff
+			}
+			
+		}
+		AUS = {
+			history = AUS_IMPERIAL_GAMBIT_DESC
+			ideology = autocratic
+			ideas={
+			}		
+			
+		}
+		SER = {
+			history = SER_IMPERIAL_GAMBIT_DESC
+			ideology = autocratic
+			ideas = {
+			}
+		
+		}
+		SOV = {
+			history = SOV_IMPERIAL_GAMBIT_DESC
+			ideology = autocratic
+			ideas = {
+			rasputin
+			communist_revolutionaries
+			}
+			
+		}
+		ITA = {
+			history = ITA_IMPERIAL_GAMBIT_DESC
+			ideology = liberal
+			ideas={
+			}
+
+		}
+		TUR = {
+			history = TUR_IMPERIAL_GAMBIT_DESC
+			ideology = autocratic
+			ideas = {
+			}
+
+		}
+		
+		
+		"---"={
+			history = "OTHER_IMPERIAL_GAMBIT_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

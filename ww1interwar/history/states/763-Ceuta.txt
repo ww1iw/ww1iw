@@ -1,0 +1,33 @@
+state={
+	id=763
+	name="STATE_763"
+	manpower = 124000
+	resources={
+		steel=8.00
+	}
+	
+	state_category = city
+
+	history={
+		owner = SPR
+		
+		victory_points = {
+			9945 5 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			12100 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = SPR
+		add_core_of = MOR
+	}
+	
+	provinces={
+		9945 
+	}
+}

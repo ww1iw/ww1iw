@@ -1,0 +1,226 @@
+﻿division_template = {
+	name = "Piyade Tümeni"  			# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Dag Tugayi" 				# Mountain Brigade
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Jandarma"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Süvari Tümeni" 				# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1. Piyade Tümeni"
+		location = 6919
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Piyade Tümeni"
+		location = 6919
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Piyade Tümeni"
+		location = 6919
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Piyade Tümeni"
+		location = 6919
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Piyade Tümeni"
+		location = 6919
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Piyade Tümeni"
+		location = 6919
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Piyade Tümeni"
+		location = 6919
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Piyade Tümeni"
+		location = 6919
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Süvari Tümeni"
+		location = 6919
+		division_template = "Süvari Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Süvari Tümeni"
+		location = 6919
+		division_template = "Süvari Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "9. Piyade Tümeni"
+		location = 9833
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10. Piyade Tümeni"
+		location = 9833
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11. Piyade Tümeni"
+		location = 9833
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12. Piyade Tümeni"
+		location = 9833
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13. Piyade Tümeni"
+		location = 9833
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14. Piyade Tümeni"
+		location = 9833
+		division_template = "Piyade Tümeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Jandarma"
+		location = 1086
+		division_template = "Jandarma"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Jandarma"
+		location = 1086
+		division_template = "Jandarma"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Jandarma"
+		location = 1086
+		division_template = "Jandarma"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Jandarma"
+		location = 1086
+		division_template = "Jandarma"
+		start_experience_factor = 0.3
+	}
+}
+
+	##### NAVAL UNITS #####
+	### Türk Donanmasi ###
+navy = {	
+}
+
+
+### Air Wings ###
+air_wings = {
+	##### Türk Hava Kuvvetleri #####
+	341 = { 
+		# 1. Havacilik Alay -- Curtiss F11C Hawk II fighters (technically CAG fighters)
+		fighter_equipment_0 = {
+			owner = "TUR" 
+			amount = 45
+		}
+		# 2. Havacilik Alay -- Letov S.16T light bombers
+		CAS_equipment_1 = {
+			owner = "TUR" 
+			amount = 16
+		}
+	}
+}
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "TUR"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "TUR"
+		}
+		requested_factories = 1
+		progress = 0.47
+		efficiency = 100
+	}
+}

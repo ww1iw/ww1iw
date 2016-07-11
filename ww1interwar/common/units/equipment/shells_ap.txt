@@ -1,0 +1,29 @@
+equipments = {
+
+	shells_ap = {
+		is_archetype = yes
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		hard_attack = 1
+	
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 1.2
+		resources = {
+			steel = 1
+			tungsten = 1
+		}
+	}
+
+	shells_ap_1 = {
+		archetype = shells_ap
+		active = yes
+		priority = 30
+	}
+}

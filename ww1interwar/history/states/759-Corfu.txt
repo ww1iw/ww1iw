@@ -1,0 +1,24 @@
+state={
+	id=759
+	name="STATE_759"
+	resources={
+		chromium=10
+		steel=10
+	}
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+		}
+		add_core_of = GRE
+
+	}
+	
+	provinces={
+		1106 1205 10203 11786 11895 12001 
+	}
+	manpower=390670
+	state_category="town"
+}

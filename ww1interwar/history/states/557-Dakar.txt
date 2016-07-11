@@ -1,0 +1,20 @@
+
+state={
+	id=557
+	name="STATE_557" # Mauritania
+	manpower = 2350 #7045 is 2016 pop of the region
+	
+	state_category = wasteland
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1115 10725 10868 
+	}
+}

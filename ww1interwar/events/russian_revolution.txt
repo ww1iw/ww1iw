@@ -1,0 +1,431 @@
+﻿###########################
+# Russian Revolution Events
+###########################
+
+add_namespace = russian_revolution
+
+country_event = { #The Unpopular War!
+	id 	= russian_revolution.1
+	title = russian_revolution.1.t
+	desc = russian_revolution.1.d
+	picture = GFX_news_event_soldiers_marching
+	
+	fire_only_once = yes 
+	
+	trigger = { 
+		tag = SOV
+		has_global_flag = ww1
+		has_national_unity < 75
+	}
+	
+	option = { #Damn!
+		name = russian_revolution.1.a
+		#add_ideas = 
+	}
+}
+country_event = { #Bolshevik Deputies resist the war effort!
+	id = russian_revolution.2
+	title = russian_revolution.2.t
+	desc = russian_revolution.2.d
+	picture = GFX_news_event_soldiers_marching
+	
+	trigger = {
+		tag = SOV
+		has_global_flag = ww1
+		surrender_progress > .01
+		NOT = { has_country_flag = bolsheviks_excluded }
+	}
+	fire_only_once = yes
+	
+	option = { #Leave them be
+		name = russian_revolution.2.a
+		add_national_unity = -1
+	}
+	
+	option = { #Expel Them!
+		name = russian_revolution.2.b
+		set_country_flag = bolsheviks_excluded #???
+		set_country_flag = left_angered
+	}
+}
+country_event = { # Tsar on the front
+	id = russian_revolution.3
+	title = russian_revolution.3.t
+	desc = russian_revolution.3.d
+	#picture = #???
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = russian_revolution.3.a
+		SOV = { add_ideas = tsar_on_the_front }# Better Morale Recovery? ???
+	}
+}
+country_event = { #The Progressive Bloc?
+	id = russian_revolution.4
+	title = russian_revolution.4.t
+	desc = russian_revolution.4.d
+	#picture = #???
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		has_global_flag = ww1
+		OR = {
+			AND = {
+				has_country_flag = left_angered
+				SOV = { has_national_unity < 65 }
+			}
+			SOV = { has_national_unity < 55 }
+		}
+	}
+	
+	option = { #They'd never do something so daring
+		name = russian_revolution.4.a
+		set_country_flag = progressive_bloc?
+	}
+}
+country_event = { #The Duma Angered
+	id = russian_revolution.5
+	title = russian_revolution.5.t
+	desc = russian_revolution.5.d
+	#picture = #???
+	
+	trigger = {
+		tag = SOV
+		has_global_flag = ww1
+		NOT = { has_idea = { duma_prorogued } }
+		has_national_unity < 70
+	}
+	
+	mean_time_to_happen = {
+		days = 120
+		
+		modifier = {
+			factor = .75
+			
+			has_national_unity < 60
+			has_national_unity > 50
+		}
+		modifier = {
+			factor = .5
+			
+			has_national_unity < 50
+			has_national_unity > 40
+		}
+		modifier = {
+			factor = .25
+			
+			has_national_unity < 40
+			has_national_unity > 30
+		}
+	}
+	option = { #Prorogue them, we have no time for their petty grumbling
+		name = russian_revolution.5.a
+		add_ideas = duma_prorogued #???Maybe an increase in Morale/Organization but also a monthly NatUnity loss?
+	}	
+	option = { #Leave them be, for now.
+		name = russian_revolution.5.b
+		add_national_unity = -0.02
+	}
+}
+country_event = { # Progressive Bloc Formed!
+	id = russian_revolution.6
+	title = russian_revolution.6.t
+	desc = russian_revolution.6.d
+	
+	trigger = {
+		tag = SOV
+		has_global_flag = ww1
+		has_national_unity < 50
+	}
+	
+	fire_only_once = yes
+	
+	option = { # Damned Progressives!
+		name = russian_revolution.6.a
+		add_ideas = progressive_bloc #possbily heighten national unity loss? Or cause centrist, liberal and socialist growth?
+		add_national_unity = -1
+	}
+}
+## Rasputin Events ##
+country_event = { # Assasination of Rasputin?
+	id = russian_revolution.7
+	title = russian_revolution.7.t
+	desc = russian_revolution.7.d
+	
+	trigger = {
+		tag = SOV
+		has_idea = rasputin
+		has_national_unity < 50
+	}
+	
+	mean_time_to_happen = {
+		days = 240
+	}
+	
+	option = { #May he rest in peace.
+		name = russian_revolution.7.a
+		country_event = russian_revolution.13
+	}
+	
+	option = { #Get a Doctor!
+		name = russian_revolution.7.b
+		random_list = {
+			50 = {	# Rasputin Dies
+				country_event = russian_revolution.13
+			}
+			50 = {	# Rasputin Survives
+				country_event = russian_revolution.14
+			}
+		}
+	}
+}
+country_event = { #Rasputin Resigns.
+	id = russian_revolution.8
+	title = russian_revolution.8.t
+	desc = russian_revolution.8.d
+
+	trigger = {
+		tag = SOV
+		has_idea = rasputin
+		has_national_unity < 40
+	}
+	
+	mean_time_to_happen = {
+		days = 360
+		
+		modifier = {
+			factor = .5
+			
+			has_country_flag = rasputin_assas_attempt
+		}
+	}
+	
+	option = {
+		name = russian_revolution.8.a
+		remove_ideas = { rasputin }
+		if = {
+			limit = {
+				has_country_flag = rasputin_assas_attempt
+			}
+			
+			clr_country_flag = rasputin_assas_attempt
+		}
+	}
+}
+country_event = { #Death of Rasputin
+	id = russian_revolution.9
+	title = russian_revolution.9.t
+	desc = russian_revolution.9.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = russian_revolution.9.a
+		remove_ideas = { rasputin }
+		
+		if = {
+			limit = {
+				has_country_flag = rasputin_assas_attempt`
+			}
+			clr_country_flag = rasputin_assas_attempt
+		}
+	}
+}
+country_event = { #Rasputin Survives!
+	id = russian_revolution.10
+	title = russian_revolution.10.t
+	desc = russian_revolution.10.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = russian_revolution.10.a
+		set_country_flag = rasputin_assas_attempt
+	}
+}
+
+## Lead up to the February Revolution
+country_event = { #Unrest in Petrograd
+	id = russian_revolution.11
+	title = russian_revolution.11.t
+	desc = russian_revolution.11.d
+
+	trigger = {
+		tag = SOV
+		has_country_flag = ww1
+		has_national_unity < 40
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = russian_revolution.11.a
+		set_country_flag = petrograd_unrest
+	}
+}
+news_event = { # The February Revolution!
+	id = russian_revolution.12
+	title = russian_revolution.12.t
+	desc = russian_revolution.12.d
+	
+	trigger = {
+		SOV = {
+			has_country_flag = ww1
+			has_country_flag = petrograd_unrest
+			has_national_unity < 35
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = { #Damn!
+		name = russian_revolution.12.a
+		trigger = { tag = SOV }
+		SOV = {
+			country_event = russian_revolution.13 # Dual Rule in Petrograd
+			country_event = { # Nicholas Abdication
+				id = russian_revolution.15
+				days = 3
+			}
+		}
+	}
+	
+	option = { #Interesting.
+		name = russian_revolution.12.b
+	}
+	
+}
+## Soviet Setup
+country_event = { # The Petrograd Soviet
+	id = russian_revolution.13
+	title = russian_revolution.13.t
+	desc = russian_revolution.13.d
+	
+	is_triggered_only = yes
+	
+	immediate = { # Creates Dual Rule
+		SOV = { start_civil_war =  { ideology = communism size = 0.1 } }
+		random_country = {
+			limit = {
+				has_civil_war = yes
+				original_tag = SOV
+				has_government = communism
+			}
+			set_country_flag = petrograd_soviet
+			hidden_effect = { country_event = testevents.14 }
+		}
+	}
+	
+	option = { #Leave them be, for now.
+		name = russian_revolution.13.a
+		country_event = { id = russian_revolution.22 days = 5}
+	}
+	option = { #Offer to make concessions
+		name = russian_revolution.13.b
+		random_country = {
+			limit = {
+				has_country_flag = petrograd_soviet
+			}
+			country_event = { id = russian_revolution.21 days = 5 } # Empire offers concessions for surrender ???
+		}
+	}
+}
+country_event = { #Hidden Event to Fix the Petrograd Soviet
+	id = russian_revolution.14
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		white_peace = SOV
+		ROOT = { transfer_state = 195 }
+		SOV = {
+			transfer_state = {
+				every_state = { owner = { ROOT } id = { NOT = { 195 } } }
+			}
+			puppet = ROOT
+		}
+	}
+}
+country_event = { # Expansion of the Soviet!
+	id = russian_revolution.15
+	title = russian_revolution.15.t
+	desc = russian_revolution.15.d
+	
+	#???
+}
+## Abdication
+country_event = { # The Abdication of Tsar Nicholas?
+	id = russian_revolution.16
+	title = russian_revolution.16.t
+	desc = russian_revolution.16.d
+	
+	is_triggered_only = yes
+	
+	option = { # Absolutely Not!
+		name = russian_revolution.16.a
+		random_list = {
+			50 = {
+				modifier = {
+					factor = 1.5
+					
+					has_national_unity < 30
+				}
+				
+				#country_event = #???
+			}
+			50 = {
+				modifier = {
+					factor = .5
+					
+					has_national_unity < 30
+				}
+			}
+		}
+	}
+	option = { # Concessions, but no Abdication.
+		name = russian_revolution.16.b
+		
+		country_event = russian_revolution.19
+	}
+	option = { # Yes.
+		name = russian_revolution.16.c
+		
+		country_event = russian_revolution.17
+	}
+}
+country_event = { # The Tsar's succesor.		#WORK FROM HERE
+	id = russian_revolution.17
+	title = russian_revolution.17.t
+	desc = russian_revolution.17.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = { days = 1 id = russian_revolution.19 }
+	}
+	
+	option = { # All Power to the Provisional Government.
+		name = russian_revolution.17.b
+		set_country_flag = provisional_power
+	}
+	option = { # Tsesarevich Alexei, the Tsar's Son.
+		name = russian_revolution.17.b
+		country_event = russian_revolution.18
+	}
+	option = { # Grand Duke Micheal Alexandrovich, the Tsar's younger brother.
+		name = russian_revolution.17.b
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Micheal Romanov"
+			desc = "POLITICS_MICHEAL_ROMANOV_DESC"
+			picture = "Portrait_Russia_Micheal_Romanov"
+			expire = "1955.1.1"
+			ideology = Monarchist #???
+			traits = { } 
+		}
+	}
+}

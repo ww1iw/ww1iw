@@ -1,0 +1,9 @@
+﻿l_english:
+ MODIFIER_POLITICAL_POWER_GAIN:0 "Daily Money Gain"
+ MODIFIER_POLITICAL_POWER_COST:0 "Daily Money Cost"
+ MODIFIER_POLITICAL_POWER_FACTOR:0 "Money Gain"
+ natsoc_drift:0 "Daily National Socialist support:"
+ liberal_drift:0 "Daily Liberal Support:"
+ conservative_drift:0 "Daily Conservative Support:"
+ socialist_drift:0 "Daily Socialism Support:"
+ autocratic_drift:0 "Daily Autocracy Support:"

@@ -1,0 +1,26 @@
+state={
+	id=760
+	name="STATE_760"
+	history = {
+		owner = TUR
+		
+		1913.5.30 = {
+			owner = MTN
+			remove_core_of = TUR
+			add_claim_by = TUR
+		}
+		1923.1.1 = {
+			owner = YUG
+
+		}
+		add_core_of = MTN
+		add_core_of = TUR
+		add_core_of = YUG
+	}
+	
+	provinces={
+		6913 
+	}
+	manpower=151710
+	state_category = rural
+}

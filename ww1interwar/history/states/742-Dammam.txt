@@ -1,0 +1,21 @@
+state={
+	id=742
+	name="STATE_742"
+	history={
+		owner = TUR
+		1923.1.1 = { owner = SAU }
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			12702 = {
+				naval_base = 6
+
+			}
+		}
+	}
+	provinces={
+		1955 10791 12702 
+	}
+	manpower=200000
+		state_category="rural"
+}

@@ -1,0 +1,32 @@
+state={
+	id=762
+	name="STATE_762"
+	resources = {
+		chromium = 4
+	}
+	
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			8435 = {
+				naval_base = 1
+
+			}
+			6550 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GRE
+
+	}
+	
+	provinces={
+		3401 
+	}
+	manpower = 107500
+	state_category = "small_island"
+}

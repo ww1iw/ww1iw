@@ -1,0 +1,1052 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Pekhota Diviziya"			# Rifle Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kavaleriyskaya Diviziya" 	# Kavaleriyskaya Diviziya
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "2ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "3ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "4ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "5ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "6ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "7ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "8ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "1ya Kavaleriyskaya Diviziya"
+		location = 11492
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "2ya Kavaleriyskaya Diviziya"
+		location = 11492
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "9ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "10ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "11ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "12ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "13ya Pekhota Diviziya"
+		location = 11492
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "14ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "15ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "16ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "3ya Kavaleriyskaya Diviziya"
+		location = 3511
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "4ya Kavaleriyskaya Diviziya"
+		location = 3511
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	
+	division= {	
+		name = "17ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "18ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "19ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "20ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "21ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "22ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "23ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "24ya Pekhota Diviziya"
+		location = 3511
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "5ya Kavaleriyskaya Diviziya"
+		location = 3511
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "6ya Kavaleriyskaya Diviziya"
+		location = 3511
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	
+	division= {	
+		name = "25ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "26ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "27ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "28ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "29ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "30ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "31ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "32ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "7ya Kavaleriyskaya Diviziya"
+		location = 434
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "8ya Kavaleriyskaya Diviziya"
+		location = 434
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "35ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "36ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "37ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "38ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "39ya Pekhota Diviziya"
+		location = 434
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "40ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "41ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "42ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "43ya Kavaleriyskaya Diviziya"
+		location = 7454
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "9ya Kavaleriyskaya Diviziya"
+		location = 7454
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	
+	division= {	
+		name = "10ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "44ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "45ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "46ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "47ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "48ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "49ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "50ya Pekhota Diviziya"
+		location = 7454
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "11ya Kavaleriyskaya Diviziya"
+		location = 7454
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "12ya Kavaleriyskaya Diviziya"
+		location = 7454
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	
+	division= {	
+		name = "51ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "52ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "53ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "54ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "55ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "56ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "57ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "58ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "13ya Kavaleriyskaya Diviziya"
+		location = 1649
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "14ya Kavaleriyskaya Diviziya"
+		location = 1649
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "59ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "60ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "61ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "62ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "63ya Pekhota Diviziya"
+		location = 1649
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "64ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "65ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "66ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "15ya Kavaleriyskaya Diviziya"
+		location = 957
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "16ya Kavaleriyskaya Diviziya"
+		location = 957
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	
+	division= {	
+		name = "67ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "68ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "69ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "70ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "71ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "72ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "73ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "74ya Pekhota Diviziya"
+		location = 957
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "17ya Kavaleriyskaya Diviziya"
+		location = 957
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "18ya Kavaleriyskaya Diviziya"
+		location = 957
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+
+	division= {	
+		name = "75ya Pekhota Diviziya"
+		location = 9499
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "76ya Pekhota Diviziya"
+		location = 9499
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "77ya Pekhota Diviziya"
+		location = 9499
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "78ya Pekhota Diviziya"
+		location = 9499
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "79ya Pekhota Diviziya"
+		location = 9499
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "80ya Pekhota Diviziya"
+		location = 9499
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "81ya Pekhota Diviziya"
+		location = 9499
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "82ya Pekhota Diviziya"
+		location = 9499
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "19ya Kavaleriyskaya Diviziya"
+		location = 9499
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "20ya Kavaleriyskaya Diviziya"
+		location = 9499
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	
+	division= {	
+		name = "83ya Pekhota Diviziya"
+		location = 3193
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "84ya Pekhota Diviziya"
+		location = 3193
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "85ya Pekhota Diviziya"
+		location = 3193
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "86ya Pekhota Diviziya"
+		location = 3193
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "87ya Pekhota Diviziya"
+		location = 3193
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "88ya Pekhota Diviziya"
+		location = 3193
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "89ya Pekhota Diviziya"
+		location = 3193
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "90ya Pekhota Diviziya"
+		location = 3193
+		division_template = "Pekhota Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "21ya Kavaleriyskaya Diviziya"
+		location = 3193
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+	division= {	
+		name = "22ya Kavaleriyskaya Diviziya"
+		location = 3193
+		division_template = "Kavaleriyskaya Diviziya" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+
+	}
+}
+
+	navy = {		
+}					
+
+air_wings = {
+}
+
+
+		
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SOV"
+		}
+		requested_factories = 7
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = strat_bomber_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+
+	### Ships Under Construction Notes ###
+	# DD: Leningrad & Minsk variant (x4) ("Leningrad" "Moskva" "Kharkov" "Minsk")
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SOV"
+			version_name = "Leningrad & Minsk Class"
+		}
+		requested_factories = 2
+		progress = 0.70
+		amount = 4
+	}
+	# SS: Shchuka class (x29) ("Shch-125" "Shch-205" "Shch-206" "Shch-207" "Shch-310" "Shch-311" "Shch-126" "Shch-127" "Shch-128" "Shch-129" "Shch-130" "Shch-131" "Shch-132" "Shch-133" 
+	#		"Shch-134" "Shch-208" "Shch-312" "Shch-313" "Shch-314" "Shch-315" "Shch-316" "Shch-317" "Shch-318" "Shch-319" "Shch-320" "Shch-321" "Shch-322" "Shch-323" "Shch-324")
+	# SS: Stalinets class (x2) ("S-1" "S-2")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "SOV"
+			version_name = "Series IX Srednyaya"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 11
+	}
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "SOV"
+			version_name = "Series IX Srednyaya"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "SOV"
+			version_name = "Series IX Srednyaya"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 10
+	}
+}
+	#####################

@@ -1,0 +1,76 @@
+﻿add_namespace = news_ww1
+
+# Franz Ferdinand is killed by Gavrilo Prinzip
+news_event = {
+	id = news_ww1.1
+	title = news_ww1.1.t
+	desc = news_ww1.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Outrageous!
+		name = news_ww1.1.a
+		trigger = {
+			NOT = {
+				TAG = SER
+			}
+		}
+	}
+	option = { # Take that, von Habsburgs!
+		name = news_ww1.1.b
+		trigger = { TAG = SER }
+	}
+}
+
+# Franz Ferdinand is killed by Nedeljko Čabrinović
+news_event = {
+	id = news_ww1.2
+	title = news_ww1.2.t
+	desc = news_ww1.2.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Outrageous!
+		name = news_ww1.2.a
+		trigger = {
+			NOT = {
+				TAG = SER
+			}
+		}
+	}
+	option = { # Take that, von Habsburgs!
+		name = news_ww1.2.b
+		trigger = { TAG = SER }
+	}
+}
+
+# Franz Ferdinand survives assassination attempt
+news_event = {
+	id = news_ww1.3
+	title = news_ww1.3.t
+	desc = news_ww1.3.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Glad he wasn't hurt!
+		name = news_ww1.3.a
+		trigger = {
+			NOT = {
+				TAG = SER
+			}
+		}
+	}
+	option = { # Interesting...
+		name = news_ww1.3.b
+		trigger = { TAG = SER }
+	}
+}

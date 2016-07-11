@@ -1,0 +1,492 @@
+﻿#####################################################
+# 		 Economy events ; written by Thomahawk2k	#
+#####################################################
+
+add_namespace = market
+
+# Private company opens new factory
+country_event = {
+    id = market.1
+    title = market.1.t
+    desc = market.1.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		OR = {
+            has_idea = market_economy
+			has_idea = econ_intervention
+			has_idea = state_capitalism
+		}
+    }
+ 
+    mean_time_to_happen = {
+        days = 365
+		modifier = {
+			factor = 2
+			has_idea = state_capitalism
+		}
+		modifier = {
+			factor = 0.9
+			has_idea = econ_intervention
+		}
+		modifier = {
+			factor = 4
+			has_idea = great_depression
+		}
+		modifier = {
+			factor = 0.7
+			has_idea = roaring_twenties
+		}
+    }
+	
+	option = {
+        name = market.1.a
+        trigger = {
+            always = yes
+        }
+        random_owned_state = {
+            limit = {
+                is_core_of = ROOT
+                free_building_slots = {
+                    building = industrial_complex
+                    size > 0
+                    include_locked = no
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+
+	option = {
+        name = market.1.b
+        trigger = {
+            OR = {
+				threat > 0.2
+				has_war = yes
+			}
+        }
+        random_owned_state = {
+            limit = {
+                is_core_of = ROOT
+                free_building_slots = {
+                    building = industrial_complex
+                    size > 1
+                    include_locked = no
+                }
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 2
+                instant_build = yes
+            }
+        }
+		if = {
+			limit = {
+				has_government = socialist
+			}
+			add_popularity = { ideology = socialist popularity = 0.02 }
+		}
+		if = {
+			limit = {
+				has_government = liberal
+			}
+			add_popularity = { ideology = liberal popularity = 0.02 }
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			add_popularity = { ideology = democratic popularity = 0.02 }
+		}
+		if = {
+			limit = {
+				has_government = conservative
+			}
+			add_popularity = { ideology = conservative popularity = 0.02 }
+		}
+		if = {
+			limit = {
+				has_government = autocratic
+			}
+			add_popularity = { ideology = autocratic popularity = 0.02 }
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			add_popularity = { ideology = fascism popularity = 0.02 }
+		}
+    }	
+}
+
+# Factory goes bankrupt...
+country_event = {
+    id = market.2
+    title = market.2.t
+    desc = market.2.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+            has_idea = market_economy
+    }
+ 
+    mean_time_to_happen = {
+        days = 730
+		modifier = {
+			factor = 2
+			has_idea = state_capitalism
+		}
+		modifier = {
+			factor = 0.4
+			has_idea = great_depression
+		}
+		modifier = {
+			factor = 2
+			has_idea = roaring_twenties
+		}
+    }
+
+ 
+    option = {
+        name = market.2.a
+        trigger = {
+            always = yes
+        }
+        random_owned_state = {
+            limit = {
+                industrial_complex > 0
+            }
+            remove_building = {
+                type = industrial_complex
+                level = 1
+            }
+        }
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						has_government = fascism
+						has_government = natsoc
+					}
+				}
+			}
+			add_popularity = { ideology = fascism popularity = 0.005 }
+			add_popularity = { ideology = natsoc popularity = 0.005 }
+			add_popularity = { ideology = communism popularity = 0.01 }
+		}
+		if = {
+			limit = {
+				OR = {
+					has_government = fascism
+					has_government = natsoc
+				}
+			}
+			add_popularity = { ideology = communism popularity = 0.02 }
+		}
+    }
+	
+    option = {
+        name = market.2.b
+        trigger = {
+            has_idea = econ_intervention
+        }
+        add_political_power = -24000
+    }
+}
+
+# Dawn of communism
+country_event = {
+    id = market.3
+    title = market.3.t
+    desc = market.3.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		has_government = communism
+		NOT = {
+			has_idea = comsoc_coalition
+			has_idea = planned_economy
+			has_idea = collectivisation
+		}
+		has_war = no
+    }
+ 
+    mean_time_to_happen = {
+        days = 3
+    }
+
+ 
+    option = {
+        name = market.3.a
+		add_ideas = collectivisation
+		add_ideas = salpolicy4
+    }
+}
+
+# End of the collectivisation
+country_event = {
+    id = market.4
+    title = market.4.t
+    desc = market.4.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		has_government = communism
+		has_idea = collectivisation
+    }
+
+    mean_time_to_happen = {
+        days = 3650
+    }
+
+ 
+    option = {
+        name = market.4.a
+		add_ideas = planned_economy
+    }
+}
+
+# Invisible event for unwilling AI liberals to go back to market
+country_event = {
+    id = market.5
+    title = market.5.t
+    desc = market.5.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		has_government = liberal
+		NOT = {
+			has_idea = market_economy
+			has_idea = new_deal
+		}
+		is_ai = yes
+    }
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+ 
+    option = {
+        name = market.4.a
+		add_ideas = market_economy
+    }
+}
+
+# Liberalisation of the economy
+country_event = {
+    id = market.6
+    title = market.6.t
+    desc = market.6.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		NOT = {
+			AND = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+					has_government = natsoc
+				}
+				OR = {
+					has_idea = collectivisation
+					has_idea = planned_economy
+					has_idea = state_capitalism
+				}
+			}
+		}
+    }
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+ 
+    option = {
+        name = market.6.a
+		add_ideas = market_economy
+    }
+}
+
+# Country-wide wage strikes
+country_event = {
+    id = market.7
+    title = market.7.t
+    desc = market.7.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		AND = {
+			OR = {
+				has_idea = salpolicy1
+				has_idea = salpolicy2
+			}
+			OR = {
+				communism > 0.15
+				socialist > 0.30
+			}
+			NOT = {
+				has_country_flag = wage_strikes
+			}
+		}
+    }
+
+    mean_time_to_happen = {
+        years = 3
+	}
+
+ 
+    option = { # Let them try
+        name = market.7.a
+		trigger = {
+			always = yes
+		}
+		add_ideas = general_strikes_private_sec
+		set_country_flag = wage_strikes
+    }
+	
+	option = { # Break up the strike!
+		name = market.7.b
+		trigger = {
+			OR = {
+				has_government = fascism
+				has_government = natsoc
+				has_government = autocratic
+			}
+		}
+		add_national_unity = -0.05
+		add_popularity = { ideology = socialist popularity = -0.05 }
+		add_popularity = { ideology = communism popularity = -0.05 }
+	}
+	
+    option = { # Give in to their demands
+        name = market.7.c
+		trigger = {
+			always = yes
+		}
+		if = {
+			limit = {
+				has_idea = salpolicy1
+			}
+			add_ideas = salpolicy3
+		}
+		if = {
+			limit = {
+				has_idea = salpolicy2
+			}
+			add_ideas = salpolicy4
+		}
+		add_popularity = { ideology = socialist popularity = 0.05 }
+		add_popularity = { ideology = communism popularity = 0.05 }
+    }
+}
+
+# Wage strikes persist
+country_event = {
+    id = market.8
+    title = market.8.t
+    desc = market.8.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		has_country_flag = wage_strikes
+		NOT = {
+			has_country_flag = wage_strikes2
+		}
+    }
+
+    mean_time_to_happen = {
+        months = 1
+	}
+
+ 
+    option = { # Let them
+        name = market.8.a
+		trigger = {
+			always = yes
+		}
+		add_ideas = general_strikes_public_sec
+		clr_country_flag = wage_strikes
+		set_country_flag = wage_strikes2
+    }
+	
+	option = { # Break up the strike!
+		name = market.8.b
+		trigger = {
+			OR = {
+				has_government = fascism
+				has_government = natsoc
+				has_government = autocratic
+			}
+		}
+		remove_ideas = general_strikes_private_sec
+		add_national_unity = -0.05
+		add_popularity = { ideology = socialist popularity = -0.05 }
+		add_popularity = { ideology = communism popularity = -0.05 }
+		clr_country_flag = wage_strikes
+	}
+	
+    option = { # Give in to their demands
+        name = market.8.a
+		trigger = {
+			always = yes
+		}
+		if = {
+			limit = {
+				has_idea = salpolicy1
+			}
+			add_ideas = salpolicy3
+		}
+		if = {
+			limit = {
+				has_idea = salpolicy2
+			}
+			add_ideas = salpolicy4
+		}
+		add_popularity = { ideology = socialist popularity = 0.05 }
+		add_popularity = { ideology = communism popularity = 0.05 }
+		clr_country_flag = wage_strikes
+    }
+}
+
+# Wage strikers give up
+country_event = {
+    id = market.9
+    title = market.9.t
+    desc = market.9.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		OR = {
+			has_country_flag = wage_strikes
+			has_country_flag = wage_strikes2
+		}
+    }
+
+    mean_time_to_happen = {
+        months = 2
+	}
+
+ 
+    option = { # Victory!
+        name = market.9.a
+		trigger = {
+			always = yes
+		}
+		if = {
+			limit = {
+				has_idea = general_strikes_public_sec
+			}
+			remove_ideas = general_strikes_private_sec
+		}
+		remove_ideas = general_strikes_private_sec
+		clr_country_flag = wage_strikes
+		clr_country_flag = wage_strikes2
+		add_popularity = { ideology = socialist popularity = -0.1 }
+		add_popularity = { ideology = communism popularity = -0.1 }		
+    }
+}

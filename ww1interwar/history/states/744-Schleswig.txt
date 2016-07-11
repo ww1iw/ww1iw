@@ -1,0 +1,19 @@
+state={
+	id=744
+	name="STATE_744"
+	
+	history={
+		owner = GER
+		1923.1.1 = {
+			owner = DEN
+		}
+		add_core_of = DEN
+		add_claim_by = GER
+	}
+	
+	provinces={
+		332 11251 
+	}
+	manpower=335000
+	state_category="rural"
+}

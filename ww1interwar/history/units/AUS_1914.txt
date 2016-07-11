@@ -1,0 +1,287 @@
+﻿division_template = {
+	name = "Landwehr"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Pioneer Bn
+	}
+}
+
+division_template = {
+	name = "Alpenjäger Division"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   # Pioneer Bn
+	}
+}
+
+division_template = {
+	name = "Kavallerie-Division" 
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1. Landwehr"
+		location = 704
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Landwehr"
+		location = 704
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Landwehr"
+		location = 704
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Landwehr"
+		location = 704
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Landwehr"
+		location = 704
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Landwehr"
+		location = 704
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Landwehr"
+		location = 704
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Landwehr"
+		location = 704
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Kavallerie"
+		location = 704
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Kavallerie"
+		location = 704
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "9. Landwehr"
+		location = 6714
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10. Landwehr"
+		location = 6714
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11. Landwehr"
+		location = 6714
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12. Landwehr"
+		location = 6714
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13. Landwehr"
+		location = 6714
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14. Landwehr"
+		location = 6714
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15. Landwehr"
+		location = 6714
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "16. Landwehr"
+		location = 6714
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Kavallerie"
+		location = 6714
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Kavallerie"
+		location = 6714
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "17. Landwehr"
+		location = 11479
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "18. Landwehr"
+		location = 11479
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "19. Landwehr"
+		location = 11479
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "20. Landwehr"
+		location = 11479
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "21. Landwehr"
+		location = 11479
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "22. Landwehr"
+		location = 11479
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "23. Landwehr"
+		location = 11479
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "24. Landwehr"
+		location = 11479
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Kavallerie"
+		location = 11479
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Kavallerie"
+		location = 11479
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Alpenjäger"
+		location = 6675
+		division_template = "Alpenjäger Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Alpenjäger"
+		location = 6675
+		division_template = "Alpenjäger Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Alpenjäger"
+		location = 6675
+		division_template = "Alpenjäger Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Alpenjäger"
+		location = 6675
+		division_template = "Alpenjäger Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Alpenjäger"
+		location = 6675
+		division_template = "Alpenjäger Division"
+		start_experience_factor = 0.3
+	}
+}
+
+air_wings = {
+
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AUS"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "AUS"
+		}
+		requested_factories = 1
+		progress = 0.74
+		efficiency = 100
+	}
+}

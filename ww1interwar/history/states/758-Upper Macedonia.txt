@@ -1,0 +1,32 @@
+
+state={
+	id=758
+	name="STATE_758"
+	resources={
+		chromium=24
+		aluminium=6
+	}
+
+	history={
+		owner = SER
+		add_core_of = SER
+		1923.1.1 = {
+			owner = YUG
+
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = YUG
+
+	}
+
+	provinces={
+		11857 11868  
+	}
+	manpower=138500
+	state_category="rural"
+}

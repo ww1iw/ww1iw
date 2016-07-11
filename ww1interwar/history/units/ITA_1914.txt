@@ -1,0 +1,215 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Divisione di Fanteria"		
+	# Represents nearly all infantry divisions
+	# In later years, CCNN Brigade added to Inf Division (1x2 militia/inf regiment)
+	# Also represent semi-mountain divisions (1st, 2nd, 3rd, 4th, 6th Divisions)
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Divisione Alpina"					# Divisione Alpina
+	regiments = {
+		mountaineers = { x = 0 y = 0 }			# Elite Alpina Regiments
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Divisione Coloniale"		
+	# Represents lesser-equipped colonial units
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Raggruppamento Celere" 			# Raggruppamento Celere
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+##### OOB #####
+units = {
+	division= {	
+		name = "1. Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Raggruppamento Celere"
+		location = 6788
+		division_template = "Raggruppamento Celere"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Raggruppamento Celere"
+		location = 6788
+		division_template = "Raggruppamento Celere"
+		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		name = "9. Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10. Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11. Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12. Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13. Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14. Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15. Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "16. Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Raggruppamento Celere"
+		location = 11584
+		division_template = "Raggruppamento Celere"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Raggruppamento Celere"
+		location = 11584
+		division_template = "Raggruppamento Celere"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Divisione Alpina"
+		location = 11584
+		division_template = "Divisione Alpina"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Divisione Coloniale"
+		location = 1149
+		division_template = "Divisione Coloniale"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Divisione Coloniale"
+		location = 1130
+		division_template = "Divisione Coloniale"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Divisione Coloniale"
+		location = 5091
+		division_template = "Divisione Coloniale"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Divisione Coloniale"
+		location = 5065
+		division_template = "Divisione Coloniale"
+		start_experience_factor = 0.3
+	}
+}

@@ -1,0 +1,2820 @@
+technologies = {
+	
+	@1911 = 0
+	@1912 = 2
+	@1913 = 4
+	@1914 = 6
+	@1915 = 8
+	@1916 = 10
+	@1917 = 12
+	@1918 = 14
+	@1920 = 16
+	@1922 = 18
+	@1925 = 20
+	@1928 = 22
+	@1930 = 24
+	@1932 = 26
+	@1934 = 28
+	@1936 = 30
+	@1937 = 32
+	@1938 = 34
+	@1939 = 36
+	@1940 = 38
+	@1941 = 40
+	@1942 = 42
+	@1943 = 44
+	@1944 = 46
+	@1945 = 48
+	@1946 = 50
+	
+	infantry_kit = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_kit1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1911
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1911 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_kit1 = {
+		
+		path = {
+			leads_to_tech = infantry_kit2
+			research_cost_coeff = 1
+		}
+
+		
+		research_cost = 1.5
+		start_year = 1913
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1913 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_kit2 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_kit3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_camo
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1914
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1914 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_armor = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		
+		research_cost = 1.5
+		start_year = 1917
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1917 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_camo = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_camo2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1916
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1916 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_camo2 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_camo3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1934
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1934 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_camo3 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1944 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_kit3 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_kit4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_armor
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1915
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1915 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_kit4 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_kit5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1916
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1916 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_kit5 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_kit6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1925
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1925 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_kit6 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_kit7
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_winter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1932 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_winter = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_winter2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1937
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1937 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_winter2 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		research_cost = 1.5
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1941 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	infantry_kit7 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_kit8
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1939 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_kit8 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1943 }
+		}
+		
+		categories = {
+			infantry_kit
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_optics = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_scope
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1913
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1913 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_scope = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_scope2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1915
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1915 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_optics2 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_scope
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1925
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1925 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_scope2 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_scope3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1934
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1934 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_scope3 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = night_vision
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 1.5
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1941 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_rifle = {
+
+		enable_equipments = {
+			infantry_equipment_0
+		}
+
+		enable_subunits = {
+			infantry
+		}
+		
+		path = {
+			leads_to_tech = infantry_rifle1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_optics
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1911
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1911 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_rifle1 = {
+
+		enable_equipments = {
+			infantry_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_rifle2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_smg
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1914
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1914 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_rifle2 = {
+
+		enable_equipments = {
+			infantry_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_rifle3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_atrifle
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1917
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1917 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_atrifle = {
+
+		path = {
+			leads_to_tech = infantry_atrifle2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1918 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_atrifle2 = {
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1939 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_rifle3 = {
+
+		enable_equipments = {
+			infantry_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = infantry_rifle4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1932 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_rifle4 = {
+
+		enable_equipments = {
+			infantry_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = infantry_rifle5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1941 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_rifle5 = {
+
+		enable_equipments = {
+			infantry_equipment_5
+		}
+		
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1944 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_smg = {
+
+		enable_equipments = {
+			smg_equipment_0
+		}
+
+		enable_subunits = {
+			infantry
+		}
+		
+		path = {
+			leads_to_tech = infantry_smg1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = @1918 }
+		}
+		
+		categories = {
+			infantry_smg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_smg1 = {
+
+		enable_equipments = {
+			smg_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_smg2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1928
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = @1928 }
+		}
+		
+		categories = {
+			infantry_smg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_smg2 = {
+
+		enable_equipments = {
+			smg_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_smg3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = @1939 }
+		}
+		
+		categories = {
+			infantry_smg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_smg3 = {
+
+		enable_equipments = {
+			smg_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = infantry_rifle5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = @1942 }
+		}
+		
+		categories = {
+			infantry_smg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_hmg = {
+	
+		enable_equipments = {
+			hmg_equipment_0
+		}
+
+		enable_subunits = {
+			machinegun
+		}
+		path = {
+			leads_to_tech = infantry_hmg1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_lmg
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1912
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1912 }
+		}
+		
+		categories = {
+			infantry_hmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_hmg1 = {
+
+		enable_equipments = {
+			hmg_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_hmg2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1915
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1915 }
+		}
+		
+		categories = {
+			infantry_hmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_hmg2 = {
+
+		enable_equipments = {
+			hmg_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_hmg3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1930
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1930 }
+		}
+		
+		categories = {
+			infantry_hmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_hmg3 = {
+
+		enable_equipments = {
+			hmg_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = infantry_hmg4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1940 }
+		}
+		
+		categories = {
+			infantry_hmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_hmg4 = {
+
+		enable_equipments = {
+			hmg_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = infantry_hmg5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1944 }
+		}
+		
+		categories = {
+			infantry_hmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_lmg = {
+
+		enable_equipments = {
+			lmg_equipment_0
+		}
+
+		enable_subunits = {
+			infantry
+		}
+		
+		path = {
+			leads_to_tech = infantry_lmg1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1914
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1914 }
+		}
+		
+		categories = {
+			infantry_hmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_lmg1 = {
+
+		enable_equipments = {
+			lmg_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_lmg2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1918 }
+		}
+		
+		categories = {
+			infantry_hmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_lmg2 = {
+
+		enable_equipments = {
+			lmg_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_lmg3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1934
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1934 }
+		}
+		
+		categories = {
+			infantry_hmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_lmg3 = {
+
+		enable_equipments = {
+			lmg_equipment_3
+		}
+	
+		research_cost = 1.5
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1941 }
+		}
+		
+		categories = {
+			infantry_hmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_mortar = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_mortar1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1911
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1911 }
+		}
+		
+		categories = {
+			infantry_mortar
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_mortar1 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_mortar2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1913
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1913 }
+		}
+		
+		categories = {
+			infantry_mortar
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_mortar2 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_mortar3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1915
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1915 }
+		}
+		
+		categories = {
+			infantry_mortar
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_mortar3 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_mortar4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1917
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1917 }
+		}
+		
+		categories = {
+			infantry_mortar
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_mortar4 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_mortar5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1925
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1925 }
+		}
+		
+		categories = {
+			infantry_mortar
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_mortar5 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_mortar6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1932 }
+		}
+		
+		categories = {
+			infantry_mortar
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_mortar6 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_mortar7
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1940 }
+		}
+		
+		categories = {
+			infantry_mortar
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_mortar7 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		research_cost = 1.5
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		categories = {
+			infantry_mortar
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_grenades = {
+		
+		path = {
+			leads_to_tech = infantry_grenades2
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = infantry_flame
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 1914
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1914 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_flame = {
+		
+		path = {
+			leads_to_tech = infantry_flame2
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 1915
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1915 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_flame2 = {
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1936 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_grenades2 = {
+				
+		path = {
+			leads_to_tech = infantry_grenades3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1917
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1917 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	infantry_grenades3 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.05
+		}
+		
+		motorized = {
+			soft_attack = 0.05
+		}
+		
+		mechanized = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_grenades4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1928
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1928 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_grenades4 = {
+		
+		path = {
+			leads_to_tech = infantry_grenades5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1938 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_grenades5 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.05
+		}
+		
+		motorized = {
+			soft_attack = 0.05
+		}
+		
+		mechanized = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = infantry_grenades6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1930
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1930 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+	infantry_grenades6 = {
+	
+		path = {
+			leads_to_tech = infantry_grenades7
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_at
+			research_cost_coeff = 1
+		}		
+
+
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1938 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_at = {
+
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		
+		path = {
+			leads_to_tech = infantry_at2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1940 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_at2 = {
+
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = @1943 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_grenades7 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		cavalry = {
+			soft_attack = 0.1
+		}		
+
+
+		motorized = {
+			soft_attack = 0.1
+		}
+		mechanized = {
+			soft_attack = 0.1
+		}		
+
+		research_cost = 1.5
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1944 }
+		}
+		
+		categories = {
+			infantry_grenades
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
+	
+	paratroopers = {
+
+		enable_subunits = {
+			paratrooper
+		}
+		
+		path = {
+			leads_to_tech = paratroopers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = paratrooper
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_paratroopers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	paratroopers2 = {
+
+		paratrooper = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = paratroopers3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1939 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	paratroopers3 = {
+
+		paratrooper = {
+			max_organisation = 5
+		}
+		
+
+		research_cost = 2.0
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1943 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	marines = {
+
+		enable_subunits = {
+			marine
+		}
+		
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = marine
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_marines"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = marines2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1912
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1912 }
+		}
+		
+		categories = {
+			marine_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	marines2 = {
+
+		marine = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = marines3
+			research_cost_coeff = 1
+		}
+		
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1918 }
+		}
+		
+		categories = {
+			marine_tech
+		}
+	}
+	
+	marines3 = {
+
+		marine = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = marines4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1922
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1922 }
+		}
+		
+		categories = {
+			marine_tech
+		}
+	}	
+	marines4 = {
+
+		marine = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = marines5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1932
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1932 }
+		}
+		
+		categories = {
+			marine_tech
+		}
+	}	
+	marines5 = {
+
+		marine = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = marines6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1940 }
+		}
+		
+		categories = {
+			marine_tech
+		}
+	}
+	marines6 = {
+
+		marine = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = marines7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		categories = {
+			marine_tech
+		}
+	}
+
+	marines7 = {
+
+		marine = {
+			max_organisation = 5
+		}
+
+		research_cost = 2.0
+		start_year = 1945
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1945 }
+		}
+		
+		categories = {
+			marine_tech
+		}
+	}
+	
+	tech_sappers = {
+
+		
+		path = {
+			leads_to_tech = tech_sappers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1914
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1914 }
+		}
+		
+		categories = {
+			sappers
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_sappers2 = {
+
+		
+		path = {
+			leads_to_tech = tech_sappers3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1916
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1916 }
+		}
+		
+		categories = {
+			sappers
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_sappers3 = {
+
+		
+		path = {
+			leads_to_tech = tech_sappers4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1925
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1925 }
+		}
+		
+		categories = {
+			sappers
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_sappers4 = {
+
+		
+		path = {
+			leads_to_tech = tech_sappers5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1938 }
+		}
+		
+		categories = {
+			sappers
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_sappers5 = {
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1943 }
+		}
+		
+		categories = {
+			sappers
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_shocks = {
+
+		
+		path = {
+			leads_to_tech = tech_shocks2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1916
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1916 }
+		}
+		
+		categories = {
+			shocks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_shocks2 = {
+
+		
+		path = {
+			leads_to_tech = tech_shocks3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1918 }
+		}
+		
+		categories = {
+			shocks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_shocks3 = {
+
+		
+		path = {
+			leads_to_tech = tech_shocks4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1934 }
+		}
+		
+		categories = {
+			shocks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tech_shocks4 = {
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1943 }
+		}
+		
+		categories = {
+			shocks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_mountaineers = {
+
+		enable_subunits = {
+			mountaineers
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = mountaineers
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_mountineers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		path = {
+			leads_to_tech = tech_mountaineers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1911
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1911 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_mountaineers2 = {
+
+		mountaineers = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = tech_mountaineers3
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1.5
+		start_year = 1913
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1913 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_mountaineers3 = {
+
+		mountaineers = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = tech_mountaineers4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1917
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1917 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	tech_mountaineers4 = {
+
+		mountaineers = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = tech_mountaineers5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1920
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1920 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	tech_mountaineers5 = {
+
+		mountaineers = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = tech_mountaineers6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1925
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1925 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	tech_mountaineers6 = {
+
+		mountaineers = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = tech_mountaineers7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1930
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1930 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	tech_mountaineers7 = {
+
+		mountaineers = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = tech_mountaineers8
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1937
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1937 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	tech_mountaineers8 = {
+
+		mountaineers = {
+			max_organisation = 5
+		}
+
+		research_cost = 2.0
+		start_year = 1941
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1941 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	night_vision = {
+
+		land_night_attack = 0.1
+		
+		path = {
+			leads_to_tech = night_vision2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1943 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	night_vision2 = {
+
+		land_night_attack = 0.15	
+
+		research_cost = 2
+		start_year = 1946
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1946 }
+		}
+		
+		categories = {
+			infantry_rifle
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	support_weapons = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		
+		path = {
+			leads_to_tech = support_weapons2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1912
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1912 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	support_weapons2 = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		
+		path = {
+			leads_to_tech = support_weapons3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1916
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1916 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	support_weapons3 = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		
+		path = {
+			leads_to_tech = support_weapons4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1928
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1928 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	support_weapons4 = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		
+		path = {
+			leads_to_tech = support_weapons5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1938 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	support_weapons5 = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		
+		path = {
+			leads_to_tech = support_weapons6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	support_weapons6 = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		cavalry = {
+			defense = 0.02
+			breakthrough = 0.02
+		}		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		motorized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		mechanized = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		
+		research_cost = 1.5
+		start_year = 1945
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1945 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	motorised_infantry = {
+
+		enable_subunits = {
+			motorized
+		}
+
+		enable_equipments = {
+			motorized_equipment_1
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = motorized
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_motorized"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		path = {
+			leads_to_tech = mechanised_infantry
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1925
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1925 }
+		}
+		
+		folder = {
+			name = support_folder
+			position = { x = 7 y = 9 }
+		}
+		
+		sub_technologies = {
+			motorized_rocket_unit
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	motorized_rocket_unit = {
+
+		enable_subunits = {
+			motorized_rocket_brigade
+		}
+		enable_equipments = {
+			motorized_rocket_equipment_1
+		}
+	
+		research_cost = 1.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mot_rockets
+		}
+	}
+	
+	mechanised_infantry = {
+
+		enable_equipments = {
+			mechanized_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = mechanised_infantry2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1940 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mechanised_infantry2 = {
+
+		enable_equipments = {
+			mechanized_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = mechanised_infantry3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mechanised_infantry3 = {
+
+		enable_equipments = {
+			mechanized_equipment_3
+		}
+
+		mechanized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+
+		research_cost = 3
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1944 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
+}

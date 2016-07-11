@@ -1,0 +1,39 @@
+state={
+	id=290
+	name="STATE_290"
+	manpower = 620000
+	resources={
+		steel=20.000
+	}
+	
+	state_category = rural
+
+	history={
+		owner = MOR
+		
+		victory_points = {
+			12100 1 #Melilla
+		}
+		buildings = {
+			infrastructure = 3
+			12100 = {
+				naval_base = 3
+
+			}
+			
+			1914.1.1 = {
+				air_base = 3
+			}
+		}
+		add_claim_by = SPR
+		add_core_of = MOR
+		
+		1912.3.30 = {
+			owner = SPR
+		}
+	}
+
+	provinces={
+		4199 7215 10113 12087 12100 
+	}
+}

@@ -1,0 +1,74 @@
+bookmarks = {
+	bookmark = {
+		name = "World War 1"
+		desc = "temp"
+		date = 1914.6.1.12
+		picture = "GFX_select_date_1914"
+		default_country = "GER"
+		ITA = {
+			history = ITA_WW1_DESC
+			ideology = liberal
+			ideas={
+			}
+
+		}
+		ENG = {
+			history = ENG_WW1_DESC
+			ideology = liberal
+			ideas = {
+				stiff_upper_lip
+				ENG_george_vi
+				british_austerity_idea
+			}
+
+		}
+		FRA = {
+			history = FRA_WW1_DESC
+			ideology = liberal
+			ideas = {
+			}
+		
+		}
+		GER = {
+			history = GER_WW1_DESC
+			ideology = autocratic
+			ideas={
+			general_staff
+			}
+			
+		}
+		AUS = {
+			history = AUS_WW1_DESC
+			ideology = autocratic
+			ideas={
+			}		
+			
+		}
+		SOV = {
+			history = SOV_WW1_DESC
+			ideology = autocratic
+			ideas = {
+			rasputin
+			communist_revolutionaries
+			}
+			
+		}
+		TUR = {
+			history = TUR_WW1_DESC
+			ideology = autocratic
+			ideas = {
+			}
+
+		}
+		
+		
+		"---"={
+			history = "OTHER_WW1_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,5096 @@
+﻿###########################
+# New Election Events
+###########################
+
+add_namespace = election_ww1_iw
+
+# Elections finished
+country_event = {
+	id = election_ww1_iw.1
+	title = election_ww1_iw.1.t
+	desc = election_ww1_iw.1.d
+	picture = GFX_report_event_airplane_factory
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = socialist_absmaj
+			remove_ideas = liberal_absmaj
+			remove_ideas = democratic_absmaj
+			remove_ideas = conservative_absmaj
+			remove_ideas = comsoc_coalition
+			remove_ideas = soccom_coalition
+			remove_ideas = libsoc_coalition
+			remove_ideas = soclib_coalition
+			remove_ideas = socdem_coalition
+			remove_ideas = demsoc_coalition
+			remove_ideas = demcon_coalition
+			remove_ideas = condem_coalition
+			remove_ideas = libcon_coalition
+			remove_ideas = conlib_coalition
+			remove_ideas = autcon_coalition
+			remove_ideas = conaut_coalition
+			remove_ideas = fascon_coalition
+			remove_ideas = confas_coalition
+			remove_ideas = conns_coalition
+			remove_ideas = nscon_coalition
+			remove_ideas = fasaut_coalition
+			remove_ideas = autfas_coalition
+			remove_ideas = autns_coalition
+			remove_ideas = nsaut_coalition
+			remove_ideas = conlibdem_coalition
+			remove_ideas = libdemcon_coalition
+			remove_ideas = demlibcon_coalition
+			remove_ideas = soclibdem_coalition
+			remove_ideas = libsocdem_coalition
+			remove_ideas = demlibsoc_coalition
+			remove_ideas = fasnsaut_coalition
+			remove_ideas = autnsfas_coalition
+			remove_ideas = nsfasaut_coalition
+		}
+	}
+	
+	option = {
+		name = election_ww1_iw.1.a
+		add_ideas = government_formation
+	}
+}
+
+###########################
+# Absolute Majority
+###########################
+
+# Communists win with absolute majority
+country_event = {
+	id = election_ww1_iw.2
+	title = election_ww1_iw.2.t
+	desc = election_ww1_iw.2.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	trigger = {
+		communism > 0.5
+		has_idea = government_formation
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.2.a
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		}
+		add_timed_idea = { idea = reign_of_terror days = 730 }
+	}
+}
+
+# Socialists win with absolute majority
+country_event = {
+	id = election_ww1_iw.3
+	title = election_ww1_iw.3.t
+	desc = election_ww1_iw.3.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	trigger = {
+		socialist > 0.5
+		has_idea = government_formation
+	}
+	
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}
+
+	option = {
+		name = election_ww1_iw.3.a
+		set_politics = {
+			ruling_party = socialist
+		}
+		add_ideas = socialist_absmaj
+	}
+}
+
+# Liberals win with absolute majority
+country_event = {
+	id = election_ww1_iw.4
+	title = election_ww1_iw.4.t
+	desc = election_ww1_iw.4.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	trigger = {
+		liberal > 0.5
+		has_idea = government_formation
+	}
+	
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}
+
+	option = {
+		name = election_ww1_iw.4.a
+		set_politics = {
+			ruling_party = liberal
+		}
+		add_ideas = liberal_absmaj
+	}
+}
+
+# Centrists win with absolute majority
+country_event = {
+	id = election_ww1_iw.5
+	title = election_ww1_iw.5.t
+	desc = election_ww1_iw.5.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	trigger = {
+		democratic > 0.5
+		has_idea = government_formation
+	}
+	
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}
+
+	option = {
+		name = election_ww1_iw.5.a
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_ideas = democratic_absmaj
+	}
+}
+
+# Conservatives win with absolute majority
+country_event = {
+	id = election_ww1_iw.6
+	title = election_ww1_iw.6.t
+	desc = election_ww1_iw.6.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	trigger = {
+		conservative > 0.5
+		has_idea = government_formation
+	}
+	
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}
+
+	option = {
+		name = election_ww1_iw.6.a
+		set_politics = {
+			ruling_party = conservative
+		}
+		add_ideas = conservative_absmaj
+	}
+}
+
+# Autocrats win with absolute majority
+country_event = {
+	id = election_ww1_iw.7
+	title = election_ww1_iw.7.t
+	desc = election_ww1_iw.7.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	trigger = {
+		autocratic > 0.5
+		has_idea = government_formation
+	}
+	
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}
+
+	option = {
+		name = election_ww1_iw.7.a
+		set_politics = {
+			ruling_party = autocratic
+			elections_allowed = no
+		}
+		add_timed_idea = { idea = reign_of_terror days = 730 }
+	}
+}
+
+# fascisms win with absolute majority
+country_event = {
+	id = election_ww1_iw.8
+	title = election_ww1_iw.8.t
+	desc = election_ww1_iw.8.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	trigger = {
+		fascism > 0.5
+		has_idea = government_formation
+	}
+	
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}
+
+	option = {
+		name = election_ww1_iw.8.a
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+		add_timed_idea = { idea = reign_of_terror days = 730 }
+	}
+}
+
+# National Socialists win with absolute majority
+country_event = {
+	id = election_ww1_iw.9
+	title = election_ww1_iw.9.t
+	desc = election_ww1_iw.9.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	trigger = {
+		natsoc > 0.5
+		has_idea = government_formation
+	}
+	
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}
+
+	option = {
+		name = election_ww1_iw.9.a
+		set_politics = {
+			ruling_party = natsoc
+			elections_allowed = no
+		}
+		add_timed_idea = { idea = reign_of_terror days = 730 }
+	}
+}
+
+###########################
+# Left-wing Dual coalitions
+###########################
+
+# Socdem-led left-wing coalition
+country_event = {
+	id = election_ww1_iw.41
+	title = election_ww1_iw.41.t
+	desc = election_ww1_iw.41.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				socialist > 0.49
+				communism > 0
+				communism < 0.49
+			}
+			AND = {
+				socialist > 0.48
+				communism > 0.01
+				communism < 0.48
+			}
+			AND = {
+				socialist > 0.47
+				communism > 0.02
+				communism < 0.47
+			}
+			AND = {
+				socialist > 0.46
+				communism > 0.03
+				communism < 0.46
+			}
+			AND = {
+				socialist > 0.45
+				communism > 0.04
+				communism < 0.45
+			}
+			AND = {
+				socialist > 0.44
+				communism > 0.05
+				communism < 0.44
+			}
+			AND = {
+				socialist > 0.43
+				communism > 0.06
+				communism < 0.43
+			}
+			AND = {
+				socialist > 0.42
+				communism > 0.07
+				communism < 0.42
+			}
+			AND = {
+				socialist > 0.41
+				communism > 0.08
+				communism < 0.41
+			}
+			AND = {
+				socialist > 0.4
+				communism > 0.09
+				communism < 0.4
+			}
+			AND = {
+				socialist > 0.39
+				communism > 0.1
+				communism < 0.39
+			}
+			AND = {
+				socialist > 0.38
+				communism > 0.11
+				communism < 0.38
+			}
+			AND = {
+				socialist > 0.37
+				communism > 0.12
+				communism < 0.37
+			}
+			AND = {
+				socialist > 0.36
+				communism > 0.13
+				communism < 0.36
+			}
+			AND = {
+				socialist > 0.35
+				communism > 0.14
+				communism < 0.35
+			}
+			AND = {
+				socialist > 0.34
+				communism > 0.15
+				communism < 0.34
+			}
+			AND = {
+				socialist > 0.33
+				communism > 0.16
+				communism < 0.33
+			}
+			AND = {
+				socialist > 0.32
+				communism > 0.17
+				communism < 0.32
+			}
+			AND = {
+				socialist > 0.31
+				communism > 0.18
+				communism < 0.31
+			}
+			AND = {
+				socialist > 0.3
+				communism > 0.19
+				communism < 0.3
+			}
+			AND = {
+				socialist > 0.29
+				communism > 0.2
+				communism < 0.29
+			}
+			AND = {
+				socialist > 0.28
+				communism > 0.21
+				communism < 0.28
+			}
+			AND = {
+				socialist > 0.27
+				communism > 0.22
+				communism < 0.27
+			}
+			AND = {
+				socialist > 0.26
+				communism > 0.23
+				communism < 0.26
+			}
+			AND = {
+				socialist > 0.25
+				communism > 0.24
+				communism < 0.26
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}
+
+	option = {
+		name = election_ww1_iw.41.a
+		set_politics = {
+			ruling_party = socialist
+		}
+		add_ideas = soccom_coalition
+	}
+}
+
+# Communist led left-wing coalition
+country_event = {
+	id = election_ww1_iw.10
+	title = election_ww1_iw.10.t
+	desc = election_ww1_iw.10.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				communism > 0.49
+				socialist > 0
+				socialist < 0.49
+			}
+			AND = {
+				communism > 0.48
+				socialist > 0.01
+				socialist < 0.48
+			}
+			AND = {
+				communism > 0.47
+				socialist > 0.02
+				socialist < 0.47
+			}
+			AND = {
+				communism > 0.46
+				socialist > 0.03
+				socialist < 0.46
+			}
+			AND = {
+				communism > 0.45
+				socialist > 0.04
+				socialist < 0.45
+			}
+			AND = {
+				communism > 0.44
+				socialist > 0.05
+				socialist < 0.44
+			}
+			AND = {
+				communism > 0.43
+				socialist > 0.06
+				socialist < 0.43
+			}
+			AND = {
+				communism > 0.42
+				socialist > 0.07
+				socialist < 0.42
+			}
+			AND = {
+				communism > 0.41
+				socialist > 0.08
+				socialist < 0.41
+			}
+			AND = {
+				communism > 0.4
+				socialist > 0.09
+				socialist < 0.4
+			}
+			AND = {
+				communism > 0.39
+				socialist > 0.1
+				socialist < 0.39
+			}
+			AND = {
+				communism > 0.38
+				socialist > 0.11
+				socialist < 0.38
+			}
+			AND = {
+				communism > 0.37
+				socialist > 0.12
+				socialist < 0.37
+			}
+			AND = {
+				communism > 0.36
+				socialist > 0.13
+				socialist < 0.36
+			}
+			AND = {
+				communism > 0.35
+				socialist > 0.14
+				socialist < 0.35
+			}
+			AND = {
+				communism > 0.34
+				socialist > 0.15
+				socialist < 0.34
+			}
+			AND = {
+				communism > 0.33
+				socialist > 0.16
+				socialist < 0.33
+			}
+			AND = {
+				communism > 0.32
+				socialist > 0.17
+				socialist < 0.32
+			}
+			AND = {
+				communism > 0.31
+				socialist > 0.18
+				socialist < 0.31
+			}
+			AND = {
+				communism > 0.3
+				socialist > 0.19
+				socialist < 0.3
+			}
+			AND = {
+				communism > 0.29
+				socialist > 0.2
+				socialist < 0.29
+			}
+			AND = {
+				communism > 0.28
+				socialist > 0.21
+				socialist < 0.28
+			}
+			AND = {
+				communism > 0.27
+				socialist > 0.22
+				socialist < 0.27
+			}
+			AND = {
+				communism > 0.26
+				socialist > 0.23
+				socialist < 0.26
+			}
+			AND = {
+				communism > 0.25
+				socialist > 0.24
+				socialist < 0.26
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}
+
+	option = {
+		name = election_ww1_iw.10.a
+		set_politics = {
+			ruling_party = communism
+		}
+		add_ideas = comsoc_coalition
+	}
+}
+
+###########################
+# Democratic Dual coalitions
+###########################
+
+# Liberal-led 'purple' coalition
+country_event = {
+	id = election_ww1_iw.11
+	title = election_ww1_iw.11.t
+	desc = election_ww1_iw.11.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				liberal > 0.49
+				socialist > 0
+				socialist < 0.49
+			}
+			AND = {
+				liberal > 0.48
+				socialist > 0.01
+				socialist < 0.48
+			}
+			AND = {
+				liberal > 0.47
+				socialist > 0.02
+				socialist < 0.47
+			}
+			AND = {
+				liberal > 0.46
+				socialist > 0.03
+				socialist < 0.46
+			}
+			AND = {
+				liberal > 0.45
+				socialist > 0.04
+				socialist < 0.45
+			}
+			AND = {
+				liberal > 0.44
+				socialist > 0.05
+				socialist < 0.44
+			}
+			AND = {
+				liberal > 0.43
+				socialist > 0.06
+				socialist < 0.43
+			}
+			AND = {
+				liberal > 0.42
+				socialist > 0.07
+				socialist < 0.42
+			}
+			AND = {
+				liberal > 0.41
+				socialist > 0.08
+				socialist < 0.41
+			}
+			AND = {
+				liberal > 0.4
+				socialist > 0.09
+				socialist < 0.4
+			}
+			AND = {
+				liberal > 0.39
+				socialist > 0.1
+				socialist < 0.39
+			}
+			AND = {
+				liberal > 0.38
+				socialist > 0.11
+				socialist < 0.38
+			}
+			AND = {
+				liberal > 0.37
+				socialist > 0.12
+				socialist < 0.37
+			}
+			AND = {
+				liberal > 0.36
+				socialist > 0.13
+				socialist < 0.36
+			}
+			AND = {
+				liberal > 0.35
+				socialist > 0.14
+				socialist < 0.35
+			}
+			AND = {
+				liberal > 0.34
+				socialist > 0.15
+				socialist < 0.34
+			}
+			AND = {
+				liberal > 0.33
+				socialist > 0.16
+				socialist < 0.33
+			}
+			AND = {
+				liberal > 0.32
+				socialist > 0.17
+				socialist < 0.32
+			}
+			AND = {
+				liberal > 0.31
+				socialist > 0.18
+				socialist < 0.31
+			}
+			AND = {
+				liberal > 0.3
+				socialist > 0.19
+				socialist < 0.3
+			}
+			AND = {
+				liberal > 0.29
+				socialist > 0.2
+				socialist < 0.29
+			}
+			AND = {
+				liberal > 0.28
+				socialist > 0.21
+				socialist < 0.28
+			}
+			AND = {
+				liberal > 0.27
+				socialist > 0.22
+				socialist < 0.27
+			}
+			AND = {
+				liberal > 0.26
+				socialist > 0.23
+				socialist < 0.26
+			}
+			AND = {
+				liberal > 0.25
+				socialist > 0.24
+				socialist < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.11.a
+		set_politics = {
+			ruling_party = liberal
+		}
+		add_ideas = libsoc_coalition
+	}
+}
+
+# Socialist-led 'purple' coalition
+country_event = {
+	id = election_ww1_iw.12
+	title = election_ww1_iw.12.t
+	desc = election_ww1_iw.12.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				socialist > 0.49
+				liberal > 0
+				liberal < 0.49
+			}
+			AND = {
+				socialist > 0.48
+				liberal > 0.01
+				liberal < 0.48
+			}
+			AND = {
+				socialist > 0.47
+				liberal > 0.02
+				liberal < 0.47
+			}
+			AND = {
+				socialist > 0.46
+				liberal > 0.03
+				liberal < 0.46
+			}
+			AND = {
+				socialist > 0.45
+				liberal > 0.04
+				liberal < 0.45
+			}
+			AND = {
+				socialist > 0.44
+				liberal > 0.05
+				liberal < 0.44
+			}
+			AND = {
+				socialist > 0.43
+				liberal > 0.06
+				liberal < 0.43
+			}
+			AND = {
+				socialist > 0.42
+				liberal > 0.07
+				liberal < 0.42
+			}
+			AND = {
+				socialist > 0.41
+				liberal > 0.08
+				liberal < 0.41
+			}
+			AND = {
+				socialist > 0.4
+				liberal > 0.09
+				liberal < 0.4
+			}
+			AND = {
+				socialist > 0.39
+				liberal > 0.1
+				liberal < 0.39
+			}
+			AND = {
+				socialist > 0.38
+				liberal > 0.11
+				liberal < 0.38
+			}
+			AND = {
+				socialist > 0.37
+				liberal > 0.12
+				liberal < 0.37
+			}
+			AND = {
+				socialist > 0.36
+				liberal > 0.13
+				liberal < 0.36
+			}
+			AND = {
+				socialist > 0.35
+				liberal > 0.14
+				liberal < 0.35
+			}
+			AND = {
+				socialist > 0.34
+				liberal > 0.15
+				liberal < 0.34
+			}
+			AND = {
+				socialist > 0.33
+				liberal > 0.16
+				liberal < 0.33
+			}
+			AND = {
+				socialist > 0.32
+				liberal > 0.17
+				liberal < 0.32
+			}
+			AND = {
+				socialist > 0.31
+				liberal > 0.18
+				liberal < 0.31
+			}
+			AND = {
+				socialist > 0.3
+				liberal > 0.19
+				liberal < 0.3
+			}
+			AND = {
+				socialist > 0.29
+				liberal > 0.2
+				liberal < 0.29
+			}
+			AND = {
+				socialist > 0.28
+				liberal > 0.21
+				liberal < 0.28
+			}
+			AND = {
+				socialist > 0.27
+				liberal > 0.22
+				liberal < 0.27
+			}
+			AND = {
+				socialist > 0.26
+				liberal > 0.23
+				liberal < 0.26
+			}
+			AND = {
+				socialist > 0.25
+				liberal > 0.24
+				liberal < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.12.a
+		set_politics = {
+			ruling_party = socialist
+		}
+		add_ideas = soclib_coalition
+	}
+}
+
+# Centre-led centre-socialist coalition
+country_event = {
+	id = election_ww1_iw.13
+	title = election_ww1_iw.13.t
+	desc = election_ww1_iw.13.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				democratic > 0.49
+				socialist > 0
+				socialist < 0.49
+			}
+			AND = {
+				democratic > 0.48
+				socialist > 0.01
+				socialist < 0.48
+			}
+			AND = {
+				democratic > 0.47
+				socialist > 0.02
+				socialist < 0.47
+			}
+			AND = {
+				democratic > 0.46
+				socialist > 0.03
+				socialist < 0.46
+			}
+			AND = {
+				democratic > 0.45
+				socialist > 0.04
+				socialist < 0.45
+			}
+			AND = {
+				democratic > 0.44
+				socialist > 0.05
+				socialist < 0.44
+			}
+			AND = {
+				democratic > 0.43
+				socialist > 0.06
+				socialist < 0.43
+			}
+			AND = {
+				democratic > 0.42
+				socialist > 0.07
+				socialist < 0.42
+			}
+			AND = {
+				democratic > 0.41
+				socialist > 0.08
+				socialist < 0.41
+			}
+			AND = {
+				democratic > 0.4
+				socialist > 0.09
+				socialist < 0.4
+			}
+			AND = {
+				democratic > 0.39
+				socialist > 0.1
+				socialist < 0.39
+			}
+			AND = {
+				democratic > 0.38
+				socialist > 0.11
+				socialist < 0.38
+			}
+			AND = {
+				democratic > 0.37
+				socialist > 0.12
+				socialist < 0.37
+			}
+			AND = {
+				democratic > 0.36
+				socialist > 0.13
+				socialist < 0.36
+			}
+			AND = {
+				democratic > 0.35
+				socialist > 0.14
+				socialist < 0.35
+			}
+			AND = {
+				democratic > 0.34
+				socialist > 0.15
+				socialist < 0.34
+			}
+			AND = {
+				democratic > 0.33
+				socialist > 0.16
+				socialist < 0.33
+			}
+			AND = {
+				democratic > 0.32
+				socialist > 0.17
+				socialist < 0.32
+			}
+			AND = {
+				democratic > 0.31
+				socialist > 0.18
+				socialist < 0.31
+			}
+			AND = {
+				democratic > 0.3
+				socialist > 0.19
+				socialist < 0.3
+			}
+			AND = {
+				democratic > 0.29
+				socialist > 0.2
+				socialist < 0.29
+			}
+			AND = {
+				democratic > 0.28
+				socialist > 0.21
+				socialist < 0.28
+			}
+			AND = {
+				democratic > 0.27
+				socialist > 0.22
+				socialist < 0.27
+			}
+			AND = {
+				democratic > 0.26
+				socialist > 0.23
+				socialist < 0.26
+			}
+			AND = {
+				democratic > 0.25
+				socialist > 0.24
+				socialist < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.13.a
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_ideas = demsoc_coalition
+	}
+}
+
+# Socialist-led Centre-Socialist coalition
+country_event = {
+	id = election_ww1_iw.14
+	title = election_ww1_iw.14.t
+	desc = election_ww1_iw.14.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				socialist > 0.49
+				democratic > 0
+				democratic < 0.49
+			}
+			AND = {
+				socialist > 0.48
+				democratic > 0.01
+				democratic < 0.48
+			}
+			AND = {
+				socialist > 0.47
+				democratic > 0.02
+				democratic < 0.47
+			}
+			AND = {
+				socialist > 0.46
+				democratic > 0.03
+				democratic < 0.46
+			}
+			AND = {
+				socialist > 0.45
+				democratic > 0.04
+				democratic < 0.45
+			}
+			AND = {
+				socialist > 0.44
+				democratic > 0.05
+				democratic < 0.44
+			}
+			AND = {
+				socialist > 0.43
+				democratic > 0.06
+				democratic < 0.43
+			}
+			AND = {
+				socialist > 0.42
+				democratic > 0.07
+				democratic < 0.42
+			}
+			AND = {
+				socialist > 0.41
+				democratic > 0.08
+				democratic < 0.41
+			}
+			AND = {
+				socialist > 0.4
+				democratic > 0.09
+				democratic < 0.4
+			}
+			AND = {
+				socialist > 0.39
+				democratic > 0.1
+				democratic < 0.39
+			}
+			AND = {
+				socialist > 0.38
+				democratic > 0.11
+				democratic < 0.38
+			}
+			AND = {
+				socialist > 0.37
+				democratic > 0.12
+				democratic < 0.37
+			}
+			AND = {
+				socialist > 0.36
+				democratic > 0.13
+				democratic < 0.36
+			}
+			AND = {
+				socialist > 0.35
+				democratic > 0.14
+				democratic < 0.35
+			}
+			AND = {
+				socialist > 0.34
+				democratic > 0.15
+				democratic < 0.34
+			}
+			AND = {
+				socialist > 0.33
+				democratic > 0.16
+				democratic < 0.33
+			}
+			AND = {
+				socialist > 0.32
+				democratic > 0.17
+				democratic < 0.32
+			}
+			AND = {
+				socialist > 0.31
+				democratic > 0.18
+				democratic < 0.31
+			}
+			AND = {
+				socialist > 0.3
+				democratic > 0.19
+				democratic < 0.3
+			}
+			AND = {
+				socialist > 0.29
+				democratic > 0.2
+				democratic < 0.29
+			}
+			AND = {
+				socialist > 0.28
+				democratic > 0.21
+				democratic < 0.28
+			}
+			AND = {
+				socialist > 0.27
+				democratic > 0.22
+				democratic < 0.27
+			}
+			AND = {
+				socialist > 0.26
+				democratic > 0.23
+				democratic < 0.26
+			}
+			AND = {
+				socialist > 0.25
+				democratic > 0.24
+				democratic < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.14.a
+		set_politics = {
+			ruling_party = socialist
+		}
+		add_ideas = socdem_coalition
+	}
+}
+
+# centre-led centre-liberal coalition
+country_event = {
+	id = election_ww1_iw.42
+	title = election_ww1_iw.42.t
+	desc = election_ww1_iw.42.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				democratic > 0.49
+				liberal > 0
+				liberal < 0.49
+			}
+			AND = {
+				democratic > 0.48
+				liberal > 0.01
+				liberal < 0.48
+			}
+			AND = {
+				democratic > 0.47
+				liberal > 0.02
+				liberal < 0.47
+			}
+			AND = {
+				democratic > 0.46
+				liberal > 0.03
+				liberal < 0.46
+			}
+			AND = {
+				democratic > 0.45
+				liberal > 0.04
+				liberal < 0.45
+			}
+			AND = {
+				democratic > 0.44
+				liberal > 0.05
+				liberal < 0.44
+			}
+			AND = {
+				democratic > 0.43
+				liberal > 0.06
+				liberal < 0.43
+			}
+			AND = {
+				democratic > 0.42
+				liberal > 0.07
+				liberal < 0.42
+			}
+			AND = {
+				democratic > 0.41
+				liberal > 0.08
+				liberal < 0.41
+			}
+			AND = {
+				democratic > 0.4
+				liberal > 0.09
+				liberal < 0.4
+			}
+			AND = {
+				democratic > 0.39
+				liberal > 0.1
+				liberal < 0.39
+			}
+			AND = {
+				democratic > 0.38
+				liberal > 0.11
+				liberal < 0.38
+			}
+			AND = {
+				democratic > 0.37
+				liberal > 0.12
+				liberal < 0.37
+			}
+			AND = {
+				democratic > 0.36
+				liberal > 0.13
+				liberal < 0.36
+			}
+			AND = {
+				democratic > 0.35
+				liberal > 0.14
+				liberal < 0.35
+			}
+			AND = {
+				democratic > 0.34
+				liberal > 0.15
+				liberal < 0.34
+			}
+			AND = {
+				democratic > 0.33
+				liberal > 0.16
+				liberal < 0.33
+			}
+			AND = {
+				democratic > 0.32
+				liberal > 0.17
+				liberal < 0.32
+			}
+			AND = {
+				democratic > 0.31
+				liberal > 0.18
+				liberal < 0.31
+			}
+			AND = {
+				democratic > 0.3
+				liberal > 0.19
+				liberal < 0.3
+			}
+			AND = {
+				democratic > 0.29
+				liberal > 0.2
+				liberal < 0.29
+			}
+			AND = {
+				democratic > 0.28
+				liberal > 0.21
+				liberal < 0.28
+			}
+			AND = {
+				democratic > 0.27
+				liberal > 0.22
+				liberal < 0.27
+			}
+			AND = {
+				democratic > 0.26
+				liberal > 0.23
+				liberal < 0.26
+			}
+			AND = {
+				democratic > 0.25
+				liberal > 0.24
+				liberal < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.15.a
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_ideas = demlib_coalition
+	}
+}
+
+# Liberal-led centre-liberal coalition
+country_event = {
+	id = election_ww1_iw.15
+	title = election_ww1_iw.15.t
+	desc = election_ww1_iw.15.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				liberal > 0.49
+				democratic > 0
+				democratic < 0.49
+			}
+			AND = {
+				liberal > 0.48
+				democratic > 0.01
+				democratic < 0.48
+			}
+			AND = {
+				liberal > 0.47
+				democratic > 0.02
+				democratic < 0.47
+			}
+			AND = {
+				liberal > 0.46
+				democratic > 0.03
+				democratic < 0.46
+			}
+			AND = {
+				liberal > 0.45
+				democratic > 0.04
+				democratic < 0.45
+			}
+			AND = {
+				liberal > 0.44
+				democratic > 0.05
+				democratic < 0.44
+			}
+			AND = {
+				liberal > 0.43
+				democratic > 0.06
+				democratic < 0.43
+			}
+			AND = {
+				liberal > 0.42
+				democratic > 0.07
+				democratic < 0.42
+			}
+			AND = {
+				liberal > 0.41
+				democratic > 0.08
+				democratic < 0.41
+			}
+			AND = {
+				liberal > 0.4
+				democratic > 0.09
+				democratic < 0.4
+			}
+			AND = {
+				liberal > 0.39
+				democratic > 0.1
+				democratic < 0.39
+			}
+			AND = {
+				liberal > 0.38
+				democratic > 0.11
+				democratic < 0.38
+			}
+			AND = {
+				liberal > 0.37
+				democratic > 0.12
+				democratic < 0.37
+			}
+			AND = {
+				liberal > 0.36
+				democratic > 0.13
+				democratic < 0.36
+			}
+			AND = {
+				liberal > 0.35
+				democratic > 0.14
+				democratic < 0.35
+			}
+			AND = {
+				liberal > 0.34
+				democratic > 0.15
+				democratic < 0.34
+			}
+			AND = {
+				liberal > 0.33
+				democratic > 0.16
+				democratic < 0.33
+			}
+			AND = {
+				liberal > 0.32
+				democratic > 0.17
+				democratic < 0.32
+			}
+			AND = {
+				liberal > 0.31
+				democratic > 0.18
+				democratic < 0.31
+			}
+			AND = {
+				liberal > 0.3
+				democratic > 0.19
+				democratic < 0.3
+			}
+			AND = {
+				liberal > 0.29
+				democratic > 0.2
+				democratic < 0.29
+			}
+			AND = {
+				liberal > 0.28
+				democratic > 0.21
+				democratic < 0.28
+			}
+			AND = {
+				liberal > 0.27
+				democratic > 0.22
+				democratic < 0.27
+			}
+			AND = {
+				liberal > 0.26
+				democratic > 0.23
+				democratic < 0.26
+			}
+			AND = {
+				liberal > 0.25
+				democratic > 0.24
+				democratic < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.15.a
+		set_politics = {
+			ruling_party = liberal
+		}
+		add_ideas = libdem_coalition
+	}
+}
+
+# Centre-led Centre-Conservative coalition
+country_event = {
+	id = election_ww1_iw.16
+	title = election_ww1_iw.16.t
+	desc = election_ww1_iw.16.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				democratic > 0.49
+				conservative > 0
+				conservative < 0.49
+			}
+			AND = {
+				democratic > 0.48
+				conservative > 0.01
+				conservative < 0.48
+			}
+			AND = {
+				democratic > 0.47
+				conservative > 0.02
+				conservative < 0.47
+			}
+			AND = {
+				democratic > 0.46
+				conservative > 0.03
+				conservative < 0.46
+			}
+			AND = {
+				democratic > 0.45
+				conservative > 0.04
+				conservative < 0.45
+			}
+			AND = {
+				democratic > 0.44
+				conservative > 0.05
+				conservative < 0.44
+			}
+			AND = {
+				democratic > 0.43
+				conservative > 0.06
+				conservative < 0.43
+			}
+			AND = {
+				democratic > 0.42
+				conservative > 0.07
+				conservative < 0.42
+			}
+			AND = {
+				democratic > 0.41
+				conservative > 0.08
+				conservative < 0.41
+			}
+			AND = {
+				democratic > 0.4
+				conservative > 0.09
+				conservative < 0.4
+			}
+			AND = {
+				democratic > 0.39
+				conservative > 0.1
+				conservative < 0.39
+			}
+			AND = {
+				democratic > 0.38
+				conservative > 0.11
+				conservative < 0.38
+			}
+			AND = {
+				democratic > 0.37
+				conservative > 0.12
+				conservative < 0.37
+			}
+			AND = {
+				democratic > 0.36
+				conservative > 0.13
+				conservative < 0.36
+			}
+			AND = {
+				democratic > 0.35
+				conservative > 0.14
+				conservative < 0.35
+			}
+			AND = {
+				democratic > 0.34
+				conservative > 0.15
+				conservative < 0.34
+			}
+			AND = {
+				democratic > 0.33
+				conservative > 0.16
+				conservative < 0.33
+			}
+			AND = {
+				democratic > 0.32
+				conservative > 0.17
+				conservative < 0.32
+			}
+			AND = {
+				democratic > 0.31
+				conservative > 0.18
+				conservative < 0.31
+			}
+			AND = {
+				democratic > 0.3
+				conservative > 0.19
+				conservative < 0.3
+			}
+			AND = {
+				democratic > 0.29
+				conservative > 0.2
+				conservative < 0.29
+			}
+			AND = {
+				democratic > 0.28
+				conservative > 0.21
+				conservative < 0.28
+			}
+			AND = {
+				democratic > 0.27
+				conservative > 0.22
+				conservative < 0.27
+			}
+			AND = {
+				democratic > 0.26
+				conservative > 0.23
+				conservative < 0.26
+			}
+			AND = {
+				democratic > 0.25
+				conservative > 0.24
+				conservative < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.16.a
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_ideas = demcon_coalition
+	}
+}
+
+# Conservative-led Centre-Conservative coalition
+country_event = {
+	id = election_ww1_iw.17
+	title = election_ww1_iw.17.t
+	desc = election_ww1_iw.17.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				conservative > 0.49
+				democratic > 0
+				democratic < 0.49
+			}
+			AND = {
+				conservative > 0.48
+				democratic > 0.01
+				democratic < 0.48
+			}
+			AND = {
+				conservative > 0.47
+				democratic > 0.02
+				democratic < 0.47
+			}
+			AND = {
+				conservative > 0.46
+				democratic > 0.03
+				democratic < 0.46
+			}
+			AND = {
+				conservative > 0.45
+				democratic > 0.04
+				democratic < 0.45
+			}
+			AND = {
+				conservative > 0.44
+				democratic > 0.05
+				democratic < 0.44
+			}
+			AND = {
+				conservative > 0.43
+				democratic > 0.06
+				democratic < 0.43
+			}
+			AND = {
+				conservative > 0.42
+				democratic > 0.07
+				democratic < 0.42
+			}
+			AND = {
+				conservative > 0.41
+				democratic > 0.08
+				democratic < 0.41
+			}
+			AND = {
+				conservative > 0.4
+				democratic > 0.09
+				democratic < 0.4
+			}
+			AND = {
+				conservative > 0.39
+				democratic > 0.1
+				democratic < 0.39
+			}
+			AND = {
+				conservative > 0.38
+				democratic > 0.11
+				democratic < 0.38
+			}
+			AND = {
+				conservative > 0.37
+				democratic > 0.12
+				democratic < 0.37
+			}
+			AND = {
+				conservative > 0.36
+				democratic > 0.13
+				democratic < 0.36
+			}
+			AND = {
+				conservative > 0.35
+				democratic > 0.14
+				democratic < 0.35
+			}
+			AND = {
+				conservative > 0.34
+				democratic > 0.15
+				democratic < 0.34
+			}
+			AND = {
+				conservative > 0.33
+				democratic > 0.16
+				democratic < 0.33
+			}
+			AND = {
+				conservative > 0.32
+				democratic > 0.17
+				democratic < 0.32
+			}
+			AND = {
+				conservative > 0.31
+				democratic > 0.18
+				democratic < 0.31
+			}
+			AND = {
+				conservative > 0.3
+				democratic > 0.19
+				democratic < 0.3
+			}
+			AND = {
+				conservative > 0.29
+				democratic > 0.2
+				democratic < 0.29
+			}
+			AND = {
+				conservative > 0.28
+				democratic > 0.21
+				democratic < 0.28
+			}
+			AND = {
+				conservative > 0.27
+				democratic > 0.22
+				democratic < 0.27
+			}
+			AND = {
+				conservative > 0.26
+				democratic > 0.23
+				democratic < 0.26
+			}
+			AND = {
+				conservative > 0.25
+				democratic > 0.24
+				democratic < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.17.a
+		set_politics = {
+			ruling_party = conservative
+		}
+		add_ideas = condem_coalition
+	}
+}
+
+# Conservative-led Conservative-Liberal government
+country_event = {
+	id = election_ww1_iw.18
+	title = election_ww1_iw.18.t
+	desc = election_ww1_iw.18.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				conservative > 0.49
+				liberal > 0
+				liberal < 0.49
+			}
+			AND = {
+				conservative > 0.48
+				liberal > 0.01
+				liberal < 0.48
+			}
+			AND = {
+				conservative > 0.47
+				liberal > 0.02
+				liberal < 0.47
+			}
+			AND = {
+				conservative > 0.46
+				liberal > 0.03
+				liberal < 0.46
+			}
+			AND = {
+				conservative > 0.45
+				liberal > 0.04
+				liberal < 0.45
+			}
+			AND = {
+				conservative > 0.44
+				liberal > 0.05
+				liberal < 0.44
+			}
+			AND = {
+				conservative > 0.43
+				liberal > 0.06
+				liberal < 0.43
+			}
+			AND = {
+				conservative > 0.42
+				liberal > 0.07
+				liberal < 0.42
+			}
+			AND = {
+				conservative > 0.41
+				liberal > 0.08
+				liberal < 0.41
+			}
+			AND = {
+				conservative > 0.4
+				liberal > 0.09
+				liberal < 0.4
+			}
+			AND = {
+				conservative > 0.39
+				liberal > 0.1
+				liberal < 0.39
+			}
+			AND = {
+				conservative > 0.38
+				liberal > 0.11
+				liberal < 0.38
+			}
+			AND = {
+				conservative > 0.37
+				liberal > 0.12
+				liberal < 0.37
+			}
+			AND = {
+				conservative > 0.36
+				liberal > 0.13
+				liberal < 0.36
+			}
+			AND = {
+				conservative > 0.35
+				liberal > 0.14
+				liberal < 0.35
+			}
+			AND = {
+				conservative > 0.34
+				liberal > 0.15
+				liberal < 0.34
+			}
+			AND = {
+				conservative > 0.33
+				liberal > 0.16
+				liberal < 0.33
+			}
+			AND = {
+				conservative > 0.32
+				liberal > 0.17
+				liberal < 0.32
+			}
+			AND = {
+				conservative > 0.31
+				liberal > 0.18
+				liberal < 0.31
+			}
+			AND = {
+				conservative > 0.3
+				liberal > 0.19
+				liberal < 0.3
+			}
+			AND = {
+				conservative > 0.29
+				liberal > 0.2
+				liberal < 0.29
+			}
+			AND = {
+				conservative > 0.28
+				liberal > 0.21
+				liberal < 0.28
+			}
+			AND = {
+				conservative > 0.27
+				liberal > 0.22
+				liberal < 0.27
+			}
+			AND = {
+				conservative > 0.26
+				liberal > 0.23
+				liberal < 0.26
+			}
+			AND = {
+				conservative > 0.25
+				liberal > 0.24
+				liberal < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.18.a
+		set_politics = {
+			ruling_party = conservative
+		}
+		add_ideas = conlib_coalition
+	}
+}
+
+# Liberal-led Conservative-Liberal coalition
+country_event = {
+	id = election_ww1_iw.19
+	title = election_ww1_iw.19.t
+	desc = election_ww1_iw.19.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				liberal > 0.49
+				conservative > 0
+				conservative < 0.49
+			}
+			AND = {
+				liberal > 0.48
+				conservative > 0.01
+				conservative < 0.48
+			}
+			AND = {
+				liberal > 0.47
+				conservative > 0.02
+				conservative < 0.47
+			}
+			AND = {
+				liberal > 0.46
+				conservative > 0.03
+				conservative < 0.46
+			}
+			AND = {
+				liberal > 0.45
+				conservative > 0.04
+				conservative < 0.45
+			}
+			AND = {
+				liberal > 0.44
+				conservative > 0.05
+				conservative < 0.44
+			}
+			AND = {
+				liberal > 0.43
+				conservative > 0.06
+				conservative < 0.43
+			}
+			AND = {
+				liberal > 0.42
+				conservative > 0.07
+				conservative < 0.42
+			}
+			AND = {
+				liberal > 0.41
+				conservative > 0.08
+				conservative < 0.41
+			}
+			AND = {
+				liberal > 0.4
+				conservative > 0.09
+				conservative < 0.4
+			}
+			AND = {
+				liberal > 0.39
+				conservative > 0.1
+				conservative < 0.39
+			}
+			AND = {
+				liberal > 0.38
+				conservative > 0.11
+				conservative < 0.38
+			}
+			AND = {
+				liberal > 0.37
+				conservative > 0.12
+				conservative < 0.37
+			}
+			AND = {
+				liberal > 0.36
+				conservative > 0.13
+				conservative < 0.36
+			}
+			AND = {
+				liberal > 0.35
+				conservative > 0.14
+				conservative < 0.35
+			}
+			AND = {
+				liberal > 0.34
+				conservative > 0.15
+				conservative < 0.34
+			}
+			AND = {
+				liberal > 0.33
+				conservative > 0.16
+				conservative < 0.33
+			}
+			AND = {
+				liberal > 0.32
+				conservative > 0.17
+				conservative < 0.32
+			}
+			AND = {
+				liberal > 0.31
+				conservative > 0.18
+				conservative < 0.31
+			}
+			AND = {
+				liberal > 0.3
+				conservative > 0.19
+				conservative < 0.3
+			}
+			AND = {
+				liberal > 0.29
+				conservative > 0.2
+				conservative < 0.29
+			}
+			AND = {
+				liberal > 0.28
+				conservative > 0.21
+				conservative < 0.28
+			}
+			AND = {
+				liberal > 0.27
+				conservative > 0.22
+				conservative < 0.27
+			}
+			AND = {
+				liberal > 0.26
+				conservative > 0.23
+				conservative < 0.26
+			}
+			AND = {
+				liberal > 0.25
+				conservative > 0.24
+				conservative < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.19.a
+		set_politics = {
+			ruling_party = liberal
+		}
+		add_ideas = libcon_coalition
+	}
+}
+
+###########################
+# Right-Wing Dual coalitions
+###########################
+
+# Conservative-led Autocratic Conservative coalition
+country_event = {
+	id = election_ww1_iw.20
+	title = election_ww1_iw.20.t
+	desc = election_ww1_iw.20.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				conservative > 0.49
+				autocratic > 0
+				autocratic < 0.49
+			}
+			AND = {
+				conservative > 0.48
+				autocratic > 0.01
+				autocratic < 0.48
+			}
+			AND = {
+				conservative > 0.47
+				autocratic > 0.02
+				autocratic < 0.47
+			}
+			AND = {
+				conservative > 0.46
+				autocratic > 0.03
+				autocratic < 0.46
+			}
+			AND = {
+				conservative > 0.45
+				autocratic > 0.04
+				autocratic < 0.45
+			}
+			AND = {
+				conservative > 0.44
+				autocratic > 0.05
+				autocratic < 0.44
+			}
+			AND = {
+				conservative > 0.43
+				autocratic > 0.06
+				autocratic < 0.43
+			}
+			AND = {
+				conservative > 0.42
+				autocratic > 0.07
+				autocratic < 0.42
+			}
+			AND = {
+				conservative > 0.41
+				autocratic > 0.08
+				autocratic < 0.41
+			}
+			AND = {
+				conservative > 0.4
+				autocratic > 0.09
+				autocratic < 0.4
+			}
+			AND = {
+				conservative > 0.39
+				autocratic > 0.1
+				autocratic < 0.39
+			}
+			AND = {
+				conservative > 0.38
+				autocratic > 0.11
+				autocratic < 0.38
+			}
+			AND = {
+				conservative > 0.37
+				autocratic > 0.12
+				autocratic < 0.37
+			}
+			AND = {
+				conservative > 0.36
+				autocratic > 0.13
+				autocratic < 0.36
+			}
+			AND = {
+				conservative > 0.35
+				autocratic > 0.14
+				autocratic < 0.35
+			}
+			AND = {
+				conservative > 0.34
+				autocratic > 0.15
+				autocratic < 0.34
+			}
+			AND = {
+				conservative > 0.33
+				autocratic > 0.16
+				autocratic < 0.33
+			}
+			AND = {
+				conservative > 0.32
+				autocratic > 0.17
+				autocratic < 0.32
+			}
+			AND = {
+				conservative > 0.31
+				autocratic > 0.18
+				autocratic < 0.31
+			}
+			AND = {
+				conservative > 0.3
+				autocratic > 0.19
+				autocratic < 0.3
+			}
+			AND = {
+				conservative > 0.29
+				autocratic > 0.2
+				autocratic < 0.29
+			}
+			AND = {
+				conservative > 0.28
+				autocratic > 0.21
+				autocratic < 0.28
+			}
+			AND = {
+				conservative > 0.27
+				autocratic > 0.22
+				autocratic < 0.27
+			}
+			AND = {
+				conservative > 0.26
+				autocratic > 0.23
+				autocratic < 0.26
+			}
+			AND = {
+				conservative > 0.25
+				autocratic > 0.24
+				autocratic < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.20.a
+		set_politics = {
+			ruling_party = conservative
+		}
+		add_ideas = conaut_coalition
+	}
+}
+
+# Autocratic-led Autocratic Conservative coalition
+country_event = {
+	id = election_ww1_iw.21
+	title = election_ww1_iw.21.t
+	desc = election_ww1_iw.21.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				autocratic > 0.49
+				conservative > 0
+				conservative < 0.49
+			}
+			AND = {
+				autocratic > 0.48
+				conservative > 0.01
+				conservative < 0.48
+			}
+			AND = {
+				autocratic > 0.47
+				conservative > 0.02
+				conservative < 0.47
+			}
+			AND = {
+				autocratic > 0.46
+				conservative > 0.03
+				conservative < 0.46
+			}
+			AND = {
+				autocratic > 0.45
+				conservative > 0.04
+				conservative < 0.45
+			}
+			AND = {
+				autocratic > 0.44
+				conservative > 0.05
+				conservative < 0.44
+			}
+			AND = {
+				autocratic > 0.43
+				conservative > 0.06
+				conservative < 0.43
+			}
+			AND = {
+				autocratic > 0.42
+				conservative > 0.07
+				conservative < 0.42
+			}
+			AND = {
+				autocratic > 0.41
+				conservative > 0.08
+				conservative < 0.41
+			}
+			AND = {
+				autocratic > 0.4
+				conservative > 0.09
+				conservative < 0.4
+			}
+			AND = {
+				autocratic > 0.39
+				conservative > 0.1
+				conservative < 0.39
+			}
+			AND = {
+				autocratic > 0.38
+				conservative > 0.11
+				conservative < 0.38
+			}
+			AND = {
+				autocratic > 0.37
+				conservative > 0.12
+				conservative < 0.37
+			}
+			AND = {
+				autocratic > 0.36
+				conservative > 0.13
+				conservative < 0.36
+			}
+			AND = {
+				autocratic > 0.35
+				conservative > 0.14
+				conservative < 0.35
+			}
+			AND = {
+				autocratic > 0.34
+				conservative > 0.15
+				conservative < 0.34
+			}
+			AND = {
+				autocratic > 0.33
+				conservative > 0.16
+				conservative < 0.33
+			}
+			AND = {
+				autocratic > 0.32
+				conservative > 0.17
+				conservative < 0.32
+			}
+			AND = {
+				autocratic > 0.31
+				conservative > 0.18
+				conservative < 0.31
+			}
+			AND = {
+				autocratic > 0.3
+				conservative > 0.19
+				conservative < 0.3
+			}
+			AND = {
+				autocratic > 0.29
+				conservative > 0.2
+				conservative < 0.29
+			}
+			AND = {
+				autocratic > 0.28
+				conservative > 0.21
+				conservative < 0.28
+			}
+			AND = {
+				autocratic > 0.27
+				conservative > 0.22
+				conservative < 0.27
+			}
+			AND = {
+				autocratic > 0.26
+				conservative > 0.23
+				conservative < 0.26
+			}
+			AND = {
+				autocratic > 0.25
+				conservative > 0.24
+				conservative < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.21.a
+		set_politics = {
+			ruling_party = autocratic
+		}
+		add_ideas = autcon_coalition
+	}
+}
+
+# Conservative-led Conservative-fascism government
+country_event = {
+	id = election_ww1_iw.22
+	title = election_ww1_iw.22.t
+	desc = election_ww1_iw.22.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				conservative > 0.49
+				fascism > 0
+				fascism < 0.49
+			}
+			AND = {
+				conservative > 0.48
+				fascism > 0.01
+				fascism < 0.48
+			}
+			AND = {
+				conservative > 0.47
+				fascism > 0.02
+				fascism < 0.47
+			}
+			AND = {
+				conservative > 0.46
+				fascism > 0.03
+				fascism < 0.46
+			}
+			AND = {
+				conservative > 0.45
+				fascism > 0.04
+				fascism < 0.45
+			}
+			AND = {
+				conservative > 0.44
+				fascism > 0.05
+				fascism < 0.44
+			}
+			AND = {
+				conservative > 0.43
+				fascism > 0.06
+				fascism < 0.43
+			}
+			AND = {
+				conservative > 0.42
+				fascism > 0.07
+				fascism < 0.42
+			}
+			AND = {
+				conservative > 0.41
+				fascism > 0.08
+				fascism < 0.41
+			}
+			AND = {
+				conservative > 0.4
+				fascism > 0.09
+				fascism < 0.4
+			}
+			AND = {
+				conservative > 0.39
+				fascism > 0.1
+				fascism < 0.39
+			}
+			AND = {
+				conservative > 0.38
+				fascism > 0.11
+				fascism < 0.38
+			}
+			AND = {
+				conservative > 0.37
+				fascism > 0.12
+				fascism < 0.37
+			}
+			AND = {
+				conservative > 0.36
+				fascism > 0.13
+				fascism < 0.36
+			}
+			AND = {
+				conservative > 0.35
+				fascism > 0.14
+				fascism < 0.35
+			}
+			AND = {
+				conservative > 0.34
+				fascism > 0.15
+				fascism < 0.34
+			}
+			AND = {
+				conservative > 0.33
+				fascism > 0.16
+				fascism < 0.33
+			}
+			AND = {
+				conservative > 0.32
+				fascism > 0.17
+				fascism < 0.32
+			}
+			AND = {
+				conservative > 0.31
+				fascism > 0.18
+				fascism < 0.31
+			}
+			AND = {
+				conservative > 0.3
+				fascism > 0.19
+				fascism < 0.3
+			}
+			AND = {
+				conservative > 0.29
+				fascism > 0.2
+				fascism < 0.29
+			}
+			AND = {
+				conservative > 0.28
+				fascism > 0.21
+				fascism < 0.28
+			}
+			AND = {
+				conservative > 0.27
+				fascism > 0.22
+				fascism < 0.27
+			}
+			AND = {
+				conservative > 0.26
+				fascism > 0.23
+				fascism < 0.26
+			}
+			AND = {
+				conservative > 0.25
+				fascism > 0.24
+				fascism < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.22.a
+		set_politics = {
+			ruling_party = conservative
+		}
+		add_ideas = confas_coalition
+	}
+}
+
+# fascism-led Conservative Coalition
+country_event = {
+	id = election_ww1_iw.23
+	title = election_ww1_iw.23.t
+	desc = election_ww1_iw.23.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				fascism > 0.49
+				conservative > 0
+				conservative < 0.49
+			}
+			AND = {
+				fascism > 0.48
+				conservative > 0.01
+				conservative < 0.48
+			}
+			AND = {
+				fascism > 0.47
+				conservative > 0.02
+				conservative < 0.47
+			}
+			AND = {
+				fascism > 0.46
+				conservative > 0.03
+				conservative < 0.46
+			}
+			AND = {
+				fascism > 0.45
+				conservative > 0.04
+				conservative < 0.45
+			}
+			AND = {
+				fascism > 0.44
+				conservative > 0.05
+				conservative < 0.44
+			}
+			AND = {
+				fascism > 0.43
+				conservative > 0.06
+				conservative < 0.43
+			}
+			AND = {
+				fascism > 0.42
+				conservative > 0.07
+				conservative < 0.42
+			}
+			AND = {
+				fascism > 0.41
+				conservative > 0.08
+				conservative < 0.41
+			}
+			AND = {
+				fascism > 0.4
+				conservative > 0.09
+				conservative < 0.4
+			}
+			AND = {
+				fascism > 0.39
+				conservative > 0.1
+				conservative < 0.39
+			}
+			AND = {
+				fascism > 0.38
+				conservative > 0.11
+				conservative < 0.38
+			}
+			AND = {
+				fascism > 0.37
+				conservative > 0.12
+				conservative < 0.37
+			}
+			AND = {
+				fascism > 0.36
+				conservative > 0.13
+				conservative < 0.36
+			}
+			AND = {
+				fascism > 0.35
+				conservative > 0.14
+				conservative < 0.35
+			}
+			AND = {
+				fascism > 0.34
+				conservative > 0.15
+				conservative < 0.34
+			}
+			AND = {
+				fascism > 0.33
+				conservative > 0.16
+				conservative < 0.33
+			}
+			AND = {
+				fascism > 0.32
+				conservative > 0.17
+				conservative < 0.32
+			}
+			AND = {
+				fascism > 0.31
+				conservative > 0.18
+				conservative < 0.31
+			}
+			AND = {
+				fascism > 0.3
+				conservative > 0.19
+				conservative < 0.3
+			}
+			AND = {
+				fascism > 0.29
+				conservative > 0.2
+				conservative < 0.29
+			}
+			AND = {
+				fascism > 0.28
+				conservative > 0.21
+				conservative < 0.28
+			}
+			AND = {
+				fascism > 0.27
+				conservative > 0.22
+				conservative < 0.27
+			}
+			AND = {
+				fascism > 0.26
+				conservative > 0.23
+				conservative < 0.26
+			}
+			AND = {
+				fascism > 0.25
+				conservative > 0.24
+				conservative < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.23.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		add_ideas = fascon_coalition
+	}
+}
+
+# conservative-led nationalsocialist coalition
+country_event = {
+	id = election_ww1_iw.24
+	title = election_ww1_iw.24.t
+	desc = election_ww1_iw.24.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				conservative > 0.49
+				natsoc > 0
+				natsoc < 0.49
+			}
+			AND = {
+				conservative > 0.48
+				natsoc > 0.01
+				natsoc < 0.48
+			}
+			AND = {
+				conservative > 0.47
+				natsoc > 0.02
+				natsoc < 0.47
+			}
+			AND = {
+				conservative > 0.46
+				natsoc > 0.03
+				natsoc < 0.46
+			}
+			AND = {
+				conservative > 0.45
+				natsoc > 0.04
+				natsoc < 0.45
+			}
+			AND = {
+				conservative > 0.44
+				natsoc > 0.05
+				natsoc < 0.44
+			}
+			AND = {
+				conservative > 0.43
+				natsoc > 0.06
+				natsoc < 0.43
+			}
+			AND = {
+				conservative > 0.42
+				natsoc > 0.07
+				natsoc < 0.42
+			}
+			AND = {
+				conservative > 0.41
+				natsoc > 0.08
+				natsoc < 0.41
+			}
+			AND = {
+				conservative > 0.4
+				natsoc > 0.09
+				natsoc < 0.4
+			}
+			AND = {
+				conservative > 0.39
+				natsoc > 0.1
+				natsoc < 0.39
+			}
+			AND = {
+				conservative > 0.38
+				natsoc > 0.11
+				natsoc < 0.38
+			}
+			AND = {
+				conservative > 0.37
+				natsoc > 0.12
+				natsoc < 0.37
+			}
+			AND = {
+				conservative > 0.36
+				natsoc > 0.13
+				natsoc < 0.36
+			}
+			AND = {
+				conservative > 0.35
+				natsoc > 0.14
+				natsoc < 0.35
+			}
+			AND = {
+				conservative > 0.34
+				natsoc > 0.15
+				natsoc < 0.34
+			}
+			AND = {
+				conservative > 0.33
+				natsoc > 0.16
+				natsoc < 0.33
+			}
+			AND = {
+				conservative > 0.32
+				natsoc > 0.17
+				natsoc < 0.32
+			}
+			AND = {
+				conservative > 0.31
+				natsoc > 0.18
+				natsoc < 0.31
+			}
+			AND = {
+				conservative > 0.3
+				natsoc > 0.19
+				natsoc < 0.3
+			}
+			AND = {
+				conservative > 0.29
+				natsoc > 0.2
+				natsoc < 0.29
+			}
+			AND = {
+				conservative > 0.28
+				natsoc > 0.21
+				natsoc < 0.28
+			}
+			AND = {
+				conservative > 0.27
+				natsoc > 0.22
+				natsoc < 0.27
+			}
+			AND = {
+				conservative > 0.26
+				natsoc > 0.23
+				natsoc < 0.26
+			}
+			AND = {
+				conservative > 0.25
+				natsoc > 0.24
+				natsoc < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.24.a
+		set_politics = {
+			ruling_party = conservative
+		}
+		add_ideas = conns_coalition
+	}
+}
+
+# National Socialist-led Conservative coalition, Germany 1932
+country_event = {
+	id = election_ww1_iw.25
+	title = election_ww1_iw.25.t
+	desc = election_ww1_iw.25.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				natsoc > 0.49
+				conservative > 0
+				conservative < 0.49
+			}
+			AND = {
+				natsoc > 0.48
+				conservative > 0.01
+				conservative < 0.48
+			}
+			AND = {
+				natsoc > 0.47
+				conservative > 0.02
+				conservative < 0.47
+			}
+			AND = {
+				natsoc > 0.46
+				conservative > 0.03
+				conservative < 0.46
+			}
+			AND = {
+				natsoc > 0.45
+				conservative > 0.04
+				conservative < 0.45
+			}
+			AND = {
+				natsoc > 0.44
+				conservative > 0.05
+				conservative < 0.44
+			}
+			AND = {
+				natsoc > 0.43
+				conservative > 0.06
+				conservative < 0.43
+			}
+			AND = {
+				natsoc > 0.42
+				conservative > 0.07
+				conservative < 0.42
+			}
+			AND = {
+				natsoc > 0.41
+				conservative > 0.08
+				conservative < 0.41
+			}
+			AND = {
+				natsoc > 0.4
+				conservative > 0.09
+				conservative < 0.4
+			}
+			AND = {
+				natsoc > 0.39
+				conservative > 0.1
+				conservative < 0.39
+			}
+			AND = {
+				natsoc > 0.38
+				conservative > 0.11
+				conservative < 0.38
+			}
+			AND = {
+				natsoc > 0.37
+				conservative > 0.12
+				conservative < 0.37
+			}
+			AND = {
+				natsoc > 0.36
+				conservative > 0.13
+				conservative < 0.36
+			}
+			AND = {
+				natsoc > 0.35
+				conservative > 0.14
+				conservative < 0.35
+			}
+			AND = {
+				natsoc > 0.34
+				conservative > 0.15
+				conservative < 0.34
+			}
+			AND = {
+				natsoc > 0.33
+				conservative > 0.16
+				conservative < 0.33
+			}
+			AND = {
+				natsoc > 0.32
+				conservative > 0.17
+				conservative < 0.32
+			}
+			AND = {
+				natsoc > 0.31
+				conservative > 0.18
+				conservative < 0.31
+			}
+			AND = {
+				natsoc > 0.3
+				conservative > 0.19
+				conservative < 0.3
+			}
+			AND = {
+				natsoc > 0.29
+				conservative > 0.2
+				conservative < 0.29
+			}
+			AND = {
+				natsoc > 0.28
+				conservative > 0.21
+				conservative < 0.28
+			}
+			AND = {
+				natsoc > 0.27
+				conservative > 0.22
+				conservative < 0.27
+			}
+			AND = {
+				natsoc > 0.26
+				conservative > 0.23
+				conservative < 0.26
+			}
+			AND = {
+				natsoc > 0.25
+				conservative > 0.24
+				conservative < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.25.a
+		set_politics = {
+			ruling_party = natsoc
+		}
+		add_ideas = conns_coalition
+	}
+}
+
+# fascism-led Autocratic coalition
+country_event = {
+	id = election_ww1_iw.26
+	title = election_ww1_iw.26.t
+	desc = election_ww1_iw.26.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				fascism > 0.49
+				autocratic > 0
+				autocratic < 0.49
+			}
+			AND = {
+				fascism > 0.48
+				autocratic > 0.01
+				autocratic < 0.48
+			}
+			AND = {
+				fascism > 0.47
+				autocratic > 0.02
+				autocratic < 0.47
+			}
+			AND = {
+				fascism > 0.46
+				autocratic > 0.03
+				autocratic < 0.46
+			}
+			AND = {
+				fascism > 0.45
+				autocratic > 0.04
+				autocratic < 0.45
+			}
+			AND = {
+				fascism > 0.44
+				autocratic > 0.05
+				autocratic < 0.44
+			}
+			AND = {
+				fascism > 0.43
+				autocratic > 0.06
+				autocratic < 0.43
+			}
+			AND = {
+				fascism > 0.42
+				autocratic > 0.07
+				autocratic < 0.42
+			}
+			AND = {
+				fascism > 0.41
+				autocratic > 0.08
+				autocratic < 0.41
+			}
+			AND = {
+				fascism > 0.4
+				autocratic > 0.09
+				autocratic < 0.4
+			}
+			AND = {
+				fascism > 0.39
+				autocratic > 0.1
+				autocratic < 0.39
+			}
+			AND = {
+				fascism > 0.38
+				autocratic > 0.11
+				autocratic < 0.38
+			}
+			AND = {
+				fascism > 0.37
+				autocratic > 0.12
+				autocratic < 0.37
+			}
+			AND = {
+				fascism > 0.36
+				autocratic > 0.13
+				autocratic < 0.36
+			}
+			AND = {
+				fascism > 0.35
+				autocratic > 0.14
+				autocratic < 0.35
+			}
+			AND = {
+				fascism > 0.34
+				autocratic > 0.15
+				autocratic < 0.34
+			}
+			AND = {
+				fascism > 0.33
+				autocratic > 0.16
+				autocratic < 0.33
+			}
+			AND = {
+				fascism > 0.32
+				autocratic > 0.17
+				autocratic < 0.32
+			}
+			AND = {
+				fascism > 0.31
+				autocratic > 0.18
+				autocratic < 0.31
+			}
+			AND = {
+				fascism > 0.3
+				autocratic > 0.19
+				autocratic < 0.3
+			}
+			AND = {
+				fascism > 0.29
+				autocratic > 0.2
+				autocratic < 0.29
+			}
+			AND = {
+				fascism > 0.28
+				autocratic > 0.21
+				autocratic < 0.28
+			}
+			AND = {
+				fascism > 0.27
+				autocratic > 0.22
+				autocratic < 0.27
+			}
+			AND = {
+				fascism > 0.26
+				autocratic > 0.23
+				autocratic < 0.26
+			}
+			AND = {
+				fascism > 0.25
+				autocratic > 0.24
+				autocratic < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.26.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		add_ideas = fasaut_coalition
+	}
+}
+
+# Autocratic-led fascism Coalition
+country_event = {
+	id = election_ww1_iw.27
+	title = election_ww1_iw.27.t
+	desc = election_ww1_iw.27.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				autocratic > 0.49
+				fascism > 0
+				fascism < 0.49
+			}
+			AND = {
+				autocratic > 0.48
+				fascism > 0.01
+				fascism < 0.48
+			}
+			AND = {
+				autocratic > 0.47
+				fascism > 0.02
+				fascism < 0.47
+			}
+			AND = {
+				autocratic > 0.46
+				fascism > 0.03
+				fascism < 0.46
+			}
+			AND = {
+				autocratic > 0.45
+				fascism > 0.04
+				fascism < 0.45
+			}
+			AND = {
+				autocratic > 0.44
+				fascism > 0.05
+				fascism < 0.44
+			}
+			AND = {
+				autocratic > 0.43
+				fascism > 0.06
+				fascism < 0.43
+			}
+			AND = {
+				autocratic > 0.42
+				fascism > 0.07
+				fascism < 0.42
+			}
+			AND = {
+				autocratic > 0.41
+				fascism > 0.08
+				fascism < 0.41
+			}
+			AND = {
+				autocratic > 0.4
+				fascism > 0.09
+				fascism < 0.4
+			}
+			AND = {
+				autocratic > 0.39
+				fascism > 0.1
+				fascism < 0.39
+			}
+			AND = {
+				autocratic > 0.38
+				fascism > 0.11
+				fascism < 0.38
+			}
+			AND = {
+				autocratic > 0.37
+				fascism > 0.12
+				fascism < 0.37
+			}
+			AND = {
+				autocratic > 0.36
+				fascism > 0.13
+				fascism < 0.36
+			}
+			AND = {
+				autocratic > 0.35
+				fascism > 0.14
+				fascism < 0.35
+			}
+			AND = {
+				autocratic > 0.34
+				fascism > 0.15
+				fascism < 0.34
+			}
+			AND = {
+				autocratic > 0.33
+				fascism > 0.16
+				fascism < 0.33
+			}
+			AND = {
+				autocratic > 0.32
+				fascism > 0.17
+				fascism < 0.32
+			}
+			AND = {
+				autocratic > 0.31
+				fascism > 0.18
+				fascism < 0.31
+			}
+			AND = {
+				autocratic > 0.3
+				fascism > 0.19
+				fascism < 0.3
+			}
+			AND = {
+				autocratic > 0.29
+				fascism > 0.2
+				fascism < 0.29
+			}
+			AND = {
+				autocratic > 0.28
+				fascism > 0.21
+				fascism < 0.28
+			}
+			AND = {
+				autocratic > 0.27
+				fascism > 0.22
+				fascism < 0.27
+			}
+			AND = {
+				autocratic > 0.26
+				fascism > 0.23
+				fascism < 0.26
+			}
+			AND = {
+				autocratic > 0.25
+				fascism > 0.24
+				fascism < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.27.a
+		set_politics = {
+			ruling_party = autocratic
+		}
+		add_ideas = autfas_coalition
+	}
+}
+
+# Fascist-Led National-Socialist coalition
+country_event = {
+	id = election_ww1_iw.28
+	title = election_ww1_iw.28.t
+	desc = election_ww1_iw.28.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				fascism > 0.49
+				natsoc > 0
+				natsoc < 0.49
+			}
+			AND = {
+				fascism > 0.48
+				natsoc > 0.01
+				natsoc < 0.48
+			}
+			AND = {
+				fascism > 0.47
+				natsoc > 0.02
+				natsoc < 0.47
+			}
+			AND = {
+				fascism > 0.46
+				natsoc > 0.03
+				natsoc < 0.46
+			}
+			AND = {
+				fascism > 0.45
+				natsoc > 0.04
+				natsoc < 0.45
+			}
+			AND = {
+				fascism > 0.44
+				natsoc > 0.05
+				natsoc < 0.44
+			}
+			AND = {
+				fascism > 0.43
+				natsoc > 0.06
+				natsoc < 0.43
+			}
+			AND = {
+				fascism > 0.42
+				natsoc > 0.07
+				natsoc < 0.42
+			}
+			AND = {
+				fascism > 0.41
+				natsoc > 0.08
+				natsoc < 0.41
+			}
+			AND = {
+				fascism > 0.4
+				natsoc > 0.09
+				natsoc < 0.4
+			}
+			AND = {
+				fascism > 0.39
+				natsoc > 0.1
+				natsoc < 0.39
+			}
+			AND = {
+				fascism > 0.38
+				natsoc > 0.11
+				natsoc < 0.38
+			}
+			AND = {
+				fascism > 0.37
+				natsoc > 0.12
+				natsoc < 0.37
+			}
+			AND = {
+				fascism > 0.36
+				natsoc > 0.13
+				natsoc < 0.36
+			}
+			AND = {
+				fascism > 0.35
+				natsoc > 0.14
+				natsoc < 0.35
+			}
+			AND = {
+				fascism > 0.34
+				natsoc > 0.15
+				natsoc < 0.34
+			}
+			AND = {
+				fascism > 0.33
+				natsoc > 0.16
+				natsoc < 0.33
+			}
+			AND = {
+				fascism > 0.32
+				natsoc > 0.17
+				natsoc < 0.32
+			}
+			AND = {
+				fascism > 0.31
+				natsoc > 0.18
+				natsoc < 0.31
+			}
+			AND = {
+				fascism > 0.3
+				natsoc > 0.19
+				natsoc < 0.3
+			}
+			AND = {
+				fascism > 0.29
+				natsoc > 0.2
+				natsoc < 0.29
+			}
+			AND = {
+				fascism > 0.28
+				natsoc > 0.21
+				natsoc < 0.28
+			}
+			AND = {
+				fascism > 0.27
+				natsoc > 0.22
+				natsoc < 0.27
+			}
+			AND = {
+				fascism > 0.26
+				natsoc > 0.23
+				natsoc < 0.26
+			}
+			AND = {
+				fascism > 0.25
+				natsoc > 0.24
+				natsoc < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.28.a
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+	}
+}
+
+# National Socialist-Led Fascist coalition
+country_event = {
+	id = election_ww1_iw.29
+	title = election_ww1_iw.29.t
+	desc = election_ww1_iw.29.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				natsoc > 0.49
+				fascism > 0
+				fascism < 0.49
+			}
+			AND = {
+				natsoc > 0.48
+				fascism > 0.01
+				fascism < 0.48
+			}
+			AND = {
+				natsoc > 0.47
+				fascism > 0.02
+				fascism < 0.47
+			}
+			AND = {
+				natsoc > 0.46
+				fascism > 0.03
+				fascism < 0.46
+			}
+			AND = {
+				natsoc > 0.45
+				fascism > 0.04
+				fascism < 0.45
+			}
+			AND = {
+				natsoc > 0.44
+				fascism > 0.05
+				fascism < 0.44
+			}
+			AND = {
+				natsoc > 0.43
+				fascism > 0.06
+				fascism < 0.43
+			}
+			AND = {
+				natsoc > 0.42
+				fascism > 0.07
+				fascism < 0.42
+			}
+			AND = {
+				natsoc > 0.41
+				fascism > 0.08
+				fascism < 0.41
+			}
+			AND = {
+				natsoc > 0.4
+				fascism > 0.09
+				fascism < 0.4
+			}
+			AND = {
+				natsoc > 0.39
+				fascism > 0.1
+				fascism < 0.39
+			}
+			AND = {
+				natsoc > 0.38
+				fascism > 0.11
+				fascism < 0.38
+			}
+			AND = {
+				natsoc > 0.37
+				fascism > 0.12
+				fascism < 0.37
+			}
+			AND = {
+				natsoc > 0.36
+				fascism > 0.13
+				fascism < 0.36
+			}
+			AND = {
+				natsoc > 0.35
+				fascism > 0.14
+				fascism < 0.35
+			}
+			AND = {
+				natsoc > 0.34
+				fascism > 0.15
+				fascism < 0.34
+			}
+			AND = {
+				natsoc > 0.33
+				fascism > 0.16
+				fascism < 0.33
+			}
+			AND = {
+				natsoc > 0.32
+				fascism > 0.17
+				fascism < 0.32
+			}
+			AND = {
+				natsoc > 0.31
+				fascism > 0.18
+				fascism < 0.31
+			}
+			AND = {
+				natsoc > 0.3
+				fascism > 0.19
+				fascism < 0.3
+			}
+			AND = {
+				natsoc > 0.29
+				fascism > 0.2
+				fascism < 0.29
+			}
+			AND = {
+				natsoc > 0.28
+				fascism > 0.21
+				fascism < 0.28
+			}
+			AND = {
+				natsoc > 0.27
+				fascism > 0.22
+				fascism < 0.27
+			}
+			AND = {
+				natsoc > 0.26
+				fascism > 0.23
+				fascism < 0.26
+			}
+			AND = {
+				natsoc > 0.25
+				fascism > 0.24
+				fascism < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.29.a
+		set_politics = {
+			ruling_party = natsoc
+			elections_allowed = no
+		}
+	}
+}
+
+# Autocratic-led National-Socialist Coalition
+country_event = {
+	id = election_ww1_iw.30
+	title = election_ww1_iw.30.t
+	desc = election_ww1_iw.30.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				autocratic > 0.49
+				natsoc > 0
+				natsoc < 0.49
+			}
+			AND = {
+				autocratic > 0.48
+				natsoc > 0.01
+				natsoc < 0.48
+			}
+			AND = {
+				autocratic > 0.47
+				natsoc > 0.02
+				natsoc < 0.47
+			}
+			AND = {
+				autocratic > 0.46
+				natsoc > 0.03
+				natsoc < 0.46
+			}
+			AND = {
+				autocratic > 0.45
+				natsoc > 0.04
+				natsoc < 0.45
+			}
+			AND = {
+				autocratic > 0.44
+				natsoc > 0.05
+				natsoc < 0.44
+			}
+			AND = {
+				autocratic > 0.43
+				natsoc > 0.06
+				natsoc < 0.43
+			}
+			AND = {
+				autocratic > 0.42
+				natsoc > 0.07
+				natsoc < 0.42
+			}
+			AND = {
+				autocratic > 0.41
+				natsoc > 0.08
+				natsoc < 0.41
+			}
+			AND = {
+				autocratic > 0.4
+				natsoc > 0.09
+				natsoc < 0.4
+			}
+			AND = {
+				autocratic > 0.39
+				natsoc > 0.1
+				natsoc < 0.39
+			}
+			AND = {
+				autocratic > 0.38
+				natsoc > 0.11
+				natsoc < 0.38
+			}
+			AND = {
+				autocratic > 0.37
+				natsoc > 0.12
+				natsoc < 0.37
+			}
+			AND = {
+				autocratic > 0.36
+				natsoc > 0.13
+				natsoc < 0.36
+			}
+			AND = {
+				autocratic > 0.35
+				natsoc > 0.14
+				natsoc < 0.35
+			}
+			AND = {
+				autocratic > 0.34
+				natsoc > 0.15
+				natsoc < 0.34
+			}
+			AND = {
+				autocratic > 0.33
+				natsoc > 0.16
+				natsoc < 0.33
+			}
+			AND = {
+				autocratic > 0.32
+				natsoc > 0.17
+				natsoc < 0.32
+			}
+			AND = {
+				autocratic > 0.31
+				natsoc > 0.18
+				natsoc < 0.31
+			}
+			AND = {
+				autocratic > 0.3
+				natsoc > 0.19
+				natsoc < 0.3
+			}
+			AND = {
+				autocratic > 0.29
+				natsoc > 0.2
+				natsoc < 0.29
+			}
+			AND = {
+				autocratic > 0.28
+				natsoc > 0.21
+				natsoc < 0.28
+			}
+			AND = {
+				autocratic > 0.27
+				natsoc > 0.22
+				natsoc < 0.27
+			}
+			AND = {
+				autocratic > 0.26
+				natsoc > 0.23
+				natsoc < 0.26
+			}
+			AND = {
+				autocratic > 0.25
+				natsoc > 0.24
+				natsoc < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.30.a
+		set_politics = {
+			ruling_party = autocratic
+		}
+		add_ideas = autns_coalition
+	}
+}
+
+# National-Socialist-led Autocratic coalition
+country_event = {
+	id = election_ww1_iw.31
+	title = election_ww1_iw.31.t
+	desc = election_ww1_iw.31.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				natsoc > 0.49
+				autocratic > 0
+				autocratic < 0.49
+			}
+			AND = {
+				natsoc > 0.48
+				autocratic > 0.01
+				autocratic < 0.48
+			}
+			AND = {
+				natsoc > 0.47
+				autocratic > 0.02
+				autocratic < 0.47
+			}
+			AND = {
+				natsoc > 0.46
+				autocratic > 0.03
+				autocratic < 0.46
+			}
+			AND = {
+				natsoc > 0.45
+				autocratic > 0.04
+				autocratic < 0.45
+			}
+			AND = {
+				natsoc > 0.44
+				autocratic > 0.05
+				autocratic < 0.44
+			}
+			AND = {
+				natsoc > 0.43
+				autocratic > 0.06
+				autocratic < 0.43
+			}
+			AND = {
+				natsoc > 0.42
+				autocratic > 0.07
+				autocratic < 0.42
+			}
+			AND = {
+				natsoc > 0.41
+				autocratic > 0.08
+				autocratic < 0.41
+			}
+			AND = {
+				natsoc > 0.4
+				autocratic > 0.09
+				autocratic < 0.4
+			}
+			AND = {
+				natsoc > 0.39
+				autocratic > 0.1
+				autocratic < 0.39
+			}
+			AND = {
+				natsoc > 0.38
+				autocratic > 0.11
+				autocratic < 0.38
+			}
+			AND = {
+				natsoc > 0.37
+				autocratic > 0.12
+				autocratic < 0.37
+			}
+			AND = {
+				natsoc > 0.36
+				autocratic > 0.13
+				autocratic < 0.36
+			}
+			AND = {
+				natsoc > 0.35
+				autocratic > 0.14
+				autocratic < 0.35
+			}
+			AND = {
+				natsoc > 0.34
+				autocratic > 0.15
+				autocratic < 0.34
+			}
+			AND = {
+				natsoc > 0.33
+				autocratic > 0.16
+				autocratic < 0.33
+			}
+			AND = {
+				natsoc > 0.32
+				autocratic > 0.17
+				autocratic < 0.32
+			}
+			AND = {
+				natsoc > 0.31
+				autocratic > 0.18
+				autocratic < 0.31
+			}
+			AND = {
+				natsoc > 0.3
+				autocratic > 0.19
+				autocratic < 0.3
+			}
+			AND = {
+				natsoc > 0.29
+				autocratic > 0.2
+				autocratic < 0.29
+			}
+			AND = {
+				natsoc > 0.28
+				autocratic > 0.21
+				autocratic < 0.28
+			}
+			AND = {
+				natsoc > 0.27
+				autocratic > 0.22
+				autocratic < 0.27
+			}
+			AND = {
+				natsoc > 0.26
+				autocratic > 0.23
+				autocratic < 0.26
+			}
+			AND = {
+				natsoc > 0.25
+				autocratic > 0.24
+				autocratic < 0.26
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.31.a
+		set_politics = {
+			ruling_party = natsoc
+		}
+		add_ideas = nsaut_coalition
+	}
+}
+
+###########################
+# Democratic trio coalitions - mostly failsafe
+###########################
+
+# Liberal-led Conservative-centre coalition
+country_event = {
+	id = election_ww1_iw.32
+	title = election_ww1_iw.32.t
+	desc = election_ww1_iw.32.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				liberal > 0.24
+				conservative > 0
+				conservative < 0.24
+				democratic > 0
+				democratic < 0.24
+			}
+			AND = {
+				liberal > 0.23
+				conservative > 0
+				conservative < 0.23
+				democratic > 0
+				democratic < 0.23
+			}
+			AND = {
+				liberal > 0.22
+				conservative > 0
+				conservative < 0.22
+				democratic > 0
+				democratic < 0.22
+			}
+			AND = {
+				liberal > 0.21
+				conservative > 0
+				conservative < 0.21
+				democratic > 0
+				democratic < 0.21
+			}
+			AND = {
+				liberal > 0.2
+				conservative > 0
+				conservative < 0.2
+				democratic > 0
+				democratic < 0.2
+			}
+			AND = {
+				liberal > 0.19
+				conservative > 0
+				conservative < 0.19
+				democratic > 0
+				democratic < 0.19
+			}
+			AND = {
+				liberal > 0.18
+				conservative > 0
+				conservative < 0.18
+				democratic > 0
+				democratic < 0.18
+			}
+			AND = {
+				liberal > 0.17
+				conservative > 0
+				conservative < 0.17
+				democratic > 0
+				democratic < 0.16
+			}
+			AND = {
+				liberal > 0.16
+				conservative > 0
+				conservative < 0.16
+				democratic > 0
+				democratic < 0.16
+			}
+			AND = {
+				liberal > 0.15
+				conservative > 0
+				conservative < 0.15
+				democratic > 0
+				democratic < 0.15
+			}
+			AND = {
+				liberal > 0.14
+				conservative > 0
+				conservative < 0.14
+				democratic > 0
+				democratic < 0.14
+			}
+			AND = {
+				liberal > 0.13
+				conservative > 0
+				conservative < 0.13
+				democratic > 0
+				democratic < 0.13
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.32.a
+		set_politics = {
+			ruling_party = liberal
+		}
+		add_ideas = libdemcon_coalition
+	}
+}
+
+# Conservative-led Liberal-Centre coalition
+country_event = {
+	id = election_ww1_iw.33
+	title = election_ww1_iw.33.t
+	desc = election_ww1_iw.33.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				conservative > 0.24
+				liberal > 0
+				liberal < 0.24
+				democratic > 0
+				democratic < 0.24
+			}
+			AND = {
+				conservative > 0.23
+				liberal > 0
+				liberal < 0.23
+				democratic > 0
+				democratic < 0.23
+			}
+			AND = {
+				conservative > 0.22
+				liberal > 0
+				liberal < 0.22
+				democratic > 0
+				democratic < 0.22
+			}
+			AND = {
+				conservative > 0.21
+				liberal > 0
+				liberal < 0.21
+				democratic > 0
+				democratic < 0.21
+			}
+			AND = {
+				conservative > 0.2
+				liberal > 0
+				liberal < 0.2
+				democratic > 0
+				democratic < 0.2
+			}
+			AND = {
+				conservative > 0.19
+				liberal > 0
+				liberal < 0.19
+				democratic > 0
+				democratic < 0.19
+			}
+			AND = {
+				conservative > 0.18
+				liberal > 0
+				liberal < 0.18
+				democratic > 0
+				democratic < 0.18
+			}
+			AND = {
+				conservative > 0.17
+				liberal > 0
+				liberal < 0.17
+				democratic > 0
+				democratic < 0.16
+			}
+			AND = {
+				conservative > 0.16
+				liberal > 0
+				liberal < 0.16
+				democratic > 0
+				democratic < 0.16
+			}
+			AND = {
+				conservative > 0.15
+				liberal > 0
+				liberal < 0.15
+				democratic > 0
+				democratic < 0.15
+			}
+			AND = {
+				conservative > 0.14
+				liberal > 0
+				liberal < 0.14
+				democratic > 0
+				democratic < 0.14
+			}
+			AND = {
+				conservative > 0.13
+				liberal > 0
+				liberal < 0.13
+				democratic > 0
+				democratic < 0.13
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.33.a
+		set_politics = {
+			ruling_party = conservative
+		}
+		add_ideas = conlibdem_coalition
+	}
+}
+
+# Centre-led Conservative-Liberal coalition
+country_event = {
+	id = election_ww1_iw.34
+	title = election_ww1_iw.34.t
+	desc = election_ww1_iw.34.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				democratic > 0.24
+				conservative > 0
+				conservative < 0.24
+				liberal > 0
+				liberal < 0.24
+			}
+			AND = {
+				democratic > 0.23
+				conservative > 0
+				conservative < 0.23
+				liberal > 0
+				liberal < 0.23
+			}
+			AND = {
+				democratic > 0.22
+				conservative > 0
+				conservative < 0.22
+				liberal > 0
+				liberal < 0.22
+			}
+			AND = {
+				democratic > 0.21
+				conservative > 0
+				conservative < 0.21
+				liberal > 0
+				liberal < 0.21
+			}
+			AND = {
+				democratic > 0.2
+				conservative > 0
+				conservative < 0.2
+				liberal > 0
+				liberal < 0.2
+			}
+			AND = {
+				democratic > 0.19
+				conservative > 0
+				conservative < 0.19
+				liberal > 0
+				liberal < 0.19
+			}
+			AND = {
+				democratic > 0.18
+				conservative > 0
+				conservative < 0.18
+				liberal > 0
+				liberal < 0.18
+			}
+			AND = {
+				democratic > 0.17
+				conservative > 0
+				conservative < 0.17
+				liberal > 0
+				liberal < 0.16
+			}
+			AND = {
+				democratic > 0.16
+				conservative > 0
+				conservative < 0.16
+				liberal > 0
+				liberal < 0.16
+			}
+			AND = {
+				democratic > 0.15
+				conservative > 0
+				conservative < 0.15
+				liberal > 0
+				liberal < 0.15
+			}
+			AND = {
+				democratic > 0.14
+				conservative > 0
+				conservative < 0.14
+				liberal > 0
+				liberal < 0.14
+			}
+			AND = {
+				democratic > 0.13
+				conservative > 0
+				conservative < 0.13
+				liberal > 0
+				liberal < 0.13
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.34.a
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_ideas = demlibcon_coalition
+	}
+}
+
+# Socialist-led Liberal-centre coalition
+country_event = {
+	id = election_ww1_iw.35
+	title = election_ww1_iw.35.t
+	desc = election_ww1_iw.35.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				socialist > 0.24
+				liberal > 0
+				liberal < 0.24
+				democratic > 0
+				democratic < 0.24
+			}
+			AND = {
+				socialist > 0.23
+				liberal > 0
+				liberal < 0.23
+				democratic > 0
+				democratic < 0.23
+			}
+			AND = {
+				socialist > 0.22
+				liberal > 0
+				liberal < 0.22
+				democratic > 0
+				democratic < 0.22
+			}
+			AND = {
+				socialist > 0.21
+				liberal > 0
+				liberal < 0.21
+				democratic > 0
+				democratic < 0.21
+			}
+			AND = {
+				socialist > 0.2
+				liberal > 0
+				liberal < 0.2
+				democratic > 0
+				democratic < 0.2
+			}
+			AND = {
+				socialist > 0.19
+				liberal > 0
+				liberal < 0.19
+				democratic > 0
+				democratic < 0.19
+			}
+			AND = {
+				socialist > 0.18
+				liberal > 0
+				liberal < 0.18
+				democratic > 0
+				democratic < 0.18
+			}
+			AND = {
+				socialist > 0.17
+				liberal > 0
+				liberal < 0.17
+				democratic > 0
+				democratic < 0.16
+			}
+			AND = {
+				socialist > 0.16
+				liberal > 0
+				liberal < 0.16
+				democratic > 0
+				democratic < 0.16
+			}
+			AND = {
+				socialist > 0.15
+				liberal > 0
+				liberal < 0.15
+				democratic > 0
+				democratic < 0.15
+			}
+			AND = {
+				socialist > 0.14
+				liberal > 0
+				liberal < 0.14
+				democratic > 0
+				democratic < 0.14
+			}
+			AND = {
+				socialist > 0.13
+				liberal > 0
+				liberal < 0.13
+				democratic > 0
+				democratic < 0.13
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.35.a
+		set_politics = {
+			ruling_party = socialist
+		}
+		add_ideas = soclibdem_coalition
+	}
+}
+
+# Centre-led Socialist-liberal coalition
+country_event = {
+	id = election_ww1_iw.36
+	title = election_ww1_iw.36.t
+	desc = election_ww1_iw.36.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				democratic > 0.24
+				liberal > 0
+				liberal < 0.24
+				socialist > 0
+				socialist < 0.24
+			}
+			AND = {
+				democratic > 0.23
+				liberal > 0
+				liberal < 0.23
+				socialist > 0
+				socialist < 0.23
+			}
+			AND = {
+				democratic > 0.22
+				liberal > 0
+				liberal < 0.22
+				socialist > 0
+				socialist < 0.22
+			}
+			AND = {
+				democratic > 0.21
+				liberal > 0
+				liberal < 0.21
+				socialist > 0
+				socialist < 0.21
+			}
+			AND = {
+				democratic > 0.2
+				liberal > 0
+				liberal < 0.2
+				socialist > 0
+				socialist < 0.2
+			}
+			AND = {
+				democratic > 0.19
+				liberal > 0
+				liberal < 0.19
+				socialist > 0
+				socialist < 0.19
+			}
+			AND = {
+				democratic > 0.18
+				liberal > 0
+				liberal < 0.18
+				socialist > 0
+				socialist < 0.18
+			}
+			AND = {
+				democratic > 0.17
+				liberal > 0
+				liberal < 0.17
+				socialist > 0
+				socialist < 0.16
+			}
+			AND = {
+				democratic > 0.16
+				liberal > 0
+				liberal < 0.16
+				socialist > 0
+				socialist < 0.16
+			}
+			AND = {
+				democratic > 0.15
+				liberal > 0
+				liberal < 0.15
+				socialist > 0
+				socialist < 0.15
+			}
+			AND = {
+				democratic > 0.14
+				liberal > 0
+				liberal < 0.14
+				socialist > 0
+				socialist < 0.14
+			}
+			AND = {
+				democratic > 0.13
+				liberal > 0
+				liberal < 0.13
+				socialist > 0
+				socialist < 0.13
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.36.a
+		set_politics = {
+			ruling_party = democratic
+		}
+		add_ideas = demlibsoc_coalition
+	}
+}
+
+# Liberal-led socialist-centre coalition
+country_event = {
+	id = election_ww1_iw.43
+	title = election_ww1_iw.43.t
+	desc = election_ww1_iw.43.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				liberal > 0.24
+				socialist > 0
+				socialist < 0.24
+				democratic > 0
+				democratic < 0.24
+			}
+			AND = {
+				liberal > 0.23
+				socialist > 0
+				socialist < 0.23
+				democratic > 0
+				democratic < 0.23
+			}
+			AND = {
+				liberal > 0.22
+				socialist > 0
+				socialist < 0.22
+				democratic > 0
+				democratic < 0.22
+			}
+			AND = {
+				liberal > 0.21
+				socialist > 0
+				socialist < 0.21
+				democratic > 0
+				democratic < 0.21
+			}
+			AND = {
+				liberal > 0.2
+				socialist > 0
+				socialist < 0.2
+				democratic > 0
+				democratic < 0.2
+			}
+			AND = {
+				liberal > 0.19
+				socialist > 0
+				socialist < 0.19
+				democratic > 0
+				democratic < 0.19
+			}
+			AND = {
+				liberal > 0.18
+				socialist > 0
+				socialist < 0.18
+				democratic > 0
+				democratic < 0.18
+			}
+			AND = {
+				liberal > 0.17
+				socialist > 0
+				socialist < 0.17
+				democratic > 0
+				democratic < 0.16
+			}
+			AND = {
+				liberal > 0.16
+				socialist > 0
+				socialist < 0.16
+				democratic > 0
+				democratic < 0.16
+			}
+			AND = {
+				liberal > 0.15
+				socialist > 0
+				socialist < 0.15
+				democratic > 0
+				democratic < 0.15
+			}
+			AND = {
+				liberal > 0.14
+				socialist > 0
+				socialist < 0.14
+				democratic > 0
+				democratic < 0.14
+			}
+			AND = {
+				liberal > 0.13
+				socialist > 0
+				socialist < 0.13
+				democratic > 0
+				democratic < 0.13
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.43.a
+		set_politics = {
+			ruling_party = liberal
+		}
+		add_ideas = libsocdem_coalition
+	}
+}
+
+###########################
+# Rightwing trio coalitions - mostly failsafe
+###########################
+
+# Autocratic-led Fascist-National-Socialist Coalition
+country_event = {
+	id = election_ww1_iw.37
+	title = election_ww1_iw.37.t
+	desc = election_ww1_iw.37.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				autocratic > 0.24
+				fascism > 0
+				fascism < 0.24
+				natsoc > 0
+				natsoc < 0.24
+			}
+			AND = {
+				autocratic > 0.23
+				fascism > 0
+				fascism < 0.23
+				natsoc > 0
+				natsoc < 0.23
+			}
+			AND = {
+				autocratic > 0.22
+				fascism > 0
+				fascism < 0.22
+				natsoc > 0
+				natsoc < 0.22
+			}
+			AND = {
+				autocratic > 0.21
+				fascism > 0
+				fascism < 0.21
+				natsoc > 0
+				natsoc < 0.21
+			}
+			AND = {
+				autocratic > 0.2
+				fascism > 0
+				fascism < 0.2
+				natsoc > 0
+				natsoc < 0.2
+			}
+			AND = {
+				autocratic > 0.19
+				fascism > 0
+				fascism < 0.19
+				natsoc > 0
+				natsoc < 0.19
+			}
+			AND = {
+				autocratic > 0.18
+				fascism > 0
+				fascism < 0.18
+				natsoc > 0
+				natsoc < 0.18
+			}
+			AND = {
+				autocratic > 0.17
+				fascism > 0
+				fascism < 0.17
+				natsoc > 0
+				natsoc < 0.16
+			}
+			AND = {
+				autocratic > 0.16
+				fascism > 0
+				fascism < 0.16
+				natsoc > 0
+				natsoc < 0.16
+			}
+			AND = {
+				autocratic > 0.15
+				fascism > 0
+				fascism < 0.15
+				natsoc > 0
+				natsoc < 0.15
+			}
+			AND = {
+				autocratic > 0.14
+				fascism > 0
+				fascism < 0.14
+				natsoc > 0
+				natsoc < 0.14
+			}
+			AND = {
+				autocratic > 0.13
+				fascism > 0
+				fascism < 0.13
+				natsoc > 0
+				natsoc < 0.13
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.37.a
+		set_politics = {
+			ruling_party = autocratic
+		}
+		add_ideas = autnsfas_coalition
+	}
+}
+
+# Fascist-Led Autocratic NS coalition
+country_event = {
+	id = election_ww1_iw.38
+	title = election_ww1_iw.38.t
+	desc = election_ww1_iw.38.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				fascism > 0.24
+				autocratic > 0
+				autocratic < 0.24
+				natsoc > 0
+				natsoc < 0.24
+			}
+			AND = {
+				fascism > 0.23
+				autocratic > 0
+				autocratic < 0.23
+				natsoc > 0
+				natsoc < 0.23
+			}
+			AND = {
+				fascism > 0.22
+				autocratic > 0
+				autocratic < 0.22
+				natsoc > 0
+				natsoc < 0.22
+			}
+			AND = {
+				fascism > 0.21
+				autocratic > 0
+				autocratic < 0.21
+				natsoc > 0
+				natsoc < 0.21
+			}
+			AND = {
+				fascism > 0.2
+				autocratic > 0
+				autocratic < 0.2
+				natsoc > 0
+				natsoc < 0.2
+			}
+			AND = {
+				fascism > 0.19
+				autocratic > 0
+				autocratic < 0.19
+				natsoc > 0
+				natsoc < 0.19
+			}
+			AND = {
+				fascism > 0.18
+				autocratic > 0
+				autocratic < 0.18
+				natsoc > 0
+				natsoc < 0.18
+			}
+			AND = {
+				fascism > 0.17
+				autocratic > 0
+				autocratic < 0.17
+				natsoc > 0
+				natsoc < 0.16
+			}
+			AND = {
+				fascism > 0.16
+				autocratic > 0
+				autocratic < 0.16
+				natsoc > 0
+				natsoc < 0.16
+			}
+			AND = {
+				fascism > 0.15
+				autocratic > 0
+				autocratic < 0.15
+				natsoc > 0
+				natsoc < 0.15
+			}
+			AND = {
+				fascism > 0.14
+				autocratic > 0
+				autocratic < 0.14
+				natsoc > 0
+				natsoc < 0.14
+			}
+			AND = {
+				fascism > 0.13
+				autocratic > 0
+				autocratic < 0.13
+				natsoc > 0
+				natsoc < 0.13
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.38.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		add_ideas = fasnsaut_coalition
+	}
+}
+
+# NS-led Fascist-Autocratic coalition
+country_event = {
+	id = election_ww1_iw.39
+	title = election_ww1_iw.39.t
+	desc = election_ww1_iw.39.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		has_idea = government_formation
+		OR = {
+			AND = {
+				natsoc > 0.24
+				fascism > 0
+				fascism < 0.24
+				autocratic > 0
+				autocratic < 0.24
+			}
+			AND = {
+				natsoc > 0.23
+				fascism > 0
+				fascism < 0.23
+				autocratic > 0
+				autocratic < 0.23
+			}
+			AND = {
+				natsoc > 0.22
+				fascism > 0
+				fascism < 0.22
+				autocratic > 0
+				autocratic < 0.22
+			}
+			AND = {
+				natsoc > 0.21
+				fascism > 0
+				fascism < 0.21
+				autocratic > 0
+				autocratic < 0.21
+			}
+			AND = {
+				natsoc > 0.2
+				fascism > 0
+				fascism < 0.2
+				autocratic > 0
+				autocratic < 0.2
+			}
+			AND = {
+				natsoc > 0.19
+				fascism > 0
+				fascism < 0.19
+				autocratic > 0
+				autocratic < 0.19
+			}
+			AND = {
+				natsoc > 0.18
+				fascism > 0
+				fascism < 0.18
+				autocratic > 0
+				autocratic < 0.18
+			}
+			AND = {
+				natsoc > 0.17
+				fascism > 0
+				fascism < 0.17
+				autocratic > 0
+				autocratic < 0.16
+			}
+			AND = {
+				natsoc > 0.16
+				fascism > 0
+				fascism < 0.16
+				autocratic > 0
+				autocratic < 0.16
+			}
+			AND = {
+				natsoc > 0.15
+				fascism > 0
+				fascism < 0.15
+				autocratic > 0
+				autocratic < 0.15
+			}
+			AND = {
+				natsoc > 0.14
+				fascism > 0
+				fascism < 0.14
+				autocratic > 0
+				autocratic < 0.14
+			}
+			AND = {
+				natsoc > 0.13
+				fascism > 0
+				fascism < 0.13
+				autocratic > 0
+				autocratic < 0.13
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.39.a
+		set_politics = {
+			ruling_party = natsoc
+		}
+		add_ideas = nsfasaut_coalition
+	}
+}
+
+###########################
+# Independents form coalition - last resort
+###########################
+
+# Independent-led coalition
+country_event = {
+	id = election_ww1_iw.40
+	title = election_ww1_iw.40.t
+	desc = election_ww1_iw.40.d
+	picture = GFX_report_event_airplane_factory
+	
+	mean_time_to_happen = {
+		years = 2
+	}
+	
+	trigger = {
+		has_idea = government_formation
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = government_formation }
+	}	
+	
+	option = {
+		name = election_ww1_iw.39.a
+		set_politics = {
+			ruling_party = neutrality
+		}
+		add_ideas = independent_coalition
+	}
+}

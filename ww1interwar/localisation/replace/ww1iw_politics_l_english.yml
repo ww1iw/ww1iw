@@ -1,0 +1,8 @@
+﻿l_english:
+ POLITICS_NEXTELECTION:0 "Election"
+ POLITICS_NEXT_ELECTION:0 "Election: $DATE$"
+ POLITICS_SELECT_GOAL_DESC:0 "A §YNational Goal§! is something of a promise to the nation.\n\n Picking one will generally cost you §YMoney§!, but you'll usually get it back plus more reward if you can show that you were able to accomplish it.\n\nYou'll find major historical undertakings here as well as more humble ways of improving your nation."
+ POLITICS_POLITICAL_POWER_INCREASE:0 "Income: $VALUE|2=+$ per day."
+ REMOVE_IDEA_POLITICAL_POWER:0 "§RYou don't have enough §HMoney§! to remove this.\nCost to remove (£pol_power ): $VALUE|0$§!"
+ MANAGE_GOVERNMENT_DESC:0 "Change laws, hire or fire ministers and contract companies for research. Most actions here will cost §YMoney§!"
+ POLITICS_PAUSED_NO_POLITICAL_POWER:0 "§RThis action is currently paused because of lack of Money§!"

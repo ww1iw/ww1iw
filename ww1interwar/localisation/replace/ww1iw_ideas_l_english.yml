@@ -1,0 +1,65 @@
+﻿l_english:
+ unity_ideal:0 "The Ideal of Unity"
+ unity_ideal_desc:0 "The culture of the country reflects ideals of political harmony and territorial integrity."
+ strength_strength:0 "The Ideal of Strength"
+ strength_ideal_desc:0 "The culture of the country reflects ideals of national defense and geopolitical power."
+ liberty_ideal:0 "The Ideal of Liberty"
+ liberty_ideal_desc:0 "The culture of the country reflects ideals of domestic freedom and economic prosperity."
+ progress_ideal:0 "The Ideal of Progress"
+ progress_ideal_desc:0 "The culture of the country reflects the ideal of advancing the country's technological and economic status."
+ imperial_ideal:0 "The Ideal of Empire"
+ imperial_ideal_desc:0 "The culture of the country reflects the ideal of uniting different peoples under one authority and expanding the wealth of the nation."
+ revolutionary_ideal:0 "The Ideal of Revolution"
+ revolutionary_ideal_desc:0 "The culture of the country reflects the ideals of reorganizing society and creating a new political order."
+ neutrality_ideal:0 "The Ideal of Neutrality"
+ neutrality_ideal_desc:0 "The culture of the country reflects the ideals of maintaining stability and political independence."
+ rasputin:0 "Rasputin"
+ rasputin_desc:0 "A Russian peasant, mystical faith healer, and trusted friend of the imperial family. He is becoming an influential figure in the capital, but rumor and suspicion surround him."
+ burgfrieden:0 "Burgfrieden"
+ burgfrieden_desc:0 "A sometimes useful, sometimes not, policy of maintaining political balance and a minimum standard of mutual respect between parties or factions through private meetings and open streets."
+ economy_banking:0 "Economy"
+ banking_policy:0 "Banking System"
+ taxation_policy:0 "Taxation Policy"
+ investment_policy:0 "Economic System"
+ salary:0 "Wages & Salaries"
+ subsidy:0 "Subsidy Programs"
+ foreign_policy:0 "Foreign Policy"
+ civil_liberties:0 "Civil Liberties"
+ press_freedom:0 "Press Freedom" #lower unity, lower consumer goods demand, drift for the democratic ideologies
+ propaganda:0 "Propaganda"
+ censorship:0 "Censorship" #democratic ideologies must be at war
+ suppression:0 "Suppression" #higher unity, higher consumer goods demand, not available to democratic ideologies
+ international_banking:0 "International Banking System"
+ self_reliance:0 "Insular Banking System"
+ taxpolicy1:0 "Very Low Taxation" #even more factories opened in Market Economy/Intervensionism
+ taxpolicy2:0 "Low Taxation" #more factories opened in Market Economy/Intervensionism
+ taxpolicy3:0 "Medium Taxation"
+ taxpolicy4:0 "High Taxation" #fewer factories opened in Market Economy/Intervensionism
+ taxpolicy5:0 "Very High Taxation" #much fewer factories opened in Market Economy/Intervensionism
+ market_economy:0 "Market Economy" #factories are by event, expensive conversion, slow infra, less mp/conscription, bankruptcy by event - not available to natsoc, communist
+ econ_intervention:0 "Interventionism" #factories are by event, normal conversion price - not available to communist - can stop a bankruptcy by event by investing Money
+ state_capitalism:0 "State Capitalism" #factories are by event AND can be built, cheap conversion, fast infra, no bankruptcy by event - available to socialists, autocrats, fascists, national socialists
+ planned_economy:0 "Planned Economy" #factories are built, cheaper conversion cost, fast infra, no bankruptcy by event - available to socialists, communists, fascists, national socialists
+ collectivisation:0 "Collectivisation" #factories are built, no conversion cost, faster infra, more mp/conscription, no bankruptcy by event - only available to communists
+ salpolicy1:0 "Minimal Salaries"
+ salpolicy2:0 "Moderate Salaries"
+ salpolicy3:0 "High Salaries"
+ salpolicy4:0 "Perks & Pensions"
+ balanced_program:0 "Balanced Subsidies"
+ favor_private:0 "Private Subsidies"
+ favor_state:0 "State Subsidies"
+ favor_military:0 "Military Subsidies"
+ favor_science:0 "Science Program"
+ isolationism:0 "Isolationism"
+ diplomatic_ministry:0 "Diplomatic Ministry"
+ interventionism:0 "Interventionism"
+ internationalism_fp:0 "Internationalism"
+ generic_national_socialist_agitator:0 "National Socialist Politician"
+ generic_socialist_union_leader:0 "Socialist Politician"
+ generic_liberal_reformer:0 "Liberal Politician"
+ generic_conservative_nobleman:0 "Conservative Politician"
+ generic_autocratic_soldier:0 "Autocratic Politician"
+ government:1 "Government"
+ research_production:0 "Science & Industry"
+ military_staff:0 "Military"
+ economy:0 "Industrial Policy"

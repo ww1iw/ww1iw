@@ -1,0 +1,6 @@
+﻿l_english:
+ OCCUPIED_COUNTRY_COST:0 "$VALUE$ Money/Day"
+ coal_desc:0 "Coal is critical for powering your factories and keeping logistics trains running."
+ minerals_desc:0 "Minerals are important for the production of explosives.  It can be converted into Glass or Chemicals."
+ glass_desc:0 "Glass is important for the construction of many buildings and vehicles."
+ chemicals_desc:0 "Chemicals are rare and critical for some advanced technologies."

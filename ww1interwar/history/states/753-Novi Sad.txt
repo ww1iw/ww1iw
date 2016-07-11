@@ -1,0 +1,22 @@
+state={
+	id=753
+	name="STATE_753"
+	manpower = 500000
+	
+	state_category = rural
+	
+	history = {
+		owner = AUS
+		1923.1.1 = { 
+			owner = YUG 
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = YUG
+		add_claim_by = HUN
+	}
+	provinces={
+		614 3614 6643 11580 11787 
+	}
+}

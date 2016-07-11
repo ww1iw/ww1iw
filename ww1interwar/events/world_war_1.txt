@@ -1,0 +1,260 @@
+﻿add_namespace = world_war_1
+
+# Franz Ferdinand assassinated by Gavrilo Prinzip
+country_event = {
+	id = world_war_1.1
+	title = world_war_1.1.t
+	desc = world_war_1.1.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1914.6.1
+		tag = AUS
+		NOT = {
+			OR = {
+				has_country_flag = franz_ferdinand_assassinated
+				has_country_flag = franz_ferdinand_survived
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		set_country_flag = franz_ferdinand_assassinated
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.1 }
+		}
+	}
+	
+	option = {
+		name = world_war_1.1.a	#historical ultimatum
+		ai_chance = { factor = 90 }
+		SER = {
+			country_event = { days = 20 id = world_war_1.4 }
+		}
+	}
+	
+	option = {
+		name = world_war_1.1.b	#request serbian police investigation
+		ai_chance = { factor = 10 }
+		SER = {
+			country_event = { days = 20 id = world_war_1.5 }
+		}
+	}
+}
+
+# Franz Ferdinand assassinated by Nedeljko Čabrinović
+country_event = {
+	id = world_war_1.2
+	title = world_war_1.2.t
+	desc = world_war_1.2.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1914.6.1
+		tag = AUS
+		NOT = {
+			OR = {
+				has_country_flag = franz_ferdinand_assassinated
+				has_country_flag = franz_ferdinand_survived
+			}
+		}
+		NOT = {
+			is_historical_focus_on = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	immediate = {
+		set_country_flag = franz_ferdinand_assassinated
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.2 }
+		}
+	}
+	
+	option = {
+		name = world_war_1.2.a	#historical ultimatum
+		ai_chance = { factor = 90 }
+		SER = {
+			country_event = { days = 20 id = world_war_1.4 }
+		}
+	}
+	
+	option = {
+		name = world_war_1.2.b	#request serbian police investigation
+		ai_chance = { factor = 10 }
+		SER = {
+			country_event = { days = 20 id = world_war_1.5 }
+		}
+	}
+}
+
+# Franz Ferdinand survives assassination attempt
+country_event = {
+	id = world_war_1.3
+	title = world_war_1.3.t
+	desc = world_war_1.3.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1914.6.1
+		tag = AUS
+		NOT = {
+			OR = {
+				has_country_flag = franz_ferdinand_assassinated
+				has_country_flag = franz_ferdinand_survived
+			}
+		}
+		NOT = {
+			is_historical_focus_on = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 180
+	}
+	
+	immediate = {
+		set_country_flag = franz_ferdinand_survived
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.3 }
+		}
+	}
+	
+	option = {
+		name = world_war_1.3.a	#we are still douches
+		ai_chance = { factor = 10 }
+		SER = {
+			country_event = { days = 20 id = world_war_1.4 }
+		}
+	}
+	
+	option = {
+		name = world_war_1.3.b	#request serbian police investigation
+		ai_chance = { factor = 90 }
+		SER = {
+			country_event = { days = 20 id = world_war_1.5 }
+		}
+	}
+}
+
+# Austro-Hungarian Ultimatum
+country_event = {
+	id = world_war_1.4
+	title = world_war_1.4.t
+	desc = world_war_1.4.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world_war_1.4.a	#accept the ultimatum
+		ai_chance = { 
+			factor = 10
+			
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		AUS = {
+			country_event = { days = 20 id = world_war_1.6 }
+		}
+		AUS = {
+			puppet = ROOT
+		}
+	}
+	
+	option = {
+		name = world_war_1.4.b	#refuse ultimatum
+		ai_chance = { factor = 90 }
+		AUS = {
+			country_event = { days = 20 id = world_war_1.7 }
+		}
+		custom_effect_tooltip = ah_hostility
+	}
+}
+
+# Austria-Hungary demands police investigation!
+country_event = {
+	id = world_war_1.5
+	title = world_war_1.5.t
+	desc = world_war_1.5.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world_war_1.5.a	#accept the demands
+		ai_chance = { 
+			factor = 90
+		}
+		AUS = {
+			country_event = { days = 20 id = world_war_1.8 }
+		}
+		political_power = -1000
+	}
+	
+	option = {
+		name = world_war_1.5.b	#refuse demands
+		ai_chance = { factor = 90 }
+		AUS = {
+			country_event = { days = 20 id = world_war_1.7 }
+		}
+		custom_effect_tooltip = ah_hostility
+	}
+}
+
+# Serbia accepts our demands
+country_event = {
+	id = world_war_1.6
+	title = world_war_1.6.t
+	desc = world_war_1.6.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world_war_1.6.a	#diplomacy has won!
+		custom_effect_tooltip = serbia_yields
+	}
+}
+
+# Serbia refuses our demands
+country_event = {
+	id = world_war_1.7
+	title = world_war_1.7.t
+	desc = world_war_1.7.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world_war_1.6.a	#so you want war?
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = SER
+		} 
+	}
+}
+
+# Serbia accepts our demands of police investigation
+country_event = {
+	id = world_war_1.8
+	title = world_war_1.8.t
+	desc = world_war_1.8.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world_war_1.6.a	#Diplomacy has won!
+	}
+}
+

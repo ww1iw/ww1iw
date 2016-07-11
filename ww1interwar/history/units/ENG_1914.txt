@@ -1,0 +1,356 @@
+﻿division_template = {
+	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+units = {
+	division= {	
+		name = "1st Infantry Division"
+		location = 11333
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "2nd Infantry Division"
+		location = 11333
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "3rd Infantry Division"
+		location = 11333
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "4th Infantry Division"
+		location = 11333
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "5th Infantry Division"
+		location = 11333
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "6th Infantry Division"
+		location = 11333
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "7th Infantry Division"
+		location = 11333
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "1st Cavalry Division"
+		location = 11333
+		division_template = "Cavalry Brigade" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "8th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "9th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "10th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "11th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "12th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "13th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "14th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "2nd Cavalry Division"
+		location = 9392
+		division_template = "Cavalry Brigade" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	
+	division= {	
+		name = "15th Infantry Division"
+		location = 11293
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "16th Infantry Division"
+		location = 11293
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "17th Infantry Division"
+		location = 11293
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "18th Infantry Division"
+		location = 11293
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "19th Infantry Division"
+		location = 11293
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "20th Infantry Division"
+		location = 11293
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "21st Infantry Division"
+		location = 11293
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+
+	}
+	division= {	
+		name = "3rd Cavalry Division"
+		location = 11293
+		division_template = "Cavalry Brigade" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1st Kenya Garrison"
+		location = 1939
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2nd Kenya Garrison"
+		location = 1939
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "North Rhodesia Headquarters"
+		location = 10930
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1st South Rhodesia Garrison"
+		location = 10929
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2nd South Rhodesia Garrison"
+		location = 10929
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1st Egyptian Garrison"
+		location = 4145
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2nd Egyptian Garrison"
+		location = 4145
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "3rd Egyptian Garrison"
+		location = 4145
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "British Guyana Headquarters"
+		location = 4982
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Yemen Headquarters"
+		location = 5074
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1st Singapore Garrison"
+		location = 12299
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2nd Singapore Garrison"
+		location = 12299
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+}
+	
+
+
+air_wings = {
+
+}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+
+	### Ongoing Ship Production Jan 1 1936 ###
+	# DD: G/H class (x9) ("HMS Gallant" "HMS Garland" "HMS Gipsy" "HMS Glowworm" "HMS Grafton" "HMS Grenade" "HMS Grenville" "HMS Greyhound" "HMS Griffin")
+}
+	#####################

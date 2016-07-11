@@ -1,0 +1,29 @@
+state={
+	id=748
+	name="STATE_748"
+	
+	history = {
+		owner = GER
+		1923.1.1 = { owner = AST }
+		victory_points = {
+			4226 1 
+		}
+		buildings = {
+			4226 = {
+				naval_base = 1
+
+			}
+			10234 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	
+	provinces={
+		1358 4226 4378 10234 
+	}
+	manpower=50000
+	buildings_max_level_factor=1
+	state_category="small_island"
+}

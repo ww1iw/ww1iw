@@ -1,0 +1,28 @@
+# Disabled your file because it didn't work in my game for whatever reason - Thomahawk
+#state={
+#	id=765
+#	name="STATE_765" #Besançon
+#	manpower = 1056898
+#	
+#	state_category = city
+#	
+#	resources={
+#		steel = 38
+#		aluminium = 12
+#	}
+#
+#	history={
+#		owner = FRA
+#
+#		buildings = {
+#			infrastructure = 7
+#			industrial_complex = 1
+#			air_base = 4
+#		}
+#		add_core_of = FRA
+#	}
+#	
+#	provinces={
+#		817 3646 3650 3666 6668 9642 
+#	}
+#}

@@ -1,0 +1,39 @@
+state={
+	id=187
+	name="STATE_187"
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = TUR
+		
+		1913.5.30 = {
+			owner = GRE
+			remove_core_of = TUR
+			add_claim_by = TUR
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			8435 = {
+				naval_base = 1
+
+			}
+			6550 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = TUR
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		6550 8435 
+	}
+	manpower = 215100
+	state_category = "small_island"
+}

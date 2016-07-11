@@ -1,0 +1,758 @@
+add_namespace = genretire
+
+# Robert Alexander retires
+news_event = {
+	id = genretire.2
+	title = genretire.2.t
+	desc = genretire.2.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1927.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.2.a
+			remove_unit_leader = 10002
+		}
+}
+# Benjamin Alvord Jr retires
+news_event = {
+	id = genretire.3
+	title = genretire.3.t
+	desc = genretire.3.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1924.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.3.a
+			remove_unit_leader = 10003
+		}
+}
+# William W. Atterbury retires
+news_event = {
+	id = genretire.4
+	title = genretire.4.t
+	desc = genretire.4.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1919.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.4.a
+			remove_unit_leader = 10004
+		}
+}
+# Charles J. Bailey retires
+news_event = {
+	id = genretire.5
+	title = genretire.5.t
+	desc = genretire.5.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1922.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.5.a
+			remove_unit_leader = 10005
+		}
+}
+# Harry H. Bandholtz retires
+news_event = {
+	id = genretire.6
+	title = genretire.6.t
+	desc = genretire.6.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1923.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.6.a
+			remove_unit_leader = 10006
+		}
+}
+# James F. Bell retires
+news_event = {
+	id = genretire.7
+	title = genretire.7.t
+	desc = genretire.7.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1919.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.7.a
+			remove_unit_leader = 10007
+		}
+}
+# William M. Black retires
+news_event = {
+	id = genretire.8
+	title = genretire.8.t
+	desc = genretire.8.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1919.10.31
+	}
+
+	mean_time_to_happen = {
+		hours = 24
+	}
+	
+	option = {
+		name = genretire.8.a
+			remove_unit_leader = 10008
+		}
+}
+# Albert H. Blanding retires
+news_event = {
+	id = genretire.9
+	title = genretire.9.t
+	desc = genretire.9.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1940.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.9.a
+			remove_unit_leader = 10009
+		}
+}
+# Omar Bundy retires
+news_event = {
+	id = genretire.10
+	title = genretire.10.t
+	desc = genretire.10.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1925.6.17
+	}
+
+	mean_time_to_happen = {
+		hours = 24
+	}
+	
+	option = {
+		name = genretire.10.a
+			remove_unit_leader = 10010
+		}
+}
+# Henry P. McCain retires
+news_event = {
+	id = genretire.11
+	title = genretire.11.t
+	desc = genretire.11.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1921.6.1
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = genretire.11.a
+			remove_unit_leader = 10011
+		}
+}
+# Tasker H. Bliss retires
+news_event = {
+	id = genretire.111
+	title = genretire.111.t
+	desc = genretire.111.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1920.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.111.a
+			remove_unit_leader = 11011
+		}
+}
+# Preston Brown retires
+news_event = {
+	id = genretire.12
+	title = genretire.12.t
+	desc = genretire.12.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1936.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.12.a
+			remove_unit_leader = 10012
+		}
+}
+# Robert Lee Bullard retires
+news_event = {
+	id = genretire.13
+	title = genretire.13.t
+	desc = genretire.13.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1925.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.13.a
+			remove_unit_leader = 10013
+		}
+}
+# William P. Burnham retires
+news_event = {
+	id = genretire.14
+	title = genretire.14.t
+	desc = genretire.14.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1924.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.14.a
+			remove_unit_leader = 10014
+		}
+}
+# Jesse McIlvane Carter retires
+news_event = {
+	id = genretire.15
+	title = genretire.15.t
+	desc = genretire.15.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1924.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.15.a
+			remove_unit_leader = 10015
+		}
+}
+# William G.H. Carter retires
+news_event = {
+	id = genretire.16
+	title = genretire.16.t
+	desc = genretire.16.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1918.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.16.a
+			remove_unit_leader = 10016
+		}
+}
+# Joseph C. Castner retires
+news_event = {
+	id = genretire.17
+	title = genretire.17.t
+	desc = genretire.17.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1933.11.30
+	}
+
+	mean_time_to_happen = {
+		hours = 24
+	}
+	
+	option = {
+		name = genretire.17.a
+			remove_unit_leader = 10017
+		}
+}
+# John L. Chamberlain retires
+news_event = {
+	id = genretire.18
+	title = genretire.18.t
+	desc = genretire.18.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1921.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.18.a
+			remove_unit_leader = 10018
+		}
+}
+# William D. Connor retires
+news_event = {
+	id = genretire.19
+	title = genretire.19.t
+	desc = genretire.19.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1942.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.19.a
+			remove_unit_leader = 10019
+		}
+}
+# Enoch H. Crowder retires
+news_event = {
+	id = genretire.20
+	title = genretire.20.t
+	desc = genretire.20.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1923.2.14
+	}
+
+	mean_time_to_happen = {
+		hours = 24
+	}
+	
+	option = {
+		name = genretire.20.a
+			remove_unit_leader = 10020
+		}
+}
+# William Crozier retires
+news_event = {
+	id = genretire.21
+	title = genretire.21.t
+	desc = genretire.21.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1918.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.21.a
+			remove_unit_leader = 10021
+		}
+}
+# Robert C. Davis retires
+news_event = {
+	id = genretire.22
+	title = genretire.22.t
+	desc = genretire.22.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1927.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.22.a
+			remove_unit_leader = 10022
+		}
+}
+# Joseph T. Dickman retires
+news_event = {
+	id = genretire.23
+	title = genretire.23.t
+	desc = genretire.23.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1922.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.23.a
+			remove_unit_leader = 10023
+		}
+}
+# George B. Duncan retires
+news_event = {
+	id = genretire.24
+	title = genretire.24.t
+	desc = genretire.24.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1925.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.24.a
+			remove_unit_leader = 10024
+		}
+}
+# Clarence R. Edwards retires
+news_event = {
+	id = genretire.25
+	title = genretire.25.t
+	desc = genretire.25.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1922.12.1
+	}
+
+	mean_time_to_happen = {
+		days = 31
+	}
+	
+	option = {
+		name = genretire.25.a
+			remove_unit_leader = 10025
+		}
+}
+# Robert K. Evans retires
+news_event = {
+	id = genretire.26
+	title = genretire.26.t
+	desc = genretire.26.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1918.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.26.a
+			remove_unit_leader = 10026
+		}
+}
+# Samson L. Faison retires
+news_event = {
+	id = genretire.27
+	title = genretire.27.t
+	desc = genretire.27.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1922.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.27.a
+			remove_unit_leader = 10027
+		}
+}
+# John A. Lejeune retires
+news_event = {
+	id = genretire.28
+	title = genretire.28.t
+	desc = genretire.28.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1929.11.10
+	}
+
+	mean_time_to_happen = {
+		hours = 24
+	}
+	
+	option = {
+		name = genretire.28.a
+			remove_unit_leader = 10028
+		}
+}
+# Benjamin D. Foulois retires
+news_event = {
+	id = genretire.29
+	title = genretire.29.t
+	desc = genretire.29.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1935.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.29.a
+			remove_unit_leader = 10029
+		}
+}
+# George W. Goethals retires
+news_event = {
+	id = genretire.30
+	title = genretire.30.t
+	desc = genretire.30.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1919.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.30.a
+			remove_unit_leader = 10030
+		}
+}
+# William C. Gorgas retires
+news_event = {
+	id = genretire.31
+	title = genretire.31.t
+	desc = genretire.31.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1918.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.31.a
+			remove_unit_leader = 10031
+		}
+}
+# William S. Graves retires
+news_event = {
+	id = genretire.32
+	title = genretire.32.t
+	desc = genretire.32.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1928.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.32.a
+			remove_unit_leader = 10032
+		}
+}
+# William G. Haan retires
+news_event = {
+	id = genretire.33
+	title = genretire.33.t
+	desc = genretire.33.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1922.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.33.a
+			remove_unit_leader = 10033
+		}
+}
+# Peter C. Hains retires
+news_event = {
+	id = genretire.34
+	title = genretire.34.t
+	desc = genretire.34.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1919.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.34.a
+			remove_unit_leader = 10034
+		}
+}
+# James G. Harbord retires
+news_event = {
+	id = genretire.35
+	title = genretire.35.t
+	desc = genretire.35.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1922.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.35.a
+			remove_unit_leader = 10035
+		}
+}
+# Peter C. Harris retires
+news_event = {
+	id = genretire.36
+	title = genretire.36.t
+	desc = genretire.36.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1922.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.36.a
+			remove_unit_leader = 10036
+		}
+}

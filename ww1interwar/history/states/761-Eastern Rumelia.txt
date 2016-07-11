@@ -1,0 +1,31 @@
+state={
+	id=761
+	name="STATE_761"
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = TUR
+		add_core_of = BUL
+
+		1913.5.30 = {
+			owner = BUL
+			remove_core_of = TUR
+			add_claim_by = TUR
+		}
+		1923.1.1 = {
+			owner = BUL
+		}
+	}
+	
+	provinces={
+		878 893 6857 9818 11813 
+	}
+	manpower=937800
+	state_category = city
+}

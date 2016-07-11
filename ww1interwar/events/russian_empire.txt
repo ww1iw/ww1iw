@@ -1,0 +1,136 @@
+﻿#######################
+#Russian Empire Events#
+#######################
+
+add_namespace = russian_empire
+
+country_event = { # Ревизия инородцев
+	id = russian_empire.1
+	title = russian_empire.1.t
+	desc = russian_empire.1.d
+	picture = GFX_news_event_soldiers_marching
+
+	fire_only_once = yes 
+
+	trigger = { 
+		tag = SOV
+		has_global_flag = ww1
+		has_manpower < 2000000
+		date > 1916.1.1
+		has_war = yes
+	}
+	option{ # Agree, what's the worst that can happen
+		name = russian_empire.1.a
+		add_manpower = 500000
+		set_country_flag = revision2016
+	}
+	option{ # We'll be able to manage on our own
+		name = russian_empire.1.b
+	}
+}
+
+country_event = { # Central asia protesters
+	id = russian_empire.2
+	title = russian_empire.2.t
+	desc = russian_empire.2.d
+	picture = GFX_news_event_soldiers_marching
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		has_global_flag = ww1
+		has_country_flag = revision2016
+	}
+	mean_time_to_happen = {
+		days = 120
+		
+		modifier = {
+			factor = 0.9
+		}
+	}
+	immediate = {
+		set_country_flag = rebelion1916
+		REB = {
+			add_state_core = 405
+			set_state_owner = 405
+			add_state_core = 586
+			set_state_owner = 586
+			add_state_core = 585
+			set_state_owner = 585
+			add_state_core = 404
+			set_state_owner = 404
+			add_state_core = 589
+			set_state_owner = 589
+			declare_war_on = { target = SOV type = annex_everything }
+		}
+		SOV = {
+			set_country_flag = rebelion1916
+			remove_state_core = 405
+			remove_state_core = 586
+			remove_state_core = 585
+			remove_state_core = 404
+			remove_state_core = 589
+			set_state_controller = 232
+			set_state_controller = 586
+			set_state_controller = 585
+			set_state_controller = 404
+			set_state_controller = 589
+		}
+	}
+	option{ # Oh no!
+		name = russian_empire.2.a
+	}
+}
+country_event = { # End of rebelion
+	id = russian_empire.3
+	title = russian_empire.3.t
+	desc = russian_empire.3.d
+	picture = GFX_news_event_soldiers_marching
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		has_country_flag = rebelion1916
+	}
+	mean_time_to_happen = {
+		days = 160
+	}
+	immediate = {
+		SOV = {
+			add_state_core = 405
+			set_state_owner = 405
+			add_state_core = 586
+			set_state_owner = 586
+			add_state_core = 585
+			set_state_owner = 585
+			add_state_core = 404
+			set_state_owner = 404
+			add_state_core = 589
+			set_state_owner = 589
+		}
+		REB = {
+			remove_state_core = 405
+			remove_state_core = 586
+			remove_state_core = 585
+			remove_state_core = 404
+			remove_state_core = 589
+		}
+		REB = {
+			IF = { 
+				limit = {
+					NOT = {
+						any_owned_state = {
+							is_controlled_by = SOV
+						}
+					}
+				}
+				white_peace = SOV
+			}
+		}
+	}
+	option{ #Good
+		name = russian_empire.3.a
+	}
+}

@@ -1,0 +1,136 @@
+ideas = {
+	political_advisor = {
+		# POLITICAL	
+		generic_socialist_union_leader = {
+			
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = socialist_union_leader limit = 1 }
+				}
+			}
+			
+			traits = { socialist_union_leader }
+	
+#			on_add = {
+#				country_event = political.13
+#			}
+	
+			do_effect = {
+				NOT = {
+					has_government = socialist
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+	generic_liberal_reformer = {
+			
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
+				}
+			}
+			
+
+			
+			traits = { liberal_reformer }
+	
+#			on_add = {
+#				country_event = political.13
+#			}
+	
+			do_effect = {
+				NOT = {
+					has_government = liberal
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+	}
+		
+	generic_autocratic_soldier = {
+			
+		allowed = {
+			NOT = {
+				has_available_idea_with_traits = { idea = autocratic_soldier limit = 1 }
+			}
+		}
+		
+
+			
+		traits = { autocratic_soldier }
+	
+#		on_add = {
+#			country_event = political.13
+#		}
+	
+		do_effect = {
+			NOT = {
+				has_government = autocratic
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	generic_national_socialist_agitator = {
+			
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = national_socialist_agitator limit = 1 }
+				}
+			}
+			
+
+			
+			traits = { national_socialist_agitator }
+	
+#			on_add = {
+#				country_event = political.7
+#			}
+	
+			do_effect = {
+				NOT = {
+					has_government = national_socialist
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+	generic_conservative_nobleman = {
+			
+		allowed = {
+			NOT = {
+				has_available_idea_with_traits = { idea = conservative_nobleman limit = 1 }
+			}
+		}
+			
+
+			
+		traits = { conservative_nobleman }
+	
+#			on_add = {
+#				country_event = political.13
+#			}
+	
+		do_effect = {
+			NOT = {
+				has_government = conservative
+			}
+		}
+	
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,711 @@
+﻿#####################################################
+# Political flavor events ; written by Thomahawk2k	#
+#####################################################
+
+add_namespace = expol
+
+# Fascist newspaper gains traction
+country_event = {
+    id = expol.1
+    title = expol.1.t
+    desc = expol.1.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		NOT = {
+			OR = {
+				has_government = fascism
+				has_government = natsoc
+			}
+		}
+		fascism > 0.01
+    }
+ 
+    mean_time_to_happen = {
+        years = 20
+    }
+
+ 
+    option = {
+        name = expol.1.a
+		add_popularity = { ideology = fascism popularity = 0.05 }
+    }
+	
+    option = {
+        name = expol.1.b
+		add_national_unity = -0.05
+    }
+}
+
+# Conservative mp murdered by communist
+country_event = {
+    id = expol.2
+    title = expol.2.t
+    desc = expol.2.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		NOT = {
+			OR = {
+				has_government = fascism
+				has_government = natsoc
+				has_government = communism
+				has_government = autocratic
+			}
+		}
+		communism > 0.1
+		fascism > 0.4
+    }
+ 
+    mean_time_to_happen = {
+        years = 20
+    }
+
+ 
+    option = {
+        name = expol.2.a
+		add_popularity = { ideology = fascism popularity = 0.01 } # Conservatives radicalize
+		add_national_unity = -0.05
+    }
+}
+
+# [From.GetLeader] delivers rousing speech over radio
+country_event = {
+    id = expol.3
+    title = expol.3.t
+    desc = expol.3.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		always = yes
+    }
+ 
+    mean_time_to_happen = {
+        years = 20
+    }
+
+ 
+    option = {
+        name = expol.3.a
+		if = {
+			limit = {
+				has_government = communism
+			}
+			add_popularity = { ideology = communism popularity = 0.10 }
+		}
+		if = {
+			limit = {
+				has_government = socialist
+			}
+			add_popularity = { ideology = socialist popularity = 0.10 }
+		}
+		if = {
+			limit = {
+				has_government = liberal
+			}
+			add_popularity = { ideology = liberal popularity = 0.10 }
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			add_popularity = { ideology = democratic popularity = 0.10 }
+		}
+		if = {
+			limit = {
+				has_government = conservative
+			}
+			add_popularity = { ideology = conservative popularity = 0.10 }
+		}
+		if = {
+			limit = {
+				has_government = autocratic
+			}
+			add_popularity = { ideology = autocratic popularity = 0.1 }
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			add_popularity = { ideology = fascism popularity = 0.1 }
+		}
+		if = {
+			limit = {
+				has_government = natsoc
+			}
+			add_popularity = { ideology = natsoc popularity = 0.1 }
+		}
+		add_national_unity = 0.05
+    }
+}
+
+# [From.GetLeader] loses debate with fascist
+country_event = {
+    id = expol.4
+    title = expol.4.t
+    desc = expol.4.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		NOT = {
+			OR = {
+				has_government = fascism
+				has_government = natsoc
+				has_government = communism
+				has_government = autocratic
+			}
+		}
+		fascism > 0.4
+    }
+ 
+    mean_time_to_happen = {
+        years = 5
+    }
+
+ 
+    option = {
+        name = expol.4.a
+		if = {
+			limit = {
+				has_government = socialist
+			}
+			add_popularity = { ideology = socialist popularity = -0.05 }
+		}
+		if = {
+			limit = {
+				has_government = liberal
+			}
+			add_popularity = { ideology = liberal popularity = -0.05 }
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			add_popularity = { ideology = democratic popularity = -0.05 }
+		}
+		if = {
+			limit = {
+				has_government = conservative
+			}
+			add_popularity = { ideology = conservative popularity = -0.05 }
+		}
+    }
+}
+
+# Progressive wing of [From.GetRulingParty] joins social democrats
+country_event = {
+    id = expol.5
+    title = expol.5.t
+    desc = expol.5.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		OR = {
+			has_government = democratic
+			has_government = liberal
+		}
+		socialist > 0.1
+		OR = {
+			has_idea = salpolicy1
+			has_idea = salpolicy2
+		}
+    }
+ 
+    mean_time_to_happen = {
+        years = 10
+    }
+
+ 
+    option = {
+        name = expol.5.a
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			add_popularity = { ideology = democratic popularity = -0.1 }
+		}
+		if = {
+			limit = {
+				has_government = liberal
+			}
+			add_popularity = { ideology = liberal popularity = -0.1 }
+		}
+		add_popularity = { ideology = socialist popularity = 0.1 }
+    }
+}
+
+# Socialists radicalize
+country_event = {
+    id = expol.6
+    title = expol.6.t
+    desc = expol.6.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		has_government = socialist
+		OR = {
+			has_idea = salpolicy1
+			has_idea = salpolicy2
+		}
+    }
+ 
+    mean_time_to_happen = {
+        years = 4
+    }
+
+ 
+    option = {
+        name = expol.6.a
+		add_popularity = { ideology = socialist popularity = -0.2 }
+		add_popularity = { ideology = communism popularity = 0.2 }
+    }
+}
+
+# Communist meeting in [Root.Capital.GetName]
+country_event = {
+    id = expol.7
+    title = expol.7.t
+    desc = expol.7.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		NOT = {
+			has_government = communism
+		}
+		communism > 0.25
+    }
+ 
+    mean_time_to_happen = {
+        years = 10
+    }
+
+ 
+    option = {
+        name = expol.7.a
+		add_popularity = { ideology = communism popularity = -0.3 }
+		capital_scope = {
+			add_manpower = -10000
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_government = fascism
+					has_government = natsoc
+					has_government = autocratic
+				}
+			}
+			add_national_unity = -0.05
+		}
+    }
+	
+	option = { # Leave it be, no effect you think
+		name = expol.7.b
+		hidden_effect = {
+			random_list = {
+				70 = {
+				}
+				30 = {
+					country_event = expol.9
+				}
+			}
+		}
+	}
+}
+
+# Riots in [Root.Capital.GetName]
+country_event = {
+    id = expol.8
+    title = expol.8.t
+    desc = expol.8.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		communism > 0.2
+		OR = {
+			fascism > 0.2
+			natsoc > 0.2
+		}
+    }
+ 
+    mean_time_to_happen = {
+        years = 15
+    }
+
+ 
+    option = { #Let them fight it out
+        name = expol.8.a
+		add_popularity = { ideology = communism popularity = -0.3 }
+		capital_scope = {
+			add_manpower = -13712
+		}
+		if = {
+			limit = {
+				fascism > 0.25
+			}
+			add_popularity = { ideology = fascism popularity = -0.1	}
+		}
+		if = {
+			limit = {
+				natsoc > 0.25
+			}
+			add_popularity = { ideology = natsoc popularity = -0.1	}
+		}
+		add_popularity = { ideology = communism popularity = -0.1 }
+    }
+	
+	option = { # Intervene!
+		name = expol.8.b
+		capital_scope = {
+			add_manpower = -754
+		}
+		add_political_power = -25000
+	}
+}
+
+# Fascist fighting squad attacks commiecon
+country_event = {
+    id = expol.9
+    title = expol.9.t
+    desc = expol.9.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		NOT = {
+			has_government = communism
+		}
+		communism > 0.25
+		fascism > 0.3
+    }
+ 
+    mean_time_to_happen = {
+        years = 25
+    }
+
+ 
+    option = {
+        name = expol.9.a
+		add_popularity = { ideology = communism popularity = -0.15 }
+		capital_scope = {
+			add_manpower = -7000
+		}
+		add_national_unity = -0.05
+    }
+}
+
+# Assassination attempt on [From.GetLeader] (hidden setup)
+country_event = {
+    id = expol.10
+    title = expol.10.t
+    desc = expol.10.d
+    picture = GFX_report_event_factory_opens
+	
+	hidden = yes
+ 
+    trigger = {
+		always = yes
+    }
+ 
+    mean_time_to_happen = {
+        years = 25
+    }
+
+ 
+    option = {
+        name = expol.10.a
+		random_list = {
+			20 = {
+				set_country_flag = assassination_failed_1
+			}
+			20 = {
+				set_country_flag = assassination_failed_2
+			}
+			20 = {
+				set_country_flag = assassination_failed_3
+			}
+			20 = {
+				set_country_flag = assassination_failed_4
+			}
+			20 = {
+				set_country_flag = assassination_failed_5
+			}
+		}
+		country_event = expol.11
+    }
+}
+
+# Assassination attempt on [From.GetLeader]
+country_event = {
+    id = expol.11
+    title = expol.11.t
+    desc = {
+		text = expol.11.d.1
+		trigger = {
+			has_country_flag = assassination_failed_1
+		}
+	}
+    desc = {
+		text = expol.11.d.2
+		trigger = {
+			has_country_flag = assassination_failed_2
+		}
+	}
+    desc = {
+		text = expol.11.d.3
+		trigger = {
+			has_country_flag = assassination_failed_3
+		}
+	}
+    desc = {
+		text = expol.11.d.4
+		trigger = {
+			has_country_flag = assassination_failed_4
+		}
+	}
+    desc = {
+		text = expol.11.d.5
+		trigger = {
+			has_country_flag = assassination_failed_5
+		}
+	}
+    picture = GFX_report_event_factory_opens
+
+	is_triggered_only = yes
+ 
+    option = {
+        name = expol.11.a
+		clr_country_flag = assassination_failed_1
+		clr_country_flag = assassination_failed_2
+		clr_country_flag = assassination_failed_3
+		clr_country_flag = assassination_failed_4
+		clr_country_flag = assassination_failed_5
+    }
+}
+
+# [From.GetLeader] Assassinated (hidden setup)
+country_event = {
+    id = expol.12
+    title = expol.12.t
+    desc = expol.12.d
+    picture = GFX_report_event_factory_opens
+	
+	hidden = yes
+ 
+    trigger = {
+		always = yes
+    }
+ 
+    mean_time_to_happen = {
+        years = 200
+    }
+
+ 
+    option = {
+        name = expol.12.a
+		random_list = {
+			20 = {
+				set_country_flag = assassination_succeeded_1
+			}
+			20 = {
+				set_country_flag = assassination_succeeded_2
+			}
+			20 = {
+				set_country_flag = assassination_succeeded_3
+			}
+			20 = {
+				set_country_flag = assassination_succeeded_4
+			}
+			20 = {
+				set_country_flag = assassination_succeeded_5
+			}
+		}
+		country_event = expol.13
+    }
+}
+
+# [From.GetLeader] assassinated!
+country_event = {
+    id = expol.13
+    title = expol.13.t
+    desc = {
+		text = expol.13.d.1
+		trigger = {
+			has_country_flag = assassination_succeeded_1
+		}
+	}
+    desc = {
+		text = expol.13.d.2
+		trigger = {
+			has_country_flag = assassination_succeeded_2
+		}
+	}
+    desc = {
+		text = expol.13.d.3
+		trigger = {
+			has_country_flag = assassination_succeeded_3
+		}
+	}
+    desc = {
+		text = expol.13.d.4
+		trigger = {
+			has_country_flag = assassination_succeeded_4
+		}
+	}
+    desc = {
+		text = expol.13.d.5
+		trigger = {
+			has_country_flag = assassination_succeeded_5
+		}
+	}
+    picture = GFX_report_event_factory_opens
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			news_event = {
+				hours = 6
+				id = expol.14
+			}
+		}
+	}
+	
+    option = {
+        name = expol.13.a
+		kill_country_leader = yes
+		clr_country_flag = assassination_succeeded_1
+		clr_country_flag = assassination_succeeded_2
+		clr_country_flag = assassination_succeeded_3
+		clr_country_flag = assassination_succeeded_4
+		clr_country_flag = assassination_succeeded_5
+    }
+}
+
+# [From.GetLeader] assassinated! - news event
+news_event = {
+    id = expol.14
+    title = expol.14.t
+    desc = {
+		text = expol.14.d.1
+		trigger = {
+			has_country_flag = assassination_succeeded_1
+		}
+	}
+    desc = {
+		text = expol.14.d.2
+		trigger = {
+			has_country_flag = assassination_succeeded_2
+		}
+	}
+    desc = {
+		text = expol.14.d.3
+		trigger = {
+			has_country_flag = assassination_succeeded_3
+		}
+	}
+    desc = {
+		text = expol.14.d.4
+		trigger = {
+			has_country_flag = assassination_succeeded_4
+		}
+	}
+    desc = {
+		text = expol.14.d.5
+		trigger = {
+			has_country_flag = assassination_succeeded_5
+		}
+	}
+    picture = GFX_report_event_factory_opens
+
+	is_triggered_only = yes
+ 
+    option = {
+        name = expol.14.a
+    }
+}
+
+# Socialists radicalize under commie influence
+country_event = {
+    id = expol.15
+    title = expol.15.t
+    desc = expol.15.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		has_government = communism
+		socialism > 0.1
+    }
+ 
+    mean_time_to_happen = {
+        years = 2
+    }
+	
+	option = {
+		name = expol.15.b
+		add_popularity = { ideology = socialist popularity = -0.1 }
+		add_popularity = { ideology = communism popularity = 0.1 }
+	}
+}
+
+# Liberal-Socialist coalition falls apart
+country_event = {
+    id = expol.16
+    title = expol.16.t
+    desc = expol.16.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		OR = {
+			has_idea = libsoc_coalition
+			has_idea = soclib_coalition
+		}
+    }
+ 
+    mean_time_to_happen = {
+        years = 2
+    }
+	
+	option = {
+		name = expol.16.b
+		add_popularity = { ideology = socialist popularity = -0.1 }
+		add_popularity = { ideology = liberal popularity = -0.1 }
+		hold_election = yes
+	}
+}
+
+# National Socialist head of government resigns
+country_event = {
+    id = expol.17
+    title = expol.17.t
+    desc = expol.17.d
+    picture = GFX_report_event_factory_opens
+ 
+    trigger = {
+		OR = {
+			has_idea = nscon_coalition
+			has_idea = nsaut_coalition
+		}
+		natsoc > 0.5
+    }
+ 
+    mean_time_to_happen = {
+        months = 2
+    }
+	
+	option = {
+		name = expol.16.b
+		if = {
+			limit = {
+				has_idea = nsaut_coalition
+			}
+			add_popularity = { ideology = autocratic popularity = -0.1 }
+		}
+		if = {
+			limit = {
+				has_idea = nscon_coalition
+			}
+			add_popularity = { ideology = conservative popularity = -0.1 }
+		}		
+		add_popularity = { ideology = fascism popularity = 0.1 }
+		hold_election = yes
+	}
+}

@@ -1,0 +1,15 @@
+state={
+	id=746
+	name="STATE_746"
+	history={
+		owner = GER
+		1923.1.1 = { owner = FRA }
+
+	}
+	provinces={
+		1951 12843 
+	}
+	manpower=1000000
+		buildings_max_level_factor=1.000
+		state_category = rural
+}

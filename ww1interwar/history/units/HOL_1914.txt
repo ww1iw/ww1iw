@@ -1,0 +1,181 @@
+﻿# 8 standard infantry, 5 colonial, 3
+division_template = {
+	name = "Infanterie Divisie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Koloniaal Garnizoen"		# miltia forces, lower experience and equipment
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Cavalerie Brigade"		# miltia forces, lower experience and equipment
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1e Divisie"
+		location = 3314  # Amsterdam
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "3e Divisie"
+		location = 3211 # The Hague
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "1e Cavalerie Brigade"
+		location = 3211 # The Hague
+		division_template = "Cavalerie Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "2e Divisie"
+		location = 9498  # Rotterdam
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "4e Divisie"
+		location = 9498  # Rotterdam
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	# 3e Legerkorps
+	division= {	
+		name = "5e Divisie"
+		location = 6500  # Venlo
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "6e Divisie"
+		location = 11562  # Maastricht
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+
+	# 4e Legerkorps
+	division= {	
+		name = "7e Divisie"
+		location = 9335  # Gronigen
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "1e Indië Divisie"
+		location = 7381
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division= {	
+		name = "1e Territoriaal Kommando"
+		location = 7381
+		division_template = "Koloniaal Garnizoen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "2e Territoriaal Kommando"
+		location = 1313
+		division_template = "Koloniaal Garnizoen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "3e Territoriaal Kommando"
+		location = 7296
+		division_template = "Koloniaal Garnizoen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "4e Territoriaal Kommando"
+		location = 10153
+		division_template = "Koloniaal Garnizoen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "5e Territoriaal Kommando"
+		location = 7585
+		division_template = "Koloniaal Garnizoen"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+
+### Air Wings
+air_wings = {
+
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "HOL"
+		}
+		requested_factories = 1
+		progress = 0.58
+		efficiency = 100
+	}
+}

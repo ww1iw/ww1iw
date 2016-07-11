@@ -1,0 +1,88 @@
+﻿###########################
+# American Political Events and such
+###########################
+
+add_namespace = usapol
+add_namespace = genretire
+
+# Frank Johns Dies
+news_event = {
+	id = usapol.1
+	title = usapol.1.t
+	desc = usapol.1.d
+	picture = GFX_news_event_johns_death
+
+	trigger = {
+		tag = USA
+		date = 1928.5.20
+		OR = {
+			has_government = democratic
+			has_government = liberal
+			has_government = conservative
+		}
+	}
+
+	mean_time_to_happen = {
+		hours = 13
+	}
+	
+	option = {
+		name = usapol.1.a
+			create_country_leader = {
+			name = "Verne L. Reynolds" #Socialist Labor candidate
+			desc = "VERNE_REYNOLDS_DESC"
+			picture = "Portrait_USA_Verne_Reynolds.dds"
+			expire = "1955.3.24"
+			ideology = marxism
+			}
+		}
+}
+
+#John Franks survives
+news_event = {
+	id = usapol.2
+	title = usapol.2.t
+	desc = usapol.2.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1928.5.20
+		OR = {
+			has_government = democratic
+			has_government = liberal
+			has_government = conservative
+		}
+	}
+
+	mean_time_to_happen = {
+		hours = 19
+	}
+	
+	option = {
+		name = usapol.2.a
+		add_popularity = { ideology = communism popularity = 0.03 }
+		}
+}
+
+# Pershing retires
+news_event = {
+	id = genretire.1
+	title = genretire.1.t
+	desc = genretire.1.d
+	picture = GFX_report_event_usa_funeral
+
+	trigger = {
+		tag = USA
+		date = 1924.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = genretire.1.a
+			remove_unit_leader = 10001
+		}
+}

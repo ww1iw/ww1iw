@@ -1,0 +1,38 @@
+state={
+	id=750
+	name="STATE_750"
+	
+	history={
+		owner = GER
+		1923.1.1 = { owner = CHI }
+		add_core_of = CHI
+		add_core_of = PRC
+
+		victory_points = {
+			10000 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10000 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+	
+	provinces={
+		10000 
+	}
+	manpower=300000
+	buildings_max_level_factor=1
+	state_category="city"
+}

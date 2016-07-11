@@ -1,0 +1,24 @@
+state={
+	id=747
+	name="STATE_747"
+	manpower = 875000 #1500000 (Original of Cameroon)
+	state_category = rural
+
+	history={
+		owner = GER
+		
+		1923.1.1 = {
+			owner = FRA
+
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2080 5036 5054 6039 7963 9137 11194 
+	}
+}
