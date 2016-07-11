@@ -23,19 +23,31 @@ set_politics = {
 
 	parties = {
 		liberal = {
-			popularity = 44
+			popularity = 44.23
 		}
 		conservative = {
-			popularity = 47
+			popularity = 46.57
 		}
-		socialist = { 
-			popularity = 7
+		natsoc = {
+			popularity = 0
 		}
 		autocratic = {
-			popularity = 1
+			popularity = 0
 		}
 		neutrality = {
-			popularity = 1
+			popularity = .99
+		}
+		fascism = {
+			popularity = 0
+		}
+		socialist = { 
+			popularity = 6.36
+		}
+		communism = {
+			popularity = 0
+		}
+		democratic = {
+			popularity = 1.85
 		}
 	}
 	
