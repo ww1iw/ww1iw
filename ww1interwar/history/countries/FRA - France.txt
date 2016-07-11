@@ -20,20 +20,35 @@ set_politics = {
 
 	parties = {
 		liberal = {
-			popularity = 35
+			popularity = 37
 		}
 		democratic = {
-			popularity = 11
+			popularity = 60.38
 		}
 		conservative = {
-			popularity = 33
+			popularity = 0
 		}
 		socialist = { 
-			popularity = 21
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 2.62
+		}
+		communism = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = liberal
+	ruling_party = democratic
 	last_election = "1920.5.11"
 	election_frequency = 48
 	elections_allowed = yes
@@ -44,7 +59,7 @@ create_country_leader = {
 	desc = "POLITICS_RAYMOND_POINCARE_DESC"
 	picture = "Portrait_France_Raymond_Poincare.dds"
 	expire = "1934.10.15"
-	ideology = liberalism
+	ideology = centrism
 	traits = {
 		
 	}
