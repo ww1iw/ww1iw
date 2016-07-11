@@ -53,5 +53,12 @@ idea_categories = {
 		cost = 120000
 		removal_cost = 0
 	}
+	
+	wwoneinterwar_mechanics = {
+		slot = factory_amount
+		
+		cost = 120000
+		removal_cost = 0
+	}
 
 }

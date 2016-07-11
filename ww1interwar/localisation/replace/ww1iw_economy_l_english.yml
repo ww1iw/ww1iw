@@ -18,3 +18,4 @@
  market.6.a:0 "We hope so, of course..."
  EFFECT_CHANGE_LAW_investment_policy:0 "Change the Investment Law to '$NAME|Y$' which grants ($DESC$)."
  EFFECT_CHANGE_LAW_salary:0 "Change the Minimum Salary Law to '$NAME|Y$' which grants ($DESC$)."
+ EFFECT_CHANGE_LAW_factory_amount:0 "Change the factory amount to '$NAME|Y$' which grants ($DESC$)."
