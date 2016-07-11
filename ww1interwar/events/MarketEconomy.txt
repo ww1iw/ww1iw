@@ -285,18 +285,18 @@ country_event = {
     picture = GFX_report_event_factory_opens
  
     trigger = {
-		NOT = {
-			AND = {
+		AND = {
+			NOT = {
 				OR = {
-					has_government = communism
-					has_government = fascism
-					has_government = natsoc
+						has_government = communism
+						has_government = fascism
+						has_government = natsoc
 				}
-				OR = {
-					has_idea = collectivisation
-					has_idea = planned_economy
-					has_idea = state_capitalism
-				}
+			}
+			OR = {
+				has_idea = collectivisation
+				has_idea = planned_economy
+				has_idea = state_capitalism
 			}
 		}
     }

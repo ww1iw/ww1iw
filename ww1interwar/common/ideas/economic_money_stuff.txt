@@ -1,0 +1,2836 @@
+﻿ideas = {
+
+
+	factory_amount = {
+			law = yes
+		fac_num0 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num1 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 10.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		
+		fac_num2 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 20.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num3 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 40.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num4 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 40.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num5 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 50.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num6 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 60.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num7 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 70.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num8 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 80.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num9 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 90.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num10 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 100.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num11 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 110.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num12 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 120.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num13 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 130.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num14 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 140.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num15 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 150.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num16 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 160.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num17 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 170.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num18 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 180.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num19 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 190.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num20 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 200.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num21 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 210.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num22 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 220.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num23 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 230.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num24 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 240.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num25 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 250.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num26 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 260.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num27 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 270.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num28 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 280.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num29 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 290.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num30 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 300.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num31 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 310.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num32 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 320.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num33 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 330.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num34 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 340.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num35 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 350.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num36 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 360.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num37 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 370.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num38 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 380.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num39 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 390.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num40 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 400.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num41 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 410.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num42 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 420.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num43 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 430.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num44 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 440.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num45 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 450.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num46 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 460.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num47 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 470.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num48 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 480.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num49 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 490.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num50 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 500.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num51 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 510.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num52 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 520.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num53 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 530.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num54 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 540.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num55 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 550.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num56 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 560.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num57 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 570.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num58 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 580.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num59 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 590.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num60 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 600.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num61 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 610.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num62 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 620.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num63 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 630.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num64 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 640.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num65 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 650.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num66 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 660.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num67 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 670.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num68 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 680.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num69 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 690.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num70 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 700.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num71 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 710.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num72 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 720.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num73 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 730.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num74 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 740.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num75 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 750.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num76 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 760.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num77 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 770.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num78 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 780.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num79 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 790.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num80 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 800.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num81 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 810.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num82 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 820.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num83 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 830.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num84 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 840.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num85 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 850.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num86 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 860.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num87 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 870.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num88 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 880.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num89 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 890.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num90 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 900.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num91 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 910.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num92 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 920.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num93 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 930.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num94 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 940.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num95 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 950.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num96 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 960.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num97 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 970.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num98 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 980.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num99 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 990.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num100 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1000.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		
+		fac_num101 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1010.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		
+		fac_num102 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1020.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num103 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1030.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num104 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1040.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num105 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1050.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num106 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1060.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num107 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1070.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num108 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1080.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num109 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1090.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+
+		fac_num110 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1100.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num111 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1110.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num112 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1120.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num113 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1130.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num114 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1140.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num115 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1150.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num116 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1160.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num117 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1170.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num118 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1180.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num119 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1190.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num120 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1200.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num121 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1210.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num122 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1220.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num123 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1230.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num124 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1240.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num125 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1250.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num126 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1260.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num127 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1270.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num128 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1280.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num129 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1290.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num130 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1300.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num131 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1310.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num132 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1320.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num133 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1330.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num134 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1340.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num135 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1350.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num136 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1360.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num137 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1370.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num138 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1380.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num139 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1390.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num140 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1400.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num141 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1410.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num142 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1420.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num143 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1430.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num144 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1440.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num145 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1450.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num146 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1460.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num147 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1470.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num148 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1480.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num149 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1490.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num150 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1500.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num151 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1510.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num152 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1520.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num153 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1530.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num154 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1540.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num155 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1550.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num156 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1560.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num157 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1570.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num158 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1580.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num159 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1590.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num160 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1600.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num161 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1610.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num162 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1620.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num163 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1630.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num164 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1640.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num165 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1650.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num166 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1660.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num167 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1670.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num168 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1680.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num169 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1690.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num170 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1700.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num171 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1710.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num172 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1720.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num173 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1730.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num174 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1740.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num175 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1750.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num176 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1760.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num177 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1770.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num178 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1780.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num179 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1790.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num180 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1800.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num181 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1810.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num182 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1820.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num183 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1830.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num184 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1840.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num185 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1850.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num186 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1860.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num187 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1870.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num188 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1880.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num189 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1890.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num190 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1900.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num191 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1910.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num192 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1920.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num193 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1930.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num194 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1940.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num195 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1950.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	
+		fac_num196 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1960.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num197 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1970.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num198 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1980.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num199 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 1990.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num200 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 2000.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		fac_num200+ = {
+
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 2200.0
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+	}
+}
