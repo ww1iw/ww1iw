@@ -1,0 +1,531 @@
+﻿#  China events
+
+add_namespace = ww1_china
+
+# Xinhai Revolution breaks out
+country_event = {
+	id = ww1_china.1
+	title = ww1_china.1.t
+	desc = ww1_china.1.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_idea = wanning_empire
+		has_idea = zaifeng_regency
+		QNG = { controls_state = 622 }
+		QNG = { controls_state = 620 }
+		QNG = { controls_state = 602 }
+		NOT = {
+			AND = {
+				country_exists = CHI
+				has_global_flag = xinhai_revolution
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 600
+	}
+
+	immediate = {
+		random_list = {
+			80 = { 
+				620 = { add_core_of = CHI }
+			}
+			10 = {
+				602 = { add_core_of = CHI }
+			}
+			10 = {
+				622 = { add_core_of = CHI }
+			}
+		}
+		random_owned_state = {
+			add_core_of = CHI
+		}
+		release = CHI
+		declare_war_on = { target = CHI type = annex_everything }
+		every_owned_state = { add_core_of = CHI }
+		set_global_flag = xinhai_revolution
+	}
+
+	option = { 
+		name = ww1_china.1.a
+	}
+}
+
+country_event = { #Hebei declares independence
+	id = ww1_china.2
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 620 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 620 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Shaanxi declares independence
+	id = ww1_china.3
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 622 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 622 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Henan declares independence
+	id = ww1_china.4
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 602 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 602 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Shanxi declares independence
+	id = ww1_china.5
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 615 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 615 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Jiangsu declares independence
+	id = ww1_china.6
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 598 }
+		QNG = { controls_state = 613 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 598 }
+		CHI = { transfer_state = 613 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Anhui declares independence
+	id = ww1_china.7
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 606 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 606 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Zhejiang declares independence
+	id = ww1_china.8
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 596 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 596 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Jiangxi declares independence
+	id = ww1_china.9
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 600 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 600 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Fukkien declares independence
+	id = ww1_china.10
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 595 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 595 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Guangdong declares independence
+	id = ww1_china.11
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 593 }
+		QNG = { controls_state = 592 }
+		QNG = { controls_state = 591 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 593 }
+		CHI = { transfer_state = 592 }
+		CHI = { transfer_state = 591 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Guangxi declares independence
+	id = ww1_china.12
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 594 }
+		QNG = { controls_state = 599 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 594 }
+		CHI = { transfer_state = 599 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Guizhou declares independence
+	id = ww1_china.13
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 603 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 603 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Yunnan declares independence
+	id = ww1_china.14
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 325 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 325 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Sichuan declares independence
+	id = ww1_china.15
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 605 }
+		QNG = { controls_state = 601 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	immediate = {
+		CHI = { transfer_state = 605 }
+		CHI = { transfer_state = 601 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Hunan declares independence (ahistorical)
+	id = ww1_china.16
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 607 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 200
+	}
+
+	immediate = {
+		CHI = { transfer_state = 607 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Shandong declares independence (ahistorical)
+	id = ww1_china.17
+	title = ww1_china.2.t
+	desc = ww1_china.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		country_exists = CHI
+		QNG = { controls_state = 597 }
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 200
+	}
+
+	immediate = {
+		CHI = { transfer_state = 597 }
+	}
+
+	option = { 
+		name = ww1_china.2.a
+	}
+}

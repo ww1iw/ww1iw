@@ -1,0 +1,46 @@
+ideas = {
+
+	country = {
+		wanning_empire = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = autocratic
+				}
+			}
+			
+			picture = generic_democratic_drift_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.10
+			}
+		}
+		
+		zaifeng_regency = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = autocratic
+				}
+			}
+			
+			picture = generic_democratic_drift_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.10
+			}
+		}
+	}
+}

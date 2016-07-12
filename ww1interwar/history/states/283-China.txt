@@ -14,11 +14,14 @@ state={
 	}
 
 	history={
-		owner = CHI
-		1936.1.1 = { owner = XSM }
-		add_core_of = XSM
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = QNG
+		add_core_of = QNG
+		
+		1936.1.1 = { 
+			owner = XSM 
+			add_core_of = XSM
+		}
+		
 
 		victory_points = {
 			2045 1 
