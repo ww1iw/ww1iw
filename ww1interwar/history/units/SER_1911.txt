@@ -90,6 +90,13 @@ units = {
 		start_equipment_factor = 0.2
 	}
 	division= {	
+		name = "1. Gorska Pesadija"
+		location = 6998
+		division_template = "Gorska Pesadija" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division= {	
 		name = "I. Sumadija Divizija"
 		location = 6998
 		division_template = "Pesadijska Divizija" 	
@@ -114,6 +121,20 @@ units = {
 		name = "I. Morava Divizija"
 		location = 6998
 		division_template = "Pesadijska Divizija" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "2. Gorska Pesadija"
+		location = 6998
+		division_template = "Gorska Pesadija" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "3. Gorska Pesadija"
+		location = 6998
+		division_template = "Gorska Pesadija" 	
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
