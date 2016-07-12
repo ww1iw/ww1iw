@@ -32,6 +32,10 @@ MTN = {
 	color = rgb { 152 128 43 }
 	color_ui = rgb { 152 128 43 }
 }
+QNG = { 
+	color = rgb { 185 155 66 }
+	color_ui = rgb { 185 155 66 }
+}
 GER = {
 	color = rgb { 110 90 70 }
 	color_ui = rgb { 110 90 70 }
