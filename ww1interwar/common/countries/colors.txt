@@ -20,6 +20,10 @@ MOR = {
 	color = rgb { 170 133 150 }
 	color_ui = rgb { 198 169 248 }
 }
+SOM = {
+	color = rgb { 170 133 150 }
+	color_ui = rgb { 198 169 248 }
+}
 TUN = {
 	color = rgb { 170 133 150 }
 	color_ui = rgb { 198 169 248 }
