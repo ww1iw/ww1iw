@@ -1,5 +1,244 @@
 technologies = {
 
+	civilian_automobile = {
+
+		path = {
+			leads_to_tech = military_truck
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 1911
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = -2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	military_truck = {
+
+		path = {
+			leads_to_tech = motorised_infantry
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = gwtank
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 1914
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = -1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	
+	motorised_infantry = {
+
+		enable_subunits = {
+			motorized
+		}
+
+		enable_equipments = {
+			motorized_equipment_1
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = motorized
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_motorized"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		path = {
+			leads_to_tech = mechanised_infantry
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armored_car
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1925
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		sub_technologies = {
+			motorized_rocket_unit
+		}
+		
+		categories = {
+			armor
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	motorized_rocket_unit = {
+
+		enable_subunits = {
+			motorized_rocket_brigade
+		}
+		enable_equipments = {
+			motorized_rocket_equipment_1
+		}
+	
+		research_cost = 1.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mot_rockets
+		}
+	}
+	
+	armored_car = {
+
+		path = {
+			leads_to_tech = motorised_infantry
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = gwtank
+			research_cost_coeff = 1
+		}
+	
+		research_cost = 2
+		start_year = 1914
+		folder = {
+			name = armour_folder
+			position = { x = -3 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	
+	mechanised_infantry = {
+
+		enable_equipments = {
+			mechanized_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = mechanised_infantry2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 1 }
+		}
+		
+		categories = {
+			armor
+			motorized_equipment
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mechanised_infantry2 = {
+
+		enable_equipments = {
+			mechanized_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = mechanised_infantry3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			armor
+			motorized_equipment
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mechanised_infantry3 = {
+
+		enable_equipments = {
+			mechanized_equipment_3
+		}
+
+		mechanized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+
+		research_cost = 3
+		start_year = 1945
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 3 }
+		}
+		
+		categories = {
+			armor
+			motorized_equipment
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank = { #Leichttraktor
 
@@ -47,7 +286,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = 4 y = 4 }
 		}
 		
 		ai_will_do = {
