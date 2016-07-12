@@ -5,10 +5,21 @@ bookmarks = {
 		date = 1911.1.1.12
 		picture = "GFX_select_date_1911"
 		default_country = "GER"
-		QNG = {
-			history = QNG_IMPERIAL_GAMBIT_DESC
+		ENG = {
+			history = ENG_IMPERIAL_GAMBIT_DESC
+			ideology = liberal
+			ideas = {
+				stiff_upper_lip
+				ENG_george_vi
+				british_austerity_idea
+			}
+
+		}
+		GER = {
+			history = GER_IMPERIAL_GAMBIT_DESC
 			ideology = autocratic
 			ideas={
+			general_staff
 			}
 			
 		}
@@ -18,6 +29,13 @@ bookmarks = {
 			ideas={
 			}		
 			
+		}
+		SER = {
+			history = SER_IMPERIAL_GAMBIT_DESC
+			ideology = autocratic
+			ideas = {
+			}
+		
 		}
 		SOV = {
 			history = SOV_IMPERIAL_GAMBIT_DESC
@@ -37,20 +55,6 @@ bookmarks = {
 		}
 		TUR = {
 			history = TUR_IMPERIAL_GAMBIT_DESC
-			ideology = autocratic
-			ideas = {
-			}
-
-		}
-		GRE = {
-			history = SER_IMPERIAL_GAMBIT_DESC
-			ideology = autocratic
-			ideas = {
-			}
-		
-		}
-		BUL = {
-			history = BUL_IMPERIAL_GAMBIT_DESC
 			ideology = autocratic
 			ideas = {
 			}
