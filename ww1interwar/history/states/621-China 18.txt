@@ -6,11 +6,12 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = CHI
-		1936.1.1 = { owner = SHX }
-		add_core_of = SHX
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = QNG
+		add_core_of = QNG
+		1936.1.1 = { 
+			owner = SHX 
+			add_core_of = SHX
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

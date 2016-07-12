@@ -1,0 +1,173 @@
+﻿oob = "basic_test"
+capital = 608 # Beiyang
+set_research_slots = 2
+set_convoys = 50
+set_national_unity = 0.55
+
+add_ideas = {
+	imperial_ideal
+	wanning_empire
+	zaifeng_regency
+ }
+ 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 5
+		}
+		liberal = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 20
+		}
+		socialist = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 75
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = autocratic
+	last_election = "1909.9.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Xuantong Emperor"
+	desc = "POLITICS_XUANTONG_EMPEROR_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1968.1.1"
+	ideology = monarchism
+	traits = {
+		#
+	}
+}
+
+	create_country_leader = {
+	name = "Chen Weiren" #Guy in charge of Manchuria Soviet assigned by CCP c. 1927
+	desc = "POLITICS_CHEN_WEIREN_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+	create_country_leader = {
+	name = "Chang Tung-sun" #Liberal philosopher supportive of constitutional monarchy
+	desc = "POLITICS_CHANG_TUNGSUN_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1973.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+	create_country_leader = {
+	name = "Chang Tung-sun" #Replace if found better
+	desc = "POLITICS_CHANG_TUNGSUN_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1973.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
+	create_country_leader = {
+	name = "Liang Qichao"
+	desc = "POLITICS_LIANG_QICHAO_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1930.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+	create_country_leader = {
+	name = "Yikuang" #Manchurian royal, first and only Qing PM
+	desc = "POLITICS_YIKUANG_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1917.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+	create_country_leader = {
+	name = "Aisin-Gioro Puyi"
+	desc = "POLITICS_PUYI_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1968.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+	create_country_leader = {
+	name = "Aisin-Gioro Puyi" #Replace if found better
+	desc = "POLITICS_PUYI_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1968.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Yuan Shikai"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Yuan_Shikai.dds"
+	skill = 4
+}
+
+create_field_marshal = {
+	name = "Yinchang"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Zhang Xun"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Tiyei-liyang"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Zhang Renjun"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Wang Shizhen"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	skill = 2
+}

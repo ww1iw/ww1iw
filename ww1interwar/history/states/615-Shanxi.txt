@@ -8,11 +8,13 @@ state=
 	
 	history=
 	{
-		owner = CHI
-		1936.1.1 = { owner = SHX }
-		add_core_of = SHX
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = QNG
+		add_core_of = QNG
+		1936.1.1 = { 
+			owner = SHX 
+			add_core_of = SHX
+		}
+		
 		victory_points = {
 			1519 3 
 		}

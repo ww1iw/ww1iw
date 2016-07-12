@@ -12,7 +12,8 @@ state=
 	}
 	history=
 	{
-		owner = CHI
+		owner = QNG
+		add_core_of = QNG
 		victory_points = {
 			8049 3
 		}
