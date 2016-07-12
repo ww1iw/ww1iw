@@ -5,7 +5,7 @@
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
 ###############################################################
-# North Africa & Middle East
+# North American, Britain & Commonwealth
 ###############################################################
 NFL = {
 	male = {
@@ -117,5 +117,24 @@ TUN = {
 			"al-Najdi" "al-Hijazi"   
 	
 	}
+	callsigns = { }
+}
+
+
+###############################################################
+# East Africa
+###############################################################
+SOM = {
+	male = {
+		names = {
+			Amare Bekele Berhanu Saleh Haile Berihun Demissie Desta Geteye Girma Kelile Negasi
+		   }
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+		Selassie Mikael Mariam Melekot Seged Wossen Makonnen
+	 }
 	callsigns = { }
 }

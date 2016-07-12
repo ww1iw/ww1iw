@@ -8,7 +8,8 @@ technology_categories = {
 	infantry_hmg
 	infantry_grenades
 	infantry_mortar # med, light, trench, siege
-	engi_sappers #sub- tunneling/he charges, flamethrowers
+	shocks
+	sappers #sub- tunneling/he charges, flamethrowers
 	field_obstacles #inc land mines, subt- mine detection
 	trench_system
 	trench_raiding
