@@ -1,5 +1,5 @@
 division_template = {
-	name = "Trigonikó Pezikoú" 				# Triangular Infantry Division
+	name = "Trigoniko Pezikou" 				# Triangular Infantry Division
 	# Prior to 1940 mobilization = 3rd, 4th, 5th, 9th, 10, 13th;
 	# 	6th, 7th, 11th, and 12th had 2 regiments; 14th had 1 regiment
 	# Note: sources have all Greek regular infantry as mountain-trained
@@ -19,7 +19,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Tetrágono Pezikoú" 				# Square Infantry Division
+	name = "Tetragono Pezikou" 				# Square Infantry Division
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
@@ -36,7 +36,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Merarchía Ippikoú" 			# Cavalry Division
+	name = "Merarchia Ippikou" 			# Cavalry Division
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -50,65 +50,65 @@ division_template = {
 
 units = {
 	division = {
-		name = "I Merarchía Pezikoú"
+		name = "I Merarchia Pezikou"
 		location = 863
-		division_template = "Trigonikó Pezikoú" 
+		division_template = "Trigoniko Pezikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "II Merarchía Pezikoú"
+		name = "II Merarchia Pezikou"
 		location = 863
-		division_template = "Trigonikó Pezikoú" 
+		division_template = "Trigoniko Pezikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "III Merarchía Pezikoú"
+		name = "III Merarchia Pezikou"
 		location = 863
-		division_template = "Trigonikó Pezikoú" 
+		division_template = "Trigoniko Pezikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "IV Merarchía Pezikoú"
+		name = "IV Merarchia Pezikou"
 		location = 863
-		division_template = "Trigonikó Pezikoú" 
+		division_template = "Trigoniko Pezikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "V Merarchía Pezikoú"
+		name = "V Merarchia Pezikou"
 		location = 863
-		division_template = "Trigonikó Pezikoú" 
+		division_template = "Trigoniko Pezikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "VI Merarchía Pezikoú"
+		name = "VI Merarchia Pezikou"
 		location = 863
-		division_template = "Trigonikó Pezikoú" 
+		division_template = "Trigoniko Pezikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "VII Merarchía Pezikoú"
+		name = "VII Merarchia Pezikou"
 		location = 863
-		division_template = "Trigonikó Pezikoú" 
+		division_template = "Trigoniko Pezikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Taxiarchia Ippikou"
 		location = 863
-		division_template = "Merarchía Ippikoú" 
+		division_template = "Merarchia Ippikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
 	division = {
-		name = "Merarchía Ipeirou"
+		name = "Merarchia Ipeirou"
 		location = 11786
-		division_template = "Trigonikó Pezikoú" 
+		division_template = "Trigoniko Pezikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
@@ -116,7 +116,7 @@ units = {
 
 	##### NAVAL UNITS #####
 	navy = {					
-		name = "Vasilikó Polemikó Naftikó"				
+		name = "Vasiliko Polemiko Naftiko"				
 		base = 4109
 		location = 4109 # Athens
 		ship = { name = "RHS Georgios Averoff" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GRE } } }				
@@ -132,7 +132,7 @@ units = {
 		ship = { name = "RHS Spetsai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
 	}					
 	navy = {					
-		name = "Stolískou Ypovrychíon"				
+		name = "Stoliskou Ypovrychion"				
 		base = 4109 
 		location = 4109 # Athens
 		ship = { name = "RHS Katsonis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
