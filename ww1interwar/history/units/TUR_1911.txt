@@ -1,0 +1,408 @@
+division_template = {
+	name = "Piyade Tumeni"  			# Infantry Division
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Dag Tugayi" 				# Mountain Brigade
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Jandarma"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Suvari Tumeni" 				# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+division_template = {
+	name = "Suvari Tugayi" 				# Cavalry Brigade
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}	
+}
+
+units = { 
+	division= {
+		name = "1. Piyade Tumeni"
+		location = 9833
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "2. Piyade Tumeni"
+		location = 9833
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "3. Piyade Tumeni"
+		location = 9833
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "4. Piyade Tumeni"
+		location = 6895
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "5. Piyade Tumeni"
+		location = 849
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+	name = "6. Piyade Tumeni"
+		location = 4112
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "7. Piyade Tumeni"
+		location = 11842
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "8. Piyade Tumeni"
+		location = 6895
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "9. Piyade Tumeni"
+		location = 3893
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "10. Piyade Tumeni"
+		location = 3893
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "11. Piyade Tumeni"
+		location = 11905
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "12. Piyade Tumeni"
+		location = 11774
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "13. Piyade Tumeni"
+		location = 11818
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "14. Piyade Tumeni"
+		location = 6990
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "15. Piyade Tumeni"
+		location = 6886
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "6. Suvari Tugayi"
+		location = 3936
+		division_template = "Suvari Tugayi"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "16. Piyade Tumeni"
+		location = 907
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "17. Piyade Tumeni"
+		location = 11856
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "18. Piyade Tumeni"
+		location = 833
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "7. Suvari Tugayi"
+		location = 11856
+		division_template = "Suvari Tugayi"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "19. Piyade Tumeni"
+		location = 3882
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "20. Piyade Tumeni"
+		location = 867
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "21. Piyade Tumeni"
+		location = 9849
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "8. Suvari Tugayi"
+		location = 3882
+		division_template = "Suvari Tugayi"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "22. Piyade Tumeni"
+		location = 6940
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "23. Piyade Tumeni"
+		location = 841
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "24. Piyade Tumeni"
+		location = 3896
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "25. Piyade Tumeni"
+		location = 1074
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "26. Piyade Tumeni"
+		location = 12473
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "27. Piyade Tumeni"
+		location = 792
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "9. Suvari Tugayi"
+		location = 4111
+		division_template = "Suvari Tugayi"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "28. Piyade Tumeni"
+		location = 10399
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "29. Piyade Tumeni"
+		location = 9868
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "30. Piyade Tumeni"
+		location = 6919
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "31. Piyade Tumeni"
+		location = 6919
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "32. Piyade Tumeni"
+		location = 9860
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "33. Piyade Tumeni"
+		location = 12318
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "34. Piyade Tumeni"
+		location = 10497
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "1. Asiret Suvari Tumeni"
+		location = 10399
+		division_template = "Suvari Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "2. Asiret Suvari Tumeni"
+		location = 652
+		division_template = "Suvari Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "3. Asiret Suvari Tumeni"
+		location = 7470
+		division_template = "Suvari Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "4. Asiret Suvari Tumeni"
+		location = 12387
+		division_template = "Suvari Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "35. Piyade Tumeni"
+		location = 10106
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "36. Piyade Tumeni"
+		location = 6826
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "37. Piyade Tumeni"
+		location = 2097
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "38. Piyade Tumeni"
+		location = 2089
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "39. Piyade Tumeni"
+		location = 10840
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "40. Piyade Tumeni"
+		location = 10752
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "41. Piyade Tumeni"
+		location = 5006
+		division_template = "Piyade Tumeni"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "20. Piyade Tugayi"
+		location = 1149
+		division_template = "Jandarma"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "21. Piyade Tugayi"
+		location = 1130
+		division_template = "Jandarma"
+		start_experience_factor = 0.3
+	}
+}
+
+##### NAVAL UNITS #####
+	### Turk Donanmasi ###
+navy = {	
+}
+
+
+### Air Wings ###
+air_wings = {
+}
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "TUR"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "TUR"
+		}
+		requested_factories = 1
+		progress = 0.47
+		efficiency = 100
+	}
+}
