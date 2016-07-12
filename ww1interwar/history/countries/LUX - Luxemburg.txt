@@ -1,16 +1,53 @@
 ﻿oob = "basic_test"
 capital = 8
+set_convoys = 50
+set_research_slots = 2
+set_national_unity = 0.55
 
-# oob = "LUX_1936"
+set_politics = {
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	gw_artillery = 1
-	tech_support = 1		
-	tech_engineers = 1
-	early_fighter = 1
+	parties = {
+		liberal = {
+			popularity = 0
+		}
+		democratic = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 0
+		}
+		socialist = { 
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 100
+		}
+		communism = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1914.5.24"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Paul Eyschen"
+	desc = "PAUL_EYSCHEN_DESC"
+	picture = "Portrait_LUX_Paul_Eyschen.dds"
+	expire = "1950.1.1"
+	ideology = independent
 }
 
 1939.1.1 = {
@@ -60,7 +97,7 @@ set_technology = {
 		concentrated_industry = 1
 		concentrated_industry2 = 1
 	}
-}
+
 
 set_politics = {
 
@@ -128,4 +165,5 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
 }
