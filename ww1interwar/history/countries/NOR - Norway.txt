@@ -54,13 +54,13 @@ create_country_leader = {
 
 		parties = {
 			liberal = {
-				popularity = 19
+				popularity = 22.6
 			}
 			democratic = {
-				popularity = 13
+				popularity = 13.1
 			}
 			conservative = {
-				popularity = 32
+				popularity = 33.3
 			}
 			natsoc = {
 				popularity = 0
@@ -69,16 +69,16 @@ create_country_leader = {
 				popularity = 0
 			}
 			socialist = { 
-				popularity = 27
+				popularity = 30.5
 			}
 			communism = {
-				popularity = 6
+				popularity = 0
 			}
 			autocratic = {
 				popularity = 0
 			}
 			neutrality = {
-				popularity = 0
+				popularity = .5
 			}
 		}
 		ruling_party = liberal
