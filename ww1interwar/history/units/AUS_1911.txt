@@ -1,0 +1,500 @@
+division_template = {
+	name = "Landwehr"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }   
+	}
+}
+
+division_template = {
+	name = "Honved-Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }   
+	}
+}
+
+division_template = {
+	name = "Infanterietruppendivision"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }   
+	}
+}
+
+division_template = {
+	name = "Alpenjager Division"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }   # Pioneer Bn
+	}
+}
+
+division_template = {
+	name = "Kavallerietruppendivision" 
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {	
+		name = "13. Landwehr-Division"
+		location = 11666
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "21. Landwehr-Division"
+		location = 11542
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "22. Landwehr-Division"
+		location = 9648
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "26. Landwehr-Division"
+		location = 11432
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "44. Landwehr-Division"
+		location = 673
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "45. Landwehr-Division"
+		location = 3434
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "46. Landwehr-Division"
+		location = 9427
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "Reitende Tiroler Division"
+		location = 11618
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "Reitende Dalmatiner Division"
+		location = 3924
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "20. Honved-Division"
+		location = 3696
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "41. Honved-Division"
+		location = 9660
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "45. Honved-Brigade"
+		location = 6700
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "46. Honved-Brigade"
+		location = 11608
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "73. Honved-Brigade"
+		location = 9692
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "74. Honved-Brigade"
+		location = 11522
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "75. Honved-Brigade"
+		location = 6711
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "76. Honved-Brigade"
+		location = 6679
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "77. Honved-Brigade"
+		location = 6573
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "78. Honved-Brigade"
+		location = 3713
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "79. Honved-Brigade"
+		location = 9660
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "80. Honved-Brigade"
+		location = 11610
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "83. Honved-Brigade"
+		location = 11581
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "84. Honved-Brigade"
+		location = 6647
+		division_template = "Honved-Brigade"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "5. Honved-Lovashadosztaly"
+		location = 9692
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		name = "11. Honved-Lovashadosztaly"
+		location = 11659
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}	
+	division= {
+		name = "5. Infanterietruppendivision"
+		location = 6562
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "12. Infanterietruppendivision"
+		location = 9427
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+	name = "7. Kavallerietruppendivision"
+	location = 9427
+	division_template = "Kavallerietruppendivision"
+	start_experience_factor = 0.3
+	}
+	division= {
+		name = "4. Infanterietruppendivision"
+		location = 3569
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "25. Infanterietruppendivision"
+		location = 11666
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "49. Infanterietruppendivision"
+		location = 11666
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "3. Kavallerietruppendivision"
+		location = 11666
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "6. Infanterietruppendivision"
+		location = 9648
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "28. Infanterietruppendivision"
+		location = 9627
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "31. Infanterietruppendivision"
+		location = 9660
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "32. Infanterietruppendivision"
+		location = 9660
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "10. Kavallerietruppendivision"
+		location = 9660
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "14. Infanterietruppendivision"
+		location = 9692
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "33. Infanterietruppendivision"
+		location = 11663
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "2. Kavallerietruppendivision"
+		location = 9692
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "15. Infanterietruppendivision"
+		location = 3713
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "27. Infanterietruppendivision"
+		location = 6573
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "17. Infanterietruppendivision"
+		location = 3696
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "34. Infanterietruppendivision"
+		location = 646
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "1. Kavallerietruppendivision"
+		location = 646
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "9. Infanterietruppendivision"
+		location = 11542
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "19. Infanterietruppendivision"
+		location = 6418
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "10. Infanterietruppendivision"
+		location = 11666
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "29. Infanterietruppendivision"
+		location = 11432
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "2. Infanterietruppendivision"
+		location = 6522
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "24. Infanterietruppendivision"
+		location = 3434
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "6. Kavallerietruppendivision"
+		location = 6522
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "11. Infanterietruppendivision"
+		location = 11479
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "30. Infanterietruppendivision"
+		location = 11479
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "4. Kavallerietruppendivision"
+		location = 11479
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "8. Kavallerietruppendivision"
+		location = 11550
+		division_template = "Kavallerietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "16. Infanterietruppendivision"
+		location = 6679
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "35. Infanterietruppendivision"
+		location = 6711
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "7. Infanterietruppendivision"
+		location = 6647
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "36. Infanterietruppendivision"
+		location = 11581
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "3. Infanterietruppendivision"
+		location = 6723
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "8. Infanterietruppendivision"
+		location = 6675
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "1. Infanterietruppendivision"
+		location = 11899
+		division_template = "Alpenjager Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "48. Infanterietruppendivision"
+		location = 11899
+		division_template = "Alpenjager Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "18. Infanterietruppendivision"
+		location = 9894
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "47. Infanterietruppendivision"
+		location = 11598
+		division_template = "Infanterietruppendivision"
+		start_experience_factor = 0.3
+	}
+}
+
+air_wings = {
+
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AUS"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "AUS"
+		}
+		requested_factories = 1
+		progress = 0.74
+		efficiency = 100
+	}
+}

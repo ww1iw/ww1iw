@@ -1,4 +1,4 @@
-﻿oob = "ITA_1914"
+﻿oob = "ITA_1911"
 capital = 2
 
 	add_ideas = {
@@ -48,6 +48,60 @@ create_country_leader = {
 	ideology = liberalism
 	traits = {
 	}
+}
+
+1914.6.1 = {
+oob = "ITA_1914"
+capital = 2
+
+	add_ideas = {
+progress_ideal
+victor_emmanuel
+	}
+
+set_research_slots = 2
+set_convoys = 100
+set_national_unity = 0.5
+
+
+set_politics = {
+
+	parties = {
+		liberal = {
+			popularity = 63
+		}
+		socialist = { 
+			popularity = 23
+		}
+		conservative = {
+			popularity = 7
+		}
+		democratic = {
+			popularity = 2
+		}
+		neutrality = {
+			popularity = 3
+		}
+		autocratic = {
+			popularity = 2
+		}
+	}
+	
+	ruling_party = liberal
+	last_election = "1913.11.16"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Antonio Salandra"
+	desc = "ANTONIA_SALANDRA_DESC"
+	picture = "Portrait_Italy_Antonio_Salandra.dds"
+	expire = "1931.12.9"
+	ideology = liberalism
+	traits = {
+	}
+}
 }
 
 1923.1.1 = {

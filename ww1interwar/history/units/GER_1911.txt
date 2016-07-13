@@ -1,0 +1,699 @@
+division_template = {
+	name = "Landwehr"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Landsturm"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+        infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Kolonial-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Gebirgsjäger-Brigade"		# Gebirgsbrigade
+	#Note: precursor to Gebirgs-Divisions
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1. Division"
+		location = 6332
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Division"
+		location = 6332
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "37. Division"
+		location = 6332
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "35. Division"
+		location = 362
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "36. Division"
+		location = 362
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Garde-Kavallerie-Division"
+		location = 6521
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "1. Garde-Infanterie-Division"
+		location = 6521
+		division_template = "Landwehr"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "2. Garde-Infanterie-Division"
+		location = 6521
+		division_template = "Landwehr"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "23. Division"
+		location = 514
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "32. Division"
+		location = 514
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "24. Division"
+		location = 3535
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "40. Division"
+		location = 3535
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13. Division"
+		location = 6535
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14. Division"
+		location = 6535
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "17. Division"
+		location = 9347
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "18. Division"
+		location = 9347
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "19. Division"
+		location = 6377
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "20. Division"
+		location = 6377
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Division"
+		location = 6521
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Division"
+		location = 6521
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Koniglich Bayerische Division"
+		location = 692
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Koniglich Bayerische Division"
+		location = 692
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Koniglich Bayerische Division"
+		location = 6594
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Koniglich Bayerische Division"
+		location = 6594
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Koniglich Bayerische Division"
+		location = 11544
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Koniglich Bayerische Division"
+		location = 11544
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15. Division"
+		location = 3558
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "16. Division"
+		location = 3558
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "28. Division"
+		location = 6542
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "29. Division"
+		location = 6542
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "30. Division"
+		location = 9503
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "39. Division"
+		location = 9503
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Division"
+		location = 3522
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Division"
+		location = 3522
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "22. Division"
+		location = 564
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "38. Division"
+		location = 564
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "26. Division"
+		location = 9517
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "27. Division"
+		location = 9517
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "33. Division"
+		location = 9559
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "34. Division"
+		location = 9559
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "21. Division"
+		location = 6488
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "25. Division"
+		location = 6488
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "31. Division"
+		location = 11531
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "42. Division"
+		location = 11531
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Division"
+		location = 6282
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Division"
+		location = 6282
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "9. Division"
+		location = 6558
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10. Division"
+		location = 6558
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11. Division"
+		location = 9570
+		division_template = "Landwehr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Kavallerie-Brigade"
+		location = 6332
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2/43. Kavallerie-Brigaden"
+		location = 6332
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3/4. Kavallerie-Brigaden"
+		location = 6282
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5/6. Kavallerie-Brigaden"
+		location = 6521
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7/8. Kavallerie-Brigaden"
+		location = 3522
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "9/10. Kavallerie-Brigaden"
+		location = 6558
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11. Kavallerie-Brigade"
+		location = 9570
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12/44. Kavallerie-Brigaden"
+		location = 9570
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13/14. Kavallerie-Brigaden"
+		location = 6535
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15/16. Kavallerie-Brigaden"
+		location = 3558
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "17/18. Kavallerie-Brigaden"
+		location = 9347
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "19/20. Kavallerie-Brigaden"
+		location = 6377
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "22/38. Kavallerie-Brigaden"
+		location = 564
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "23/32. Kavallerie-Brigaden"
+		location = 514
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "26/27. Kavallerie-Brigaden"
+		location = 9517
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "28/29. Kavallerie-Brigaden"
+		location = 6542
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "30/39. Kavallerie-Brigaden"
+		location = 9503
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "33. Kavallerie-Brigade"
+		location = 9559
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "34/45. Kavallerie-Brigaden"
+		location = 9559
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "35/Leib Hussar Kav.-Brigaden"
+		location = 362
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "21/25. Kavallerie-Brigaden"
+		location = 6488
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "24/40. Kavallerie-Brigaden"
+		location = 3535
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "31/42. Kavallerie-Brigaden"
+		location = 11531
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1/2. Bayerische Kav.-Brigaden"
+		location = 692
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3/4. Bayerische Kav.-Brigaden"
+		location = 6594
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5/6. Bayerische Kav.-Brigaden"
+		location = 11544
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Schutztruppen 'Ostafrika'"
+		location = 2196
+		division_template = "Kolonial-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Schutztruppen 'Sudwestafrika'"
+		location = 2207
+		division_template = "Kolonial-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Schutztruppen 'Kamerun'"
+		location = 5036
+		division_template = "Kolonial-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Schutztruppen 'Neuguinea'"
+		location = 12240
+		division_template = "Kolonial-Division"
+		start_experience_factor = 0.3
+	}
+}
+
+	##### NAVAL UNITS #####
+	navy = {
+		# to be done later
+	}
+
+#No military planes - yet
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	### Ships Under Contruction ###
+	# SS: Type IIA (x2) ("U-25" "U-26"), Type IIB (x6) ("U-14" "U-16" "U-18" "U-15" "U-20" "U-19")
+	add_equipment_production = {
+		equipment = {
+			type = submarine_2
+			creator = "GER" 
+		}
+		requested_factories = 5
+		progress = 0.75
+		amount = 8
+	}
+	# DD: 1934 class (x4) ("Z1" "Z2" "Z3" "Z4")
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "GER"
+		}
+		requested_factories = 3
+		progress = 0.75
+		amount = 4
+	}
+	# CA: "Graf Spee"
+	add_equipment_production = {
+		equipment = {
+			type = heavy_cruiser_1
+			creator = "GER"
+			version_name = "Deutschland Class"
+		}
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+	}
+}
+
+#####################
