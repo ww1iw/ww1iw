@@ -1,7 +1,105 @@
 ﻿oob = "SWE_1914"
 capital = 141	
+	set_politics = {
 
+		parties = {
+			liberal = {
+				popularity = 32
+			}
+			democratic = {
+				popularity = 0
+			}
+			conservative = {
+				popularity = 0
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 0
+			}
+			socialist = { 
+				popularity = 30
+			}
+			communism = {
+				popularity = 0
+			}
+			autocratic = {
+				popularity = 0
+			}
+			neutrality = {
+				popularity = 38
+			}
+		}
+		ruling_party = neutrality
+		last_election = "1920.4.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+	create_country_leader = {
+		name = "Hjalmar Hammarskjöld"
+		desc = "POLITICS_HJALMAR_HAMMARSKJÖLD_DESC"
+		picture = "Portrait_Sweden_Hjalmar_Hammarskjöld.dds"
+		expire = "1946.2.3"
+		ideology = independent
+		traits = {
+			#
+		}
 
+}
+
+1923.1.1 = {
+
+	set_politics = {
+
+		parties = {
+			liberal = {
+				popularity = 19
+			}
+			democratic = {
+				popularity = 11
+			}
+			conservative = {
+				popularity = 0
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 0
+			}
+			socialist = { 
+				popularity = 39
+			}
+			communism = {
+				popularity = 5
+			}
+			autocratic = {
+				popularity = 0
+			}
+			neutrality = {
+				popularity = 26
+			}
+		}
+		ruling_party = socialist
+		last_election = "1920.4.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+create_country_leader = {
+	name = "Hjalmar Branting"
+	desc = "POLITICS_HJALMAR_BRANTING_DESC"
+	picture = "Portrait_Sweden_Hjalmar_Branting.dds"
+	expire = "1936.9.2"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+1936.1.1 = {
 set_research_slots = 3
 
 add_ideas = {
@@ -32,6 +130,44 @@ set_technology = {
 	transport = 1
 }
 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 75
+		}
+
+		neutrality = {
+			popularity  = 14
+		}
+
+		communism = {
+			popularity = 8
+		}
+
+		fascism = {
+			popularity = 3
+		}
+		
+	}
+	
+	ruling_party = democratic
+	last_election = "1932.9.18"
+	election_frequency = 48
+	elections_allowed = yes
+	
+create_country_leader = {
+	name = "Per Albin Hansson"
+	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+}
+}
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -89,32 +225,6 @@ set_technology = {
 	}
 }
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 75
-		}
-
-		neutrality = {
-			popularity  = 14
-		}
-
-		communism = {
-			popularity = 8
-		}
-
-		fascism = {
-			popularity = 3
-		}
-		
-	}
-	
-	ruling_party = democratic
-	last_election = "1932.9.18"
-	election_frequency = 48
-	elections_allowed = yes
-}
 
 1939.1.1 = {
 	set_politics = {
@@ -143,14 +253,7 @@ set_politics = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
-}
-
-set_convoys = 25
-set_national_unity = 0.9
-
-
-
-
+	
 create_country_leader = {
 	name = "Per Albin Hansson"
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
@@ -161,6 +264,15 @@ create_country_leader = {
 		#
 	}
 }
+}
+
+set_convoys = 25
+set_national_unity = 0.9
+
+
+
+
+
 
 create_country_leader = {
 	name = "Sven Olov Lindholm"
