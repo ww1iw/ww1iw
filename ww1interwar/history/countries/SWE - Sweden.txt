@@ -1,16 +1,19 @@
 ﻿oob = "SWE_1914"
-capital = 141	
+capital = 141
+set_convoys = 50
+set_research_slots = 2
+set_national_unity = 0.55	
 	set_politics = {
 
 		parties = {
 			liberal = {
-				popularity = 32
+				popularity = 32.2
 			}
 			democratic = {
 				popularity = 0
 			}
 			conservative = {
-				popularity = 0
+				popularity = 37.7
 			}
 			natsoc = {
 				popularity = 0
@@ -19,7 +22,7 @@ capital = 141
 				popularity = 0
 			}
 			socialist = { 
-				popularity = 30
+				popularity = 30.1
 			}
 			communism = {
 				popularity = 0
@@ -28,10 +31,10 @@ capital = 141
 				popularity = 0
 			}
 			neutrality = {
-				popularity = 38
+				popularity = 0
 			}
 		}
-		ruling_party = neutrality
+		ruling_party = conservative
 		last_election = "1920.4.11"
 		election_frequency = 48
 		elections_allowed = yes
@@ -42,11 +45,7 @@ capital = 141
 		desc = "POLITICS_HJALMAR_HAMMARSKJÖLD_DESC"
 		picture = "Portrait_Sweden_Hjalmar_Hammarskjöld.dds"
 		expire = "1946.2.3"
-		ideology = independent
-		traits = {
-			#
-		}
-
+		ideology = conservatism
 }
 
 1923.1.1 = {

@@ -1,6 +1,8 @@
 ﻿oob = "NOR_1914"
 capital = 110
-
+set_convoys = 50
+set_research_slots = 2
+set_national_unity = 0.55
 	set_politics = {
 
 		parties = {
@@ -11,7 +13,7 @@ capital = 110
 				popularity = 0
 			}
 			conservative = {
-				popularity = 33
+				popularity = 33.2
 			}
 			natsoc = {
 				popularity = 0
@@ -20,7 +22,7 @@ capital = 110
 				popularity = 0
 			}
 			socialist = { 
-				popularity = 26
+				popularity = 26.3
 			}
 			communism = {
 				popularity = 0
@@ -29,7 +31,7 @@ capital = 110
 				popularity = 0
 			}
 			neutrality = {
-				popularity = 1
+				popularity = .5
 			}
 		}
 		ruling_party = liberal
@@ -44,9 +46,6 @@ create_country_leader = {
 	picture = "Portrait_Norway_Gunnar_Knudsen.dds"
 	expire = "1946.2.3"
 	ideology = liberalism
-	traits = {
-		#
-	}
 }
 
 1923.1.1 = {
