@@ -1,5 +1,17 @@
 #reload countrycolors
 
+WAL = {
+	color = rgb { 205 222 135 }
+	color_ui = rgb { 205 222 135 }
+}
+UKR = {
+	color = rgb { 144 195 212 }
+	color_ui = rgb { 100 151 212 }
+}
+FLA = {
+	color = rgb { 72 199 141 }
+	color_ui = rgb { 50 122 89 }
+}
 REB = {
 	color = rgb { 66 66 66 }
 	color_ui = rgb { 66 66 66 }

@@ -1,0 +1,350 @@
+﻿#####################################################
+# 		 Belgian flavor ; written by Thomahawk2k	#
+#####################################################
+
+add_namespace = belgium
+
+# Flemish nationalists in power: Split-up of Belgium
+country_event = {
+    id = belgium.1
+    title = belgium.1.t
+    desc = belgium.1.d
+    picture = GFX_report_factory_opened
+ 
+    trigger = {
+		BEL = {
+			has_government = natsoc
+			owns_state = 6
+			has_war = no
+		}
+    }
+ 
+    mean_time_to_happen = {
+        days = 3
+    }
+	
+	immediate = {
+		set_global_flag = belgium_splitup
+	}
+	
+	option = {
+        name = belgium.1.a
+		FLA = {
+			transfer_state = 6
+		}
+		FLA = {
+			change_tag_from = BEL
+		}
+		FLA = {
+			set_politics = {
+				ruling_party = natsoc
+				elections_allowed = no
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					BEL = {
+						owns_state = 34
+					}
+					FLA = {
+						owns_state = 34
+					}
+					HOL = {
+						owns_state = 34
+					}
+				}
+			}
+			BEL = { release = WAL }
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = {
+						OR = {
+							BEL = {
+								owns_state = 34
+							}
+							FLA = {
+								owns_state = 34
+							}
+							HOL = {
+								owns_state = 34
+							}
+						}
+					}
+					OR = {
+						BEL = {
+							owns_state = 768
+						}
+						FLA = {
+							owns_state = 768
+						}
+						HOL = {
+							owns_state = 768
+						}
+					}
+				}
+			}
+			768 = {
+				add_core_of = FLA
+				remove_core_of = WAL
+			}
+		}
+    }
+}
+
+# Shall we join the Netherlands
+country_event = {
+	id = belgium.2
+	title = belgium.2.t
+	desc = belgium.2.d
+	picture = GFX_report_event_chinese_army_training
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FLA
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #Yes
+		name = belgium.2.a
+		ai_chance = { factor = 30 }
+		HOL = {
+			country_event = { id = belgium.3 }
+		}
+	}
+	
+	option = { #No
+		name = belgium.2.b
+		ai_chance = { factor = 70 }
+	}
+}
+
+# Flanders wants to join us
+country_event = {
+	id = belgium.3
+	title = belgium.3.t
+	desc = belgium.3.d
+	picture = GFX_report_event_chinese_army_training
+
+	is_triggered_only = yes
+	
+	option = { #Yes
+		name = belgium.3.a
+		ai_chance = { factor = 95 }
+		HOL = {
+			annex_country = {
+				target = FLA
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = FLA
+			}
+			add_core_of = HOL
+		}
+	}
+	
+	option = { #No
+		name = belgium.3.b
+		ai_chance = { factor = 5 }
+		FLA = { country_event = { id = belgium.4 } }
+	}
+}
+
+# Netherlands doesn't want us...
+country_event = {
+	id = belgium.4
+	title = belgium.4.t
+	desc = belgium.4.d
+	picture = GFX_report_event_chinese_army_training
+
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = belgium.4.a
+	}
+}
+
+# Shall we join the France
+country_event = {
+	id = belgium.5
+	title = belgium.5.t
+	desc = belgium.5.d
+	picture = GFX_report_event_chinese_army_training
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = WAL
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #Yes
+		name = belgium.5.a
+		ai_chance = { factor = 90 }
+		FRA = {
+			country_event = { id = belgium.6 }
+		}
+	}
+	
+	option = { #No
+		name = belgium.5.b
+		ai_chance = { factor = 10 }
+	}
+}
+
+# Wallonia wants to join us
+country_event = {
+	id = belgium.6
+	title = belgium.6.t
+	desc = belgium.6.d
+	picture = GFX_report_event_chinese_army_training
+
+	is_triggered_only = yes
+	
+	option = { #Yes
+		name = belgium.6.a
+		ai_chance = { factor = 100 }
+		FRA = {
+			annex_country = {
+				target = WAL
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = WAL
+			}
+			add_core_of = FRA
+#			remove_core_of = WAL Snowhawkkiller likes to separate
+		}
+	}
+	
+	option = { #No
+		name = belgium.6.b
+		ai_chance = { factor = 0 }
+		WAL = { country_event = { id = belgium.7 } }
+	}
+}
+
+# France doesn't want us...
+country_event = {
+	id = belgium.7
+	title = belgium.7.t
+	desc = belgium.7.d
+	picture = GFX_report_event_chinese_army_training
+
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = belgium.7.a
+	}
+}
+
+# Treaty of London ([GetYear]) (who gets the Belgian colonies)
+country_event = {
+	id = belgium.8
+	title = belgium.8.t
+	desc = belgium.8.d
+	picture = GFX_report_event_chinese_army_training
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = belgium_splitup
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	option = { #find for the Flemish
+		name = belgium.8.a
+		ai_chance = { factor = 50 }
+		FLA = {
+			annex_country = {
+				target = BEL
+				transfer_troops = yes
+			}
+		}
+		hidden_effect = {
+			news_event = {
+				id = belgium.9
+			}
+		}
+	}	
+	
+	option = { #find for the Walloons
+		name = belgium.8.a
+		ai_chance = { factor = 50 }
+		WAL = {
+			annex_country = {
+				target = BEL
+				transfer_troops = yes
+			}
+		}
+		hidden_effect = {
+			news_event = {
+				id = belgium.10
+			}
+		}
+	}
+}
+
+# Treaty of london of [GetYear] - Belgian colonies go to Flanders
+news_event = {
+	id = belgium.9
+	title = belgium.9.t
+	desc = belgium.9.d
+	picture = GFX_news_event_hitler_speech
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = belgium.9.a
+		trigger = {
+			NOT = {
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.9.b
+		trigger = { TAG = ENG }
+	}
+}
+
+# Treaty of london of [GetYear] - Belgian colonies go to Wallonia
+news_event = {
+	id = belgium.10
+	title = belgium.10.t
+	desc = belgium.10.d
+	picture = GFX_news_event_hitler_speech
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = belgium.9.a
+		trigger = {
+			NOT = {
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.9.b
+		trigger = { TAG = ENG }
+	}
+}

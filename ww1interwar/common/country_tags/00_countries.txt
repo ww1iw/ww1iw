@@ -1,3 +1,5 @@
+WAL = "countries/Wallonie.txt"
+FLA = "countries/Flanders.txt"
 NFL = "countries/Newfoundland.txt"
 BAL = "countries/BalticDuchy.txt"
 UKR = "countries/Ukraine.txt"
