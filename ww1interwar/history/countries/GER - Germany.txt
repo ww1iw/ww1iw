@@ -1,4 +1,4 @@
-﻿oob = "GER_1914"
+﻿oob = "GER_1911"
 capital = 64
 
 set_research_slots = 2
@@ -113,6 +113,125 @@ create_country_leader = {
 	ideology = nazism
 	traits = {
 	}
+}
+
+1914.6.1 = {
+oob = "GER_1914"
+capital = 64
+
+set_research_slots = 2
+set_convoys = 100
+set_national_unity = 0.9
+
+add_ideas = {
+	imperial_ideal
+	general_staff
+ }
+
+create_faction = "Central Powers"
+add_to_faction = GER
+
+
+set_politics = {
+
+	parties = {
+		socialist = { 
+			popularity = 28
+		}
+		conservative = {
+			popularity = 15
+		}
+		democratic = {
+			popularity = 10
+		}
+		autocratic = {
+			popularity = 42
+		}
+		liberal = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = autocratic
+	last_election = "1912.1.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = "WILHELM_II_DESC"
+	picture = "Portrait_Germany_Wilhelm_II.dds"
+	expire = "1941.6.4"
+	ideology = monarchism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = "KARL_LIEBKNECHT_DESC"
+	picture = "Portrait_Germany_Karl_Liebknecht.dds"
+	expire = "1940.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Hermann Müller"
+	desc = "HERMANN_MULLER_DESC"
+	picture = "Portrait_Germany_Hermann_Muller.dds"
+	expire = "1931.3.20"
+	ideology = social_democracy
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Friedrich von Payer"
+	desc = "FRIEDRICH_VON_PAYER_DESC"
+	picture = "Portrait_Germany_Friedrich_von_Payer.dds"
+	expire = "1931.7.14"
+	ideology = liberalism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Constantin Fehrenbach"
+	desc = "CONSTANTIN_FEHRENBACH_DESC"
+	picture = "Portrait_Germany_Constantin_Fehrenbach.dds"
+	expire = "1926.3.26"
+	ideology = centrism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Rudolf Heinze"
+	desc = "RUDOLF_HEINZE_DESC"
+	picture = "Portrait_Germany_Rudolf_Heinze.dds"
+	expire = "1928.5.28"
+	ideology = social_conservative
+	traits = {
+	}
+}
+	
+create_country_leader = {
+	name = "Wolfgang Kapp"
+	desc = "WOLFGANG_KAPP_DESC"
+	picture = "Portrait_Germany_Wolfgang_Kapp.dds"
+	expire = "1922.6.12"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+	
+create_country_leader = {
+	name = "Anton Drexler"
+	desc = "ANTON_DREXLER_DESC"
+	picture = "Portrait_Germany_Anton_Drexler.dds"
+	expire = "1942.2.24"
+	ideology = nazism
+	traits = {
+	}
+}
 }
 	
 1923.1.1 = {
