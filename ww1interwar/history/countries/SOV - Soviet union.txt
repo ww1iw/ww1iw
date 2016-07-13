@@ -1,4 +1,4 @@
-﻿oob = "SOV_1914"
+﻿oob = "SOV_1911"
 capital = 195
 set_research_slots = 2
 set_convoys = 75
@@ -58,6 +58,70 @@ set_politics = {
 	traits = {
 	
 	}
+}
+
+1914.6.1 = {
+oob = "SOV_1914"
+capital = 195
+set_research_slots = 2
+set_convoys = 75
+set_national_unity = 0.55
+
+add_ideas = {
+	imperial_ideal
+	rasputin
+	communist_revolutionaries 
+}
+give_guarantee = SER
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 9
+		}
+		liberal = {
+			popularity = 16
+		}
+		conservative = {
+			popularity = 20
+		}
+		autocratic = {
+			popularity = 37
+		}
+		socialist = {
+			popularity = 13
+		}
+		communism = {
+			popularity = 5
+		}
+		fascism = {
+			popularity = 1
+		}
+		natsoc = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = autocratic
+	last_election = "1914.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Nicholas II"
+	desc = "NICHOLAS_II_DESC"
+	picture = "Portrait_Russia_Nicholas_II.dds"
+	expire = "1950.1.1"
+	ideology = monarchism
+	traits = {
+	
+	}
+}
 }
 
 1923.1.1 = {

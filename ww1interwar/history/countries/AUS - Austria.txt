@@ -1,4 +1,4 @@
-﻿oob = "AUS_1914"
+﻿oob = "AUS_1911"
 capital = 4
 
 add_ideas ={
@@ -49,6 +49,61 @@ create_country_leader = {
 	traits = {
 	
 	}
+}
+
+1914.6.1 = {
+oob = "AUS_1914"
+capital = 4
+
+add_ideas ={
+imperial_ideal
+}
+GER = { add_to_faction = AUS }
+
+
+set_research_slots = 2
+set_convoys = 100
+set_national_unity = 0.45
+
+set_politics = {
+
+	parties = {
+		socialist = { 
+			popularity = 8
+		}
+		conservative = {
+			popularity = 29
+		}
+		democratic = {
+			popularity = 10
+		}
+		autocratic = {
+			popularity = 34
+		}
+		liberal = {
+			popularity = 15
+		}
+		neutrality = {
+			popularity = 4
+		}
+	}
+	
+	ruling_party = autocratic
+	last_election = "1912.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Franz Joseph I"
+	desc = "FRANZ_JOSEPH_DESC"
+	picture = "Portrait_Austria_Franz_Joseph.dds"
+	expire = "1916.11.21"
+	ideology = monarchism
+	traits = {
+	
+	}
+}
 }
 
 1923.1.1 = {
