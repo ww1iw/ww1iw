@@ -60,7 +60,7 @@ set_national_unity = 0.55
 				popularity = 11
 			}
 			conservative = {
-				popularity = 0
+				popularity = 26
 			}
 			natsoc = {
 				popularity = 0
@@ -78,7 +78,7 @@ set_national_unity = 0.55
 				popularity = 0
 			}
 			neutrality = {
-				popularity = 26
+				popularity = 0
 			}
 		}
 		ruling_party = socialist
