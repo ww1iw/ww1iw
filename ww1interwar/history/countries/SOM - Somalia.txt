@@ -24,7 +24,7 @@ set_national_unity = 0.55
 				popularity = 0
 			}
 			autocratic = {
-				popularity = 0
+				popularity = 100
 			}
 			natsoc = {
 				popularity = 0
@@ -38,19 +38,77 @@ set_national_unity = 0.55
 		}
 	
 		ruling_party = autocratic
-		last_election = "1913.12.12"
+		last_election = "1910.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 }
+1918.1.1 = {
+	set_politics = {
 
-#	create_country_leader = {
-#		name = ""
-#		desc = ""
-#		picture = ""
-#		expire = ""
-#		ideology = 
-#	}
+		parties = {
+			democratic = { 
+				popularity = 51.67
+			}
+			liberal = {
+				popularity = 19.24
+			}
+			conservative = {
+				popularity = 20.37
+			}
+			socialist = {
+				popularity = 0.83
+			}
+			neutrality = {
+				popularity = 6.24
+			}
+			autocratic = {
+				popularity = 0
+			}
+			natsoc = {
+				popularity = 0
+			}
+			communism = {
+				popularity = 0.91
+			}
+			fascism = {
+				popularity = 0.74
+			}
+		}
+	
+		ruling_party = democratic
+		last_election = "1918.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}
+
+create_country_leader = {
+	name = "Mohammed Abdullah Hassan"
+	desc = ""
+	picture = "gfx/leaders/SOM/Portrait_SOM_Mohammed_Abdullah_Hassan.dds"
+	expire = "1920.12.21"
+	ideology = monarchism
+}
+
+create_country_leader = {
+	name = "Siad Barre"
+	desc = ""
+	picture = "gfx/leaders/SOM/Portrait_SOM_Siad_Barre.dds"
+	expire = "1995.1.2"
+	ideology = communism
+}
+
+create_country_leader = {
+	name = "Aden Abdullah Osman Daar"
+	desc = ""
+	picture = "gfx/leaders/SOM/Portrait_SOM_Aden_Abdullah_Osman_Daar.dds"
+	expire = "2007.6.7"
+	ideology = centrism
+}
+
+
+
 
 1939.1.1 = {
 	#generic focuses
@@ -144,10 +202,5 @@ set_politics = {
 	}
 }
 
-create_corps_commander = {
-	name = "Seyoum Mengesha"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
-	traits = {  desert_fox }
-	skill = 2
 }
 }
