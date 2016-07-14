@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/SOM/Portrait_SOM_Siad_Barre.dds"
 	expire = "1995.1.2"
-	ideology = communism
+	ideology = leninism
 }
 
 create_country_leader = {
