@@ -1,7 +1,105 @@
 ﻿oob = "NOR_1914"
 capital = 110
+set_convoys = 50
+set_research_slots = 2
+set_national_unity = 0.55
+	set_politics = {
 
+		parties = {
+			liberal = {
+				popularity = 40
+			}
+			democratic = {
+				popularity = 0
+			}
+			conservative = {
+				popularity = 33.2
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 0
+			}
+			socialist = { 
+				popularity = 26.3
+			}
+			communism = {
+				popularity = 0
+			}
+			autocratic = {
+				popularity = 0
+			}
+			neutrality = {
+				popularity = .5
+			}
+		}
+		ruling_party = liberal
+		last_election = "1920.4.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+create_country_leader = {
+	name = "Gunnar Knudsen"
+	desc = "POLITICS_GUNNAR_KNUDSEN_DESC"
+	picture = "Portrait_Norway_Gunnar_Knudsen.dds"
+	expire = "1946.2.3"
+	ideology = liberalism
+}
 
+1923.1.1 = {
+
+	set_politics = {
+
+		parties = {
+			liberal = {
+				popularity = 22.6
+			}
+			democratic = {
+				popularity = 13.1
+			}
+			conservative = {
+				popularity = 33.3
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 0
+			}
+			socialist = { 
+				popularity = 30.5
+			}
+			communism = {
+				popularity = 0
+			}
+			autocratic = {
+				popularity = 0
+			}
+			neutrality = {
+				popularity = .5
+			}
+		}
+		ruling_party = liberal
+		last_election = "1920.4.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+	create_country_leader = {
+		name = "Otto Albert Blehr"
+		desc = "POLITICS_OTTO_BLEHR_DESC"
+		picture = "Portrait_Norway_Otto_Blehr.dds"
+		expire = "1946.2.3"
+		ideology = liberalism
+		traits = {
+			#
+		}
+
+}
+
+1936.1.1 = {
 set_research_slots = 3
 
 add_ideas = {
@@ -20,6 +118,30 @@ set_technology = {
 	early_heavy_cruiser = 1
 	tech_recon = 1
 }
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 96
+		}
+
+		fascism = {
+			popularity = 2
+		}
+		
+		communism = {
+			popularity = 2
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+
+
 
 1939.1.1 = {
 

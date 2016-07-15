@@ -1,0 +1,111 @@
+add_namespace = news_itw
+
+# Italo-Turkish War Begins
+news_event = {
+	id = news_itw.1
+	title = news_itw.1.t
+	desc = news_itw.1.d
+	picture = news_event_itw_01
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Interesting...
+		name = news_itw.1.a
+		trigger = {
+			NOT = {
+				TAG = TUR
+			}
+		}
+	}
+	
+	option = { # They will regret this!
+		name = news_itw.1.b
+		trigger = { TAG = TUR }
+	}
+}
+
+#Ottomans surrender Libya
+news_event = {
+	id = news_itw.2
+	title = news_itw.2.t
+	desc = news_itw.2.d
+	picture = news_event_itw_01
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Interesting...
+		name = news_itw.2.a
+		trigger = {
+			NOT = {
+				TAG = TUR
+				TAG = ITA
+			}
+		}
+	}
+	
+	option = { # Damn!
+		name = news_itw.2.b
+		trigger = { TAG = TUR }
+	}
+	
+	option = { # Good!
+		name = news_itw.2.c
+		trigger = { TAG = ITA }
+	}
+}
+
+#Treaty of Lausanne (TUR loss)
+news_event = {
+	id = news_itw.3
+	title = news_itw.3.t
+	desc = news_itw.3.d
+	picture = news_event_itw_01
+
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Sick Man of Europe indeed
+		name = news_itw.3.a
+		trigger = {
+			NOT = {
+				TAG = TUR
+			}
+		}
+	}
+	
+	option = { # We will not forget this
+		name = news_itw.3.b
+		trigger = { TAG = TUR }
+	}
+}
+
+#Treaty of Lausanne (ITA loss)
+news_event = {
+	id = news_itw.4
+	title = news_itw.4.t
+	desc = news_itw.4.d
+	picture = news_event_itw_01
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Is Italy so weak?
+		name = news_itw.4.a
+		trigger = {
+			NOT = {
+				TAG = TUR
+			}
+		}
+	}
+	
+	option = { # A great victory!
+		name = news_itw.4.b
+		trigger = { TAG = TUR }
+	}
+}

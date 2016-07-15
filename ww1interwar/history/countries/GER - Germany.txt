@@ -18,19 +18,31 @@ set_politics = {
 
 	parties = {
 		socialist = { 
-			popularity = 28
+			popularity = 34.8
 		}
 		conservative = {
-			popularity = 15
+			popularity = 16.4
 		}
 		democratic = {
-			popularity = 10
+			popularity = 13.6
 		}
 		autocratic = {
-			popularity = 42
+			popularity = 12.2
 		}
 		liberal = {
-			popularity = 5
+			popularity = 12.3
+		}
+		neutrality = {
+			popularity = 7.8
+		}
+		communism = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
 		}
 	}
 	
@@ -136,19 +148,31 @@ set_politics = {
 
 	parties = {
 		socialist = { 
-			popularity = 28
+			popularity = 34.8
 		}
 		conservative = {
-			popularity = 15
+			popularity = 16.4
 		}
 		democratic = {
-			popularity = 10
+			popularity = 13.6
 		}
 		autocratic = {
-			popularity = 42
+			popularity = 12.2
 		}
 		liberal = {
-			popularity = 5
+			popularity = 12.3
+		}
+		neutrality = {
+			popularity = 7.8
+		}
+		communism = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
 		}
 	}
 	
