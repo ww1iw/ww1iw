@@ -1,0 +1,43 @@
+state={
+	id=770
+	name="STATE_770"
+	manpower = 463380
+	
+	state_category = rural
+	
+	resources={
+		chromium=35
+		aluminium=10
+	}
+
+	history={
+		owner = TUR
+		
+		1913.5.30 = {
+			owner = SER
+			remove_core_of = TUR
+			add_claim_by = TUR
+		}
+		1923.1.1 = { 
+			owner = YUG
+			remove_core_of = BUL
+			add_claim_by = BUL
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+		}
+		victory_points = {
+			3882 1 
+		}
+		add_core_of = TUR
+		add_core_of = YUG
+		add_core_of = SER
+		add_core_of = BUL
+	}
+	
+	provinces={
+		907 3833 6886 
+	}
+}

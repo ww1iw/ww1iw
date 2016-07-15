@@ -1,0 +1,38 @@
+state={
+	id=769
+	name="STATE_769"
+	manpower = 326684
+	
+	state_category = city
+	
+	resources={
+		chromium=32
+		steel=8
+	}
+
+	history={
+		add_core_of = GRE
+		owner = TUR
+		victory_points = {
+			11842  10 #Edirne
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			arms_factory = 2
+			air_base = 4
+		}
+		add_core_of = TUR
+		add_core_of = BUL
+
+		1923.1.1 = {
+			remove_core_of = BUL
+			add_claim_by = BUL
+		}
+	}
+	
+	provinces={
+		922 3893 11842 
+	}
+}

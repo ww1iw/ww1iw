@@ -2,13 +2,13 @@
 state={
 	id=106
 	name="STATE_106"
-	manpower = 1235700
+	manpower = 772320 #1235700 vanilla
 	
 	state_category = rural
 	
 	resources={
-		chromium=92
-		aluminium=26
+		chromium=57
+		aluminium=16
 	}
 
 	history={
@@ -21,6 +21,8 @@ state={
 		}
 		1923.1.1 = { 
 			owner = YUG
+			remove_core_of = BUL
+			add_claim_by = BUL
 		}
 		buildings = {
 			infrastructure = 4
@@ -33,9 +35,10 @@ state={
 		add_core_of = TUR
 		add_core_of = YUG
 		add_core_of = SER
+		add_claim_by = BUL
 	}
 
 	provinces={
-		907 974 3833 3865 3882 6886 11832 11856
+		974 3865 3882 11832 11856
 	}
 }
