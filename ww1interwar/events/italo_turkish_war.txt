@@ -1,0 +1,253 @@
+add_namespace = italo_turkish_war
+
+#Send Ultimatum to the Ottoman Empire
+country_event = {
+	id = italo_turkish_war.1
+	title = italo_turkish_war.1.t
+	desc = italo_turkish_war.1.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1911.11.26
+		tag = ITA
+		ITA = {
+			limit = {
+					NOT = { has_war = yes }	
+			}
+		}		
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = italo_turkish_war.1.a #historical ultimatum
+		ai_chance = { factor = 95 }
+		TUR = {
+			country_event = { days = 1 id = italo_turkish_war.2 }
+		}	
+	}
+	
+	option = {
+		name = italo_turkish_war.1.b #back down
+		ai_chance = { factor = 5 }
+		political_power = -1000
+		add_manpower = -10000
+		ITA = {
+			remove_state_claim = 449
+			remove_state_claim = 273
+			remove_state_claim = 448
+			remove_state_claim = 661
+			remove_state_claim = 662
+			remove_state_claim = 663
+			remove_state_claim = 450
+			remove_state_claim = 451
+		}
+	}
+}
+
+#Ottoman reply
+country_event = {
+	id = italo_turkish_war.2
+	title = italo_turkish_war.2.t
+	desc = italo_turkish_war.2.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italo_turkish_war.2.a #Refuse
+		ai_chance = { factor = 30 }
+		ITA = {
+			country_event = { days = 2 id = italo_turkish_war.3 }
+		}
+	}
+	
+	option = {
+		name = italo_turkish_war.2.b #Give in
+		ai_chance = { factor = 10 }
+		political_power = -750
+		ITA = {
+			transfer_state = 449
+			transfer_state = 273
+			transfer_state = 448
+			transfer_state = 661
+			transfer_state = 662
+			transfer_state = 663
+			transfer_state = 450
+			transfer_state = 451
+			news_event = { hours = 6 id = news_itw_2 }
+		}
+	}
+	
+	option = {
+		name = italo_turkish_war.2.c #Ottoman suzerainty
+		ai_chance = { factor = 60 }
+		ITA = {
+			country_event = { days = 2 id = italo_turkish_war.4 }
+		}
+	}	
+}
+
+#Ottomans Refuse ultimatum
+country_event = {
+	id = italo_turkish_war.3
+	title = italo_turkish_war.3.t
+	desc = italo_turkish_war.3.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_itw.1 }
+		}
+	}
+	
+	option = {
+		name = italo_turkish_war.3.a
+		declare_war_on = {
+			target = TUR
+			type = take_state
+			generator = { 449 }
+			generator = { 273 }
+			generator = { 448 }
+			generator = { 661 }
+			generator = { 662 }
+			generator = { 663 }
+			generator = { 450 }
+			generator = { 451 }
+		}
+	}	
+}
+
+#Ottomans request a compromise
+country_event = {
+	id = italo_turkish_war.4
+	title = italo_turkish_war.4.t
+	desc = italo_turkish_war.4.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italo_turkish_war.4.a # Refuse suzerainty
+		ai_chance = { factor = 85 }
+		news_event = { hours = 6 id = news_itw.1 }
+		declare_war_on = {
+			target = TUR
+			type = take_state
+			generator = { 449 }
+			generator = { 273 }
+			generator = { 448 }
+			generator = { 661 }
+			generator = { 662 }
+			generator = { 663 }
+			generator = { 450 }
+			generator = { 451 }
+		}	
+	}
+
+	option = {
+		name = italo_turkish_war.4.b # Accept suzerainty
+		ai_chance = { factor = 15 }
+		news_event = { hours = 6 id = news_itw.2 }
+		TUR = {
+			release = LBA
+			release_puppet = LBA
+		}
+		ITA = {
+			puppet = LBA
+		}
+	}
+}		
+
+#Ottoman surrender
+country_event = {
+	id = italo_turkish_war.5
+	title = italo_turkish_war.5.t
+	desc = italo_turkish_war.5.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		tag = TUR
+		date > 1912.3.1
+		ITA = {
+			controls_state = 451
+			controls_state = 450
+			controls_state = 449
+			controls_state = 448
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_itw.3 }
+		}
+	}
+	
+	option = {
+	name = italo_turkish_war.5.a
+	white_peace = ITA
+		ITA = {
+			transfer_state = 449
+			transfer_state = 273
+			transfer_state = 448
+			transfer_state = 661
+			transfer_state = 662
+			transfer_state = 663
+			transfer_state = 450
+			transfer_state = 451
+			transfer_state = 164
+		}
+	}
+}
+
+#Italy gives up
+country_event = {
+	id = italo_turkish_war.6
+	title = italo_turkish_war.6.t
+	desc = italo_turkish_war.6.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		tag = TUR
+		date > 1912.6.1
+		TUR = {
+			controls_state = 451
+			controls_state = 450
+			controls_state = 449
+			controls_state = 448
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_itw.4 }
+		}
+	}
+	
+	option = {
+		white_peace = ITA
+		ITA = {
+			add_national_unity = -0.20
+			remove_state_claim = 449
+			remove_state_claim = 273
+			remove_state_claim = 448
+			remove_state_claim = 661
+			remove_state_claim = 662
+			remove_state_claim = 663
+			remove_state_claim = 450
+			remove_state_claim = 451
+			remove_state_claim = 164
+		}
+	}
