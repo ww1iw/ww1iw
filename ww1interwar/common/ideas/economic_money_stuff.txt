@@ -67,7 +67,7 @@ ideas = {
 			}			
 			
 			modifier = {
-				political_power_factor = 40.0
+				political_power_factor = 30.0
 			}
 			
 			#default = no
@@ -3634,6 +3634,7231 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = 2200.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	division_amount = {
+		law = yes
+		div_num0 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+			
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num1 = {
+
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -3.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		
+		div_num2 = {
+
+			allowed_to_remove = {
+				always = no
+			}		
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -6.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num3 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -9.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num4 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -12.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num5 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -15.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num6 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -18.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num7 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -21.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num8 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -24.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num9 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -27.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num10 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -30.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num11 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -33.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num12 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -36.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num13 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -39.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num14 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -42.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num15 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -45.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num16 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -48.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num17 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -51.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num18 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -54.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num19 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -57.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num20 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -60.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num21 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -63.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num22 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -66.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num23 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -69.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num24 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -72.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num25 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -75.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num26 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -78.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num27 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -81.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num28 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -84.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num29 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -87.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num30 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -90.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num31 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -93.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num32 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -96.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num33 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -99.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num34 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -102.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num35 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -105.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num36 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -108.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num37 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -111.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num38 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -114.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num39 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -117.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num40 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -120.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num41 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -123.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num42 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_factor = -126.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num43 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -129.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num44 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -132.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num45 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -135.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num46 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -138.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num47 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -141.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num48 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -144.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num49 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -147.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num50 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -150.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num51 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -153.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num52 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -156.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num53 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -159.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num54 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -162.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num55 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -165.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num56 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -168.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num57 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -171.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num58 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -174.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num59 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -177.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num60 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -180.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num61 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -183.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num62 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -186.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num63 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -189.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num64 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -192.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num65 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -195.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num66 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -198.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num67 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -201.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num68 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -204.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num69 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -207.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num70 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -210.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num71 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -213.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num72 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -216.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num73 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -219.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num74 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -222.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num75 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -225.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num76 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -228.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num77 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -231.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num78 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -234.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num79 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -237.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num80 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -240.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num81 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -243.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num82 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -246.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num83 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -249.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num84 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -252.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num85 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -255.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num86 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -258.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num87 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -261.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num88 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -264.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num89 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -267.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num90 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -270.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num91 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -273.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num92 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -276.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num93 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -279.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num94 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -282.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num95 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -285.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num96 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -288.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num97 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -291.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num98 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -294.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num99 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -297.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num100 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -300.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num101 = {
+		
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -303.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		
+		div_num102 = {
+
+			allowed_to_remove = {
+				always = no
+			}		
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -306.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num103 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -309.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num104 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -312.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num105 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -315.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num106 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -318.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num107 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -321.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num108 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -324.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num109 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -327.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num110 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -330.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num111 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -333.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num112 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -336.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num113 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -339.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num114 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -342.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num115 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -345.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num116 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -348.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num117 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -351.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num118 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -354.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num119 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -357.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num120 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -360.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num121 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -363.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num122 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -366.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num123 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -369.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num124 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -372.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num125 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -375.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num126 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -378.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num127 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -381.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num128 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -384.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num129 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -387.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num130 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -390.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num131 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -393.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num132 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -396.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num133 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -399.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num134 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -402.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num135 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -405.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num136 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -408.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num137 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -411.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num138 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -414.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num139 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -417.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num140 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -420.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num141 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -423.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num142 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_factor = -426.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num143 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -429.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num144 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -432.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num145 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -435.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num146 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -438.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num147 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -441.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num148 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -444.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num149 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -447.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num150 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -450.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num151 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -453.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num152 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -456.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num153 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -459.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num154 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -462.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num155 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -465.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num156 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -468.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num157 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -471.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num158 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -474.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num159 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -477.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num160 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -480.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num161 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -483.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num162 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -486.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num163 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -489.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num164 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -492.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num165 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -495.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num166 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -498.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num167 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -501.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num168 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -504.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num169 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -507.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num170 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -510.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num171 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -513.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num172 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -516.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num173 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -519.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num174 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -522.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num175 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -525.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num176 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -528.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num177 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -531.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num178 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -534.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num179 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -537.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num180 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -540.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num181 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -543.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num182 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -546.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num183 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -549.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num184 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -552.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num185 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -555.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num186 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -558.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num187 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -561.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num188 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -564.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num189 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -567.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num190 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -570.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num191 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -573.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num192 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -576.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num193 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -579.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num194 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -582.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num195 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -585.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num196 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -588.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num197 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -591.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num198 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -594.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num199 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -597.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num200 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -600.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num201 = {
+		
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -603.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		
+		div_num202 = {
+
+			allowed_to_remove = {
+				always = no
+			}		
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -606.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num203 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -609.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num204 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -612.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num205 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -615.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num206 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -618.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num207 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -621.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num208 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -624.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num209 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -627.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num210 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -630.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num211 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -633.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num212 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -636.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num213 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -639.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num214 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -642.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num215 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -645.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num216 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -648.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num217 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -651.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num218 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -654.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num219 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -657.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num220 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -660.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num221 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -663.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num222 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -666.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num223 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -669.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num224 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -672.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num225 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -675.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num226 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -678.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num227 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -681.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num228 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -684.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num229 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -687.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num230 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -690.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num231 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -693.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num232 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -696.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num233 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -699.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num234 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -702.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num235 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -705.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num236 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -708.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num237 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -711.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num238 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -714.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num239 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -717.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num240 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -720.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num241 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -723.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num242 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_factor = -726.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num243 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -729.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num244 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -732.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num245 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -735.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num246 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -738.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num247 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -741.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num248 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -744.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num249 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -747.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num250 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -750.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num251 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -753.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num252 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -756.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num253 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -759.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num254 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -762.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num255 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -765.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num256 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -768.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num257 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -771.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num258 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -774.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num259 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -777.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num260 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -780.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num261 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -783.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num262 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -786.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num263 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -789.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num264 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -792.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num265 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -795.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num266 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -798.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num267 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -801.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num268 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -804.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num269 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -807.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num270 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -810.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num271 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -813.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num272 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -816.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num273 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -819.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num274 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -822.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num275 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -825.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num276 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -828.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num277 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -831.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num278 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -834.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num279 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -837.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num280 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -840.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num281 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -843.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num282 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -846.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num283 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -849.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num284 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -852.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num285 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -855.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num286 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -858.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num287 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -861.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num288 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -864.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num289 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -867.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num290 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -870.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num291 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -873.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num292 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -876.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num293 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -879.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num294 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -882.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num295 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -885.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num296 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -888.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num297 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -891.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num298 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -894.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num299 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -897.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num300 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -900.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num301 = {
+		
+			cost = 0
+			removal_cost = -1
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -903.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		
+		div_num302 = {
+
+			allowed_to_remove = {
+				always = no
+			}		
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -906.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num303 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -909.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num304 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -912.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num305 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -915.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num306 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -918.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num307 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -921.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num308 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -924.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num309 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -927.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+
+		div_num310 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -930.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num311 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -933.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num312 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -936.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num313 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -939.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num314 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -942.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num315 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -945.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num316 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -948.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num317 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -951.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num318 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -954.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num319 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -957.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num320 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -960.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num321 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -963.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num322 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -966.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num323 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -969.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num324 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -972.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num325 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -975.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num326 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -978.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num327 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -981.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num328 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -984.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num329 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -987.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num330 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -990.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num331 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -993.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num332 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -996.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num333 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -999.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num334 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1002.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num335 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1005.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num336 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1008.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num337 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1011.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num338 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1014.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num339 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1017.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num340 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1020.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num341 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1023.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num342 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_factor = -1026.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num343 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1029.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num344 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1032.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num345 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1035.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num346 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1038.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num347 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1041.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num348 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1044.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num349 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1047.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num350 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1050.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num351 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1053.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num352 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1056.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num353 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1059.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num354 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1062.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num355 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1065.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num356 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1068.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num357 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1071.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num358 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1074.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num359 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1077.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num360 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1080.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num361 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1083.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num362 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1086.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num363 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1089.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num364 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1092.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num365 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1095.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num366 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1098.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num367 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1101.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num368 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1104.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num369 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1107.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num370 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1110.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num371 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1113.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num372 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1116.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num373 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1119.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num374 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1122.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num375 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1125.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num376 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1128.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num377 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1131.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num378 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1134.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num379 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1137.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num380 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1140.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num381 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1143.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num382 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1146.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num383 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1149.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num384 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1152.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num385 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1155.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num386 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1158.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num387 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1161.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num388 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1164.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num389 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1167.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num390 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1170.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num391 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1173.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num392 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1176.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num393 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1179.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num394 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1182.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num395 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1185.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+	
+		div_num396 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1188.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num397 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1191.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num398 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1194.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num399 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1197.0
+			}
+			
+			#default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		div_num400 = {
+
+			cost = 0
+			removal_cost = -1
+			
+			allowed_to_remove = {
+				always = no
+			}			
+			
+			modifier = {
+				political_power_factor = -1200.0
 			}
 			
 			#default = no
