@@ -1,6 +1,59 @@
 ﻿oob = "basic_test"
 capital = 13
+set_convoys = 50
+set_research_slots = 2
+set_national_unity = 0.55	
+1923.1.1 = {
 
+	set_politics = {
+
+		parties = {
+			liberal = {
+				popularity = 8.0
+			}
+			democratic = {
+				popularity = 18.5
+			}
+			conservative = {
+				popularity = 32.9
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 0
+			}
+			socialist = { 
+				popularity = 18.7
+			}
+			communism = {
+				popularity = 9.5
+			}
+			autocratic = {
+				popularity = 1.2
+			}
+			neutrality = {
+				popularity = 9.9
+			}
+		}
+		ruling_party = conservative
+		last_election = "1920.4.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+create_country_leader = {
+	name = "Konstantin Päts"
+	desc = "POLITICS_KONSTANTIN_PATS_DESC"
+	picture = "Portrait_Estonia_Konstantin_Päts.dds"
+	expire = "1936.9.2"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+1936.1.1 = {
 # oob = "EST_1936"
 
 set_research_slots = 3
@@ -17,7 +70,34 @@ set_technology = {
 }
 
 set_convoys = 5
+set_politics = {
 
+	parties = {
+		democratic = { 
+			popularity = 20
+		}
+
+		fascism = {
+			popularity = 15
+		}
+		
+		communism = {
+			popularity = 5
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 60
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1932.5.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+}
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -77,32 +157,6 @@ set_convoys = 5
 	}
 }
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 60
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1932.5.21"
-	election_frequency = 48
-	elections_allowed = no
-}
 
 1939.1.1 = {
 	set_politics = {

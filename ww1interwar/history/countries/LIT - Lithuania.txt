@@ -1,6 +1,60 @@
 ﻿oob = "basic_test"
 capital = 11
+set_convoys = 50
+set_research_slots = 2
+set_national_unity = 0.55	
 
+
+1923.1.1 = {
+
+	set_politics = {
+
+		parties = {
+			liberal = {
+				popularity = 1.0
+			}
+			democratic = {
+				popularity = 17.9
+			}
+			conservative = {
+				popularity = 28.8
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 0
+			}
+			socialist = { 
+				popularity = 25.2
+			}
+			communism = {
+				popularity = 2.6
+			}
+			autocratic = {
+				popularity = 0
+			}
+			neutrality = {
+				popularity = 24.5
+			}
+		}
+		ruling_party = conservative
+		last_election = "1920.4.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+create_country_leader = {
+	name = "Aleksandras Stulginskis"
+	desc = "POLITICS_ALEKSANDRAS_STULGINSKIS_DESC"
+	picture = "Portrait_lithuania_Aleksandras_Stulginskis.dds"
+	expire = "1936.9.2"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+1936.1.1 = {
 # oob = "LIT_1936"
 
 set_research_slots = 3
@@ -17,6 +71,33 @@ set_technology = {
 
 set_convoys = 10
 
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 30
+		}
+
+		fascism = {
+			popularity = 15
+		}
+		
+		communism = {
+			popularity = 15
+		}
+		
+		neutrality = { 
+			popularity = 50
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1926.5.8"
+	election_frequency = 120
+	elections_allowed = no
+}
+}
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -71,31 +152,6 @@ set_convoys = 10
 	}
 }
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 30
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 15
-		}
-		
-		neutrality = { 
-			popularity = 50
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1926.5.8"
-	election_frequency = 120
-	elections_allowed = no
-}
 
 1939.1.1 = {
 	set_politics = {
