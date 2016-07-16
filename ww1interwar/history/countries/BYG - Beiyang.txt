@@ -1,0 +1,174 @@
+﻿oob = "basic_test"
+capital = 608 # Beiyang
+set_research_slots = 2
+set_convoys = 50
+set_national_unity = 0.55
+
+1914.1.1 = {
+	oob = "BYG_1914"
+}
+
+add_ideas = {
+ }
+ 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 10
+		}
+		liberal = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 70
+		}
+		socialist = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 20
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservative
+	last_election = "1909.9.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Yuan Shikai"
+	desc = "YUAN_SHIKAI_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Yuan_Shikai.dds"
+	expire = "1930.1.1" #pushed back in case he wins monarchy war
+	ideology = conservatism
+}
+
+	create_country_leader = {
+	name = "Chen Duxiu"
+	desc = "CHEN_DUXIU_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Duxiu.dds"
+	expire = "1942.5.27"
+	ideology = trotskyism
+}
+
+	create_country_leader = {
+	name = "Jiang Kanghu"
+	desc = "POLITICS_JIANG_KANGHU_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1955.1.1"
+	ideology = socialism
+}
+
+	create_country_leader = {
+	name = "Liang Shiyi"
+	desc = "POLITICS_LIANG_SHIYI_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	expire = "1934.1.1"
+	ideology = liberalism
+}
+
+	create_country_leader = {
+	name = "Li Yuanhong"
+	desc = "POLITICS_LI_YUANHONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Li_Yuanhong.dds"
+	expire = "1929.1.1"
+	ideology = moderatism
+}
+
+	create_country_leader = {
+	name = "Hongxian Emperor"
+	desc = "YUAN_SHIKAI_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Hongxian.dds"
+	expire = "1930.1.1"
+	ideology = monarchism
+}
+
+	create_country_leader = {
+	name = "Wang Jingwei"
+	desc = "WANG_JINGWE_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Wang_Jingwei.dds"
+	expire = "1945.1.1"
+	ideology = fascism_ideology
+}
+
+	create_country_leader = {
+	name = "Wang Jingwei"
+	desc = "WANG_JINGWE_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Wang_Jingwei.dds"
+	expire = "1945.1.1"
+	ideology = nazism
+}
+
+create_field_marshal = {
+	name = "Yuan Shikai"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Yuan_Shikai.dds"
+	skill = 4
+}
+
+create_field_marshal = {
+	name = "Duan Qirui"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Duan_Qiru.dds"
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Feng Guozhang"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Feng_Guozhang.dds"
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Cao Kun"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Wu Peifu"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Wu_Peifu.dds"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Zhang Zuolin"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Zhang_Zuolin.dds"
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Zhang Xueliang"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Zhang_Xueliang.dds"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Feng Yuxiang"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	skill = 3
+}
+
+1923.1.1 = {
+		create_country_leader = {
+			name = "Li Yuanhong"
+			desc = "POLITICS_LI_YUANHONG_DESC"
+			picture = "gfx/leaders/CHI/Portrait_CHI_Li_Yuanhong.dds"
+			expire = "1929.1.1"
+			ideology = conservatism
+			traits = {
+			}
+		}
+}

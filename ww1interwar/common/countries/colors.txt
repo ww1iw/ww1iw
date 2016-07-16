@@ -48,6 +48,22 @@ QNG = {
 	color = rgb { 185 155 66 }
 	color_ui = rgb { 185 155 66 }
 }
+BYG = {
+	color = rgb { 171 190 152 } 
+	color_ui = rgb { 171 190 152 }
+}
+ZHL = {
+	color = rgb { 197 92 106 }
+	color_ui = rgb { 255 120 138 }
+}
+FNG = {
+	color = rgb { 219 219 119 }
+	color_ui = rgb { 255 255 155 }
+}
+ANH = {
+	color = rgb { 50 135 175 }
+	color_ui = rgb { 99 204 254 }
+}
 GER = {
 	color = rgb { 110 90 70 }
 	color_ui = rgb { 110 90 70 }

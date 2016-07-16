@@ -13,18 +13,27 @@ state= {
 		owner = QNG
 		add_core_of = QNG
 		
-		1936.1.1 = {
-			owner = CHI
-			add_core_of = CHI
-			add_core_of = PRC
-		}
-		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		victory_points = { 
 			7222 1 
+		}
+		
+		1912.1.1 = { 
+			owner = BYG
+			add_core_of = BYG
+			add_core_of = CHI
+			remove_core_of = QNG
+		}
+		1923.1.1 = { 
+			owner = ZHL
+		}
+		1936.1.1 = {
+			owner = CHI
+			add_core_of = CHI
+			add_core_of = PRC
 		}
 		1938.10.25 = {		
 			controller = JAP

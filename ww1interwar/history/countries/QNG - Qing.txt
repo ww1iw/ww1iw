@@ -1,4 +1,4 @@
-﻿oob = "basic_test"
+﻿oob = "QNG_1911"
 capital = 608 # Beiyang
 set_research_slots = 2
 set_convoys = 50
@@ -51,7 +51,7 @@ set_politics = {
 	create_country_leader = {
 	name = "Xuantong Emperor"
 	desc = "POLITICS_XUANTONG_EMPEROR_DESC"
-	picture = "Portrait_Qing_Xuantong_Emperor.dds"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Xuantong.dds"
 	expire = "1968.1.1"
 	ideology = monarchism
 	traits = {
@@ -136,6 +136,17 @@ set_politics = {
 	}
 }
 
+	create_country_leader = {
+	name = "Zhang Xun"
+	desc = "POLITICS_ZHANG_XUN_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Zhang_Xun.dds"
+	expire = "1924.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
 create_field_marshal = {
 	name = "Yuan Shikai"
 	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Yuan_Shikai.dds"
@@ -169,5 +180,11 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Wang Shizhen"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Zhang Xun"
+	portrait_path = "gfx/leaders/CHI/Portrait_CHI_Zhang_Xun.dds"
 	skill = 2
 }

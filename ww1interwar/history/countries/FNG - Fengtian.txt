@@ -1,0 +1,62 @@
+﻿oob = "basic_test"
+capital = 608 # Beiyang
+set_research_slots = 2
+set_convoys = 50
+set_national_unity = 0.55
+
+ 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 0
+		}
+		socialist = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 100
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = autocratic
+	last_election = "1909.9.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Zhang Zuolin"
+	desc = "ZHANG_ZUOLIN_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Zhang_Zuolin.dds"
+	expire = "1929.1.1"
+	ideology = militarism
+}
+
+1928.6.4 = {
+	create_country_leader = {
+	name = "Zhang Xueliang"
+	desc = "ZHANG_XUELIANG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Zhang_Xueliang.dds"
+	expire = "1999.1.1"
+	ideology = militarism
+}
+}

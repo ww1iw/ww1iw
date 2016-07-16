@@ -1,0 +1,58 @@
+﻿division_template = {
+	name = "New Army"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Huncheng Lu"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {	
+		name = "Di-San Shi"
+		location = 11913
+		division_template = "New Army"
+		start_experience_factor = 0.7
+	}
+	division= {	
+		name = "Di-Shisi Shi"
+		location = 7014
+		division_template = "New Army"
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Di-Ershisi Shi"
+		location = 4619
+		division_template = "New Army"
+		start_experience_factor = 0.4
+	}
+}

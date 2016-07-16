@@ -11,13 +11,7 @@ state={
 
 	history={
 		owner = QNG
-		add_core_of = QNG
-		
-		1936.1.1 = { 
-		owner = GXC 
-		add_core_of = GXC
-		}
-		
+		add_core_of = QNG		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
@@ -33,7 +27,20 @@ state={
 		victory_points = {
 			1047 5
 		}
-
+		
+		1912.1.1 = { 
+			owner = BYG
+			add_core_of = BYG
+			add_core_of = CHI
+			add_core_of = GXC
+			remove_core_of = QNG
+		}
+		1923.1.1 = {
+			owner = CHI
+		}
+		1936.1.1 = { 
+		owner = GXC 
+		}
 		1938.10.25 = {
 			remove_core_of = GXC
 			owner = CHI

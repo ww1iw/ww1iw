@@ -1,0 +1,64 @@
+﻿oob = "basic_test"
+capital = 608 # Beiyang
+set_research_slots = 2
+set_convoys = 50
+set_national_unity = 0.55
+
+add_ideas = {
+ }
+ 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 0
+		}
+		socialist = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 100
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = autocratic
+	last_election = "1909.9.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Feng Guozhang"
+	desc = "FENG_GUOZHANG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Feng_Guozhang.dds"
+	expire = "1920.1.1"
+	ideology = militarism
+}
+
+1919.12.12 = {
+	create_country_leader = {
+	name = "Wu Peifu"
+	desc = "WU_PEIFU_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Wu_Peifu.dds"
+	expire = "1940.1.1"
+	ideology = militarism
+}
+}

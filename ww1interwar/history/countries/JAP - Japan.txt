@@ -1,4 +1,4 @@
-﻿oob = "basic_test"
+﻿oob = "JAP_1911"
 capital = 282
 
 set_national_unity = 0.55

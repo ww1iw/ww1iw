@@ -13,7 +13,12 @@ state= {
 	history= {
 		owner = QNG
 		add_core_of = QNG
-		
+		1912.1.1 = { 
+			owner = BYG
+			add_core_of = BYG
+			add_core_of = CHI
+			remove_core_of = QNG
+		}
 		1936.1.1 = {
 			owner = CHI
 			add_core_of = CHI

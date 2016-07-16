@@ -1,0 +1,64 @@
+﻿oob = "basic_test"
+capital = 608 # Beiyang
+set_research_slots = 2
+set_convoys = 50
+set_national_unity = 0.55
+
+add_ideas = {
+ }
+ 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 0
+		}
+		socialist = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 100
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = autocratic
+	last_election = "1909.9.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Duan Qirui"
+	desc = "DUAN_QIRUI_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Duan_Qirui.dds"
+	expire = "1937.1.1" 
+	ideology = militarism
+}
+
+1926.1.1 = {
+	create_country_leader = {
+		name = "Jin Yunpeng"
+		desc = "JIN_YUNPENG_DESC"
+		picture = "gfx/leaders/CHI/Portrait_CHI_Jin_Yunpeng.dds"
+		expire = "1937.1.1" 
+		ideology = militarism
+	}
+}

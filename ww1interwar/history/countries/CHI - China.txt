@@ -8,46 +8,46 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 10
 		}
 		liberal = {
 			popularity = 0
 		}
 		conservative = {
-			popularity = 0
+			popularity = 70
 		}
 		socialist = {
 			popularity = 0
 		}
 		neutrality = {
-			popularity = 55
+			popularity = 0
 		}
 		autocratic = {
-			popularity = 40
+			popularity = 20
 		}
 		natsoc = {
 			popularity = 0
 		}
 		communism = {
-			popularity = 5
+			popularity = 0
 		}
 		fascism = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = autocratic
+	ruling_party = conservative
 	last_election = "1912.3.10"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 	create_country_leader = {
-	name = "Yuan Shikai"
-	desc = "YUAN_SHIKAI_DESC"
-	picture = "Portrait_CHI_Yuan_Shikai.dds"
-	expire = "1916.6.6"
-	ideology = militarism
+	name = "Sun Yat-Sen"
+	desc = "SUN_YAT_SEN_DESC"
+	picture = "Portrait_CHI_Sun_Yat_Sen.dds"
+	expire = "1925.3.12"
+	ideology = conservatism 
 }
 
 	create_country_leader = {

@@ -1,0 +1,160 @@
+﻿division_template = {
+	name = "Ko Shidan" #Division Type A
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		infantry = { x = 3 y = 3 }
+		cavalry = { x = 4 y = 0 }
+		artillery_brigade = { x = 4 y = 1 }
+	}
+
+}
+
+units = {
+	division= {	
+		name = "Konoe Dai-Ichi Shidan"
+		location = 1182
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.6
+	}
+	division= {	
+		name = "Konoe Dai-Ni Shidan"
+		location = 1182
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.6
+	}
+	division= {	
+		name = "Konoe Dai-San Shidan"
+		location = 1182
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.6
+	}
+	division= {	
+		name = "Dai-Ichi Shidan"
+		location = 1182
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-Ni Shidan"
+		location = 7125
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-San Shidan"
+		location = 10125
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-Yon Shidan"
+		location = 7072
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-Go Shidan"
+		location = 1150
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-Roku Shidan"
+		location = 11925
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-Sichi Shidan"
+		location = 12421
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-Hachi Shidan"
+		location = 4052
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-Kyu Shidan"
+		location = 4056
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-Jyu Shidan"
+		location = 12031
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "Dai-Jyuichi Shidan"
+		location = 6963
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.7
+	}
+	division= {	
+		name = "Dai-Jyuni Shidan"
+		location = 1025
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.7
+	}
+	division= {	
+		name = "Dai-Jyusan Shidan"
+		location = 12007
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.7
+	}
+	division= {	
+		name = "Dai-Jyuyon Shidan"
+		location = 993
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.7
+	}
+	division= {	
+		name = "Dai-Jyugo Shidan"
+		location = 12097
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.7
+	}
+	division= {	
+		name = "Dai-Jyuroku Shidan"
+		location = 1051
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.7
+	}
+	division= {	
+		name = "Dai-Jyunana Shidan"
+		location = 7212
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.7
+	}
+	division= {	
+		name = "Dai-Jyuhachi Shidan"
+		location = 4164
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.7
+	}
+	division= {	
+		name = "Dokuritsu Shubaitai"
+		location = 9918
+		division_template = "Ko Shidan"
+		start_experience_factor = 0.7
+	}
+}

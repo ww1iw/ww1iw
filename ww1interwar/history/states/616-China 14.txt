@@ -9,14 +9,24 @@ state={
 	history={
 		owner = QNG
 		add_core_of = QNG
-		1936.1.1 = { 
-			owner = XSM 
-			add_core_of = XSM
-		}
+		
 		buildings = {
 			infrastructure = 2
 		}
-
+		
+		1912.1.1 = { 
+			owner = BYG
+			add_core_of = XSM
+			add_core_of = BYG
+			add_core_of = CHI
+			remove_core_of = QNG
+		}
+		1923.1.1 = { 
+			owner = ZHL
+		}
+		1936.1.1 = {
+			owner = XSM
+		}
 		1938.10.25 = {
 			owner = CHI
 		}

@@ -13,9 +13,12 @@ state= {
 		owner = QNG
 		add_core_of = QNG
 		
-		1936.1.1 = { 
-		owner = GXC 
-		add_core_of = GXC
+		1912.1.1 = { 
+			owner = GXC
+			add_core_of = GXC
+			add_core_of = BYG
+			add_core_of = CHI
+			remove_core_of = QNG
 		}
 		
 		buildings = {

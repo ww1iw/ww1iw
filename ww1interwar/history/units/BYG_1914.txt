@@ -1,0 +1,100 @@
+﻿division_template = {
+	name = "Lujun Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Huncheng Lu"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1st Lujun Division"
+		location = 9843
+		division_template = "Lujun Division"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "2nd Lujun Division"
+		location = 12026
+		division_template = "Lujun Division"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "3rd Lujun Division"
+		location = 4572
+		division_template = "Lujun Division"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "4th Lujun Division"
+		location = 7014
+		division_template = "Lujun Division"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "5th Lujun Division"
+		location = 1069
+		division_template = "Lujun Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "6th Lujun Division"
+		location = 3992
+		division_template = "Lujun Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "8th Lujun Division"
+		location = 10068
+		division_template = "Lujun Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "Hubei Local Troops"
+		location = 4619
+		division_template = "Lujun Division"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "27th Huncheng Lu"
+		location = 4196
+		division_template = "Huncheng Lu"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "20th Lujun Division"
+		location = 11771
+		division_template = "Lujun Division"
+		start_experience_factor = 0.5
+	}
+}

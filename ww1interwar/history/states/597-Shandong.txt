@@ -6,11 +6,7 @@ state={
 	history={
 		owner = QNG
 		add_core_of = QNG
-		1936.1.1 = {
-			owner = CHI
-			add_core_of = CHI
-			add_core_of = PRC
-		}
+		
 		victory_points = {
 			1069 3 
 		}
@@ -20,6 +16,23 @@ state={
 			industrial_complex = 1
 			air_base = 3
 
+		}
+		
+		1912.1.1 = { 
+			owner = BYG
+			add_core_of = BYG
+			add_core_of = CHI
+			remove_core_of = QNG
+		}
+		1923.1.1 = { 
+			owner = ANH
+			add_core_of = ANH
+		}
+		1936.1.1 = {
+			owner = CHI
+			add_core_of = CHI
+			add_core_of = PRC
+			remove_core_of = ANH
 		}
 		1938.10.25 = {
 			controller = JAP

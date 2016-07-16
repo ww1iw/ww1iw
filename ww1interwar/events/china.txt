@@ -27,28 +27,35 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 600
+		days = 300
 	}
 
 	immediate = {
-		random_list = {
-			80 = { 
-				620 = { add_core_of = CHI }
+		hidden_effect = {
+			random_list = {
+				80 = { 
+					620 = { add_core_of = CHI }
+				}
+				10 = {
+					602 = { add_core_of = CHI }
+				}
+				10 = {
+					622 = { add_core_of = CHI }
+				}
 			}
-			10 = {
-				602 = { add_core_of = CHI }
-			}
-			10 = {
-				622 = { add_core_of = CHI }
+			release = CHI
+			QNG = {
+				add_state_core = 620
+				add_state_core = 622
+				add_state_core = 620
 			}
 		}
-		random_owned_state = {
+		declare_war_on = { target = CHI type = annex_everything }
+		every_owned_state = { 
 			add_core_of = CHI
 		}
-		release = CHI
-		declare_war_on = { target = CHI type = annex_everything }
-		every_owned_state = { add_core_of = CHI }
 		set_global_flag = xinhai_revolution
+		CHI = { load_oob = Xinhai_Hubei }
 	}
 
 	option = { 
@@ -73,11 +80,13 @@ country_event = { #Hebei declares independence
 	}
 	
 	mean_time_to_happen = {
-		days = 60
+		days = 10
 	}
 
 	immediate = {
+		hidden_effect = {
 		CHI = { transfer_state = 620 }
+		}
 	}
 
 	option = { 
@@ -102,7 +111,7 @@ country_event = { #Shaanxi declares independence
 	}
 	
 	mean_time_to_happen = {
-		days = 60
+		days = 20
 	}
 
 	immediate = {
@@ -131,7 +140,7 @@ country_event = { #Henan declares independence
 	}
 	
 	mean_time_to_happen = {
-		days = 60
+		days = 20
 	}
 
 	immediate = {
@@ -145,8 +154,8 @@ country_event = { #Henan declares independence
 
 country_event = { #Shanxi declares independence
 	id = ww1_china.5
-	title = ww1_china.2.t
-	desc = ww1_china.2.d
+	title = ww1_china.5.t
+	desc = ww1_china.5.d
 	picture = GFX_report_event_gathering_protest
 	
 	fire_only_once = yes
@@ -155,7 +164,14 @@ country_event = { #Shanxi declares independence
 		tag = QNG
 		has_global_flag = xinhai_revolution
 		country_exists = CHI
-		QNG = { controls_state = 615 }
+		CHI = { has_war_with = QNG }
+		QNG = { 
+			controls_state = 615
+			controls_state = 621
+		}
+		NOT = {
+			country_exists = SHX
+		}
 		
 	}
 	
@@ -164,11 +180,15 @@ country_event = { #Shanxi declares independence
 	}
 
 	immediate = {
-		CHI = { transfer_state = 615 }
+		SHX = { 
+			transfer_state = 615
+			transfer_state = 621
+			add_to_war = { targeted_alliance = CHI enemy = QNG }
+		}
 	}
 
 	option = { 
-		name = ww1_china.2.a
+		name = ww1_china.5.a
 	}
 }
 
@@ -185,8 +205,7 @@ country_event = { #Jiangsu declares independence
 		has_global_flag = xinhai_revolution
 		country_exists = CHI
 		QNG = { controls_state = 598 }
-		QNG = { controls_state = 613 }
-		
+		QNG = { controls_state = 613 }	
 	}
 	
 	mean_time_to_happen = {
@@ -194,8 +213,11 @@ country_event = { #Jiangsu declares independence
 	}
 
 	immediate = {
-		CHI = { transfer_state = 598 }
-		CHI = { transfer_state = 613 }
+		CHI = { 
+			transfer_state = 598
+			transfer_state = 613
+			load_oob = Xinhai_Shanghai
+		}
 	}
 
 	option = { 
@@ -311,7 +333,10 @@ country_event = { #Fukkien declares independence
 	}
 
 	immediate = {
-		CHI = { transfer_state = 595 }
+		CHI = { 
+			transfer_state = 595
+			load_oob = Xinhai_Fukkien
+		}
 	}
 
 	option = { 
@@ -342,9 +367,12 @@ country_event = { #Guangdong declares independence
 	}
 
 	immediate = {
-		CHI = { transfer_state = 593 }
-		CHI = { transfer_state = 592 }
-		CHI = { transfer_state = 591 }
+		CHI = {
+			transfer_state = 593
+			transfer_state = 592
+			transfer_state = 591
+			load_oob = Xinhai_Guangdong
+		}
 	}
 
 	option = { 
@@ -354,18 +382,22 @@ country_event = { #Guangdong declares independence
 
 country_event = { #Guangxi declares independence
 	id = ww1_china.12
-	title = ww1_china.2.t
-	desc = ww1_china.2.d
+	title = ww1_china.12.t
+	desc = ww1_china.12.d
 	picture = GFX_report_event_gathering_protest
 	
 	fire_only_once = yes
-	
+
 	trigger = {
 		tag = QNG
 		has_global_flag = xinhai_revolution
 		country_exists = CHI
+		CHI = { has_war_with = QNG }
 		QNG = { controls_state = 594 }
 		QNG = { controls_state = 599 }
+		NOT = {
+			country_exists = GXC
+		}
 		
 	}
 	
@@ -374,12 +406,15 @@ country_event = { #Guangxi declares independence
 	}
 
 	immediate = {
-		CHI = { transfer_state = 594 }
-		CHI = { transfer_state = 599 }
+		GXC = { 
+			transfer_state = 594
+			transfer_state = 599
+			add_to_war = { targeted_alliance = CHI enemy = QNG }
+		}
 	}
 
 	option = { 
-		name = ww1_china.2.a
+		name = ww1_china.12.a
 	}
 }
 
@@ -414,8 +449,8 @@ country_event = { #Guizhou declares independence
 
 country_event = { #Yunnan declares independence
 	id = ww1_china.14
-	title = ww1_china.2.t
-	desc = ww1_china.2.d
+	title = ww1_china.14.t
+	desc = ww1_china.14.d
 	picture = GFX_report_event_gathering_protest
 	
 	fire_only_once = yes
@@ -424,7 +459,11 @@ country_event = { #Yunnan declares independence
 		tag = QNG
 		has_global_flag = xinhai_revolution
 		country_exists = CHI
+		CHI = { has_war_with = QNG }
 		QNG = { controls_state = 325 }
+		NOT = {
+			country_exists = YUN
+		}
 		
 	}
 	
@@ -433,11 +472,15 @@ country_event = { #Yunnan declares independence
 	}
 
 	immediate = {
-		CHI = { transfer_state = 325 }
+		YUN = { 
+			transfer_state = 325
+			add_to_war = { targeted_alliance = CHI enemy = QNG }
+			load_oob = Xinhai_Yunnan
+		}
 	}
 
 	option = { 
-		name = ww1_china.2.a
+		name = ww1_china.14.a
 	}
 }
 
@@ -463,8 +506,11 @@ country_event = { #Sichuan declares independence
 	}
 
 	immediate = {
-		CHI = { transfer_state = 605 }
-		CHI = { transfer_state = 601 }
+		CHI = { 
+			transfer_state = 605
+			transfer_state = 601
+			load_oob = Xinhai_Sichuan
+		}
 	}
 
 	option = { 
@@ -522,10 +568,1949 @@ country_event = { #Shandong declares independence (ahistorical)
 	}
 
 	immediate = {
-		CHI = { transfer_state = 597 }
+		CHI = { 
+			transfer_state = 597
+			load_oob = Xinhai_Shandong
+		}
 	}
 
 	option = { 
 		name = ww1_china.2.a
+	}
+}
+
+country_event = { #Puyi reaches 16, regency ends
+	id = ww1_china.18
+	title = ww1_china.18.t
+	desc = ww1_china.18.d
+	#picture = 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1918.2.7
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = { 
+		name = ww1_china.18.a
+		remove_ideas = zaifeng_regency
+	}
+}
+
+country_event = { #Remove Wanning Empire idea
+	id = ww1_china.19
+	title = ww1_china.19.t
+	desc = ww1_china.19.d
+	#picture = 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = {
+			OR = {
+				has_government = autocratic
+				has_government = conservative
+				has_idea = zaifeng_regency
+				has_war = yes
+			}
+		}
+		QNG = { controls_state = 608 } #Beijing
+		QNG = { controls_state = 613 } #Nanking
+		QNG = { controls_state = 605 } #Chongqing
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = { 
+		name = ww1_china.19.a
+		remove_ideas = wanning_empire
+	}
+}
+
+country_event = { #Mongolia declares independence
+	id = ww1_china.20
+	title = ww1_china.20.t
+	desc = ww1_china.20.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		QNG = { controls_state = 330 }
+		NOT = {
+			country_exists = MON
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	immediate = {
+		MON = { transfer_state = 330 }
+	}
+
+	option = { 
+		name = ww1_china.20.a
+	}
+}
+
+country_event = { #Sinkiang declares independence
+	id = ww1_china.21
+	title = ww1_china.21.t
+	desc = ww1_china.21.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNG
+		has_global_flag = xinhai_revolution
+		QNG = { 
+			controls_state = 287
+			controls_state = 617
+			controls_state = 618
+			controls_state = 619
+		}
+		NOT = {
+			country_exists = SIK
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	immediate = {
+		SIK = { 
+			set_politics = { 
+				ruling_party = conservative
+				elections_allowed = no 
+			}
+			transfer_state = 287
+			transfer_state = 617
+			transfer_state = 618
+			transfer_state = 619
+			add_to_war = { targeted_alliance = CHI enemy = QNG }
+		}
+	}
+
+	option = { 
+		name = ww1_china.21.a
+	}
+}
+
+country_event = { #Yuan proposes take over
+	id = ww1_china.22
+	title = ww1_china.22.t
+	desc = ww1_china.22.d
+	#picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = no
+	
+	trigger = {
+		tag = QNG
+		country_exists = QNG
+		NOT = { country_exists = BYG }
+		has_global_flag = xinhai_revolution
+		QNG = { has_war_with = CHI }
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	option = { 
+		name = ww1_china.22.a
+		ai_chance = {
+			factor = 80
+		}
+		every_state = { 
+				limit = { is_core_of = QNG }
+				add_core_of = BYG 
+			}
+		every_state = { 
+			limit = { is_core_of = QNG }
+			remove_core_of = QNG
+		}
+		BYG = { annex_country = { target = QNG transfer_troops = yes } }
+		hidden_effect = {
+			QNG = {
+				white_peace = CHI
+				white_peace = SIK
+				white_peace = SHX
+				white_peace = YUN
+				white_peace = GXC
+				set_major = no
+			}
+			BYG = { declare_war_on = { target = CHI type = annex_everything } }
+			SIK = { add_to_war = { targeted_alliance = CHI enemy = BYG } }
+			SHX = { add_to_war = { targeted_alliance = CHI enemy = BYG } }
+			YUN = { add_to_war = { targeted_alliance = CHI enemy = BYG } }
+			GXC = { add_to_war = { targeted_alliance = CHI enemy = BYG } }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+		# release = BYG
+	}
+	
+	option = { 
+		name = ww1_china.22.b
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		597 = {
+			if = {
+				limit = { is_owned_by = QNG }
+				BYG = { transfer_state = PREV }
+			}
+		}
+		614 = {
+			if = {
+				limit = { is_owned_by = QNG }
+				BYG = { transfer_state = PREV }
+			}
+		}
+		608 = {
+			if = {
+				limit = { is_owned_by = QNG }
+				BYG = { transfer_state = PREV }
+			}
+		}
+		609 = {
+			if = {
+				limit = { is_owned_by = QNG }
+				BYG = { transfer_state = PREV }
+			}
+		}
+		BYG = { declare_war_on = { target = QNG type = annex_everything } }
+		BYG = { declare_war_on = { target = CHI type = annex_everything } }
+		hidden_effect = {
+			SIK = { add_to_war = { targeted_alliance = CHI enemy = BYG } }
+			SHX = { add_to_war = { targeted_alliance = CHI enemy = BYG } }
+			YUN = { add_to_war = { targeted_alliance = CHI enemy = BYG } }
+			GXC = { add_to_war = { targeted_alliance = CHI enemy = BYG } }
+		}
+	}
+}
+
+country_event = { #Initiate Beiyang-Revolutionaries Truce
+	id = ww1_china.23
+	title = ww1_china.23.t
+	desc = ww1_china.23.d
+	# picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = xinhai_revolution
+		tag = CHI
+		CHI = { has_war_with = BYG }
+		NOT = {
+			OR = {
+				CHI = { has_war_with = QNG }
+				BYG = { has_war_with = QNG }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = { 
+		name = ww1_china.23.a
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				any_war_score > 75
+			}
+		}
+		BYG = { country_event = ww1_china.24 }
+	}
+	
+	option = { 
+		ai_chance = {
+			factor = 20
+		}
+		name = ww1_china.23.b
+	}
+}
+
+country_event = { #Beiyang-Revolutionaries Truce Results
+	id = ww1_china.24
+	title = ww1_china.24.t
+	desc = ww1_china.24.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { 
+		name = ww1_china.24.a
+		ai_chance = {
+			factor = 100
+		}
+		clr_global_flag = xinhai_revolution
+		CHI = { 
+			every_owned_state = {
+				BYG = { transfer_state = PREV }
+			}
+			transfer_state = 593
+			transfer_state = 592
+			transfer_state = 591
+			transfer_state = 595
+			transfer_state = 600
+			transfer_state = 602
+			transfer_state = 606
+			transfer_state = 598
+			transfer_state = 613
+		}	
+		BYG = {
+			white_peace = CHI
+			white_peace = SIK
+			white_peace = SHX
+			white_peace = YUN
+			white_peace = GXC
+		}
+		CHI = { country_event = { days = 400 id = ww1_china.25 } }
+	}
+	
+	option = { 
+		name = ww1_china.24.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { #Second Revolution
+	id = ww1_china.25
+	title = ww1_china.25.t
+	desc = ww1_china.25.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		country_exists = BYG
+		OR = {
+			BYG = { has_government = conservative } 
+			BYG = { has_government = autocratic } 
+		}
+		NOT = {
+			OR = {
+				country_exists = QNG
+				BYG = { has_war_with = ROOT }
+				has_global_flag = xinhai_revolution
+				ROOT = { is_in_faction_with = BYG }
+			}
+		}
+		ROOT = {
+				is_puppet = no
+		}
+	}
+	
+	option = { 
+		name = ww1_china.25.a
+		ai_chance = {
+			factor = 90
+		}
+		ROOT = { declare_war_on = { target = BYG type = annex_everything } }
+		SIK = { country_event = { days = 2 id = ww1_china.27 } }
+		SHX = { country_event = { days = 2 id = ww1_china.27 } }
+		YUN = { country_event = { days = 2 id = ww1_china.27 } }
+		GXC = { country_event = { days = 2 id = ww1_china.27 } }
+		XSM = { country_event = { days = 2 id = ww1_china.27 } }
+		ZHL = { country_event = { days = 2 id = ww1_china.27 } }
+		ANH = { country_event = { days = 2 id = ww1_china.27 } }
+		FNG	= { country_event = { days = 2 id = ww1_china.27 } }	
+	}
+	
+	option = { 
+		name = ww1_china.25.b
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #Ends Xinhai Revolution
+	id = ww1_china.26
+	title = ww1_china.26.t
+	desc = ww1_china.26.d
+	# picture = GFX_report_event_gathering_protest
+	
+	trigger = {
+		has_global_flag = xinhai_revolution
+		OR = {
+			AND = {
+				tag = QNG
+				QNG = { 
+					controls_state = 608
+					controls_state = 613
+					controls_state = 593
+					has_war = no
+				}
+			}
+			AND = {
+				tag = CHI
+				CHI = { 
+					controls_state = 608
+					controls_state = 613
+					controls_state = 593
+					has_war = no
+				}
+			}
+			AND = {
+				tag = BYG
+				BYG = { 
+					controls_state = 608
+					controls_state = 613
+					controls_state = 593
+					has_war = no
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = { 
+		name = ww1_china.26.a
+		clr_global_flag = xinhai_revolution
+	}
+}
+
+country_event = { #Cliques goes against Yuan - NatChi
+	id = ww1_china.27
+	title = ww1_china.27.t
+	desc = ww1_china.27.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = ww1_china.27.a
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				has_opinion = {
+					target = BYG
+					value < -20
+				}
+			}
+			modifier = {
+					factor = 3
+					OR = {
+						tag = YUN
+						tag = CHI
+						tag = GXC
+					}
+				}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = BYG
+					value > 20
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = CHI
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 0
+				is_puppet = yes
+			}
+			modifier = {
+				factor = 0
+				is_in_faction_with = BYG
+			}
+			modifier = {
+				factor = 0
+				exists = no
+			}
+		}
+		add_to_war = { targeted_alliance = CHI enemy = BYG }
+	}
+	
+	option = { 
+		name = ww1_china.27.b
+			ai_chance = {
+				factor = 30
+				modifier = {
+					factor = 2
+					has_opinion = {
+						target = CHI
+						value < -20
+					}
+				}
+				modifier = {
+					factor = 3
+					OR = {
+						tag = ANH
+						tag = ZHL
+						tag = FNG
+					}
+				}
+				modifier = {
+					factor = 0.5
+					has_opinion = {
+						target = CHI
+						value > 0
+					}
+				}
+				modifier = {
+					factor = 0.5
+					has_opinion = {
+						target = BYG
+						value < 0
+					}
+				}
+				modifier = {
+					factor = 0
+					is_puppet = yes
+				}
+				modifier = {
+					factor = 0
+					is_in_faction_with = CHI
+				}
+				modifier = {
+					factor = 0
+					exists = no
+				}
+			}
+			add_to_war = { targeted_alliance = BYG enemy = CHI }
+	}
+	
+	option = { 
+		name = ww1_china.27.c
+			ai_chance = {
+				factor = 30
+				modifier = {
+					factor = 2
+					OR = {
+						tag = XSM
+						tag = SHX
+					}
+				}
+			}
+	}
+}
+
+country_event = { #Twenty-One Demands links to Japan
+	id = ww1_china.28
+	title = ww1_china.28.t
+	desc = ww1_china.28.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { 
+		name = ww1_china.28.a
+		JAP = { declare_war_on = { target = ROOT type = annex_everything } }
+	}
+	
+	option = { 
+		name = ww1_china.28.b
+		give_military_access = JAP
+		595 = {
+			add_claim_by = JAP
+		}
+		JAP = { 
+			# create_import = { resource = steel amount = 20 exporter = ROOT }
+			create_wargoal = { 
+				type = take_state_focus
+				target = ROOT
+				generator = { 595 }
+			} 
+		}
+	}
+	
+	option = { 
+		name = ww1_china.28.c
+		give_military_access = JAP
+		JAP = { 
+			# create_import = { resource = steel amount = 20 exporter = ROOT }
+			transfer_state = 595
+		} 
+	}
+}
+
+country_event = { #Yuan becomes Emperor
+	id = ww1_china.29
+	title = ww1_china.29.t
+	desc = ww1_china.29.d
+	# picture = GFX_report_event_gathering_protest
+	
+	mean_time_to_happen = { days = 350 }
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1915.1.1
+		tag = BYG
+		OR = {
+			BYG = { has_government = conservative } 
+			BYG = { has_government = autocratic } 
+		}
+		BYG = { has_war = no }
+	}
+	
+	immediate = {
+		hidden_effect = {
+			BYG = { country_event = { days = 260 id = ww1_china.34 } }
+		}
+	}
+	
+	option = { 
+		name = ww1_china.29.a
+		ai_chance = {
+			factor = 90
+		}
+		set_politics = { 
+			ruling_party = autocratic
+			elections_allowed = no 
+		}
+		YUN = { country_event = { days = 10 id = ww1_china.30 } }
+	}
+	
+	option = { 
+		name = ww1_china.29.b
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = { #National Protection War - Yunnan
+	id = ww1_china.30
+	title = ww1_china.30.t
+	desc = ww1_china.30.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		country_exists = BYG
+		OR = {
+			BYG = { has_government = conservative } 
+			BYG = { has_government = autocratic } 
+		}
+		NOT = {
+			OR = {
+				country_exists = QNG
+				BYG = { has_war_with = ROOT }
+				has_global_flag = xinhai_revolution
+				ROOT = { is_in_faction_with = BYG }
+			}
+		}
+		ROOT = {
+				is_puppet = no
+		}
+	}
+	
+	option = { 
+		name = ww1_china.30.a
+		ai_chance = {
+			factor = 90
+		}
+		ROOT = { declare_war_on = { target = BYG type = annex_everything } }
+		SIK = { country_event = { days = 2 id = ww1_china.32 } }
+		SHX = { country_event = { days = 2 id = ww1_china.32 } }
+		CHI = { country_event = { days = 2 id = ww1_china.32 } }
+		GXC = { country_event = { days = 2 id = ww1_china.32 } }
+		XSM = { country_event = { days = 2 id = ww1_china.32 } }
+		ANH = { country_event = { days = 2 id = ww1_china.32 } }
+		ZHL = { country_event = { days = 2 id = ww1_china.32 } }
+		FNG = { country_event = { days = 2 id = ww1_china.32 } }
+		BYG = { country_event = { days = 130 id = ww1_china.34 } }
+	}
+	
+	option = { 
+		name = ww1_china.30.b
+		ai_chance = {
+			factor = 10
+		}
+		GXC = { country_event = { days = 10 id = ww1_china.31 } }
+	}
+}
+
+country_event = { #National Protection War - Guangxi
+	id = ww1_china.31
+	title = ww1_china.31.t
+	desc = ww1_china.31.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		country_exists = BYG
+		OR = {
+			BYG = { has_government = conservative } 
+			BYG = { has_government = autocratic } 
+		}
+		NOT = {
+			OR = {
+				country_exists = QNG
+				BYG = { has_war_with = ROOT }
+				has_global_flag = xinhai_revolution
+				ROOT = { is_in_faction_with = BYG }
+			}
+		}
+		ROOT = {
+				is_puppet = no
+		}
+	}
+	
+	option = { 
+		name = ww1_china.31.a
+		ai_chance = {
+			factor = 100
+		}
+		ROOT = { declare_war_on = { target = BYG type = annex_everything } }
+		SIK = { country_event = { days = 2 id = ww1_china.33 } }
+		SHX = { country_event = { days = 2 id = ww1_china.33 } }
+		CHI = { country_event = { days = 2 id = ww1_china.33 } }
+		YUN = { country_event = { days = 2 id = ww1_china.33 } }
+		XSM = { country_event = { days = 2 id = ww1_china.33 } }
+		ANH = { country_event = { days = 2 id = ww1_china.33 } }
+		FNG = { country_event = { days = 2 id = ww1_china.33 } }
+		ZHL = { country_event = { days = 2 id = ww1_china.33 } }
+		BYG = { country_event = { days = 130 id = ww1_china.34 } }
+	}
+	
+	option = { 
+		name = ww1_china.31.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { #Cliques goes against Yuan - Yunnan
+	id = ww1_china.32
+	title = ww1_china.32.t
+	desc = ww1_china.32.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+		option = { 
+		name = ww1_china.32.a
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				has_opinion = {
+					target = BYG
+					value < -20
+				}
+			}
+			modifier = {
+					factor = 3
+					OR = {
+						tag = CHI
+						tag = GXC
+						tag = YUN
+					}
+				}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = BYG
+					value > 20
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = YUN
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 0
+				is_puppet = yes
+			}
+			modifier = {
+				factor = 0
+				is_in_faction_with = BYG
+			}
+			modifier = {
+				factor = 0
+				exists = no
+			}
+		}
+		add_to_war = { targeted_alliance = YUN enemy = BYG }
+	}
+	
+	option = { 
+		name = ww1_china.32.b
+			ai_chance = {
+				factor = 30
+				modifier = {
+					factor = 2
+					has_opinion = {
+						target = YUN
+						value < -20
+					}
+				}
+				modifier = {
+					factor = 3
+					OR = {
+						tag = ANH
+						tag = ZHL
+						tag = FNG
+					}
+				}
+				modifier = {
+					factor = 0.5
+					has_opinion = {
+						target = YUN
+						value > 0
+					}
+				}
+				modifier = {
+					factor = 0.5
+					has_opinion = {
+						target = BYG
+						value < 0
+					}
+				}
+				modifier = {
+					factor = 0
+					is_puppet = yes
+				}
+				modifier = {
+					factor = 0
+					is_in_faction_with = YUN
+				}
+				modifier = {
+					factor = 0
+					exists = no
+				}
+			}
+			add_to_war = { targeted_alliance = BYG enemy = YUN }
+	}
+	
+	option = { 
+		name = ww1_china.32.c
+			ai_chance = {
+				factor = 30
+				modifier = {
+					factor = 2
+					OR = {
+						tag = SHX
+						tag = XSM
+					}
+				}
+			}
+	}
+}
+
+country_event = { #Cliques goes against Yuan - Guangxi
+	id = ww1_china.33
+	title = ww1_china.33.t
+	desc = ww1_china.33.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+			option = { 
+		name = ww1_china.33.a
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				has_opinion = {
+					target = BYG
+					value < -20
+				}
+			}
+			modifier = {
+					factor = 3
+					OR = {
+						tag = CHI
+						tag = GXC
+						tag = YUN
+					}
+				}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = BYG
+					value > 20
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = GXC
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 0
+				is_puppet = yes
+			}
+			modifier = {
+				factor = 0
+				is_in_faction_with = BYG
+			}
+			modifier = {
+				factor = 0
+				exists = no
+			}
+		}
+		add_to_war = { targeted_alliance = GXC enemy = BYG }
+	}
+	
+	option = { 
+		name = ww1_china.33.b
+			ai_chance = {
+				factor = 30
+				modifier = {
+					factor = 2
+					has_opinion = {
+						target = GXC
+						value < -20
+					}
+				}
+				modifier = {
+					factor = 3
+					OR = {
+						tag = ANH
+						tag = ZHL
+						tag = FNG
+					}
+				}
+				modifier = {
+					factor = 0.5
+					has_opinion = {
+						target = GXC
+						value > 0
+					}
+				}
+				modifier = {
+					factor = 0.5
+					has_opinion = {
+						target = BYG
+						value < 0
+					}
+				}
+				modifier = {
+					factor = 0
+					is_puppet = yes
+				}
+				modifier = {
+					factor = 0
+					is_in_faction_with = GXC
+				}
+				modifier = {
+					factor = 0
+					exists = no
+				}
+			}
+			add_to_war = { targeted_alliance = BYG enemy = GXC }
+	}
+	
+	option = { 
+		name = ww1_china.33.c
+			ai_chance = {
+				factor = 30
+				modifier = {
+					factor = 2
+					OR = {
+						tag = SHX
+						tag = XSM
+					}
+				}
+			}
+	}
+}
+
+country_event = { #Yuan death
+	id = ww1_china.34
+	title = ww1_china.34.t
+	desc = ww1_china.34.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { 
+		name = ww1_china.34.a
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Li Yuanhong"
+			desc = "POLITICS_LI_YUANHONG_DESC"
+			picture = "gfx/leaders/CHI/Portrait_CHI_Li_Yuanhong.dds"
+			expire = "1929.1.1"
+			ideology = conservatism
+			traits = {
+			}
+		}
+		create_country_leader = {
+			name = "Hongji Emperor" #Yuan Keding
+			desc = "POLITICS_YUAN_KEDING_DESC"
+			picture = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+			expire = "1959.1.1"
+			ideology = monarchism
+			traits = {
+			}
+		}
+		country_event = { days = 20 id = ww1_china.35 }
+		if = {
+			limit = {
+				OR = {
+					BYG = { has_war_with = YUN }
+					BYG = { has_war_with = GXC }
+				}
+			}
+			set_politics = { 
+				ruling_party = conservative
+				elections_allowed = no 
+			}
+			BYG = {
+				white_peace = CHI
+				white_peace = SIK
+				white_peace = SHX
+				white_peace = YUN
+				white_peace = GXC
+				white_peace = XSM
+				white_peace = ZHL
+				white_peace = FNG
+				white_peace = ANH
+			}
+		}
+	}
+}
+
+country_event = { #Yuan death - dissolution
+	id = ww1_china.35
+	title = ww1_china.35.t
+	desc = ww1_china.35.d
+	# picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { 
+		name = ww1_china.35.a
+		hidden_effect = {
+		717 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ZHL = { transfer_state = 717 }
+			}
+		}
+		614 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ZHL = { 
+					transfer_state = 614
+					add_state_core = 614
+				}
+			}
+		}
+		621 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ZHL = { transfer_state = 621 }
+			}
+		}
+		613 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ZHL = { transfer_state = 613 }
+			}
+		}
+		600 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ZHL = { transfer_state = 600 }
+			}
+		}
+		620 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ZHL = { transfer_state = 620 }
+			}
+		}
+		612 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ANH = { transfer_state = 612 }
+			}
+		}
+		610 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ANH = { transfer_state = 610 }
+			}
+		}
+		597 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ANH = {
+					transfer_state = 597
+					add_state_core = 597
+				}
+			}
+		}
+		596 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ANH = { transfer_state = 596 }
+			}
+		}
+		595 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ANH = { transfer_state = 595 }
+			}
+		}
+		591 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ANH = { transfer_state = 591 }
+			}
+		}
+		622 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ANH = { transfer_state = 622 }
+			}
+		}
+		283 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				ANH = { transfer_state = 283 }
+			}
+		}
+		715 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				FNG = { 
+					transfer_state = 715
+					add_state_core = 715
+				}
+			}
+		}
+		716 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				FNG = { 
+					transfer_state = 716
+					add_state_core = 716
+				}
+			}
+		}
+		592 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				GXC = { transfer_state = 592 }
+			}
+		}
+		593 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				GXC = { transfer_state = 593 }
+			}
+		}
+		601 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				YUN = { transfer_state = 601 }
+			}
+		}
+		603 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				YUN = { transfer_state = 603 }
+			}
+		}
+		605 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				YUN = { transfer_state = 605 }
+			}
+		}
+		616 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				XSM = { transfer_state = 616 }
+			}
+		}
+		604 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				XSM = { transfer_state = 604 }
+			}
+		}
+		617 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				SIK = { transfer_state = 617 }
+			}
+		}
+		618 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				SIK = { transfer_state = 618 }
+			}
+		}
+		619 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				SIK = { transfer_state = 619 }
+			}
+		}
+		287 = {
+			if = {
+				limit = { is_owned_by = BYG }
+				SIK = { transfer_state = 287 }
+			}
+		}
+		598 = {
+			if = {
+				limit = { 
+					is_owned_by = BYG
+					OR = {
+						QNG = { exists = no }
+						QNG = { has_government = neutrality }
+					}
+				}
+				QNG = { 
+					remove_ideas = wanning_empire
+					remove_ideas = zaifeng_regency
+					transfer_state = 598
+					set_politics = { 
+						ruling_party = neutrality
+						elections_allowed = no 
+					}
+				}
+			}
+		}
+		606 = {
+			if = {
+				limit = { 
+					is_owned_by = BYG
+					OR = {
+						QNG = { exists = no }
+						QNG = { has_government = neutrality }
+					}
+				}
+				QNG = { 
+					remove_ideas = wanning_empire
+					remove_ideas = zaifeng_regency
+					transfer_state = 606
+					set_politics = { 
+						ruling_party = neutrality
+						elections_allowed = no 
+					}
+				}
+			}
+		}
+		if = {
+			limit = { ZHL = { has_army_size	= { size < 1 } } }
+			ZHL = { load_oob = ZHL_1914 }
+		}
+		if = {
+			limit = { ANH = { has_army_size	= { size < 1 } } }
+			ANH = { load_oob = ANH_1914 }
+		}
+		if = {
+			limit = { FNG = { has_army_size	= { size < 1 } } }
+			FNG = { load_oob = FNG_1914 }
+		}
+		if = {
+			limit = { QNG = { has_army_size	= { size < 1 } } }
+			QNG = { load_oob = QNG_1914 }
+		}
+		}
+	}
+}
+
+country_event = { #Constitutional Protection War
+	id = ww1_china.36
+	title = ww1_china.36.t
+	desc = ww1_china.36.d
+	# picture = GFX_report_event_gathering_protest
+	
+	mean_time_to_happen = {
+		days = 500
+	}
+	
+	trigger = {
+		tag = GXC
+		OR = {
+			controls_state = 592
+			controls_state = 593
+		}
+		country_exists = BYG
+		OR = {
+			BYG = { has_government = conservative } 
+			BYG = { has_government = autocratic } 
+		}
+		NOT = {
+			OR = {
+				country_exists = QNG
+				has_war_with = CHI
+				has_global_flag = xinhai_revolution
+				GXC = { is_in_faction_with = BYG }
+			}
+		}
+		ROOT = {
+				is_puppet = no
+		}
+	}
+	
+	option = { 
+		name = ww1_china.36.a
+		ai_chance = {
+			factor = 100
+		}
+		592 = {
+			if = {
+				limit = { is_owned_by = GXC }
+				CHI = { transfer_state = 592 }
+			}
+		}
+		593 = {
+			if = {
+				limit = { is_owned_by = GXC }
+				CHI = { transfer_state = 593 }
+			}
+		}
+		CHI = { declare_war_on = { target = BYG type = annex_everything } }
+		GXC = { add_to_war = { targeted_alliance = CHI enemy = BYG } }
+		SIK = { country_event = { days = 2 id = ww1_china.27 } }
+		SHX = { country_event = { days = 2 id = ww1_china.27 } }
+		YUN = { country_event = { days = 2 id = ww1_china.27 } }
+		XSM = { country_event = { days = 2 id = ww1_china.27 } }
+		ANH = { country_event = { days = 2 id = ww1_china.27 } }
+		FNG = { country_event = { days = 2 id = ww1_china.27 } }
+		ZHL = { country_event = { days = 2 id = ww1_china.27 } }
+	}
+	
+	option = { 
+		name = ww1_china.36.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.37 #China joins WWI (hidden)
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+	
+	trigger = {
+		date > 1917.1.1
+		date < 1920.1.1
+		AUS = { has_war_with = SER }
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				GER = { has_war_together_with = AUS }
+			}
+			BYG = { news_event = { id = ww1_china.38 } }
+		}
+		if = {
+			limit = {
+				AND = {
+					JAP = { has_war_together_with = SER }
+					NOT = { GER = { has_war_together_with = AUS } }
+				}
+			}
+			BYG = { news_event = { id = ww1_china.39 } } 
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { GER = { has_war_together_with = AUS } }
+					JAP = { has_war_together_with = AUS }
+				}
+			}
+			BYG = { news_event = { id = ww1_china.38 } }
+		}
+		if = {
+			limit = {
+				NOT = { 
+					GER = { has_war_together_with = AUS }
+					JAP = { has_war_together_with = AUS }
+				}
+			}
+			BYG = { news_event = { id = ww1_china.38 } }
+		}
+	}
+	
+	option = {
+		name = ww1_china.37.a
+	}
+}
+
+country_event = {
+	id = ww1_china.38 #Parliament joins Entente
+	title = ww1_china.38.t
+	desc = ww1_china.38.d
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = ww1_china.38.a
+		ai_chance = {
+			factor = 70
+		}
+		add_to_war = { targeted_alliance = SER enemy = AUS }
+		SIK = { country_event = { days = 2 id = ww1_china.40 } }
+		SHX = { country_event = { days = 2 id = ww1_china.40 } }
+		YUN = { country_event = { days = 2 id = ww1_china.40 } }
+		XSM = { country_event = { days = 2 id = ww1_china.40 } }
+		ANH = { country_event = { days = 2 id = ww1_china.40 } }
+		FNG = { country_event = { days = 2 id = ww1_china.40 } }
+		ZHL = { country_event = { days = 2 id = ww1_china.40 } }
+		GXC = { country_event = { days = 2 id = ww1_china.40 } }
+		CHI = { country_event = { days = 2 id = ww1_china.40 } }
+		QNG = { country_event = { days = 2 id = ww1_china.40 } }
+	}
+	option = {
+		name = ww1_china.38.b
+		ai_chance = {
+			factor = 10
+		}
+		ANH = { country_event = { id = ww1_china.41 } }
+		BYG = { set_country_flag = BYG_Entente_refused }
+	}
+	option = {
+		name = ww1_china.38.c
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.39 #Parliament joins Central
+	title = ww1_china.39.t
+	desc = ww1_china.39.d
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+		
+	option = {
+		name = ww1_china.38.a
+		ai_chance = {
+			factor = 20
+		}
+		add_to_war = { targeted_alliance = AUS enemy = SER }
+		SIK = { country_event = { days = 2 id = ww1_china.40 } }
+		SHX = { country_event = { days = 2 id = ww1_china.40 } }
+		YUN = { country_event = { days = 2 id = ww1_china.40 } }
+		XSM = { country_event = { days = 2 id = ww1_china.40 } }
+		ANH = { country_event = { days = 2 id = ww1_china.40 } }
+		FNG = { country_event = { days = 2 id = ww1_china.40 } }
+		ZHL = { country_event = { days = 2 id = ww1_china.40 } }
+		GXC = { country_event = { days = 2 id = ww1_china.40 } }
+		CHI = { country_event = { days = 2 id = ww1_china.40 } }
+		QNG = { country_event = { days = 2 id = ww1_china.40 } }
+	}
+	option = {
+		name = ww1_china.39.b
+		ai_chance = {
+			factor = 70
+		}
+		ANH = { country_event = { id = ww1_china.47 } }
+		BYG = { set_country_flag = BYG_Central_refused }
+	}
+	option = {
+		name = ww1_china.39.c
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.40 #Clique joins WWI
+	title = ww1_china.40.t
+	desc = ww1_china.40.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			has_war_together_with = SER
+			has_war_together_with = AUS
+		}
+	}
+	
+	option = {
+		name = ww1_china.38.a
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				has_war_with = BYG
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = BYG value > -10 }
+			}
+			modifier = {
+				factor = 4
+				has_war_together_with = BYG
+			}
+		}
+		if = {
+			limit = {
+				BYG = { has_war_together_with = SER }
+			}
+			add_to_war = { targeted_alliance = SER enemy = AUS }
+		}
+		if = {
+			limit = {
+				BYG = { has_war_together_with = AUS }
+			}
+			add_to_war = { targeted_alliance = AUS enemy = SER }
+		}
+	}
+	option = {
+		name = ww1_china.40.b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_war_with = BYG
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = BYG value < -40 }
+			}
+			modifier = {
+				factor = 0
+				has_war_together_with = BYG
+			}
+		}
+		if = {
+			limit = {
+				BYG = { has_war_together_with = SER }
+			}
+			add_to_war = { targeted_alliance = AUS enemy = SER }
+		}
+		if = {
+			limit = {
+				BYG = { has_war_together_with = AUS }
+			}
+			add_to_war = { targeted_alliance = SER enemy = AUS }
+		}
+	}
+	option = {
+		name = ww1_china.40.c
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				has_war_with = BYG
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.41 #Parliament request to join Entente turned down
+	title = ww1_china.41.t
+	desc = ww1_china.41.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ANH = {
+			exists = yes
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = BYG
+				has_war_together_with = BYG
+				has_war_with = BYG
+			}
+		}
+	}
+	
+	option = {
+		name = ww1_china.41.a
+		ai_chance = {
+			factor = 90
+		}
+		declare_war_on = { target = BYG type = annex_everything }
+		FNG = { country_event = { days = 1 id = ww1_china.42 } }
+		SHX = { country_event = { days = 1 id = ww1_china.42 } }
+		ZHL = { country_event = { days = 1 id = ww1_china.42 } }
+		BYG = { country_event = { days = 2 id = ww1_china.43 } }
+	}
+	option = {
+		name = ww1_china.41.b
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.42 #Parliament request to join Entente turned down - war! (Join?) 
+	title = ww1_china.42.t
+	desc = ww1_china.42.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+			exists = yes
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = BYG
+				has_war_together_with = BYG
+				has_war_with = BYG
+				has_war_with = ANH
+			}
+	}
+	
+	option = {
+		name = ww1_china.42.a
+		ai_chance = {
+			factor = 60
+		}
+		add_to_war = { targeted_alliance = ANH enemy = BYG }
+	}
+	option = {
+		name = ww1_china.42.b
+		ai_chance = {
+			factor = 40
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.43 #Let Zhang Xun assist?
+	title = ww1_china.43.t
+	desc = ww1_china.43.d
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		QNG = { 
+			has_government = neutrality
+			has_war = no
+		}
+	}
+	
+	option = {
+		name = ww1_china.43.a
+		ai_chance = {
+			factor = 80
+		}
+		QNG = { country_event = { days = 1 id = ww1_china.49 } }
+	}
+	option = {
+		name = ww1_china.43.b
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.44 #Zhang Xun restore Qing throne - Beiyang reaction
+	title = ww1_china.44.t
+	desc = ww1_china.44.d
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		BYG = { 
+			declare_war_on = { target = QNG type = annex_everything }
+			white_peace = ANH
+			white_peace = FNG
+			white_peace = SHX
+			white_peace = ZHL
+		}
+		if = {
+			limit = { 
+				BYG = { has_country_flag = BYG_Entente_refused }
+			}
+			add_to_war = { targeted_alliance = SER enemy = AUS }
+			SIK = { country_event = { days = 2 id = ww1_china.40 } }
+			SHX = { country_event = { days = 2 id = ww1_china.40 } }
+			YUN = { country_event = { days = 2 id = ww1_china.40 } }
+			XSM = { country_event = { days = 2 id = ww1_china.40 } }
+			ANH = { country_event = { days = 2 id = ww1_china.40 } }
+			FNG = { country_event = { days = 2 id = ww1_china.40 } }
+			ZHL = { country_event = { days = 2 id = ww1_china.40 } }
+			GXC = { country_event = { days = 2 id = ww1_china.40 } }
+			CHI = { country_event = { days = 2 id = ww1_china.40 } }
+			BYG = { clr_country_flag = BYG_Entente_refuse }
+		}
+		if = {
+			limit = { 
+				BYG = { has_country_flag = BYG_Central_refused }
+			}
+			add_to_war = { targeted_alliance = AUS enemy = SER }
+			SIK = { country_event = { days = 2 id = ww1_china.40 } }
+			SHX = { country_event = { days = 2 id = ww1_china.40 } }
+			YUN = { country_event = { days = 2 id = ww1_china.40 } }
+			XSM = { country_event = { days = 2 id = ww1_china.40 } }
+			ANH = { country_event = { days = 2 id = ww1_china.40 } }
+			FNG = { country_event = { days = 2 id = ww1_china.40 } }
+			ZHL = { country_event = { days = 2 id = ww1_china.40 } }
+			GXC = { country_event = { days = 2 id = ww1_china.40 } }
+			CHI = { country_event = { days = 2 id = ww1_china.40 } }
+			BYG = { clr_country_flag = BYG_Central_refused }
+		}
+	}
+	
+	option = {
+		name = ww1_china.44.a
+	}
+}
+
+country_event = {
+	id = ww1_china.45 #Zhang Xun restore Qing throne - Anhui reaction
+	title = ww1_china.45.t
+	desc = ww1_china.45.d
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		QNG = {
+			exists = yes
+			has_government = autocratic
+		}
+	}
+	
+	option = {
+		name = ww1_china.45.a
+		ANH = { declare_war_on = { target = QNG type = annex_everything } }
+	}
+}
+
+country_event = {
+	id = ww1_china.46 #President victory over Parliament
+	title = ww1_china.46.t
+	desc = ww1_china.46.d
+	
+	trigger = {
+		tag = BYG
+		has_war = no
+		OR = {
+			has_country_flag = BYG_Central_refused
+			has_country_flag = BYG_Entente_refused
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = ww1_china.46.a
+		ai_chance = {
+			factor = 100
+		}
+		if = {
+			limit = { 
+				BYG = { has_country_flag = BYG_Entente_refused }
+			}
+			add_to_war = { targeted_alliance = AUS enemy = SER }
+			SIK = { country_event = { days = 2 id = ww1_china.40 } }
+			SHX = { country_event = { days = 2 id = ww1_china.40 } }
+			YUN = { country_event = { days = 2 id = ww1_china.40 } }
+			XSM = { country_event = { days = 2 id = ww1_china.40 } }
+			ANH = { country_event = { days = 2 id = ww1_china.40 } }
+			FNG = { country_event = { days = 2 id = ww1_china.40 } }
+			ZHL = { country_event = { days = 2 id = ww1_china.40 } }
+			GXC = { country_event = { days = 2 id = ww1_china.40 } }
+			CHI = { country_event = { days = 2 id = ww1_china.40 } }
+			BYG = { clr_country_flag = BYG_Entente_refuse }
+		}
+		if = {
+			limit = { 
+				BYG = { has_country_flag = BYG_Central_refused }
+			}
+			add_to_war = { targeted_alliance = SER enemy = AUS }
+			SIK = { country_event = { days = 2 id = ww1_china.40 } }
+			SHX = { country_event = { days = 2 id = ww1_china.40 } }
+			YUN = { country_event = { days = 2 id = ww1_china.40 } }
+			XSM = { country_event = { days = 2 id = ww1_china.40 } }
+			ANH = { country_event = { days = 2 id = ww1_china.40 } }
+			FNG = { country_event = { days = 2 id = ww1_china.40 } }
+			ZHL = { country_event = { days = 2 id = ww1_china.40 } }
+			GXC = { country_event = { days = 2 id = ww1_china.40 } }
+			CHI = { country_event = { days = 2 id = ww1_china.40 } }
+			BYG = { clr_country_flag = BYG_Central_refused }
+		}
+	}
+	
+	option = {
+		name = ww1_china.46.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.47 #Parliament request to join CP turned down
+	title = ww1_china.47.t
+	desc = ww1_china.47.d
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ANH = {
+			exists = yes
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = BYG
+				has_war_together_with = BYG
+				has_war_with = BYG
+			}
+		}
+	}
+	
+	option = {
+		name = ww1_china.47.a
+		ai_chance = {
+			factor = 100
+		}
+		declare_war_on = { target = BYG type = annex_everything }
+		FNG = { country_event = { days = 1 id = ww1_china.48 } }
+		SHX = { country_event = { days = 1 id = ww1_china.48 } }
+		ZHL = { country_event = { days = 1 id = ww1_china.48 } }
+		BYG = { country_event = { days = 2 id = ww1_china.43 } }
+	}
+	option = {
+		name = ww1_china.47.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.48 #Parliament request to join CP turned down - war! (Join?) 
+	title = ww1_china.48.t
+	desc = ww1_china.48.d
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			exists = yes
+			is_puppet = no
+			NOT = {
+				is_in_faction_with = BYG
+				has_war_together_with = BYG
+				has_war_with = BYG
+				has_war_with = ANH
+			}
+	}
+	
+	option = {
+		name = ww1_china.48.a
+		ai_chance = {
+			factor = 60
+		}
+		add_to_war = { targeted_alliance = ANH enemy = BYG }
+	}
+	option = {
+		name = ww1_china.48.b
+		ai_chance = {
+			factor = 40
+		}
+	}
+}
+
+country_event = {
+	id = ww1_china.49 #Manchu restoration for QNG
+	title = ww1_china.49.t
+	desc = ww1_china.49.d
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+		
+	option = {
+		name = ww1_china.49.a
+		ai_chance = {
+			factor = 100
+		}
+		BYG = { country_event = { days = 1 id = ww1_china.44 } }
+		ANH = { country_event = { days = 2 id = ww1_china.45 } }
+		QNG = { 
+			transfer_state = 608
+			set_politics = { 
+					ruling_party = autocratic
+					elections_allowed = no 
+			}
+		}
+	}
+	option = {
+		name = ww1_china.49.b
+		ai_chance = {
+			factor = 0
+		}
 	}
 }

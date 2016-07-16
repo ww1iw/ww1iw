@@ -1,0 +1,65 @@
+﻿division_template = {
+	name = "New Army"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 1 y = 3 }
+		cavalry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1st New Army"
+		location = 9843
+		division_template = "New Army"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "2nd New Army"
+		location = 12026
+		division_template = "New Army"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "3rd New Army"
+		location = 4572
+		division_template = "New Army"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "4th New Army"
+		location = 10068
+		division_template = "New Army"
+		start_experience_factor = 0.8
+	}
+	division= {	
+		name = "6th New Army"
+		location = 9843
+		division_template = "New Army"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "20th New Army"
+		location = 11771
+		division_template = "New Army"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		name = "23rd New Army"
+		location = 4572
+		division_template = "New Army"
+		start_experience_factor = 0.5
+	}
+}

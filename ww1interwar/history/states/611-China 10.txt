@@ -9,7 +9,6 @@ state={
 	history={
 		owner = QNG
 		add_core_of = QNG
-		1936.1.1 = { owner = MEN }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -17,6 +16,18 @@ state={
 		victory_points = {
 			11752 3
 		}
+		
+		1912.1.1 = { 
+			owner = BYG
+			add_core_of = BYG
+			add_core_of = CHI
+			remove_core_of = QNG
+		}
+		1923.1.1 = { 
+			owner = ZHL
+		}
+		1936.1.1 = { owner = MEN }
+		
 	}
 
 	provinces={

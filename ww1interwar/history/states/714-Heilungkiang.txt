@@ -8,11 +8,20 @@ state={
 	history={
 		owner = QNG
 		add_core_of = QNG
-		1936.1.1 = { owner = JAP }
+		
 		buildings = {
 			infrastructure = 4
 		}
-
+		
+		1912.1.1 = { 
+			owner = BYG
+			add_core_of = BYG
+			add_core_of = CHI
+		}
+		1923.1.1 = { 
+			owner = FNG
+		}
+		1936.1.1 = { owner = JAP }
 	}
 
 	provinces={

@@ -9,13 +9,7 @@ state=
 		owner = QNG
 		add_core_of = QNG
 		
-		1936.1.1 = {
-			owner = CHI
-			add_core_of = CHI
-			add_core_of = PRC
-		}
-		
-		victory_points = { 
+				victory_points = { 
 			9974 1 
 		}
 		victory_points = { 
@@ -41,7 +35,21 @@ state=
 				bunker = 1
 			}
 		}
-
+		
+		1912.1.1 = { 
+			owner = BYG
+			add_core_of = BYG
+			add_core_of = CHI
+			remove_core_of = QNG
+		}
+		1923.1.1 = { 
+			owner = ANH
+		}
+		1936.1.1 = {
+			owner = CHI
+			add_core_of = CHI
+			add_core_of = PRC
+		}		
 		1938.10.25 = {		
 			JAP = {
 				set_province_controller = 1055
