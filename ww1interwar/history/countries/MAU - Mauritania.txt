@@ -73,7 +73,7 @@ set_convoys = 20
 				popularity = 0
 			}
 			autocratic = {
-				popularity = 0
+				popularity = 100
 			}
 			socialist = {
 				popularity = 0
@@ -88,11 +88,11 @@ set_convoys = 20
 				popularity = 0
 			}
 			neutrality = {
-				popularity = 100
+				popularity = 0
 			}
 		}
 	
-	ruling_party = neutrality
+	ruling_party = autocratic
 	last_election = "1908.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -113,7 +113,7 @@ set_convoys = 20
 				popularity = 0
 			}
 			autocratic = {
-				popularity = 0
+				popularity = 100
 			}
 			socialist = {
 				popularity = 0
@@ -128,11 +128,11 @@ set_convoys = 20
 				popularity = 0
 			}
 			neutrality = {
-				popularity = 100
+				popularity = 0
 			}
 		}
 	
-	ruling_party = neutrality
+	ruling_party = autocratic
 	last_election = "1912.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -172,29 +172,29 @@ set_convoys = 20
 			}
 		}
 	
-	ruling_party = neutrality
+	ruling_party = autocratic
 	last_election = "1970.1.1"
 	election_frequency = 48
 	elections_allowed = no
 	}
 }
 
-create_country_leader = {
-	name = "Moktar Ould Daddah"
+create_country_leader = { #1978 may make later, sticking to history for now
+	name = "Mustafa Ould Salek"
 	desc = ""
-	picture = "gfx/leaders/MAU/Portrait_MAU_Moktar_Ould_Daddah.dds"
-	expire = "2003.10.14"
-	ideology = oligarchism
+	picture = "gfx/leaders/MAU/Portrait_MAU_Mustafa_Ould_Salek.dds"
+	expire = "2012.12.18"
+	ideology = monarchism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Mustafa Ould Salek"
+create_country_leader = { #1918
+	name = "Moktar Ould Daddah"
 	desc = ""
-	picture = "gfx/leaders/MAU/Portrait_MAU_Mustafa_Ould_Salek.dds"
-	expire = "2012.12.18"
+	picture = "gfx/leaders/MAU/Portrait_MAU_Moktar_Ould_Daddah.dds"
+	expire = "2003.10.14"
 	ideology = monarchism
 	traits = {
 		#

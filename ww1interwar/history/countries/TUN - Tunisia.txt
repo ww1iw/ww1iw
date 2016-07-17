@@ -73,7 +73,7 @@ set_national_unity = 0.55
 				popularity = 0
 			}
 			socialist = {
-				popularity = 0
+				popularity = 100
 			}
 			communism = {
 				popularity = 0
@@ -85,11 +85,11 @@ set_national_unity = 0.55
 				popularity = 0
 			}
 			neutrality = {
-				popularity = 100
+				popularity = 0
 			}
 		}
 	
-	ruling_party = neutrality
+	ruling_party = socialist
 	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -113,7 +113,7 @@ set_national_unity = 0.55
 				popularity = 0
 			}
 			socialist = {
-				popularity = 0
+				popularity = 100
 			}
 			communism = {
 				popularity = 0
@@ -125,11 +125,11 @@ set_national_unity = 0.55
 				popularity = 0
 			}
 			neutrality = {
-				popularity = 100
+				popularity = 0
 			}
 		}
 	
-	ruling_party = neutrality
+	ruling_party = socialist
 	last_election = "1912.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -141,7 +141,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/TUN/Portrait_TUN_Zine_El_Abidine_Ben_Ali.dds"
 	expire = "2011.1.14"
-	ideology = oligarchism
+	ideology = socialism
 	traits = {
 		#
 	}
@@ -152,7 +152,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/TUN/Portrait_TUN_Habib_Bourguiba.dds"
 	expire = "1987.4.6"
-	ideology = oligarchism
+	ideology = socialism
 	traits = {
 		#
 	}
