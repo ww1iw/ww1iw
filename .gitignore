@@ -61,3 +61,23 @@ Temporary Items
 706092793.mod
 701057386.mod
 699951941.mod
+IrelandNF/localisation/ireland_NF_victory_points_l_english.yml
+IrelandNF/history/units/IRE_1939.txt
+*.mod
+IrelandNF/common/ideas/NF_ireland.txt
+IrelandNF/history/states/113-Ireland.txt
+IrelandNF/common/national_focus/ireland.txt
+IrelandNF/common/opinion_modifiers/00_NF_irish_opinion_modifiers.txt
+IrelandNF/events/IrelandNF_NewsEvents.txt
+IrelandNF/localisation/ireland_NF_focus_l_english.yml
+IrelandNF/localisation/ireland_NF_ideas_l_english.yml
+IrelandNF/gfx/event_pictures/IRE_news_event_001.dds
+IrelandNF/history/units/IRE_1936.txt
+IrelandNF/localisation/ireland_NF_events_l_english.yml
+IrelandNF/interface/ireland_NF_leader_portraits.gfx
+IrelandNF/localisation/ireland_NF_diplomacy_l_english.yml
+IrelandNF/gfx/leaders/IRE/Portrait_Ireland_Hugh_McAteer.dds
+IrelandNF/interface/ireland_NF_eventpictures.gfx
+IrelandNF/history/states/119-Northern Ireland.txt
+IrelandNF/history/states/135-Munster.txt
+IrelandNF/history/states/134-Connaught.txt
