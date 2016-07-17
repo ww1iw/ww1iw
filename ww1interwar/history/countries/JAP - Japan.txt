@@ -14,118 +14,290 @@ add_ideas = {
 
 		parties = {
 			liberal = {
-				popularity = 4
+				popularity = 11
 			}
 			democratic = {
-				popularity = 0
+				popularity = 7
 			}
 			conservative = {
-				popularity = 14
+				popularity = 24
 			}
 			natsoc = {
 				popularity = 0
 			}
 			fascism = {
-				popularity = 4
+				popularity = 0
 			}
 			socialist = { 
-				popularity = 1
+				popularity = 0
 			}
 			communism = {
 				popularity = 0
 			}
 			autocratic = {
-				popularity = 75
+				popularity = 50
 			}
 			neutrality = {
-				popularity = 2
+				popularity = 8
 			}
 		}
 		ruling_party = autocratic
-		last_election = "1912.1.1"
+		last_election = "1908.5.15"
 		election_frequency = 48
 		elections_allowed = no
 	}
 
 	create_country_leader = {
-	name = "Emperior Yoshihito"
-	desc = "EMPEROR_YOSHIHITO_DESC"
-	picture = "Portrait_Japan_Emperor_Yoshihito.dds"
-	expire = "1926.12.25"
-	ideology = monarchism
-	traits = {
+		name = "Mutsuhito"
+		desc = "EMPEROR_MUTSUHITO_DESC"
+		picture = "Portrait_Japan_Emperor_Mutsuhito.dds"
+		expire = "1913.7.30" #pushed back as he will be killed with events
+		ideology = independent
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Mutsuhito"
+		desc = "EMPEROR_MUTSUHITO_DESC"
+		picture = "Portrait_Japan_Emperor_Mutsuhito.dds"
+		expire = "1913.7.30"
+		ideology = monarchism
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Mutsuhito"
+		desc = "EMPEROR_MUTSUHITO_DESC"
+		picture = "Portrait_Japan_Emperor_Mutsuhito.dds"
+		expire = "1913.7.30"
+		ideology = fascism_ideology
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Adachi Kenzo"
+		desc = "ADACHI_KENZO_DESC"
+		picture = "Portrait_Japan_Adachi_Kenzo.dds"
+		expire = "1948.8.2"
+		ideology = centrism
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Okuma Shigenobu"
+		desc = "OKUMA_SHIGENOBU_DESC"
+		picture = "Portrait_Japan_Okuma_Shigenobu.dds"
+		expire = "1922.1.10"
+		ideology = liberalism
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Saionji Kinmochi"
+		desc = "SAIONJI_KINMOCHI_DESC"
+		picture = "Portrait_Japan_Saionji_Kinmochi.dds"
+		expire = "1940.11.24"
+		ideology = conservatism
+		traits = {
+		}
+	}
+
+1914.1.1 = {
+	set_politics = {
+
+		parties = {
+			liberal = {
+				popularity = 14
+			}
+			democratic = {
+				popularity = 4
+			}
+			conservative = {
+				popularity = 26
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 0
+			}
+			socialist = { 
+				popularity = 0
+			}
+			communism = {
+				popularity = 0
+			}
+			autocratic = {
+				popularity = 50
+			}
+			neutrality = {
+				popularity = 6
+			}
+		}
+		ruling_party = autocratic
+		last_election = "1912.5.15"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	create_country_leader = {
+		name = "Yoshihito"
+		desc = "EMPEROR_YOSHIHITO_DESC"
+		picture = "Portrait_Japan_Emperor_Yoshihito.dds"
+		expire = "1926.12.25"
+		ideology = monarchism
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Yoshihito"
+		desc = "EMPEROR_YOSHIHITO_DESC"
+		picture = "Portrait_Japan_Emperor_Yoshihito.dds"
+		expire = "1926.12.25"
+		ideology = independent
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Yoshihito"
+		desc = "EMPEROR_YOSHIHITO_DESC"
+		picture = "Portrait_Japan_Emperor_Yoshihito.dds"
+		expire = "1926.12.25"
+		ideology = fascism_ideology
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Inukai Tsuyoshi"
+		desc = "INUKAI_TSUYOSHI_DESC"
+		picture = "Portrait_Japan_Inukai_Tsuyoshi.dds"
+		expire = "1932.5.15"
+		ideology = liberalism
+		traits = {
+		}
 	}
 }
 
 1923.1.1 = {
 	set_national_unity = 0.6
+	set_party_name = { ideology = democratic long_name = JAP_democratic_party_1923 name = JAP_democratic_party_1923 }
+	
 	set_politics = {
 
 		parties = {
 			liberal = {
-				popularity = 6
+				popularity = 3
 			}
 			democratic = {
-				popularity = 1
+				popularity = 14
 			}
 			conservative = {
-				popularity = 11
+				popularity = 27
 			}
 			natsoc = {
-				popularity = 1
+				popularity = 0
 			}
 			fascism = {
-				popularity = 6
+				popularity = 0
 			}
 			socialist = { 
-				popularity = 2
+				popularity = 0
 			}
 			communism = {
-				popularity = 4
+				popularity = 0
 			}
 			autocratic = {
-				popularity = 68
+				popularity = 50
 			}
 			neutrality = {
-				popularity = 1
+				popularity = 6
 			}
 		}
 		ruling_party = autocratic
-		last_election = "1914.1.1"
+		last_election = "1920.5.10"
 		election_frequency = 48
 		elections_allowed = no
 	}
 
-}
-1936.1.1 = {
-set_convoys = 400
-
-puppet = MEN
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 100
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
+	create_country_leader = {
+		name = "Takahashi Korekiyo"
+		desc = "TAKAHASHI_KOREKIYO_DESC"
+		picture = "Portrait_Japan_Takahashi_Korekiyo.dds"
+		expire = "1937.2.26"
+		ideology = conservatism
+		traits = {
 		}
 	}
 	
-	ruling_party = fascism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	create_country_leader = {
+		name = "Kato Takaaki"
+		desc = "KATO_TAKAAKI_DESC"
+		picture = "Portrait_Japan_Kato_Takaaki.dds"
+		expire = "1926.1.28"
+		ideology = centrism
+		traits = {
+		}
+	}
+	
 }
 
-create_country_leader = {
+1931.1.1 = {
+	set_politics = {
+
+		parties = {
+			liberal = {
+				popularity = 0
+			}
+			democratic = {
+				popularity = 0
+			}
+			conservative = {
+				popularity = 19
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 51
+			}
+			socialist = { 
+				popularity = 1
+			}
+			communism = {
+				popularity = 1
+			}
+			autocratic = {
+				popularity = 25
+			}
+			neutrality = {
+				popularity = 3
+			}
+		}
+		ruling_party = facism
+		last_election = "1930.2.20"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	
+	create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Japan_Hirohito.dds"
+	expire = "1989.1.1"
+	ideology = monarchism
+	traits = {
+		warrior_code
+	}
+	}
+	create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "Portrait_Japan_Hirohito.dds"
@@ -134,7 +306,91 @@ create_country_leader = {
 	traits = {
 		warrior_code
 	}
+	}
+	
+	create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Japan_Hirohito.dds"
+	expire = "1989.1.1"
+	ideology = independent
+	traits = {
+		warrior_code
+	}
+	}
+	
+	create_country_leader = {
+		name = "Inukai Tsuyoshi"
+		desc = "INUKAI_TSUYOSHI_DESC"
+		picture = "Portrait_Japan_Inukai_Tsuyoshi.dds"
+		expire = "1932.5.15"
+		ideology = conservatism
+		traits = {
+		}
+	}
+	
+	create_country_leader = {
+		name = "Abe Isoo"
+		desc = "ABE_ISOO_DESC"
+		picture = "Portrait_Japan_Abe_Isoo.dds"
+		expire = "1949.2.10"
+		ideology = social_democracy
+		traits = {
+		}
+	}
+	create_country_leader = {
+		name = "Kanson Arahata"
+		desc = "KANSON_ARAHATA_DESC"
+		picture = "Portrait_Japan_Kanson_Arahata.dds"
+		expire = "1981.3.6"
+		ideology = marxism
+		traits = {
+		}
+	}
 }
+
+1936.1.1 = {
+set_convoys = 400
+set_party_name = { ideology = socialist long_name = JAP_socialist_party_1936 name = JAP_socialist_party_1936 }
+
+puppet = MEN
+
+	set_politics = {
+
+		parties = {
+			liberal = {
+				popularity = 0
+			}
+			democratic = {
+				popularity = 0
+			}
+			conservative = {
+				popularity = 29
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 43
+			}
+			socialist = { 
+				popularity = 1
+			}
+			communism = {
+				popularity = 0
+			}
+			autocratic = {
+				popularity = 25
+			}
+			neutrality = {
+				popularity = 2
+			}
+		}
+		ruling_party = facism
+		last_election = "1932.2.20"
+		election_frequency = 48
+		elections_allowed = no
+	}
 
 create_corps_commander = {
 	name = "Tomoyuki Yamashita"
