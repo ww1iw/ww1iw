@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Russian Revolution Events
 ###########################
 
@@ -39,7 +39,7 @@ country_event = { #Bolshevik Deputies resist the war effort!
 	
 	option = { #Leave them be
 		name = russian_revolution.2.a
-		add_national_unity = -1
+		add_national_unity = -0.01
 	}
 	
 	option = { #Expel Them!
@@ -167,17 +167,17 @@ country_event = { # Assasination of Rasputin?
 	
 	option = { #May he rest in peace.
 		name = russian_revolution.7.a
-		country_event = russian_revolution.13
+		country_event = russian_revolution.9
 	}
 	
 	option = { #Get a Doctor!
 		name = russian_revolution.7.b
 		random_list = {
 			50 = {	# Rasputin Dies
-				country_event = russian_revolution.13
+				country_event = russian_revolution.9
 			}
 			50 = {	# Rasputin Survives
-				country_event = russian_revolution.14
+				country_event = russian_revolution.10
 			}
 		}
 	}
@@ -411,6 +411,7 @@ country_event = { # The Tsar's succesor.		#WORK FROM HERE
 	option = { # All Power to the Provisional Government.
 		name = russian_revolution.17.b
 		set_country_flag = provisional_power
+		country_event = russian_revolution.19
 	}
 	option = { # Tsesarevich Alexei, the Tsar's Son.
 		name = russian_revolution.17.b
@@ -427,5 +428,79 @@ country_event = { # The Tsar's succesor.		#WORK FROM HERE
 			ideology = Monarchist #???
 			traits = { } 
 		}
+	}
+}
+country_event = { # Regent for the Tsesarevich?
+	id = russian_revolution.18
+	title = russian_revolution.18.t
+	desc = russian_revolution.18.d
+	
+	option = { # The Former Tsar
+		name = russian_revolution.18.a
+		
+	}
+	option = { # Grand Duke Micheal Alexandrovich, the former Tsar's younger brother.
+		name = russian_revolution.18.b
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Micheal Romanov"
+			desc = "POLITICS_MICHEAL_ROMANOV_DESC"
+			picture = "Portrait_Russia_Micheal_Romanov"
+			expire = "1955.1.1"
+			ideology = Monarchist #???
+			traits = { } 
+		}
+	}
+	option = { # Georgy Lvov, Noble and head of the Kadets
+		name = russian_revolution.18.c
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Georgy Lvov"
+			desc = "POLITICS_MICHEAL_ROMANOV_DESC"
+			picture = "Portrait_Russia_Micheal_Romanov"
+			expire = "1955.1.1"
+			ideology = Monarchist #???
+			traits = { } 
+		}
+	}
+	option = { # Pyotr Wrangel, Noble, Conservative, and General.
+		name = russian_revolution.18.e
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Georgy Lvov"
+			desc = "POLITICS_MICHEAL_ROMANOV_DESC"
+			picture = "Portrait_Russia_Micheal_Romanov"
+			expire = "1955.1.1"
+			ideology = Monarchist #???
+			traits = { } 
+		}
+	}
+	option = { # Some other Military figure ???
+		name = russian_revolution.18.f
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Georgy Lvov"
+			desc = "POLITICS_MICHEAL_ROMANOV_DESC"
+			picture = "Portrait_Russia_Micheal_Romanov"
+			expire = "1955.1.1"
+			ideology = Monarchist #???
+			traits = { } 
+		}
+	}
+	option = { # The Tsesarevich is 13, he needs no Regent.
+		name = russian_revolution.18.g
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Alexei Romanov"
+			desc = "POLITICS_YOUNG_ALEXEI_ROMANOV_DESC"
+			picture = "Portrait_Russia_Young_Alexei_Romanov"
+			expire = "1955.1.1"
+			ideology = Monarchist #???
+			traits = { } # Young? Hemophilic?
+		}
+	}
+	option = { # The Prime Minister shall serve as Regent.
+		name = russian_revolution.h
+		set_country_flag = minister_regent
 	}
 }
