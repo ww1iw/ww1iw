@@ -19,8 +19,10 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			news_event = { hours = 6 id = news_balkans.2 }
-			limit = {
-				NOT = { TAG = TUR }
+			AND = {
+				limit = {
+					NOT = { TAG = TUR }
+				}
 			}
 		}
 	}
@@ -174,8 +176,10 @@ country_event = {
 	trigger = {
 		date > 1912.6.9
 		tag = TUR
-		limit = {
-			country_exists = ALB
+		AND = {
+			limit = {
+				country_exists = ALB
+			}
 		}
 	}
 	
@@ -316,8 +320,12 @@ country_event = {
 		ai_chance = { factor = 95 }
 		SER = {
 			create_faction = "balkan_league"
-			add_to_faction = BUL
-			add_to_faction = GRE
+			BUL = {
+				country_event = balkan_wars.21
+			}
+			GRE = {
+				country_event = balkan_wars.22
+			}
 			add_to_faction = MTN
 		}
 		BUL = {
@@ -332,12 +340,14 @@ country_event = {
 		immediate = {
 			hidden_effect = {
 				news_event = { hours = 6 id = news_balkans.5 }
-				limit = {
-					NOT = {
-						country = SER
-						country = BUL
-						country = GRE
-						country = MTN
+				AND = {
+					limit = {
+						NOT = {
+							country = SER
+							country = BUL
+							country = GRE
+							country = MTN
+						}
 					}
 				}
 			}
@@ -399,10 +409,18 @@ country_event = {
 		SER = {
 			is_faction_leader = yes
 		}
+		BUL = {
+			is_in_faction_with = SER
+		}
+		GRE = {
+			is_in_faction_with = SER
+			
+		}
 		OR = {
 			OR = {
 				tag = SER
 			}
+			OR = {
 			OR = {
 				tag = BUL
 			}
@@ -422,14 +440,15 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			news_event = { hours = 6 id = news_balkans.6 }
-			limit = {
-					NOT = {
-						country = SER
-						country = BUL
-						country = GRE
-						country = MTN
-					}
-				}
+			AND = {
+				limit = {
+						NOT = {
+							country = SER
+							country = BUL
+							country = GRE
+							country = MTN
+				}		}
+			}	
 		}
 	}
 	
@@ -689,9 +708,11 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			news_event = { hours = 6 id = news_balkans.9 }
-			limit = {
-				NOT = {
-					tag = BUL
+			AND = {
+				limit = {
+					NOT = {
+						tag = BUL
+					}
 				}
 			}
 		}
@@ -756,9 +777,11 @@ country_event = {
 		immediate = {
 			hidden_effect = {
 				news_event = { hours = 6 id = news_balkans.10 }
-				limit = {
-					NOT = {
-						tag = ROM
+				AND = {
+					limit = {
+						NOT = {
+							tag = ROM
+						}
 					}
 				}
 			}
@@ -768,7 +791,6 @@ country_event = {
 	option = {
 		name = balkan_wars.17.b # We will keep out of petty wars
 		ai_chance = { factor = 5 }
-		add_political_power = -500
 		add_national_unity = -0.05
 	}
 }
@@ -806,9 +828,11 @@ country_event = {
 		immediate = {
 			hidden_effect = {
 				news_event = { hours = 6 id = news_balkans.11 }
-				limit = {
-					NOT = {
-						tag = TUR
+				AND = {
+					limit = {
+						NOT = {
+							tag = TUR
+						}
 					}
 				}
 			}
@@ -818,7 +842,6 @@ country_event = {
 	option = {
 		name = balkan_wars.17.b # We should not risk another defeat
 		ai_chance = { factor = 5 }
-		add_political_power = -500
 		add_national_unity = -0.05
 	}
 }
@@ -866,9 +889,11 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			news_event = { hours = 6 id = news_balkans.12 }
-			limit = {
-				NOT = {
-					tag = BUL
+			AND = {
+				limit = {
+					NOT = {
+						tag = BUL
+					}
 				}
 			}
 		}
@@ -923,9 +948,11 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			news_event = { hours = 6 id = news_balkans.13 }
-			limit = {
-				NOT = {
-					tag = BUL
+			AND = {
+				limit = {
+					NOT = {
+						tag = BUL
+					}
 				}
 			}
 		}
@@ -943,6 +970,70 @@ country_event = {
 			transfer_state = 731
 			transfer_state = 758
 			add_state_claim = 758
+		}
+	}
+}
+
+# Bulgaria joining Balkan League
+country_event = {
+	id = balkan_wars.21
+	title = balkan_wars.21.t
+	desc = balkan_wars.21.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = balkan_wars.21.a # We will liberate the Balkans
+		ai_chance = { factor = 95 }
+		SER = {
+			add_to_faction = BUL
+		}
+	}
+	
+	option = {
+		name = balkan_wars.21.b # We will not make deals with Serbia
+		ai_chance = { factor = 5 }
+		SER = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = BUL
+					value < -40
+				}
+			}
+		}
+	}
+}
+
+# Greece joining Balkan League
+country_event = {
+	id = balkan_wars.22
+	title = balkan_wars.22.t
+	desc = balkan_wars.22.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = balkan_wars.22.a # We will liberate the Balkans
+		ai_chance = { factor = 95 }
+		SER = {
+			add_to_faction = GRE
+		}
+	}
+	
+	option = {
+		name = balkan_wars.21.b # We cannot risk war with the Turks
+		ai_chance = { factor = 5 }
+		SER = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = GRE
+					value < -40
+				}
+			}
 		}
 	}
 }

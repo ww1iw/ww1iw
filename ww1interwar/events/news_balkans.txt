@@ -11,6 +11,7 @@ news_event = {
 	
 	trigger = {
 		date > 1911.4.1
+		fire_only_once = yes
 	}
 	
 	option = { # More trouble in the Balkans?
