@@ -36,18 +36,198 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = liberal
+	ruling_party = democratic
 	last_election = "1913.8.29"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+add_ideas = {
+	HOL_pillarized_society
+}
+
+create_country_leader = {
+	name = "Gerben Wagenaar"
+	desc = "GERBEN_WAGENAAR_DESC"
+	picture = "Portrait_HOL_Gerben_Wagenaar.dds"
+	expire = "1950.1.1"
+	ideology = stalinism
+}
+create_country_leader = {
+	name = "Louis de Visser"
+	desc = "LOU_DE_VISSER_DESC"
+	picture = "Portrait_HOL_Louis_de_Visser.dds"
+	expire = "1941.1.1"
+	ideology = marxism
+}
+
+create_country_leader = {
+	name = "David Wijnkoop"
+	desc = "DAVID_WIJNKOOP_DESC"
+	picture = "Portrait_HOL_David_Wijnkoop.dds"
+	expire = "1925.1.1"
+	ideology = marxism
+}
+
+create_country_leader = {
+	name = "Willem Drees"
+	desc = "WILLEM_DREES_DESC"
+	picture = "Portrait_HOL_Willem_Drees.dds"
+	expire = "1971.1.1"
+	ideology = social_democracy
+}
+
+create_country_leader = {
+	name = "Willem Albarda"
+	desc = "WILLEM_ALBARDA_DESC"
+	picture = "Portrait_HOL_Pieter_Troelstra.dds"
+	expire = "1937.1.1"
+	ideology = social_democracy
+}
+
+create_country_leader = {
+	name = "Pieter J. Troelstra"
+	desc = "PIETER_TROELSTRA_DESC"
+	picture = "Portrait_HOL_Pieter_Troelstra.dds"
+	expire = "1925.1.1"
+	ideology = left_revolutionary
+}
+
+create_country_leader = {
+	name = "Pieter Oud"
+	desc = "PIETER_OUD_DESC"
+	picture = "Portrait_HOL_Pieter_Oud.dds"
+	expire = "1967.1.1"
+	ideology = economic_liberal
+}
+
+create_country_leader = {
+	name = "Henri Marchant"
+	desc = "HENRI_MARCHANT_DESC"
+	picture = "Portrait_HOL_HP_Marchant.dds"
+	expire = "1933.1.1"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Dirk Bos"
+	desc = "DIRK_BOS_DESC"
+	picture = "Portrait_HOL_Dirk_Bos.dds"
+	expire = "1919.1.1"
+	ideology = social_liberal
+}
+
+
+create_country_leader = {
+	name = "Ben Telders"
+	desc = "BEN_TELDERS_DESC"
+	picture = "Portrait_HOL_Ben_Telders.dds"
+	expire = "1955.1.1"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Hendrik Knottenbelt"
+	desc = "HENDRIK_KNOTTENBELT_DESC"
+	picture = "Portrait_HOL_Hendrik_Knottenbelt.dds"
+	expire = "1937.1.1"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Hendrik Dresselhuys"
+	desc = "HENDRIK_DRESSELHUYS_DESC"
+	picture = "Portrait_HOL_Hendrik_Dresselhuys.dds"
+	expire = "1926.1.1"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Pieter Rink"
+	desc = "PIETER_RINK_DESC"
+	picture = "Portrait_HOL_Pieter_Rink.dds"
+	expire = "1920.1.1"
+	ideology = centrism
 }
 
 create_country_leader = {
 	name = "Pieter Cort-van der Linden"
 	desc = "PIETER_LINDEN_DESC"
 	picture = "Portrait_HOL_Pieter_Linden.dds"
+	expire = "1917.1.1"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Laurentius Deckers"
+	desc = "LN_DECKERS_DESC"
+	picture = "Portrait_HOL_LN_Deckers.dds"
 	expire = "1950.1.1"
-	ideology = liberalism
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "Josef van Schaik"
+	desc = "JOSEF_VAN_SCHAIK_DESC"
+	picture = "Portrait_HOL_Josef_van_Schaik.dds"
+	expire = "1938.1.1"
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "Charles Ruijs de Beerenbrouck"
+	desc = "CHARLES_RUIJS_DE_BEERENBROUCK_DESC"
+	picture = "Portrait_HOL_Charles_Beerenbrouck.dds"
+	expire = "1933.1.1"
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "Willem H. Nolens"
+	desc = "WILLEM_NOLENS_DESC"
+	picture = "Portrait_HOL_Willem_Nolens.dds"
+	expire = "1950.1.1"
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "Pieter Gerbrandy"
+	desc = "PIETER_GERBRANDY_DESC"
+	picture = "Portrait_HOL_Pieter_Gerbrandy.dds"
+	expire = "1959.1.1"
+	ideology = monarchism
+}
+
+create_country_leader = {
+	name = "Hendrikus Colijn"
+	desc = "HENDRIKUS_COLIJN_DESC"
+	picture = "Portrait_HOL_Hendrikus_Colijn.dds"
+	expire = "1939.9.2"
+	ideology = militarism
+}
+
+create_country_leader = {
+	name = "Abraham Kuyper"
+	desc = "ABRAHAM_KUYPER_DESC"
+	picture = "Portrait_HOL_Abraham_Kuyper.dds"
+	expire = "1920.10.8"
+	ideology = monarchism
+}
+
+create_country_leader = {
+	name = "Jan Baars"
+	desc = "JAN_BAARS_DESC"
+	picture = "Portrait_HOL_Jan_Baars.dds"
+	expire = "1959.1.1"
+	ideology = fascism_ideology
+}
+
+create_country_leader = {
+	name = "Anton Mussert"
+	desc = "ANTON_MUSSERT_DESC"
+	picture = "Portrait_HOL_Anton_Mussert.dds"
+	expire = "1959.1.1"
+	ideology = nazism
 }
 
 1939.1.1 = {
