@@ -14,28 +14,37 @@ set_national_unity = 0.45
 set_politics = {
 
 	parties = {
-		socialist = { 
-			popularity = 8
+			liberal = {
+				popularity = 5.9
+			}
+			democratic = {
+				popularity = 4.8
+			}
+			conservative = {
+				popularity = 33.1
+			}
+			natsoc = {
+				popularity = 6.5
+			}
+			fascism = {
+				popularity = 4.7
+			}
+			socialist = { 
+				popularity = 22.8
+			}
+			communism = {
+				popularity = 0
+			}
+			autocratic = {
+				popularity = 4
+			}
+			neutrality = {
+				popularity = 18.2
+			}
 		}
-		conservative = {
-			popularity = 29
-		}
-		democratic = {
-			popularity = 10
-		}
-		autocratic = {
-			popularity = 34
-		}
-		liberal = {
-			popularity = 15
-		}
-		neutrality = {
-			popularity = 4
-		}
-	}
 	
 	ruling_party = autocratic
-	last_election = "1912.1.1"
+	last_election = "1910.12.30"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -68,28 +77,37 @@ set_national_unity = 0.45
 set_politics = {
 
 	parties = {
-		socialist = { 
-			popularity = 8
+			liberal = {
+				popularity = 5.9
+			}
+			democratic = {
+				popularity = 4.8
+			}
+			conservative = {
+				popularity = 33.1
+			}
+			natsoc = {
+				popularity = 6.5
+			}
+			fascism = {
+				popularity = 4.7
+			}
+			socialist = { 
+				popularity = 22.8
+			}
+			communism = {
+				popularity = 0
+			}
+			autocratic = {
+				popularity = 4
+			}
+			neutrality = {
+				popularity = 18.2
+			}
 		}
-		conservative = {
-			popularity = 29
-		}
-		democratic = {
-			popularity = 10
-		}
-		autocratic = {
-			popularity = 34
-		}
-		liberal = {
-			popularity = 15
-		}
-		neutrality = {
-			popularity = 4
-		}
-	}
 	
 	ruling_party = autocratic
-	last_election = "1912.1.1"
+	last_election = "1911.6.1"
 	election_frequency = 48
 	elections_allowed = no
 }
