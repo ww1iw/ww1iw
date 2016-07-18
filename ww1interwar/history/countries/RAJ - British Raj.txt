@@ -1,4 +1,4 @@
-﻿oob = "basic_test"
+﻿oob = "RAJ_1911"
 capital = 439
 set_research_slots = 2
 set_convoys = 50

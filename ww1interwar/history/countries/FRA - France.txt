@@ -1,4 +1,4 @@
-﻿oob = "FRA_1914"
+﻿oob = "FRA_1911"
 capital = 16
 
 add_ideas = {
@@ -63,6 +63,75 @@ create_country_leader = {
 	traits = {
 		
 	}
+}
+
+1914.6.1 = {
+oob = "FRA_1914"
+capital = 16
+
+add_ideas = {
+liberty_ideal
+}
+
+create_faction = Entente
+add_to_faction = FRA
+add_to_faction = SOV
+#add_to_faction = SER
+# Don't add Serbia to the Entente as it would mean Russia could aid Serbia in the Balkan Wars against the Ottomans, Russia did threaten to intervene during the 
+# Second Balkan War but only because the Ottomans were ethnically cleansing Thrace of Bulgarians --The gaurantee is enough
+
+set_convoys = 150
+set_research_slots = 2
+set_national_unity = 0.55
+
+set_politics = {
+
+	parties = {
+		liberal = {
+			popularity = 37
+		}
+		democratic = {
+			popularity = 60.38
+		}
+		conservative = {
+			popularity = 0
+		}
+		socialist = { 
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 2.62
+		}
+		communism = {
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1913.2.18"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Raymond Poincaré"
+	desc = "POLITICS_RAYMOND_POINCARE_DESC"
+	picture = "Portrait_France_Raymond_Poincare.dds"
+	expire = "1934.10.15"
+	ideology = centrism
+	traits = {
+		
+	}
+}
 }
 
 1923.1.1 = {

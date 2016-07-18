@@ -1,4 +1,4 @@
-﻿oob = "TUR_1914"
+﻿oob = "TUR_1911"
 capital = 341
 
 set_research_slots = 2
@@ -57,6 +57,69 @@ set_politics = {
 	traits = {
 	
 	}
+}
+
+1914.6.1 = {
+oob = "TUR_1914"
+capital = 341
+
+set_research_slots = 2
+set_convoys = 40
+set_national_unity = 0.6
+
+add_ideas ={
+imperial_ideal
+}
+
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+		liberal = {
+			popularity = 3
+		}
+		conservative = {
+			popularity = 5
+		}
+		autocratic = {
+			popularity = 90
+		}
+		socialist = {
+			popularity = 2
+		}
+		communism = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = autocratic
+	last_election = "1912.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+	create_country_leader = {
+	name = "Mehmed V"
+	desc = "MEHMED_V_DESC"
+	picture = "Portrait_Turkey_Mehmed_V.dds"
+	expire = "1918.7.3"
+	ideology = monarchism
+	traits = {
+	
+	}
+}
 }
 
 1923.1.1 = {

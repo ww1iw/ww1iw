@@ -1,0 +1,188 @@
+division_template = {
+	name = "Gurkha Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Infantry Division"		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+        cavalry = { x = 1 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1st Gurkha Division"
+		location = 2086
+		division_template = "Gurkha Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3rd Gurkha Division"
+		location = 2086
+		division_template = "Gurkha Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1st Gurkha Division"
+		location = 2086
+		division_template = "Gurkha Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1st Sikh Division"
+		location = 2086
+		division_template = "Gurkha Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1st Gurkha Division"
+		location = 2086
+		division_template = "Gurkha Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1st Indian Division"
+		location = 9084
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2nd Indian Division"
+		location = 9084
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3rd Indian Division"
+		location = 9084
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1st Indian Cavalry Division"
+		location = 9084
+		division_template = "Cavalry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "4th Indian Division"
+		location = 1349
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "5th Indian Division"
+		location = 1349
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "6th Indian Division"
+		location = 1349
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2nd Indian Cavalry Division"
+		location = 1349
+		division_template = "Cavalry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "7th Indian Division"
+		location = 4245
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "8th Indian Division"
+		location = 4245
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "9th Indian Division"
+		location = 4245
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3rd Indian Cavalry Division"
+		location = 4245
+		division_template = "Cavalry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "10th Indian Division"
+		location = 10278
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "11th Indian Division"
+		location = 10278
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "12th Indian Division"
+		location = 10278
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "4th Indian Cavalry Division"
+		location = 10278
+		division_template = "Cavalry Division" 	
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+}

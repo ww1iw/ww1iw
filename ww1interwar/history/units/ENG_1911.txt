@@ -1,0 +1,439 @@
+division_template = {
+	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Indian Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division= {	
+		name = "Guards Division"
+		location = 6103
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.4
+	}
+	division= {	
+		name = "Scottish Division"
+		location = 6103
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "16th Infantry Division"
+		location = 6103
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1st Infantry Division"
+		location = 507
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2nd Infantry Division"
+		location = 507
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "15th Infantry Division"
+		location = 507
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1st Cavalry Division"
+		location = 11253
+		division_template = "Cavalry Brigade" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "2nd Cavalry Division"
+		location = 11333
+		division_template = "Cavalry Brigade" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3rd Infantry Division"
+		location = 11374
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "4th Infantry Division"
+		location = 11374
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "14th Infantry Division"
+		location = 11374
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "7th Infantry Division"
+		location = 11382
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "8th Infantry Division"
+		location = 11382
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "13th Infantry Division"
+		location = 11382
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "3rd Cavalry Division"
+		location = 6318
+		division_template = "Cavalry Brigade" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "4th Cavalry Division"
+		location = 9297
+		division_template = "Cavalry Brigade" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "11th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "12th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "20th Infantry Division"
+		location = 3273
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "9th Infantry Division"
+		location = 3501
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "10th Infantry Division"
+		location = 3501
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "17th Infantry Division"
+		location = 3501
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "5th Infantry Division"
+		location = 9458
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "6th Infantry Division"
+		location = 9458
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "18th Infantry Division"
+		location = 9458
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Irish Division"
+		location = 11382
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "Light Division"
+		location = 3342
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "19th Infantry Division"
+		location = 7394
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1st King's African Brigade"
+		location = 1939
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2nd King's African Brigade"
+		location = 1939
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "1st Zulu Brigade"
+		location = 10976
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "1st Royal Africa Brigade"
+		location = 10930
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2nd Royal Africa Brigade"
+		location = 10929
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2nd Zulu Brigade"
+		location = 10929
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Egypt Cavalry Brigade"
+		location = 4145
+		division_template = "Cavalry Brigade" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Egypt Brigade"
+		location = 7011
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2nd Sikh Division"
+		location = 4145
+		division_template = "Indian Division" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "4th Gurkha Division"
+		location = 4076
+		division_template = "Indian Division" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Chinese Division"
+		location = 10062
+		division_template = "Indian Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2nd Gurkha Division"
+		location = 10062
+		division_template = "Indian Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "China Cavalry Brigade"
+		location = 12299
+		division_template = "Cavalry Brigade" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "China Brigade"
+		location = 4205
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "British Guyana Headquarters"
+		location = 4982
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Aden Brigade"
+		location = 5074
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Singapore Brigade"
+		location = 12299
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Malaya Brigade"
+		location = 10297
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Persian Brigade"
+		location = 8086
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "1st Royal West Africa Brigade"
+		location = 10862
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2nd Royal West Africa Brigade"
+		location = 2050
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "3rd Royal West Africa Brigade"
+		location = 10831
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Suez Brigade"
+		location = 10249
+		division_template = "Colonial Garrison" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Burma Division"
+		location = 1330
+		division_template = "Infantry Division" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+}
+
+air_wings = {
+
+}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}

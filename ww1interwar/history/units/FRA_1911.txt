@@ -1,0 +1,555 @@
+##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
+	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	# Regular mountain infantry (Infanterie Alpine)
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Division de Cavalerie" 	# Division de Cavalerie
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Division Coloniale"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division= {	
+		name = "1re Division de Cavalerie"
+		location = 11506
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "7e Division de Cavalerie"
+		location = 9725
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "1re Division d'Infanterie Coloniale"
+		location = 11506
+		division_template = "Division Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "1er Division d'Infanterie"
+		location = 11483
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2e Division d'Infanterie"
+		location = 3536
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "3e Division d'Infanterie"
+		location = 11420
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "4e Division d'Infanterie"
+		location = 9472
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "4e Division de Cavalerie"
+		location = 3546
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "5e Division d'Infanterie"
+		location = 11563
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "6e Division d'Infanterie"
+		location = 11506
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "7e Division d'Infanterie"
+		location = 11506
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "8e Division d'Infanterie"
+		location = 9478
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "9e Division d'Infanterie"
+		location = 512
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "10e Division d'Infanterie"
+		location = 11506
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "12e Division d'Infanterie"
+		location = 13011
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "40e Division d'Infanterie"
+		location = 5291
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "42e Division d'Infanterie"
+		location = 6545
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "4e Division d'Infanterie"
+		location = 9472
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "3e Division de Cavalerie"
+		location = 9472
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "5e Division de Cavalerie"
+		location = 13011
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "14e Division d'Infanterie"
+		location = 698
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "41e Division d'Infanterie"
+		location = 6698
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "8e Division de Cavalerie"
+		location = 9561
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "15e Division d'Infanterie"
+		location = 3652
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "16e Division d'Infanterie"
+		location = 6651
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "17e Division d'Infanterie"
+		location = 651
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "18e Division d'Infanterie"
+		location = 3659
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "9e Division de Cavalerie"
+		location = 3671
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "19e Division d'Infanterie"
+		location = 9495
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "20e Division d'Infanterie"
+		location = 11508
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "21e Division d'Infanterie"
+		location = 11465
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "22e Division d'Infanterie"
+		location = 9510
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "3e Division d'Infanterie Coloniale"
+		location = 3552
+		division_template = "Division Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "23e Division d'Infanterie"
+		location = 6792
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "24e Division d'Infanterie"
+		location = 9734
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "25e Division d'Infanterie"
+		location = 3770
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "26e Division d'Infanterie"
+		location = 6789
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "27e Division d'Infanterie"
+		location = 3768
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "28e Division d'Infanterie"
+		location = 6609
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "6e Division de Cavalerie"
+		location = 6613
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "29e Division d'Infanterie"
+		location = 9909
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "30e Division d'Infanterie"
+		location = 958
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2e Division d'Infanterie Coloniale"
+		location = 911
+		division_template = "Division Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "31e Division d'Infanterie"
+		location = 9898
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "32e Division d'Infanterie"
+		location = 9853
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "33e Division d'Infanterie"
+		location = 3948
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "34e Division d'Infanterie"
+		location = 6766
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "10e Division de Cavalerie"
+		location = 3948
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "35e Division d'Infanterie"
+		location = 9737
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "36e Division d'Infanterie"
+		location = 743
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "38e Division d'Infanterie"
+		location = 1145
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "46e Division d'Infanterie"
+		location = 7132
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "37e Division d'Infanterie"
+		location = 11953
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "11e Division d'Infanterie"
+		location = 11516
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "39e Division d'Infanterie"
+		location = 521
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2e Division de Cavalerie"
+		location = 11488
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "13e Division d'Infanterie"
+		location = 9658
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "43e Division d'Infanterie"
+		location = 11642
+		division_template = "Division d'Infanterie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Quartier Général du Maroc"
+		location = 7069
+		division_template = "Brigade Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Quartier Général de la Tunisie"
+		location = 11969
+		division_template = "Brigade Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Quartier Général de la Côte d'Ivoir"
+		location = 10803
+		division_template = "Brigade Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		name = "Quartier Général du Gabon"
+		location = 5139
+		division_template = "Brigade Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+		division= {	
+		name = "Quartier Général d'Afrique Equatoriale"
+		location = 3165
+		division_template = "Brigade Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}	
+	division= {	
+		name = "1er Division Coloniale d'Indochine"
+		location = 12075
+		division_template = "Brigade Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "2eme Division Coloniale d'Indochine"
+		location = 4401
+		division_template = "Brigade Coloniale" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+}
+
+### Air Wings
+air_wings = {
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}

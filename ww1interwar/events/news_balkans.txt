@@ -1,0 +1,382 @@
+add_namespace = news_balkans
+
+# Albanian Revolt of 1911
+news_event = {
+	id = news_balkans.1
+	title = news_balkans.1.t
+	desc = news_balkans.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	trigger = {
+		date > 1911.4.1
+	}
+	
+	option = { # More trouble in the Balkans?
+		name = news_balkans.1.a
+		trigger = {
+			NOT = {
+				TAG = TUR
+			}
+		}
+	}
+	
+	option = { # We cannot afford another revolt...
+		name = news_balkans.1.b
+		trigger = { TAG = TUR }
+	}
+}
+
+# Albanian Revolt of 1912
+news_event = {
+	id = news_balkans.2
+	title = news_balkans.2.t
+	desc = news_balkans.2.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_balkans.2.a # Another one?
+		trigger = {
+			NOT = {
+				TAG = TUR
+			}
+		}
+	}
+} 	
+
+# Albanian Independence
+news_event = {
+	id = news_balkans.3
+	title = news_balkans.3.t
+	desc = news_balkans.3.d
+	picture = GFX_news_event_001	
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_balkans.3.a # The Balkans grow more unstable...
+		trigger = {
+			NOT = {
+				TAG = TUR
+			}
+		}
+	}
+	
+	option = {
+		name = news_balkans.3.b # We must prepare for the worst
+		trigger = { TAG = TUR }
+	}
+}
+
+# Albanian Revolt ended
+news_event = {
+	id = news_balkans.4
+	title = news_balkans.4.t
+	desc = news_balkans.4.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_balkans.4.a # How long before the next revolt?
+		trigger = {
+			NOT = {
+				TAG = TUR
+			}
+		}
+	}
+	
+	option = {
+		name = news_balkans.4.b # They better not try this again
+		trigger = { TAG = TUR }
+	}
+}
+
+# Balkan League
+news_event = {
+	id = news_balkans.5
+	title = news_balkans.5.t
+	desc = news_balkans.5.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_balkans.5.a # Interesting...
+	}
+}
+
+# First Balkan War
+news_event = {
+	id = news_balkans.6
+	title = news_balkans.6.t
+	desc = news_balkans.6.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_balkans.6.a # Is the Powderkeg of Europe lit?
+	}
+}
+
+# First Balkan War ends (B.L. Victory)
+news_event = {
+	id = news_balkans.7
+	title = news_balkans.7.t
+	desc = news_balkans.7.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option  = {
+		name = news_balkans.7.a # A great victory!
+		trigger = {
+			OR = {
+				OR = {
+					TAG = SER
+				}
+				OR = {
+					TAG = BUL
+				}
+				OR = {
+					TAG = GRE
+				}
+				OR = {
+					TAG = MTN
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = news_balkans.7.b # Damn!
+		trigger = {
+			tag	= TUR
+		}
+	}
+	
+	option = {
+		name = news_balkans.7.c # Divide and conquer...
+		trigger = {
+			NOT = {
+				TAG = TUR
+				TAG = SER
+				TAG = BUL
+				TAG = GRE
+				TAG = MTN
+			}
+		}
+	}
+}
+
+# First Balkan War ends (TUR Victory)
+news_event = {
+	id = news_balkans.8
+	title = news_balkans.8.t
+	desc = news_balkans.8.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option  = {
+		name = news_balkans.8.a # This is not the end!
+		trigger = {
+			OR = {
+				OR = {
+					TAG = SER
+				}
+				OR = {
+					TAG = BUL
+				}
+				OR = {
+					TAG = GRE
+				}
+				OR = {
+					TAG = MTN
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = news_balkans.8.b # The Empire remains strong!
+		trigger = {
+			tag	= TUR
+		}
+	}
+	
+	option = {
+		name = news_balkans.8.c # Not such a sick man after all?
+		trigger = {
+			NOT = {
+				TAG = TUR
+				TAG = SER
+				TAG = BUL
+				TAG = GRE
+				TAG = MTN
+			}
+		}
+	}
+}
+
+# Second Balkan War begins
+news_event = {
+	id = news_balkans.9
+	title = news_balkans.9.t
+	desc = news_balkans.9.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_balkans.9.a # Traitors...
+		trigger = {
+			OR = {
+				OR = {
+					TAG = SER
+				}
+				OR = {
+					TAG = GRE
+				}
+				OR = {
+					TAG = MTN
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = news_balkans.9.b # Will the Balkan Wars ever end?
+		trigger = {
+			NOT = {
+				TAG = SER
+				TAG = GRE
+				TAG = MTN
+			}
+		}
+	}
+}
+
+# Romanian intervention
+news_event = {
+	id = news_balkans.10
+	title = news_balkans.10.t
+	desc = news_balkans.10.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_balkans.10.a # Another front?
+		trigger = {
+			tag = BUL
+		}
+	}
+	
+	option = {
+		name = news_balkans.10.b # Interesting...
+		trigger = {
+			NOT = {
+				tag = BUL
+			}
+		}
+	}
+}
+
+# Ottoman intervention
+news_event = {
+	id = news_balkans.11
+	title = news_balkans.11.t
+	desc = news_balkans.11.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_balkans.11.a # This might be getting out of hand...
+		trigger = {
+			tag = BUL
+		}
+	}
+	
+	option = {
+		name = news_balkans.11.b # Interesting...
+		trigger = {
+			NOT = {
+				tag = BUL
+			}
+		}
+	}
+}
+
+# Second Balkan War ended (BUL loss)
+news_event = {
+	id = news_balkans.12
+	title = news_balkans.12.t
+	desc = news_balkans.12.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_balkans.12.a # We are victorious!
+		trigger = {
+			OR = {
+				OR = {
+					TAG = SER
+				}
+				OR = {
+					TAG = GRE
+				}
+				OR = {
+					TAG = MTN
+				}
+				OR = {
+					TAG = ROM
+				}
+				OR = {
+					TAG = TUR
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = news_balkans.12.b # Maybe there will be peace in the Balkans
+		trigger = {
+			NOT = {
+				TAG = SER
+				TAG = GRE
+				TAG = MTN
+				TAG = ROM
+				TAG = TUR
+			}
+		}
+	}
+}

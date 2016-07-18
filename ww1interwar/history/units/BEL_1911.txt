@@ -1,0 +1,122 @@
+division_template = {
+	name = "Division d'Armee"		# Same for "Active" and "Reserve" Infantry Divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+	}
+}
+division_template = {
+	name = "Division de Cavalerie"  	# Cavalry Division
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      	# Actually, 2x bicycle cav bns
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Division Coloniale"			# Colonial militia, lower experience, equipment
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1re Division d'Armee"
+		location = 6560
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "2e Division d'Armee"
+		location = 6598
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "3e Division d'Armee"
+		location = 11519
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "4e Division d'Armee"
+		location = 3516
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "5e Division d'Armee"
+		location = 9536
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "6e Division d'Armee"
+		location = 516
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Quartier Général de Congo"
+		location = 10968
+		division_template = "Division Coloniale"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+}
+
+air_wings = {
+
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 2
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+}

@@ -1,0 +1,948 @@
+add_namespace = balkan_wars
+
+# Albanian Revolt of 1912 begins
+country_event = {
+	id = balkan_wars.1
+	title = balkan_wars.1.t
+	desc = balkan_wars.1.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.1.29
+		tag = TUR
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.2 }
+			limit = {
+				NOT = { TAG = TUR }
+			}
+		}
+	}
+	
+	option = {
+		name = balkan_wars.1.a # This must be suppressed quickly
+		TUR = {
+			release = ALB
+			release_puppet = ALB
+			declare_war_on = {
+				target = ALB
+				type = annex everything
+			}
+		}
+		ALB = {
+			load_oob = ALB_1912.1
+		}
+	}
+}
+
+# Albanian revolt continues
+country_event = {
+	id = balkan_wars.2
+	title = balkan_wars.2.t
+	desc = balkan_wars.2.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.3.15
+		tag = TUR
+		NOT = {
+			country_exists = ALB
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = balkan_wars.2.a # We will crush this revolt!
+		ai_chance = { factor = 90 }
+		TUR = {
+			release = ALB
+			release_puppet = ALB
+			declare_war_on = {
+				target = ALB
+				type = annex everything
+			}
+		}
+		ALB = {
+			load_oob = ALB_1912.2
+		}
+	}
+	
+	option = {
+		name = balkan_wars.2.b # Give in to their demands before they want more
+		ai_chance = { factor = 10 }
+		TUR = {
+			release = ALB
+		}
+		ALB = {
+			load_oob = ALB_1914
+		}
+	}
+}
+
+# Albanian soldiers switch sides
+country_event = {
+	id = balkan_wars.3
+	title = balkan_wars.3.t
+	desc = balkan_wars.3.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.3.20
+		tag = TUR
+		country_exists = ALB
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = balkan_wars.3.a # This is not good...
+		TUR = {
+			add_manpower = -8000
+		}
+		ALB = {
+			add_manpower = 8000
+			load_oob = ALB_1912.3
+		}
+	}
+}
+
+# Albanian revolt continues
+country_event = {
+	id = balkan_wars.4
+	title = balkan_wars.4.t
+	desc = balkan_wars.4.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.6.4
+		tag = TUR
+		NOT = {
+			country_exists = ALB
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = balkan_wars.4.a # We will crush this revolt!
+		ai_chance = { factor = 82 }
+		TUR = {
+			release = ALB
+			release_puppet = ALB
+			declare_war_on = {
+				target = ALB
+				type = annex everything
+			}
+		}
+		ALB = {
+			load_oob = ALB_1912.2
+		}
+	}
+	
+	option = {
+		name = balkan_wars.4.b # Maybe this has gone on long enough...
+		ai_chance = { factor = 18 }
+		TUR = {
+			release = ALB
+		}
+		ALB = {
+			load_oob = ALB_1914
+		}
+	}
+}
+
+# Albanian soldiers switch sides
+country_event = {
+	id = balkan_wars.5
+	title = balkan_wars.5.t
+	desc = balkan_wars.5.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.6.9
+		tag = TUR
+		limit = {
+			country_exists = ALB
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = balkan_wars.5.a # This revolt needs to end soon...
+		TUR = {
+			add_manpower = -8000
+		}
+		ALB = {
+			add_manpower = 8000
+			load_oob = ALB_1912.3
+		}
+	}
+}
+
+# Albanian revolt continues
+country_event = {
+	id = balkan_wars.6
+	title = balkan_wars.6.t
+	desc = balkan_wars.6.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.8.9
+		tag = TUR
+		NOT = {
+			country_exists = ALB
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = balkan_wars.6.a # It's now or never
+		TUR = {
+			release = ALB
+			release_puppet = ALB
+			declare_war_on = {
+				target = ALB
+				type = annex everything
+			}
+		}
+		ALB = {
+			load_oob = ALB_1912.2
+		}
+	}
+}
+
+# Albanian revolt successful
+country_event = {
+	id = balkan_wars.7
+	title = balkan_wars.7.t
+	desc = balkan_wars.7.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.8.13
+		tag = TUR
+		country_exists = ALB
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.3 }
+		}
+	}
+	
+	option = {
+		name = balkan_wars.7.a # There is nothing more we can do...
+		white_peace = ALB
+		ENG = {
+			give_guarantee = ALB
+		}
+	}
+}
+
+# Albanian revolt suppressed
+country_event = {
+	id = balkan_wars.8
+	title = balkan_wars.8.t
+	desc = balkan_wars.8.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.8.13
+		tag = TUR
+		NOT = {
+			country_exists = ALB
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.4 }
+		}
+	}
+	
+	option = {
+		name = balkan_wars.8.a # A great victory for the Empire!
+		SER = {
+			add_state_claim = 44
+		}
+	}
+}
+
+# Balkan League (SER)
+country_event = {
+	id = balkan_wars.9
+	title = balkan_wars.9.t
+	desc = balkan_wars.9.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.3.13
+		tag = SER
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = balkan_wars.9.a # We must liberate the Balkans
+		ai_chance = { factor = 95 }
+		SER = {
+			create_faction = "balkan_league"
+			add_to_faction = BUL
+			add_to_faction = GRE
+			add_to_faction = MTN
+		}
+		BUL = {
+			country_event = balkan_wars.10
+		}
+		GRE = {
+			country_event = balkan_wars.10
+		}
+		MTN = {
+			country_event = balkan_wars.10
+			}
+		immediate = {
+			hidden_effect = {
+				news_event = { hours = 6 id = news_balkans.5 }
+				limit = {
+					NOT = {
+						country = SER
+						country = BUL
+						country = GRE
+						country = MTN
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = balkan_wars.9.b # We will make no deals with our rivals
+		ai_factor = { factor = 5 }
+		SER = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = BUL
+					value < -40
+				}
+			}
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = GRE
+					value < -40
+				}
+			}
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = MTN
+					value < -40
+				}
+			}
+		}
+	}
+}
+
+# Balkan League (BUL, GRE, MTN)
+country_event = {
+	id = balkan_wars.10
+	title = balkan_wars.10.t
+	desc = balkan_wars.10.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+
+	option = {
+		name = balkan_wars.10.a # The Balkans shall be ours!
+	}
+}
+
+# First Balkan War begins
+country_event = {
+	id = balkan_wars.11
+	title = balkan_wars.11.t
+	desc = balkan_wars.11.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1912.8.10
+		SER = {
+			is_faction_leader = yes
+		}
+		OR = {
+			OR = {
+				tag = SER
+			}
+			OR = {
+				tag = BUL
+			}
+			OR = {
+				tag = GRE
+			}
+			OR = {
+				tag = MTN
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.6 }
+			limit = {
+					NOT = {
+						country = SER
+						country = BUL
+						country = GRE
+						country = MTN
+					}
+				}
+		}
+	}
+	
+	option = {
+		name = balkan_wars.11.a # It is time to liberate our people
+		SER = {
+			declare_war_on = {
+				target = TUR
+				type = take_state
+				generator = { 105 }
+				generator = { 106 }
+			}
+			add_to_war = {
+				targeted_alliance = BUL 
+				enemy = TUR
+				targeted_alliance = GRE
+				enemy = TUR
+				targeted_alliance = MTN
+				enemy = TUR
+			}
+		}
+		BUL = {
+			create_wargoal = {
+				target = TUR
+				type = take_state
+				generator = { 769 }
+				generator = { 184 }
+				generator = { 761 }
+				generator = { 771 }
+				generator = { 770 }
+			}
+		}
+		GRE = {
+			create_wargoal = {
+				target = TUR
+				type = take_state
+				generator = { 185 }
+				generator = { 731 }
+			}
+		}
+		MTN = {
+			create_wargoal = {
+				target = TUR
+				type = take_state
+				generator = { 760 }
+			}
+		}
+	}
+}
+
+# First Balkan War ends (B.L. victory 1)
+country_event = {
+	id = balkan_wars.12
+	title = balkan_wars.12.t
+	desc = balkan_wars.12.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1913.1.1
+		tag = SER
+		country_exists = ALB
+		any_country = {
+			is_in_faction_with = SER
+			controls_state = 769
+			controls_state = 731
+			controls_state = 106
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.7 }
+		}
+	}
+	
+	option = {
+		name = balkan_wars.12.a # The war is won
+		TUR = {
+			white_peace = SER
+			white_peace = BUL
+			white_peace = GRE
+			white_peace = MTN
+		}
+		SER = {
+			transfer_state = 105
+			transfer_state = 106
+		}
+		BUL = {
+			transfer_state = 769
+			transfer_state = 184
+			transfer_state = 761
+			transfer_state = 771
+			transfer_state = 770
+			country_event = balkan_wars.15
+		}
+		GRE = {
+			transfer_state = 185
+			transfer_state = 731
+		}
+		MTN = {
+			transfer_state = 760
+		}
+	}
+}
+
+# First Balkan War ends (B.L. victory 2)
+country_event = {
+	id = balkan_wars.13
+	title = balkan_wars.13.t
+	desc = balkan_wars.13.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1913.1.1
+		tag = SER
+		NOT = {
+			country_exists = ALB
+		}
+		any_country = {
+			is_in_faction_with = SER
+			controls_state = 769
+			controls_state = 731
+			controls_state = 106
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.7 }
+		}
+	}
+	
+	option = {
+		name = balkan_wars.13.a # The war is won
+		TUR = {
+			white_peace = SER
+			white_peace = BUL
+			white_peace = GRE
+			white_peace = MTN
+		}
+		SER = {
+			transfer_state = 105
+			transfer_state = 44
+		}
+		BUL = {
+			transfer_state = 769
+			transfer_state = 184
+			transfer_state = 761
+			transfer_state = 771
+			transfer_state = 770
+			transfer_state = 106
+		}
+		GRE = {
+			transfer_state = 185
+			transfer_state = 731
+		}
+		MTN = {
+			transfer_state = 760
+		}
+	}
+}
+
+# First Balkan War ends (TUR victory)
+country_event = {
+	id = balkan_wars.14
+	title = balkan_wars.14.t
+	desc = balkan_wars.14.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1913.3.1
+		tag = TUR
+		TUR = {
+			controls_state = 769
+			controls_state = 731
+			controls_state = 106
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.8 }
+		}
+	}
+	
+	option = {
+		name = balkan_wars.14.a # Victory, at last
+		TUR = {
+			white_peace = SER
+			white_peace = BUL
+			white_peace = GRE
+			white_peace = MTN
+		}
+	}
+}
+
+# Bulgarian claims
+country_event = {
+	id = balkan_wars.15
+	title = balkan_wars.15.t
+	desc = balkan_wars.15.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = balkan_wars.15.a # Greater Bulgaria will be a reality
+		ai_chance = { factor = 90 }
+		SER = {
+			remove_from_faction = BUL
+		}
+	}
+	
+	option = {
+		name = balkan_wars.15.b # We have enough land
+		ai_chance = { factor = 10 }
+		BUL = {
+			remove_state_claim = 106
+			add_political_power = -500
+			add_national_unity = -0.075
+		}
+	}
+}
+
+# Second Balkan War begins
+country_event = {
+	id = balkan_wars.16
+	title = balkan_wars.16.t
+	desc = balkan_wars.16.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1913.6.29
+		tag = BUL
+		SER = {
+			106 = { is_claimed_by = BUL }
+			owns_state = 106
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.9 }
+			limit = {
+				NOT = {
+					tag = BUL
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = balkan_wars.16.a # We will be victorious!
+		BUL = {
+			declare_war_on = SER
+			create_wargoal = {
+				target = SER
+				type = take_state
+				generator = { 106 }
+			}
+			create_wargoal = {
+				target = GRE
+				type = take_state
+				generator = { 731 }
+			}
+		}
+		SER = {
+			add_to_war = {
+				targeted_alliance = GRE
+				enemy = BUL
+				targeted_alliance = MTN
+				enemy = BUL
+			}
+		}
+	}
+}
+
+# Romanian intervention
+country_event = {
+	id = balkan_wars.17
+	title = balkan_wars.17.t
+	desc = balkan_wars.17.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1913.7.10
+		tag = ROM
+		BUL = {
+			has_war_with = SER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = balkan_wars.17.a # We will take Dobrudja
+		ai_chance = { factor = 95 }
+		ROM = {
+			declare_war_on = BUL
+			create_wargoal = {
+				target = BUL
+				type = take_state
+				generator = { 77 }
+			}
+		}
+		immediate = {
+			hidden_effect = {
+				news_event = { hours = 6 id = news_balkans.10 }
+				limit = {
+					NOT = {
+						tag = ROM
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = balkan_wars.17.b # We will keep out of petty wars
+		ai_chance = { factor = 5 }
+		add_political_power = -500
+		add_national_unity = -0.05
+	}
+}
+
+# Ottoman intervention
+country_event = {
+	id = balkan_wars.18
+	title = balkan_wars.18.t
+	desc = balkan_wars.18.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1913.7.12
+		tag = TUR
+		BUL = {
+			has_war_with = SER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = balkan_wars.18.a # We will take back what we've lost
+		ai_chance = { factor = 95 }
+		TUR = {
+			declare_war_on = BUL
+			create_wargoal = {
+				target = BUL
+				type = take_state
+				generator = { 769 }
+			}
+		}
+		immediate = {
+			hidden_effect = {
+				news_event = { hours = 6 id = news_balkans.11 }
+				limit = {
+					NOT = {
+						tag = TUR
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = balkan_wars.17.b # We should not risk another defeat
+		ai_chance = { factor = 5 }
+		add_political_power = -500
+		add_national_unity = -0.05
+	}
+}
+
+# Second Balkan War ends ( historical )
+country_event = {
+	id = balkan_wars.19
+	title = balkan_wars.19.t
+	desc = balkan_wars.19.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		tag = BUL
+		OR = {
+			OR = {
+				date > 1913.7.20
+				any_country = {
+					is_in_faction_with = SER
+					controls_state = 106
+					controls_state = 770
+					controls_state = 731
+				}
+				TUR = {
+					controls_state = 769
+				}
+				ROM = {
+					controls_state = 77
+				}		
+			}
+			OR = {
+				BUL = {
+					surrender_progress > 0.45
+				}
+			}
+			OR = {
+				date > 1913.8.10
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.12 }
+			limit = {
+				NOT = {
+					tag = BUL
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = balkan_wars.19.a # We will not forget this
+		BUL = {
+			white_peace = ROM
+			white_peace = TUR
+			white_peace = SER
+			white_peace = GRE
+			white_peace = MTN
+		}
+		SER = {
+			transfer_state = 770
+		}
+		GRE = {
+			transfer_state = 771
+		}
+		TUR = {
+			transfer_state = 769
+		}
+		ROM = {
+			transfer_state = 77
+		}
+	}
+}
+
+# Second Balkan War ends (BUL victory)
+country_event = {
+	id = balkan_wars.20
+	title = balkan_wars.20.t
+	desc = balkan_wars.20.d
+	picture = GFX_report_event_physics_lab_01
+	
+	trigger = {
+		date > 1913.8.1
+		tag = BUL
+		BUL = {
+			controls_state = 731
+			controls_state = 106
+			controls_state = 77
+			controls_state = 769
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { hours = 6 id = news_balkans.13 }
+			limit = {
+				NOT = {
+					tag = BUL
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = balkan_wars.20.a # The Balkans belong to us
+		BUL = {
+			white_peace = SER
+			white_peace = GRE
+			white_peace = MTN
+			white_peace = TUR
+			white_peace = ROM
+			transfer_state = 106
+			transfer_state = 731
+			transfer_state = 758
+			add_state_claim = 758
+		}
+	}
+}

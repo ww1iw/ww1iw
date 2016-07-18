@@ -1,4 +1,4 @@
-﻿oob = "BEL_1914"
+﻿oob = "BEL_1911"
 capital = 6
 set_convoys = 50
 set_research_slots = 2
@@ -48,6 +48,60 @@ create_country_leader = {
 	picture = "Portrait_BEL_Charles_Broqueville.dds"
 	expire = "1950.1.1"
 	ideology = conservatism
+}
+
+1914.6.1 = {
+oob = "BEL_1914"
+capital = 6
+set_convoys = 50
+set_research_slots = 2
+set_national_unity = 0.55
+
+set_politics = {
+
+	parties = {
+		liberal = {
+			popularity = 24.5
+		}
+		democratic = {
+			popularity = 1.7
+		}
+		conservative = {
+			popularity = 42.8
+		}
+		socialist = { 
+			popularity = 30.3
+		}
+		autocratic = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = .7
+		}
+		communism = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservative
+	last_election = "1914.5.24"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Charles Broqueville"
+	desc = "CHARLES_BROQUEVILLE_DESC"
+	picture = "Portrait_BEL_Charles_Broqueville.dds"
+	expire = "1950.1.1"
+	ideology = conservatism
+}
 }
 
 1939.1.1 = {

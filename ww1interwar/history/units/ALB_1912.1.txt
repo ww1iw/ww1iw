@@ -1,0 +1,45 @@
+division_template = {
+	name = "Brigada Fisnore" # Tribal Brigade
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "I Brigada Fisnore"
+		location = 9914
+		division_template = "Brigada Fisnore"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "II Brigada Fisnore"
+		location = 11762
+		division_template = "Brigada Fisnore"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "III Brigada Fisnore"
+		location = 9849
+		division_template = "Brigada Fisnore"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "IV Brigada Fisnore"
+		location = 3448
+		division_template = "Brigada Fisnore"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+}
