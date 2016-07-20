@@ -1,0 +1,42 @@
+state={
+	id=772
+	name="STATE_772"
+	manpower = 300400
+	resources={
+		aluminium=1
+		chromium=1
+	}
+	
+	state_category = town
+	
+	history={
+		owner = TUR
+		victory_points = {
+			6900 5	#Korçë
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1 
+			air_base = 1
+		}
+		add_core_of = ALB
+		add_core_of = GRE
+		add_core_of = TUR
+		add_claim_by = SER
+		add_claim_by = ITA
+
+		1913.5.30 = {
+			owner = ALB
+			remove_core_of = TUR
+			add_claim_by = TUR
+			remove_claim_by = SER
+		}
+		1939.4.12 = {
+			owner = ITA
+			remove_claim_by = ITA
+		}
+	}
+	provinces={
+		914 3448 6900 11767 
+	}
+}
