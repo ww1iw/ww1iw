@@ -94,6 +94,7 @@ technology_folders = {
 	artillery_folder
 	air_techs_folder
 	naval_folder
+	naval_support_folder
 	industry_folder
 	land_doctrine_folder
 	naval_doctrine_folder

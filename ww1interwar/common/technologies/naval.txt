@@ -1,0 +1,667 @@
+technologies = {
+
+	@1890 = 1
+	@1895 = 7
+	@1900 = 13
+	@1906 = 19
+	@1910 = 25
+	@1916 = 31
+	@1922 = 37
+	@1928 = 43
+	@1932 = 49
+	@1936 = 51
+	@1940 = 57
+	@1944 = 63
+	@1946 = 69
+	
+	@torpedo = 
+	@gunboat = 
+	@torpedoboat =
+	@frigate =
+	@destroyerescort = 
+	@torpedogunboat = 
+	@tbd = 
+	@destroyer =
+	@gunboat = 
+	@lightcruiser = 
+	@armoredcruiser = 
+	@heavycruiser =
+	@battlecruiser = 
+	@monitor = 
+	@predreadnaught = 
+	@dreadnaught = 
+	@battleship = 
+	@coastdefense = 
+	@navalartillery = 
+	
+	1890_torpedo = {
+
+		path = {
+			leads_to_tech = 1900_torpedo 
+			leads_to_tech = 1895_torpedo_boat
+		}
+		
+		research_cost = 2
+
+		start_year = 1890
+		
+		folder = {
+			name = naval_folder
+			position = { x = @torpedo y = @1890 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			torp_tech
+		}
+	}	
+	
+	1900_torpedo = {
+
+		category_destroyer = {
+			torpedo_attack = 0.05
+		}
+		
+		category_torpedo_boat = {
+			torpedo_attack = 0.05
+		}
+		
+		category_frigate = {
+			torpedo_attack = 0.05
+		}
+		
+		category_submarine = {
+			torpedo_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = 1910_torpedo 
+		}
+		
+		research_cost = 2
+
+		start_year = 1900
+		
+		folder = {
+			name = naval_folder
+			position = { x = @torpedo y = @1900 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			torp_tech
+		}
+	}
+	
+	1922_torpedo = {
+
+		category_destroyer = {
+			torpedo_attack = 0.05
+		}
+		
+		category_torpedo_boat = {
+			torpedo_attack = 0.05
+		}
+		
+		category_frigate = {
+			torpedo_attack = 0.05
+		}
+		
+		category_submarine = {
+			torpedo_attack = 0.05
+		}
+	
+		category_destroyer = {
+			torpedo_attack = 0.05
+		}
+		
+		category_torpedo_boat = {
+			torpedo_attack = 0.05
+		}
+		
+		category_frigate = {
+			torpedo_attack = 0.05
+		}
+		
+		category_submarine = {
+			torpedo_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = 1932_torpedo 
+		}
+		
+		research_cost = 2
+
+		start_year = 1922
+		
+		folder = {
+			name = naval_folder
+			position = { x = @torpedo y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			torp_tech
+		}
+	}
+	
+	1932_torpedo = {
+
+		category_destroyer = {
+			torpedo_attack = 0.05
+		}
+		
+		category_torpedo_boat = {
+			torpedo_attack = 0.05
+		}
+		
+		category_frigate = {
+			torpedo_attack = 0.05
+		}
+		
+		category_submarine = {
+			torpedo_attack = 0.05
+		}
+	
+		path = {
+			leads_to_tech = 1940_torpedo 
+		}
+		
+		research_cost = 2
+
+		start_year = 1932
+		
+		folder = {
+			name = naval_folder
+			position = { x = @torpedo y = @1932 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			torp_tech
+		}
+	}
+	
+	1940_torpedo = {
+
+		category_destroyer = {
+			torpedo_attack = 0.05
+		}
+		
+		category_torpedo_boat = {
+			torpedo_attack = 0.05
+		}
+		
+		category_frigate = {
+			torpedo_attack = 0.05
+		}
+		
+		category_submarine = {
+			torpedo_attack = 0.05
+		}
+	
+		path = {
+			leads_to_tech = 1946_torpedo 
+		}
+		
+		research_cost = 2
+
+		start_year = 1940
+		
+		folder = {
+			name = naval_folder
+			position = { x = @torpedo y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			torp_tech
+		}
+	}
+	
+	1946_torpedo = {
+		
+		category_destroyer = {
+			torpedo_attack = 0.05
+		}
+		
+		category_torpedo_boat = {
+			torpedo_attack = 0.05
+		}
+		
+		category_frigate = {
+			torpedo_attack = 0.05
+		}
+		
+		category_submarine = {
+			torpedo_attack = 0.05
+		}
+		
+		research_cost = 2
+
+		start_year = 1946
+		
+		folder = {
+			name = naval_folder
+			position = { x = @torpedo y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			torp_tech
+		}
+	}
+	
+	1895_torpedo_boat = {
+		
+		enable_equipments = {
+			torpedo_boat_1
+		}
+		
+		path = {
+			leads_to_tech = 1900_torpedo_gunboat
+		}
+		
+		research_cost = 2
+
+		start_year = 1895
+		
+		folder = {
+			name = naval_folder
+			position = { x = @torpedoboat y = @1895 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			torp_boat_tech
+		}
+	}
+	
+	1900_torpedo_gunboat = {
+		
+		enable_equipments = {
+			torpedo_gunboat_1
+		}
+		
+		path = {
+			leads_to_tech = 1906_torpedo_boat_destroyer
+		}
+		
+		research_cost = 2
+
+		start_year = 1900
+		
+		folder = {
+			name = naval_folder
+			position = { x = @torpedoboat y = @1900 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			torp_boat_tech
+		}
+	}
+	
+	1906_torpedo_boat_destroyer = {
+	
+		enable_equipments = {
+			torpedo_boat_destroyer_1
+		}
+		
+		path = {
+			leads_to_tech = 1910_destroyer
+		}
+		
+		path = {
+			leads_to_tech = 1916_frigate
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @tbd y = @1906 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+	
+	1910_destroyer = {
+	
+		enable_equipments = {
+			destroyer_1
+		}
+		
+		path = {
+			leads_to_tech = 1922_destroyer
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyer y = @1910 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+	
+	1922_destroyer = {
+	
+		enable_equipments = {
+			destroyer_2
+		}
+		
+		path = {
+			leads_to_tech = 1932_destroyer
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyer y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+	
+	1932_destroyer = {
+	
+		enable_equipments = {
+			destroyer_3
+		}
+		
+		path = {
+			leads_to_tech = 1940_destroyer
+		}
+		
+		path = {
+			leads_to_tech = 1940_destroyer_escort
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyer y = @1932 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+	
+	1940_destroyer = {
+	
+		enable_equipments = {
+			destroyer_4
+		}
+		
+		path = {
+			leads_to_tech = 1946_destroyer
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyer y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+	
+	1946_destroyer = {
+	
+		enable_equipments = {
+			destroyer_5
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyer y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+	
+	1916_frigate = {
+	
+		enable_equipments = {
+			frigate_1
+		}
+		
+		path = {
+			leads_to_tech = 1928_frigate
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @frigate y = @1916 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			frigate_tech
+		}
+	}
+	
+	1928_frigate = {
+	
+		enable_equipments = {
+			frigate_2
+		}
+		
+		path = {
+			leads_to_tech = 1940_destroyer_escort
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @frigate y = @1928 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			frigate_tech
+		}
+	}
+	
+	1940_destroyer_escort = {
+	
+		enable_equipments = {
+			destroyer_escort_1
+		}
+		
+		path = {
+			leads_to_tech = 1946_destroyer_escort
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyerescort y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			frigate_tech
+		}
+	}
+	
+	1946_destroyer_escort = {
+	
+		enable_equipments = {
+			destroyer_escort_2
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyerescort y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			frigate_tech
+		}
+	}
+	
+	1890_gunboat = {
+	
+		enable_equipments = {
+			gunboat_1
+		}
+		
+		path = {
+			leads_to_tech = {1900_torpedo_gunboat}
+		}
+		
+		path = {
+			leads_to_tech = {1895_monitor}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @gunboat y = @1890 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			gunboat_tech
+		}
+	}
+	
+	1895_monitor = {
+	
+		enable_equipments = {
+			monitor_1
+		}
+		
+		path = {
+			leads_to_tech = {1900_armored_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1900_predread_battleship}
+		}
+		
+		path = {
+			leads_to_tech = {1900_coastal_defense}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @monitor y = @1895 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+	
+}
