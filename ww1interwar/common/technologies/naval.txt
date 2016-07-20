@@ -18,18 +18,18 @@ technologies = {
 	@gunboat = 
 	@torpedoboat =
 	@frigate =
-	@destroyerescort = 
-	@torpedogunboat = 
-	@tbd = 
+	@destroyerescort = #part of frigate_tech
+	@torpedogunboat = #part of torp_boat_tech
+	@tbd = #part of dd_tech
 	@destroyer =
 	@gunboat = 
 	@lightcruiser = 
 	@armoredcruiser = 
 	@heavycruiser =
 	@battlecruiser = 
-	@monitor = 
-	@predreadnaught = 
-	@dreadnaught = 
+	@monitor = #part of bb_tech
+	@predreadnaught = #part of bb_tech
+	@dreadnaught = #part of bb_tech
 	@battleship = 
 	@coastdefense = 
 	@navalartillery = 
@@ -63,19 +63,19 @@ technologies = {
 	1900_torpedo = {
 
 		category_destroyer = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.25
 		}
 		
 		category_torpedo_boat = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_frigate = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_submarine = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.5
 		}
 		
 		path = {
@@ -102,37 +102,21 @@ technologies = {
 	}
 	
 	1922_torpedo = {
-
+		
 		category_destroyer = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.25
 		}
 		
 		category_torpedo_boat = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_frigate = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_submarine = {
-			torpedo_attack = 0.05
-		}
-	
-		category_destroyer = {
-			torpedo_attack = 0.05
-		}
-		
-		category_torpedo_boat = {
-			torpedo_attack = 0.05
-		}
-		
-		category_frigate = {
-			torpedo_attack = 0.05
-		}
-		
-		category_submarine = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.5
 		}
 		
 		path = {
@@ -159,21 +143,21 @@ technologies = {
 	}
 	
 	1932_torpedo = {
-
+		
 		category_destroyer = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.25
 		}
 		
 		category_torpedo_boat = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_frigate = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_submarine = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.5
 		}
 	
 		path = {
@@ -200,21 +184,21 @@ technologies = {
 	}
 	
 	1940_torpedo = {
-
+		
 		category_destroyer = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.25
 		}
 		
 		category_torpedo_boat = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_frigate = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_submarine = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.5
 		}
 	
 		path = {
@@ -243,19 +227,19 @@ technologies = {
 	1946_torpedo = {
 		
 		category_destroyer = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.25
 		}
 		
 		category_torpedo_boat = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_frigate = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.1
 		}
 		
 		category_submarine = {
-			torpedo_attack = 0.05
+			torpedo_attack = 0.5
 		}
 		
 		research_cost = 2
@@ -362,6 +346,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			dd_tech
 		}
 	}
 	
@@ -388,6 +373,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			dd_tech
 		}
 	}
 	
@@ -414,6 +400,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			dd_tech
 		}
 	}
 	
@@ -444,6 +431,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			dd_tech
 		}
 	}
 	
@@ -470,6 +458,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			dd_tech
 		}
 	}
 	
@@ -492,6 +481,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			dd_tech
 		}
 	}
 	
@@ -661,6 +651,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			bb_tech
 		}
 	}
 	
