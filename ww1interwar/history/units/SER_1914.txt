@@ -1,20 +1,35 @@
 ﻿division_template = {
 	name = "Pesadijska Divizija"	# Infantry Division	
-	# Note: infantry divisions were all at low reserve levels even just prior to Axis 
-	#	invasion of 1941
+	
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   
+		artillery = { x = 0 y = 0 }  
+		machinegun = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Pesadijska Odreda"	# Infantry Detachment
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
 	}
 }
 division_template = {
@@ -27,7 +42,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Konjička Divizija" 			# Cavalry Division
+	name = "Konjicka Divizija" 			# Cavalry Division
 	# Note: regiments within the brigade were battalion-sized units
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -41,60 +56,144 @@ division_template = {
 
 units = {
 	division= {	
-		name = "1. Pesadijska Divizija"
-		location = 6998
+		name = "'Timocka' Pesadijska Divizija I"
+		location = 11586
 		division_template = "Pesadijska Divizija" 	
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
-
 	}
 	division= {	
-		name = "2. Pesadijska Divizija"
-		location = 6998
+		name = "'Timocka' Pesadijska Divizija II"
+		location = 11586
 		division_template = "Pesadijska Divizija" 	
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
-
 	}
 	division= {	
-		name = "3. Pesadijska Divizija"
-		location = 6998
+		name = "'Morava' Pesadijska Divizija II"
+		location = 11586
 		division_template = "Pesadijska Divizija" 	
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
-
 	}
 	division= {	
-		name = "4. Pesadijska Divizija"
-		location = 6998
+		name = "Konjicka Divizija"
+		location = 11586
+		division_template = "Konjicka Divizija" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Branicevo' Odreda"
+		location = 11586
+		division_template = "Pesadijska Odreda" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Sumadija' Pesadijska Divizija I"
+		location = 9602
 		division_template = "Pesadijska Divizija" 	
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
-
 	}
 	division= {	
-		name = "1. Gorska Pesadija"
-		location = 6998
-		division_template = "Gorska Pesadija" 	
-		start_experience_factor = 0.2
+		name = "'Dunav' Pesadijska Divizija I"
+		location = 9602
+		division_template = "Pesadijska Divizija" 	
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
-
 	}
 	division= {	
-		name = "1. Konjička Divizija"
-		location = 6998
-		division_template = "Gorska Pesadija" 	
-		start_experience_factor = 0.2
+		name = "'Miked' Divizija I"
+		location = 9602
+		division_template = "Pesadijska Divizija" 	
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
-
 	}
 	division= {	
-		name = "2. Konjička Divizija"
-		location = 6998
-		division_template = "Konjička Divizija" 	
-		start_experience_factor = 0.2
+		name = "'Morava' Pesadijska Divizija I"
+		location = 9602
+		division_template = "Pesadijska Divizija" 	
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.2
-
+	}
+	division= {	
+		name = "'Drina' Pesadijska Divizija I"
+		location = 937
+		division_template = "Pesadijska Divizija" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Drina' Pesadijska Divizija II"
+		location = 937
+		division_template = "Pesadijska Divizija" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Obrenovac' Odreda"
+		location = 937
+		division_template = "Pesadijska Odreda" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Sabac' Odreda"
+		location = 797
+		division_template = "Pesadijska Odreda" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Loznica' Odreda"
+		location = 3609
+		division_template = "Pesadijska Odreda" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Ljubovije' Odreda"
+		location = 11586
+		division_template = "Pesadijska Odreda" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Sumadia' Pesadijska Divizija I"
+		location = 3882
+		division_template = "Pesadijska Divizija" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Lim' Odreda"
+		location = 3882
+		division_template = "Pesadijska Odreda" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "'Uzice' Brigada"
+		location = 3882
+		division_template = "Pesadijska Odreda" 	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+	}
+	division= {	
+		name = "Chetnik Odreda I"
+		location = 11586
+		division_template = "Pesadijska Odreda" 	
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.6
+	}
+	division= {	
+		name = "Chetnik Odreda II"
+		location = 11586
+		division_template = "Pesadijska Odreda" 	
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.6
 	}
 }
 

@@ -32,55 +32,88 @@ division_template = {
 
 units = {
 	division = {
-		name = "1. Pekhotna divizija"
-		location = 949  # Sofia
-		division_template = "Konna Divizija"
+		name = "1. 'Sofiya' Pekhotna divizija"
+		location = 949 
+		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
-		name = "2. Pekhotna divizija"
-		location = 949  # Sofia
-		division_template = "Konna Divizija"
+		name = "6. 'Bdin' Pekhotna divizija"
+		location = 949 
+		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
-		name = "3. Pekhotna divizija"
-		location = 949  # Sofia
-		division_template = "Konna Divizija"
+		name = "8. 'Tundzha' Pekhotna divizija"
+		location = 949 
+		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
-		name = "4. Pekhotna divizija"
-		location = 949  # Sofia
-		division_template = "Konna Divizija"
+		name = "9. 'Pleven' Pekhotna divizija"
+		location = 949 
+		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
-		name = "5. Pekhotna divizija"
-		location = 949  # Sofia
-		division_template = "Konna Divizija"
+		name = "3. 'Balkan' Pekhotna divizija"
+		location = 6857
+		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
-		name = "1. Konna divizija"
-		location = 949  # Sofia
-		division_template = "Konna Divizija"
+		name = "7. 'Rila' Pekhotna divizija"
+		location = 6857
+		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
 	division = {
-		name = "2. Konna divizija"
-		location = 949  # Sofia
-		division_template = "Konna Divizija"
+		name = "1. Kavaleriiska divizija"
+		location = 6857 
+		division_template = "Pekhotna Divizija"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
+	}
+	division = {
+		name = "4. 'Preslav' Pekhotna divizija"
+		location = 9612
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "5. 'Dunav' Pekhotna divizija"
+		location = 9612
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "2. 'Trakiiski' Pekhotna divizija"
+		location = 11813
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "10. 'Egeiski' Pekhotna divizija"
+		location = 11813
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "11. 'Makedonski' Pekhotna divizija"
+		location = 11774
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
 	}
 }
 
@@ -105,15 +138,6 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.73
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = motorized_equipment_1
-			creator = "BUL" 
-		}
-		requested_factories = 1
-		progress = 0.4
 		efficiency = 100
 	}
 }
