@@ -3,6 +3,38 @@ spriteTypes = {
 	### ww1iw techs ###
 	
 	SpriteType = {
+		name = "GFX_automobile_medium"
+		texturefile = "gfx/interface/technologies/automobile.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_army_truck_medium"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_armored_car_medium"
+		texturefile = "gfx/interface/technologies/armored_car.dds"
+	}	
+		SpriteType = {
+		name = "GFX_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/armored_car.dds"
+	}	
+		SpriteType = {
+		name = "GFX_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/armored_car.dds"
+	}	
+		SpriteType = {
+		name = "GFX_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/armored_car.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ambulance_medium"
+		texturefile = "gfx/interface/technologies/ambulance.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_infantry_atrifle_medium"
 		texturefile = "gfx/interface/technologies/infantry_atrifle.dds"
 	}
