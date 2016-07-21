@@ -13,7 +13,6 @@ state={
 
 	history={
 		owner = TUR
-		
 		1913.5.30 = {
 			owner = SER
 			remove_core_of = TUR
@@ -30,8 +29,12 @@ state={
 			air_base = 2
 		}
 		victory_points = {
-			3882 1 
+			3882 3 
 		}
+		victory_points = {
+			3865 1	#Kruševo
+		}
+		add_core_of = MAC
 		add_core_of = TUR
 		add_core_of = YUG
 		add_core_of = SER

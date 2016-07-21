@@ -26,6 +26,41 @@ NFL = {
 
 
 ###############################################################
+# South Slavic Balkans
+###############################################################
+MAC = {
+	male = {
+		names = {
+			Ace Adrijan Aleskandar Andon Andrej Angel Angjelko Anton Antonij Apostol Atanas Atanasij
+			Blagoj Blagun Blazhe Boban Bogdan Bogomil Bojan Boris Borko Bozhidar Branislav Branko
+			Chedomir Damjan Daniel Darko David Dejan Dimitar Dimitrij Doncho Dragan Dušan Duško
+			Dzvonko Elisie Emil Evgenij Filip Gavril Gerasim Gjorgji Gligor Goran Gordan Gorgi Grigor
+			Grozdan Hristofor Igor Ilarion Ile Ilija Isaija Isidor Ivan Ivo Jakov Joakim Jordan Josif
+			Jovan Kire Kiril Kiro Kliment Konstantin Kostadin Kristijan Kuzman Lazar Ljube Ljuben
+			Ljubormir Ljudmil Ljupcho Luka Maksim Marin Marjan Marko Martin Matej Metodij Metodija
+			Mihail Milan Mile Miloš Mirche Mirko Miroslav Mitre Mladen Najden Natanail Naum Nedelko
+			Neofit Neven Kiifor Nikodim Nikola Nikolche Ognen Oliver Paskal Pavel Pavle Pece Petar
+			Petko Petre Radoslav Rafael Risto Rumen Samoil Sasho Serafim Sime Simon Slobodan Stamen
+			Stefan Stojan Tase Teodor Tihomir Timotej Todor Toma Toše Toshe Trajan Valetin Vangel Vasil
+			Vaska Vasko Venijamin Veselin Viktor Vladimir Vlado Vlastimir Vlatko Zdravko Zharko Zhivko
+			Zlatko Zdravko Zharko Zhivko Zlatan Zlatko Zoran
+		}
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+		Angelov Angelovski Atanasov Babunski Bozinovski Brankovich Filipov Georgievski Hristov Ilievski
+		Ivanoff Ivanovski Janevski Jankulovski Jovanov Jovanovski Kitanovski Kouzmanoff Krstevski Lazarevski
+		Lazarov Markovski Mihajlovski Mitreski Naumov Nikolov Nikolovski Pandev Petkovski Petrov Petrovski
+		Ristovski Rusevski Simonovski Srbinovski Stefanov Stefanovski Stojanov Stojanovski Todorovski
+		Trajkovski Veljanovski
+	}
+	callsigns = { }
+}
+
+
+###############################################################
 # North Africa & Middle East
 ###############################################################
 ALG = {
@@ -127,14 +162,21 @@ TUN = {
 SOM = {
 	male = {
 		names = {
-			Amare Bekele Berhanu Saleh Haile Berihun Demissie Desta Geteye Girma Kelile Negasi
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir
 		   }
 	}
 	female = {
 		names = { }
 	}
 	surnames = {
-		Selassie Mikael Mariam Melekot Seged Wossen Makonnen
+		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+			"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+			"ibn Muhammad" "ibn Mustafa" "ibn Salim"  
+			"ibn Umar" "ibn Uthman" "ibn Yusuf"
+			"al-Najdi" "al-Hijazi"
 	 }
 	callsigns = { }
 }

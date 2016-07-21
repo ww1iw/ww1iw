@@ -16,6 +16,10 @@ REB = {
 	color = rgb { 66 66 66 }
 	color_ui = rgb { 66 66 66 }
 }
+MAC = {
+	color = rgb { 204 0 102 }
+	color_ui = rgb { 204 0 102 }
+}
 NFL = {
 	color = rgb { 185 30 60 }
 	color_ui = rgb { 185 30 60 }

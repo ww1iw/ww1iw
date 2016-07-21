@@ -12,7 +12,6 @@ state={
 
 	history={
 		owner = TUR
-		
 		1913.5.30 = {
 			owner = SER
 			remove_core_of = TUR
@@ -28,13 +27,15 @@ state={
 			industrial_complex = 1
 			air_base = 1
 		}
-		victory_points = {
-			3882 1 
-		}
+		add_core_of = MAC
 		add_core_of = TUR
 		add_core_of = YUG
 		add_core_of = SER
 		add_core_of = BUL
+		
+		victory_points = {
+			907 1	#Shtip
+		}
 	}
 	
 	provinces={

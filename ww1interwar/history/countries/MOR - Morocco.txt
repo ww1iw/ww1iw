@@ -139,6 +139,17 @@ set_convoys = 60
 	}
 }
 
+create_country_leader = { #Brother who took over in 1912 when Morocco became French protectorate
+	name = "Yusef ben Hassan"
+	desc = ""
+	picture = "gfx/leaders/MOR/Portrait_MOR_Yusef_ben_Hassan.dds"
+	expire = "1927.11.17"
+	ideology = monarchism
+	traits = {
+		#
+	}
+}
+
 create_country_leader = {
 	name = "Abd al-Hafid"
 	desc = ""
@@ -160,17 +171,6 @@ create_country_leader = { #Pretty important guy, founded Republic of the Rif and
 		#
 	}
 }
-
-#create_country_leader = { #Brother who took over in 1912 when Morocco became French protectorate
-#	name = "Yusef ben Hassan"
-#	desc = ""
-#	picture = "gfx/leaders/MOR/Portrait_MOR_Yusef_ben_Hassan.dds"
-#	expire = "1927.11.17"
-#	ideology = monarchism
-#	traits = {
-#		#
-#	}
-#}
 
 create_country_leader = {
 	name = "Maati Bouabid"
