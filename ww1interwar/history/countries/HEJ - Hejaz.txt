@@ -1,0 +1,59 @@
+oob = "basic_test"
+capital = 679
+set_research_slots = 2
+set_national_unity = 0.60
+
+set_politics = {
+
+	parties = {
+		neutrality = {
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = autocratic
+	last_election = "1910.9.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Hussein al-Hashimi"
+	desc = "HUSSEIN_BIN_ALI_DESC"
+	picture = "gfx/leaders/HEJ/Portrait_HEJ_Hussein_bin_Ali.dds"
+	expire = "1931.4.1" 
+	ideology = monarchism
+}
+
+create_country_leader = {
+	name = "Hussein al-Hashimi"
+	desc = "HUSSEIN_BIN_ALI_DESC"
+	picture = "gfx/leaders/HEJ/Portrait_HEJ_Hussein_I.dds"
+	expire = "1931.4.1" 
+	ideology = independent
+}
+
+create_corps_commander = {
+	name = "Faisal al-Hashimi"
+	portrait_path = "gfx/leaders/HEJ/Portrait_HEJ_Faisal.dds"
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Abdullah al-Hashimi"
+	portrait_path = "gfx/leaders/HEJ/Portrait_HEJ_Abdullah.dds"
+	skill = 2
+}
+
+1923.1.1 = {
+	create_country_leader = {
+	name = "Ali bin Hussein"
+	desc = "ALI_BIN_HUSSEIN_DESC"
+	picture = "gfx/leaders/HEJ/Portrait_HEJ_Ali_bin_Hussein.dds"
+	expire = "1935.2.13" 
+	ideology = monarchism
+	}
+}

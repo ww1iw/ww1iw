@@ -1,15 +1,23 @@
+
 state={
 	id=743
 	name="STATE_743"
+
 	history={
 		owner = SOV
-		1923.1.1 = { owner = TUR }
+		1923.1.1 = {
+			owner = TUR
+
+		}
 		add_core_of = TUR
 		add_claim_by = SOV
-		}
+
+	}
+
 	provinces={
-		789 6991 7454 10403 10472 11753 
+		7454 10403 10472 
 	}
 	manpower=411129
-		state_category="rural"
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -436,7 +436,15 @@ ICE = {
 	color_ui = rgb { 100  125  175 }
 }
 
+HEJ = {
+	color = rgb { 19 89 35 }
+	color_ui = rgb { 19 89 35 }
+}
 
+RSH = {
+	color = rgb { 196 90 20 }
+	color_ui = rgb { 196 90 20 }
+}
 
 D01 = {
 	color = rgb { 200 100 31 }
