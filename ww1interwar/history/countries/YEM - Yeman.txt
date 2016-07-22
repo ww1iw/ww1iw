@@ -54,39 +54,48 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
+		autocratic = { 
+			popularity = 100
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = autocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Imam Yahya"
+	name = "Imam Yahya Hamiddin"
 	desc = "POLITICS_IMAM_YAHYA_DESC"
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	picture = "gfx/leaders/YEM/Portrait_YEM_Yahya_Hamiddin.dds"
+	expire = "1948.1.1"
+	ideology = monarchism
 	traits = {
 		#
 	}
+}
+
+create_country_leader = {
+	name = "Imam Yahya Hamiddin"
+	desc = "POLITICS_IMAM_YAHYA_DESC"
+	picture = "gfx/leaders/YEM/Portrait_YEM_Yahya_Hamiddin.dds"
+	expire = "1948.1.1"
+	ideology = independent
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Ahmad bin Yahya"
+	portrait_path = "gfx/leaders/YEM/Portrait_YEM_Ahmad_bin_Yahya.dds"
+	skill = 2
+
 }
 
 1939.1.1 = {

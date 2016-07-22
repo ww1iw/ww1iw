@@ -1,0 +1,24 @@
+state={
+	id=775
+	name="STATE_775"
+	
+	history = {
+		owner = RSH
+		1923.1.1 = {
+			owner = ENG
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = JOR		
+	}
+	
+	provinces={
+		1544 4440 4562 4603 11976 
+	}
+	
+	manpower=326200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

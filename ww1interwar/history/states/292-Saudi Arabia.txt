@@ -3,11 +3,11 @@ state={
 	id=292
 	name="STATE_292"
 	resources={
-		oil=3
+		oil=3.000
 	}
 
 	history={
-		owner = TUR
+		owner = SAU
 		1923.1.1 = {
 			owner = SAU
 
@@ -20,12 +20,14 @@ state={
 			12727 5 
 		}
 		add_core_of = SAU
+		add_claim_of = RSH
 
 	}
 
 	provinces={
-		2057 4968 4974 5024 5027 5058 5093 5099 7970 7995 8004 8060 8101 10815 10850 10892 10901 10923 12455 12727 12749 12813 12870 
+		2090 5024 5093 7995 8004 8060 10748 10786 10850 10892 10923 12727 12758 12813 12870 
 	}
-	manpower=1240000
-	state_category="rural"
+	manpower=744000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

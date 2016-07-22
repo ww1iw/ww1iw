@@ -1,0 +1,23 @@
+state={
+	id=777
+	name="STATE_777"
+	
+	history = {
+		owner = ENG
+		1923.1.1 = {
+			owner = YEM
+
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YEM
+		
+	}
+	
+	provinces={
+		1973 4924 
+	}
+	manpower=746850
+	buildings_max_level_factor=1.000
+}
