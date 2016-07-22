@@ -21,6 +21,12 @@ country_event = {
 		days = 30
 	}
 	
+	fire_only_once = yes
+	
+	immediate = {
+		set_global_flag = italo_turkish_war
+	}
+	
 	option = {
 		name = italo_turkish_war.1.a #historical ultimatum
 		ai_chance = { factor = 95 }
@@ -173,6 +179,7 @@ country_event = {
 	trigger = {
 		tag = TUR
 		date > 1912.3.1
+		has_global_flag = italo_turkish_war
 		ITA = {
 			controls_state = 451
 			controls_state = 450
@@ -224,6 +231,7 @@ country_event = {
 			controls_state = 449
 			controls_state = 448
 		}
+		AND = { ITA = { has_global_flag = italo_turkish_war } }
 	}
 	
 	mean_time_to_happen = {
