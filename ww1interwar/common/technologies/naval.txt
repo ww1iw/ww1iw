@@ -31,6 +31,7 @@ technologies = {
 	@predreadnaught = #part of bb_tech
 	@dreadnaught = #part of bb_tech
 	@battleship = 
+	@sh_battleship = 
 	@coastdefense = 
 	@navalartillery = 
 	
@@ -655,4 +656,1304 @@ technologies = {
 		}
 	}
 	
+	1900_armored_cruiser = {
+	
+		enable_equipments = {
+			armored_cruiser_1
+		}
+		
+		path = {
+			leads_to_tech = {1906_armored_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @armoredcruiser y = @1900 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			armored_cruiser_tech
+		}
+	}
+	
+	1906_armored_cruiser = {
+	
+		enable_equipments = {
+			armored_cruiser_2
+		}
+		
+		path = {
+			leads_to_tech = {1910_light_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1910_heavy_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1910_battlecruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @armoredcruiser y = @1906 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			armored_cruiser_tech
+		}
+	}
+	
+	1910_light_cruiser = {
+	
+		enable_equipments = {
+			light_cruiser_1
+		}
+		
+		path = {
+			leads_to_tech = {1922_light_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1922_heavy_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lightcruiser y = @1910 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+	}
+	
+	1922_light_cruiser = {
+	
+		enable_equipments = {
+			light_cruiser_2
+		}
+		
+		path = {
+			leads_to_tech = {1932_light_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1932_heavy_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lightcruiser y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+	}
+
+	1932_light_cruiser = {
+	
+		enable_equipments = {
+			light_cruiser_3
+		}
+		
+		path = {
+			leads_to_tech = {1940_light_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1940_heavy_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lightcruiser y = @1932 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+	}	
+	
+	1940_light_cruiser = {
+	
+		enable_equipments = {
+			light_cruiser_4
+		}
+		
+		path = {
+			leads_to_tech = {1946_light_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1946_heavy_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lightcruiser y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+	}
+	
+	1946_light_cruiser = {
+	
+		enable_equipments = {
+			light_cruiser_5
+		}
+		
+		path = {
+			leads_to_tech = {1946_heavy_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lightcruiser y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+	}
+	
+	1910_heavy_cruiser = {
+	
+		enable_equipments = {
+			heavy_cruiser_1
+		}
+		
+		path = {
+			leads_to_tech = {1922_heavy_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1922_light_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @heavycruiser y = @1910 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+	
+	1922_heavy_cruiser = {
+	
+		enable_equipments = {
+			heavy_cruiser_2
+		}
+		
+		path = {
+			leads_to_tech = {1932_heavy_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1932_light_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @heavycruiser y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+	
+	1932_heavy_cruiser = {
+	
+		enable_equipments = {
+			heavy_cruiser_3
+		}
+		
+		path = {
+			leads_to_tech = {1940_heavy_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1940_light_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @heavycruiser y = @1932 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+	
+	1940_heavy_cruiser = {
+	
+		enable_equipments = {
+			heavy_cruiser_4
+		}
+		
+		path = {
+			leads_to_tech = {1946_heavy_cruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1946_light_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @heavycruiser y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+	
+	1946_heavy_cruiser = {
+	
+		enable_equipments = {
+			heavy_cruiser_5
+		}
+		
+		path = {
+			leads_to_tech = {1946_light_cruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @heavycruiser y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			ca_tech
+		}
+	}
+	
+	1910_battlecruiser = {
+	
+		enable_equipments = {
+			battlecruiser_1
+		}
+		
+		path = {
+			leads_to_tech = {1922_battlecruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1916_battleship}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @battlecruiser y = @1910 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+	
+	1922_battlecruiser = {
+	
+		enable_equipments = {
+			battlecruiser_2
+		}
+		
+		path = {
+			leads_to_tech = {1932_battlecruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @battlecruiser y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+	
+	1932_battlecruiser = {
+	
+		enable_equipments = {
+			battlecruiser_3
+		}
+		
+		path = {
+			leads_to_tech = {1932_battleship}
+		}
+		
+		path = {
+			leads_to_tech = {1940_battlecruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @battlecruiser y = @1932 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+	
+	1940_battlecruiser = {
+	
+		enable_equipments = {
+			battlecruiser_4
+		}
+		
+		path = {
+			leads_to_tech = {1946_battlecruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1940_battleship}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @battlecruiser y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+	
+	1946_battlecruiser = {
+	
+		enable_equipments = {
+			battlecruiser_5
+		}
+		
+		path = {
+			leads_to_tech = {1946_battleship}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @battlecruiser y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+	
+	1900_predread_battleship = {
+	
+		enable_equipments = {
+			predread_battleship_1
+		}
+		
+		path = {
+			leads_to_tech = {1906_dreadnaught}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @predreadnaught y = @1900 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	
+	1906_dreadnaught = {
+	
+		enable_equipments = {
+			dreadnaught_1
+		}
+		
+		path = {
+			leads_to_tech = {1916_battleship}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @dreadnaught y = @1906 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	
+	1916_battleship = {
+	
+		enable_equipments = {
+			battleship_1
+		}
+		
+		path = {
+			leads_to_tech = {1922_battlecruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1932_battleship}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @battleship y = @1916 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	
+	1932_battleship = {
+	
+		enable_equipments = {
+			battleship_2
+		}
+		
+		path = {
+			leads_to_tech = {1932_battlecruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1940_battleship}
+		}
+		
+		path = {
+			leads_to_tech = {1936_superheavy_battleship}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @battleship y = @1932 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	
+	1940_battleship = {
+	
+		enable_equipments = {
+			battleship_3
+		}
+		
+		path = {
+			leads_to_tech = {1940_battlecruiser}
+		}
+		
+		path = {
+			leads_to_tech = {1946_battleship}
+		}
+		
+		path = {
+			leads_to_tech = {1944_superheavy_battleship}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @battleship y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	
+	1946_battleship = {
+	
+		enable_equipments = {
+			battleship_4
+		}
+		
+		path = {
+			leads_to_tech = {1946_battlecruiser}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @battleship y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	
+	1900_coastal_defense = {
+	
+		enable_equipments = {
+			coastal_defense_cruiser_1
+		}
+		
+		path = {
+			leads_to_tech = {1910_coastal_defense}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @coastdefense y = @1900 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			coast_defense_tech
+		}
+	}
+	
+	1910_coastal_defense = {
+	
+		enable_equipments = {
+			coastal_defense_cruiser_2
+		}
+		
+		path = {
+			leads_to_tech = {1922_coastal_defense}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @coastdefense y = @1910 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			coast_defense_tech
+		}
+	}
+	
+	1922_coastal_defense = {
+	
+		enable_equipments = {
+			coastal_defense_cruiser_3
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @coastdefense y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			coast_defense_tech
+		}
+	}
+	
+	1936_superheavy_battleship = {
+	
+		enable_equipments = {
+			SH_battleship_1
+		}
+		
+		path = {
+			leads_to_tech = {1944_superheavy_battleship}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @sh_battleship y = @1936 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			shbb_tech
+		}
+	}
+	
+	1944_superheavy_battleship = {
+	
+		enable_equipments = {
+			SH_battleship_2
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @sh_battleship y = @1944 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			shbb_tech
+		}
+	}
+	
+	1890_naval_artillery = {
+
+		path = {
+			leads_to_tech = {1900_naval_artillery}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @navalartillery y = @1890 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			naval_art_tech
+		}
+	}	
+	
+	1900_naval_artillery = {
+	
+		category_destroyer = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battlecruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_light_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_heavy_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_monitor = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_coastal_defense_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_predread_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_dreadnaught = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		path = {
+			leads_to_tech = {1910_naval_artillery}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @navalartillery y = @1900 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			naval_art_tech
+		}
+	}
+	
+	1910_naval_artillery = {
+	
+		category_destroyer = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battlecruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_light_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_heavy_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_monitor = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_coastal_defense_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_predread_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_dreadnaught = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		path = {
+			leads_to_tech = {1922_naval_artillery}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @navalartillery y = @1910 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			naval_art_tech
+		}
+	}
+	
+	1922_naval_artillery = {
+	
+		category_destroyer = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battlecruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_light_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_heavy_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_monitor = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_coastal_defense_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_predread_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_dreadnaught = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		path = {
+			leads_to_tech = {1932_naval_artillery}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @navalartillery y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			naval_art_tech
+		}
+	}
+	
+	1932_naval_artillery = {
+	
+		category_destroyer = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battlecruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_light_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_heavy_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_monitor = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_coastal_defense_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_predread_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_dreadnaught = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		path = {
+			leads_to_tech = {1940_naval_artillery}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @navalartillery y = @1932 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			naval_art_tech
+		}
+	}
+	
+	1940_naval_artillery = {
+	
+		category_destroyer = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battlecruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_light_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_heavy_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_monitor = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_coastal_defense_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_predread_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_dreadnaught = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		path = {
+			leads_to_tech = {1946_naval_artillery}
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @navalartillery y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			naval_art_tech
+		}
+	}
+	
+	1946_naval_artillery = {
+	
+		category_destroyer = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_battlecruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_light_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_heavy_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_monitor = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_coastal_defense_cruiser = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_predread_battleship = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		category_dreadnaught = {
+			ap_attack = 0.05
+			attack = 0.05
+			fire_range = 0.1
+		}
+		
+		research_cost = 2
+		
+		folder = {
+			name = naval_folder
+			position = { x = @navalartillery y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			naval_art_tech
+		}
+	}
 }
