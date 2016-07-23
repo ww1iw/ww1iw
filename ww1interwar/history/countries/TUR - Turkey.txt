@@ -7,6 +7,7 @@ set_national_unity = 0.6
 
 add_ideas ={
 imperial_ideal
+
 }
 
 
@@ -47,7 +48,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+	
+	puppet = HEJ
+	give_military_access = HEJ
+	puppet = YEM
+	give_military_access = YEM
+	
 	create_country_leader = {
 	name = "Mehmed V"
 	desc = "MEHMED_V_DESC"
@@ -109,6 +115,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+	puppet = HEJ
+	give_military_access = HEJ
+	puppet = YEM
+	give_military_access = YEM
 
 	create_country_leader = {
 	name = "Mehmed V"

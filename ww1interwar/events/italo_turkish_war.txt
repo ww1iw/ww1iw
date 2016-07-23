@@ -7,6 +7,8 @@ country_event = {
 	desc = italo_turkish_war.1.d
 	picture = GFX_report_event_physics_lab_01
 	
+	fire_only_once = yes
+
 	trigger = {
 		date > 1911.11.26
 		tag = ITA
@@ -170,6 +172,8 @@ country_event = {
 	desc = italo_turkish_war.5.d
 	picture = GFX_report_event_physics_lab_01
 	
+	fire_only_once = yes
+	
 	trigger = {
 		tag = TUR
 		date > 1912.3.1
@@ -214,6 +218,8 @@ country_event = {
 	title = italo_turkish_war.6.t
 	desc = italo_turkish_war.6.d
 	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
 	
 	trigger = {
 		tag = TUR
