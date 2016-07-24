@@ -3,6 +3,18 @@ spriteTypes = {
 	### ww1iw techs ###
 	
 	SpriteType = {
+		name = "GFX_armor_train_medium"
+		texturefile = "gfx/interface/technologies/armor_train.dds"
+	}	
+		SpriteType = {
+		name = "GFX_armor_train2_medium"
+		texturefile = "gfx/interface/technologies/armor_train2.dds"
+	}	
+		SpriteType = {
+		name = "GFX_armor_train3_medium"
+		texturefile = "gfx/interface/technologies/armor_train3.dds"
+	}	
+	SpriteType = {
 		name = "GFX_automobile_medium"
 		texturefile = "gfx/interface/technologies/automobile.dds"
 	}
@@ -11,6 +23,60 @@ spriteTypes = {
 		name = "GFX_army_truck_medium"
 		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
 	}	
+	
+	SpriteType = {
+		name = "GFX_ambulance_medium"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_gwtank_light_medium"
+		texturefile = "gfx/interface/technologies/gwtank_light.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tankette_medium"
+		texturefile = "gfx/interface/technologies/tankette.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_tankette2_medium"
+		texturefile = "gfx/interface/technologies/tankette2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_assault_gun_medium"
+		texturefile = "gfx/interface/technologies/assault_gun.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_assault_gun2_medium"
+		texturefile = "gfx/interface/technologies/assault_gun2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_gwtank_heavy_medium"
+		texturefile = "gfx/interface/technologies/gwtank_heavy.dds"
+	}	
+	SpriteType = {
+		name = "GFX_gwtank_heavy2_medium"
+		texturefile = "gfx/interface/technologies/gwtank_heavy2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_intermediate_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/intermediate_heavy_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_prewar_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/prewar_heavy_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_interwar_light_tank_medium"
+		texturefile = "gfx/interface/technologies/interwar_light_tank.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_armored_car_medium"
@@ -26,6 +92,10 @@ spriteTypes = {
 	}	
 		SpriteType = {
 		name = "GFX_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/armored_car.dds"
+	}	
+		SpriteType = {
+		name = "GFX_armored_car5_medium"
 		texturefile = "gfx/interface/technologies/armored_car.dds"
 	}	
 	
