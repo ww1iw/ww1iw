@@ -2525,8 +2525,57 @@ spriteTypes = {
 		textureFile = "gfx//interface//subtech_carrier_plane.dds"
 	}	
 
-	### SOV equipment ###		
+	### Russian/Soviet equipment ###		
 
+	SpriteType = {
+		name = "GFX_SOV_infantry_rifle_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_0.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_infantry_rifle1_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_1.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_rifle2_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_2.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_infantry_rifle3_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_3.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_rifle4_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_4.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_rifle5_medium"
+		texturefile = "gfx/interface/technologies/SOV_infantry_equipment_5.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_smg_medium"
+		texturefile = "gfx/interface/technologies/SOV_smg_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/SOV_smg_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_smg2_medium"
+		texturefile = "gfx/interface/technologies/SOV_smg_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_smg3_medium"
+		texturefile = "gfx/interface/technologies/SOV_smg_equipment_3.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_SOV_rocket_artillery4_medium"
