@@ -89,7 +89,7 @@ FRA = {
 	color_ui = rgb { 80 65 145 }
 }
 LUX = {
-	color = rgb { 171 190 152 } #45 155 159
+	color = rgb { 160 190 145 } #45 155 159
 	color_ui = rgb { 171 190 152 }
 }
 BEL = { color 	 = rgb { 185 155 66 }
@@ -107,8 +107,8 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 95 127 133 }
-	color_ui = rgb { 95 127 133 }
+	color = rgb { 140 165 170 } # old 95 127 133
+	color_ui = rgb { 140 165 170 }
 }
 LIT = {
 	color = rgb { 219 219 119 }
