@@ -1,0 +1,32 @@
+Germany
+	Kingdoms
+		BAV - Bavaria
+		PRS - Prussia
+			HAN - Hanover
+		SAX - Saxony
+		WUR - Wuerttemburg
+	Grand Duchies
+		BAD - Baden
+		HES - Hesse
+		MCK - Mecklenburg-Schwerin
+		MST - Mecklenburg-Strelitz
+		OLD - Oldenburg
+		SXW - Saxe-Weimar-Eisenach
+	Duchies
+		ANT	- Anhalt
+		BRU - Brunswick
+		SXA - Saxe-Altenburg
+		SCG - Saxe-Coburg und Gotha
+		SXM - Saxe-Meiningen
+	Principalities
+		LIP - Lippe
+		REG - Reuss-Gera (junior line)
+		REU - Reuss-Greiz
+		SCL - Schaumburg-Lippe
+		SWR - Schwarzburg-Rudolstadt
+		SWS - Schwarzburg-Sondershausen
+		WAP - Waldeck und Pyrmont
+	Free Cities
+		BRE - Bremen
+		HAM - Hamburg
+		LUE - Luebeck
