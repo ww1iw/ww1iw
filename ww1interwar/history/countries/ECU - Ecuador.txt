@@ -45,7 +45,7 @@ set_politics = {
 	create_country_leader = {
 	name = "Leónidas Plaza"
 	desc = "LEÓNIDAS_PLAZA_DESC"
-	picture = "Portrait_ECU_Leónidas_Plaza.dds"
+	picture = "Portrait_ECU_Leonidas_Plaza.dds"
 	expire = "1950.1.1"
 	ideology = liberalism
 }

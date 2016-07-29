@@ -45,7 +45,7 @@ set_politics = {
 	create_country_leader = {
 	name = "Ramón Luco"
 	desc = "RAMÓN_LUCO_DESC"
-	picture = "Portrait_CHL_Ramón_Luco.dds"
+	picture = "Portrait_CHL_Ramon_Luco.dds"
 	expire = "1950.1.1"
 	ideology = liberalism
 }

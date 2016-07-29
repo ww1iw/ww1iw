@@ -52,7 +52,7 @@ set_politics = {
 	create_country_leader = {
 	name = "Álvaro Figueroa"
 	desc = "ÁLVARO_FIGUEROA_DESC"
-	picture = "Portrait_SPR_Álvaro_Figueroa.dds"
+	picture = "Portrait_SPR_Alvaro_Figueroa.dds"
 	expire = "1950.1.1"
 	ideology = liberalism
 }

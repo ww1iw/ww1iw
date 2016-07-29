@@ -45,7 +45,7 @@ set_politics = {
 	create_country_leader = {
 	name = "Óscar Benavides"
 	desc = "ÓSCAR_BENAVIDES_DESC"
-	picture = "Portrait_PRU_Óscar_Benavides.dds"
+	picture = "Portrait_PRU_Oscar_Benavides.dds"
 	expire = "1950.1.1"
 	ideology = militarism
 }

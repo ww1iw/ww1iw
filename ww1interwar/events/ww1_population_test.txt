@@ -1,0 +1,25 @@
+add_namespace = state_population_events
+
+state_event = {
+	id = state_population_events.1
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		219 = {
+			set_variable = {
+				name = state_219
+				value = state_population
+			}
+			multiply_variable = {
+				name = state_219
+				value = 1.1
+			}
+			state_population = variable = {
+				name = state_219
+			}
+		}
+	}
+}

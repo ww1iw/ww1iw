@@ -45,7 +45,7 @@ set_politics = {
 	create_country_leader = {
 	name = "Roque Peña"
 	desc = "ROQUE_PEÑA_DESC"
-	picture = "Portrait_ARG_Roque_Peña.dds"
+	picture = "Portrait_ARG_Roque_Pena.dds"
 	expire = "1950.1.1"
 	ideology = conservatism
 }

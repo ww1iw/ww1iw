@@ -43,7 +43,7 @@ set_national_unity = 0.55
 create_country_leader = {
 	name = "Kaarlo Juho Ståhlberg"
 	desc = "POLITICS_KAARLO_STAHLBERG_DESC"
-	picture = "Portrait_finland_Kaarlo_Ståhlberg.dds"
+	picture = "Portrait_finland_Kaarlo_Stahlberg.dds"
 	expire = "1936.9.2"
 	ideology = liberalism
 	}
@@ -89,7 +89,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kaarlo Juho Ståhlberg"
 	desc = "POLITICS_KAARLO_STAHLBERG_DESC"
-	picture = "Portrait_finland_Kaarlo_Ståhlberg.dds"
+	picture = "Portrait_finland_Kaarlo_Stahlberg.dds"
 	expire = "1936.9.2"
 	ideology = liberalism
 	traits = {

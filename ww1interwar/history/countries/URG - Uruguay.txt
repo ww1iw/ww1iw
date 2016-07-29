@@ -45,7 +45,7 @@ set_politics = {
 	create_country_leader = {
 	name = "José Ordóñez"
 	desc = "JOSÉ_ORDÓÑEZ_DESC"
-	picture = "Portrait_URG_José_Ordóñez.dds"
+	picture = "Portrait_URG_Jose_Ordonez.dds"
 	expire = "1950.1.1"
 	ideology = centrism
 }

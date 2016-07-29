@@ -52,7 +52,7 @@ set_politics = {
 	create_country_leader = {
 	name = "Juan Gómez"
 	desc = "JUAN_GÓMEZ_DESC"
-	picture = "Portrait_VEN_Juan_Gómez.dds"
+	picture = "Portrait_VEN_Juan_Gomez.dds"
 	expire = "1950.1.1"
 	ideology = militarism
 }

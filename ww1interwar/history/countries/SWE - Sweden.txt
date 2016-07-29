@@ -43,7 +43,7 @@ set_national_unity = 0.55
 	create_country_leader = {
 		name = "Hjalmar Hammarskjöld"
 		desc = "POLITICS_HJALMAR_HAMMARSKJÖLD_DESC"
-		picture = "Portrait_Sweden_Hjalmar_Hammarskjöld.dds"
+		picture = "Portrait_Sweden_Hjalmar_Hammarskjold.dds"
 		expire = "1946.2.3"
 		ideology = conservatism
 }

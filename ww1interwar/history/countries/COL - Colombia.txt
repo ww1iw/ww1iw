@@ -52,7 +52,7 @@ set_politics = {
 	create_country_leader = {
 	name = "José Concha"
 	desc = "JOSÉ_CONCHA_DESC"
-	picture = "Portrait_COL_José_Concha.dds"
+	picture = "Portrait_COL_Jose_Concha.dds"
 	expire = "1950.1.1"
 	ideology = conservative
 }
