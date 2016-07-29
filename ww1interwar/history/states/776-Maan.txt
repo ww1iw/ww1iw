@@ -2,6 +2,8 @@ state={
 	id=776
 	name="STATE_776"
 	
+	state_category = wasteland
+	
 	history = {
 		owner = RSH
 		1923.1.1 = {
@@ -20,5 +22,4 @@ state={
 	
 	manpower=326200
 	buildings_max_level_factor=1.000
-	state_category=rural
 }
