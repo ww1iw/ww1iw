@@ -1,7 +1,8 @@
+
 state={
 	id=557
-	name="STATE_557" #Tombouctou
-	manpower = 158200 #168196 calculation
+	name="STATE_557" # Mauritania
+	manpower = 2350 #7045 is 2012 pop of the region
 	
 	state_category = wasteland
 
@@ -10,10 +11,10 @@ state={
 		buildings = {
 			infrastructure = 0
 		}
-		add_core_of = MAL
+
 	}
 
 	provinces={
-		1115 2044 7930 7954 10725 10788 
+		1115 10725 10868 
 	}
 }

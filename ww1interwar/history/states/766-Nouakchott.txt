@@ -3,14 +3,14 @@ state={
 	name="STATE_766"
 	manpower = 782360 #429200 vanilla
 	
-	state_category = pastoral
+	state_category = rural
 	
 	history={
 		owner = FRA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			5034 = {
-				naval_base = 3
+				naval_base = 2
 			}
 		}
 		add_core_of = MAU

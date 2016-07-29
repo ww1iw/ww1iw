@@ -2,7 +2,6 @@
  STATE_333:0 "North Borneo"
  STATE_334:0 "Kalimantan"
  STATE_523:0 "South Papua"
- STATE_557:0 "Tombouctou"
  STATE_741:0 "Podgorica"
  STATE_742:0 "Dammam"
  STATE_743:0 "Kars"
@@ -42,5 +41,3 @@
  STATE_777:0 "Asir"
  STATE_778:0 "Al Jawf"
  STATE_779:0 "Palmyra"
- STATE_780:0 "Gao"
- STATE_781:0 "Koulikoro"
