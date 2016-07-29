@@ -2,4 +2,4 @@
 graphical_culture = middle_eastern_gfx
 graphical_culture_2d = middle_eastern_2d 
 
-color = { 152  130  191 }
+color = { 185 172 208 }

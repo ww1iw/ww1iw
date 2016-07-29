@@ -1,5 +1,9 @@
 #reload countrycolors
 
+REB = {
+	color = rgb { 66 66 66 }
+	color_ui = rgb { 66 66 66 }
+}
 WAL = {
 	color = rgb { 205 222 135 }
 	color_ui = rgb { 205 222 135 }
@@ -28,10 +32,6 @@ ARM = {
 	color = rgb { 194 178 124 }
 	color_ui = rgb { 194 178 124 }
 }
-REB = {
-	color = rgb { 66 66 66 }
-	color_ui = rgb { 66 66 66 }
-}
 MAC = {
 	color = rgb { 204 0 102 }
 	color_ui = rgb { 204 0 102 }
@@ -41,24 +41,24 @@ NFL = {
 	color_ui = rgb { 185 30 60 }
 }
 ALG = {
-	color = rgb { 170 133 150 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 90 140 190 }
+	color_ui = rgb { 90 140 190 }
 }
 MAU = {
-	color = rgb { 170 133 150 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 185 172 208 }
+	color_ui = rgb { 185 172 208 }
 }
 MOR = {
-	color = rgb { 170 133 150 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 191  110  62 }
+	color_ui = rgb { 191  110  62 }
 }
 SOM = {
-	color = rgb { 170 133 150 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 6 42 120 }
+	color_ui = rgb { 6 42 120 }
 }
 TUN = {
-	color = rgb { 170 133 150 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 146  134  57 }
+	color_ui = rgb { 146  134  57 }
 }
 MTN = {
 	color = rgb { 152 128 43 }
@@ -108,15 +108,17 @@ LUX = {
 	color = rgb { 160 190 145 } #45 155 159
 	color_ui = rgb { 171 190 152 }
 }
-BEL = { color 	 = rgb { 185 155 66 }
-		color_ui = rgb { 185 155 66 }
-	  }
+BEL = { 
+	color = rgb { 185 155 66 }
+	color_ui = rgb { 185 155 66 }
+}
 HOL = {
 	color = rgb { 175 92 0 }
 	color_ui = rgb { 175 92 0 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	
+	color = rgb { 54 167 156 }
+	color_ui = rgb { 70 217 203 }
 }
 POL = {
 	color = rgb { 197 92 106 }
