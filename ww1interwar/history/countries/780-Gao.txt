@@ -1,0 +1,19 @@
+state={
+	id=780
+	name="STATE_780"
+	manpower = 128520 #144521 calculation
+	
+	state_category = wasteland
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = MAL
+	}
+	
+	provinces={
+		2068 5101 10868 
+	}
+}
