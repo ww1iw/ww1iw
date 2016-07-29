@@ -27,7 +27,7 @@ state={
 
 		}
 		add_core_of = SAU
-		add_claim_of = TUR
+		add_claim_by = TUR
 
 	}
 

@@ -1,4 +1,5 @@
-﻿ideas = {
+ideas = {
+
 	roaring_twenties = {
 		picture = generic_production_bonus
 		allowed = {

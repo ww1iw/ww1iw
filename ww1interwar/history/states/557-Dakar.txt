@@ -10,7 +10,7 @@ state={
 		buildings = {
 			infrastructure = 0
 		}
-		add_core_of = MAL
+		#add_core_of = MAL
 	}
 
 	provinces={
