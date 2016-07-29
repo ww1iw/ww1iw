@@ -12,6 +12,22 @@ FLA = {
 	color = rgb { 72 199 141 }
 	color_ui = rgb { 50 122 89 }
 }
+AZR = {
+	color = rgb { 194 178 124 }
+	color_ui = rgb { 194 178 124 }
+}
+GEO = {
+	color = rgb { 125 102 102 }
+	color_ui = rgb { 125 102 102 }
+}
+TRC = {
+	color = rgb { 209 189 56 }
+	color_ui = rgb { 209 189 56 }
+}
+ARM = {
+	color = rgb { 194 178 124 }
+	color_ui = rgb { 194 178 124 }
+}
 REB = {
 	color = rgb { 66 66 66 }
 	color_ui = rgb { 66 66 66 }

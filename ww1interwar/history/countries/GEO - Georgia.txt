@@ -1,0 +1,44 @@
+oob = "basic_test"
+capital = 231 # Tbilisi
+
+add_ideas = {
+ }
+ 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 81.2
+		}
+		liberal = {
+			popularity = 0.6
+		}
+		conservative = {
+			popularity = 6.1
+		}
+		socialist = {
+			popularity = 11.2
+		}
+		neutrality = {
+			popularity = 0.9
+		}
+		autocratic = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1918.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+

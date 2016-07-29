@@ -1,0 +1,1697 @@
+add_namespace = brest_litovsk
+
+# Eastern Front armistice (1915)
+country_event = {
+	id = brest_litovsk.1
+	title = brest_litovsk.1.t
+	desc = brest_litovsk.1.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		or = {
+			or = {
+				tag = GER
+			}
+			or = {
+				tag = SOV
+			}
+			or = {
+				tag = AUS
+			}
+			or = {
+				tag = TUR
+			}
+		}
+		and = {
+			date > 1915.12.15
+			SOV = {
+				has_government = communism
+			}
+			NOT = {
+				date > 1916.1.1
+				has_global_flag = eastern_front_armistice
+			}		
+		}
+		or = {
+			and = {
+				GER = {
+					is_ai = yes
+				}
+				any_country = {
+					is_in_faction_with = GER
+					controls_state = 10
+					controls_state = 189
+					controls_state = 91
+				}
+			}
+			and = {
+				GER = {
+					is_ai = no
+				}
+				any_country = {
+					is_in_faction_with = GER
+					controls_state = 190
+					controls_state = 96
+					controls_state = 94
+					controls_state = 91
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = brest_litovsk.1.a # We will agree to an armistice for now
+		trigger = {
+			tag = GER
+		}
+		GER = {
+			transfer_state = 87
+			transfer_state = 98
+			transfer_state = 10
+			transfer_state = 90
+			transfer_state = 92
+			transfer_state = 97
+			transfer_state = 189
+			transfer_state = 11
+			transfer_state = 190
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+			transfer_state = 786
+		}
+		GER = {
+			country_event = { id = brest_litovsk.2 days = 7 }
+		}
+		set_global_flag = eastern_front_armistice_1915
+		if = {
+			if = {
+				limit = {
+					GER = {
+						controls_state = 199
+					}
+				}
+				GER = {
+					transfer_state = 199
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 784
+					}
+				}
+				GER = {
+					transfer_state = 784
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 12
+					}
+				}
+				GER = {
+					transfer_state = 12
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 199
+					}
+				}
+				GER = {
+					transfer_state = 199
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 206
+					}
+				}
+				GER = {
+					transfer_state = 206
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 207
+					}
+				}
+				GER = {
+					transfer_state = 207
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 204
+					}
+				}
+				GER = {
+					transfer_state = 204
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 194
+					}
+				}
+				GER = {
+					transfer_state = 194
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 201
+					}
+				}
+				GER = {
+					transfer_state = 201
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 198
+					}
+				}
+				GER = {
+					transfer_state = 198
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 78
+					}
+				}
+				GER = {
+					transfer_state = 78
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 192
+					}
+				}
+				GER = {
+					transfer_state = 192
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 202
+					}
+				}
+				GER = {
+					transfer_state = 202
+				}
+			}
+			if = {
+				limit = {
+					TUR = {
+						controls_state = 743
+					}
+				}
+				TUR = {
+					transfer_state = 743
+				}
+			}
+			if = {
+				limit = {
+					SOV = {
+						controls_state = 354
+					}
+				}
+				SOV = {
+					transfer_state = 354
+				}
+			}
+			if = {
+				limit = {
+					SOV = {
+						controls_state = 353
+					}
+				}
+				SOV = {
+					transfer_state = 353
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						is_in_faction_with = GER
+					}
+				}
+				white_peace = SOV
+			}
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.1.b # We will accept for now
+		trigger = {
+			or = {
+				or = {
+					tag = SOV
+				}
+				or = {
+					tag = AUS
+				}
+				or = {
+					tag = TUR
+				}
+			}
+		}
+	}
+}
+
+# Germans make first proposal
+country_event = {
+	id = brest_litovsk.2
+	title = brest_litovsk.2.t
+	desc = brest_litovsk.2.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.2.a # Create a Greater German Empire
+		ai_chance = { factor = 30 }
+		SOV = {
+			country_event = { id = brest_litovsk.3 days = 30 }
+		}
+	}
+	option = {
+		name = brest_litovsk.2.b # Create puppet states as a buffer
+		ai_chance = { factor = 60 }
+		SOV = {
+			country_event = { id = brest_litovsk.4 days = 30 }
+		}
+	}
+}
+
+# Russian response (1)
+country_event = {
+	id = brest_litovsk.3
+	title = brest_litovsk.3.t
+	desc = brest_litovsk.3.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.3.a # Refuse demands
+		ai_chance = { factor = 95 }
+		GER = {
+			country_event = { id = brest_litovsk.8 days = 28 }
+		}
+		SOV = {
+			country_event = { id = brest_litovsk.5 days = 10 }
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.3.b # Give in
+		ai_chance = { factor = 5 }
+		if = {
+			if = {
+				limit = {
+					has_global_flag = eastern_front_armistice_1915
+				}
+				clr_global_flag = eastern_front_armistice_1915
+			}
+			if = {
+				limit = {
+					has_global_flag = eastern_front_armistice_1916
+				}
+				clr_global_flag = eastern_front_armistice_1916
+			}
+			if = {
+				limit = {
+					has_global_flag = eastern_front_armistice_1917
+				}
+				clr_global_flag = eastern_front_armistice_1917
+			}
+		}
+		set_global_flag = brest_litovsk_treaty
+		GER = {
+			release = POL
+			transfer_state = 87
+			transfer_state = 98
+			transfer_state = 10
+			transfer_state = 92
+			transfer_state = 11
+			transfer_state = 189
+			transfer_state = 190
+			transfer_state = 12
+			transfer_state = 13
+			transfer_state = 191
+			transfer_state = 85
+			transfer_state = 86
+			transfer_state = 756
+			transfer_state = 748
+		}
+		AUS = {
+			transfer_state = 90
+			transfer_state = 786
+		}
+		TUR = {
+			transfer_state = 743
+		}
+		SOV = {
+			release = UKR
+			release_puppet = UKR
+		}
+		POL = {
+			transfer_state = 784
+			transfer_state = 96
+			set_capital = 97
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Zdzizlaw Lubomirski"
+				desc = "POLITICS_LUBOMIRSKI_DESC"
+				picture = "gfx/leaders/POL/Portrait_POL_Lubomirski.dds"
+				expire = "1943.1.1"
+				ideology = monarchism
+			}
+		}
+		UKR = {
+			set_capital = 202
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Pavlo Skoropadskyi"
+				desc = "POLITICS_SKOROPADSKYI_DESC"
+				picture = "gfx/leaders/UKR/Portrait_UKR_Skoropadskyi.dds"
+				expire = "1945.4.26"
+				ideology = monarchism
+			}
+			transfer_state = 192
+			transfer_state = 198
+			transfer_state = 202
+			transfer_state = 201
+			transfer_state = 199
+			transfer_state = 194
+		}
+		GER = {
+			puppet = POL
+			puppet = UKR
+			add_to_faction = UKR
+			add_to_faction = POL
+		}
+	}
+}
+
+# Russian reponse (2)
+country_event = {
+	id = brest_litovsk.4
+	title = brest_litovsk.4.t
+	desc = brest_litovsk.4.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.4.a # Refuse demands
+		ai_chance = { factor = 85 }
+		GER = {
+			country_event = { id = brest_litovsk.8 days = 28 }
+		}
+		SOV = {
+			country_event = { id = brest_litovsk.5 days = 10 }
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.4.b # Give in
+		ai_chance = { factor = 15 }
+		if = {
+			if = {
+				limit = {
+					has_global_flag = eastern_front_armistice_1915
+				}
+				clr_global_flag = eastern_front_armistice_1915
+			}
+			if = {
+				limit = {
+					has_global_flag = eastern_front_armistice_1916
+				}
+				clr_global_flag = eastern_front_armistice_1916
+			}
+			if = {
+				limit = {
+					has_global_flag = eastern_front_armistice_1917
+				}
+				clr_global_flag = eastern_front_armistice_1917
+			}
+		}
+		set_global_flag = brest_litovsk_treaty
+		GER = {
+			release = POL
+			transfer_state = 756
+			transfer_state = 86
+			transfer_state = 85
+			release = LIT
+			transfer_state = 188
+		}
+		SOV = {
+			release = BAL
+			release_puppet = BAL
+			release = UKR
+			release_puppet = UKR
+		}
+		12 = {
+			add_core_of = BAL
+		}
+		191 = {
+			add_core_of = BAL
+		}
+		190 = {
+			add_core_of = BAL
+		}
+		13 = {
+			add_core_of = BAL
+		}
+		BAL = {
+			set_capital = 12
+			transfer_state = 12
+			transfer_state = 190
+			transfer_state = 13
+			transfer_state = 191
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Adolf Pilar von Pilchau"
+				desc = "POLITICS_ADOLF_VON_PILCHAU_DESC"
+				picture = "gfx/leaders/LAT/Portrait_BAL_Adolf_von_Pilchau.dds"
+				expire = "1925.6.17"
+				ideology = monarchism
+			}
+		}
+		LIT = {
+			set_capital = 96
+			transfer_state = 96
+			transfer_state = 784
+			transfer_state = 95
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Antanas Smetona"
+				desc = "POLITICS_ANTANAS_SMETONA_DESC"
+				picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona.dds"
+				expire = "1945.4.26"
+				ideology = monarchism
+			}
+		}
+		UKR = {
+			set_capital = 202
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Pavlo Skoropadskyi"
+				desc = "POLITICS_SKOROPADSKYI_DESC"
+				picture = "gfx/leaders/UKR/Portrait_UKR_Skoropadskyi.dds"
+				expire = "1945.4.26"
+				ideology = monarchism
+			}
+			transfer_state = 192
+			transfer_state = 198
+			transfer_state = 202
+			transfer_state = 201
+			transfer_state = 199
+			transfer_state = 194
+			transfer_state = 94
+			transfer_state = 93
+		}
+		POL = {
+			set_capital = 10
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Zdzizlaw Lubomirski"
+				desc = "POLITICS_LUBOMIRSKI_DESC"
+				picture = "gfx/leaders/POL/Portrait_POL_Lubomirski.dds"
+				expire = "1943.1.1"
+				ideology = monarchism
+			}
+		}
+		GER = {
+			puppet = BAL
+			puppet = UKR
+			add_to_faction = BAL
+			add_to_faction = LIT
+			add_to_faction = POL
+			add_to_faction = UKR
+		}
+	}
+}
+
+# Ukraine declares independence
+country_event = {
+	id = brest_litovsk.5
+	title = brest_litovsk.5.t
+	desc = brest_litovsk.5.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.5.a # Crush them!
+		ai_chance = { factor = 100 }
+		SOV = {
+			release = UKR
+			release_puppet = UKR
+			declare_war_on = {
+				target = UKR
+				type = annex_everything
+			}
+		}
+		UKR = {
+			set_capital = 202
+			country_event = { id = brest_litovsk.6 days = 11 }
+			set_politics = {
+				ruling_party = socialist
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Mykhailo Hrushevsky"
+				desc = "POLITICS_HRUSHEVSKY_DESC"
+				picture = "gfx/leaders/UKR/Portrait_UKR_Hrushevsky.dds"
+				expire = "1934.11.24"
+				ideology = socialism
+			}
+			create_field_marshal = {
+				name = "Symon Petliura"
+				portrait_path = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.dds"
+				skill = 3
+			}
+			create_corps_commander = {
+				name = "Mykhailo Pavlenko"
+				portrait_path = "gfx/leaders/UKR/Portrait_UKR_Mykhailo_Pavlenko.dds"
+				skill = 3
+			}
+			create_corps_commander = {
+				name = "Oleksandr Hrekov"
+				portrait_path = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Hrekov.dds"
+				skill = 4
+			}
+
+			transfer_state = 192
+			transfer_state = 198
+			transfer_state = 202
+			transfer_state = 201
+			transfer_state = 199
+			transfer_state = 194
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.5.b # For Ukraine!
+		ai_chance = { factor = 0 }
+		SOV = {
+			release = UKR
+			release_puppet = UKR
+			declare_war_on = {
+				target = UKR
+				type = annex_everything
+			}
+		}
+		UKR = {
+			change_tag_from = SOV
+			country_event = { id = brest_litovsk.6 days = 11 }
+			set_capital = 202
+			set_politics = {
+				ruling_party = socialist
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Mykhailo Hrushevsky"
+				desc = "POLITICS_HRUSHEVSKY_DESC"
+				picture = "gfx/leaders/UKR/Portrait_UKR_Hrushevsky.dds"
+				expire = "1934.11.24"
+				ideology = socialism
+			}
+			transfer_state = 192
+			transfer_state = 198
+			transfer_state = 202
+			transfer_state = 201
+			transfer_state = 199
+			transfer_state = 194
+		}
+	}
+}
+
+# Request help from the Germans
+country_event = {
+	id = brest_litovsk.6
+	title = brest_litovsk.6.t
+	desc = brest_litovsk.6.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.6.a # Get their support against the Bolsheviks
+		ai_chance = { factor = 97 }
+		GER = {
+			country_event = { id = brest_litovsk.7 days = 2 }
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.6.b # We do not need any help
+		ai_chance = { factor = 3 }
+		UKR = {
+			add_national_unity = -0.1
+		}
+	}
+}
+
+# Sign First Treaty of Brest-Litovsk
+country_event = {
+	id = brest_litovsk.7
+	title = brest_litovsk.7.t
+	desc = brest_litovsk.7.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.7.a # Sign the treaty
+		ai_chance = { factor = 100 }
+		GER = {
+			add_to_faction = UKR
+			add_manpower = 100000
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.7.b # No thanks
+		ai_chance = { factor = 0 }
+	}
+}
+
+# Bolsheviks refuse demands
+country_event = {
+	id = brest_litovsk.8
+	title = brest_litovsk.8.t
+	desc = brest_litovsk.8.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.8.a # We gave them their chance
+		GER = {
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+		}
+	}
+}
+
+# Ask the Germans for peace
+country_event = {
+	id = brest_litovsk.9
+	title = brest_litovsk.9.t
+	desc = brest_litovsk.9.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		or = {
+			and = {
+				date > 1916.2.25
+				has_global_flag = eastern_front_armistice_1915
+				SOV = {
+					is_at_war_with = GER
+					has_government = communism
+				}
+			}
+			and = {
+				date > 1917.2.25
+				has_global_flag = eastern_front_armistice_1916
+				SOV = {
+					is_at_war_with = GER
+					has_government = communism
+				}
+			}
+			and = {
+				date > 1918.2.25
+				has_global_flag = eastern_front_armistice_1917
+				SOV = {
+					is_at_war_with = GER
+					has_government = communism
+				}
+			}
+		}
+		and = {
+			NOT = {
+				SOV = {
+					controls_state = 202
+					controls_state = 95
+					controls_state = 190
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = brest_litovsk.9.a # A treaty is our only hope
+		ai_chance = { factor = 100 }
+		GER = {
+			country_event = { id = brest_litovsk.10 days = 1 }
+		}
+	}
+}
+
+# Treaty of Brest-Litovsk
+country_event = {
+	id = brest_litovsk.10
+	title = brest_litovsk.10.t
+	desc = brest_litovsk.10.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.10.a # Victory in the east!
+		set_global_flag = brest_litovsk_treaty
+		if = {
+			if = {
+				limit = {
+					has_global_flag = eastern_front_armistice_1915
+				}
+				clr_global_flag = eastern_front_armistice_1915
+			}
+			if = {
+				limit = {
+					has_global_flag = eastern_front_armistice_1916
+				}
+				clr_global_flag = eastern_front_armistice_1916
+			}
+			if = {
+				limit = {
+					has_global_flag = eastern_front_armistice_1917
+				}
+				clr_global_flag = eastern_front_armistice_1917
+			}
+		}
+		if = {
+			limit = {
+				ROM = {
+					is_in_faction_with = FRA
+				}
+			}	
+			ROM = {
+				country_event = { id = brest_litovsk.11 days = 6 }
+			}
+		}
+		if = {
+				limit = {
+					any_country = {
+						is_in_faction_with = GER
+					}
+				}
+				white_peace = SOV
+		}
+		GER = {
+			release = POL
+			transfer_state = 756
+			transfer_state = 86
+			transfer_state = 85
+			release = LIT
+			transfer_state = 188
+		}
+		12 = {
+			add_core_of = BAL
+		}
+		191 = {
+			add_core_of = BAL
+		}
+		190 = {
+			add_core_of = BAL
+		}
+		13 = {
+			add_core_of = BAL
+		}
+		SOV = {
+			release = BAL
+			release_puppet = BAL
+			release = FIN
+			release_puppet = FIN
+		}
+		UKR = {
+			transfer_state = 93
+			transfer_state = 94
+		}
+		POL = {
+			set_capital = 10
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Zdzizlaw Lubomirski"
+				desc = "POLITICS_LUBOMIRSKI_DESC"
+				picture = "gfx/leaders/POL/Portrait_POL_Lubomirski.dds"
+				expire = "1943.1.1"
+				ideology = monarchism
+			}
+		}
+		LIT = {
+			set_capital = 96
+			transfer_state = 96
+			transfer_state = 784
+			transfer_state = 95
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Antanas Smetona"
+				desc = "POLITICS_ANTANAS_SMETONA_DESC"
+				picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona.dds"
+				expire = "1945.4.26"
+				ideology = monarchism
+			}
+		}
+		BAL = {
+			set_capital = 12
+			transfer_state = 12
+			transfer_state = 190
+			transfer_state = 13
+			transfer_state = 191
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Adolf Pilar von Pilchau"
+				desc = "POLITICS_ADOLF_VON_PILCHAU_DESC"
+				picture = "gfx/leaders/LAT/Portrait_BAL_Adolf_von_Pilchau.dds"
+				expire = "1925.6.17"
+				ideology = monarchism
+			}
+		}
+		FIN = {
+			set_capital = 111
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Pehr Evind Svinhufvud"
+				desc = "POLITICS_PEHR_EVIND_SVINHUFVUD_DESC"
+				picture = "gfx/leaders/FIN/Portrait_FIN_Svinhufvud.dds"
+				expire = "1944.2.29"
+				ideology = monarchism
+			}
+		}
+		GER = {
+			puppet = FIN
+			puppet = BAL
+			puppet = LIT
+			puppet = POL
+		}
+		TUR = {
+			transfer_state = 743
+		}
+	}
+}
+
+# Romania asks Germans for peace
+country_event = {
+	id = brest_litovsk.11
+	title = brest_litovsk.11.t
+	desc = brest_litovsk.11.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.11.a # We must make peace
+		ai_chance = { factor = 100 }
+		GER = {
+			country_event = { id = brest_litovsk.12 days = 1 }
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.11.b # We will never surrender!
+		ai_chance = { factor = 0 }
+		ROM = {
+			add_national_unity = -0.1
+		}
+	}
+}
+
+# Treaty of Bucharest
+country_event = {
+	id = brest_litovsk.12
+	title = brest_litovsk.12.t
+	desc = brest_litovsk.12.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.12.a # Good
+		if = {
+				limit = {
+					any_country = {
+						is_in_faction_with = GER
+					}
+				}
+				white_peace = ROM
+		}
+		BUL = {
+			transfer_state = 77
+			transfer_state = 788
+		}
+		GER = {
+			transfer_state = 46
+			transfer_state = 81
+		}
+		ROM = {
+			transfer_state = 78
+		}
+	}
+}
+
+# Polish Border Strip
+country_event = {
+	id = brest_litovsk.13
+	title = brest_litovsk.13.t
+	desc = brest_litovsk.13.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1918.4.1
+		tag = GER
+		country_exists = POL
+		POL = {
+			is_in_faction_with = GER
+			controls_state = 98
+			controls_state = 87
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = brest_litovsk.13.a # Annex it to the Reich
+		ai_chance = { factor = 75 }
+		GER = {
+			add_national_unity = -0.05
+			transfer_state = 98
+			transfer_state = 87
+		}
+		98 = {
+			add_core_of = GER
+		}
+		87 = {
+			add_core_of = GER
+		}
+		POL = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = GER
+					value < -15
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.13.b # Keep the current borders
+		GER = {
+			add_national_unity = 0.05
+		}
+		POL = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = GER
+					value < 15
+				}
+			}
+		}
+	}
+}
+
+# Request Eastern Galicia
+country_event = {
+	id = brest_litovsk.14
+	title = brest_litovsk.14.t
+	desc = brest_litovsk.14.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1918.4.1
+		tag = UKR
+		UKR = {
+			is_in_faction_with = GER
+		}
+		AUS = {
+			controls_state = 91
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = brest_litovsk.14.a # Ask Austria-Hungary
+		AUS = {
+			country_event = { id = brest_litovsk.15 days = 1 }
+		}
+	}
+}
+
+# Give Lemburg to Ukraine?
+country_event = {
+	id = brest_litovsk.15
+	title = brest_litovsk.15.t
+	desc = brest_litovsk.15.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = brest_litovsk.15.a # Make the deal
+		ai_chance = { factor = 30 }
+		UKR = {
+			transfer_state = 91
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = AUS
+					value < 15
+				}
+			}
+		}
+		AUS = {
+			add_manpower = 80000
+			add_national_unity = 0.10
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.15.b # Refuse
+		ai_chance = { factor = 70 }
+		UKR = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = AUS
+					value < -15
+				}
+			}
+		}
+		AUS = {
+			add_national_unity = -0.10
+		}
+	}
+}
+
+# Eastern Front armistice (1916)
+country_event = {
+	id = brest_litovsk.16
+	title = brest_litovsk.16.t
+	desc = brest_litovsk.16.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		or = {
+			or = {
+				tag = GER
+			}
+			or = {
+				tag = SOV
+			}
+			or = {
+				tag = AUS
+			}
+			or = {
+				tag = TUR
+			}
+		}
+		and = {
+			date > 1916.12.15
+			SOV = {
+				has_government = communism
+			}		
+			NOT = {
+				date > 1917.1.1
+				has_global_flag = eastern_front_armistice_1915
+			}
+		}
+		or = {
+			and = {
+				GER = {
+					is_ai = yes
+				}
+				any_country = {
+					is_in_faction_with = GER
+					controls_state = 10
+					controls_state = 189
+					controls_state = 91
+				}
+			}
+			and = {
+				GER = {
+					is_ai = no
+				}
+				any_country = {
+					is_in_faction_with = GER
+					controls_state = 190
+					controls_state = 96
+					controls_state = 94
+					controls_state = 91
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = brest_litovsk.16.a # We will agree to an armistice for now
+		trigger = {
+			tag = GER
+		}
+		GER = {
+			transfer_state = 87
+			transfer_state = 98
+			transfer_state = 10
+			transfer_state = 90
+			transfer_state = 92
+			transfer_state = 97
+			transfer_state = 189
+			transfer_state = 11
+			transfer_state = 190
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+			transfer_state = 786
+		}
+		GER = {
+			country_event = { id = brest_litovsk.2 days = 7 }
+		}
+		set_global_flag = eastern_front_armistice_1916
+		if = {
+			if = {
+				limit = {
+					GER = {
+						controls_state = 199
+					}
+				}
+				GER = {
+					transfer_state = 199
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 784
+					}
+				}
+				GER = {
+					transfer_state = 784
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 12
+					}
+				}
+				GER = {
+					transfer_state = 12
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 199
+					}
+				}
+				GER = {
+					transfer_state = 199
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 206
+					}
+				}
+				GER = {
+					transfer_state = 206
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 207
+					}
+				}
+				GER = {
+					transfer_state = 207
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 204
+					}
+				}
+				GER = {
+					transfer_state = 204
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 194
+					}
+				}
+				GER = {
+					transfer_state = 194
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 201
+					}
+				}
+				GER = {
+					transfer_state = 201
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 198
+					}
+				}
+				GER = {
+					transfer_state = 198
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 78
+					}
+				}
+				GER = {
+					transfer_state = 78
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 192
+					}
+				}
+				GER = {
+					transfer_state = 192
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 202
+					}
+				}
+				GER = {
+					transfer_state = 202
+				}
+			}
+			if = {
+				limit = {
+					TUR = {
+						controls_state = 743
+					}
+				}
+				TUR = {
+					transfer_state = 743
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 231
+					}
+				}
+				TUR = {
+					transfer_state = 231
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						is_in_faction_with = GER
+					}
+				}
+				white_peace = SOV
+			}
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.16.b # We will accept for now
+		trigger = {
+			or = {
+				or = {
+					tag = SOV
+				}
+				or = {
+					tag = AUS
+				}
+				or = {
+					tag = TUR
+				}
+			}
+		}
+	}
+}
+
+# Eastern Front armistice (1917)
+country_event = {
+	id = brest_litovsk.17
+	title = brest_litovsk.17.t
+	desc = brest_litovsk.17.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		or = {
+			or = {
+				tag = GER
+			}
+			or = {
+				tag = SOV
+			}
+			or = {
+				tag = AUS
+			}
+			or = {
+				tag = TUR
+			}
+		}
+		and = {
+			and = {
+				date > 1917.12.15
+				SOV = {
+					has_government = communism
+				}
+			}
+		}
+		or = {
+			and = {
+				GER = {
+					is_ai = yes
+				}
+				any_country = {
+					is_in_faction_with = GER
+					controls_state = 10
+					controls_state = 189
+					controls_state = 91
+				}
+			}
+			and = {
+				GER = {
+					is_ai = no
+				}
+				any_country = {
+					is_in_faction_with = GER
+					controls_state = 190
+					controls_state = 96
+					controls_state = 94
+					controls_state = 91
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = brest_litovsk.17.a # We will agree to an armistice for now
+		trigger = {
+			tag = GER
+		}
+		GER = {
+			transfer_state = 87
+			transfer_state = 98
+			transfer_state = 10
+			transfer_state = 90
+			transfer_state = 92
+			transfer_state = 97
+			transfer_state = 189
+			transfer_state = 11
+			transfer_state = 190
+			transfer_state = 96
+			transfer_state = 95
+			transfer_state = 94
+			transfer_state = 93
+			transfer_state = 786
+		}
+		GER = {
+			country_event = { id = brest_litovsk.2 days = 7 }
+		}
+		set_global_flag = eastern_front_armistice_1917
+		if = {
+			if = {
+				limit = {
+					GER = {
+						controls_state = 199
+					}
+				}
+				GER = {
+					transfer_state = 199
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 784
+					}
+				}
+				GER = {
+					transfer_state = 784
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 12
+					}
+				}
+				GER = {
+					transfer_state = 12
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 199
+					}
+				}
+				GER = {
+					transfer_state = 199
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 206
+					}
+				}
+				GER = {
+					transfer_state = 206
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 207
+					}
+				}
+				GER = {
+					transfer_state = 207
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 204
+					}
+				}
+				GER = {
+					transfer_state = 204
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 194
+					}
+				}
+				GER = {
+					transfer_state = 194
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 201
+					}
+				}
+				GER = {
+					transfer_state = 201
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 198
+					}
+				}
+				GER = {
+					transfer_state = 198
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 78
+					}
+				}
+				GER = {
+					transfer_state = 78
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 192
+					}
+				}
+				GER = {
+					transfer_state = 192
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 202
+					}
+				}
+				GER = {
+					transfer_state = 202
+				}
+			}
+			if = {
+				limit = {
+					TUR = {
+						controls_state = 743
+					}
+				}
+				TUR = {
+					transfer_state = 743
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						controls_state = 231
+					}
+				}
+				TUR = {
+					transfer_state = 231
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						is_in_faction_with = GER
+					}
+				}
+				white_peace = SOV
+			}
+		}
+	}
+	
+	option = {
+		name = brest_litovsk.17.b # We will accept for now
+		trigger = {
+			or = {
+				or = {
+					tag = SOV
+				}
+				or = {
+					tag = AUS
+				}
+				or = {
+					tag = TUR
+				}
+			}
+		}
+	}
+}

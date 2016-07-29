@@ -1,0 +1,1287 @@
+add_namespace = caucasus
+
+# Transcaucasia declares independence (1916)
+country_event = {
+	id = caucasus.1
+	title = caucasus.1.t
+	desc = caucasus.1.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1916.4.22
+		tag = SOV
+		NOT = {
+			date > 1916.4.23
+		}
+		has_global_flag = brest_litovsk_treaty
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = caucasus.1.a # Damn!
+		if = {
+			limit = {
+				SOV = {
+					controls_state = 354
+				}
+			}
+			TRC = {
+				transfer_state = 354
+			}
+		}
+		if = {
+			limit = {
+				SOV = {
+					controls_state = 353
+				}
+			}
+			TRC = {
+				transfer_state = 353
+			}
+		}
+		790 = {
+			add_claim_by = TUR
+		}
+		791 = {
+			add_claim_by = TUR
+		}
+		SOV = {
+			release = TRC
+			release_puppet = TRC
+		}
+		TRC = {
+			set_capital = 792
+			transfer_state = 229
+			transfer_state = 789
+			transfer_state = 230
+			transfer_state = 231
+			transfer_state = 743
+			transfer_state = 791
+			transfer_state = 790
+			transfer_state = 792
+			transfer_state = 793
+			
+			set_politics = {
+
+				parties = {
+					democratic = { 
+						popularity = 36
+					}
+					liberal = {
+						popularity = 34
+					}
+					conservative = {
+						popularity = 0
+					}
+					socialist = {
+						popularity = 30
+					}
+					neutrality = {
+						popularity = 0
+					}
+					autocratic = {
+						popularity = 0
+					}
+					natsoc = {
+						popularity = 0
+					}
+					communism = {
+						popularity = 0
+					}
+					fascism = {
+						popularity = 0
+					}
+				}
+	
+				ruling_party = democratic
+				last_election = "1916.1.1"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+			
+			create_country_leader = {
+				name = "Nikolay Chkheidze"
+				desc = "NIKOLAY_CHKHEIDZE_DESC"
+				picture = "gfx/leaders/TRC/Portrait_TRC_Nikolay_Chkheidze.dds"
+				expire = "1926.6.13" 
+				ideology = centrist
+			}
+			create_country_leader = {
+				name = "Mammad Amin Rasulzade"
+				desc = "MAMMAD_AMIN_RASULZADE_DESC"
+				picture = "gfx/leaders/TRC/Portrait_TRC_Mammad_Amin_Rasulzade.dds"
+				expire = "1955.3.6" 
+				ideology = liberalism
+			}
+			create_country_leader = {
+				name = "Hovhannes Kajaznuni"
+				desc = "HOVHANNES_KAJAZNUNI_DESC"
+				picture = "gfx/leaders/TRC/Portrait_TRC_Hovhannes_Kajaznuni.dds"
+				expire = "1938.2.1" 
+				ideology = socialism
+			}
+			create_corps_commander = {
+				name = "Ali-Agha Shikhlinski"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Ali_Agha_Shikhlinski.dds"
+				skill = 3
+			}
+			create_corps_commander = {
+				name = "Giorgi Kvinitadze"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Giorgi_Kvinitadze.dds"
+				skill = 3
+			}
+			create_corps_commander = {
+				name = "Adranik Ozanian"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Adranik_Ozanian.dds"
+				skill = 4
+			}
+		}
+		TUR = {
+			country_event = { id = caucasus.4 days = 1 }
+		}
+		set_global_flag = transcaucasia_1916
+	}
+}
+
+# Transcaucasia declares independence (1917)
+country_event = {
+	id = caucasus.2
+	title = caucasus.2.t
+	desc = caucasus.2.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1917.4.22
+		tag = SOV
+		NOT = {
+			date > 1917.4.23
+		}
+		has_global_flag = brest_litovsk_treaty
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = caucasus.2.a # Damn!
+		790 = {
+			add_claim_by = TUR
+		}
+		791 = {
+			add_claim_by = TUR
+		}
+		SOV = {
+			release = TRC
+			release_puppet = TRC
+		}
+		TRC = {
+			transfer_state = 229
+			transfer_state = 789
+			transfer_state = 230
+			transfer_state = 231
+			transfer_state = 743
+			transfer_state = 791
+			transfer_state = 790
+			
+			set_politics = {
+
+				parties = {
+					democratic = { 
+						popularity = 36
+					}
+					liberal = {
+						popularity = 34
+					}
+					conservative = {
+						popularity = 0
+					}
+					socialist = {
+						popularity = 30
+					}
+					neutrality = {
+						popularity = 0
+					}
+					autocratic = {
+						popularity = 0
+					}
+					natsoc = {
+						popularity = 0
+					}
+					communism = {
+						popularity = 0
+					}
+					fascism = {
+						popularity = 0
+					}
+				}
+	
+				ruling_party = democratic
+				last_election = "1917.1.1"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+		}
+		TUR = {
+			country_event = { id = caucasus.4 days = 1 }
+		}
+		set_global_flag = transcaucasia_1917
+	}
+}
+
+# Transcaucasia declares independence (1918)
+country_event = {
+	id = caucasus.3
+	title = caucasus.3.t
+	desc = caucasus.3.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1918.4.22
+		tag = SOV
+		NOT = {
+			date > 1918.4.23
+		}
+		has_global_flag = brest_litovsk_treaty
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = caucasus.3.a # Damn!
+		229 = {
+			add_core = TRC
+			add_core = AZR
+		}
+		789 = {
+			add_core = TRC
+			add_core = ARM
+			add_core = AZR
+		}
+		230 = {
+			add_core = TRC
+			add_core = ARM
+		}
+		231 = {
+			add_core = TRC
+			add_core = GEO
+		}
+		743 = {
+			add_core = TRC
+			add_core = ARM
+		}
+		353 = {
+			add_core = ARM
+		}
+		354 = {
+			add_core = ARM
+		}
+		419 = {
+			add_core = AZR
+		}
+		790 = {
+			add_core = TRC
+			add_core = ARM
+			add_claim_by = TUR
+		}
+		791 = {
+			add_core = TRC
+			add_core = GEO
+			add_claim_by = TUR
+		}
+		SOV = {
+			release = TRC
+			release_puppet = TRC
+		}
+		TRC = {
+			transfer_state = 229
+			transfer_state = 789
+			transfer_state = 230
+			transfer_state = 231
+			transfer_state = 743
+			transfer_state = 791
+			transfer_state = 790
+			
+			set_politics = {
+
+				parties = {
+					democratic = { 
+						popularity = 36
+					}
+					liberal = {
+						popularity = 34
+					}
+					conservative = {
+						popularity = 0
+					}
+					socialist = {
+						popularity = 30
+					}
+					neutrality = {
+						popularity = 0
+					}
+					autocratic = {
+						popularity = 0
+					}
+					natsoc = {
+						popularity = 0
+					}
+					communism = {
+						popularity = 0
+					}
+					fascism = {
+						popularity = 0
+					}
+				}
+	
+				ruling_party = democratic
+				last_election = "1918.1.1"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+		}
+		TUR = {
+			country_event = { id = caucasus.4 days = 1 }
+		}
+		set_global_flag = transcaucasia_1918
+	}
+}
+
+# Ottomans respond
+country_event = {
+	id = caucasus.4
+	title = caucasus.4.t
+	desc = caucasus.4.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.4.a # Those are our lands!
+		ai_chance = { factor = 95 }
+		TUR = {
+			declare_war_on = {
+				target = TRC
+				type = take_state
+				generator = { 743 }
+				generator = { 790 }
+				generator = { 791 }
+			}		
+		}		
+	}
+	
+	option = {
+		name = caucasus.4.b # It's not worth it
+		ai_chance = { factor = 5 }
+		TUR = {
+			add_national_unity = -0.075
+			remove_state_claim = 790
+			remove_state_claim = 791
+		}
+	}
+}
+
+# Ceasefire to negotiate
+country_event = {
+	id = caucasus.5
+	title = caucasus.5.t
+	desc = caucasus.5.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+
+	trigger = {	
+		or = {
+				tag = TUR
+				tag = TRC
+		}
+		or = {
+			and = {
+				has_global_flag = transcaucasia_1916
+				date > 1916.5.1
+				TUR = {
+					is_at_war_with = TRC
+					controls_state = 743
+					controls_state = 790
+					controls_state = 791
+					controls_state = 353
+					controls_state = 354
+				}
+			}
+			and = {
+				has_global_flag = transcaucasia_1917
+				date > 1917.5.1
+				is_at_war_with = TRC
+				TUR = {
+					is_at_war_with = TRC
+					controls_state = 743
+					controls_state = 790
+					controls_state = 791
+					controls_state = 353
+					controls_state = 354
+				}
+			}
+			and = {
+				has_global_flag = transcaucasia_1918
+				date > 1918.5.1
+				is_at_war_with = TRC
+				TUR = {
+					is_at_war_with = TRC
+					controls_state = 743
+					controls_state = 790
+					controls_state = 791
+					controls_state = 353
+					controls_state = 354
+				}
+			}
+		}
+	}	
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = caucasus.5.a # We should negotiate
+		trigger = {
+			tag = TUR
+		}	
+		TUR = {
+			white_peace = TRC
+			transfer_state = 743
+			transfer_state = 790
+			transfer_state = 791
+			transfer_state = 353
+			transfer_state = 354
+			country_event = { id = caucasus.6 days = 10 }
+		}
+	}
+	
+	option = {
+		name = caucasus.5.b # We should negotiate
+		trigger = {
+			tag = TRC
+		}
+		TRC = {
+			add_national_unity = -0.05
+		}
+	}
+}
+
+# Send demands
+country_event = {
+	id = caucasus.6
+	title = caucasus.6.t
+	desc = caucasus.6.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.6.a # Keep our current gains
+		ai_chance = { factor = 20 }
+		modifier = {
+			factor = 1
+			has_opinion = {
+				target = TRC
+				value < 15
+			}
+		}
+		TRC = {
+			country_event = { id = caucasus.7 days = 10 }
+		}
+	}
+	
+	option = {
+		name = caucasus.6.b # Extend our demands
+		ai_chance = { factor = 80 }
+		TUR = {
+			add_state_claim = 792
+			add_state_claim = 793
+		}
+		TRC = {
+			country_event = { id = caucasus.8 days = 10 }
+		} 
+	}
+}
+
+# Transcaucasian response (1)
+country_event = {
+	id = caucasus.7
+	title = caucasus.7.t
+	desc = caucasus.7.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.7.a # Good
+		add_national_unity = 0.15
+	}
+}
+
+# Transcaucasian response {2}
+country_event = {
+	id = caucasus.8
+	title = caucasus.8.t
+	desc = caucasus.8.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.8.a # No deal
+		ai_chance = { factor = 90 }
+		TUR = {
+			declare_war_on = {
+				target = TRC
+				type = take_state
+				generator = { 793 }
+				generator = { 230 }
+				generator = { 789 }
+			}
+		}
+		TRC = {
+			country_event = { id = caucasus.9 days = 4 }
+		}
+	}
+	
+	option = {
+		name = caucasus.8.b # Fine
+		ai_chance = { factor = 10 }
+		add_national_unity = -0.05
+		TUR = {
+			transfer_state = 793
+			transfer_state = 792
+		}
+		TRC = {
+			country_event = { id = caucasus.9 days = 4 }
+		}
+	}
+}
+
+# Georgia declares independence
+country_event = {
+	id = caucasus.9
+	title = caucasus.9.t
+	desc = caucasus.9.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.9.a # The union is breaking
+		ai_chance = 90
+		TRC = {
+			release = GEO
+			release_puppet = GEO
+			country_event = { id = caucasus.10 days = 2 }
+		}
+		TUR = {
+			declare_war_on = {
+				target = GEO
+				type = take_state
+				generator = { 792 }
+			}
+		}
+		GER = {
+			country_event = { id = caucasus.11 days = 2 }
+		}
+		GEO = {
+			set_politics = {
+			
+				parties = {
+					democratic = { 
+						popularity = 81.2
+					}
+					liberal = {
+						popularity = 0.6
+					}
+					conservative = {
+						popularity = 6.1
+					}
+					socialist = {
+						popularity = 11.2
+					}
+					neutrality = {
+						popularity = 0.9
+					}
+					autocratic = {
+						popularity = 0
+					}
+					natsoc = {
+						popularity = 0
+					}
+					communism = {
+						popularity = 0
+					}
+					fascism = {
+						popularity = 0
+					}
+				}
+	
+				ruling_party = democratic
+				last_election = "1918.1.1"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+
+			create_country_leader = {
+				name = "Noe Ramishvili"
+				desc = "NIKOLAY_CHKHEIDZE_DESC"
+				picture = "gfx/leaders/GEO/Portrait_GEO_Neo_Ramishvili.dds"
+				expire = "1926.6.13" 
+				ideology = centrist
+			}
+			create_country_leader = {
+				name = "Giorgi Laskhishvili"
+				desc = "NIKOLAY_CHKHEIDZE_DESC"
+				picture = "gfx/leaders/GEO/Portrait_GEO_Giorgi_Laskhishvili.dds"
+				expire = "1931.3.15" 
+				ideology = socialist
+			}
+			create_country_leader = {
+				name = "Nikolos Nikoladze"
+				desc = "NIKOLAY_CHKHEIDZE_DESC"
+				picture = "gfx/leaders/GEO/Portrait_GEO_Nikolos_Nikoladze.dds"
+				expire = "1928.4.5" 
+				ideology = conservative
+			}
+			create_corps_commander = {
+				name = "Ilia Odishelidze"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Ilia_Odishelidze.dds"
+				skill = 3
+			}
+			create_corps_commander = {
+				name = "Giorgi Kvinitadze"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Giorgi_Kvinitadze.dds"
+				skill = 4
+			}
+		}
+	}
+	
+	option = {
+		name = caucasus.9.b # The federation must stay intact!
+		ai_chance = 10
+		TRC = {
+			release = GEO
+			release_puppet = GEO
+			declare_war_on = {
+				target = GEO
+				type = take_everything
+			}
+		}
+		GER = {
+			country_event = { id = caucasus.11 days = 2 }
+		}
+		GEO = {
+			transfer_state = 231
+			transfer_state = 792
+			set_capital = 792
+			set_politics = {
+			
+				parties = {
+					democratic = { 
+						popularity = 81.2
+					}
+					liberal = {
+						popularity = 0.6
+					}
+					conservative = {
+						popularity = 6.1
+					}
+					socialist = {
+						popularity = 11.2
+					}
+					neutrality = {
+						popularity = 0.9
+					}
+					autocratic = {
+						popularity = 0
+					}
+					natsoc = {
+						popularity = 0
+					}
+					communism = {
+						popularity = 0
+					}
+					fascism = {
+						popularity = 0
+					}
+				}
+	
+				ruling_party = democratic
+				last_election = "1918.1.1"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+
+			create_country_leader = {
+				name = "Noe Ramishvili"
+				desc = "NIKOLAY_CHKHEIDZE_DESC"
+				picture = "gfx/leaders/GEO/Portrait_GEO_Neo_Ramishvili.dds"
+				expire = "1926.6.13" 
+				ideology = centrist
+			}
+			create_country_leader = {
+				name = "Giorgi Laskhishvili"
+				desc = "NIKOLAY_CHKHEIDZE_DESC"
+				picture = "gfx/leaders/GEO/Portrait_GEO_Giorgi_Laskhishvili.dds"
+				expire = "1931.3.15" 
+				ideology = socialist
+			}
+			create_country_leader = {
+				name = "Nikolos Nikoladze"
+				desc = "NIKOLAY_CHKHEIDZE_DESC"
+				picture = "gfx/leaders/GEO/Portrait_GEO_Nikolos_Nikoladze.dds"
+				expire = "1928.4.5" 
+				ideology = conservative
+			}
+			create_corps_commander = {
+				name = "Ilia Odishelidze"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Ilia_Odishelidze.dds"
+				skill = 3
+			}
+			create_corps_commander = {
+				name = "Giorgi Kvinitadze"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Giorgi_Kvinitadze.dds"
+				skill = 3
+			}
+		}
+	}
+}
+
+# Transcaucasian Federation breaks down
+country_event = {
+	id = caucasus.10
+	title = caucasus.10.t
+	desc = caucasus.10.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.10.a # The Federation is over
+		ai_chance = 90
+		TRC = {
+			release = AZR
+			release_puppet = AZR
+			release = ARM
+			release_puppet = ARM
+		}
+		TUR = {
+			declare_war_on = {
+				target = ARM
+				type = take_state
+				generator = { 793 }
+				generator = { 230 }
+			}
+			country_event = { id = caucasus.12 days = 2 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					TUR = {
+						is_in_faction_with = ENG
+					}
+				}
+			}
+			ENG = {
+				country_event = { id = caucasus.13 days = 5 }
+			}
+		}
+		AZR = {
+			set_capital = 229
+			transfer_state = 229
+			declare_war_on = {
+				target = ARM
+				type = take_state
+				generator = { 789 }
+			}
+			set_politics = {
+
+				parties = {
+					democratic = { 
+						popularity = 7.8
+					}
+					liberal = {
+						popularity = 54.8
+					}
+					conservative = {
+						popularity = 26.2
+					}
+					socialist = {
+						popularity = 0
+					}
+					neutrality = {
+						popularity = 4.3
+					}
+					autocratic = {
+						popularity = 0
+					}
+					natsoc = {
+						popularity = 0
+					}
+					communism = {
+						popularity = 6.9
+					}
+					fascism = {
+						popularity = 0
+					}
+				}
+	
+				ruling_party = liberal
+				last_election = "1918.1.1"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+			
+			create_country_leader = {
+				name = "Fatali Khan Khoyski"
+				desc = "FATALI_KHAN_KHOYSKI_DESC"
+				picture = "gfx/leaders/AZR/Portrait_AZR_Fatali_Khan_Khoyski.dds"
+				expire = "1920.6.19" 
+				ideology = liberal
+			}
+			create_country_leader = {
+				name = "Qara bey Qarabeyov"
+				desc = "QARA_BEY_QARABEYOV_DESC"
+				picture = "gfx/leaders/AZR/Portrait_AZR_Qara_bey_Qarabeyov.dds"
+				expire = "1953.1.1" 
+				ideology = conservative
+			}
+			create_country_leader = {
+				name = "Nariman Narimanov"
+				desc = "NARIMAN_NARIMANOV_DESC"
+				picture = "gfx/leaders/AZR/Portrait_AZR_Nariman_Narimanov.dds"
+				expire = "1953.1.1" 
+				ideology = democratic
+			}
+			create_corps_commander = {
+				name = "Samad bey Mehmandarov"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Samad_bey_Mehmandarov.dds"
+				skill = 2
+			}
+			create_corps_commander = {
+				name = "Ali-Agha Shikhlinski"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Ali_Agha_Shikhlinski.dds"
+				skill = 3
+			}
+		}
+		353 = {
+			add_core = ARM
+		}
+		354 = {
+			add_core = ARM
+		}
+		ARM = {
+			set_capital = 230
+			transfer_state = 230
+			transfer_state = 793
+			transfer_state = 789
+			set_politics = {
+
+				parties = {
+					democratic = { 
+						popularity = 0
+					}
+					liberal = {
+						popularity = 0.4
+					}
+					conservative = {
+						popularity = 0
+					}
+					socialist = {
+						popularity = 94.1
+					}
+					neutrality = {
+						popularity = 5.5
+					}
+					autocratic = {
+						popularity = 0
+					}
+					natsoc = {
+						popularity = 0
+					}
+					communism = {
+						popularity = 0
+					}
+					fascism = {
+						popularity = 0
+					}
+				}
+	
+				ruling_party = socialist
+				last_election = "1918.1.1"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+			create_country_leader = {
+				name = "Hovhannes Kajaznuni"
+				desc = "HOVHANNES_KAJAZNUNI_DESC"
+				picture = "gfx/leaders/TRC/Portrait_TRC_Hovhannes_Kajaznuni.dds"
+				expire = "1938.2.1" 
+				ideology = socialism
+			}
+			create_country_leader = {
+				name = "Avetis Nazarbekyan"
+				desc = "AVETIS_NAZARBEKYAN_DESC"
+				picture = "gfx/leaders/ARM/Portrait_ARM_Avetis_Nazarbekyan.dds"
+				expire = "1939.4.1" 
+				ideology = centrism
+			}			
+			create_country_leader = {
+				name = "Michael Papajanyan"
+				desc = "MICHAEL_PAPAJANYAN_DESC"
+				picture = "gfx/leaders/ARM/Portrait_ARM_Michael_Papajanyan.dds"
+				expire = "1929.7.8" 
+				ideology = liberal
+			}
+			create_corps_commander = {
+				name = "Adranik Ozanian"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Adranik_Ozanian.dds"
+				skill = 4
+			}
+			create_corps_commander = {
+				name = "Drastamat Kanayan"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Drastamat_Kanayan.dds"
+				skill = 3
+			}
+			create_corps_commander = {
+				name = "Movses Silikyan"
+				portrait_path = "gfx/leaders/TRC/Portrait_TRC_Movses_Silikyan.dds"
+				skill = 3
+			}
+		}
+	}
+}
+
+# German influence in the Caucasus
+country_event = {
+	id = caucasus.11
+	title = caucasus.11.t
+	desc = caucasus.11.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.11.a # Establish relations with Georgia
+		ai_chance = { factor = 85 }
+		GEO = {
+			country_event = { id = caucasus.14 days = 1 }
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = GER
+					value < 20
+				}
+			}
+			create_corps_commander = {
+				name = "Friedrich von Kressenstein"
+				portrait_path = "gfx/leaders/GEO/Portrait_GEO_Friedrich_von_Kressenstein.dds"
+				skill = 4
+			}
+		}
+		GER = {
+			country_event = { id = caucasus.14 days = 1 }
+			diplomatic_relation = {
+				country = GEO
+				relation = non_aggression_pact
+			}
+		}
+		TUR = {
+			country_event = { id = caucasus.14 days = 1 }
+			country_event = { id = caucasus.15 days = 2 }
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = GER
+					value < -10
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = caucasus.11.b # Leave them to the Ottomans
+		ai_chance = { factor = 15 }
+		GEO = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = GER
+					value < -10
+				}
+			}
+		}
+		TUR = {
+			country_event = { id = caucasus.15 days = 1 }
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = GER
+					value < 20
+				}
+			}
+		}
+	}
+}
+
+# Ottoman influence in the Caucasus
+country_event = {
+	id = caucasus.12
+	title = caucasus.12.t
+	desc = caucasus.12.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.12.a # Establish relations with Azerbaijan
+		ai_chance = { factor = 90 }
+		AZR = {
+			declare_war_on = {
+				target = ARM
+				type = take_state
+				generator = { 789 }
+			}
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = TUR
+					value < 20
+				}
+			}
+			add_to_war = {
+				targeted_alliance = TUR
+				enemy = ARM
+			}
+			give_military_access = TUR
+		}
+		TUR = {
+			diplomatic_relation = {
+				country = AZR
+				relation = non_aggression_pact
+			}
+		}
+	}
+	
+	option = {
+		name = caucasus.12.b # They can fend for themselves
+		ai_chance = { factor = 10 }
+		AZR = {
+			declare_war_on = {
+				target = ARM
+				type = take_state
+				generator = { 789 }
+			}
+		}
+		modifier = {
+			factor = 1
+			has_opinion = {
+				target = TUR
+				value < -10
+			}
+		}
+	}
+}
+
+# British influence in the Caucasus
+country_event = {
+	id = caucasus.13
+	title = caucasus.13.t
+	desc = caucasus.13.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.13.a # Establish relations with Armenia
+		ai_chance = { factor = 85 }
+		ARM = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = ENG
+					value < 20
+				}
+			}
+			add_to_war = {
+				targeted_alliance = ENG
+				enemy = AZR
+			}
+			add_to_war = {
+				targeted_alliance = ENG
+				enemy = TUR
+			}
+			give_military_access = ENG
+		}
+	}
+	
+	option = {
+		name = caucasus.13.b # We have other plans
+		ai_chance = { factor = 15 }
+		ARM = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = ENG
+					value < -10
+				}
+			}
+		}
+	}
+}
+
+# Treaty of Poti
+country_event = {
+	id = caucasus.14
+	title = caucasus.14.t
+	desc = caucasus.14.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.14.a # We need this alliance
+		trigger = {
+			tag = GEO
+		}
+		GER = {
+			add_to_faction = GEO
+		}
+	}
+	
+	option = {
+		name = caucasus.14.b # Good
+		trigger = {
+			tag = GER
+		}
+	}
+	
+	option = {
+		name = caucasus.14.c # Damm
+		trigger = {
+			tag = TUR
+		}
+	}
+}
+
+# End war with Georgia?
+country_event = {
+	id = caucasus.15
+	title = caucasus.15.t
+	desc = caucasus.15.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.15.a # We cannot lose our German allies
+		ai_chance = { factor = 90 }
+		TUR = {
+			white_peace = GEO
+		}
+		GER = {
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = TUR
+					value < 10
+				}
+			}
+		}
+		ARM = {
+			country_event = { id = caucasus.16 days = 6 }
+		}
+	}
+	
+	option = {
+		name = caucasus.15.b # We do not take orders
+		ai_chance = { factor = 10 }
+		GER = {
+			remove_from_faction = TUR
+			modifier = {
+				factor = 1
+				has_opinion = {
+					target = TUR
+					value < -80
+				}
+			}
+		}
+		ARM = {
+			country_event = { id = caucasus.16 days = 6 }
+		}
+	}
+}
+
+# Ask Ottomans for treaty
+country_event = {
+	id = caucasus.16
+	title = caucasus.16.t
+	desc = caucasus.16.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.16.a # It is our only hope
+		ai_chance = { factor = 82 }
+		TUR = {
+			country_event = { id = caucasus.17 days = 1 }
+		}
+	}
+	
+	option = {
+		name = caucasus.16.b # We will never surrender
+		ai_chance = { factor = 18 }
+		add_national_unity = 0.2
+		TUR = {
+			add_wargoal = {
+				type = take_state
+				generator = { 230 }
+			}
+		}
+	}
+}
+
+# Treaty of Batum
+country_event = {
+	id = caucasus.17
+	title = caucasus.17.t
+	desc = caucasus.17.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = caucasus.17.a # Sign it
+		TUR = {
+			white_peace = ARM
+			transfer_state = 790
+			transfer_state = 793
+		}
+		AZR = {
+			white_peace = ARM
+		}
+		789 = {
+			set_border_war = yes
+		}
+		229 = {
+			set_border_war = yes 
+		}
+	}
+}
+	

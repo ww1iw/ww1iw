@@ -1,8 +1,7 @@
+
 state={
 	id=660
 	name="STATE_660"
-	manpower = 2057956 #2572456 (Original population of Equatorial Africa)
-	state_category = wasteland
 
 	history={
 		owner = FRA
@@ -14,6 +13,9 @@ state={
 	}
 
 	provinces={
-		1883 1974 2081 3165 3181 5084 7919 9152 11108 12719 
+		1974 1993 3165 5084 8078 11108 12719 12830 
 	}
+	manpower=2057956
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

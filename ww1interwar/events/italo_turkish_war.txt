@@ -13,10 +13,14 @@ country_event = {
 		date > 1911.11.26
 		tag = ITA
 		ITA = {
-			limit = {
-					NOT = { has_war = yes }	
-			}
-		}		
+			NOT = { 
+				controls_state = 450
+				has_war = yes 
+			}	
+		}	
+		NOT = {
+			date > 1911.11.27
+		}
 	}
 
 	mean_time_to_happen = {
@@ -183,6 +187,9 @@ country_event = {
 			controls_state = 449
 			controls_state = 448
 		}
+		NOT = {
+			date > 1912.7.3.2
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -229,6 +236,9 @@ country_event = {
 			controls_state = 450
 			controls_state = 449
 			controls_state = 448
+		}
+		NOT = {
+			date > 1912.6.2
 		}
 	}
 	

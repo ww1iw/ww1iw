@@ -1,0 +1,43 @@
+oob = "basic_test"
+capital = 230 # Yerevan
+
+add_ideas = {
+ }
+ 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0.4
+		}
+		conservative = {
+			popularity = 0
+		}
+		socialist = {
+			popularity = 94.1
+		}
+		neutrality = {
+			popularity = 5.5
+		}
+		autocratic = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = socialist
+	last_election = "1918.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}

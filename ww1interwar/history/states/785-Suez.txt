@@ -1,0 +1,22 @@
+state={
+	id=785
+	name="STATE_785"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			1155 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = EGY
+	}
+	provinces={
+		1155 4073 9947 12049 
+	}
+	manpower=331634
+	buildings_max_level_factor=1.000
+}

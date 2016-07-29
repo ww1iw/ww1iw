@@ -1,0 +1,43 @@
+oob = "basic_test"
+capital = 229 # Baku
+
+add_ideas = {
+ }
+ 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 7.8
+		}
+		liberal = {
+			popularity = 54.8
+		}
+		conservative = {
+			popularity = 26.2
+		}
+		socialist = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 4.3
+		}
+		autocratic = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 6.9
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = liberal
+	last_election = "1918.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}

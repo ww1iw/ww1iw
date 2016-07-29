@@ -1,6 +1,40 @@
 ﻿oob = "basic_test"
 capital = 202 #Kiev
 
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+		liberal = {
+			popularity = 0
+		}
+		conservative = {
+			popularity = 0
+		}
+		socialist = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 40
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 60
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+}
+
+1936.1.1 = {
 # oob = "ICE_1936"
 
 set_research_slots = 3
@@ -16,6 +50,7 @@ set_technology = {
 	early_submarine = 1
 	early_heavy_cruiser = 1
 	tech_recon = 1
+}
 }
 
 1939.1.1 = {

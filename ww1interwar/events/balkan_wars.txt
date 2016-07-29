@@ -12,6 +12,9 @@ country_event = {
 	trigger = {
 		date > 1912.1.29
 		tag = TUR
+		NOT = {
+			date > 1912.1.30
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -42,6 +45,7 @@ country_event = {
 		ALB = {
 			load_oob = ALB_1912.1
 		}
+		set_global_flag = albanian_revolt
 	}
 }
 
@@ -57,8 +61,10 @@ country_event = {
 	trigger = {
 		date > 1912.3.15
 		tag = TUR
+		has_global_flag = albanian_revolt
 		NOT = {
 			country_exists = ALB
+			date > 1912.3.16
 		}
 	}
 	
@@ -87,10 +93,12 @@ country_event = {
 		ai_chance = { factor = 10 }
 		TUR = {
 			release = ALB
+			puppet = ALB
 		}
 		ALB = {
 			load_oob = ALB_1914
 		}
+		clr_global_flag = albanian_revolt
 	}
 }
 
@@ -107,6 +115,10 @@ country_event = {
 		date > 1912.3.20
 		tag = TUR
 		country_exists = ALB
+		has_global_flag = albanian_revolt
+		NOT = {
+			date > 1912.3.21
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -137,8 +149,10 @@ country_event = {
 	trigger = {
 		date > 1912.6.4
 		tag = TUR
+		has_global_flag = albanian_revolt
 		NOT = {
 			country_exists = ALB
+			date > 1912.6.5
 		}
 	}
 	
@@ -167,10 +181,12 @@ country_event = {
 		ai_chance = { factor = 18 }
 		TUR = {
 			release = ALB
+			puppet = ALB
 		}
 		ALB = {
 			load_oob = ALB_1914
 		}
+		clr_global_flag = albanian_revolt
 	}
 }
 
@@ -186,11 +202,11 @@ country_event = {
 	trigger = {
 		date > 1912.6.9
 		tag = TUR
-		AND = {
-			limit = {
-				country_exists = ALB
-			}
-		}
+		country_exists = ALB
+		has_global_flag = albanian_revolt
+		NOT = {
+			date > 1912.6.10
+		}	
 	}
 	
 	mean_time_to_happen = {
@@ -221,8 +237,10 @@ country_event = {
 	trigger = {
 		date > 1912.8.9
 		tag = TUR
+		has_global_flag = albanian_revolt
 		NOT = {
 			country_exists = ALB
+			date > 1912.8.10
 		}
 	}
 	
@@ -258,7 +276,11 @@ country_event = {
 	trigger = {
 		date > 1912.8.13
 		tag = TUR
+		has_global_flag = albanian_revolt
 		country_exists = ALB
+		NOT = {
+			date > 1912.8.14
+		}
 	}
 
 	mean_time_to_happen = {
@@ -277,6 +299,7 @@ country_event = {
 		ENG = {
 			give_guarantee = ALB
 		}
+		clr_global_flag = albanian_revolt
 	}
 }
 
@@ -292,8 +315,10 @@ country_event = {
 	trigger = {
 		date > 1912.8.13
 		tag = TUR
+		has_global_flag = albanian_revolt
 		NOT = {
 			country_exists = ALB
+			date > 1912.8.14
 		}
 	}
 
@@ -309,9 +334,7 @@ country_event = {
 	
 	option = {
 		name = balkan_wars.8.a # A great victory for the Empire!
-		SER = {
-			add_state_claim = 44
-		}
+		clr_global_flag = albanian_revolt
 	}
 }
 
@@ -327,6 +350,9 @@ country_event = {
 	trigger = {
 		date > 1912.3.13
 		tag = SER
+		NOT = {
+			date > 1912.3.14
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -426,21 +452,24 @@ country_event = {
 	
 	trigger = {
 		date > 1912.8.10
-		SER = {
-			is_faction_leader = yes
+		NOT = {
+			date > 1912.8.11
 		}
-		BUL = {
-			is_in_faction_with = SER
-		}
-		GRE = {
-			is_in_faction_with = SER
-			
+		AND = {+
+			SER = {
+				is_faction_leader = yes
+			}
+			BUL = {
+				is_in_faction_with = SER
+			}
+			GRE = {
+				is_in_faction_with = SER			
+			}
 		}
 		OR = {
 			OR = {
 				tag = SER
 			}
-			OR = {
 			OR = {
 				tag = BUL
 			}
@@ -516,6 +545,7 @@ country_event = {
 				generator = { 760 }
 			}
 		}
+		set_global_flag = first_balkan_war
 	}
 }
 
@@ -530,8 +560,15 @@ country_event = {
 	
 	trigger = {
 		date > 1913.1.1
+		has_global_flag = first_balkan_war
 		tag = SER
 		country_exists = ALB
+		NOT = {
+			ALB = {
+				is_puppet = yes
+			}
+			date > 1913.3.1
+		}
 		any_country = {
 			is_in_faction_with = SER
 			controls_state = 769
@@ -568,7 +605,7 @@ country_event = {
 			transfer_state = 761
 			transfer_state = 771
 			transfer_state = 770
-			country_event = balkan_wars.15
+			country_event = { id = balkan_wars.15 days = 30 }
 		}
 		GRE = {
 			transfer_state = 185
@@ -577,6 +614,7 @@ country_event = {
 		MTN = {
 			transfer_state = 760
 		}
+		clr_global_flag = first_balkan_war
 	}
 }
 
@@ -592,9 +630,22 @@ country_event = {
 	trigger = {
 		date > 1913.1.1
 		tag = SER
-		NOT = {
-			country_exists = ALB
+		OR = {
+			AND = {
+				NOT = {
+					country_exists = ALB
+				}
+			}
+			AND = {
+				ALB = {
+					is_puppet = yes
+				}
+			}
 		}
+		NOT = {
+			date > 1913.3.1
+		}
+		has_global_flag = first_balkan_war
 		any_country = {
 			is_in_faction_with = SER
 			controls_state = 769
@@ -640,6 +691,7 @@ country_event = {
 		MTN = {
 			transfer_state = 760
 		}
+		clr_global_flag = first_balkan_war
 	}
 }
 
@@ -654,6 +706,10 @@ country_event = {
 	
 	trigger = {
 		date > 1913.3.1
+		has_global_flag = first_balkan_war
+		NOT = {
+			date > 1913.3.2
+		}
 		tag = TUR
 		TUR = {
 			controls_state = 769
@@ -680,6 +736,7 @@ country_event = {
 			white_peace = GRE
 			white_peace = MTN
 		}
+		clr_global_flag = first_balkan_war
 	}
 }
 
@@ -705,8 +762,7 @@ country_event = {
 		ai_chance = { factor = 10 }
 		BUL = {
 			remove_state_claim = 106
-			add_political_power = -500
-			add_national_unity = -0.075
+			add_national_unity = -0.10
 		}
 	}
 }
@@ -726,6 +782,9 @@ country_event = {
 		SER = {
 			106 = { is_claimed_by = BUL }
 			owns_state = 106
+		}
+		NOT = {
+			date > 1913.6.30
 		}
 	}
 	
@@ -769,6 +828,7 @@ country_event = {
 				enemy = BUL
 			}
 		}
+		set_global_flag = second_balkan_war
 	}
 }
 
@@ -786,6 +846,10 @@ country_event = {
 		tag = ROM
 		BUL = {
 			has_war_with = SER
+		}
+		has_global_flag = second_balkan_war
+		NOT = {
+			date > 1913.7.11
 		}
 	}
 	
@@ -821,7 +885,7 @@ country_event = {
 	option = {
 		name = balkan_wars.17.b # We will keep out of petty wars
 		ai_chance = { factor = 5 }
-		add_national_unity = -0.05
+		add_national_unity = -0.10
 	}
 }
 
@@ -837,8 +901,12 @@ country_event = {
 	trigger = {
 		date > 1913.7.12
 		tag = TUR
+		has_global_flag = second_balkan_war
 		BUL = {
 			has_war_with = SER
+		}
+		NOT = {
+			date > 1913.7.13
 		}
 	}
 	
@@ -889,8 +957,12 @@ country_event = {
 	
 	trigger = {
 		tag = BUL
+		has_global_flag = second_balkan_war
+		NOT = {
+			date > 1913.8.11
+		}
 		OR = {
-			OR = {
+			and = {
 				date > 1913.7.20
 				any_country = {
 					is_in_faction_with = SER
@@ -905,12 +977,12 @@ country_event = {
 					controls_state = 77
 				}		
 			}
-			OR = {
+			and = {
 				BUL = {
 					surrender_progress > 0.45
 				}
 			}
-			OR = {
+			and = {
 				date > 1913.8.10
 			}
 		}
@@ -954,6 +1026,7 @@ country_event = {
 		ROM = {
 			transfer_state = 77
 		}
+		clr_global_flag = second_balkan_war
 	}
 }
 
@@ -968,12 +1041,16 @@ country_event = {
 	
 	trigger = {
 		date > 1913.8.1
+		has_global_flag = second_balkan_war
 		tag = BUL
 		BUL = {
 			controls_state = 731
 			controls_state = 106
 			controls_state = 77
 			controls_state = 769
+		}
+		NOT = {
+			date > 1913.8.2
 		}
 	}
 	
@@ -1007,6 +1084,7 @@ country_event = {
 			transfer_state = 758
 			add_state_claim = 758
 		}
+		clr_global_flag = second_balkan_war
 	}
 }
 
