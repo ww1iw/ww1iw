@@ -1,0 +1,21 @@
+
+state={
+	id=556
+	name="STATE_556"
+	manpower = 11274550 #14844500 vanilla
+	
+	state_category = rural
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1909 1975 2001 2044 2056 4957 5013 5039 5070 7950 7983 8008 8065 8071 8122 10762 10788 10803 10836 10919 12707 12762 12802 12851 12858 12874 
+	}
+}
