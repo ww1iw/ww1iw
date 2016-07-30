@@ -23,10 +23,10 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 49.5
+			popularity = 51
 		}
 		liberal = { 
-			popularity = 7.9
+			popularity = 9.9
 		}
 		conservative = { 
 			popularity = 19.1
@@ -41,20 +41,27 @@ set_politics = {
 			popularity = 20
 		}
 		communism = {
-			popularity = 2
+			popularity = 0
 		}
 		autocratic = {
 			popularity = 0
 		}
 		neutrality = {
-			popularity = 1.5
+			popularity = 0
 		}
 	}
 	
 	ruling_party = democratic
-	last_election = "1911.10.29"
-	election_frequency = 48
+	last_election = "1914.1.1"
+	election_frequency = 12
 	elections_allowed = yes
+}
+create_country_leader = {
+	name = "Arthur Hoffmann"
+	desc = "POLITICS_ARTUHR_HOFFMANN_DESC"
+	picture = "Portrait_Switzerland_Arthur_Hoffmann.dds"
+	expire = "1946.2.3"
+	ideology = centrism
 }
 }
 
