@@ -1,9 +1,21 @@
 state={
 	id=795
 	name="STATE_795"
+	manpower = 110000
+	
+	state_category = wasteland
+	
+	history = {
+		owner = GER
+		1911.11.4 = {
+			owner = FRA
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
 	provinces={
 		13212 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }

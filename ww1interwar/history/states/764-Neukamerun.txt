@@ -6,11 +6,11 @@ state={
 	
 	state_category = rural
 	
-	history={
+	history = {
 		1911.1.1 = {
 			owner = FRA
 		}
-		1912.3.30 = {
+		1911.11.4 = {
 			owner = GER
 
 		}
