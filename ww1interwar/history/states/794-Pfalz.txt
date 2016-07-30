@@ -1,21 +1,17 @@
-
 state={
-	id=42
-	name="STATE_42"
-	manpower = 1390654
-	resources={
-		steel=80
-		aluminium=24
-	}
+	id=794
+	name="STATE_794"
+	manpower = 937085
 	
 	state_category = city
 
 	history={
 		owner = GER
-		victory_points = { 11435 7 }
+		#add_core_of = BAV
+		victory_points = { 11547 5 }
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 2
+			industrial_complex = 1
 
 		}
 		add_core_of = GER
@@ -28,16 +24,14 @@ state={
 
 		1939.1.1 ={
 			buildings = {
-				radar_station = 1
-				synthetic_refinery = 2
+				synthetic_refinery = 1
 			}
 		}
 	}
 
 	provinces={
-		3423 9575 11435 11470 11494
+		563 3558 11547 
 	}
 	
 	
 }
-
