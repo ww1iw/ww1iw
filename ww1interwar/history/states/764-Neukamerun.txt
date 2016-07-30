@@ -2,9 +2,14 @@
 state={
 	id=764
 	name="STATE_764"
-
+	manpower = 625000
+	
+	state_category = rural
+	
 	history={
-		owner = FRA
+		1911.1.1 = {
+			owner = FRA
+		}
 		1912.3.30 = {
 			owner = GER
 
@@ -21,9 +26,6 @@ state={
 	}
 
 	provinces={
-		3109 5139 6008 10948 11012 
+		1993 6008 11012 13209 13210 13211
 	}
-	manpower=625000
-	buildings_max_level_factor=1.000
-	state_category=rural
 }
