@@ -2,6 +2,8 @@ state={
 	id=785
 	name="STATE_785"
 	
+	state_category = rural
+	
 	history={
 		owner = ENG
 		buildings = {
