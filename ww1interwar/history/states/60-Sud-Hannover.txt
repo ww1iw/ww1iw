@@ -1,0 +1,249 @@
+
+state={
+	id=60
+	name="STATE_60"
+	manpower = 3005214
+	resources={
+		steel=20
+		chromium = 4
+		tungsten = 4
+	}
+	
+	state_category = city
+
+	history={
+		owner = GER
+		victory_points = { 11316 5 }
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		425 3561 6501 6582 13116
+	}
+}
+
+state={
+	id=801
+	name="STATE_801"
+	manpower = 257208
+	
+	state_category = town
+
+	history={
+		owner = GER
+		#add_core_of = SCG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		13218 13213
+	}
+}
+state={
+	id=802
+	name="STATE_802"
+	manpower = 417166
+	
+	state_category = large_town
+
+	history={
+		owner = GER
+		#add_core_of = SXW
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		3500 6524 9497
+	}
+}
+
+state={
+	id=803
+	name="STATE_803"
+	manpower = 216313
+	
+	state_category = town
+
+	history={
+		owner = GER
+		#add_core_of = SXA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		13219 538
+	}
+}
+
+state={
+	id=804
+	name="STATE_804"
+	manpower = 278792
+	
+	state_category = town
+
+	history={
+		owner = GER
+		#add_core_of = SXM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		13214
+	}
+}
+
+state={
+	id=805
+	name="STATE_805"
+	manpower = 152765
+	
+	state_category = town
+
+	history={
+		owner = GER
+		#add_core_of = REG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		13217
+	}
+}
+
+state={
+	id=806
+	name="STATE_806"
+	manpower = 72616
+	
+	state_category = rural
+
+	history={
+		owner = GER
+		#add_core_of = REU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		13215 13220
+	}
+}
+
+state={
+	id=807
+	name="STATE_807"
+	manpower = 100712
+	
+	state_category = town
+
+	history={
+		owner = GER
+		#add_core_of = SCR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		482 13222
+	}
+}
+
+state={
+	id=808
+	name="STATE_808"
+	manpower = 85984
+	
+	state_category = rural
+
+	history={
+		owner = GER
+		#add_core_of = SCS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		13221 13216
+	}
+}
