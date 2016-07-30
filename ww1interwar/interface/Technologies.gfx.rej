@@ -1,0 +1,43 @@
+diff a/ww1interwar/interface/Technologies.gfx b/ww1interwar/interface/Technologies.gfx	(rejected hunks)
+@@ -3242,6 +3242,41 @@
+ 	}	
+ 	
+ 	SpriteType = {
++		name = "GFX_USA_infantry_rifle_medium"
++		texturefile = "gfx/interface/technologies/USA_infantry_equipment_0.dds"
++	}	
++
++	SpriteType = {
++		name = "GFX_USA_infantry_rifle1_medium"
++		texturefile = "gfx/interface/technologies/USA_infantry_equipment_1.dds"	
++	}
++	
++	SpriteType = {
++		name = "GFX_USA_infantry_rifle2_medium"
++		texturefile = "gfx/interface/technologies/USA_infantry_equipment_2.dds"	
++	}
++	
++	SpriteType = {
++		name = "GFX_USA_infantry_smg_medium"
++		texturefile = "gfx/interface/technologies/USA_smg_equipment_0.dds"
++	}
++	
++	SpriteType = {
++		name = "GFX_USA_infantry_smg1_medium"
++		texturefile = "gfx/interface/technologies/USA_smg_equipment_1.dds"
++	}
++	
++	SpriteType = {
++		name = "GFX_USA_infantry_smg2_medium"
++		texturefile = "gfx/interface/technologies/USA_smg_equipment_2.dds"
++	}
++	
++	SpriteType = {
++		name = "GFX_USA_infantry_smg3_medium"
++		texturefile = "gfx/interface/technologies/USA_smg_equipment_3.dds"
++	}
++	
++	SpriteType = {
+ 		name = "GFX_USA_motorised_infantry_medium"
+ 		texturefile = "gfx/interface/technologies/USA_motorized_equipment_1.dds"
+ 	}

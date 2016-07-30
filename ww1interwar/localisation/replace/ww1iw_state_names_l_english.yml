@@ -1,4 +1,5 @@
 ﻿l_english:
+ STATE_55:0 "Hessen-Nassau"
  STATE_230:0 "Yerevan"
  STATE_333:0 "North Borneo"
  STATE_334:0 "Kalimantan"
@@ -58,3 +59,9 @@
  STATE_793:0 "Lori"
  STATE_794:0 "Pfalz"
  STATE_795:0 "Upper Cameroon"
+ STATE_796:0 "Oldenburg"
+ STATE_797:0 "Hessen"
+ STATE_798:0 "Württemberg"
+ STATE_50:0 "Baden"
+ STATE_799:0 "Bremen"
+ STATE_800:0 "Hamburg"

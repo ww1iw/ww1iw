@@ -1,25 +1,29 @@
 state={
-	id=50
-	name="STATE_50"
-	manpower=2010728 #1910 figure
+	id=798
+	name="STATE_798"
+	manpower=2302179 #1910 figure
+	resources={
+		aluminium=10.000
+	}
 
-	state_category = city
+	state_category = large_city
 	history={
 		owner = GER
-		#add_core_of = BAD
+		#add_core_of = WUR
 		victory_points = {
-			3530 2 
+			9517 5 
 		}
 		buildings = {
 			infrastructure = 8
-			arms_factory = 2
+			arms_factory = 5
 			industrial_complex = 1
+			air_base = 3
 
 		}
 		add_core_of = GER
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 5
+				arms_factory = 6
 				industrial_complex = 3
 
 			}
@@ -29,7 +33,7 @@ state={
 	}
 
 	provinces={
-		11640 6712 6542 3530 6568 6581 3679 3692
+		519 694 3690 6555 6934 9517 9545 9655 11486 11499 13126 
 	}
 	buildings_max_level_factor=1.000
 }

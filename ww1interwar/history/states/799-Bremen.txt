@@ -1,35 +1,40 @@
-state={
-	id=50
-	name="STATE_50"
-	manpower=2010728 #1910 figure
 
+state={
+	id=799
+	name="STATE_799"
+	manpower = 298736 #1910 figure
+	
 	state_category = city
+
 	history={
 		owner = GER
-		#add_core_of = BAD
+		#add_core_of = BRE
 		victory_points = {
-			3530 2 
+			3326 5 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 7
 			arms_factory = 2
 			industrial_complex = 1
-
-		}
-		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 5
-				industrial_complex = 3
-
+			dockyard = 1
+			6325 = {
+				naval_base = 1
 			}
 
 		}
+		add_core_of = GER
 
+		1939.1.1 = {
+			buildings = {
+				air_base = 6
+				arms_factory = 4
+				industrial_complex = 3
+				dockyard = 3
+			}
+		}
 	}
 
 	provinces={
-		11640 6712 6542 3530 6568 6581 3679 3692
+		3326
 	}
-	buildings_max_level_factor=1.000
 }

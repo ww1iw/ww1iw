@@ -1,0 +1,31 @@
+
+state={
+	id=797
+	name="STATE_797"
+	manpower = 1282219 #1910 figure
+
+	state_category = city
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			589 3 
+		}
+		add_core_of = GER
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+				arms_factory = 4
+			}
+		}
+	}
+
+	provinces={
+		3397 3574 589 11560
+	}
+}
