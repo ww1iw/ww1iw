@@ -42,7 +42,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-	create_country_leader = {
+create_country_leader = {
 	name = "Bogd Khan"
 	desc = "BOGD_KHAN_DESC"
 	picture = "Portrait_MON_Bogd_Khan.dds"
@@ -132,7 +132,7 @@ create_country_leader = {
 		#
 	}
 }
-
+}
 1939.1.1 = {
 
 	add_ideas = {
@@ -174,5 +174,4 @@ create_country_leader = {
 			#
 		}
 	}
-}
 }

@@ -42,7 +42,8 @@ set_national_unity = 0.55
 		election_frequency = 48
 		elections_allowed = yes
 	}
-	
+}
+
 create_country_leader = {
 	name = "Jānis Čakste"
 	desc = "POLITICS_JANIS_CAKSTE_DESC"
@@ -54,7 +55,7 @@ create_country_leader = {
 	}
 }
 
-1936.1.1 = {
+1939.1.1 = {
 # oob = "LAT_1936"
 
 set_politics = {
@@ -96,9 +97,6 @@ set_technology = {
 
 set_research_slots = 3
 set_convoys = 10
-}
-1939.1.1 = {
-
 	add_political_power = 1198
 	
 	#generic focuses
@@ -176,7 +174,6 @@ set_convoys = 10
 		election_frequency = 108
 		elections_allowed = no
 	}
-}
 
 create_country_leader = {
 	name = "Karlis Ulmanis"
@@ -198,4 +195,5 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
 }

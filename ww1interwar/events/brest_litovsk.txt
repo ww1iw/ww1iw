@@ -1,4 +1,4 @@
-add_namespace = brest_litovsk
+﻿add_namespace = brest_litovsk
 
 # Eastern Front armistice (1915)
 country_event = {
@@ -755,7 +755,7 @@ country_event = {
 				date > 1916.2.25
 				has_global_flag = eastern_front_armistice_1915
 				SOV = {
-					is_at_war_with = GER
+					has_war_with = GER
 					has_government = communism
 				}
 			}
@@ -763,7 +763,7 @@ country_event = {
 				date > 1917.2.25
 				has_global_flag = eastern_front_armistice_1916
 				SOV = {
-					is_at_war_with = GER
+					has_war_with = GER
 					has_government = communism
 				}
 			}
@@ -771,7 +771,7 @@ country_event = {
 				date > 1918.2.25
 				has_global_flag = eastern_front_armistice_1917
 				SOV = {
-					is_at_war_with = GER
+					has_war_with = GER
 					has_government = communism
 				}
 			}

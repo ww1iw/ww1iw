@@ -1,4 +1,4 @@
-add_namespace = genretire
+﻿add_namespace = genretire
 
 # Robert Alexander retires
 news_event = {

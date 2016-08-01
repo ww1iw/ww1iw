@@ -41,7 +41,8 @@ set_national_unity = 0.55
 		election_frequency = 48
 		elections_allowed = yes
 	}
-	
+}
+
 create_country_leader = {
 	name = "Konstantin Päts"
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
@@ -52,8 +53,7 @@ create_country_leader = {
 		#
 	}
 }
-
-1936.1.1 = {
+1939.1.1 = {
 # oob = "EST_1936"
 
 set_research_slots = 3
@@ -96,10 +96,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-}
-1939.1.1 = {
-
 	add_political_power = 1198
 	
 	#generic focuses
@@ -156,8 +152,6 @@ set_politics = {
 		dispersed_industry2 = 1
 	}
 }
-
-
 1939.1.1 = {
 	set_politics = {
 
@@ -185,7 +179,6 @@ set_politics = {
 		election_frequency = 48
 		elections_allowed = no
 	}
-}
 
 create_country_leader = {
 	name = "Konstantin Päts"
@@ -196,4 +189,5 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
 }

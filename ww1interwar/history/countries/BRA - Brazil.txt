@@ -177,7 +177,7 @@ create_country_leader = {
 
 
 set_convoys = 40
-
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -204,7 +204,7 @@ set_convoys = 40
 		election_frequency = 48
 		elections_allowed = no
 	}
-}
+
 
 create_corps_commander = {
 	name = "Eurico Gaspar Dutra"

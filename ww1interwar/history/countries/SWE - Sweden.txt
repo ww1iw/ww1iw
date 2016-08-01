@@ -86,7 +86,8 @@ set_national_unity = 0.55
 		election_frequency = 48
 		elections_allowed = yes
 	}
-	
+}
+
 create_country_leader = {
 	name = "Hjalmar Branting"
 	desc = "POLITICS_HJALMAR_BRANTING_DESC"
@@ -98,7 +99,7 @@ create_country_leader = {
 	}
 }
 
-1936.1.1 = {
+1939.1.1 = {
 set_research_slots = 3
 
 add_ideas = {
@@ -154,7 +155,8 @@ set_politics = {
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
-	
+}
+
 create_country_leader = {
 	name = "Per Albin Hansson"
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
@@ -165,10 +167,6 @@ create_country_leader = {
 		#
 	}
 }
-}
-}
-1939.1.1 = {
-
 	add_political_power = 1198
 	
 	#generic focuses
@@ -224,7 +222,6 @@ create_country_leader = {
 	}
 }
 
-
 1939.1.1 = {
 	set_politics = {
 
@@ -263,15 +260,9 @@ create_country_leader = {
 		#
 	}
 }
-}
 
 set_convoys = 25
 set_national_unity = 0.9
-
-
-
-
-
 
 create_country_leader = {
 	name = "Sven Olov Lindholm"
@@ -340,4 +331,5 @@ create_equipment_variant = {
 		sub_stealth_upgrade = 1
 		sub_torpedo_upgrade = 1
 	}
+}
 }

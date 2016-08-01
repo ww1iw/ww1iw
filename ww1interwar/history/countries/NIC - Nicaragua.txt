@@ -133,7 +133,7 @@ create_country_leader = {
 		#
 	}
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -162,15 +162,15 @@ create_country_leader = {
 		elections_allowed = yes
 	}
 
+
+create_country_leader = {
+	name = "Anastasio Somoza García"
+	desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
 }
-	create_country_leader = {
-		name = "Anastasio Somoza García"
-		desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-	}
+}

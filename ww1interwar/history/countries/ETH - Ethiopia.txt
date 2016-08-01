@@ -42,7 +42,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-	create_country_leader = {
+create_country_leader = {
 	name = "Iyasu V"
 	desc = "IYASU_V_DESC"
 	picture = "Portrait_ETH_Iyasu_V.dds"
@@ -134,8 +134,7 @@ create_country_leader = {
 		#
 	}
 }
-
-
+}
 #Now a colony of Italy  However, if independent it would have
 1939.1.1 = {
 	set_politics = {

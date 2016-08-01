@@ -81,8 +81,6 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-1936.1.1 = {
-
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -147,7 +145,6 @@ set_technology = {
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
 	}
-}
 
 set_politics = {
 
@@ -218,7 +215,7 @@ create_country_leader = {
 
 set_convoys = 100
 set_national_unity = 0.9
-
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -242,7 +239,6 @@ set_national_unity = 0.9
 		election_frequency = 60
 		elections_allowed = yes
 	}
-}
 
 create_corps_commander = {
 	name = "Thomas Victor Anderson"

@@ -133,7 +133,7 @@ create_country_leader = {
 		#
 	}
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -157,5 +157,4 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
-}
 }

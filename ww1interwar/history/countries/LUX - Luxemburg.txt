@@ -120,7 +120,7 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = yes
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -154,7 +154,6 @@ set_politics = {
 			#
 		}
 	}
-}
 #Pierre Dupong from 37
 create_country_leader = {
 	name = "Joseph Bech"

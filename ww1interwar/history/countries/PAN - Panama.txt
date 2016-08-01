@@ -42,7 +42,7 @@ set_politics = {
 	elections_allowed = yes
 }
 
-	create_country_leader = {
+create_country_leader = {
 	name = "Belisario Barahona"
 	desc = "BELISARIO_BARAHONA_DESC"
 	picture = "Portrait_PAN_Belisario_Barahona.dds"
@@ -132,7 +132,7 @@ create_country_leader = {
 		#
 	}
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -178,5 +178,4 @@ create_country_leader = {
 			#
 		}
 	}
-}
 }

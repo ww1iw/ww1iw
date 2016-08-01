@@ -198,7 +198,7 @@ create_country_leader = {
 		#
 	}
 }
-
+}
 set_convoys = 100
 
 1939.1.1 = {
@@ -225,7 +225,7 @@ set_convoys = 100
 		elections_allowed = yes
 	}
 	set_convoys = 100
-}
+
 
 create_corps_commander = {
 	name = "Leslie Morshead"

@@ -1,4 +1,4 @@
-oob = "basic_test"
+﻿oob = "basic_test"
 capital = 229 # Baku
 
 add_ideas = {

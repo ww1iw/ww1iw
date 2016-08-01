@@ -183,7 +183,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -206,7 +206,6 @@ set_politics = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
-}
 
 set_convoys = 80
 set_national_unity = 0.75

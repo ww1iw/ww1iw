@@ -132,7 +132,7 @@ create_country_leader = {
 		#
 	}
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 
@@ -167,5 +167,4 @@ create_country_leader = {
 			#
 		}
 	}
-}
 }

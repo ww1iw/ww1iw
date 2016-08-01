@@ -1,4 +1,4 @@
-add_namespace = news_itw
+﻿add_namespace = news_itw
 
 # Italo-Turkish War Begins
 news_event = {

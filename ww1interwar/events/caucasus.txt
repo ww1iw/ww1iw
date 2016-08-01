@@ -1,4 +1,4 @@
-add_namespace = caucasus
+﻿add_namespace = caucasus
 
 # Transcaucasia declares independence (1916)
 country_event = {
@@ -261,43 +261,43 @@ country_event = {
 	option = {
 		name = caucasus.3.a # Damn!
 		229 = {
-			add_core = TRC
-			add_core = AZR
+			add_core_of = TRC
+			add_core_of = AZR
 		}
 		789 = {
-			add_core = TRC
-			add_core = ARM
-			add_core = AZR
+			add_core_of = TRC
+			add_core_of = ARM
+			add_core_of = AZR
 		}
 		230 = {
-			add_core = TRC
-			add_core = ARM
+			add_core_of = TRC
+			add_core_of = ARM
 		}
 		231 = {
-			add_core = TRC
-			add_core = GEO
+			add_core_of = TRC
+			add_core_of = GEO
 		}
 		743 = {
-			add_core = TRC
-			add_core = ARM
+			add_core_of = TRC
+			add_core_of = ARM
 		}
 		353 = {
-			add_core = ARM
+			add_core_of = ARM
 		}
 		354 = {
-			add_core = ARM
+			add_core_of = ARM
 		}
 		419 = {
-			add_core = AZR
+			add_core_of = AZR
 		}
 		790 = {
-			add_core = TRC
-			add_core = ARM
+			add_core_of = TRC
+			add_core_of = ARM
 			add_claim_by = TUR
 		}
 		791 = {
-			add_core = TRC
-			add_core = GEO
+			add_core_of = TRC
+			add_core_of = GEO
 			add_claim_by = TUR
 		}
 		SOV = {
@@ -411,7 +411,7 @@ country_event = {
 				has_global_flag = transcaucasia_1916
 				date > 1916.5.1
 				TUR = {
-					is_at_war_with = TRC
+					has_war_with = TRC
 					controls_state = 743
 					controls_state = 790
 					controls_state = 791
@@ -437,7 +437,7 @@ country_event = {
 				date > 1918.5.1
 				is_at_war_with = TRC
 				TUR = {
-					is_at_war_with = TRC
+					has_war_with = TRC
 					controls_state = 743
 					controls_state = 790
 					controls_state = 791

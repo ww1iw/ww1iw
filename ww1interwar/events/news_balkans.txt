@@ -1,4 +1,4 @@
-add_namespace = news_balkans
+﻿add_namespace = news_balkans
 
 # Albanian Revolt of 1911
 news_event = {

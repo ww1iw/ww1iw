@@ -3,6 +3,7 @@ capital = 110
 set_convoys = 50
 set_research_slots = 2
 set_national_unity = 0.55
+	
 	set_politics = {
 
 		parties = {
@@ -86,7 +87,7 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
-	
+
 	create_country_leader = {
 		name = "Otto Albert Blehr"
 		desc = "POLITICS_OTTO_BLEHR_DESC"
@@ -96,7 +97,7 @@ create_country_leader = {
 		traits = {
 			#
 		}
-
+	}
 }
 
 1936.1.1 = {
@@ -139,12 +140,6 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = yes
 }
-
-
-
-
-1939.1.1 = {
-
 	add_political_power = 1198
 	
 	#generic focuses
@@ -193,33 +188,10 @@ set_politics = {
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
 
 set_convoys = 80		# biggest merchant marine in the world
 set_national_unity = 0.7
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 96
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 2
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1933.10.16"
-	election_frequency = 36
-	elections_allowed = yes
 }
-
 1939.1.1 = {
 	set_politics = {
 
@@ -246,7 +218,6 @@ set_politics = {
 		election_frequency = 36
 		elections_allowed = yes
 	}
-}
 
 create_country_leader = {
 	name = "Johan Nygaardsvold"
@@ -304,4 +275,5 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 	traits = { spotter }
 	skill = 3
+}
 }
