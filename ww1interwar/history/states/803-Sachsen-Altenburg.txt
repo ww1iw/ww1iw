@@ -1,0 +1,26 @@
+state={
+	id=803
+	name="STATE_803"
+	manpower = 216313
+	
+	state_category = town
+
+	history={
+		owner = GER
+		#add_core_of = SXA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		13219 538
+	}
+}

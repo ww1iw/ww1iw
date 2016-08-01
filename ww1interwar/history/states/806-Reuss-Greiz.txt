@@ -1,0 +1,26 @@
+state={
+	id=806
+	name="STATE_806"
+	manpower = 72616
+	
+	state_category = rural
+
+	history={
+		owner = GER
+		#add_core_of = REU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		13215 13220
+	}
+}

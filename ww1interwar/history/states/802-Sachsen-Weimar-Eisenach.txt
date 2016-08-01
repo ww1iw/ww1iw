@@ -1,0 +1,26 @@
+state={
+	id=802
+	name="STATE_802"
+	manpower = 417166
+	
+	state_category = large_town
+
+	history={
+		owner = GER
+		#add_core_of = SXW
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		3500 6524 9497
+	}
+}

@@ -102,7 +102,6 @@ create_corps_commander = {
 			id = 10002
 		picture = "Portrait_USA_Robert_Alexander.dds"
 	traits = {  old_guard bearer_of_artillery  }
-	expire = "1927.1.1"
 	skill = 3
 
 }
@@ -111,7 +110,6 @@ create_corps_commander = {
 			id = 10003
 		picture = "Portrait_USA_Benjamin_Alvord.dds"
 	traits = {    }
-	expire = "1924.1.1"
 	skill = 2
 
 }
@@ -120,7 +118,6 @@ create_corps_commander = {
 			id = 10004
 		picture = "Portrait_USA_William_Atterbury.dds"
 	traits = { trait_engineer }
-	expire = "1919.1.1"
 	skill = 2
 
 }
@@ -129,7 +126,6 @@ create_corps_commander = {
 			id = 10005
 		picture = "Portrait_USA_Charles_Bailey.dds"
 	traits = {  }
-	expire = "1922.1.1"
 	skill = 2
 
 }
@@ -138,7 +134,6 @@ create_corps_commander = {
 			id = 10006
 		picture = "Portrait_USA_Harry_Bandholtz.dds"
 	traits = { jungle_rat  }
-	expire = "1923.1.1"
 	skill = 3
 
 }
@@ -147,7 +142,6 @@ create_corps_commander = {
 			id = 10007
 		picture = "Portrait_USA_James_Bell.dds"
 	traits = { old_guard trickster }
-	expire = "1919.1.1"
 	skill = 4
 
 }
@@ -156,7 +150,6 @@ create_corps_commander = {
 			id = 10008
 		picture = "Portrait_USA_William_Black.dds"
 	traits = { trait_engineer }
-	expire = "1919.10.31"
 	skill = 2
 
 }
@@ -165,7 +158,6 @@ create_corps_commander = {
 			id = 10009
 		picture = "Portrait_USA_Albert_Blanding.dds"
 	traits = { swamp_fox }
-	expire = "1940.1.1"
 	skill = 2
 
 }
@@ -174,7 +166,6 @@ create_corps_commander = {
 			id = 10010
 		picture = "Portrait_USA_Omar_Bundy.dds"
 	traits = { hill_fighter }
-	expire = "1925.6.17"
 	skill = 2
 
 }
@@ -183,7 +174,6 @@ create_corps_commander = {
 		id = 10011
 		picture = "Portrait_USA_Henry_McCain.dds"
 	traits = {  }
-	expire = "1921.6.1"
 	skill = 2
 
 }
@@ -192,7 +182,6 @@ create_field_marshal = {
 		id = 10037
 		picture = "Portrait_USA_Tasker_Bliss.dds"
 	traits = { old_guard offensive_doctrine organisational_leader }
-	expire = "1920.1.1"
 	skill = 2
 
 }
@@ -201,7 +190,6 @@ create_corps_commander = {
 		id = 10012
 		picture = "Portrait_USA_Preston_Brown.dds"
 	traits = { fortress_buster }
-	expire = "1936.1.1"
 	skill = 2
 
 }
@@ -210,7 +198,6 @@ create_corps_commander = {
 		id = 10013
 		picture = "Portrait_USA_Robert_Bullard.dds"
 	traits = { fortress_buster }
-	expire = "1925.1.1"
 	skill = 3
 
 }
@@ -219,7 +206,6 @@ create_corps_commander = {
 		id = 10014
 		picture = "Portrait_USA_William_Burnham.dds"
 	traits = {  }
-	expire = "1924.1.1"
 	skill = 3
 
 }
@@ -228,7 +214,6 @@ create_corps_commander = {
 		id = 10015
 		picture = "Portrait_USA_Jesse_Carter.dds"
 	traits = {  }
-	expire = "1921.1.1"
 	skill = 2
 
 }
@@ -237,7 +222,6 @@ create_corps_commander = {
 		id = 10016
 		picture = "Portrait_USA_William_Carter.dds"
 	traits = { desert_fox }
-	expire = "1918.1.1"
 	skill = 2
 
 }
@@ -246,7 +230,6 @@ create_corps_commander = {
 		id = 10017
 		picture = "Portrait_USA_Joseph_Castner.dds"
 	traits = { trait_engineer trickster urban_assault_specialist }
-	expire = "1933.11.30"
 	skill = 4
 
 }
@@ -255,7 +238,6 @@ create_corps_commander = {
 		id = 10018
 		picture = "Portrait_USA_John_Chamberlain.dds"
 	traits = {  }
-	expire = "1921.1.1"
 	skill = 2
 
 }
@@ -264,7 +246,6 @@ create_corps_commander = {
 		id = 10019
 		picture = "Portrait_USA_William_Connor.dds"
 	traits = { trait_engineer }
-	expire = "1942.1.1"
 	skill = 3
 
 }
@@ -273,7 +254,6 @@ create_corps_commander = {
 		id = 10020
 		picture = "Portrait_USA_Enoch_Crowder.dds"
 	traits = {  }
-	expire = "1923.2.14"
 	skill = 1
 
 }
@@ -282,7 +262,6 @@ create_corps_commander = {
 		id = 10021
 		picture = "Portrait_USA_William_Crozier.dds"
 	traits = { bearer_of_artillery }
-	expire = "1918.1.1"
 	skill = 2
 
 }
@@ -291,7 +270,6 @@ create_corps_commander = {
 		id = 10022
 		picture = "Portrait_USA_Robert_Davis.dds"
 	traits = {  }
-	expire = "1927.1.1"
 	skill = 2
 
 }
@@ -300,7 +278,6 @@ create_corps_commander = {
 		id = 10023
 		picture = "Portrait_USA_Joseph_Dickman.dds"
 	traits = { ranger }
-	expire = "1922.1.1"
 	skill = 3
 
 }
@@ -309,7 +286,6 @@ create_corps_commander = {
 		id = 10024
 		picture = "Portrait_USA_George_Duncan.dds"
 	traits = {  }
-	expire = "1925.1.1"
 	skill = 3
 
 }
@@ -318,7 +294,6 @@ create_corps_commander = {
 		id = 10025
 		picture = "Portrait_USA_Clarence_Edwards.dds"
 	traits = {  }
-	expire = "1922.12.1"
 	skill = 1
 
 }
@@ -327,7 +302,6 @@ create_corps_commander = {
 		id = 10026
 		picture = "Portrait_USA_Robert_Evans.dds"
 	traits = { hill_fighter }
-	expire = "1918.1.1"
 	skill = 2
 
 }
@@ -336,7 +310,6 @@ create_corps_commander = {
 		id = 10027
 		picture = "Portrait_USA_Samson_Faison.dds"
 	traits = { fortress_buster }
-	expire = "1922.1.1"
 	skill = 3
 
 }
@@ -345,7 +318,6 @@ create_corps_commander = {
 		id = 10028
 		picture = "Portrait_USA_John_Lejeune.dds"
 	traits = { naval_invader }
-	expire = "1929.11.10"
 	skill = 4
 
 }
@@ -354,7 +326,6 @@ create_corps_commander = {
 		id = 10029
 		picture = "Portrait_USA_Benjamin_Foulois.dds"
 	traits = {  }
-	expire = "1935.1.1"
 	skill = 2
 
 }
@@ -363,7 +334,6 @@ create_corps_commander = {
 		id = 10030
 		picture = "Portrait_USA_George_Goethals.dds"
 	traits = { trait_engineer }
-	expire = "1919.1.1"
 	skill = 3
 
 }
@@ -372,7 +342,6 @@ create_corps_commander = {
 		id = 10031
 		picture = "Portrait_USA_William_Gorgas.dds"
 	traits = {  }
-	expire = "1918.1.1"
 	skill = 1
 
 }
@@ -381,7 +350,6 @@ create_corps_commander = {
 		id = 10032
 		picture = "Portrait_USA_William_Graves.dds"
 	traits = { winter_specialist }
-	expire = "1928.1.1"
 	skill = 2
 
 }
@@ -390,7 +358,6 @@ create_corps_commander = {
 		id = 10033
 		picture = "Portrait_USA_William_Haan.dds"
 	traits = { fortress_buster }
-	expire = "1922.1.1"
 	skill = 3
 
 }
@@ -399,7 +366,6 @@ create_corps_commander = {
 		id = 10034
 		picture = "Portrait_USA_Peter_Hains.dds"
 	traits = { fortress_buster trait_engineer old_guard bearer_of_artillery }
-	expire = "1919.1.1"
 	skill = 3
 
 }
@@ -408,7 +374,6 @@ create_corps_commander = {
 		id = 10035
 		picture = "Portrait_USA_James_Harbord.dds"
 	traits = {  }
-	expire = "1922.1.1"
 	skill = 2
 
 }
@@ -417,7 +382,6 @@ create_corps_commander = {
 		id = 10036
 		picture = "Portrait_USA_Peter_Harris.dds"
 	traits = {  }
-	expire = "1922.1.1"
 	skill = 2
 
 }
@@ -426,7 +390,6 @@ create_corps_commander = {
 		id = 10038
 		picture = "Portrait_USA_William_Hay.dds"
 	traits = { fortress_buster }
-	expire = "1924.1.1"
 	skill = 2
 
 }
@@ -435,7 +398,6 @@ create_corps_commander = {
 		id = 10039
 		picture = "Portrait_USA_John_Heavey.dds"
 	traits = {  }
-	expire = "1931.1.1"
 	skill = 1
 
 }
@@ -444,7 +406,6 @@ create_corps_commander = {
 		id = 10040
 		picture = "Portrait_USA_Guy_Henry.dds"
 	traits = { trickster }
-	expire = "1947.1.1"
 	skill = 2
 
 }
@@ -453,7 +414,6 @@ create_corps_commander = {
 		id = 10041
 		picture = "Portrait_USA_Mark_Hersey.dds"
 	traits = {  }
-	expire = "1924.1.1"
 	skill = 2
 
 }
@@ -462,7 +422,6 @@ create_corps_commander = {
 		id = 10042
 		picture = "Portrait_USA_John_Hines.dds"
 	traits = {  }
-	expire = "1932.1.1"
 	skill = 3
 
 }
@@ -471,7 +430,6 @@ create_corps_commander = {
 		id = 10043
 		picture = "Portrait_USA_Robert_Howze.dds"
 	traits = { trickster }
-	expire = "1926.9.19"
 	skill = 3
 
 }
@@ -480,7 +438,6 @@ create_corps_commander = {
 		id = 10044
 		picture = "Portrait_USA_Hugh_Johnson.dds"
 	traits = { commando }
-	expire = "1919.1.1"
 	skill = 1
 
 }
@@ -489,7 +446,6 @@ create_corps_commander = {
 		id = 10045
 		picture = "Portrait_USA_William_Kenly.dds"
 	traits = { }
-	expire = "1919.1.1"
 	skill = 1
 
 }
@@ -498,7 +454,6 @@ create_corps_commander = {
 		id = 10046
 		picture = "Portrait_USA_William_Langfitt.dds"
 	traits = { trait_engineer }
-	expire = "1922.1.1"
 	skill = 3
 
 }
@@ -507,7 +462,6 @@ create_corps_commander = {
 		id = 10047
 		picture = "Portrait_USA_Edward_Lewis.dds"
 	traits = { hill_fighter fortress_buster urban_assault_specialist }
-	expire = "1927.12.1"
 	skill = 4
 
 }
@@ -516,7 +470,6 @@ create_corps_commander = {
 		id = 10048
 		picture = "Portrait_USA_Hunter_Liggett.dds"
 	traits = { ranger }
-	expire = "1927.1.1"
 	skill = 3
 
 }
@@ -525,7 +478,6 @@ create_corps_commander = {
 		id = 10049
 		picture = "Portrait_USA_Isaac_Littell.dds"
 	traits = {  }
-	expire = "1919.1.1"
 	skill = 1
 
 }
@@ -542,7 +494,6 @@ create_corps_commander = {
 	id = 10050
 		picture = "Portrait_USA_William_Mann.dds"
 	traits = {   }
-	expire = "1918.1.1"
 	skill = 1
 
 }
@@ -551,7 +502,6 @@ create_corps_commander = {
 	id = 10051
 	picture = "Portrait_USA_Peyton_March.dds"
 	traits = { bearer_of_artillery  }
-	expire = "1921.1.1"
 	skill = 3
 }
 create_corps_commander = {
@@ -559,7 +509,6 @@ create_corps_commander = {
 	id = 10052
 	picture = "Portrait_USA_Charles_Martin.dds"
 	traits = {  }
-	expire = "1921.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -567,7 +516,6 @@ create_corps_commander = {
 	id = 10053
 	picture = "Portrait_USA_George_Barnett.dds"
 	traits = { naval_invader }
-	expire = "1923.12.9"
 	skill = 3
 }
 create_corps_commander = {
@@ -575,7 +523,6 @@ create_corps_commander = {
 	id = 10054
 	picture = "Portrait_USA_Frank_McIntyre.dds"
 	traits = {  }
-	expire = "1929.1.1"
 	skill = 1
 }
 create_corps_commander = {
@@ -583,7 +530,6 @@ create_corps_commander = {
 	id = 10055
 	picture = "Portrait_USA_George_McIver.dds"
 	traits = { ranger }
-	expire = "1922.1.1"
 	skill = 1
 }
 create_corps_commander = {
@@ -597,7 +543,6 @@ create_corps_commander = {
 	id = 10056
 	picture = "Portrait_USA_Charles_Menoher.dds"
 	traits = { ranger }
-	expire = "1926.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -605,7 +550,6 @@ create_corps_commander = {
 	id = 10057
 	picture = "Portrait_USA_Billy_Mitchell.dds"
 	traits = {  }
-	expire = "1926.1.1"
 	skill = 3
 }
 create_corps_commander = {
@@ -613,7 +557,6 @@ create_corps_commander = {
 	id = 10058
 	picture = "Portrait_USA_George_van_Horn_Moseley.dds"
 	traits = {  }
-	expire = "1938.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -621,7 +564,6 @@ create_corps_commander = {
 	id = 10059
 	picture = "Portrait_USA_John_ORyan.dds"
 	traits = {  }
-	expire = "1920.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -629,7 +571,6 @@ create_corps_commander = {
 	id = 10060
 	picture = "Portrait_USA_Frank_Parker.dds"
 	traits = {  }
-	expire = "1936.9.30"
 	skill = 2
 }
 create_corps_commander = {
@@ -637,7 +578,6 @@ create_corps_commander = {
 	id = 10061
 	picture = "Portrait_USA_James_Parker.dds"
 	traits = { jungle_rat }
-	expire = "1918.2.20"
 	skill = 2
 }
 create_corps_commander = {
@@ -645,7 +585,6 @@ create_corps_commander = {
 	id = 10062
 	picture = "Portrait_USA_Mason_Patrick.dds"
 	traits = { trait_engineer }
-	expire = "1927.12.12"
 	skill = 2
 }
 create_corps_commander = {
@@ -653,7 +592,6 @@ create_corps_commander = {
 	id = 10063
 	picture = "Portrait_USA_Paul_Malone.dds"
 	traits = { trait_engineer urban_assault_specialist }
-	expire = "1927.8.9"
 	skill = 3
 }
 create_corps_commander = {
@@ -661,7 +599,6 @@ create_corps_commander = {
 	id = 10064
 	picture = "Portrait_USA_George_Read.dds"
 	traits = { fortress_buster }
-	expire = "1925.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -669,7 +606,6 @@ create_corps_commander = {
 	id = 10065
 	picture = "Portrait_USA_Charles_Rhodes.dds"
 	traits = { trickster }
-	expire = "1929.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -677,7 +613,6 @@ create_corps_commander = {
 	id = 10066
 	picture = "Portrait_USA_John_Ruckman.dds"
 	traits = { bearer_of_artillery }
-	expire = "1921.6.6"
 	skill = 2
 }
 create_corps_commander = {
@@ -685,7 +620,6 @@ create_corps_commander = {
 	id = 10067
 	picture = "Portrait_USA_William_Sage.dds"
 	traits = { trait_engineer jungle_rat }
-	expire = "1922.6.3"
 	skill = 2
 }
 create_corps_commander = {
@@ -693,7 +627,6 @@ create_corps_commander = {
 	id = 10068
 	picture = "Portrait_USA_Hugh_Scott.dds"
 	traits = { old_guard trickster hill_fighter desert_fox }
-	expire = "1919.5.1"
 	skill = 3
 }
 create_corps_commander = {
@@ -701,7 +634,6 @@ create_corps_commander = {
 	id = 10069
 	picture = "Portrait_USA_George_Scriven.dds"
 	traits = { old_guard }
-	expire = "1917.1.1"
 	skill = 1
 }
 create_corps_commander = {
@@ -709,7 +641,6 @@ create_corps_commander = {
 	id = 10070
 	picture = "Portrait_USA_Henry_Sharpe.dds"
 	traits = { old_guard commando }
-	expire = "1920.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -717,7 +648,6 @@ create_corps_commander = {
 	id = 10071
 	picture = "Portrait_USA_William_Sibert.dds"
 	traits = { trait_engineer }
-	expire = "1920.1.1"
 	skill = 3
 }
 create_corps_commander = {
@@ -725,7 +655,6 @@ create_corps_commander = {
 	id = 10072
 	picture = "Portrait_USA_William_Smith.dds"
 	traits = {  }
-	expire = "1932.1.1"
 	skill = 1
 }
 create_corps_commander = {
@@ -733,7 +662,6 @@ create_corps_commander = {
 	id = 10073
 	picture = "Portrait_USA_George_Squier.dds"
 	traits = {  }
-	expire = "1923.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -741,7 +669,6 @@ create_corps_commander = {
 	id = 10074
 	picture = "Portrait_USA_Charles_Summerall.dds"
 	traits = { bearer_of_artillery }
-	expire = "1931.1.1"
 	skill = 4
 }
 create_corps_commander = {
@@ -749,7 +676,6 @@ create_corps_commander = {
 	id = 10075
 	picture = "Portrait_USA_Clarence_Townsley.dds"
 	traits = { bearer_of_artillery }
-	expire = "1918.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -757,7 +683,6 @@ create_corps_commander = {
 	id = 10076
 	picture = "Portrait_USA_Lutz_Wahl.dds"
 	traits = {  }
-	expire = "1928.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -765,7 +690,6 @@ create_corps_commander = {
 	id = 10077
 	picture = "Portrait_USA_Meriwether_Walker.dds"
 	traits = { trait_engineer }
-	expire = "1933.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -773,7 +697,6 @@ create_corps_commander = {
 	id = 10078
 	picture = "Portrait_USA_Erasmus_Weaver.dds"
 	traits = { bearer_of_artillery }
-	expire = "1918.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -781,7 +704,6 @@ create_corps_commander = {
 	id = 10079
 	picture = "Portrait_USA_William_Weigel.dds"
 	traits = { ranger }
-	expire = "1927.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -789,7 +711,6 @@ create_corps_commander = {
 	id = 10080
 	picture = "Portrait_USA_John_Wisser.dds"
 	traits = {  }
-	expire = "1918.1.1"
 	skill = 1
 }
 create_corps_commander = {
@@ -797,7 +718,6 @@ create_corps_commander = {
 	id = 10081
 	picture = "Portrait_USA_Leonard_Wood.dds"
 	traits = { trickster hill_fighter }
-	expire = "1921.1.1"
 	skill = 3
 }
 create_corps_commander = {
@@ -805,7 +725,6 @@ create_corps_commander = {
 	id = 10082
 	picture = "Portrait_USA_Robert_Wood.dds"
 	traits = { commando }
-	expire = "1919.1.1"
 	skill = 2
 }
 create_corps_commander = {
@@ -813,7 +732,6 @@ create_corps_commander = {
 	id = 10083
 	picture = "Portrait_USA_Richard_Young.dds"
 	traits = { bearer_of_artillery }
-	expire = "1919.12.27"
 	skill = 2
 }
 create_corps_commander = {
@@ -821,7 +739,6 @@ create_corps_commander = {
 	id = 10084
 	picture = "Portrait_USA_Charles_Zimmerman.dds"
 	traits = {  }
-	expire = "1918.1.1"
 	skill = 1
 }
 create_field_marshal = {
@@ -829,7 +746,6 @@ create_field_marshal = {
 		id = 10001
 		picture = "Portrait_USA_John_Pershing.dds"
 	traits = { old_guard offensive_doctrine organisational_leader }
-	expire = "1924.1.1"
 	skill = 4
 
 }
