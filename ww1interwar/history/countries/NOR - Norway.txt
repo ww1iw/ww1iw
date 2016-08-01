@@ -32,7 +32,7 @@ set_national_unity = 0.55
 				popularity = 0
 			}
 			neutrality = {
-				popularity = .5
+				popularity = 0.5
 			}
 		}
 		ruling_party = liberal
@@ -79,7 +79,7 @@ create_country_leader = {
 				popularity = 0
 			}
 			neutrality = {
-				popularity = .5
+				popularity = 0.5
 			}
 		}
 		ruling_party = liberal

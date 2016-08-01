@@ -5,17 +5,19 @@ bookmarks = {
 		date = 1911.1.1.12
 		picture = "GFX_select_date_1911"
 		default_country = "GER"
+		default = yes
+		
 		QNG = {
 			history = QNG_IMPERIAL_GAMBIT_DESC
 			ideology = autocratic
-			ideas={
+			ideas = {
 			}
 			
 		}
 		AUS = {
 			history = AUS_IMPERIAL_GAMBIT_DESC
 			ideology = autocratic
-			ideas={
+			ideas = {
 			}		
 			
 		}
@@ -31,7 +33,7 @@ bookmarks = {
 		ITA = {
 			history = ITA_IMPERIAL_GAMBIT_DESC
 			ideology = liberal
-			ideas={
+			ideas = {
 			}
 
 		}
@@ -42,7 +44,7 @@ bookmarks = {
 			}
 
 		}
-		GRE = {
+		SER = {
 			history = SER_IMPERIAL_GAMBIT_DESC
 			ideology = autocratic
 			ideas = {

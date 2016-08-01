@@ -312,7 +312,7 @@ set_technology = {
 		name = "Walter Stanley Monroe"
 		desc = ""
 		picture = "gfx/leaders/NFL/Portrait_NFL_Walter_Stanley_Monroe.dds"
-		expire = ""
+		expire = "1952.5.14"
 		ideology = conservatism
 		traits = {
 			#
@@ -325,13 +325,13 @@ set_technology = {
 		name = "Frederick C. Alderdice"
 		desc = ""
 		picture = "gfx/leaders/NFL/Portrait_NFL_Frederick_C._Alderdice.dds"
-		expire = ""
+		expire = "1936.2.26"
 		ideology = conservatism
 		traits = {
 			#
 		}
 	}
-]
+}
 
 1923.1.1 = {
 	create_country_leader = {	#1923 election

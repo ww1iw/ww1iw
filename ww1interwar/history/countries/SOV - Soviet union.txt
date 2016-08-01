@@ -49,7 +49,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-	create_country_leader = {
+create_country_leader = {
 	name = "Nicholas II"
 	desc = "NICHOLAS_II_DESC"
 	picture = "Portrait_Russia_Nicholas_II.dds"
@@ -132,11 +132,10 @@ add_to_faction = MON
 
 
 capital = 219
-remove_ideas = {
-	imperial_ideal
-	rasputin
-	communist_revolutionaries 
-	}
+#Don't know how else to do this, w/ {} said it was "unexpected token"
+remove_ideas = imperial_ideal
+remove_ideas =	rasputin
+remove_ideas =	communist_revolutionaries 
 add_ideas = {
 	revolutionary_ideal
 	home_of_revolution

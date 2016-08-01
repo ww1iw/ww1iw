@@ -137,7 +137,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/MAC/Portrait_MAC_Todor_Aleksandrov.dds"
 	expire = "1924.8.11"
-	ideology = conservatism
+	ideology = social_conservative
 	traits = {
 		#
 	}

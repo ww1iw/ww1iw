@@ -124,12 +124,12 @@ set_convoys = 20
 	}
 }
 
-create_country_leader = { #1978 may make later, sticking to history for now
+create_country_leader = { #1978 may make earlier, sticking to somewhat historical atm
 	name = "Mustafa Ould Salek"
 	desc = ""
 	picture = "gfx/leaders/MAU/Portrait_MAU_Mustafa_Ould_Salek.dds"
 	expire = "2012.12.18"
-	ideology = monarchism
+	ideology = militarism
 	traits = {
 		#
 	}
@@ -140,7 +140,7 @@ create_country_leader = { #1918
 	desc = ""
 	picture = "gfx/leaders/MAU/Portrait_MAU_Moktar_Ould_Daddah.dds"
 	expire = "2003.10.14"
-	ideology = monarchism
+	ideology = militarism
 	traits = {
 		#
 	}

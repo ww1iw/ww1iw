@@ -5,10 +5,12 @@ bookmarks = {
 		date = 1914.6.1.12
 		picture = "GFX_select_date_1914"
 		default_country = "GER"
+		default = yes
+		
 		ITA = {
 			history = ITA_WW1_DESC
 			ideology = liberal
-			ideas={
+			ideas = {
 			}
 
 		}
@@ -32,7 +34,7 @@ bookmarks = {
 		GER = {
 			history = GER_WW1_DESC
 			ideology = autocratic
-			ideas={
+			ideas = {
 			general_staff
 			}
 			
@@ -40,7 +42,7 @@ bookmarks = {
 		AUS = {
 			history = AUS_WW1_DESC
 			ideology = autocratic
-			ideas={
+			ideas = {
 			}		
 			
 		}

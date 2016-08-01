@@ -84,25 +84,29 @@ set_national_unity = 0.55
 	}
 }
 
-create_country_leader = { #Brother who took over in 1912 when Morocco became French protectorate
-	name = "Yusef ben Hassan"
-	desc = ""
-	picture = "gfx/leaders/MOR/Portrait_MOR_Yusef_ben_Hassan.dds"
-	expire = "1927.11.17"
-	ideology = monarchism
-	traits = {
-		#
+1912.1.1 = {
+	create_country_leader = { #Brother who took over in 1912 when Morocco became French protectorate
+		name = "Yusef ben Hassan"
+		desc = ""
+		picture = "gfx/leaders/MOR/Portrait_MOR_Yusef_ben_Hassan.dds"
+		expire = "1927.11.17"
+		ideology = monarchism
+		traits = {
+			#
+		}
 	}
 }
 
-create_country_leader = {
-	name = "Abd al-Hafid"
-	desc = ""
-	picture = "gfx/leaders/MOR/Portrait_MOR_Abd_al-Hafid.dds"
-	expire = "1937.4.4"
-	ideology = monarchism
-	traits = {
-		#
+1911.1.1 = {
+	create_country_leader = {
+		name = "Abd al-Hafid"
+		desc = ""
+		picture = "gfx/leaders/MOR/Portrait_MOR_Abd_al-Hafid.dds"
+		expire = "1937.4.4"
+		ideology = monarchism
+		traits = {
+			#
+		}
 	}
 }
 

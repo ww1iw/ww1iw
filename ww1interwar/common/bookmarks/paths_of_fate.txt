@@ -27,7 +27,7 @@ bookmarks = {
 		"ITA"={
 			history = "ITA_PATHS_OF_FATE_DESC"
 			ideology = fascism
-			ideas={
+			ideas = {
 				vittoria_mutilata
 				victor_emmanuel
 			}			
@@ -35,7 +35,7 @@ bookmarks = {
 		"JAP"={
 			history = "JAP_PATHS_OF_FATE_DESC"
 			ideology = fascism
-			ideas={
+			ideas = {
 				state_shintoism
 			}			
 		}

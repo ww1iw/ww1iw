@@ -1,60 +1,62 @@
 ideas = {
 
-	roaring_twenties = {
-		picture = generic_production_bonus
-		allowed = {
-			always = no
+	country = {
+		roaring_twenties = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = { # Nothing as of yet, may change, may not, at the moment it will influence how often openings occur
+			}
 		}
 		
-		allowed_civil_war = {
-			always = no
+		great_depression = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = { # Nothing as of yet, may change, may not, at the moment it will influence how often bankrupcies occur
+			}
 		}
 		
-		modifier = { # Nothing as of yet, may change, may not, at the moment it will influence how often openings occur
-		}
-	}
-	
-	great_depression = {
-		picture = generic_production_bonus
-		allowed = {
-			always = no
-		}
-		
-		allowed_civil_war = {
-			always = no
-		}
-		
-		modifier = { # Nothing as of yet, may change, may not, at the moment it will influence how often bankrupcies occur
-		}
-	}
-	
-	general_strikes_private_sec = {
-		picture = generic_production_bonus
-		allowed = {
-			always = no
+		general_strikes_private_sec = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = { # Generic version of the strikes in France in vanilla
+				industrial_capacity_factory =  -0.9
+			}
 		}
 		
-		allowed_civil_war = {
-			always = no
-		}
-		
-		modifier = { # Generic version of the strikes in France in vanilla
-			industrial_capacity_factory =  -0.9
-		}
-	}
-	
-	general_strikes_public_sec = {
-		picture = generic_production_bonus
-		allowed = {
-			always = no
-		}
-		
-		allowed_civil_war = {
-			always = no
-		}
-		
-		modifier = {
-			political_power_factor = -0.9
+		general_strikes_public_sec = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = -0.9
+			}
 		}
 	}
 }

@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_ABDULAZIZ_DESC"
 	picture = "gfx/leaders/SAU/Portrait_SAU_Ibn_Saud.dds"
 	expire = "1953.11.9"
-	ideology = neutrality
+	ideology = independent
 }
 
 create_field_marshal = {

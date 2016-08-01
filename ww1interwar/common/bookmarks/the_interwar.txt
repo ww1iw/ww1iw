@@ -5,6 +5,8 @@ bookmarks = {
 		date = 1923.1.1.12
 		picture = "GFX_select_date_1923"
 		default_country = "SOV"
+		default = yes
+		
 		USA = {
 			history = USA_INTERWAR_DESC
 			ideology = liberal
@@ -32,7 +34,7 @@ bookmarks = {
 		GER = {
 			history = GER_INTERWAR_DESC
 			ideology = socialist
-			ideas={
+			ideas = {
 				neutrality_ideal
 				sour_loser
 				burgfrieden
@@ -49,7 +51,7 @@ bookmarks = {
 		ITA = {
 			history = ITA_INTERWAR_DESC
 			ideology = fascism
-			ideas={
+			ideas = {
 				strength_ideal
 				vittoria_mutilata
 				victor_emmanuel
@@ -58,7 +60,7 @@ bookmarks = {
 		FRA = {
 			history = FRA_INTERWAR_DESC
 			ideology = liberal
-			ideas={
+			ideas = {
 				liberty_ideal
 				FRA_victors_of_wwi
 				FRA_disjointed_government
@@ -68,7 +70,7 @@ bookmarks = {
 		JAP = {
 			history = JAP_INTERWAR_DESC
 			ideology = autocratic
-			ideas={
+			ideas = {
 				imperial_ideal
 				state_shintoism
 				the_long_lance

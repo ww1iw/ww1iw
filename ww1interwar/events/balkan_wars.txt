@@ -1,4 +1,4 @@
-add_namespace = balkan_wars
+﻿add_namespace = balkan_wars
 
 # Albanian Revolt of 1912 begins
 country_event = {
@@ -39,7 +39,7 @@ country_event = {
 			release_puppet = ALB
 			declare_war_on = {
 				target = ALB
-				type = annex everything
+				type = annex
 			}
 		}
 		ALB = {

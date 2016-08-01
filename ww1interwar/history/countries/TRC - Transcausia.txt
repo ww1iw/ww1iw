@@ -1,4 +1,4 @@
-oob = "basic_test"
+﻿oob = "basic_test"
 capital = 231 # Tbilisi
 
 add_ideas = {

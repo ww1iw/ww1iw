@@ -929,7 +929,7 @@ set_politics = {
 	desc = "GILBERT_NATIONS_DESC"
 	picture = "Portrait_USA_Gilbert_Nations.dds"
 	expire = 1950.1.1
-	ideology = fascism
+	ideology = fascism_ideology
 }
 }
 

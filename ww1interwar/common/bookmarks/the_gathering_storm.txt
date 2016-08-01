@@ -45,7 +45,7 @@ bookmarks = {
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
-			ideas={
+			ideas = {
 				vittoria_mutilata
 				victor_emmanuel
 			}			
@@ -53,7 +53,7 @@ bookmarks = {
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = fascism
-			ideas={
+			ideas = {
 				state_shintoism
 			}			
 		}
