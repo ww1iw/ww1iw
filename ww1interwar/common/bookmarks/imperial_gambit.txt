@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "temp"
 		date = 1911.1.1.12
 		picture = "GFX_select_date_1911"
-		default_country = "GER"
+		default_country = "AUS"
 		default = yes
 		
 		QNG = {
