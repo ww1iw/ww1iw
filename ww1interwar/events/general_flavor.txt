@@ -632,7 +632,7 @@ country_event = {
  
     trigger = {
 		has_government = communism
-		socialism > 0.1
+		socialist > 0.1
     }
  
     mean_time_to_happen = {
@@ -668,7 +668,7 @@ country_event = {
 		name = expol.16.b
 		add_popularity = { ideology = socialist popularity = -0.1 }
 		add_popularity = { ideology = liberal popularity = -0.1 }
-		hold_election = yes
+		hold_election = ROOT #yes isn't valid, I belive ROOT should do it as it needs to specify the country
 	}
 }
 
@@ -706,6 +706,6 @@ country_event = {
 			add_popularity = { ideology = conservative popularity = -0.1 }
 		}		
 		add_popularity = { ideology = fascism popularity = 0.1 }
-		hold_election = yes
+		hold_election = ROOT #yes isn't valid, I belive ROOT should do it as it needs to specify the country
 	}
 }

@@ -39,7 +39,7 @@ country_event = {
 			release_puppet = ALB
 			declare_war_on = {
 				target = ALB
-				type = annex
+				type = annex_everything
 			}
 		}
 		ALB = {
@@ -80,7 +80,7 @@ country_event = {
 			release_puppet = ALB
 			declare_war_on = {
 				target = ALB
-				type = annex everything
+				type = annex_everything
 			}
 		}
 		ALB = {
@@ -168,7 +168,7 @@ country_event = {
 			release_puppet = ALB
 			declare_war_on = {
 				target = ALB
-				type = annex everything
+				type = annex_everything
 			}
 		}
 		ALB = {
@@ -255,7 +255,7 @@ country_event = {
 			release_puppet = ALB
 			declare_war_on = {
 				target = ALB
-				type = annex everything
+				type = annex_everything
 			}
 		}
 		ALB = {

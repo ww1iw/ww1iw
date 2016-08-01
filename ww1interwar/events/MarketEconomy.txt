@@ -31,7 +31,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 4
-			has_idea = great_depression
+			has_idea = generic_great_depression
 		}
 		modifier = {
 			factor = 0.7

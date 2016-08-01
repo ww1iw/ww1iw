@@ -35,7 +35,7 @@ set_politics = {
 			popularity = 0
 		}
 		neutrality = {
-			popularity = .99
+			popularity = 0.99
 		}
 		fascism = {
 			popularity = 0
@@ -117,7 +117,7 @@ set_politics = {
 			popularity = 0
 		}
 		neutrality = {
-			popularity = .99
+			popularity = 0.99
 		}
 		fascism = {
 			popularity = 0

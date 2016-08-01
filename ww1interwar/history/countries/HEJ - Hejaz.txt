@@ -1,4 +1,4 @@
-oob = "basic_test"
+﻿oob = "basic_test"
 capital = 679
 set_research_slots = 2
 set_national_unity = 0.60

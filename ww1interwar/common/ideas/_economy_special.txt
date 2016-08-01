@@ -15,7 +15,7 @@ ideas = {
 			}
 		}
 		
-		great_depression = {
+		generic_great_depression = {
 			picture = generic_production_bonus
 			allowed = {
 				always = no

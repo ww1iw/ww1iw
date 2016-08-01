@@ -422,9 +422,9 @@ country_event = {
 			and = {
 				has_global_flag = transcaucasia_1917
 				date > 1917.5.1
-				is_at_war_with = TRC
+				has_war_with = TRC
 				TUR = {
-					is_at_war_with = TRC
+					has_war_with = TRC
 					controls_state = 743
 					controls_state = 790
 					controls_state = 791
@@ -435,7 +435,7 @@ country_event = {
 			and = {
 				has_global_flag = transcaucasia_1918
 				date > 1918.5.1
-				is_at_war_with = TRC
+				has_war_with = TRC
 				TUR = {
 					has_war_with = TRC
 					controls_state = 743

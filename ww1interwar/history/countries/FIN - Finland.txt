@@ -31,7 +31,7 @@ set_national_unity = 0.55
 				popularity = 0
 			}
 			neutrality = {
-				popularity = .17
+				popularity = 0.17
 			}
 		}
 		ruling_party = liberal

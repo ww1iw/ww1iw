@@ -9,7 +9,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1927.1.1
+		date > 1927.1.1
 	}
 
 	mean_time_to_happen = {
@@ -30,7 +30,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1924.1.1
+		date > 1924.1.1
 	}
 
 	mean_time_to_happen = {
@@ -51,7 +51,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1919.1.1
+		date > 1919.1.1
 	}
 
 	mean_time_to_happen = {
@@ -72,7 +72,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1922.1.1
+		date > 1922.1.1
 	}
 
 	mean_time_to_happen = {
@@ -93,7 +93,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1923.1.1
+		date > 1923.1.1
 	}
 
 	mean_time_to_happen = {
@@ -114,7 +114,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1919.1.1
+		date > 1919.1.1
 	}
 
 	mean_time_to_happen = {
@@ -135,11 +135,11 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1919.10.31
+		date > 1919.10.31
 	}
 
 	mean_time_to_happen = {
-		hours = 24
+		days = 1 #hours apparently isn't known for MTTH
 	}
 	
 	option = {
@@ -156,7 +156,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1940.1.1
+		date > 1940.1.1
 	}
 
 	mean_time_to_happen = {
@@ -177,11 +177,11 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1925.6.17
+		date > 1925.6.17
 	}
 
 	mean_time_to_happen = {
-		hours = 24
+		days = 1
 	}
 	
 	option = {
@@ -198,7 +198,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1921.6.1
+		date > 1921.6.1
 	}
 
 	mean_time_to_happen = {
@@ -219,7 +219,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1920.1.1
+		date > 1920.1.1
 	}
 
 	mean_time_to_happen = {
@@ -240,7 +240,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1936.1.1
+		date > 1936.1.1
 	}
 
 	mean_time_to_happen = {
@@ -261,7 +261,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1925.1.1
+		date > 1925.1.1
 	}
 
 	mean_time_to_happen = {
@@ -282,7 +282,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1924.1.1
+		date > 1924.1.1
 	}
 
 	mean_time_to_happen = {
@@ -303,7 +303,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1924.1.1
+		date > 1924.1.1
 	}
 
 	mean_time_to_happen = {
@@ -324,7 +324,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1918.1.1
+		date > 1918.1.1
 	}
 
 	mean_time_to_happen = {
@@ -345,11 +345,11 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1933.11.30
+		date > 1933.11.30
 	}
 
 	mean_time_to_happen = {
-		hours = 24
+		days = 1
 	}
 	
 	option = {
@@ -366,7 +366,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1921.1.1
+		date > 1921.1.1
 	}
 
 	mean_time_to_happen = {
@@ -387,7 +387,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1942.1.1
+		date > 1942.1.1
 	}
 
 	mean_time_to_happen = {
@@ -408,11 +408,11 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1923.2.14
+		date > 1923.2.14
 	}
 
 	mean_time_to_happen = {
-		hours = 24
+		days = 1
 	}
 	
 	option = {
@@ -429,7 +429,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1918.1.1
+		date > 1918.1.1
 	}
 
 	mean_time_to_happen = {
@@ -450,7 +450,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1927.1.1
+		date > 1927.1.1
 	}
 
 	mean_time_to_happen = {
@@ -471,7 +471,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1922.1.1
+		date > 1922.1.1
 	}
 
 	mean_time_to_happen = {
@@ -492,7 +492,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1925.1.1
+		date > 1925.1.1
 	}
 
 	mean_time_to_happen = {
@@ -513,7 +513,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1922.12.1
+		date > 1922.12.1
 	}
 
 	mean_time_to_happen = {
@@ -534,7 +534,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1918.1.1
+		date > 1918.1.1
 	}
 
 	mean_time_to_happen = {
@@ -555,7 +555,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1922.1.1
+		date > 1922.1.1
 	}
 
 	mean_time_to_happen = {
@@ -576,11 +576,11 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1929.11.10
+		date > 1929.11.10
 	}
 
 	mean_time_to_happen = {
-		hours = 24
+		days = 1
 	}
 	
 	option = {
@@ -597,7 +597,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1935.1.1
+		date > 1935.1.1
 	}
 
 	mean_time_to_happen = {
@@ -618,7 +618,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1919.1.1
+		date > 1919.1.1
 	}
 
 	mean_time_to_happen = {
@@ -639,7 +639,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1918.1.1
+		date > 1918.1.1
 	}
 
 	mean_time_to_happen = {
@@ -660,7 +660,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1928.1.1
+		date > 1928.1.1
 	}
 
 	mean_time_to_happen = {
@@ -681,7 +681,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1922.1.1
+		date > 1922.1.1
 	}
 
 	mean_time_to_happen = {
@@ -702,7 +702,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1919.1.1
+		date > 1919.1.1
 	}
 
 	mean_time_to_happen = {
@@ -723,7 +723,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1922.1.1
+		date > 1922.1.1
 	}
 
 	mean_time_to_happen = {
@@ -744,7 +744,7 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		date = 1922.1.1
+		date > 1922.1.1
 	}
 
 	mean_time_to_happen = {
