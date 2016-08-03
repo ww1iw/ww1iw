@@ -47,35 +47,11 @@ equipments = {
 	}
 
 
-
-	infantry_equipment_1 = {		#1913
+	infantry_equipment_1 = {		#1914
 		archetype = infantry_equipment
 		parent = infantry_equipment_0
 		priority = 10
 		visual_level = 1
-
-		#Defensive Abilities
-		defense = 24
-		breakthrough = 1
-
-		#Offensive Abilities
-		soft_attack = 4
-		hard_attack = 0.5
-		ap_attack = 0
-		air_attack = 0
-
-		build_cost_ic = 0.5
-		resources = {
-			steel = 2
-			coal = 1
-		}
-	}
-
-	infantry_equipment_2 = {		#1914
-		archetype = infantry_equipment
-		parent = infantry_equipment_1
-		priority = 10
-		visual_level = 2
 		
 		#Defensive Abilities
 		defense = 28
@@ -94,35 +70,11 @@ equipments = {
 		}
 	}
 	
-	infantry_equipment_3 = {		#1915
+		infantry_equipment_2 = {		#1917
 		archetype = infantry_equipment
-		parent = infantry_equipment_2
+		parent = infantry_equipment_1
 		priority = 10
-		visual_level = 3
-		
-		#Defensive Abilities
-		defense = 34
-		breakthrough = 3
-
-		#Offensive Abilities
-		soft_attack = 16
-		hard_attack = 2
-		ap_attack = 1
-		air_attack = 0
-		
-		reliability = 0.8
-		build_cost_ic = 1
-		resources = {
-			steel = 3
-			coal = 2
-			minerals = 1
-		}
-	}
-		infantry_equipment_4 = {		#1916
-		archetype = infantry_equipment
-		parent = infantry_equipment_3
-		priority = 10
-		visual_level = 3
+		visual_level = 2
 		
 		#Defensive Abilities
 		defense = 38
@@ -142,33 +94,10 @@ equipments = {
 			minerals = 2
 		}
 	}
-		infantry_equipment_5 = {		#1925
-		archetype = infantry_equipment
-		parent = infantry_equipment_4
-		priority = 10
-		visual_level = 3
 		
-		#Defensive Abilities
-		defense = 42
-		breakthrough = 6
-
-		#Offensive Abilities
-		soft_attack = 22
-		hard_attack = 6
-		ap_attack = 10
-		air_attack = 0
-		
-		reliability = 0.8
-		build_cost_ic = 1
-		resources = {
-			steel = 4
-			coal = 2
-			minerals = 2
-		}
-	}
-		infantry_equipment_6 = {		#1932
+		infantry_equipment_3 = {		#1932
 		archetype = infantry_equipment
-		parent = infantry_equipment_5
+		parent = infantry_equipment_2
 		priority = 10
 		visual_level = 3
 		
@@ -190,11 +119,11 @@ equipments = {
 			minerals = 2
 		}
 	}
-		infantry_equipment_7 = {		#1939
+		infantry_equipment_4 = {		#1941
 		archetype = infantry_equipment
-		parent = infantry_equipment_6
+		parent = infantry_equipment_3
 		priority = 10
-		visual_level = 3
+		visual_level = 4
 		
 		#Defensive Abilities
 		defense = 50
@@ -214,11 +143,11 @@ equipments = {
 			minerals = 2
 		}
 	}
-		infantry_equipment_8 = {		#1943
+		infantry_equipment_5 = {		#1944
 		archetype = infantry_equipment
-		parent = infantry_equipment_7
+		parent = infantry_equipment_4
 		priority = 10
-		visual_level = 3
+		visual_level = 5
 		
 		#Defensive Abilities
 		defense = 56
