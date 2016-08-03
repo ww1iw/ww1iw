@@ -5,8 +5,8 @@ state={
 	
 	state_category = wasteland
 
-	history={
-		owner = MOR
+	history = {
+		owner = SPR
 		buildings = {
 			infrastructure = 1
 			8038 = {
@@ -16,12 +16,8 @@ state={
 				naval_base = 1
 			}
 		}
-		add_claim_by = SPR
 		add_core_of = MOR
 		
-		1912.3.30 = {
-			owner = SPR
-		}
 	}
 	
 	provinces={
