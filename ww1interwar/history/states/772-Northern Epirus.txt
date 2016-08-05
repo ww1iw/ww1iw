@@ -12,7 +12,7 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			6900 5	#Korçë
+			6900 1	#Korçë
 		}
 		buildings = {
 			infrastructure = 3

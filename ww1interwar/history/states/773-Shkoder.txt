@@ -12,7 +12,7 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			9780 5 	#Shkodër
+			9780 3 	#Shkodër
 		}
 		buildings = {
 			infrastructure = 3
