@@ -809,6 +809,88 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_NOR_tandbergs_radiofabrikk.dds"
 	}		
 	
+	### AUSTRIAN IDEAS
+	
+	SpriteType = {
+		name = "GFX_idea_steyr_daimler_puch"
+		texturefile = "gfx/interface/ideas/idea_steyr.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_graf_stift"
+		texturefile = "gfx/interface/ideas/idea_graf_stift.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_austro_fiat"
+		texturefile = "gfx/interface/ideas/idea_austro_fiat.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_austro_daimler"
+		texturefile = "gfx/interface/ideas/idea_austro_daimler.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_STT"
+		texturefile = "gfx/interface/ideas/idea_STT.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ganz"
+		texturefile = "gfx/interface/ideas/idea_ganz.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_pola_marinewerke"
+		texturefile = "gfx/interface/ideas/idea_pola_marinewerke.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ufag"
+		texturefile = "gfx/interface/ideas/idea_ufag.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_lohner"
+		texturefile = "gfx/interface/ideas/idea_lohner.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_pheonix_flugzeugwerke"
+		texturefile = "gfx/interface/ideas/idea_pheonix_flugzeugwerke.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_steyr"
+		texturefile = "gfx/interface/ideas/idea_steyr.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_skoda"
+		texturefile = "gfx/interface/ideas/idea_skoda.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_tungsram"
+		texturefile = "gfx/interface/ideas/idea_tungsram.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_wiener_neustadt"
+		texturefile = "gfx/interface/ideas/idea_wiener_neustadt.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_manfred_weiss"
+		texturefile = "gfx/interface/ideas/idea_manfred_weiss.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_AUS_hirtenberger"
+		texturefile = "gfx/interface/ideas/idea_hirtenberger.dds"
+	}
+	
 	### GERMAN IDEAS
 
 	SpriteType = {

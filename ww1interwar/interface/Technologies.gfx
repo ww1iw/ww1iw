@@ -2499,7 +2499,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GER_infantry_equipment_1.dds"
 	}
 	
-
+	### AUSTRIAN EQUIPMENT ###
+	
+	SpriteType = {
+		name = "GFX_AUS_automobile_medium"
+		texturefile = "gfx/interface/technologies/AUS_automobile.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_AUS_army_truck_medium"
+		texturefile = "gfx/interface/technologies/AUS_army_truck.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_AUS_armored_car_medium"
+		texturefile = "gfx/interface/technologies/AUS_armored_car.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_AUS_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/AUS_armored_car3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_AUS_gwtank_heavy_medium"
+		texturefile = "gfx/interface/technologies/AUS_gwtank_heavy.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_AUS_tankette2_medium"
+		texturefile = "gfx/interface/technologies/AUS_tankette2.dds"
+	}	
+	
+	
 	spriteType = {
 		name = "GFX_subtech_td"
 		textureFile = "gfx//interface//technologies//subtech_td.dds"
