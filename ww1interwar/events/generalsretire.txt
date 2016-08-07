@@ -139,7 +139,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 1 #hours apparently isn't known for MTTH
+		days = 365 #hours apparently isn't known for MTTH
 	}
 	
 	option = {
@@ -181,7 +181,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		days = 365
 	}
 	
 	option = {
@@ -202,7 +202,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 30
+		days = 365
 	}
 	
 	option = {
@@ -349,7 +349,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		days = 365
 	}
 	
 	option = {
@@ -412,7 +412,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		days = 365
 	}
 	
 	option = {
@@ -517,7 +517,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 31
+		days = 365
 	}
 	
 	option = {
@@ -580,7 +580,7 @@ news_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		days = 365
 	}
 	
 	option = {

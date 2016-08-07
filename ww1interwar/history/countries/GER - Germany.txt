@@ -126,6 +126,94 @@ create_country_leader = {
 	traits = {
 	}
 }
+create_field_marshal = {
+	name = "Paul von Hindenburg"
+	picture = "Portrait_Germany_Paul_von_Hindenburg.dds"
+	traits = {  offensive_doctrine old_guard inspirational_leader thorough_planner }
+	skill = 4
+	id = 11001
+}
+
+create_corps_commander = {
+	name = "Karl von Bülow"
+	picture = "Portrait_Germany_Karl_von_Buelow.dds"
+	traits = {  old_guard }
+	skill = 2
+	id = 11002
+}
+
+create_field_marshal = {
+	name = "August von Mackensen"
+	picture = "Portrait_Germany_August_von_Mackensen.dds"
+	traits = {  offensive_doctrine old_guard organisational_leader fast_planner }
+	skill = 4
+	id = 11003
+}
+
+create_field_marshal = {
+	name = "Crown Prince Rupprecht of Bavaria"
+	picture = "Portrait_Germany_Crown_Prince_Rupprecht.dds"
+	traits = {  offensive_doctrine inspirational_leader fast_planner }
+	skill = 4
+	id = 11004
+}
+
+create_field_marshal = {
+	name = "Prince Leopold of Bavaria"
+	picture = "Portrait_Germany_Prince_Leopold.dds"
+	traits = {  defensive_doctrine old_guard fast_planner }
+	skill = 4
+	id = 11005
+}
+
+create_field_marshal = {
+	name = "Duke Albrecht of Württemberg"
+	picture = "Portrait_Germany_Duke_Albrecht.dds"
+	traits = {  }
+	skill = 2
+	id = 11006
+}
+
+create_field_marshal = {
+	name = "Hermann von Eichhorn"
+	picture = "Portrait_Germany_Hermann_von_Eichhorn.dds"
+	traits = { old_guard }
+	skill = 3
+	id = 11007
+}
+
+create_corps_commander = {
+	name = "Erich Ludendorff"
+	picture = "Portrait_Germany_Erich_Ludendorff.dds"
+	traits = { trickster fortress_buster bearer_of_artillery }
+	skill = 4
+	id = 11008
+}
+
+create_field_marshal = {
+	name = "Remus von Woyrsch"
+	picture = "Portrait_Germany_Remus_von_Woyrsch.dds"
+	traits = { old_guard defensive_doctrine }
+	skill = 2
+	id = 11009
+}
+
+create_field_marshal = {
+	name = "Ludwig III of Bavaria"
+	picture = "Portrait_Germany_Ludwig_III.dds"
+	traits = { old_guard }
+	skill = 1
+	id = 11010
+}
+
+create_corps_commander = {
+	name = "Erich von Falkenhayn"
+	picture = "Portrait_Germany_Erich_von_Falkenhayn.dds"
+	traits = { bearer_of_artillery }
+	skill = 3
+	id = 11008
+}
+
 
 1914.6.1 = {
 oob = "GER_1914"
