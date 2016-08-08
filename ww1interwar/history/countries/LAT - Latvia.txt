@@ -37,7 +37,7 @@ set_national_unity = 0.55
 				popularity = 11.0
 			}
 		}
-		ruling_party = conservative
+		ruling_party = democratic
 		last_election = "1920.4.11"
 		election_frequency = 48
 		elections_allowed = yes
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_JANIS_CAKSTE_DESC"
 	picture = "Portrait_Latvia_Janis_Cakste.dds"
 	expire = "1927.14.2"
-	ideology = conservatism
+	ideology = democratic
 	traits = {
 	}
 }
