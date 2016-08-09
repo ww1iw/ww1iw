@@ -76,3 +76,5 @@
  STATE_808:0 "Schwarzburg-Sondershausen"
  STATE_809:0 "Sachsen-Coburg"
  STATE_810:0 "Hohenzollern"
+ STATE_811:1 "Pomorze"
+ STATE_812:0 "Königsberg"

@@ -1,0 +1,40 @@
+﻿oob = "basic_test"
+capital = 85
+
+1923.1.1 = {
+
+add_ideas = {
+strength_ideal
+}
+
+set_national_unity = 0.75
+
+set_politics = {
+
+	parties = {
+		liberal = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = liberal
+	last_election = "1922.4.4"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "City Council"
+	desc = "DAN_GOV_DESC"
+	picture = "Portrait_Poland_Stanislaw_Wojciechowski.dds"
+	expire = "1953.4.9"
+	ideology = economic_liberal
+	traits = {
+		
+	}
+	
+}
+puppet = DAN
+give_military_access = DAN
+}
+
