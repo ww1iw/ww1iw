@@ -2501,6 +2501,56 @@ spriteTypes = {
 	
 	### AUSTRIAN EQUIPMENT ###
 	
+		SpriteType = {
+		name = "GFX_AUS_infantry_rifle_medium"
+		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_0.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_AUS_infantry_rifle1_medium"
+		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_1.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_AUS_infantry_rifle2_medium"
+		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_2.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_AUS_infantry_rifle3_medium"
+		texturefile = "gfx/interface/technologies/AUS_infantry_equipment_3.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_AUS_infantry_rifle4_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_4.dds"	
+	}
+	
+		SpriteType = {
+		name = "GFX_AUS_infantry_rifle5_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_AUS_infantry_smg_medium"
+		texturefile = "gfx/interface/technologies/AUS_smg_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_AUS_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/GER_smg_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_AUS_infantry_smg2_medium"
+		texturefile = "gfx/interface/technologies/GER_smg_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_AUS_infantry_smg3_medium"
+		texturefile = "gfx/interface/technologies/GER_smg_equipment_3.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_AUS_automobile_medium"
 		texturefile = "gfx/interface/technologies/AUS_automobile.dds"
@@ -2530,7 +2580,6 @@ spriteTypes = {
 		name = "GFX_AUS_tankette2_medium"
 		texturefile = "gfx/interface/technologies/AUS_tankette2.dds"
 	}	
-	
 	
 	spriteType = {
 		name = "GFX_subtech_td"
