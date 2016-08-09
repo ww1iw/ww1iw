@@ -1,0 +1,14 @@
+﻿# Ships sent to TUR in exchange for alliance
+
+units = {
+						
+	navy = {					
+		name = "German ships"
+		base = 9833
+		location = 9833 # Istanbul
+
+		ship = { name = "Yavuz Sultan Selim" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER creator = GER } } }		# SMS Goeben
+		ship = { name = "Midili" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GER creator = GER } } }			# SMS Breslau	
+	}
+}
+					

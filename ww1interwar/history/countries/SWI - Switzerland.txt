@@ -4,6 +4,7 @@ capital = 3
 
 add_ideas = {
 neutrality_ideal
+limited_conscription
 }
 
 set_research_slots = 3

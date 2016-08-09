@@ -1,0 +1,94 @@
+ideas = {
+
+	country = {
+
+	minor_factory_strike = {
+		picture = generic_production_bonus
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = communism
+			}
+		}
+
+		modifier = {
+			industrial_capacity_factory =  -0.1
+			unity_factor = -0.02
+		}
+	}
+	
+	small_factory_strike = {
+		picture = generic_production_bonus
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = communism
+			}
+		}
+
+		modifier = {
+			industrial_capacity_factory =  -0.25
+			unity_factor = -0.04
+		}
+	}
+	
+	medium_factory_strike = {
+		picture = generic_production_bonus
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = communism
+			}
+		}
+
+		modifier = {
+			industrial_capacity_factory =  -0.5
+			unity_factor = -0.06
+		}
+	}
+	
+	large_factory_strike = {
+		picture = generic_production_bonus
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = communism
+			}
+		}
+
+		modifier = {
+			industrial_capacity_factory =  -0.75
+			unity_factor = -0.08
+		}
+	}
+	
+	major_factory_strike = {
+		picture = generic_production_bonus
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = communism
+			}
+		}
+
+		modifier = {
+			industrial_capacity_factory =  -0.9
+			unity_factor = -0.1
+		}
+	}
+}

@@ -3,6 +3,7 @@ capital = 16
 
 add_ideas = {
 liberty_ideal
+limited_conscription
 }
 
 create_faction = Entente
@@ -71,6 +72,7 @@ capital = 16
 
 add_ideas = {
 liberty_ideal
+extensive_conscription
 }
 
 create_faction = Entente
@@ -140,6 +142,7 @@ set_national_unity = 0.4
 add_ideas = {
 	FRA_victors_of_wwi
 	FRA_disjointed_government
+	limited_conscription
 }
 
 set_politics = {

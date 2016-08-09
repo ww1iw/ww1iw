@@ -1,0 +1,1164 @@
+﻿######################
+#German Empire Events#
+######################
+
+add_namespace = german_empire
+
+# Burgfrieden
+country_event = {
+	id = german_empire.1
+	title = germany.wwi1.t
+	desc = germany.wwi1.d
+	picture = GFX_report_event_burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi1.a
+		add_national_unity = 0.25
+		add_political_power = 60000
+		add_popularity = { ideology = autocratic popularity = 0.1 } 
+	}
+}
+
+# Goeben and Breslau => German-Turkish alliance
+country_event = {
+	id = german_empire.2
+	title = germany.wwi2.t
+	desc = germany.wwi2.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi2.a
+		ai_chance = { factor = 99 }
+		load_oob = TUR_goeben_breslau
+		GER = { add_to_faction = TUR }
+		GER = {
+				country_event = german_empire.5
+			}
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.4 }
+		}
+	}
+	
+	option = {
+		name = germany.wwi2.b
+		ai_chance = { factor = 1 }
+		GER = { add_opinion_modifier = { target = TUR modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+# German-Swedish alliance
+country_event = {
+	id = german_empire.3
+	title = germany.wwi3.t
+	desc = germany.wwi3.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi3.a
+		ai_chance = { factor = 85 }
+		GER = { add_to_faction = SWE }
+		111 = { add_core_of = SWE remove_claim_by = SWE } 
+		145 = { add_core_of = SWE remove_claim_by = SWE } 
+		146 = { add_core_of = SWE remove_claim_by = SWE } 
+		147 = { add_core_of = SWE remove_claim_by = SWE }  
+		148 = { add_core_of = SWE remove_claim_by = SWE } 
+		149 = { add_core_of = SWE remove_claim_by = SWE } 
+		150 = { add_core_of = SWE remove_claim_by = SWE } 
+		722 = { add_core_of = SWE remove_claim_by = SWE } 
+		GER = {
+				country_event = german_empire.5
+			}
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.5 }
+		}
+	}
+	
+	option = {
+		name = germany.wwi3.b
+		ai_chance = { factor = 15 }
+		GER = { add_opinion_modifier = { target = SWE modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+# German-Bulgarian alliance
+country_event = {
+	id = german_empire.4
+	title = germany.wwi4.t
+	desc = germany.wwi4.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi4.a
+		ai_chance = { factor = 95 }
+		GER = { add_to_faction = BUL }
+		GER = {
+				country_event = german_empire.5
+			}
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.6 }
+		}
+	}
+	
+	option = {
+		name = germany.wwi4.b
+		ai_chance = { factor = 5 }
+		GER = { add_opinion_modifier = { target = BUL modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+# Target agrees 
+country_event = {
+	id = german_empire.5
+	title = germany.wwi5.t
+	desc = germany.wwi5.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi5.a
+		GER = { add_opinion_modifier = { target = FROM modifier = ger_accepts_alliance_opinion } }
+	}
+}
+
+# Target refuses
+country_event = {
+	id = german_empire.6
+	title = germany.wwi6.t
+	desc = germany.wwi6.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi6.a
+		GER = { add_opinion_modifier = { target = FROM modifier = ger_refuses_alliance_opinion } }
+	}
+}
+
+# Greece II
+country_event = {
+	id = german_empire.7
+	title = germany.wwi7.t
+	desc = germany.wwi7.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi7.a
+		ai_chance = { factor = 95 }
+		GER = { add_to_faction = GRE }
+		GER = {
+				country_event = german_empire.5
+			}
+		news_event = { hours = 6 id = news_ww1.7 }
+	}
+	
+	option = {
+		name = germany.wwi7.b
+		ai_chance = { factor = 5 }
+		GER = { add_opinion_modifier = { target = GRE modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+
+# OHL 1 
+country_event = {
+	id = german_empire.8
+	title = germany.wwi8.t
+	desc = germany.wwi8.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi8.a
+		add_ideas = helmuth_von_moltke_the_younger
+	}
+}
+
+# OHL 2
+country_event = {
+	id = german_empire.9
+	title = germany.wwi9.t
+	desc = germany.wwi9.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi9.a
+		remove_ideas = helmuth_von_moltke_the_younger
+		add_ideas = erich_von_falkenhayn
+	}
+}
+
+# OHL 3
+country_event = {
+	id = german_empire.10
+	title = germany.wwi10.t
+	desc = germany.wwi10.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi10.a
+		remove_ideas = erich_von_falkenhayn
+		add_ideas = paul_von_hindenburg
+	}
+}
+
+# Baghdad Railway
+country_event = {
+	id = german_empire.11
+	title = germany.wwi11.t
+	desc = germany.wwi11.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi11.a
+		        291 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				677 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				676 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				680 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				344 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				345 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				346 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				add_resource = {
+				type = oil
+				amount = 16
+				state = 291
+			    }
+	}
+}
+
+# Asienkorps
+country_event = {
+	id = german_empire.12
+	title = germany.wwi12.t
+	desc = germany.wwi12.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi1.a
+		army_experience = 10
+	    create_corps_commander = {
+			name = "Friedrich Kreß von Kressenstein"
+			portrait_path = "gfx/leaders/POL/Portrait_POL_Voytek.dds"
+			traits = { desert_fox }
+			skill = 3
+		}
+	}
+}
+
+#Greece I, OE agrees
+country_event = {
+	id = german_empire.13
+	title = germany.wwi13.t
+	desc = germany.wwi13.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi13.a
+		ai_chance = { factor = 95 }
+		GER = { add_to_faction = GRE }
+		GER = {
+				country_event = german_empire.16
+			}
+		GRE = { transfer_state = 339 }
+		news_event = { hours = 6 id = news_ww1.8 }
+	}
+	
+	option = {
+		name = germany.wwi13.b
+		ai_chance = { factor = 5 }
+		GER = { add_opinion_modifier = { target = GRE modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+#Greece I, OE declines
+country_event = {
+	id = german_empire.14
+	title = germany.wwi14.t
+	desc = germany.wwi14.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi14.a
+		ai_chance = { factor = 50 }
+		GER = { add_to_faction = GRE }
+		GER = {
+				country_event = german_empire.17
+			}
+		news_event = { hours = 6 id = news_ww1.9 }
+	}
+	
+	option = {
+		name = germany.wwi14.b
+		ai_chance = { factor = 50 }
+		GER = { add_opinion_modifier = { target = GRE modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+#OE-Greek deal
+country_event = {
+	id = german_empire.15
+	title = germany.wwi15.t
+	desc = germany.wwi15.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi15.a
+		ai_chance = { factor = 50 }
+		GRE = {
+				country_event = german_empire.13
+			} 
+			add_national_unity = -0.05
+			add_timed_idea = {
+				idea = minor_factory_strike
+				days = 30
+			}
+			GER = { add_opinion_modifier = { target = TUR modifier = ger_greek_oe_agrees_opinion } }
+	}
+	
+	option = {
+		name = germany.wwi15.b
+		ai_chance = { factor = 50 }
+		GRE = {
+				country_event = german_empire.14
+			}
+			GER = { add_opinion_modifier = { target = TUR modifier = ger_greek_oe_declines_opinion } }
+	}
+}
+
+#Greece agrees, OE agrees
+country_event = {
+	id = german_empire.16
+	title = germany.wwi16.t
+	desc = germany.wwi16.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi16.a
+	}
+}
+
+#Greece agrees, OE declines
+country_event = {
+	id = german_empire.17
+	title = germany.wwi17.t
+	desc = germany.wwi17.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi17.a
+	}
+}
+#Haldane mission
+
+country_event = {
+	id = german_empire.18
+	title = germany.wwi18.t
+	desc = germany.wwi18.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi18.a
+		ai_chance = { factor = 25 }
+		GER = {
+				country_event = german_empire.19
+			}
+		news_event = { hours = 6 id = news_ww1.10 }
+	}
+	
+	option = {
+		name = germany.wwi18.b
+		ai_chance = { factor = 75 }
+		GER = {
+				country_event = germany.wwi20.a
+			}
+	}
+	
+	option = {
+		name = germany.wwi18.c
+		ai_chance = { factor = 0 }
+		GER = {
+				country_event = germany.wwi21.a
+			}
+	}
+}
+
+
+#Haldane mission, UK agrees 
+
+country_event = {
+	id = german_empire.19
+	title = germany.wwi19.t
+	desc = germany.wwi19.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi19.a
+		set_country_flag = haldane_mission
+		diplomatic_relation = { country = ENG relation = non_aggression_pact }
+		ENG = { add_opinion_modifier = { target = GER modifier = ger_haldane_mission_success_opinion } }
+		GER = { add_opinion_modifier = { target = ENG modifier = ger_haldane_mission_success_opinion } }
+	}
+}
+
+#Haldane mission, UK disagrees, but appreciates the effort
+
+country_event = {
+	id = german_empire.20
+	title = germany.wwi20.t
+	desc = germany.wwi20.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi20.a
+		ENG = { add_opinion_modifier = { target = GER modifier = ger_befriend_opinion } }
+	}
+}
+
+#Haldane mission, UK disagrees, UK insults GER
+
+country_event = {
+	id = german_empire.21
+	title = germany.wwi21.t
+	desc = germany.wwi21.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi21.a
+		GER = { add_opinion_modifier = { target = ENG modifier = ger_haldane_mission_failure_opinion } }
+	}
+}
+
+#German-Russian alliance
+country_event = {
+	id = german_empire.22
+	title = germany.wwi22.t
+	desc = germany.wwi22.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi22.a
+		ai_chance = { factor = 80 }
+		GER = { add_to_faction = SOV }
+		FRA = { add_opinion_modifier = { target = SOV modifier = ger_abandoned_opinion } }
+		GER = {
+				country_event = german_empire.5
+			}
+		random_country = {
+	        limit = {
+		        AND = {
+ 	                is_in_faction = no
+ 	                tag = AUS
+                }
+	        }
+	
+	        country_event = german_empire.23
+        }
+		ENG = {
+				country_event = german_empire.25
+			}
+		TUR = {
+				country_event = german_empire.27
+			}
+		JAP = {
+				country_event = german_empire.29
+			}
+		SWE = {
+				country_event = german_empire.31
+			}
+		news_event = { hours = 6 id = news_ww1.11 }
+	}
+	
+	option = {
+		name = germany.wwi22.b
+		ai_chance = { factor = 20 }
+		GER = { add_opinion_modifier = { target = SOV modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+#German-Russian alliance, A-H
+country_event = {
+	id = german_empire.23
+	title = germany.wwi23.t
+	desc = germany.wwi23.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi23.a
+		ai_chance = { factor = 100 }
+		FRA = {
+				country_event = german_empire.24
+			} 
+	}
+	
+	option = {
+		name = germany.wwi23.b
+		ai_chance = { factor = 0 }
+	}
+}
+#German-Russian alliance, A-H II
+country_event = {
+	id = german_empire.24
+	title = germany.wwi24.t
+	desc = germany.wwi24.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi24.a
+		ai_chance = { factor = 100 }
+		FRA = { add_to_faction = AUS }
+	}
+	
+	option = {
+		name = germany.wwi24.b
+		ai_chance = { factor = 0 }
+		AUS = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
+	}
+}
+#German-Russian alliance, UK
+country_event = {
+	id = german_empire.25
+	title = germany.wwi25.t
+	desc = germany.wwi25.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi25.a
+		ai_chance = { factor = 99 }
+		FRA = {
+				country_event = german_empire.26
+			} 
+	}
+	
+	option = {
+		name = germany.wwi25.b
+		ai_chance = { factor = 1 }
+	}
+}
+#German-Russian alliance, UK II
+country_event = {
+	id = german_empire.26
+	title = germany.wwi26.t
+	desc = germany.wwi26.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi26.a
+		ai_chance = { factor = 100 }
+		FRA = { add_to_faction = ENG }
+	}
+	
+	option = {
+		name = germany.wwi26.b
+		ai_chance = { factor = 0 }
+		ENG = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
+	}
+}
+
+#German-Russian alliance, OE
+country_event = {
+	id = german_empire.27
+	title = germany.wwi27.t
+	desc = germany.wwi27.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi27.a
+		ai_chance = { factor = 97 }
+		FRA = {
+				country_event = german_empire.28
+			} 
+	}
+	
+	option = {
+		name = germany.wwi27.b
+		ai_chance = { factor = 3 }
+	}
+}
+
+#German-Russian alliance, OE II
+country_event = {
+	id = german_empire.28
+	title = germany.wwi28.t
+	desc = germany.wwi28.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi28.a
+		ai_chance = { factor = 100 }
+		FRA = { add_to_faction = TUR }
+	}
+	
+	option = {
+		name = germany.wwi28.b
+		ai_chance = { factor = 0 }
+		TUR = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
+	}
+}
+#German-Russian alliance, Japan
+country_event = {
+	id = german_empire.29
+	title = germany.wwi29.t
+	desc = germany.wwi29.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi29.a
+		ai_chance = { factor = 99 }
+		FRA = {
+				country_event = german_empire.30
+			} 
+	}
+	
+	option = {
+		name = germany.wwi29.b
+		ai_chance = { factor = 1 }
+	}
+}
+
+#German-Russian alliance, Japan II
+country_event = {
+	id = german_empire.30
+	title = germany.wwi30.t
+	desc = germany.wwi30.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi30.a
+		ai_chance = { factor = 100 }
+		FRA = { add_to_faction = JAP }
+	}
+	
+	option = {
+		name = germany.wwi30.b
+		ai_chance = { factor = 0 }
+		JAP = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
+	}
+}
+#German-Russian alliance, Sweden
+country_event = {
+	id = german_empire.31
+	title = germany.wwi31.t
+	desc = germany.wwi31.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi31.a
+		ai_chance = { factor = 50 }
+		FRA = {
+				country_event = german_empire.32
+			} 
+		NOR = {
+				country_event = german_empire.33
+			}
+	}
+	
+	option = {
+		name = germany.wwi31.b
+		ai_chance = { factor = 50 }
+	}
+}
+
+#German-Russian alliance, Sweden II
+country_event = {
+	id = german_empire.32
+	title = germany.wwi32.t
+	desc = germany.wwi32.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi32.a
+		ai_chance = { factor = 100 }
+		FRA = { add_to_faction = SWE }
+	}
+	
+	option = {
+		name = germany.wwi32.b
+		ai_chance = { factor = 0 }
+		SWE = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
+	}
+}
+
+#German-Russian alliance, Norway
+country_event = {
+	id = german_empire.33
+	title = germany.wwi33.t
+	desc = germany.wwi33.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi33.a
+		ai_chance = { factor = 80 }
+		FRA = {
+				country_event = german_empire.34
+			} 
+	}
+	
+	option = {
+		name = germany.wwi33.b
+		ai_chance = { factor = 20 }
+	}
+}
+
+#German-Russian alliance, Norway II
+country_event = {
+	id = german_empire.34
+	title = germany.wwi34.t
+	desc = germany.wwi34.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi34.a
+		ai_chance = { factor = 100 }
+		FRA = { add_to_faction = NOR }
+	}
+	
+	option = {
+		name = germany.wwi34.b
+		ai_chance = { factor = 0 }
+		NOR = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
+	}
+}
+
+#German-Italian alliance
+country_event = {
+	id = german_empire.35
+	title = germany.wwi35.t
+	desc = germany.wwi35.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi35.a
+		ai_chance = { factor = 95 }
+		GER = { add_to_faction = ITA }
+		GER = {
+				country_event = german_empire.5
+			}
+		random_country = {
+	        limit = {
+		        AND = {
+ 	                is_in_faction = no
+ 	                tag = AUS
+                }
+	        }
+	
+	        country_event = german_empire.36
+        }
+		news_event = { hours = 6 id = news_ww1.12 }
+	}
+	
+	option = {
+		name = germany.wwi35.b
+		ai_chance = { factor = 5 }
+		GER = { add_opinion_modifier = { target = ITA modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+#German-Italian alliance, A-H
+country_event = {
+	id = german_empire.36
+	title = germany.wwi36.t
+	desc = germany.wwi36.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi36.a
+		ai_chance = { factor = 100 }
+		FRA = {
+				country_event = german_empire.37
+			} 
+	}
+	
+	option = {
+		name = germany.wwi36.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+#German-Italian alliance, A-H II
+country_event = {
+	id = german_empire.37
+	title = germany.wwi37.t
+	desc = germany.wwi37.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi37.a
+		ai_chance = { factor = 100 }
+		FRA = { add_to_faction = AUS }
+	}
+	
+	option = {
+		name = germany.wwi37.b
+		ai_chance = { factor = 0 }
+		AUS = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
+	}
+}
+
+# Lenin is back
+country_event = {
+	id = german_empire.38
+	title = germany.wwi38.t
+	desc = germany.wwi38.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi38.a
+		add_national_unity = -0.02
+		add_ideas = GER_lenin_idea
+	}
+}
+
+# Support Amadeo
+country_event = {
+	id = german_empire.39
+	title = germany.wwi39.t
+	desc = germany.wwi39.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi39.a
+		add_national_unity = -0.02
+		add_ideas = GER_amadeo_idea
+	}
+}
+
+# German-Japanese alliance
+country_event = {
+	id = german_empire.40
+	title = germany.wwi40.t
+	desc = germany.wwi40.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi40.a
+		ai_chance = { factor = 90 }
+		GER = { add_to_faction = JAP }
+		GER = {
+				country_event = german_empire.5
+			}
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.13 }
+		}
+	}
+	
+	option = {
+		name = germany.wwi40.b
+		ai_chance = { factor = 10 }
+		GER = { add_opinion_modifier = { target = JAP modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+# German-Japanese separate peace
+country_event = {
+	id = german_empire.41
+	title = germany.wwi41.t
+	desc = germany.wwi41.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi41.a
+		ai_chance = { factor = 90 }
+		white_peace = GER
+		FRA = { remove_from_faction = JAP }
+		JAP = { transfer_state = 750 }
+		JAP = { transfer_state = 647 }
+		JAP = { transfer_state = 684 }
+		JAP = { transfer_state = 646 }
+		JAP = { transfer_state = 633 }
+		JAP = { transfer_state = 725 }
+		JAP = { transfer_state = 749 }
+		JAP = { transfer_state = 737 }
+		JAP = { transfer_state = 748 }
+		JAP = { transfer_state = 726 }
+		diplomatic_relation = { country = GER relation = non_aggression_pact }
+		GER = {
+				country_event = german_empire.5
+			}
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.14 }
+		}
+	}
+	
+	option = {
+		name = germany.wwi41.b
+		ai_chance = { factor = 10 }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+# Zimmermann Telegram (Mexico)
+country_event = {
+	id = german_empire.42
+	title = germany.wwi42.t
+	desc = germany.wwi42.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi42.a
+		ai_chance = { factor = 25 }
+		GER = { add_to_faction = MEX }
+		375 = { add_core_of = MEX } 
+		376 = { add_core_of = MEX } 
+		377 = { add_core_of = MEX } 
+		378 = { add_claim_by = MEX } 
+		379 = { add_claim_by = MEX } 
+		380 = { add_claim_by = MEX }
+		GER = {
+				country_event = german_empire.5
+			}
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.15 }
+		}
+	}
+	
+	option = {
+		name = germany.wwi42.b
+		ai_chance = { factor = 75 }
+		GER = { add_opinion_modifier = { target = MEX modifier = ger_refuses_alliance_opinion } }
+		GER = {
+				country_event = german_empire.6
+			}
+	}
+}
+
+# Zimmermann Telegram (UK)
+country_event = {
+	id = german_empire.43
+	title = germany.wwi43.t
+	desc = germany.wwi43.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi43.a
+		ai_chance = { factor = 100 }
+		USA = {
+				country_event = german_empire.44
+			}
+		GER = { add_opinion_modifier = { target = ENG modifier = ger_leaked_zimmermann_opinion } }
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.16 }
+		}
+	}
+	
+	option = {
+		name = germany.wwi43.b
+		ai_chance = { factor = 0 }
+	}
+}
+
+# Zimmermann Telegram (US)
+country_event = {
+	id = german_empire.44
+	title = germany.wwi44.t
+	desc = germany.wwi44.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi44.a
+		USA = { add_opinion_modifier = { target = GER modifier = ger_zimmermann_opinion } }
+	}
+}
+
+# RMS Lusitania sunk
+country_event = {
+	id = german_empire.45
+	title = germany.wwi45.t
+	desc = germany.wwi45.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi45.a
+		USA = { add_opinion_modifier = { target = GER modifier = ger_rms_lusitania_opinion } }
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.18 }
+		}
+	}
+}
+
+# SS Arabic sunk
+country_event = {
+	id = german_empire.46
+	title = germany.wwi46.t
+	desc = germany.wwi46.d
+	picture = burgfrieden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.wwi46.a
+		ai_chance = { factor = 100 }
+		USA = { add_opinion_modifier = { target = GER modifier = ger_ss_arabic_opinion } }
+		remove_ideas = GER_unrestricted_submarine_warfare_idea
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.19 }
+		}
+		set_country_flag = unrestricted_submarine_warfare_stop
+	}
+	
+	option = {
+		name = germany.wwi46.b
+		ai_chance = { factor = 0 }
+		USA = { add_opinion_modifier = { target = GER modifier = ger_ss_arabic_opinion } }
+		USA = { add_opinion_modifier = { target = GER modifier = ger_unrestricted_submarine_warfare_ii_opinion } }
+		hidden_effect = {
+			news_event = { hours = 6 id = news_ww1.20 }
+		}
+	}
+}

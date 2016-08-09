@@ -4,6 +4,7 @@ capital = 2
 	add_ideas = {
 progress_ideal
 victor_emmanuel
+limited_conscription
 	}
 
 set_research_slots = 2

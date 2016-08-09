@@ -1,6 +1,10 @@
 ﻿oob = "ROM_1911"
 capital = 46
 
+add_ideas ={
+limited_conscription
+}
+
 1914.6.1 = {
 oob = "ROM_1914"
 capital = 46
