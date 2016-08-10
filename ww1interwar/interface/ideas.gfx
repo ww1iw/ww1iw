@@ -291,6 +291,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/german_advisors.dds"
 	}	
 	
+	### SERBIA ideas
+	
+	spriteType = {
+		name = "GFX_idea_zastava"
+		texturefile = "gfx/interface/ideas/idea_zastava.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_utva"
+		texturefile = "gfx/interface/ideas/idea_utva.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ikarus"
+		texturefile = "gfx/interface/ideas/idea_ikarus.dds"
+	}
+	
 	### GENERIC national focus icons		
 
 
@@ -2076,6 +2093,42 @@ spriteTypes = {
 		name = "GFX_idea_nevskoye_design_bureau"
 		texturefile = "gfx/interface/ideas/idea_nevskoye_design_bureau.dds"
 	}
+	
+	### ESTONIA idea
+	spriteType = {
+		name = "GFX_idea_aviotehas"
+		texturefile = "gfx/interface/ideas/idea_aviotehas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_reval"
+		texturefile = "gfx/interface/ideas/idea_reval.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_blrt"
+		texturefile = "gfx/interface/ideas/idea_blrt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wenebalti"
+		texturefile = "gfx/interface/ideas/idea_wenebalti.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_arsenal"
+		texturefile = "gfx/interface/ideas/idea_arsenal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_estonian_oil"
+		texturefile = "gfx/interface/ideas/idea_estonian_oil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_elektrikeskus"
+		texturefile = "gfx/interface/ideas/idea_elektrikeskus.dds"
+	}
 
 	### GENERIC PORTRAITS ASIA
 	### suffix from graphicalculturetype
@@ -2602,6 +2655,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_air_africa_3.dds"
 	}
 
+	### CHINESE IDEAS
+	
+	spriteType = {
+		name = "GFX_idea_hanyang"
+		texturefile = "gfx/interface/ideas/idea_hanyang.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_hubei"
+		texturefile = "gfx/interface/ideas/idea_hubei.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_foochow"
+		texturefile = "gfx/interface/ideas/idea_foochow.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_jiangnan"
+		texturefile = "gfx/interface/ideas/idea_jiangnan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tianjin"
+		texturefile = "gfx/interface/ideas/idea_tianjin.dds"
+	}
 
 	### JAPANESE IDEAS
 
