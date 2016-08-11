@@ -2129,6 +2129,45 @@ spriteTypes = {
 		name = "GFX_idea_elektrikeskus"
 		texturefile = "gfx/interface/ideas/idea_elektrikeskus.dds"
 	}
+	
+	### LATVIA ideas
+	
+	spriteType = {
+		name = "GFX_idea_vef"
+		texturefile = "gfx/interface/ideas/idea_VEF.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lkod"
+		texturefile = "gfx/interface/ideas/idea_lkod.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_russo_balt_air"
+		texturefile = "gfx/interface/ideas/idea_russo_balt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_russo_balt"
+		texturefile = "gfx/interface/ideas/idea_russo_balt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ford_vairogs"
+		texturefile = "gfx/interface/ideas/idea_ford_vairogs.dds"
+	}
+	
+	###LITHUANIA ideas
+	
+	spriteType = {
+		name = "GFX_idea_anbo"
+		texturefile = "gfx/interface/ideas/idea_ANBO.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_linkaiciu"
+		texturefile = "gfx/interface/ideas/idea_linkaiciu.dds"
+	}
 
 	### GENERIC PORTRAITS ASIA
 	### suffix from graphicalculturetype
