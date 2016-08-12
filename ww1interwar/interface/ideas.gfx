@@ -2168,6 +2168,67 @@ spriteTypes = {
 		name = "GFX_idea_linkaiciu"
 		texturefile = "gfx/interface/ideas/idea_linkaiciu.dds"
 	}
+	
+	###FINLAND ideas
+	spriteType = {
+		name = "GFX_idea_sisu_defense"
+		texturefile = "gfx/interface/ideas/idea_sisu_defense.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ww1_crichton"
+		texturefile = "gfx/interface/ideas/idea_crichton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wartsila"
+		texturefile = "gfx/interface/ideas/idea_wartsila.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FIN_vulcan"
+		texturefile = "gfx/interface/ideas/idea_FIN_vulcan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_valtion_lentokonetehdas"
+		texturefile = "gfx/interface/ideas/idea_VIL.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_adaridi"
+		texturefile = "gfx/interface/ideas/idea_adaridi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PIK"
+		texturefile = "gfx/interface/ideas/idea_PIK.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_karhumaki"
+		texturefile = "gfx/interface/ideas/idea_karhumaki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_valmet"
+		texturefile = "gfx/interface/ideas/idea_valmet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VKT"
+		texturefile = "gfx/interface/ideas/idea_VKT.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sako"
+		texturefile = "gfx/interface/ideas/idea_sako.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_YIT"
+		texturefile = "gfx/interface/ideas/idea_YIT.dds"
+	}
 
 	### GENERIC PORTRAITS ASIA
 	### suffix from graphicalculturetype
