@@ -2229,6 +2229,63 @@ spriteTypes = {
 		name = "GFX_idea_YIT"
 		texturefile = "gfx/interface/ideas/idea_YIT.dds"
 	}
+	
+	### NORWAY ideas
+	
+	spriteType = {
+		name = "GFX_idea_NOR_marinens_flyvebaatfabrikk"
+		texturefile = "gfx/interface/ideas/idea_marinens.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kjeller_flyfabrikk"
+		texturefile = "gfx/interface/ideas/idea_kjeller.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_horten_naval_yard"
+		texturefile = "gfx/interface/ideas/idea_horten.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nylands"
+		texturefile = "gfx/interface/ideas/idea_nylands.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_akers"
+		texturefile = "gfx/interface/ideas/idea_akers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongsberg"
+		texturefile = "gfx/interface/ideas/idea_kongsberg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_raufoss_ammunisjonsfabrikker"
+		texturefile = "gfx/interface/ideas/idea_raufoss.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_honefoss_karosserifabrikk"
+		texturefile = "gfx/interface/ideas/idea_honefoss.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_tandbergs_radiofabrikk"
+		texturefile = "gfx/interface/ideas/idea_tandbergs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_norsk_hydro"
+		texturefile = "gfx/interface/ideas/idea_norsk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_geijer"
+		texturefile = "gfx/interface/ideas/idea_geijer.dds"
+	}
 
 	### GENERIC PORTRAITS ASIA
 	### suffix from graphicalculturetype
