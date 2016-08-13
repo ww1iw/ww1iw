@@ -102,9 +102,31 @@ create_country_leader = {
 	expire = "1940.9.2"
 	ideology = centrism
 	traits = {
-		#
 	}
 }
+
+create_field_marshal = {
+	name = "Silvestras Žukauskas"
+	picture = "Portrait_lithuania_Silvestras_Žukauskas.dds"
+	traits = { trickster old_guard }
+	skill = 5
+}
+
+create_field_marshal = {
+	name = "Stasys Raštikis"
+	picture = "Portrait_lithuania_Stasys_Raštikis.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Jonas Černius"
+	picture = "Portrait_lithuania_Jonas_Černius.dds"
+	traits = {  }
+	skill = 3
+}
+
+                #
 1939.1.1 = {
 # oob = "LIT_1936"
 

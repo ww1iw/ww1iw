@@ -120,9 +120,31 @@ create_country_leader = {
 	expire = "1936.9.2"
 	ideology = nazism
 	traits = {
-		#
 	}
 }
+
+create_field_marshal = {
+	name = "Jaan Soots"
+	picture = "Portrait_Estonia_Jaan_Soots.dds"
+	traits = { defensive_doctrine old_guard }
+	skill = 4
+}
+
+create_field_marshal = {
+	name = "Johan Laidoner"
+	picture = "Portrait_Estonia_Johan_Laidoner.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Nikolai Reek"
+	picture = "Portrait_Estonia_Nikolai_Reek.dds"
+	traits = {  }
+	skill = 3
+}
+
+                #
 1939.1.1 = {
 # oob = "EST_1936"
 
