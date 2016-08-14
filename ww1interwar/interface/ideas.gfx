@@ -819,12 +819,147 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_scania.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_saab"
+		texturefile = "gfx/interface/ideas/idea_saab.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_nohab"
+		texturefile = "gfx/interface/ideas/idea_nohab.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_thulinverken"
+		texturefile = "gfx/interface/ideas/idea_thulinverken.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_asja"
+		texturefile = "gfx/interface/ideas/idea_asja.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_landsverk"
+		texturefile = "gfx/interface/ideas/idea_landsverk.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_hagglunds"
+		texturefile = "gfx/interface/ideas/idea_hagglunds.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_eriksbergs"
+		texturefile = "gfx/interface/ideas/idea_eriksbergs.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_marinvarkstaderna"
+		texturefile = "gfx/interface/ideas/idea_karlskrona.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_gotaverken"
+		texturefile = "gfx/interface/ideas/idea_gotaverken.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_kockums"
+		texturefile = "gfx/interface/ideas/idea_kockums.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_bofors"
+		texturefile = "gfx/interface/ideas/idea_bofors.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_husqvarna"
+		texturefile = "gfx/interface/ideas/idea_husqvarna.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_norma"
+		texturefile = "gfx/interface/ideas/idea_norma.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ericsson"
+		texturefile = "gfx/interface/ideas/idea_ericsson.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_trelleborg"
+		texturefile = "gfx/interface/ideas/idea_trelleborg.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_lkab"
+		texturefile = "gfx/interface/ideas/idea_lkab.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_nynas"
+		texturefile = "gfx/interface/ideas/idea_nynas.dds"
+	}
+	
 	### NORWAY IDEAS	
 	
 	SpriteType = {
 		name = "GFX_idea_NOR_tandbergs_radiofabrikk"
 		texturefile = "gfx/interface/ideas/idea_NOR_tandbergs_radiofabrikk.dds"
 	}		
+	
+	spriteType = {
+		name = "GFX_idea_NOR_marinens_flyvebaatfabrikk"
+		texturefile = "gfx/interface/ideas/idea_marinens.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kjeller_flyfabrikk"
+		texturefile = "gfx/interface/ideas/idea_kjeller.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_horten_naval_yard"
+		texturefile = "gfx/interface/ideas/idea_horten.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nylands"
+		texturefile = "gfx/interface/ideas/idea_nylands.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_akers"
+		texturefile = "gfx/interface/ideas/idea_akers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongsberg"
+		texturefile = "gfx/interface/ideas/idea_kongsberg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_raufoss_ammunisjonsfabrikker"
+		texturefile = "gfx/interface/ideas/idea_raufoss.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_honefoss_karosserifabrikk"
+		texturefile = "gfx/interface/ideas/idea_honefoss.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_norsk_hydro"
+		texturefile = "gfx/interface/ideas/idea_norsk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_geijer"
+		texturefile = "gfx/interface/ideas/idea_geijer.dds"
+	}
 	
 	### AUSTRIAN IDEAS
 	
@@ -2229,63 +2364,7 @@ spriteTypes = {
 		name = "GFX_idea_YIT"
 		texturefile = "gfx/interface/ideas/idea_YIT.dds"
 	}
-	
-	### NORWAY ideas
-	
-	spriteType = {
-		name = "GFX_idea_NOR_marinens_flyvebaatfabrikk"
-		texturefile = "gfx/interface/ideas/idea_marinens.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_kjeller_flyfabrikk"
-		texturefile = "gfx/interface/ideas/idea_kjeller.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_horten_naval_yard"
-		texturefile = "gfx/interface/ideas/idea_horten.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_nylands"
-		texturefile = "gfx/interface/ideas/idea_nylands.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_akers"
-		texturefile = "gfx/interface/ideas/idea_akers.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_kongsberg"
-		texturefile = "gfx/interface/ideas/idea_kongsberg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_raufoss_ammunisjonsfabrikker"
-		texturefile = "gfx/interface/ideas/idea_raufoss.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_NOR_honefoss_karosserifabrikk"
-		texturefile = "gfx/interface/ideas/idea_honefoss.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_NOR_tandbergs_radiofabrikk"
-		texturefile = "gfx/interface/ideas/idea_tandbergs.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_NOR_norsk_hydro"
-		texturefile = "gfx/interface/ideas/idea_norsk.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_geijer"
-		texturefile = "gfx/interface/ideas/idea_geijer.dds"
-	}
+
 
 	### GENERIC PORTRAITS ASIA
 	### suffix from graphicalculturetype
