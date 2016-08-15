@@ -52,9 +52,81 @@ create_country_leader = {
 	expire = "1936.9.2"
 	ideology = conservatism
 	traits = {
-		#
 	}
 }
+
+create_country_leader = {
+	name = "Mindaugas II"
+	desc = "POLITICS_MINDAUGAS_II_DESC"
+	picture = "Portrait_lithuania_Mindaugas_II.dds"
+	expire = "1936.9.2"
+	ideology = monarchism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Antanas Sniečkus"
+	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
+	picture = "Portrait_lithuania_Antanas_Snieckus.dds"
+	expire = "1936.9.2"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Augustinas Voldemaras"
+	desc = "POLITICS_AUGUSTINAS_VOLDEMARAS_DESC"
+	picture = "Portrait_lithuania_Augustinas_Voldemaras.dds"
+	expire = "1936.9.2"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kazys Grinius"
+	desc = "POLITICS_KAZYS_GRINIUS_DESC"
+	picture = "Portrait_lithuania_Kazys_Grinius.dds"
+	expire = "1936.9.2"
+	ideology = social_democracy
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Antanas Smetona"
+	desc = "POLITICS_ANTANAS_SMETONA_DESC"
+	picture = "Portrait_LIT_Antanas_Smetona.dds"
+	expire = "1940.9.2"
+	ideology = centrism
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Silvestras Žukauskas"
+	picture = "Portrait_lithuania_Silvestras_Žukauskas.dds"
+	traits = { trickster old_guard }
+	skill = 5
+}
+
+create_field_marshal = {
+	name = "Stasys Raštikis"
+	picture = "Portrait_lithuania_Stasys_Raštikis.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Jonas Černius"
+	picture = "Portrait_lithuania_Jonas_Černius.dds"
+	traits = {  }
+	skill = 3
+}
+
+                #
 1939.1.1 = {
 # oob = "LIT_1936"
 

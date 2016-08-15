@@ -3,6 +3,7 @@ capital = 4
 
 add_ideas ={
 imperial_ideal
+limited_conscription
 }
 GER = { add_to_faction = AUS }
 
@@ -126,6 +127,7 @@ create_country_leader = {
 
 1923.1.1 = {
 	set_national_unity = 0.45
+	remove_ideas =	limited_conscription
 	set_politics = {
 
 		parties = {

@@ -1,0 +1,102 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+	
+	#Germany
+	ger_befriend_opinion = {
+		value = 25
+	}
+	
+	ger_region_influence_opinion = {
+		value = 5
+	}
+	
+	ger_meddling_opinion = {
+		value = -10
+	}
+	
+	ger_naval_arms_race_opinion = {
+		value = -10
+	}
+	
+	ger_unrestricted_submarine_warfare_opinion = {
+		value = -20
+	}
+	
+	ger_unrestricted_submarine_warfare_ii_opinion = {
+		value = -50
+	}
+	
+	ger_rms_lusitania_opinion = {
+		value = -15
+	}
+	
+	ger_ss_arabic_opinion = {
+		value = -15
+	}
+	
+	ger_accepts_alliance_opinion = {
+		value = 10
+	}
+	
+	ger_refuses_alliance_opinion = {
+		value = -20
+	}
+	
+	ger_reconcile_opinion = {
+		value = 20
+	}
+	
+	ger_apology_opinion = {
+		value = 30
+	}
+	
+	ger_alsace_opinion = {
+		value = 75
+	}
+	
+	ger_colonial_treaty_opinion = {
+		value = 50
+	}
+	
+	ger_supports_ambitions_opinion = {
+		value = 50
+	}
+	
+	ger_abandoned_opinion = {
+		value = -75
+	}
+	
+	ger_haldane_mission_success_opinion = {
+		value = 30
+	}
+	
+	ger_haldane_mission_failure_opinion = {
+		value = -30
+	}
+	
+	ger_greek_oe_agrees_opinion = {
+		value = 50
+	}
+	
+	ger_greek_oe_declines_opinion = {
+		value = -50
+	}
+	
+	ger_leaked_zimmermann_opinion = {
+		value = -50
+	}
+	
+	ger_zimmermann_opinion = {
+		value = -60
+	}
+	
+}

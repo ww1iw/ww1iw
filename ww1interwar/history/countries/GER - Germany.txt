@@ -8,6 +8,7 @@ set_national_unity = 0.9
 add_ideas = {
 	imperial_ideal
 	general_staff
+	limited_conscription
  }
 
 create_faction = "Central Powers"
@@ -127,6 +128,176 @@ create_country_leader = {
 	}
 }
 
+#Generals
+
+create_field_marshal = {
+	name = "Paul von Hindenburg"
+	picture = "Portrait_Germany_Paul_von_Hindenburg.dds"
+	traits = {  offensive_doctrine old_guard inspirational_leader }
+	skill = 3
+	id = 11001
+}
+
+create_corps_commander = {
+	name = "Karl von Bülow"
+	picture = "Portrait_Germany_Karl_von_Buelow.dds"
+	traits = {  old_guard }
+	skill = 2
+	id = 11002
+}
+
+create_corps_commander = {
+	name = "August von Mackensen"
+	picture = "Portrait_Germany_August_von_Mackensen.dds"
+	traits = {  bearer_of_artillery trickster }
+	skill = 5
+	id = 11003
+}
+
+create_corps_commander = {
+	name = "Crown Prince Rupprecht of Bavaria"
+	picture = "Portrait_Germany_Crown_Prince_Rupprecht.dds"
+	traits = {  }
+	skill = 4
+	id = 11004
+}
+
+create_corps_commander = {
+	name = "Prince Leopold of Bavaria"
+	picture = "Portrait_Germany_Prince_Leopold.dds"
+	traits = { old_guard swamp_fox ranger }
+	skill = 4
+	id = 11005
+}
+
+create_corps_commander = {
+	name = "Duke Albrecht of Württemberg"
+	picture = "Portrait_Germany_Duke_Albrecht.dds"
+	traits = { ranger }
+	skill = 4
+	id = 11006
+}
+
+create_corps_commander = {
+	name = "Hermann von Eichhorn"
+	picture = "Portrait_Germany_Hermann_von_Eichhorn.dds"
+	traits = { old_guard swamp_fox }
+	skill = 3
+	id = 11007
+}
+
+create_corps_commander = {
+	name = "Erich Ludendorff"
+	picture = "Portrait_Germany_Erich_Ludendorff.dds"
+	traits = { trickster commando bearer_of_artillery }
+	skill = 4
+	id = 11008
+}
+
+create_corps_commander = {
+	name = "Remus von Woyrsch"
+	picture = "Portrait_Germany_Remus_von_Woyrsch.dds"
+	traits = { old_guard  }
+	skill = 2
+	id = 11009
+}
+
+create_corps_commander = {
+	name = "Ludwig III of Bavaria"
+	picture = "Portrait_Germany_Ludwig_III.dds"
+	traits = { old_guard }
+	skill = 1
+	id = 11010
+}
+
+create_field_marshal = {
+	name = "Erich von Falkenhayn"
+	picture = "Portrait_Germany_Erich_von_Falkenhayn.dds"
+	traits = { offensive_doctrine logistics_wizard thorough_planner }
+	skill = 4
+	id = 11011
+}
+
+create_corps_commander = {
+	name = "Felix Graf von Bothmer"
+	picture = "Portrait_Germany_Felix_Graf_von_Bothmer.dds"
+	traits = { winter_specialist fortress_buster trait_engineer  }
+	skill = 4
+	id = 11012
+}
+
+create_corps_commander = {
+	name = "Crown Prince Wilhelm of Prussia"
+	picture = "Portrait_Germany_Wilhelm_German_Crown_Prince.dds"
+	traits = { trickster commando }
+	skill = 3
+	id = 11013
+}
+
+create_corps_commander = {
+	name = "Otto von Below"
+	picture = "Portrait_Germany_Otto_von_Below.dds"
+	traits = { swamp_fox }
+	skill = 3
+	id = 11014
+}
+
+create_corps_commander = {
+	name = "Alexander von Kluck"
+	picture = "Portrait_Germany_Alexander_von_Kluck.dds"
+	traits = { }
+	skill = 2
+	id = 11015
+}
+
+create_corps_commander = {
+	name = "Max von Gallwitz"
+	picture = "Portrait_Germany_Max_von_Gallwitz.dds"
+	traits = { fortress_buster trait_engineer }
+	skill = 3
+	id = 11016
+}
+
+create_corps_commander = {
+	name = "Hermann von François"
+	picture = "Portrait_Germany_Hermann_von_Francois.dds"
+	traits = { commando trickster }
+	skill = 5
+	id = 11017
+}
+
+create_corps_commander = {
+	name = "Josias von Heeringen"
+	picture = "Portrait_Germany_Josias_von_Heeringen.dds"
+	traits = { trait_mountaineer }
+	skill = 2
+	id = 11018
+}
+
+create_corps_commander = {
+	name = "Karl von Einem"
+	picture = "Portrait_Germany_Karl_von_Einem.dds"
+	traits = { fortress_buster }
+	skill = 2
+	id = 11019
+}
+
+create_corps_commander = {
+	name = "Paul von Lettow-Vorbeck"
+	picture = "Portrait_Germany_Paul_von_Lettow_Vorbeck.dds"
+	traits = { trickster ranger commando jungle_rat }
+	skill = 5
+	id = 11020
+}
+
+create_field_marshal = {
+	name = "Helmuth von Moltke the Younger"
+	picture = "Portrait_Germany_Helmuth_von_Moltke_the_Younger.dds"
+	traits = {  offensive_doctrine old_guard }
+	skill = 2
+	id = 11021
+}
+
 1914.6.1 = {
 oob = "GER_1914"
 capital = 64
@@ -138,6 +309,8 @@ set_national_unity = 0.9
 add_ideas = {
 	imperial_ideal
 	general_staff
+	
+	helmuth_von_moltke_the_younger
  }
 
 create_faction = "Central Powers"
@@ -181,6 +354,29 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+unlock_national_focus = GER_reichsbahn
+unlock_national_focus = GER_ruhr
+unlock_national_focus = GER_heeresreform
+unlock_national_focus = GER_naval_arms_race
+unlock_national_focus = GER_foreign_policy
+unlock_national_focus = GER_entente
+unlock_national_focus = GER_uk
+unlock_national_focus = GER_uk_ii
+unlock_national_focus = GER_air_innovation_ww
+unlock_national_focus = GER_extra_tech_slot
+set_research_slots = 3
+unlock_national_focus = GER_ohl
+unlock_national_focus = GER_balkans
+unlock_national_focus = GER_secret_weapon_ii
+unlock_national_focus = GER_krupp
+unlock_national_focus = GER_u_boat_effort_ww
+unlock_national_focus = GER_overseas
+unlock_national_focus = GER_alpenkorps
+unlock_national_focus = GER_airplanes
+unlock_national_focus = GER_mauser
+unlock_national_focus = GER_western_industrial_focus
+
 
 create_country_leader = {
 	name = "Wilhelm II"
@@ -262,8 +458,9 @@ create_country_leader = {
 
 remove_ideas = imperial_ideal
 remove_ideas = general_staff
+remove_ideas = limited_conscription
 
-	add_ideas = { neutrality_ideal sour_loser burgfrieden fascist_assault_divisions communist_revolutionaries }
+	add_ideas = { neutrality_ideal sour_loser fascist_assault_divisions communist_revolutionaries }
 	set_national_unity = 0.35
 	set_politics = {
 

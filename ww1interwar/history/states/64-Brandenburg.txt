@@ -2,14 +2,9 @@
 state={
 	id=64
 	name="STATE_64"
-	manpower = 7265029
-	buildings_max_level_factor = 1
-
-	state_category = megalopolis
-
-resources = {
-	minerals = 100
-}
+	resources={
+		minerals=100.000
+	}
 
 	history={
 		owner = GER
@@ -29,18 +24,23 @@ resources = {
 
 		}
 		add_core_of = GER
-
 		1939.1.1 = {
 			buildings = {
 				air_base = 10
 				anti_air_building = 5
 				arms_factory = 10
 				industrial_complex = 7
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		375 3367 3499 3522 6487 6521 9428 9456 9560 11219 11359 11444 11505 6441 11545 
+		375 478 3207 3367 3499 3522 6441 6487 6521 9428 9456 9560 11219 11359 11444 11505 11545 
 	}
+	manpower=7265029
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
 }

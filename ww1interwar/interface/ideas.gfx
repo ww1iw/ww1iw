@@ -291,6 +291,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/german_advisors.dds"
 	}	
 	
+	### SERBIA ideas
+	
+	spriteType = {
+		name = "GFX_idea_zastava"
+		texturefile = "gfx/interface/ideas/idea_zastava.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_utva"
+		texturefile = "gfx/interface/ideas/idea_utva.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ikarus"
+		texturefile = "gfx/interface/ideas/idea_ikarus.dds"
+	}
+	
 	### GENERIC national focus icons		
 
 
@@ -802,12 +819,229 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_scania.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_saab"
+		texturefile = "gfx/interface/ideas/idea_saab.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_nohab"
+		texturefile = "gfx/interface/ideas/idea_nohab.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_thulinverken"
+		texturefile = "gfx/interface/ideas/idea_thulinverken.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_asja"
+		texturefile = "gfx/interface/ideas/idea_asja.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_landsverk"
+		texturefile = "gfx/interface/ideas/idea_landsverk.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_hagglunds"
+		texturefile = "gfx/interface/ideas/idea_hagglunds.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_eriksbergs"
+		texturefile = "gfx/interface/ideas/idea_eriksbergs.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_marinvarkstaderna"
+		texturefile = "gfx/interface/ideas/idea_karlskrona.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_gotaverken"
+		texturefile = "gfx/interface/ideas/idea_gotaverken.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_kockums"
+		texturefile = "gfx/interface/ideas/idea_kockums.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_bofors"
+		texturefile = "gfx/interface/ideas/idea_bofors.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_husqvarna"
+		texturefile = "gfx/interface/ideas/idea_husqvarna.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_norma"
+		texturefile = "gfx/interface/ideas/idea_norma.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ericsson"
+		texturefile = "gfx/interface/ideas/idea_ericsson.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_trelleborg"
+		texturefile = "gfx/interface/ideas/idea_trelleborg.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_lkab"
+		texturefile = "gfx/interface/ideas/idea_lkab.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_nynas"
+		texturefile = "gfx/interface/ideas/idea_nynas.dds"
+	}
+	
 	### NORWAY IDEAS	
 	
 	SpriteType = {
 		name = "GFX_idea_NOR_tandbergs_radiofabrikk"
 		texturefile = "gfx/interface/ideas/idea_NOR_tandbergs_radiofabrikk.dds"
 	}		
+	
+	spriteType = {
+		name = "GFX_idea_NOR_marinens_flyvebaatfabrikk"
+		texturefile = "gfx/interface/ideas/idea_marinens.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kjeller_flyfabrikk"
+		texturefile = "gfx/interface/ideas/idea_kjeller.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_horten_naval_yard"
+		texturefile = "gfx/interface/ideas/idea_horten.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nylands"
+		texturefile = "gfx/interface/ideas/idea_nylands.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_akers"
+		texturefile = "gfx/interface/ideas/idea_akers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kongsberg"
+		texturefile = "gfx/interface/ideas/idea_kongsberg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_raufoss_ammunisjonsfabrikker"
+		texturefile = "gfx/interface/ideas/idea_raufoss.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_honefoss_karosserifabrikk"
+		texturefile = "gfx/interface/ideas/idea_honefoss.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_norsk_hydro"
+		texturefile = "gfx/interface/ideas/idea_norsk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_geijer"
+		texturefile = "gfx/interface/ideas/idea_geijer.dds"
+	}
+	
+	### AUSTRIAN IDEAS
+	
+	SpriteType = {
+		name = "GFX_idea_steyr_daimler_puch"
+		texturefile = "gfx/interface/ideas/idea_steyr.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_graf_stift"
+		texturefile = "gfx/interface/ideas/idea_graf_stift.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_austro_fiat"
+		texturefile = "gfx/interface/ideas/idea_austro_fiat.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_austro_daimler"
+		texturefile = "gfx/interface/ideas/idea_austro_daimler.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_STT"
+		texturefile = "gfx/interface/ideas/idea_STT.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ganz"
+		texturefile = "gfx/interface/ideas/idea_ganz.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_pola_marinewerke"
+		texturefile = "gfx/interface/ideas/idea_pola_marinewerke.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ufag"
+		texturefile = "gfx/interface/ideas/idea_ufag.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_lohner"
+		texturefile = "gfx/interface/ideas/idea_lohner.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_pheonix_flugzeugwerke"
+		texturefile = "gfx/interface/ideas/idea_pheonix_flugzeugwerke.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_steyr"
+		texturefile = "gfx/interface/ideas/idea_steyr.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_skoda"
+		texturefile = "gfx/interface/ideas/idea_skoda.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_tungsram"
+		texturefile = "gfx/interface/ideas/idea_tungsram.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_wiener_neustadt"
+		texturefile = "gfx/interface/ideas/idea_wiener_neustadt.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_manfred_weiss"
+		texturefile = "gfx/interface/ideas/idea_manfred_weiss.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_AUS_hirtenberger"
+		texturefile = "gfx/interface/ideas/idea_hirtenberger.dds"
+	}
 	
 	### GERMAN IDEAS
 
@@ -1994,6 +2228,143 @@ spriteTypes = {
 		name = "GFX_idea_nevskoye_design_bureau"
 		texturefile = "gfx/interface/ideas/idea_nevskoye_design_bureau.dds"
 	}
+	
+	### ESTONIA idea
+	spriteType = {
+		name = "GFX_idea_aviotehas"
+		texturefile = "gfx/interface/ideas/idea_aviotehas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_reval"
+		texturefile = "gfx/interface/ideas/idea_reval.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_blrt"
+		texturefile = "gfx/interface/ideas/idea_blrt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wenebalti"
+		texturefile = "gfx/interface/ideas/idea_wenebalti.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_arsenal"
+		texturefile = "gfx/interface/ideas/idea_arsenal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_estonian_oil"
+		texturefile = "gfx/interface/ideas/idea_estonian_oil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_elektrikeskus"
+		texturefile = "gfx/interface/ideas/idea_elektrikeskus.dds"
+	}
+	
+	### LATVIA ideas
+	
+	spriteType = {
+		name = "GFX_idea_vef"
+		texturefile = "gfx/interface/ideas/idea_VEF.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_lkod"
+		texturefile = "gfx/interface/ideas/idea_lkod.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_russo_balt_air"
+		texturefile = "gfx/interface/ideas/idea_russo_balt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_russo_balt"
+		texturefile = "gfx/interface/ideas/idea_russo_balt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ford_vairogs"
+		texturefile = "gfx/interface/ideas/idea_ford_vairogs.dds"
+	}
+	
+	###LITHUANIA ideas
+	
+	spriteType = {
+		name = "GFX_idea_anbo"
+		texturefile = "gfx/interface/ideas/idea_ANBO.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_linkaiciu"
+		texturefile = "gfx/interface/ideas/idea_linkaiciu.dds"
+	}
+	
+	###FINLAND ideas
+	spriteType = {
+		name = "GFX_idea_sisu_defense"
+		texturefile = "gfx/interface/ideas/idea_sisu_defense.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ww1_crichton"
+		texturefile = "gfx/interface/ideas/idea_crichton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wartsila"
+		texturefile = "gfx/interface/ideas/idea_wartsila.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FIN_vulcan"
+		texturefile = "gfx/interface/ideas/idea_FIN_vulcan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_valtion_lentokonetehdas"
+		texturefile = "gfx/interface/ideas/idea_VIL.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_adaridi"
+		texturefile = "gfx/interface/ideas/idea_adaridi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PIK"
+		texturefile = "gfx/interface/ideas/idea_PIK.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_karhumaki"
+		texturefile = "gfx/interface/ideas/idea_karhumaki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_valmet"
+		texturefile = "gfx/interface/ideas/idea_valmet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VKT"
+		texturefile = "gfx/interface/ideas/idea_VKT.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_sako"
+		texturefile = "gfx/interface/ideas/idea_sako.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_YIT"
+		texturefile = "gfx/interface/ideas/idea_YIT.dds"
+	}
+
 
 	### GENERIC PORTRAITS ASIA
 	### suffix from graphicalculturetype
@@ -2520,6 +2891,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_air_africa_3.dds"
 	}
 
+	### CHINESE IDEAS
+	
+	spriteType = {
+		name = "GFX_idea_hanyang"
+		texturefile = "gfx/interface/ideas/idea_hanyang.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_hubei"
+		texturefile = "gfx/interface/ideas/idea_hubei.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_foochow"
+		texturefile = "gfx/interface/ideas/idea_foochow.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_jiangnan"
+		texturefile = "gfx/interface/ideas/idea_jiangnan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tianjin"
+		texturefile = "gfx/interface/ideas/idea_tianjin.dds"
+	}
 
 	### JAPANESE IDEAS
 

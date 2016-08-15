@@ -1,6 +1,10 @@
 ﻿oob = "DEN_1914"
 capital = 37
 
+add_ideas ={
+limited_conscription
+}
+
 	set_politics = {
 
 		parties = {

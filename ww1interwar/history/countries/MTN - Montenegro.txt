@@ -3,6 +3,7 @@ capital = 741
 
 add_ideas = {
 neutrality_ideal
+limited_conscription
 }
 
 set_politics = {

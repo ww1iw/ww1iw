@@ -43,4 +43,88 @@ ideas = {
 			}
 		}
 	}
+	
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		hanyang = {
+			
+			allowed = {
+				original_tag = QNG
+			}
+			
+			research_bonus = {
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		hubei = {
+			allowed = {
+				original_tag = QNG
+			}
+			
+			research_bonus = {
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+	
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		foochow = {
+			
+			allowed = {
+				original_tag = QNG
+			}
+			
+			research_bonus = {
+			}
+			
+			equipment_bonus = {	
+			}
+			
+			traits = { naval_manufacturer }
+			
+		}
+		
+		jiangnan = {
+			
+			allowed = {
+				original_tag = QNG
+			}
+			
+			research_bonus = {
+			}
+			
+			equipment_bonus = {	
+			}
+			
+			traits = { naval_manufacturer }
+			
+		}
+	}
+	
+	industrial_concern = {
+				
+		tianjin = {
+			
+			allowed = {
+				original_TAG = QNG
+			}
+			
+			traits = { industrial_concern }
+			
+			modifier = {
+			}
+		}	
+	}
 }

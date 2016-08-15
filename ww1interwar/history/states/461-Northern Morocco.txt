@@ -10,10 +10,10 @@ state={
 		owner = MOR
 
 		victory_points = {
-			11987 15 #Fez
+			11987 10 #Fez
 		}
 		victory_points = {
-			7069 10 
+			7069 5 
 		}
 		buildings = {
 			infrastructure = 3

@@ -7,7 +7,7 @@ set_national_unity = 0.6
 
 add_ideas ={
 imperial_ideal
-
+limited_conscription
 }
 
 

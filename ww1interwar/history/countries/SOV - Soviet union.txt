@@ -8,6 +8,7 @@ add_ideas = {
 	imperial_ideal
 	rasputin
 	communist_revolutionaries 
+	limited_conscription
 }
 give_guarantee = SER
 
@@ -135,6 +136,7 @@ capital = 219
 #Don't know how else to do this, w/ {} said it was "unexpected token"
 remove_ideas = imperial_ideal
 remove_ideas =	rasputin
+remove_ideas =	limited_conscription
 remove_ideas =	communist_revolutionaries 
 add_ideas = {
 	revolutionary_ideal

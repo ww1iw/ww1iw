@@ -50,9 +50,101 @@ create_country_leader = {
 	expire = "1936.9.2"
 	ideology = conservatism
 	traits = {
-		#
 	}
 }
+
+create_country_leader = {
+	name = "Mihkel Martna"
+	desc = "POLITICS_MIHKEL_MARTNA_DESC"
+	picture = "Portrait_Estonia_Mihkel_Martna.dds"
+	expire = "1936.9.2"
+	ideology = social_democracy
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kaarel Eenpalu"
+	desc = "POLITICS_KAAREL_EENPALU_DESC"
+	picture = "Portrait_Estonia_Kaarel_Eenpalu.dds"
+	expire = "1936.9.2"
+	ideology = independent
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jaan Tonisson"
+	desc = "POLITICS_JAAN_TONISSON_DESC"
+	picture = "Portrait_Estonia_Jaan_Tonisson.dds"
+	expire = "1936.9.2"
+	ideology = centrism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jaan Anvelt"
+	desc = "POLITICS_JAAN_ANVELT_DESC"
+	picture = "Portrait_Estonia_Jaan_Anvelt.dds"
+	expire = "1936.9.2"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Friedrich Karl Akel"
+	desc = "POLITICS_FRIEDRICH_KARL_AKEL_DESC"
+	picture = "Portrait_Estonia_Friedrich_Karl_Akel.dds"
+	expire = "1936.9.2"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Artur Sirk"
+	desc = "POLITICS_ARTUR_SIRK_DESC"
+	picture = "Portrait_Estonia_Artur_Sirk.dds"
+	expire = "1936.9.2"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Andres Larka"
+	desc = "POLITICS_ANDRES_LARKA_DESC"
+	picture = "Portrait_Estonia_Andres_Larka.dds"
+	expire = "1936.9.2"
+	ideology = nazism
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Jaan Soots"
+	picture = "Portrait_Estonia_Jaan_Soots.dds"
+	traits = { defensive_doctrine old_guard }
+	skill = 4
+}
+
+create_field_marshal = {
+	name = "Johan Laidoner"
+	picture = "Portrait_Estonia_Johan_Laidoner.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Nikolai Reek"
+	picture = "Portrait_Estonia_Nikolai_Reek.dds"
+	traits = {  }
+	skill = 3
+}
+
+                #
 1939.1.1 = {
 # oob = "EST_1936"
 

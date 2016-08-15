@@ -1,0 +1,63 @@
+ideas = {
+	
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		zastava = {
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+			research_bonus = {
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		utva = {
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+			research_bonus = {
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}
+		
+		ikarus = {
+			
+			allowed = {
+				original_tag = SER
+			}
+			
+			research_bonus = {
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				
+			}
+			
+		}
+	}
+	
+}

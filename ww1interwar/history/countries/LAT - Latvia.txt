@@ -37,7 +37,7 @@ set_national_unity = 0.55
 				popularity = 11.0
 			}
 		}
-		ruling_party = conservative
+		ruling_party = democratic
 		last_election = "1920.4.11"
 		election_frequency = 48
 		elections_allowed = yes
@@ -48,13 +48,84 @@ create_country_leader = {
 	name = "Jānis Čakste"
 	desc = "POLITICS_JANIS_CAKSTE_DESC"
 	picture = "Portrait_Latvia_Janis_Cakste.dds"
-	expire = "1936.9.2"
-	ideology = conservatism
+	expire = "1927.14.2"
+	ideology = centrism
 	traits = {
-		#
 	}
 }
 
+create_country_leader = {
+	name = "Gustavs Zemgals"
+	desc = "POLITICS_GUSTAVS_ZEMGALS_DESC"
+	picture = "Portrait_Latvia_Gustavs_Zemgals.dds"
+	expire = "1939.6.2"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bruno Kalniņš"
+	desc = "POLITICS_BRUNO_KALNINS_DESC"
+	picture = "Portrait_Latvia_Bruno_Kalnins.dds"
+	expire = "1939.6.2"
+	ideology = social_democracy
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "David Beiks"
+	desc = "POLITICS_DAVID_BEIKS_DESC"
+	picture = "Portrait_Latvia_Davids_Beiks.dds"
+	expire = "1939.6.2"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alberts Kviesis"
+	desc = "POLITICS_ALBERTS_KVIESIS_DESC"
+	picture = "Portrait_Latvia_Alberts_Kviesis.dds"
+	expire = "1939.6.2"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gustavs Celmiņš"
+	desc = "POLITICS_GUSTAVS_CELMINS_DESC"
+	picture = "Portrait_Latvia_Gustavs_Celmins.dds"
+	expire = "1939.6.2"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Jānis Balodis"
+	picture = "Portrait_Latvia_Jānis_Balodis.dds"
+	traits = { offensive_doctrine old_guard }
+	skill = 5
+}
+
+create_field_marshal = {
+	name = "Jukums Vācietis"
+	picture = "Portrait_Latvia_Jukums_Vācietis.dds"
+	traits = { old_guard }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Oskars Dankers"
+	picture = "Portrait_Latvia_Oskars_Dankers.dds"
+	traits = { commando old_guard }
+	skill = 4
+}
+
+                #
 1939.1.1 = {
 # oob = "LAT_1936"
 

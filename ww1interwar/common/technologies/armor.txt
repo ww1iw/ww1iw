@@ -70,6 +70,14 @@ technologies = {
 	
 	armored_car = { #Armored Car
 		
+		enable_subunits = {
+			armored_car
+		}
+
+		enable_equipments = {
+			armored_car1
+		}
+		
 		path = {
 			leads_to_tech = armored_car2
 			research_cost_coeff = 1
@@ -93,6 +101,10 @@ technologies = {
 	}
 	
 	armored_car2 = { #Armored Car 2
+		
+		enable_equipments = {
+			armored_car2
+		}
 		
 		path = {
 			leads_to_tech = armored_car3
@@ -119,6 +131,10 @@ technologies = {
 	
 	armored_car3 = { #Armored Car 3
 		
+		enable_equipments = {
+			armored_car3
+		}
+		
 		path = {
 			leads_to_tech = armored_car4
 			research_cost_coeff = 1
@@ -143,6 +159,10 @@ technologies = {
 	
 	armored_car4 = { #Armored Car 4
 	
+		enable_equipments = {
+			armored_car4
+		}
+	
 		path = {
 			leads_to_tech = armored_car5
 			research_cost_coeff = 1
@@ -166,6 +186,10 @@ technologies = {
 	}
 	
 	armored_car5 = { #Armored Car 5
+		
+		enable_equipments = {
+			armored_car5
+		}
 		
 		research_cost = 1.5
 		start_year = 1944
@@ -419,7 +443,10 @@ technologies = {
 	}
 	
 	interwar_light_tank = { #Interwar Light Tank
-
+		
+		enable_equipments = {
+			interwar_light_tank_equipment
+		}
 		
 		path = {
 			leads_to_tech = basic_light_tank
@@ -445,6 +472,10 @@ technologies = {
 	
 	armor_train = { #Armored Train I
 	
+		enable_equipments = {
+		armor_train1
+		}
+	
 		path = {
 			leads_to_tech = armor_train2
 			research_cost_coeff = 1
@@ -468,6 +499,10 @@ technologies = {
 	}
 	
 	armor_train2 = { #Armored Train II
+	
+		enable_equipments = {
+		armor_train2
+		}
 	
 		path = {
 			leads_to_tech = armor_train3
@@ -493,6 +528,10 @@ technologies = {
 	
 	armor_train3 = { #Armored Train III
 		
+		enable_equipments = {
+		armor_train3
+		}
+		
 		research_cost = 2
 		start_year = 1942
 		folder = {
@@ -511,6 +550,10 @@ technologies = {
 	}
 	
 	gwtank_heavy = { #Great War Heavy Tank
+	
+		enable_equipments = {
+		gwtank_heavy
+		}
 	
 		path = {
 			leads_to_tech = gwtank_heavy2
@@ -536,6 +579,10 @@ technologies = {
 	
 	gwtank_heavy2 = { #Improved Great War Heavy Tank
 	
+		enable_equipments = {
+		gwtank_heavy2
+		}
+	
 		path = {
 			leads_to_tech = basic_heavy_tank
 			research_cost_coeff = 1
@@ -560,6 +607,10 @@ technologies = {
 	
 	tankette = { #Tankette
 
+		enable_equipments = {
+		tankette1
+		}
+	
 		path = {
 			leads_to_tech = tankette2
 			research_cost_coeff = 1
@@ -583,6 +634,10 @@ technologies = {
 	}
 	
 	tankette2 = { #Tankette 2
+	
+		enable_equipments = {
+		tankette2
+		}
 	
 		research_cost = 2
 		start_year = 1931
@@ -748,7 +803,7 @@ technologies = {
 	improved_light_tank = { #Panzer II
 
 		enable_equipments = {
-			light_tank_equipment_2 
+			light_tank_equipment_2
 		}
 		
 		path = {
@@ -1554,6 +1609,10 @@ technologies = {
 	
 	intermediate_heavy_tank = { #Neubaufahrzeug
 		
+		enable_equipments = {
+		intermediate_heavy_tank
+		}
+		
 		path = {
 			leads_to_tech = prewar_heavy_tank
 			research_cost_coeff = 1
@@ -1585,6 +1644,10 @@ technologies = {
 	
 	assault_gun = { #Assault Gun I
 
+		enable_equipments = {
+		assault_gun1
+		}
+	
 		path = {
 			leads_to_tech = assault_gun2
 			research_cost_coeff = 1
@@ -1611,6 +1674,10 @@ technologies = {
 	
 	assault_gun2 = { #Assault Gun II
 		
+		enable_equipments = {
+		assault_gun2
+		}
+		
 		research_cost = 2.5
 		start_year = 1942
 		
@@ -1631,6 +1698,10 @@ technologies = {
 	
 	prewar_heavy_tank = { #Prewar heavy Tank
 
+		enable_equipments = {
+		prewar_heavy_tank
+		}
+	
 		path = {
 			leads_to_tech = improved_heavy_tank
 			research_cost_coeff = 1

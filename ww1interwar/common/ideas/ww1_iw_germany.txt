@@ -1,0 +1,199 @@
+ideas = {
+
+	country = {
+		
+		GER_patriotism_idea = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.025
+				army_morale_factor = 0.05
+			}
+		}
+		
+		
+		GER_rationing_idea = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}	
+		
+		GER_war_propaganda_idea = {
+				picture = generic_pp_unity_bonus
+				allowed = {
+					always = no 
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				modifier = {
+					unity_weekly = 0.002
+				}
+		}	
+
+        GER_kaiserschlacht_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = triumphant_will
+			
+			modifier = {
+				army_org = 5
+				army_morale_factor = 0.1
+			}
+		}
+		
+		GER_unrestricted_submarine_warfare_idea = {
+			allowed = {
+				always = no
+			}
+			
+			picture = the_long_lance
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+		        navy_submarine_attack_factor = 0.2
+			}
+		}
+		
+		GER_lenin_idea = {
+				allowed = {
+					always = no 
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				picture = generic_communism_drift_bonus
+			
+			    modifier = {
+			 	    communism_drift = 0.1
+			    }
+		}	
+		
+		GER_amadeo_idea = {
+				allowed = {
+					always = no 
+				}
+
+				allowed_civil_war = {
+					always = yes
+				}
+
+				picture = generic_communism_drift_bonus
+			
+			    modifier = {
+			 	    communism_drift = 0.1
+			    }
+		}
+
+        GER_hindenburg_programme_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor= -0.2
+			}
+		}	
+    }	
+		
+		# MILITARY
+	army_chief = {
+
+		helmuth_von_moltke_the_younger = {
+
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			available = {
+				has_completed_focus = GER_ohl
+			}
+			
+			traits = { army_chief_maneuver_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		erich_von_falkenhayn  = {
+
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			available = {
+				has_completed_focus = GER_ohl_ii
+			}
+						
+			traits = { army_chief_offensive_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		paul_von_hindenburg = {
+
+			
+			allowed = {
+				original_tag = GER
+			}
+				
+            available = {
+				has_completed_focus = GER_ohl_iii
+			}
+				
+			traits = { army_chief_morale_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	}
+}

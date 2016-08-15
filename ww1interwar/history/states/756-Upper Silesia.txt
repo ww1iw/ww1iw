@@ -13,7 +13,7 @@ state={
 		add_core_of = GER
 		add_core_of = POL
 	}
-		state_category = city
+		state_category = metropolis
 	provinces={
 		506 6464 
 	}
