@@ -88,16 +88,16 @@ set_politics = {
 
 	parties = {
 		liberal = {
-			popularity = 37
+			popularity = 34.75
 		}
 		democratic = {
-			popularity = 60.38
+			popularity = 28.55
 		}
 		conservative = {
-			popularity = 0
+			popularity = 4.72
 		}
 		socialist = { 
-			popularity = 0
+			popularity = 20.64
 		}
 		natsoc = {
 			popularity = 0
@@ -109,7 +109,7 @@ set_politics = {
 			popularity = 0
 		}
 		autocratic = {
-			popularity = 0
+			popularity = 11.34
 		}
 		fascism = {
 			popularity = 0

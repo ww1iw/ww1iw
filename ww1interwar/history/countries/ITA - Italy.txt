@@ -43,7 +43,7 @@ set_politics = {
 create_country_leader = {
 	name = "Antonio Salandra"
 	desc = "ANTONIA_SALANDRA_DESC"
-	picture = "Portrait_Italy_Antonio_Salandra.dds"
+	picture = "Portrait_ITA_Antonio_Salandra.dds"
 	expire = "1931.12.9"
 	ideology = liberalism
 	traits = {
@@ -67,23 +67,32 @@ set_national_unity = 0.5
 set_politics = {
 
 	parties = {
-		liberal = {
-			popularity = 63
+		democratic = { 
+			popularity = 47.62
 		}
-		socialist = { 
-			popularity = 23
+		liberal = { 
+			popularity = 8.3
 		}
-		conservative = {
-			popularity = 7
+		conservative = { 
+			popularity = 12.46
 		}
-		democratic = {
-			popularity = 2
+		fascism = {
+			popularity = 0
 		}
-		neutrality = {
-			popularity = 3
+		natsoc = {
+			popularity = 0
+		}
+		socialist = {
+			popularity = 21.54
+		}
+		communism = {
+			popularity = 0
 		}
 		autocratic = {
-			popularity = 2
+			popularity = 6.02
+		}
+		neutrality = {
+			popularity = 4.06
 		}
 	}
 	
@@ -94,9 +103,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Antonio Salandra"
-	desc = "ANTONIA_SALANDRA_DESC"
-	picture = "Portrait_Italy_Antonio_Salandra.dds"
+	name = "Giovanni Giolitti"
+	desc = "GIOVANNI_GIOLITTI_DESC"
+	picture = "Portrait_ITA_Giovanni_Giolitti.dds"
 	expire = "1931.12.9"
 	ideology = liberalism
 	traits = {
