@@ -1,22 +1,19 @@
-
 state={
-	id=460
-	name="STATE_460"
-
+	id=823
+	name="STATE_823"
+	
 	history={
 		owner = FRA
 		buildings = {
 			infrastructure = 4
-
 		}
-		add_core_of = ALG
 
 	}
-
+	
 	provinces={
-		1058 1141 1160 4046 7065 7081 7166 9976 10059 10078 11953 12034 12051 13077 
+		1248 1302 4255 4379 7229 10137 10180 10309 
 	}
-	manpower=2343837
+	manpower=3458400
 	buildings_max_level_factor=1.000
 	state_category=town
 }

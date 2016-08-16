@@ -1,0 +1,2875 @@
+﻿add_namespace = berlin_peace_conference
+
+# Berlin Peace Conference begins
+news_event = {
+	id = berlin_peace_conference.1
+	title = berlin_peace_conference.1.t
+	desc = berlin_peace_conference.1.d
+	picture = berlin_peace_conference_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.1.a # Germany will dominate the world
+		trigger = {
+			tag = GER
+		}
+		set_global_flag = berlin_peace_conference
+		if = {
+			if = {
+				limit = {
+					AUS = {
+						is_in_faction_with = GER
+					}
+				}
+				AUS = {
+					country_event = { id = berlin_peace_conference.2 days = 5 }
+				}
+			}
+			if = {
+				limit = {
+					TUR = {
+						is_in_faction_with = GER
+					}
+				}
+				TUR = {
+					country_event = { id = berlin_peace_conference.3 days = 5 }
+				}
+			}
+			if = {
+				limit = {
+					BUL = {
+						is_in_faction_with = GER
+					}
+				}
+				BUL = {
+					country_event = { id = berlin_peace_conference.4 days = 5 }
+				}
+			}
+			if = {
+				limit = {
+					ITA = {
+						is_in_faction_with = GER
+					}
+				}
+				ITA = {
+					country_event = { id = berlin_peace_conference.5 days = 5 }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.1.b # The world will hold its breath
+		trigger = {
+			NOT = {
+				tag = GER
+			}
+		}
+	}
+}
+
+# Austro-Hungarian claims - Balkans
+country_event = {
+	id = berlin_peace_conference.2
+	title = berlin_peace_conference.2.t
+	desc = berlin_peace_conference.2.d
+	picture = berlin_peace_conference_002
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.2.a # Create a series of puppet states
+		ai_chance = { factor = 40 }
+		set_global_flag = austrian_balkans_a
+		if = {
+			limit = {
+				ITA = {
+					is_in_faction_with = FRA
+				}
+			}
+			country_event = { id = berlin_peace_conference.6 days = 5 }
+		}
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = FRA
+					}
+				}
+			}
+			country_event = { id = berlin_peace_conference.10 days = 5 }
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.2.b # Annex Montenegro and puppet Serbia
+		ai_chance = { factor = 30 }
+		set_global_flag = austrian_balkans_b
+		if = {
+			limit = {
+				ITA = {
+					is_in_faction_with = FRA
+				}
+			}
+			country_event = { id = berlin_peace_conference.6 days = 5 }
+		}
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = FRA
+					}
+				}
+			}
+			country_event = { id = berlin_peace_conference.10 days = 5 }
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.2.c # Annex Montenegro and occupy Belgrade
+		ai_chance = { factor = 30 }
+		set_global_flag = austrian_balkans_c
+		if = {
+			limit = {
+				ITA = {
+					is_in_faction_with = FRA
+				}
+			}
+			country_event = { id = berlin_peace_conference.6 days = 5 }
+		}
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = FRA
+					}
+				}
+			}
+			country_event = { id = berlin_peace_conference.10 days = 5 }
+		}
+	}
+}
+
+# Ottoman claims - Middle East
+country_event = {
+	id = berlin_peace_conference.3
+	title = berlin_peace_conference.3.t
+	desc = berlin_peace_conference.3.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.3.a # Claim Kuwait and Aden
+		ai_chance = { factor = 20 }
+		set_global_flag = ottoman_middle_east_a
+		country_event = { id = berlin_peace_conference.7 days = 5 }
+	}
+	
+	option = { 
+		name = berlin_peace_conference.3.b # Create a large Omani ally
+		ai_chance = { factor = 20 }
+		set_global_flag = ottoman_middle_east_b
+		country_event = { id = berlin_peace_conference.7 days = 5 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.3.c # Create Yemeni and Omani vassals
+		ai_chance = { factor = 60 }
+		set_global_flag = ottoman_middle_east_c
+		country_event = { id = berlin_peace_conference.7 days = 5 }
+	}
+}
+
+# Bulgarian claims - Macedonia
+country_event = {
+	id = berlin_peace_conference.4
+	title = berlin_peace_conference.4.t
+	desc = berlin_peace_conference.4.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.4.a # Only ask for minor concessions
+		ai_chance = { factor = 15 }
+		set_global_flag = bulgarian_macedonia_a
+		if = {
+			limit = {
+				GRE = {
+					is_in_faction_with = FRA
+				}
+			}
+			country_event = { id = berlin_peace_conference.8 days = 5 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					GRE = {
+						is_in_faction_with = FRA
+					}
+				}
+			}
+			country_event = { id = berlin_peace_conference.12 days = 5 }
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.4.b # Create a Macedonian puppet
+		ai_chance = { factor = 0 }
+		set_global_flag = bulgarian_macedonia_b
+		if = {
+			limit = {
+				GRE = {
+					is_in_faction_with = FRA
+				}
+			}
+			country_event = { id = berlin_peace_conference.8 days = 5 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					GRE = {
+						is_in_faction_with = FRA
+					}
+				}
+			}
+			country_event = { id = berlin_peace_conference.12 days = 5 }
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.4.c # Claim Macedonia
+		ai_chance = { factor = 85 }
+		set_global_flag = bulgarian_macedonia_c
+		if = {
+			limit = {
+				GRE = {
+					is_in_faction_with = FRA
+				}
+			}
+			country_event = { id = berlin_peace_conference.8 days = 5 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					GRE = {
+						is_in_faction_with = FRA
+					}
+				}
+			}
+			country_event = { id = berlin_peace_conference.12 days = 5 }
+		}
+	}
+}
+
+# Italian claims - Southern France
+country_event = {
+	id = berlin_peace_conference.5
+	title = berlin_peace_conference.5.t
+	desc = berlin_peace_conference.5.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.5.a # Claim Corsica
+		ai_chance = { factor = 20 }
+		set_global_flag = italian_france_a
+		country_event = { id = berlin_peace_conference.9 days = 5 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.5.b # Claim Corsica and Savoie
+		ai_chance = { factor = 60 }
+		set_global_flag = italian_france_b
+		country_event = { id = berlin_peace_conference.9 days = 5 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.5.c # Claim land up to the Rhone
+		ai_chance = { factor = 20 }
+		set_global_flag = italian_france_c
+		country_event = { id = berlin_peace_conference.9 days = 5 }
+	}
+}
+
+# Austro-Hungarian claims - Isonzo
+country_event = {
+	id = berlin_peace_conference.6
+	title = berlin_peace_conference.6.t
+	desc = berlin_peace_conference.6.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.6.a # Ask for Venice to be a demilitarized zone
+		ai_chance = { factor = 40 }
+		set_global_flag = austrian_isonzo_a
+		country_event = { id = berlin_peace_conference.10 days = 5 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.6.b # Claim Venice
+		ai_chance = { factor = 60 }
+		set_global_flag = austrian_isonzo_b
+		country_event = { id = berlin_peace_conference.10 days = 5 }
+	}
+}
+
+# Ottoman claims - Egypt
+country_event = {
+	id = berlin_peace_conference.7
+	title = berlin_peace_conference.7.t
+	desc = berlin_peace_conference.7.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.7.a # Claim Sinai and Suez
+		ai_chance = { factor = 15 }
+		set_global_flag = ottoman_egypt_a
+		country_event = { id = berlin_peace_conference.11 days = 5 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.7.b # Re-establish Khedivate of Egypt
+		ai_chance = { factor = 60 }
+		set_global_flag = ottoman_egypt_b
+		country_event = { id = berlin_peace_conference.11 days = 5 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.7.c # Claim Sinai and Libya
+		trigger = {
+			ITA = {
+				is_in_faction_with = FRA
+			}
+		}
+		ai_chance = { factor = 25 }
+		set_global_flag = ottoman_egypt_c
+		country_event = { id = berlin_peace_conference.11 days = 5 }
+	}
+}
+
+# Bulgarian claims - Greek Macedonia
+country_event = {
+	id = berlin_peace_conference.8
+	title = berlin_peace_conference.8.t
+	desc = berlin_peace_conference.8.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.8.a # Claim lands east of Salonika
+		ai_chance = { factor = 30 }
+		set_global_flag = bulgarian_south_macedonia_a
+		country_event = { id = berlin_peace_conference.12 days = 5 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.8.b # Ask for the region to be a demilitarized zone
+		ai_chance = { factor = 40 }
+		set_global_flag = bulgarian_south_macedonia_b
+		country_event = { id = berlin_peace_conference.12 days = 5 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.8.c # Claim all of Greek Macedonia
+		ai_chance = { factor = 30 }
+		set_global_flag = bulgarian_south_macedonia_c
+		country_event = { id = berlin_peace_conference.12 days = 5 }
+	}
+}
+
+# Italian claims - North Africa
+country_event = {
+	id = berlin_peace_conference.9
+	title = berlin_peace_conference.9.t
+	desc = berlin_peace_conference.9.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.9.a # Claim Tunisia
+		ai_chance = { factor = 50 }
+		set_global_flag = italian_north_africa_a
+		country_event = { id = berlin_peace_conference.13 days = 5 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.9.b # Claim Tunisia and part of Algeria
+		ai_chance = { factor = 25 }
+		set_global_flag = italian_north_africa_b
+		country_event = { id = berlin_peace_conference.13 days = 5 }
+	}
+}
+
+# Austro-Hungarian claims - Albania
+country_event = {
+	id = berlin_peace_conference.10
+	title = berlin_peace_conference.10.t
+	desc = berlin_peace_conference.10.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.10.a # Create a Austro-Hungarian protectorate
+		ai_chance = { factor = 75 }
+		set_global_flag = austrian_albania_a
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+				TUR = {
+					NOT = {
+						is_in_faction_with = GER 
+					}
+				}
+				BUL = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			set_global_flag = berlin_claims_over
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.10.b # Don't bother
+		ai_chance = { factor = 25 }
+		set_global_flag = austrian_albania_b
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+				TUR = {
+					NOT = {
+						is_in_faction_with = GER 
+					}
+				}
+				BUL = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			set_global_flag = berlin_claims_over
+		}
+	}
+}
+
+# Ottoman claims - Albania
+country_event = {
+	id = berlin_peace_conference.11
+	title = berlin_peace_conference.11.t
+	desc = berlin_peace_conference.11.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.11.a # Create an Ottoman vilayet
+		ai_chance = { factor = 90 }
+		set_global_flag = ottoman_albania_a
+		country_event = { id = berlin_peace_conference.14 days = 5 }
+		
+	}
+	
+	option = {
+		name = berlin_peace_conference.11.b # Don't bother
+		ai_chance = { factor = 10 }
+		set_global_flag = ottoman_albania_b
+		country_event = { id = berlin_peace_conference.14 days = 5 }
+	}
+}
+
+# Bulgarian claims - Albania
+country_event = {
+	id = berlin_peace_conference.12
+	title = berlin_peace_conference.12.t
+	desc = berlin_peace_conference.12.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.12.a # Create a Bulgarian protectorate
+		ai_chance = { factor = 60 }
+		set_global_flag = bulgarian_albania_a 
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+				TUR = {
+					NOT = {
+						is_in_faction_with = GER 
+					}
+				}
+			}
+			set_global_flag = berlin_claims_over
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.12.b # Don't bother
+		ai_chance = { factor = 40 }
+		set_global_flag = bulgarian_albania_b
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+				TUR = {
+					NOT = {
+						is_in_faction_with = GER 
+					}
+				}
+			}
+			set_global_flag = berlin_claims_over
+		}
+	}
+}
+
+# Italian claims - Albania
+country_event = {
+	id = berlin_peace_conference.13
+	title = berlin_peace_conference.13.t
+	desc = berlin_peace_conference.13.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.13.a # Create an Italian protectorate
+		ai_chance = { factor = 80 }
+		set_global_flag = italian_albania_a
+		if = {
+			limit = {
+				GRE = {
+					is_in_faction_with = FRA
+				}
+			}
+			country_event = { id = berlin_peace_conference.15 days = 5 }
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.13.b # Don't bother
+		ai_chance = { factor = 20 }
+		set_global_flag = italian_albania_b
+		if = {
+			limit = {
+				GRE = {
+					is_in_faction_with = FRA
+				}
+			}
+			country_event = { id = berlin_peace_conference.15 days = 5 }
+		}
+	}
+}
+
+# Ottoman claims - Aegean islands
+country_event = {
+	id = berlin_peace_conference.14
+	title = berlin_peace_conference.14.t
+	desc = berlin_peace_conference.14.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.14.a # Claim Cyprus
+		ai_chance = { factor = 50 }
+		set_global_flag = ottoman_aegean_a
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			set_global_flag = berlin_claims_over
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.14.b # Claim the Aegean islands
+		ai_chance = { factor = 25 }
+		trigger = {
+			GRE = {
+				is_in_faction_with = FRA
+			}
+		}
+		set_global_flag = ottoman_aegean_b
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			set_global_flag = berlin_claims_over
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.14.c # Claim the Aegean and Cyprus islands
+		ai_chance = { factor = 25 }
+		trigger = {
+			GRE = {
+				is_in_faction_with = FRA
+			}
+		}
+		set_global_flag = ottoman_aegean_c
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			set_global_flag = berlin_claims_over
+		}
+	}
+}
+
+# Italian claims - Aegean islands
+country_event = {
+	id = berlin_peace_conference.15
+	title = berlin_peace_conference.15.t
+	desc = berlin_peace_conference.15.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.15.a # Claim the Ionian islands
+		ai_chance = { factor = 45 }
+		set_global_flag = italian_aegean_a
+		set_global_flag = berlin_claims_over
+	}
+	
+	option = {
+		name = berlin_peace_conference.15.b # Claim Crete
+		ai_chance = { factor = 35 }
+		set_global_flag = italian_aegean_b
+		set_global_flag = berlin_claims_over
+	}
+	
+	option = {
+		name = berlin_peace_conference.15.c # Claim the Ionian islands and Crete
+		ai_chance = { factor = 20 }
+		set_global_flag = italian_aegean_c
+		set_global_flag = berlin_claims_over
+	}
+}
+
+# Article I - Low Countries
+country_event = {
+	id = berlin_peace_conference.16
+	title = berlin_peace_conference.16.t
+	desc = berlin_peace_conference.16.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		tag = GER
+		BEL = {
+			is_in_faction_with = FRA
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = berlin_peace_conference.16.a # Create a Belgian puppet
+		ai_chance = { factor = 10 }
+		GER = {
+			annex_country = { target = LUX transfer_troops = no }
+			puppet = BEL
+		}
+		set_global_flag = berlin_low_countries
+	}
+	
+	option  {
+		name = berlin_peace_conference.16.b # Create Flemish/Wallonian puppets
+		ai_chance = { factor = 10 }
+		GER = {
+			annex_country = { target = LUX transfer_troops = no }
+			puppet = FLA
+			puppet = WAL
+		}
+		WAL = {
+			transfer_state = 34
+			transfer_state = 813
+			transfer_state = 768
+		}
+		FLA = {
+			transfer_state = 6
+		}
+		set_global_flag = berlin_low_countries
+	}
+	
+	option = {
+		name = berlin_peace_conference.16.c # Annex up to the Meuse and create a Flemish puppet
+		ai_chance = { factor = 70 }
+		GER = {
+			annex_country = { target = LUX transfer_troops = no }
+			transfer_state = 34
+			puppet = FLA
+		}
+		FLA = {
+			transfer_state = 6
+			transfer_state = 813
+			transfer_state = 768
+		}
+		set_global_flag = berlin_low_countries
+	}
+	
+	option = {
+		name = berlin_peace_conference.16.e # Annex Belgium and Luxemburg
+		ai_chance = { factor = 10 }
+		GER = {
+			annex_country = { target = LUX transfer_troops = no }
+			annex_country = { target = BEL transfer_troops = no }
+		}
+		set_global_flag = berlin_low_countries
+	}
+}
+
+# Article II - Franco-German border
+country_event = {
+	id = berlin_peace_conference.17
+	title = berlin_peace_conference.17.t
+	desc = berlin_peace_conference.17.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		tag = GER
+		or = {
+			has_global_flag = berlin_low_countries
+			NOT = {
+				BEL = {
+					is_in_faction_with = FRA
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.17.a # Keep the current border but create a demilitarized zone
+		ai_chance = { factor = 12 }
+		17 = {
+			set_demilitarized_zone = yes
+		}
+		18 = {
+			set_demilitarized_zone = yes
+		}
+		814 = {
+			set_demilitarized_zone = yes
+		}
+		clr_global_flag = berlin_low_countries
+		set_global_flag = berlin_french_border
+	}
+	
+	option = {
+		name = berlin_peace_conference.17.b # Annex the Lorraine region
+		ai_chance = { factor = 12 }
+		GER = {	
+			transfer_state = 17
+		}
+		if = {
+			limit = {
+				GER = {
+					controls_state = 34
+				}
+			}
+			GER = {
+					transfer_state = 814
+			}
+		}
+		clr_global_flag = berlin_low_countries
+		set_global_flag = berlin_french_border
+	}
+	
+	option = {
+		name = berlin_peace_conference.17.c # Annex the Lorraine, Meuse, and Besancon regions
+		ai_chance = { factor = 64 }
+		GER = {
+			transfer_state = 17
+			transfer_state = 814
+			transfer_state = 765
+		}
+		clr_global_flag = berlin_low_countries
+		set_global_flag = berlin_french_border
+	}
+	
+	option = {
+		name = berlin_peace_conference.17.e # Annex Lorraine, Meuse, and Champagne
+		ai_chance = { factor = 12 }
+		GER = {
+			transfer_state = 17
+			transfer_state = 18 
+			transfer_state = 814
+			transfer_state = 765
+		}
+		clr_global_flag = berlin_low_countries
+		set_global_flag = berlin_french_border
+	}
+}
+
+# Article III - Northern Balkans (1)
+country_event = {
+	id = berlin_peace_conference.18
+	title = berlin_peace_conference.18.t
+	desc = berlin_peace_conference.18.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = austrian_balkans_a
+		has_global_flag = berlin_french_border
+		has_global_flag = berlin_claims_over
+		tag = GER
+		AUS = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.18.a # Grant the Austro-Hungarian request
+		ai_chance = { factor = 95 }
+		AUS = {
+			puppet = SER
+			puppet = MTN
+		}
+		clr_global_flag = berlin_french_border
+		clr_global_flag = austrian_balkans_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.18.b # Only let them puppet Montenegro
+		ai_chance = { factor = 5 }
+		AUS = {
+			puppet = MTN
+		}
+		clr_global_flag = berlin_french_border
+		clr_global_flag = austrian_balkans_a
+	}
+}
+
+# Article III - Northern Balkans (2)
+country_event = {
+	id = berlin_peace_conference.19
+	title = berlin_peace_conference.19.t
+	desc = berlin_peace_conference.19.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = austrian_balkans_b
+		has_global_flag = berlin_french_border
+		has_global_flag = berlin_claims_over
+		tag = GER
+		AUS = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.19.a # Grant the Austro-Hungarian request
+		ai_chance = { factor = 56 }
+		AUS = {
+			annex_country = { target = MTN transfer_troops = no } 
+			puppet = SER
+		}
+		clr_global_flag = berlin_french_border
+		clr_global_flag = austrian_balkans_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.19.b # Give Montenegro to Serbia
+		ai_chance = { factor = 22 }
+		AUS = {
+			puppet = SER
+		}
+		SER = {
+			annex_country = { target = MTN transfer_troops = no } 
+		}
+		clr_global_flag = berlin_french_border
+		clr_global_flag = austrian_balkans_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.19.c # Maintain Montenegrin sovereignty as a puppet
+		ai_chance = { factor = 22 }
+		AUS = {
+			puppet = MTN
+			puppet = SER
+		}
+		clr_global_flag = berlin_french_border
+		clr_global_flag = austrian_balkans_b
+	}
+}
+
+# Article III - Northern Balkans (3)
+country_event = {
+	id = berlin_peace_conference.20
+	title = berlin_peace_conference.20.t
+	desc = berlin_peace_conference.20.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = austrian_balkans_c
+		has_global_flag = berlin_french_border
+		has_global_flag = berlin_claims_over
+		tag = GER
+		AUS = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.20.a # Grant the Austro-Hungarian request
+		ai_chance = { factor = 54 }
+		AUS = {
+			annex_country = { target = MTN transfer_troops = no } 
+			transfer_state = 818
+			puppet = SER
+		}
+		clr_global_flag = berlin_french_border
+		clr_global_flag = austrian_balkans_c
+	}
+	
+	option = {
+		name = berlin_peace_conference.20.b # Make Belgrade into a demilitarized zone instead
+		ai_chance = { factor = 46 }
+		AUS = {
+			annex_country = { target = MTN transfer_troops = no } 
+			puppet = SER
+		}
+		818` = {
+			set_demilitarized_zone = yes
+		}
+		clr_global_flag = berlin_french_border
+		clr_global_flag = austrian_balkans_c
+	}
+}
+
+# Article IV - Middle East (1)
+country_event = {
+	id = berlin_peace_conference.21
+	title = berlin_peace_conference.21.t
+	desc = berlin_peace_conference.21.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = ottoman_middle_east_a
+		NOT = {
+			has_global_flag = austrian_balkans_a
+			has_global_flag = austrian_balkans_b
+			has_global_flag = austrian_balkans_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		TUR = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.21.a # Grant the Ottoman request
+		ai_chance = { factor = 80 }
+		TUR = {
+			transfer_state = 745
+			transfer_state = 656
+			transfer_state = 659
+			transfer_state = 778
+		}
+		clr_global_flag = ottoman_middle_east_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.21.b # Accept, but take Aden 
+		ai_chance = { factor = 20 }
+		TUR = {
+			transfer_state = 745
+			transfer_state = 656
+			transfer_state = 778
+		}
+		GER = {
+			transfer_state = 659
+		}
+		clr_global_flag = ottoman_middle_east_a
+	}
+}
+
+# Article IV - Middle East (2)
+country_event = {
+	id = berlin_peace_conference.22
+	title = berlin_peace_conference.22.t
+	desc = berlin_peace_conference.22.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = ottoman_middle_east_b
+		NOT = {
+			has_global_flag = austrian_balkans_a
+			has_global_flag = austrian_balkans_b
+			has_global_flag = austrian_balkans_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		TUR = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.22.a # Grant the Ottoman reqeust
+		ai_chance = { factor = 60 }
+		OMA = {
+			transfer_state = 658
+			transfer_state = 817
+		}
+		TUR = {
+			transfer_state = 745
+			transfer_state = 656
+			transfer_state = 659
+			transfer_state = 778
+			diplomatic_relation = {
+				country = OMA
+				relation = non_aggression_pact
+			}
+			give_guarantee = OMA
+		}
+		clr_global_flag = ottoman_middle_east_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.22.b # Accept but take Aden 
+		ai_chance = { factor = 24 }
+		OMA = {
+			transfer_state = 658
+			transfer_state = 817
+		}
+		TUR = {
+			transfer_state = 745
+			transfer_state = 656
+			transfer_state = 778
+			diplomatic_relation = {
+				country = OMA
+				relation = non_aggression_pact
+			}
+			give_guarantee = OMA
+		}
+		GER = {
+			transfer_state = 659
+		}
+		clr_global_flag = ottoman_middle_east_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.22.c # Split the land between Yemen and Oman
+		ai_chance = { factor = 16 }
+		YEM = {
+			transfer_state = 659
+			transfer_state = 817
+			transfer_state = 778
+		}
+		OMA = {
+			transfer_state = 658
+		}
+		TUR = {
+			transfer_state = 745
+			transfer_state = 656		
+			diplomatic_relation = {
+				country = OMA
+				relation = non_aggression_pact
+			}
+			give_guarantee = OMA
+		}
+		clr_global_flag = ottoman_middle_east_b
+	}
+}
+
+# Article IV - Middle East (3)
+country_event = {
+	id = berlin_peace_conference.23
+	title = berlin_peace_conference.23.t
+	desc = berlin_peace_conference.23.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = ottoman_middle_east_c
+		NOT = {
+			has_global_flag = austrian_balkans_a
+			has_global_flag = austrian_balkans_b
+			has_global_flag = austrian_balkans_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		TUR = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.23.a # Grant the Ottoman request
+		ai_chance = { factor = 50 }
+		YEM = {
+			transfer_state = 659
+			transfer_state = 817
+			transfer_state = 778
+		}
+		OMA = {
+			transfer_state = 658
+		}
+		TUR = {
+			transfer_state = 745
+			transfer_state = 656
+			puppet = OMA
+			puppet = YEM
+		}
+		clr_global_flag = ottoman_middle_east_c
+	}
+	
+	option = {
+		name = berlin_peace_conference.23.b # Accept but take Aden
+		ai_chance = { factor = 25 }
+		YEM = {
+			transfer_state = 778
+			transfer_state = 817
+		}
+		OMA = {
+			transfer_state = 658
+		}
+		TUR = {
+			transfer_state = 745
+			transfer_state = 656
+			puppet = OMA
+			puppet = YEM
+		}
+		GER = {
+			transfer_state = 659
+		}
+		clr_global_flag = ottoman_middle_east_c
+	}
+	
+	option = {
+		name = berlin_peace_conference.23.c # Limit their gains to Yemen
+		ai_chance = { factor = 25 }
+		YEM = {
+			transfer_state = 778
+			transfer_state = 817
+		}
+		TUR = {
+			transfer_state = 745
+			transfer_state = 656
+			puppet = YEM
+		}
+	}
+}
+
+# Article V - Albania (1)
+country_event = {
+	id = berlin_peace_conference.24
+	title = berlin_peace_conference.24.t
+	desc = berlin_peace_conference.24.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		or = {
+			has_global_flag = ottoman_albania_a
+			has_global_flag = austrian_albania_a
+			has_global_flag = bulgarian_albania_a
+			has_global_flag = italian_albania_a
+		}
+		NOT = {
+			has_global_flag = ottoman_middle_east_a
+			has_global_flag = ottoman_middle_east_b
+			has_global_flag = ottoman_middle_east_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.24.a # Side with the Ottomans
+		ai_chance = { factor = 25 }
+		trigger = {
+			has_global_flag = ottoman_albania_a
+		}
+		TUR = {
+			puppet = ALB
+		}
+		clr_global_flag = ottoman_albania_a
+		clr_global_flag = austrian_albania_a
+		clr_global_flag = bulgarian_albania_a
+		clr_global_flag = italian_albania_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.24.b # Side with Austria-Hungary
+		ai_chance = { factor = 25 }
+		trigger = {
+			has_global_flag = austrian_albania_a
+		}
+		AUS = {
+			puppet = ALB
+		}
+		clr_global_flag = ottoman_albania_a
+		clr_global_flag = austrian_albania_a
+		clr_global_flag = bulgarian_albania_a
+		clr_global_flag = italian_albania_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.24.c # Side with Bulgaria
+		ai_chance = { factor = 25 }
+		trigger = {
+			has_global_flag = bulgarian_albania_a
+		}
+		BUL = {
+			puppet = ALB
+		}
+		clr_global_flag = ottoman_albania_a
+		clr_global_flag = austrian_albania_a
+		clr_global_flag = bulgarian_albania_a
+		clr_global_flag = italian_albania_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.24.d # Side with Italy
+		ai_chance = { factor = 25 }
+		trigger = {
+			has_global_flag = italian_albania_a
+		}
+		ITA = {
+			puppet = ALB
+		}
+		clr_global_flag = ottoman_albania_a
+		clr_global_flag = austrian_albania_a
+		clr_global_flag = bulgarian_albania_a
+		clr_global_flag = italian_albania_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.24.d # Maintain Albanian autonomy
+		ai_chance = { factor = 0 }
+	}
+}
+
+# Article VI - Northern Macedonia (1)
+country_event = {
+	id = berlin_peace_conference.25
+	title = berlin_peace_conference.25.t
+	desc = berlin_peace_conference.25.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = bulgarian_macedonia_a
+		NOT = {
+			has_global_flag = ottoman_albania_a
+			has_global_flag = austrian_albania_a
+			has_global_flag = bulgarian_albania_a
+			has_global_flag = italian_albania_a
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		BUL = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.25.a # Grant the Bulgarian request
+		ai_chance = { factor = 90 }
+		BUL = {
+			transfer_state = 770
+		}
+		clr_global_flag = bulgarian_macedonia_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.25.b # Don't give them any land
+		ai_chance = { factor = 10 }
+		clr_global_flag = bulgarian_macedonia_a
+	}
+}
+
+# Article VI - Northern Macedonia (2)
+country_event = {
+	id = berlin_peace_conference.26
+	title = berlin_peace_conference.26.t
+	desc = berlin_peace_conference.26.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = bulgarian_macedonia_b
+		NOT = {
+			has_global_flag = ottoman_albania_a
+			has_global_flag = austrian_albania_a
+			has_global_flag = bulgarian_albania_a
+			has_global_flag = italian_albania_a
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		BUL = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.26.a # Grant the Bulgarian request
+		ai_chance = { factor = 75 }
+		MAC = {
+			transfer_state = 770
+			transfer_state = 106
+			transfer_state = 774
+		}
+		BUL = {
+			puppet = MAC
+		}
+		clr_global_flag = bulgarian_macedonia_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.26.b # Keep Macedonia off the map
+		ai_chance = { factor = 25 }
+		BUL = {
+			transfer_state = 770
+		}
+		clr_global_flag = bulgarian_macedonia_b
+	}
+}
+
+# Article VI - Northern Macedonia (3)
+country_event = {
+	id = berlin_peace_conference.27
+	title = berlin_peace_conference.27.t
+	desc = berlin_peace_conference.27.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = bulgarian_macedonia_c
+		NOT = {
+			has_global_flag = ottoman_albania_a
+			has_global_flag = austrian_albania_a
+			has_global_flag = bulgarian_albania_a
+			has_global_flag = italian_albania_a
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		BUL = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.27.a # Grant the Bulgarian request
+		ai_chance = { factor = 78 }
+		BUL = {
+			transfer_state = 770
+			transfer_state = 106
+			transfer_state = 774
+			transfer_state = 758
+		}
+		clr_global_flag = bulgarian_macedonia_c
+	}
+	
+	option = {
+		name = berlin_peace_conference.27.b # Limit them to minor gains
+		ai_chance = { factor = 22 }
+		BUL = { 
+			transfer_state = 770
+		}
+		clr_global_flag = bulgarian_macedonia_c
+	}
+}
+
+# Article VII - Greek Macedonia (1)
+country_event = {
+	id = berlin_peace_conference.28
+	title = berlin_peace_conference.28.t
+	desc = berlin_peace_conference.28.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = bulgarian_south_macedonia_a
+		NOT = {
+			has_global_flag = bulgarian_macedonia_a
+			has_global_flag = bulgarian_macedonia_b
+			has_global_flag = bulgarian_macedonia_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		BUL = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.28.a # Grant the Bulgarian request
+		ai_chance = { factor = 90 }
+		BUL = {
+			transfer_state = 771
+		}
+		clr_global_flag = bulgarian_south_macedonia_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.28.b # Accept but make Salonika into a demilitarized zone
+		ai_chance = { factor = 10 }
+		BUL = {
+			transfer_state = 771
+		}
+		731 = {
+			set_demilitarized_zone = yes 
+		}
+		clr_global_flag = bulgarian_south_macedonia_a
+	}
+}
+
+# Article VII - Greek Macedonia (2)
+country_event = {
+	id = berlin_peace_conference.29
+	title = berlin_peace_conference.29.t
+	desc = berlin_peace_conference.29.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = bulgarian_south_macedonia_b
+		NOT = {
+			has_global_flag = bulgarian_macedonia_a
+			has_global_flag = bulgarian_macedonia_b
+			has_global_flag = bulgarian_macedonia_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		BUL = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.29.a # Grant the Bulgarian request
+		ai_chance = { factor = 70 }
+		BUL = {
+			transfer_state = 771
+		}
+		731 = {
+			set_demilitarized_zone = yes 
+		}
+		clr_global_flag = bulgarian_south_macedonia_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.29.b # Limit them to minor gains
+		ai_chance = { factor = 30 }
+		BUL = {
+			transfer_state = 771
+		}
+		clr_global_flag = bulgarian_south_macedonia_b
+	}
+}
+
+# Article VII - Greek Macedonia (3)
+country_event = {
+	id = berlin_peace_conference.30
+	title = berlin_peace_conference.30.t
+	desc = berlin_peace_conference.30.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = bulgarian_south_macedonia_c
+		NOT = {
+			has_global_flag = bulgarian_macedonia_a
+			has_global_flag = bulgarian_macedonia_b
+			has_global_flag = bulgarian_macedonia_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		BUL = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.30.a # Grant the Bulgarian request
+		ai_chance = { factor = 50 }
+		BUL = {
+			transfer_state = 771
+			transfer_state = 731 
+		}
+		clr_global_flag = bulgarian_south_macedonia_c
+	}
+		
+	option = {
+		name = berlin_peace_conference.30.b # Limit them to minor gains
+		ai_chance = { factor = 50 }
+		BUL = {
+			transfer_state = 771
+		}
+		clr_global_flag = bulgarian_south_macedonia_c
+	}
+}
+
+# Article VIII - Isonzo (1)
+country_event = {
+	id = berlin_peace_conference.31
+	title = berlin_peace_conference.31.t
+	desc = berlin_peace_conference.31.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = austrian_isonzo_a
+		NOT = {
+			has_global_flag = bulgarian_south_macedonia_a
+			has_global_flag = bulgarian_south_macedonia_b
+			has_global_flag = bulgarian_south_macedonia_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		AUS = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.31.a # Grant the Austro-Hungarian request
+		ai_chance = { factor = 80 }
+		160 = {
+			set_demilitarized_zone = yes
+		}
+		clr_global_flag = austrian_isonzo_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.31.b # Just make Italy relinquish their claims
+		ai_chance = { factor = 20 }
+		ITA = {
+			remove_state_claim = 39
+			remove_state_claim = 736
+			remove_state_claim = 103
+			remove_state_claim = 163
+		}
+		clr_global_flag = austrian_isonzo_a
+	}
+}
+
+# Article VIII - Isonzo (2)
+country_event = {
+	id = berlin_peace_conference.32
+	title = berlin_peace_conference.32.t
+	desc = berlin_peace_conference.32.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = austrian_isonzo_b
+		NOT = {
+			has_global_flag = bulgarian_south_macedonia_a
+			has_global_flag = bulgarian_south_macedonia_b
+			has_global_flag = bulgarian_south_macedonia_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		AUS = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.32.a # Grant the Austro-Hungarian request
+		ai_chance = { factor = 52 }
+		AUS = {
+			transfer_state = 160 
+		}
+		clr_global_flag = austrian_isonzo_b
+	}
+	
+	option  = {
+		name = berlin_peace_conference.32.b # Make it a demilitarized zone instead
+		ai_chance = { factor = 48 }
+		160 = {
+			set_demilitarized_zone = yes
+		}
+		clr_global_flag = austrian_isonzo_b
+	}
+}
+
+# Article IX - Egypt (1)
+country_event = {
+	id = berlin_peace_conference.33
+	title = berlin_peace_conference.33.t
+	desc = berlin_peace_conference.33.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = ottoman_egypt_a
+		NOT = {
+			has_global_flag = austrian_isonzo_a
+			has_global_flag = austrian_isonzo_b
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		TUR = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.33.a # Grant the Ottoman request
+		ai_chance = { factor = 20 }
+		TUR = {
+			transfer_state = 453
+			transfer_state = 785
+		}
+		clr_global_flag = ottoman_egypt_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.33.b # Accept but take the Suez Canal
+		ai_chance = { factor = 80 }
+		TUR = {
+			transfer_state = 453
+		}
+		GER = {
+			transfer_state = 785
+		}
+		clr_global_flag = ottoman_egypt_a
+	}
+}
+
+# Article IX - Egypt (2)
+country_event = {
+	id = berlin_peace_conference.34
+	title = berlin_peace_conference.34.t
+	desc = berlin_peace_conference.34.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = ottoman_egypt_b
+		NOT = {
+			has_global_flag = austrian_isonzo_a
+			has_global_flag = austrian_isonzo_b
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		TUR = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.34.a # Grant the Ottoman request
+		ai_chance = { factor = 35 }
+		EGY = {
+			transfer_state = 447
+			transfer_state = 452
+			transfer_state = 446
+			transfer_state = 552
+			transfer_state = 456
+			transfer_state = 457
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Abbas II"
+				desc = "POLITICS_ABBAS_II_DESC"
+				picture = "gfx/leaders/EGY/Portrait_EGY_Abbas_II.dds"
+				expire = "1944.12.19"
+				ideology = monarchism
+			}
+		}
+		TUR = {
+			transfer_state = 453
+			transfer_state = 785
+			puppet = EGY
+		}
+		clr_global_flag = ottoman_egypt_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.34.b # Accept but take the Suez Canal
+		ai_chance = { factor = 40 }
+		EGY = {
+			transfer_state = 447
+			transfer_state = 452
+			transfer_state = 446
+			transfer_state = 552
+			transfer_state = 456
+			transfer_state = 457
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Abbas II"
+				desc = "POLITICS_ABBAS_II_DESC"
+				picture = "gfx/leaders/EGY/Portrait_EGY_Abbas_II.dds"
+				expire = "1944.12.19"
+				ideology = monarchism
+			}
+		}
+		TUR = {
+			transfer_state = 453
+			puppet = EGY
+		}
+		GER = {
+			transfer_state = 785
+		}
+		clr_global_flag = ottoman_egypt_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.34.c # Make Egypt a German mandate
+		ai_chance = { factor = 25 }
+		EGY = {
+			transfer_state = 447
+			transfer_state = 452
+			transfer_state = 446
+			transfer_state = 552
+			transfer_state = 456
+			transfer_state = 457
+			set_politics = {
+				ruling_party = autocratic
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Abbas II"
+				desc = "POLITICS_ABBAS_II_DESC"
+				picture = "gfx/leaders/EGY/Portrait_EGY_Abbas_II.dds"
+				expire = "1944.12.19"
+				ideology = monarchism
+			}
+		}
+		TUR = {
+			transfer_state = 453
+		}
+		GER = {
+			transfer_state = 785
+			puppet = EGY
+		}
+		clr_global_flag = ottoman_egypt_b
+	}
+}
+
+# Article IX - Egypt (3)
+country_event = {
+	id = berlin_peace_conference.35
+	title = berlin_peace_conference.35.t
+	desc = berlin_peace_conference.35.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = ottoman_egypt_c
+		NOT = {
+			has_global_flag = austrian_isonzo_a
+			has_global_flag = austrian_isonzo_b
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		TUR = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.35.a # Grant the Ottoman request
+		ai_chance = { factor = 45 }
+		TUR = {
+			transfer_state = 453
+			transfer_state = 785
+			transfer_state = 451
+			transfer_state = 663
+			transfer_state = 450
+			transfer_state = 273
+			transfer_state = 662
+			transfer_state = 449
+			transfer_state = 661
+			transfer_state = 448
+		}
+		clr_global_flag = ottoman_egypt_c
+	}
+	
+	option = {
+		name = berlin_peace_conference.35.b # Accept but take Suez 
+		ai_chance = { factor = 23 }
+		TUR = {
+			transfer_state = 453
+			transfer_state = 451
+			transfer_state = 663
+			transfer_state = 450
+			transfer_state = 273
+			transfer_state = 662
+			transfer_state = 449
+			transfer_state = 661
+			transfer_state = 448
+		}
+		GER = {
+			transfer_state = 785
+		}
+		clr_global_flag = ottoman_egypt_c
+	}
+	
+	option = {
+		name = berlin_peace_conference.35.c # Limit their gains to Sinai
+		ai_chance = { factor = 32 }
+		TUR = {
+			transfer_state = 453
+		}
+		GER = {
+			transfer_state = 785
+		}
+		clr_global_flag = ottoman_egypt_c
+	}
+}
+
+# Article X - Aegean islands (1)
+country_event = {
+	id = berlin_peace_conference.36
+	title = berlin_peace_conference.36.t
+	desc = berlin_peace_conference.36.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = ottoman_aegean_a
+		NOT = {
+			has_global_flag = ottoman_egypt_a
+			has_global_flag = ottoman_egypt_b
+			has_global_flag = ottoman_egypt_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		TUR = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.36.a # Grant the Ottoman request
+		ai_chance = { factor = 90 }
+		TUR = {
+			transfer_state = 183
+		}
+		clr_global_flag = ottoman_aegean_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.36.b # Don't give them any territory
+		ai_chance = { factor = 10 }
+		clr_global_flag = ottoman_aegean_a
+	}
+}
+
+# Article X - Aegean islands (2)
+country_event = {
+	id = berlin_peace_conference.37
+	title = berlin_peace_conference.37.t
+	desc = berlin_peace_conference.37.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = ottoman_aegean_b
+		NOT = {
+			has_global_flag = ottoman_egypt_a
+			has_global_flag = ottoman_egypt_b
+			has_global_flag = ottoman_egypt_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		TUR = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.37.a # Grant the Ottoman request
+		ai_chance = { factor = 90 }
+		TUR = {
+			transfer_state = 187
+		}
+		clr_global_flag = ottoman_aegean_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.37.b # Don't give them any territory
+		ai_chance = { factor = 10 }
+		clr_global_flag = ottoman_aegean_b
+	}
+}
+
+# Article X - Aegean islands (3)
+country_event = {
+	id = berlin_peace_conference.38
+	title = berlin_peace_conference.38.t
+	desc = berlin_peace_conference.38.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = ottoman_aegean_c
+		NOT = {
+			has_global_flag = ottoman_egypt_a
+			has_global_flag = ottoman_egypt_b
+			has_global_flag = ottoman_egypt_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		TUR = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.38.a # Grant the Ottoman request
+		ai_chance = { factor = 40 }
+		TUR = {
+			transfer_state = 187
+			transfer_state = 183
+		}
+		clr_global_flag = ottoman_aegean_c
+	}
+	
+	option = {
+		name = berlin_peace_conference.38.b # Limit their gains to Cyprus
+		ai_chance = { factor = 30 }
+		TUR = {
+			transfer_state = 183
+		}
+		clr_global_flag = ottoman_aegean_c
+	}
+	
+	option = {
+		name = berlin_peace_conference.38.c # Limit their gains to the Greek Aegeans
+		ai_chance = { factor = 30 }
+		TUR = {
+			transfer_state = 187
+		}
+		if = {
+			limit = {
+				ITA = {
+					is_in_faction_with = FRA
+				}
+			}
+			TUR = {
+				transfer_state = 164
+			}
+		}
+		clr_global_flag = ottoman_aegean_c
+	}
+}
+
+# Article XI - Mittelafrika
+country_event = {
+	id = berlin_peace_conference.39
+	title = berlin_peace_conference.39.t
+	desc = berlin_peace_conference.39.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		NOT = {
+			has_global_flag = ottoman_egypt_a
+			has_global_flag = ottoman_egypt_b
+			has_global_flag = ottoman_egypt_c
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.39.a # Annex Mittelafrika
+		ai_chance = { factor = 80 }
+		GER = {
+			transfer_state = 539
+			transfer_state = 660
+			transfer_state = 556
+			transfer_state = 543
+			transfer_state = 708
+			transfer_state = 268
+		}
+		if = {
+			if = {
+				limit = {
+					BEL = {
+						is_in_faction_with = FRA
+					}
+				}
+				GER = {
+					transfer_state = 295
+					transfer_state = 718
+					transfer_state = 538
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						is_in_faction_with = FRA
+					}
+				}
+				GER = {
+					transfer_state = 558
+					transfer_state = 274
+					transfer_state = 700
+					transfer_state = 782
+					transfer_state = 547
+					transfer_state = 548
+				}
+			}
+			if = {
+				limit = {
+					POR = {
+						is_in_faction_with = FRA
+					}
+				}
+				GER = {
+					transfer_state = 783
+				}
+			}
+		}
+		set_global_flag = berlin_mittelafrika
+	}
+	
+	option = {
+		name = berlin_peace_conference.39.b # Demand only lesser concessions
+		ai_chance = { factor = 20 }
+		GER = {
+			transfer_state = 539
+			transfer_state = 660
+		}
+		if = {
+			if = {
+				limit = {
+					BEL = {
+						is_in_faction_with = FRA
+					}
+				}
+				GER = {
+					transfer_state = 295
+					transfer_state = 718
+					transfer_state = 538
+				}
+			}
+			if = {
+				limit = {
+					ENG = {
+						is_in_faction_with = FRA
+					}
+				}
+				GER = {
+					transfer_state = 274
+					transfer_state = 782
+				}
+			}
+		}
+		set_global_flag = berlin_mittelafrika
+	}
+	
+	option = {
+		name = berlin_peace_conference.39.c # We do not need any more colonies
+		ai_chance = { factor = 0 }
+		set_global_flag = berlin_mittelafrika
+	}
+}
+
+# Article XII - Boer state
+country_event = {
+	id = berlin_peace_conference.40
+	title = berlin_peace_conference.40.t
+	desc = berlin_peace_conference.40.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = berlin_mittelafrika
+		NOT = {
+			has_global_flag = berlin_french_border
+		}
+		tag = GER
+		ENG = {
+			is_in_faction_with = FRA
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.40.a # Give the Boers independence
+		ai_chance = { factor = 70 }
+		TRA = {
+			transfer_state = 275
+			transfer_state = 719
+			set_capital = 275
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = yes
+			}
+			create_country_leader = {
+				name = "Manie Maritz"
+				desc = "POLITICS_MANIE_MARITZ_DESC"
+				picture = "gfx/leaders/TRA/Portrait_TRA_Manie_Maritz.dds"
+				expire = "1940.12.19"
+				ideology = independent
+			}
+		}
+		GER = {
+			diplomatic_relation = {
+				country = TRA
+				relation = non_aggression_pact
+			}
+			give_guarantee = TRA
+		}
+		clr_global_flag = berlin_mittelafrika
+		set_global_flag = berlin_boers
+	}
+	
+	option = {
+		name = berlin_peace_conference.40.b # They are of no use to us
+		ai_chance = { factor = 30 }
+		clr_global_flag = berlin_mittelafrika
+		set_global_flag = berlin_boers
+	}
+}
+
+# Article XIII - Indochina
+country_event = {
+	id = berlin_peace_conference.41
+	title = berlin_peace_conference.41.t
+	desc = berlin_peace_conference.41.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = berlin_boers
+		tag = GER
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.41.a # Only take Guangzhouwan
+		ai_chance = { factor = 20 }
+		GER = {
+			transfer_state = 728
+		}
+		clr_global_flag = berlin_boers
+		set_global_flag = berlin_indochina
+	}
+	
+	option = {
+		name = berlin_peace_conference.41.b # Take Northern Indochina
+		ai_chance = { factor = 80 }
+		GER = {
+			transfer_state = 728
+			transfer_state = 671
+			transfer_state = 670
+		}
+		clr_global_flag = berlin_boers
+		set_global_flag = berlin_indochina
+	}
+}
+
+# Article XIV - Oceania
+country_event = {
+	id = berlin_peace_conference.42
+	title = berlin_peace_conference.42.t
+	desc = berlin_peace_conference.42.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = berlin_indochina
+		tag = GER
+		ENG = {
+			is_in_faction_with = FRA
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.42.a # Annex Southern Papua and the Solomon islands
+		ai_chance = { factor = 65 }
+		GER = {
+			transfer_state = 523
+			transfer_state = 634
+		}
+		clr_global_flag = berlin_indochina
+		set_global_flag = berlin_oceania
+	}
+	
+	option = {
+		name = berlin_peace_conference.42.b # Annex Gilbert, Nauru, and Ellice islands
+		ai_chance = { factor = 25 }
+		GER = {
+			transfer_state = 725
+			transfer_state = 639
+			transfer_state = 643
+		}
+		clr_global_flag = berlin_indochina
+		set_global_flag = berlin_oceania
+	}
+	
+	option = {
+		name = berlin_peace_conference.42.c # Annex Fiji, Nendo and New Caledonia
+		ai_chance = { factor = 10 }
+		GER = {
+			transfer_state = 734
+			transfer_state = 635
+			transfer_state = 636
+		}
+		clr_global_flag = berlin_indochina
+		set_global_flag = berlin_oceania
+	}
+}
+
+# Article XV - Ireland
+country_event = {
+	id = berlin_peace_conference.43
+	title = berlin_peace_conference.43.t
+	desc = berlin_peace_conference.43.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = berlin_oceania
+		tag = GER
+		ENG = {
+			is_in_faction_with = FRA
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.43.a # Create a united independent Ireland
+		ai_chance = { factor = 55 }
+		IRE = {
+			transfer_state = 113
+			transfer_state = 135
+			transfer_state = 134
+			transfer_state = 119
+		}
+		clr_global_flag = berlin_oceania
+		set_global_flag = berlin_ireland
+	}
+	
+	option = {
+		name = berlin_peace_conference.43.b # Stay out of Irish affairs
+		ai_chance = { factor = 45 }
+		clr_global_flag = berlin_oceania
+		set_global_flag = berlin_ireland
+	}
+}
+
+# Article XVI - Southern France (1)
+country_event = {
+	id = berlin_peace_conference.44
+	title = berlin_peace_conference.44.t
+	desc = berlin_peace_conference.44.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = italian_france_a
+		has_global_flag = berlin_ireland
+		tag = GER
+		ITA = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.44.a # Grant the Italian request
+		ITA = {
+			transfer_state = 1
+		}
+		clr_global_flag = berlin_ireland
+		clr_global_flag = italian_france_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.44.b # Don't give them any land
+		clr_global_flag = berlin_ireland
+		clr_global_flag = italian_france_a
+	}
+}
+
+# Article XVI - Southern France (2)
+country_event = {
+	id = berlin_peace_conference.45
+	title = berlin_peace_conference.45.t
+	desc = berlin_peace_conference.45.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = italian_france_b
+		has_global_flag = berlin_ireland
+		tag = GER
+		ITA = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.45.a # Grant the Italian request
+		ai_chance = { factor = 60 }
+		ITA = {
+			transfer_state = 1
+			transfer_state = 735			
+		}
+		clr_global_flag = berlin_ireland
+		clr_global_flag = italian_france_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.45.b # Limit their gains to Corsica
+		ai_chance = { factor = 20 }
+		ITA = {
+			transfer_state = 1
+		}
+		clr_global_flag = berlin_ireland
+		clr_global_flag = italian_france_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.45.c # Limit their gains to Savoy
+		ai_chance = { factor = 20 }
+		ITA = {
+			transfer_state = 735
+		}
+		clr_global_flag = berlin_ireland
+		clr_global_flag = italian_france_b
+	}
+}
+
+# Article XVI - Southern France (3)
+country_event = {
+	id = berlin_peace_conference.46
+	title = berlin_peace_conference.46.t
+	desc = berlin_peace_conference.46.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = italian_france_c
+		has_global_flag = berlin_ireland
+		tag = GER
+		ITA = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.46.a # Grant the Italian request
+		ai_chance = { factor = 40 }
+		ITA = {
+			transfer_state = 1
+			transfer_state = 735
+			transfer_state = 21
+			transfer_state = 32
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.46.b # Limit their gains to Savoy and Corsica
+		ai_chance = { factor = 30 }
+		ITA = {
+			transfer_state = 1
+			transfer_state = 735
+		}
+	}
+	
+	option = {
+		name = berlin_peace_conference.46.c # Limit their gains to Corsica
+		ai_chance = { factor = 30 }
+		ITA = {
+			transfer_state = 1
+		}
+	}
+}
+
+# Article XVII - North Africa (1)
+country_event = {
+	id = berlin_peace_conference.47
+	title = berlin_peace_conference.47.t
+	desc = berlin_peace_conference.47.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = italian_north_africa_a
+		NOT = {
+			has_global_flag = italian_france_a
+			has_global_flag = italian_france_b
+			has_global_flag = italian_france_c
+		}
+		tag = GER
+		ITA = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.47.a # Grant the Italian request
+		ai_chance = { factor = 75 }
+		ITA = {
+			transfer_state = 665
+			transfer_state = 458
+		}
+		clr_global_flag = italian_north_africa_a
+	}
+	
+	option = {
+		name = berlin_peace_conference.47.b # Don't give the Italians any colonial power
+		ai_chance = { factor = 25 }
+		clr_global_flag = italian_north_africa_a
+	}
+}
+
+# Article XVII - North Africa (2)
+country_event = {
+	id = berlin_peace_conference.48
+	title = berlin_peace_conference.48.t
+	desc = berlin_peace_conference.48.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = italian_north_africa_b
+		NOT = {
+			has_global_flag = italian_france_a
+			has_global_flag = italian_france_b
+			has_global_flag = italian_france_c
+		}
+		tag = GER
+		ITA = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.48.a # Grant the Italian request
+		ai_chance = { factor = 50 }
+		ITA = {
+			transfer_state = 665
+			transfer_state = 458
+			transfer_state = 460
+		}
+		clr_global_flag = italian_north_africa_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.48.b # Limit their gains to Tunisia
+		ai_chance = { factor = 40 }
+		ITA = {
+			transfer_state = 665
+			transfer_state = 458
+		}
+		clr_global_flag = italian_north_africa_b
+	}
+	
+	option = {
+		name = berlin_peace_conference.48.c # Don't give the Italians any colonial power
+		ai_chance = { factor = 10 }
+		clr_global_flag = italian_north_africa_b
+	}
+}
+
+# Article XVIII - Ionian islands (1)
+country_event = {
+	id = berlin_peace_conference.49
+	title = berlin_peace_conference.49.t
+	desc = berlin_peace_conference.49.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = italian_aegean_a
+		NOT = {
+			has_global_flag = italian_north_africa_a
+			has_global_flag = italian_north_africa_b
+		}
+		tag = GER
+		ITA = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.49.a # Grant the Italian request
+		ai_chance = { factor = 80 }
+		ITA = {
+			transfer_state = 759
+		}
+		clr_global_flag = italian_aegean_a
+		news_event = { id = berlin_peace_conference.52 days = 10 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.49.b # Give them Crete instead
+		ai_chance = { factor = 20 }
+		ITA = {
+			transfer_state = 182
+		}
+		clr_global_flag = italian_aegean_a
+		news_event = { id = berlin_peace_conference.52 days = 10 }
+	}
+}
+
+# Article XVIII - Ionian islands (2)
+country_event = {
+	id = berlin_peace_conference.50
+	title = berlin_peace_conference.50.t
+	desc = berlin_peace_conference.50.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = italian_aegean_b
+		NOT = {
+			has_global_flag = italian_north_africa_a
+			has_global_flag = italian_north_africa_b
+		}
+		tag = GER
+		ITA = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.50.a # Grant the Italian request
+		ai_chance = { factor = 70 }
+		ITA = {
+			transfer_state = 182
+		}
+		clr_global_flag = italian_aegean_b
+		news_event = { id = berlin_peace_conference.52 days = 10 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.50.b # Give them the Ionians instead
+		ai_chance = { factor = 30 }
+		ITA = {
+			transfer_state = 759
+		}
+		clr_global_flag = italian_aegean_b
+		news_event = { id = berlin_peace_conference.52 days = 10 }
+	}
+}
+
+# Article XVIII - Ionian islands (3)
+country_event = {
+	id = berlin_peace_conference.51
+	title = berlin_peace_conference.51.t
+	desc = berlin_peace_conference.51.d
+	picture = GFX_report_event_physics_lab_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = berlin_claims_over
+		has_global_flag = italian_aegean_c
+		NOT = {
+			has_global_flag = italian_north_africa_a
+			has_global_flag = italian_north_africa_b
+		}
+		tag = GER
+		ITA = {
+			is_in_faction_with = GER
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10 
+	}
+	
+	option = {
+		name = berlin_peace_conference.51.a # Grant the Italian request
+		ai_chance = { factor = 34 }
+		ITA = {
+			transfer_state = 759
+			transfer_state = 182
+		}
+		clr_global_flag = italian_aegean_c
+		news_event = { id = berlin_peace_conference.52 days = 10 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.51.b # Limit their gains to Crete
+		ai_chance = { factor = 20 }
+		ITA = {
+			transfer_state = 182
+		}
+		clr_global_flag = italian_aegean_c
+		news_event = { id = berlin_peace_conference.52 days = 10 }
+	}
+	
+	option = {
+		name = berlin_peace_conference.51.c # Limit their gains to the Ionian islands
+		ai_chance = { factor = 46 }
+		ITA = {
+			transfer_state = 182
+		}
+		clr_global_flag = italian_aegean_c
+		news_event = { id = berlin_peace_conference.52 days = 10 }
+	}
+}
+
+# Berlin Peace Conference over
+news_event = {
+	id = berlin_peace_conference.52
+	title = berlin_peace_conference.52.t
+	desc = berlin_peace_conference.52.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = berlin_peace_conference.52.a # A New World Order is established
+		clr_global_flag = berlin_peace_conference
+		clr_global_flag = berlin_claims_over
+	}
+}

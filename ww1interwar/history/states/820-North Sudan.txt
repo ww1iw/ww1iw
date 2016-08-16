@@ -1,22 +1,20 @@
-
 state={
-	id=552
-	name="STATE_552"
-
+	id=820
+	name="STATE_820"
+	
 	history={
 		owner = ENG
 		buildings = {
 			infrastructure = 0
 
 		}
-		add_core_of = EGY
 
 	}
-
+	
 	provinces={
-		1143 2064 7216 10127 10869 10907 12099 12733 12764 12816 
+		4138 4961 7987 8103 10900 12836 
 	}
-	manpower=15923
+	manpower=10616
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

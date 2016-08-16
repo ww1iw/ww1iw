@@ -1,21 +1,26 @@
-
 state={
-	id=759
-	name="STATE_759"
+	id=816
+	name="STATE_816"
 	
+	resources={
+		chromium=10.000
+		steel=10.000
+	}
+
 	history={
 		owner = GRE
 		buildings = {
 			infrastructure = 4
+			air_base = 3
+
 		}
 		add_core_of = GRE
 
 	}
-
 	provinces={
-		1106 10203 
+		1205 11786 11895 12001 
 	}
-	manpower=117201
+	manpower=273469
 	buildings_max_level_factor=1.000
 	state_category=town
 }

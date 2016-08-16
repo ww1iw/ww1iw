@@ -1,10 +1,7 @@
 
 state={
 	id=768
-	name="STATE_768" # Tournai/Doornik
-	manpower = 365000
-	
-	state_category = rural
+	name="STATE_768"
 
 	history={
 		owner = BEL
@@ -13,13 +10,17 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 3
+
 		}
-		
 		add_core_of = BEL
 		add_core_of = WAL
+
 	}
 
 	provinces={
-		9536
+		9536 13081 
 	}
+	manpower=547056
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

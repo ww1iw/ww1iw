@@ -1,9 +1,7 @@
+
 state={
 	id=771
 	name="STATE_771"
-	manpower = 315200
-	
-	state_category = town
 
 	history={
 		owner = TUR
@@ -11,23 +9,29 @@ state={
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
 		add_core_of = TUR
 		add_core_of = GRE
 		add_core_of = BUL
-		
 		1913.5.30 = {
 			owner = GRE
 			remove_core_of = TUR
 			add_claim_by = TUR
+
 		}
-		1923.1.1 = { 
+		1923.1.1 = {
 			remove_core_of = BUL
 			add_claim_by = BUL
+
 		}
+
 	}
-	
+
 	provinces={
-		3526 6990 9791 
+		3526 6990 9791 9930 
 	}
+	manpower=315200
+	buildings_max_level_factor=1.000
+	state_category=town
 }

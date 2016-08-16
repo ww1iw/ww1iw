@@ -1,5 +1,5 @@
 ﻿oob = "SER_1911"
-capital = 107
+capital = 818
 
 add_ideas ={
 limited_conscription
@@ -7,7 +7,7 @@ limited_conscription
 
 1914.6.1 = {
 oob = "SER_1914"
-capital = 107
+capital = 818
 }
 
 # oob = "YUG_1936"
