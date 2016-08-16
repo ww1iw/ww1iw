@@ -108,21 +108,21 @@ create_field_marshal = {
 	name = "Jānis Balodis"
 	picture = "Portrait_Latvia_Jānis_Balodis.dds"
 	traits = { offensive_doctrine old_guard }
-	skill = 5
+	skill = 3
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Jukums Vācietis"
 	picture = "Portrait_Latvia_Jukums_Vācietis.dds"
 	traits = { old_guard }
-	skill = 4
+	skill = 3
 }
 
 create_corps_commander = {
 	name = "Oskars Dankers"
 	picture = "Portrait_Latvia_Oskars_Dankers.dds"
 	traits = { commando old_guard }
-	skill = 4
+	skill = 2
 }
 
                 #
