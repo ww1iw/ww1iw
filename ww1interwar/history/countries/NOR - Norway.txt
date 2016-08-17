@@ -48,8 +48,56 @@ create_country_leader = {
 	name = "Gunnar Knudsen"
 	desc = "POLITICS_GUNNAR_KNUDSEN_DESC"
 	picture = "Portrait_Norway_Gunnar_Knudsen.dds"
-	expire = "1946.2.3"
+	expire = "1922.2.3"
 	ideology = liberalism
+}
+
+create_country_leader = {
+	name = "Otto Bahr Halvorsen"
+	desc = "POLITICS_OTTO_BAHR_HALVORSEN_DESC"
+	picture = "Portrait_Norway_Otto_Bahr_Halvorsen.dds"
+	expire = "1946.2.3"
+	ideology = conservative
+}
+
+create_country_leader = {
+	name = "Kristoffer Hogset"
+	desc = "POLITICS_KRISTOFFER_HOGSET_DESC"
+	picture = "Portrait_Norway_Kristoffer_Hogset.dds"
+	expire = "1946.2.3"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Johan Bernhard Hjort"
+	desc = "POLITICS_JOHAN_BERNHARD_HJORT_DESC"
+	picture = "Portrait_Norway_Johan_Bernhard_Hjort.dds"
+	expire = "1946.2.3"
+	ideology = fascism_ideology
+}
+
+create_country_leader = {
+	name = "Vidkun Quisling"
+	desc = "POLITICS_VIDKUN_QUISLING_DESC"
+	picture = "Portrait_Norway_Vidkun_Quisling.dds"
+	expire = "1946.2.3"
+	ideology = nazism
+}
+
+create_country_leader = {
+	name = "Olav Scheflo"
+	desc = "POLITICS_OLAV_SCHEFLO_DESC"
+	picture = "Portrait_Norway_Olav_Scheflo.dds"
+	expire = "1946.2.3"
+	ideology = leninism
+}
+
+create_country_leader = {
+	name = "Martin Tranmael"
+	desc = "POLITICS_MARTIN_TRANMAEL_DESC"
+	picture = "Portrait_Norway_Martin_Tranmael.dds"
+	expire = "1946.2.3"
+	ideology = social_democracy
 }
 
 1923.1.1 = {

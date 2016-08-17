@@ -47,6 +47,62 @@ create_country_leader = {
 	expire = "1936.9.2"
 	ideology = liberalism
 	}
+
+create_country_leader = {
+	name = "Vilho Annala"
+	desc = "POLITICS_VILHO_ANNALA_DESC"
+	picture = "Portrait_finland_Vilho_Annala.dds"
+	expire = "1950.9.2"
+	ideology = nazism
+	}
+
+create_country_leader = {
+	name = "Herman Gummerus"
+	desc = "POLITICS_HERMAN_GUMMERUS_DESC"
+	picture = "Portrait_finland_Herman_Gummerus.dds"
+	expire = "1950.9.2"
+	ideology = oligarchism
+	}
+
+create_country_leader = {
+	name = "Vihtori Kosola"
+	desc = "POLITICS_VIHTORI_KOSOLA_DESC"
+	picture = "Portrait_finland_Vihtori_Kosola.dds"
+	expire = "1950.9.2"
+	ideology = fascism_ideology
+	}
+
+create_country_leader = {
+	name = "Vaino Tanner"
+	desc = "POLITICS_VAINO_TANNER_DESC"
+	picture = "Portrait_finland_Vaino_Tanner.dds"
+	expire = "1950.9.2"
+	ideology = social_democracy
+	}
+
+create_country_leader = {
+	name = "Kyosti Kallio"
+	desc = "POLITICS_KYOSTI_KALLIO_DESC"
+	picture = "Portrait_finland_Kyosti_Kallio.dds"
+	expire = "1950.9.2"
+	ideology = centrism
+	}
+
+create_country_leader = {
+	name = "Kullervo Manner"
+	desc = "POLITICS_KULLERVO_MANNER_DESC"
+	picture = "Portrait_finland_Kullervo_Manner.dds"
+	expire = "1950.9.2"
+	ideology = leninism
+	}
+
+create_country_leader = {
+	name = "Pehr Evind Svinhufvud"
+	desc = "POLITICS_PEHR_EVIND_SVINHUFVUD_DESC"
+	picture = "Portrait_finland_Pehr_Evind_Svinhufvud.dds"
+	expire = "1950.9.2"
+	ideology = conservative
+	}
 1923.1.1 = {
 
 	set_politics = {

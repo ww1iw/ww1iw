@@ -51,6 +51,38 @@ limited_conscription
 		ideology = conservatism
 }
 
+	create_country_leader = {
+		name = "Bertil Ohlin"
+		desc = "POLITICS_BERTIL_OHLIN_DESC"
+		picture = "Portrait_Sweden_Bertil_Ohlin.dds"
+		expire = "1946.2.3"
+		ideology = liberalism
+}
+
+	create_country_leader = {
+		name = "Birger Furugard"
+		desc = "POLITICS_BIRGER_FURUGARD_DESC"
+		picture = "Portrait_Sweden_Birger_Furugard.dds"
+		expire = "1946.2.3"
+		ideology = fascism_ideology
+}
+
+	create_country_leader = {
+		name = "Sven Lindholm"
+		desc = "POLITICS_SVEN_LINDHOLM_DESC"
+		picture = "Portrait_Sweden_Sven_Lindholm.dds"
+		expire = "1946.2.3"
+		ideology = nazism
+}
+
+	create_country_leader = {
+		name = "Zeth Hoglund"
+		desc = "POLITICS_ZETH_HOGLUND_DESC"
+		picture = "Portrait_Sweden_Zeth_Hoglund.dds"
+		expire = "1946.2.3"
+		ideology = marxism
+}
+
 1923.1.1 = {
 
 	set_politics = {
