@@ -83,6 +83,36 @@ limited_conscription
 		ideology = marxism
 }
 
+#Generals
+
+create_field_marshal = {
+	name = "Olof Thornell"
+	picture = "Portrait_Sweden_Olof_Thornell.dds"
+	traits = { old_guard inspirational_leader }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Carl Petersen"
+	picture = "Portrait_Sweden_Carl_Petersen.dds"
+	traits = { commando }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Per Sylvan"
+	picture = "Portrait_Sweden_Per_Sylvan.dds"
+	traits = { trait_engineer }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Torsten Friis"
+	picture = "Portrait_Sweden_Torsten_Friis.dds"
+	traits = {  }
+	skill = 2
+}
+
 1923.1.1 = {
 
 	set_politics = {
