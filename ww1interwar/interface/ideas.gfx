@@ -2229,6 +2229,102 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_nevskoye_design_bureau.dds"
 	}
 	
+	### NETHERLANDS idea
+	spriteType = {
+		name = "GFX_idea_fokker"
+		texturefile = "gfx/interface/ideas/idea_fokker.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_koolhoven"
+		texturefile = "gfx/interface/ideas/idea_koolhoven.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pander"
+		texturefile = "gfx/interface/ideas/idea_pander.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_aviolanda"
+		texturefile = "gfx/interface/ideas/idea_aviolanda.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_spijker"
+		texturefile = "gfx/interface/ideas/idea_spijker.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_nvi"
+		texturefile = "gfx/interface/ideas/idea_HOL_nvi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nsm_amsterdam"
+		texturefile = "gfx/interface/ideas/idea_HOL_nsm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wilton_fijenoord"
+		texturefile = "gfx/interface/ideas/idea_wilton_fijenoord.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_kms"
+		texturefile = "gfx/interface/ideas/idea_HOL_kms.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_rdm"
+		texturefile = "gfx/interface/ideas/idea_HOL_rdm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_adm"
+		texturefile = "gfx/interface/ideas/idea_HOL_adm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_DAF_trucks"
+		texturefile = "gfx/interface/ideas/idea_HOL_daf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_artillerie_inrichtingen"
+		texturefile = "gfx/interface/ideas/idea_HOL_ai.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_royal_dutch_shell"
+		texturefile = "gfx/interface/ideas/idea_HOL_shell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_philips"
+		texturefile = "gfx/interface/ideas/idea_philips.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hazemeyer"
+		texturefile = "gfx/interface/ideas/idea_HOL_hazemeyer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_DAF_apv"
+		texturefile = "gfx/interface/ideas/idea_HOL_daf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wilton_fijenoord_tank"
+		texturefile = "gfx/interface/ideas/idea_wilton_fijenoord.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_braat"
+		texturefile = "gfx/interface/ideas/idea_braat.dds"
+	}
+	
 	### ESTONIA idea
 	spriteType = {
 		name = "GFX_idea_aviotehas"
