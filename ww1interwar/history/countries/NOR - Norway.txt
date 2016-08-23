@@ -57,7 +57,7 @@ create_country_leader = {
 	desc = "POLITICS_OTTO_BAHR_HALVORSEN_DESC"
 	picture = "Portrait_Norway_Otto_Bahr_Halvorsen.dds"
 	expire = "1946.2.3"
-	ideology = conservative
+	ideology = social_conservative
 }
 
 create_country_leader = {
@@ -98,6 +98,43 @@ create_country_leader = {
 	picture = "Portrait_Norway_Martin_Tranmael.dds"
 	expire = "1946.2.3"
 	ideology = social_democracy
+}
+
+#Generals
+
+create_field_marshal = {
+	name = "Arne Dagfin Dahl"
+	picture = "Portrait_Norway_Arne_Dagfin_Dahl.dds"
+	traits = { logistics_wizard }
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Hans Reidar Holtermann"
+	picture = "Portrait_Norway_Hans_Reidar_Holtermann.dds"
+	traits = { defensive_doctrine bearer_of_artillery }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Ole Berg"
+	picture = "Portrait_Norway_Ole_Berg.dds"
+	traits = { old_guard }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Nils Jakob Hunstad"
+	picture = "Portrait_Norway_Nils_Jakob_Hunstad.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Oluf Christian Dietrichson"
+		picture = "Portrait_Norway_Oluf_Christian_Dietrichson.dds"
+	traits = { old_guard_navy blockade_runner }
+	skill = 3
 }
 
 1923.1.1 = {
