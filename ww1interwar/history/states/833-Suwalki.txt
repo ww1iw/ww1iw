@@ -1,0 +1,25 @@
+state={
+	id=833
+	name="STATE_833"
+	
+	history={
+		owner = SOV
+		1923.1.1 = {
+			owner = POL
+
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = POL
+
+	}
+	
+	provinces={
+		400 3254 
+	}
+	manpower=159890
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,21 @@
+state={
+	id=827
+	name="STATE_827"
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+
+	}
+	
+	provinces={
+		13228 13231 
+	}
+	manpower=9434
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

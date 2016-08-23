@@ -4,6 +4,10 @@ supply_area={
 	name="SUPPLYAREA_276"
 	value=9
 	states={
+<<<<<<< HEAD
+		671 819 823 
+=======
 		671 819 731 771 
+>>>>>>> eca4788f9acc025626a0371238f91b46fbcadc47
 	}
 }

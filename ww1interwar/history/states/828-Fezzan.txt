@@ -1,0 +1,29 @@
+state={
+	id=828
+	name="STATE_828"
+	
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_claim_by = ITA
+		add_core_of = TUR
+		add_core_of = LBA
+		1912.10.18 = {
+			owner = ITA
+			remove_core_of = TUR
+			add_claim_by = TUR
+
+		}
+
+	}
+	
+	provinces={
+		4962 5004 7985 10884 12022 12082 12866 13230 
+	}
+	manpower=150944
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

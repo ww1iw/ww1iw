@@ -11,7 +11,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			air_base = 3
 
 		}
 		add_core_of = POL
@@ -19,9 +18,9 @@ state={
 	}
 
 	provinces={
-		318 3281 3309 3366 3393 6359 6413 9274 9304 9359 11341 
+		3256 3309 6306 6359 9304 9359 11341 13237 13238 
 	}
-	manpower=1157200
+	manpower=405020
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

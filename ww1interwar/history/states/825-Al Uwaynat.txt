@@ -1,0 +1,23 @@
+state={
+	id=825
+	name="STATE_825"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+		1912.10.18 = {
+
+		}
+	}
+	
+	provinces={
+		13225 13227 
+	}
+	manpower=1056
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

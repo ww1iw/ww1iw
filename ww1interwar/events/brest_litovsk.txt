@@ -84,7 +84,11 @@ country_event = {
 			transfer_state = 95
 			transfer_state = 94
 			transfer_state = 93
-			transfer_state = 786
+			transfer_state = 829
+			transfer_state = 837
+			transfer_state = 833
+			transfer_state = 834
+			transfer_state = 830
 		}
 		GER = {
 			country_event = { id = brest_litovsk.2 days = 7 }
@@ -349,38 +353,42 @@ country_event = {
 			}
 		}
 		set_global_flag = brest_litovsk_treaty
+		SOV = {
+			transfer_state = 94
+			transfer_state = 95
+			transfer_state = 834
+			transfer_state = 96
+		}
 		GER = {
 			release = POL
 			transfer_state = 87
 			transfer_state = 98
 			transfer_state = 10
+			transfer_state = 90
+			transfer_state = 97
 			transfer_state = 92
-			transfer_state = 11
-			transfer_state = 189
+			transfer_state = 837
 			transfer_state = 190
 			transfer_state = 12
 			transfer_state = 13
 			transfer_state = 191
-			transfer_state = 85
-			transfer_state = 86
-			transfer_state = 756
-			transfer_state = 748
+			transfer_state = 189
+			transfer_state = 11
+			transfer_state = 833
+			transfer_state = 96
 		}
 		AUS = {
-			transfer_state = 90
-			transfer_state = 786
+			transfer_state = 829
 		}
 		TUR = {
 			transfer_state = 743
 		}
-		SOV = {
-			release = UKR
-			release_puppet = UKR
-		}
 		POL = {
-			transfer_state = 784
-			transfer_state = 96
-			set_capital = 97
+			transfer_state = 10
+			transfer_state = 90
+			transfer_state = 92
+			transfer_state = 837
+			set_capital = 10
 			set_politics = {
 				ruling_party = autocratic
 				elections_allowed = no
@@ -406,12 +414,25 @@ country_event = {
 				expire = "1945.4.26"
 				ideology = monarchism
 			}
-			transfer_state = 192
-			transfer_state = 198
-			transfer_state = 202
-			transfer_state = 201
+			transfer_state = 93
+			transfer_state = 830
 			transfer_state = 199
-			transfer_state = 194
+			transfer_state = 201
+			transfer_state = 198
+			transfer_state = 192
+			transfer_state = 202
+			transfer_state = 203
+			transfer_state = 197
+			transfer_state = 193
+			transfer_state = 831
+			transfer_state = 225
+			transfer_state = 259
+			transfer_state = 226
+			transfer_state = 196
+			transfer_state = 200
+			transfer_state = 227
+			transfer_state = 832
+			transfer_state = 221
 		}
 		GER = {
 			puppet = POL
@@ -466,31 +487,11 @@ country_event = {
 			}
 		}
 		set_global_flag = brest_litovsk_treaty
-		GER = {
-			release = POL
-			transfer_state = 756
-			transfer_state = 86
-			transfer_state = 85
-			release = LIT
-			transfer_state = 188
-		}
 		SOV = {
-			release = BAL
-			release_puppet = BAL
-			release = UKR
-			release_puppet = UKR
-		}
-		12 = {
-			add_core_of = BAL
-		}
-		191 = {
-			add_core_of = BAL
-		}
-		190 = {
-			add_core_of = BAL
-		}
-		13 = {
-			add_core_of = BAL
+			transfer_state = 94
+			transfer_state = 95
+			transfer_state = 834
+			transfer_state = 96
 		}
 		BAL = {
 			set_capital = 12
@@ -512,9 +513,11 @@ country_event = {
 		}
 		LIT = {
 			set_capital = 96
+			transfer_state = 11
+			transfer_state = 189
 			transfer_state = 96
-			transfer_state = 784
-			transfer_state = 95
+			transfer_state = 833
+			transfer_state = 834
 			set_politics = {
 				ruling_party = autocratic
 				elections_allowed = no
@@ -540,17 +543,36 @@ country_event = {
 				expire = "1945.4.26"
 				ideology = monarchism
 			}
-			transfer_state = 192
-			transfer_state = 198
-			transfer_state = 202
-			transfer_state = 201
-			transfer_state = 199
-			transfer_state = 194
-			transfer_state = 94
 			transfer_state = 93
+			transfer_state = 830
+			transfer_state = 199
+			transfer_state = 201
+			transfer_state = 198
+			transfer_state = 192
+			transfer_state = 202
+			transfer_state = 203
+			transfer_state = 197
+			transfer_state = 193
+			transfer_state = 831
+			transfer_state = 225
+			transfer_state = 259
+			transfer_state = 226
+			transfer_state = 196
+			transfer_state = 200
+			transfer_state = 227
+			transfer_state = 832
+			transfer_state = 837
+			transfer_state = 829
+			transfer_state = 221
 		}
 		POL = {
 			set_capital = 10
+			transfer_state = 10
+			transfer_state = 97
+			transfer_state = 98
+			transfer_state = 87
+			transfer_state = 90
+			transfer_state = 92
 			set_politics = {
 				ruling_party = autocratic
 				elections_allowed = no
@@ -566,6 +588,8 @@ country_event = {
 		GER = {
 			puppet = BAL
 			puppet = UKR
+			puppet = LIT
+			puppet = POL
 			add_to_faction = BAL
 			add_to_faction = LIT
 			add_to_faction = POL
@@ -587,8 +611,6 @@ country_event = {
 		name = brest_litovsk.5.a # Crush them!
 		ai_chance = { factor = 100 }
 		SOV = {
-			release = UKR
-			release_puppet = UKR
 			declare_war_on = {
 				target = UKR
 				type = annex_everything
@@ -623,13 +645,27 @@ country_event = {
 				portrait_path = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Hrekov.dds"
 				skill = 4
 			}
-
-			transfer_state = 192
-			transfer_state = 198
-			transfer_state = 202
-			transfer_state = 201
+			transfer_state = 93
+			transfer_state = 830
 			transfer_state = 199
-			transfer_state = 194
+			transfer_state = 201
+			transfer_state = 198
+			transfer_state = 192
+			transfer_state = 202
+			transfer_state = 203
+			transfer_state = 197
+			transfer_state = 193
+			transfer_state = 831
+			transfer_state = 225
+			transfer_state = 259
+			transfer_state = 226
+			transfer_state = 196
+			transfer_state = 200
+			transfer_state = 227
+			transfer_state = 832
+			transfer_state = 837
+			transfer_state = 829
+			transfer_state = 221
 		}
 	}
 	
@@ -637,8 +673,6 @@ country_event = {
 		name = brest_litovsk.5.b # For Ukraine!
 		ai_chance = { factor = 0 }
 		SOV = {
-			release = UKR
-			release_puppet = UKR
 			declare_war_on = {
 				target = UKR
 				type = annex_everything
@@ -659,12 +693,27 @@ country_event = {
 				expire = "1934.11.24"
 				ideology = socialism
 			}
-			transfer_state = 192
-			transfer_state = 198
-			transfer_state = 202
-			transfer_state = 201
+			transfer_state = 93
+			transfer_state = 830
 			transfer_state = 199
-			transfer_state = 194
+			transfer_state = 201
+			transfer_state = 198
+			transfer_state = 192
+			transfer_state = 202
+			transfer_state = 203
+			transfer_state = 197
+			transfer_state = 193
+			transfer_state = 831
+			transfer_state = 225
+			transfer_state = 259
+			transfer_state = 226
+			transfer_state = 196
+			transfer_state = 200
+			transfer_state = 227
+			transfer_state = 832
+			transfer_state = 837
+			transfer_state = 829
+			transfer_state = 221
 		}
 	}
 }
@@ -850,38 +899,14 @@ country_event = {
 				}
 				white_peace = SOV
 		}
-		GER = {
-			release = POL
-			transfer_state = 756
-			transfer_state = 86
-			transfer_state = 85
-			release = LIT
-			transfer_state = 188
-		}
-		12 = {
-			add_core_of = BAL
-		}
-		191 = {
-			add_core_of = BAL
-		}
-		190 = {
-			add_core_of = BAL
-		}
-		13 = {
-			add_core_of = BAL
-		}
-		SOV = {
-			release = BAL
-			release_puppet = BAL
-			release = FIN
-			release_puppet = FIN
-		}
-		UKR = {
-			transfer_state = 93
-			transfer_state = 94
-		}
 		POL = {
 			set_capital = 10
+			transfer_state = 10
+			transfer_state = 87
+			transfer_state = 98
+			transfer_state = 90
+			transfer_state = 92
+			transfer_state = 97
 			set_politics = {
 				ruling_party = autocratic
 				elections_allowed = no
@@ -897,8 +922,10 @@ country_event = {
 		LIT = {
 			set_capital = 96
 			transfer_state = 96
-			transfer_state = 784
-			transfer_state = 95
+			transfer_state = 11
+			transfer_state = 189
+			transfer_state = 833
+			transfer_state = 834
 			set_politics = {
 				ruling_party = autocratic
 				elections_allowed = no
@@ -931,11 +958,19 @@ country_event = {
 		}
 		FIN = {
 			set_capital = 111
-			set_politics = {
-				ruling_party = autocratic
-				elections_allowed = no
-			}
-			create_country_leader = {
+			transfer_state = 111
+			transfer_state = 149
+			transfer_state = 145
+			transfer_state = 150
+			transfer_state = 146
+			transfer_state = 148
+			transfer_state = 147
+			transfer_state = 148
+				set_politics = {				
+				ruling_party = autocratic				
+				elections_allowed = no			
+			}			
+			create_country_leader = {				
 				name = "Pehr Evind Svinhufvud"
 				desc = "POLITICS_PEHR_EVIND_SVINHUFVUD_DESC"
 				picture = "gfx/leaders/FIN/Portrait_FIN_Svinhufvud.dds"
@@ -943,7 +978,7 @@ country_event = {
 				ideology = monarchism
 			}
 		}
-		GER = {
+	GER = {
 			puppet = FIN
 			puppet = BAL
 			puppet = LIT
@@ -951,6 +986,12 @@ country_event = {
 		}
 		TUR = {
 			transfer_state = 743
+		}
+		SOV = {
+			white_peace = FIN
+			white_peace = BAL+
+			white_peace = LIT
+			white_peace = POL
 		}
 	}
 }
@@ -1242,7 +1283,6 @@ country_event = {
 			transfer_state = 95
 			transfer_state = 94
 			transfer_state = 93
-			transfer_state = 786
 		}
 		GER = {
 			country_event = { id = brest_litovsk.2 days = 7 }
@@ -1510,7 +1550,6 @@ country_event = {
 			transfer_state = 95
 			transfer_state = 94
 			transfer_state = 93
-			transfer_state = 786
 		}
 		GER = {
 			country_event = { id = brest_litovsk.2 days = 7 }
@@ -1694,4 +1733,4 @@ country_event = {
 			}
 		}
 	}
-}
+}}
