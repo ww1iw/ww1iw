@@ -9,13 +9,13 @@ limited_conscription
 
 		parties = {
 			liberal = {
-				popularity = 19
+				popularity = 18.7
 			}
 			democratic = {
-				popularity = 0
+				popularity = 28.6
 			}
 			conservative = {
-				popularity = 22
+				popularity = 22.4
 			}
 			natsoc = {
 				popularity = 0
@@ -24,7 +24,7 @@ limited_conscription
 				popularity = 0
 			}
 			socialist = { 
-				popularity = 30
+				popularity = 29.6
 			}
 			communism = {
 				popularity = 0
@@ -33,7 +33,7 @@ limited_conscription
 				popularity = 0
 			}
 			neutrality = {
-				popularity = 29
+				popularity = .7
 			}
 		}
 		ruling_party = liberal
