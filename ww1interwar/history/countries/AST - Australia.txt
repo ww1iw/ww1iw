@@ -56,6 +56,16 @@ set_politics = {
 	expire = "1950.1.1"
 	ideology = socialism
 }
+
+#Generals
+
+create_field_marshal = {
+	name = "John Monash"
+	picture = "Portrait_AST_John_Monash.dds"
+	traits = {  offensive_doctrine }
+	skill = 3
+}
+
 1939.1.1 = {
 
 	add_political_power = 1198

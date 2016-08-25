@@ -134,7 +134,73 @@ create_country_leader = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Aristide Briand"
+	desc = "POLITICS_ARISTIDE_BRIAND_DESC"
+	picture = "Portrait_France_Aristide_Briand.dds"
+	expire = "1950.10.15"
+	ideology = liberalism
+	traits = {
+		
+	}
 }
+
+create_country_leader = {
+	name = "Marcel Cachin"
+	desc = "POLITICS_MARCEL_CACHIN_DESC"
+	picture = "Portrait_France_Marcel_Cachin.dds"
+	expire = "1950.10.15"
+	ideology = left_revolutionary
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Edouard Daladier"
+	desc = "POLITICS_EDOUARD_DALADIER_DESC"
+	picture = "Portrait_France_Edouard_Daladier.dds"
+	expire = "1950.10.15"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alain Savary"
+	desc = "POLITICS_ALAIN_SAVARY_DESC"
+	picture = "Portrait_France_Alain_Savary.dds"
+	expire = "1950.10.15"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Philippe Petain"
+	desc = "POLITICS_PHILIPPE_PETAIN_DESC"
+	picture = "Portrait_France_Philippe_Petain.dds"
+	expire = "1950.10.15"
+	ideology = nazism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jacques Doriot"
+	desc = "POLITICS_JACQUES_DORIOT_DESC"
+	picture = "Portrait_France_Jacques_Doriot.dds"
+	expire = "1950.10.15"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
 
 1923.1.1 = {
 set_research_slots = 3

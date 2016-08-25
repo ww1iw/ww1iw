@@ -34,6 +34,17 @@ set_politics = {
 	}
 }
 
+create_country_leader = {
+	name = "Georgy Pyatakov"
+	desc = "GEORGY_PYATAKOV_DESC"
+	picture = "Portrait_UKR_Georgy_Pyatakov.dds"
+	expire = "1953.4.9"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
 1936.1.1 = {
 # oob = "ICE_1936"
 

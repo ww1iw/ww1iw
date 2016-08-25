@@ -1,0 +1,43 @@
+################
+#Latvian Events#
+################
+
+add_namespace = latvia
+
+# Latvian coup
+news_event = {
+	id = latvia.1
+	title = latvia.1.t
+	desc = latvia.1.d
+	picture = GFX_news_event_019
+
+	trigger = {
+		tag = LAT
+		date > 1934.6.1
+		OR = {
+			has_government = democratic
+			has_government = liberal
+			has_government = conservative
+                        has_government = socialist
+		}
+	}
+
+	mean_time_to_happen = {
+		hours = 13
+	}
+	
+	option = {
+		name = latvia.1.a
+			create_country_leader = {
+			name = "Karlis Ulmanis" 
+			desc = "KARLIS_ULMANIS_DESC"
+			picture = "Portrait_Latvia_Karlis_Ulmanis.dds"
+			expire = "1955.3.24"
+			ideology = conservatism
+			}
+        }
+
+set_politics = {
+			ruling_party = conservatism
+                        elections_allowed = no
+}

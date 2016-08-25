@@ -1,6 +1,46 @@
 ﻿oob = "basic_test"
 capital = 113
 
+1923.1.1 = {
+
+	set_politics = {
+
+		parties = {
+			liberal = {
+				popularity = 15
+			}
+			democratic = {
+				popularity = 32
+			}
+			conservative = {
+				popularity = 10
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 0
+			}
+			socialist = { 
+				popularity = 10
+			}
+			communism = {
+				popularity = 3
+			}
+			autocratic = {
+				popularity = 6
+			}
+			neutrality = {
+				popularity = 24
+			}
+		}
+		ruling_party = democratic
+		last_election = "1920.4.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}
+
 # oob = "IRE_1936"
 
 set_research_slots = 3
