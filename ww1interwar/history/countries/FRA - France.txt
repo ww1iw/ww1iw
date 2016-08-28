@@ -249,7 +249,7 @@ create_country_leader = {
 		elections_allowed = yes
 	}
 
-	reate_country_leader = {
+	create_country_leader = {
 		name = "Alexandre Millerand"
 		desc = "POLITICS_ALEXANDRE_MILLERAND_DESC"
 		picture = "Portrait_France_Alexandre_Millerand.dds"
