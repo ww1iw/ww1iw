@@ -4,6 +4,10 @@ REB = {
 	color = rgb { 66 66 66 }
 	color_ui = rgb { 66 66 66 }
 }
+CRE = {
+	color = rgb { 50  182  255 }
+	color_ui = rgb { 50  182  255 }
+}
 WAL = {
 	color = rgb { 205 222 135 }
 	color_ui = rgb { 205 222 135 }

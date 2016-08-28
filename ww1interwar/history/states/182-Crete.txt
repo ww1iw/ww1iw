@@ -1,0 +1,37 @@
+state = {
+	id=182
+	name="STATE_182"
+	manpower = 387900
+	
+	state_category = rural
+	history = {
+		owner = CRE
+		victory_points = {
+			9940 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			4170 = {
+				naval_base = 1
+			}
+			9940 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = CRE
+		add_core_of = GRE
+		add_claim_by = TUR
+		
+		1912.10.8 = {
+			owner = GRE
+		}
+		1913.5.30 = { #Ottoman relinquish claim in Treaty of London
+			remove_claim_by = TUR
+		}
+	}
+	provinces = {
+		1164 4170 9940 12058 	
+	}
+}

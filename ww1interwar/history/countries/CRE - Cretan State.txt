@@ -1,0 +1,81 @@
+﻿oob = "basic_test"
+capital = 182
+set_convoys = 10
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+}
+
+set_politics = {
+
+	parties = {
+		socialist = { 
+			popularity = 0
+		}
+		conservative = {
+			popularity = 46.60
+		}
+		democratic = {
+			popularity = 0
+		}
+		autocratic = {
+			popularity = 53.40
+		}
+		liberal = {
+			popularity = 0
+		}
+		neutrality = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = conservative
+	last_election = "1906.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alexandros Zaimis"
+	desc = ""
+	picture = "gfx/leaders/GRE/Portrait_GRE_Alexandros_Zaimis.dds"
+	expire = "1936.9.15"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince George"
+	desc = ""
+	picture = "gfx/leaders/GRE/Portrait_GRE_Prince_George.dds"
+	expire = "1957.11.25"
+	ideology = monarchism
+	traits = {
+		#
+	}
+}
+
+
+
+
+
+
+
+
+
