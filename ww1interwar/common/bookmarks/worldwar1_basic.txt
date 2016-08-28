@@ -50,8 +50,8 @@ bookmarks = {
 			history = SOV_WW1_DESC
 			ideology = autocratic
 			ideas = {
-			rasputin
-			communist_revolutionaries
+				rasputin
+				communist_revolutionaries
 			}
 			
 		}

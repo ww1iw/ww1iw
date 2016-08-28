@@ -107,21 +107,21 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Silvestras Žukauskas"
-	picture = "Portrait_lithuania_Silvestras_Žukauskas.dds"
+	picture = "Portrait_lithuania_Silvestras_Zukauskas.dds"
 	traits = { trickster old_guard }
 	skill = 3
 }
 
 create_corps_commander = {
 	name = "Stasys Raštikis"
-	picture = "Portrait_lithuania_Stasys_Raštikis.dds"
+	picture = "Portrait_lithuania_Stasys_Rastikis.dds"
 	traits = {  }
 	skill = 1
 }
 
 create_corps_commander = {
 	name = "Jonas Černius"
-	picture = "Portrait_lithuania_Jonas_Černius.dds"
+	picture = "Portrait_lithuania_Jonas_Cernius.dds"
 	traits = {  }
 	skill = 1
 }

@@ -106,14 +106,14 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Jānis Balodis"
-	picture = "Portrait_Latvia_Jānis_Balodis.dds"
+	picture = "Portrait_Latvia_Janis_Balodis.dds"
 	traits = { offensive_doctrine old_guard }
 	skill = 3
 }
 
 create_corps_commander = {
 	name = "Jukums Vācietis"
-	picture = "Portrait_Latvia_Jukums_Vācietis.dds"
+	picture = "Portrait_Latvia_Jukums_Vacietis.dds"
 	traits = { old_guard }
 	skill = 3
 }

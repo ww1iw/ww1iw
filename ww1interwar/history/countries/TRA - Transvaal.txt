@@ -1,4 +1,4 @@
-oob = "basic_test"
+﻿oob = "basic_test"
 capital = 275
 
 add_ideas = {

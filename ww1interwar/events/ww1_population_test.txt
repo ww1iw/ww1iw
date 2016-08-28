@@ -1,4 +1,4 @@
-add_namespace = state_population_events
+﻿add_namespace = state_population_events
 
 state_event = {
 	id = state_population_events.1

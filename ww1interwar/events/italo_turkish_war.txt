@@ -1,4 +1,4 @@
-add_namespace = italo_turkish_war
+﻿add_namespace = italo_turkish_war
 
 #Send Ultimatum to the Ottoman Empire
 country_event = {

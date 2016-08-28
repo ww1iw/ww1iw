@@ -2,8 +2,8 @@
 capital = 16
 
 add_ideas = {
-liberty_ideal
-limited_conscription
+	liberty_ideal
+	limited_conscription
 }
 
 create_faction = Entente
@@ -67,199 +67,198 @@ create_country_leader = {
 }
 
 1914.6.1 = {
-oob = "FRA_1914"
-capital = 16
+	oob = "FRA_1914"
+	capital = 16
+	
+	add_ideas = {
+		liberty_ideal
+		extensive_conscription
+	}
+	
+	create_faction = Entente
+	add_to_faction = FRA
+	add_to_faction = SOV
+	#add_to_faction = SER
+	# Don't add Serbia to the Entente as it would mean Russia could aid Serbia in the Balkan Wars against the Ottomans, Russia did threaten to intervene during the 
+	# Second Balkan War but only because the Ottomans were ethnically cleansing Thrace of Bulgarians --The gaurantee is enough
+	
+	set_convoys = 150
+	set_research_slots = 2
+	set_national_unity = 0.55
+	
+	set_politics = {
+	
+		parties = {
+			liberal = {
+				popularity = 34.75
+			}
+			democratic = {
+				popularity = 28.55
+			}
+			conservative = {
+				popularity = 4.72
+			}
+			socialist = { 
+				popularity = 20.64
+			}
+			natsoc = {
+				popularity = 0
+			}
+			neutrality = {
+				popularity = 2.62
+			}
+			communism = {
+				popularity = 0
+			}
+			autocratic = {
+				popularity = 11.34
+			}
+			fascism = {
+				popularity = 0
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1913.2.18"
+		election_frequency = 48
+		elections_allowed = yes
+	}
 
-add_ideas = {
-liberty_ideal
-extensive_conscription
-}
-
-create_faction = Entente
-add_to_faction = FRA
-add_to_faction = SOV
-#add_to_faction = SER
-# Don't add Serbia to the Entente as it would mean Russia could aid Serbia in the Balkan Wars against the Ottomans, Russia did threaten to intervene during the 
-# Second Balkan War but only because the Ottomans were ethnically cleansing Thrace of Bulgarians --The gaurantee is enough
-
-set_convoys = 150
-set_research_slots = 2
-set_national_unity = 0.55
-
-set_politics = {
-
-	parties = {
-		liberal = {
-			popularity = 34.75
-		}
-		democratic = {
-			popularity = 28.55
-		}
-		conservative = {
-			popularity = 4.72
-		}
-		socialist = { 
-			popularity = 20.64
-		}
-		natsoc = {
-			popularity = 0
-		}
-		neutrality = {
-			popularity = 2.62
-		}
-		communism = {
-			popularity = 0
-		}
-		autocratic = {
-			popularity = 11.34
-		}
-		fascism = {
-			popularity = 0
+	create_country_leader = {
+		name = "Raymond Poincaré"
+		desc = "POLITICS_RAYMOND_POINCARE_DESC"
+		picture = "Portrait_France_Raymond_Poincare.dds"
+		expire = "1934.10.15"
+		ideology = centrism
+		traits = {
+			
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1913.2.18"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Raymond Poincaré"
-	desc = "POLITICS_RAYMOND_POINCARE_DESC"
-	picture = "Portrait_France_Raymond_Poincare.dds"
-	expire = "1934.10.15"
-	ideology = centrism
-	traits = {
-		
+	create_country_leader = {
+		name = "Aristide Briand"
+		desc = "POLITICS_ARISTIDE_BRIAND_DESC"
+		picture = "Portrait_France_Aristide_Briand.dds"
+		expire = "1950.10.15"
+		ideology = liberalism
+		traits = {
+			
+		}
+	}
+	
+	create_country_leader = {
+		name = "Marcel Cachin"
+		desc = "POLITICS_MARCEL_CACHIN_DESC"
+		picture = "Portrait_France_Marcel_Cachin.dds"
+		expire = "1950.10.15"
+		ideology = left_revolutionary
+		traits = {
+			
+		}
+	}
+	
+	create_country_leader = {
+		name = "Edouard Daladier"
+		desc = "POLITICS_EDOUARD_DALADIER_DESC"
+		picture = "Portrait_France_Edouard_Daladier.dds"
+		expire = "1950.10.15"
+		ideology = conservatism
+		traits = {
+			
+		}
+	}
+	
+	create_country_leader = {
+		name = "Alain Savary"
+		desc = "POLITICS_ALAIN_SAVARY_DESC"
+		picture = "Portrait_France_Alain_Savary.dds"
+		expire = "1950.10.15"
+		ideology = social_democracy
+		traits = {
+			
+		}
+	}
+	
+	create_country_leader = {
+		name = "Philippe Petain"
+		desc = "POLITICS_PHILIPPE_PETAIN_DESC"
+		picture = "Portrait_France_Philippe_Petain.dds"
+		expire = "1950.10.15"
+		ideology = nazism
+		traits = {
+			
+		}
+	}
+	
+	create_country_leader = {
+		name = "Jacques Doriot"
+		desc = "POLITICS_JACQUES_DORIOT_DESC"
+		picture = "Portrait_France_Jacques_Doriot.dds"
+		expire = "1950.10.15"
+		ideology = fascism_ideology
+		traits = {
+			
+		}
 	}
 }
-
-create_country_leader = {
-	name = "Aristide Briand"
-	desc = "POLITICS_ARISTIDE_BRIAND_DESC"
-	picture = "Portrait_France_Aristide_Briand.dds"
-	expire = "1950.10.15"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Marcel Cachin"
-	desc = "POLITICS_MARCEL_CACHIN_DESC"
-	picture = "Portrait_France_Marcel_Cachin.dds"
-	expire = "1950.10.15"
-	ideology = left_revolutionary
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Edouard Daladier"
-	desc = "POLITICS_EDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1950.10.15"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Alain Savary"
-	desc = "POLITICS_ALAIN_SAVARY_DESC"
-	picture = "Portrait_France_Alain_Savary.dds"
-	expire = "1950.10.15"
-	ideology = social_democracy
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Philippe Petain"
-	desc = "POLITICS_PHILIPPE_PETAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
-	expire = "1950.10.15"
-	ideology = nazism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Jacques Doriot"
-	desc = "POLITICS_JACQUES_DORIOT_DESC"
-	picture = "Portrait_France_Jacques_Doriot.dds"
-	expire = "1950.10.15"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
 
 1923.1.1 = {
-set_research_slots = 3
-set_national_unity = 0.4
-add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	limited_conscription
-}
-
-set_politics = {
-
-	parties = {
-		liberal = {
-			popularity = 18
-		}
-		democratic = {
-			popularity = 12
-		}
-		conservative = {
-			popularity = 33
-		}
-		natsoc = {
-			popularity = 0
-		}
-		fascism = {
-			popularity = 5
-		}
-		socialist = { 
-			popularity = 20
-		}
-		communism = {
-			popularity = 8
-		}
-		autocratic = {
-			popularity = 0
-		}
-		neutrality = {
-			popularity = 4
-		}
+	set_research_slots = 3
+	set_national_unity = 0.4
+	add_ideas = {
+		FRA_victors_of_wwi
+		FRA_disjointed_government
+		limited_conscription
 	}
 	
-	ruling_party = neutrality
-	last_election = "1920.5.11"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Alexandre Millerand"
-	desc = "POLITICS_ALEXANDRE_MILLERAND_DESC"
-	picture = "Portrait_France_Alexandre_Millerand.dds"
-	expire = "1943.4.7"
-	ideology = oligarchism
-	traits = {
+	set_politics = {
+	
+		parties = {
+			liberal = {
+				popularity = 18
+			}
+			democratic = {
+				popularity = 12
+			}
+			conservative = {
+				popularity = 33
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 5
+			}
+			socialist = { 
+				popularity = 20
+			}
+			communism = {
+				popularity = 8
+			}
+			autocratic = {
+				popularity = 0
+			}
+			neutrality = {
+				popularity = 4
+			}
+		}
 		
+		ruling_party = neutrality
+		last_election = "1920.5.11"
+		election_frequency = 48
+		elections_allowed = yes
 	}
-}
 
+	reate_country_leader = {
+		name = "Alexandre Millerand"
+		desc = "POLITICS_ALEXANDRE_MILLERAND_DESC"
+		picture = "Portrait_France_Alexandre_Millerand.dds"
+		expire = "1943.4.7"
+		ideology = oligarchism
+		traits = {
+			#
+		}
+	}
 }
 
 1936.1.1 = {
@@ -642,4 +641,3 @@ create_equipment_variant = {
 		dispersed_industry3 = 1
 	}
 }
-

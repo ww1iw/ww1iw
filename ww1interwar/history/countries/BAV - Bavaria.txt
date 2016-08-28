@@ -1,4 +1,4 @@
-﻿oob = "GER_1911"
+﻿oob = "basic_test"
 capital = 64
 
 set_research_slots = 2
@@ -87,64 +87,62 @@ create_corps_commander = {
 }
 
 1914.6.1 = {
-oob = "GER_1914"
-capital = 64
-
-set_research_slots = 2
-set_convoys = 100
-set_national_unity = 0.9
-
-add_ideas = {
-	imperial_ideal
-	general_staff
- }
-
-set_politics = {
-
-	parties = {
-		socialist = { 
-			popularity = 16
-		}
-		conservative = {
-			popularity = 35
-		}
-		democratic = {
-			popularity = 0
-		}
-		autocratic = {
-			popularity = 13
-		}
-		liberal = {
-			popularity = 8
-		}
-		neutrality = {
-			popularity = 8
-		}
-		communism = {
-			popularity = 15
-		}
-		natsoc = {
-			popularity = 0
-		}
-		fascism = {
-			popularity = 5
-		}
+	oob = "basic_test"
+	capital = 64
+	
+	set_research_slots = 2
+	set_convoys = 100
+	set_national_unity = 0.9
+	
+	add_ideas = {
+		imperial_ideal
+		general_staff
 	}
 	
-	ruling_party = autocratic
-	last_election = "1912.1.12"
-	election_frequency = 48
-	elections_allowed = no
+	set_politics = {
+	
+		parties = {
+			socialist = { 
+				popularity = 16
+			}
+			conservative = {
+				popularity = 35
+			}
+			democratic = {
+				popularity = 0
+			}
+			autocratic = {
+				popularity = 13
+			}
+			liberal = {
+				popularity = 8
+			}
+			neutrality = {
+				popularity = 8
+			}
+			communism = {
+				popularity = 15
+			}
+			natsoc = {
+				popularity = 0
+			}
+			fascism = {
+				popularity = 5
+			}
+		}
+		
+		ruling_party = autocratic
+		last_election = "1912.1.12"
+		election_frequency = 48
+		elections_allowed = no
+	}
 }
-
-set_research_slots = 3
-
 	
 1923.1.1 = {
 
-remove_ideas = imperial_ideal
-remove_ideas = general_staff
-remove_ideas = limited_conscription
+	remove_ideas = imperial_ideal
+	remove_ideas = general_staff
+	remove_ideas = limited_conscription
 
 	add_ideas = { neutrality_ideal sour_loser fascist_assault_divisions communist_revolutionaries }
 	set_national_unity = 0.35
@@ -187,16 +185,15 @@ remove_ideas = limited_conscription
 	}
 	
 	create_country_leader = {
-	name = "Rupprecht I"
-	desc = "Rupprecht_I_DESC"
-	picture = "Portrait_Germany_Crown_Prince_Rupprecht.dds"
-	expire = "1955.8.2"
-	ideology = monarchism
-	traits = {
+		name = "Rupprecht I"
+		desc = "Rupprecht_I_DESC"
+		picture = "Portrait_Germany_Crown_Prince_Rupprecht.dds"
+		expire = "1955.8.2"
+		ideology = monarchism
+		traits = {
+		}
 	}
 }
-
-	}
 1936.1.1 = {
 
 add_ideas = { general_staff }
@@ -786,10 +783,7 @@ set_politics = {
 	elections_allowed = no
 
 }
-}
-
 ## 1939 Start ##
-1939.1.1 = {
 	# Submarines #
 	create_equipment_variant = {
 		name = "Type VIIA"
