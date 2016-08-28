@@ -2229,6 +2229,132 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_nevskoye_design_bureau.dds"
 	}
 	
+	### CANADA ideas
+	spriteType = {
+		name = "GFX_idea_vickers_armstrong_can"
+		texturefile = "gfx/interface/ideas/vickers_armstrong_eng.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_montreal_locomotive"
+		texturefile = "gfx/interface/ideas/idea_CAN_montreal_locomotive.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_general_motors"
+		texturefile = "gfx/interface/ideas/idea_CAN_general_motors.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_ford"
+		texturefile = "gfx/interface/ideas/idea_ford_motor_company.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_waterloo"
+		texturefile = "gfx/interface/ideas/idea_CAN_waterloo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_chevrolet"
+		texturefile = "gfx/interface/ideas/idea_CAN_chevrolet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kingston_shipbuilding"
+		texturefile = "gfx/interface/ideas/idea_CAN_kingston.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_halifax_shipyard_limited"
+		texturefile = "gfx/interface/ideas/idea_CAN_halifax.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_mil"
+		texturefile = "gfx/interface/ideas/idea_CAN_mil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_davie"
+		texturefile = "gfx/interface/ideas/idea_CAN_davie.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_victoria"
+		texturefile = "gfx/interface/ideas/idea_CAN_victoria.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_vickers_sub"
+		texturefile = "gfx/interface/ideas/idea_CAN_vickers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_canadian_car_foundry"
+		texturefile = "gfx/interface/ideas/idea_CAN_canadian_car_foundry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_vickers"
+		texturefile = "gfx/interface/ideas/idea_CAN_vickers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_reid"
+		texturefile = "gfx/interface/ideas/idea_CAN_reid.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_fleet"
+		texturefile = "gfx/interface/ideas/idea_CAN_fleet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_noorduyn"
+		texturefile = "gfx/interface/ideas/idea_CAN_noorduyn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_havilland_canada"
+		texturefile = "gfx/interface/ideas/idea_CAN_havilland_canada.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_fairchild"
+		texturefile = "gfx/interface/ideas/idea_CAN_fairchild.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_victory"
+		texturefile = "gfx/interface/ideas/idea_CAN_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_cooey"
+		texturefile = "gfx/interface/ideas/idea_CAN_cooey.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_tobin"
+		texturefile = "gfx/interface/ideas/idea_CAN_tobin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_stelco"
+		texturefile = "gfx/interface/ideas/idea_CAN_stelco.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_dofasco"
+		texturefile = "gfx/interface/ideas/idea_CAN_dofasco.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_imperial_oil"
+		texturefile = "gfx/interface/ideas/idea_CAN_imperial_oil.dds"
+	}
+	
 	### NETHERLANDS idea
 	spriteType = {
 		name = "GFX_idea_fokker"
@@ -2323,6 +2449,73 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_braat"
 		texturefile = "gfx/interface/ideas/idea_braat.dds"
+	}
+	
+	### SWISS idea
+	
+	spriteType = {
+		name = "GFX_idea_SWI_ekw_air"
+		texturefile = "gfx/interface/ideas/idea_SWI_ekw.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_comte"
+		texturefile = "gfx/interface/ideas/idea_SWI_comte.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_ffa"
+		texturefile = "gfx/interface/ideas/idea_SWI_ffa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_pilatus"
+		texturefile = "gfx/interface/ideas/idea_SWI_pilatus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_ekw_tank"
+		texturefile = "gfx/interface/ideas/idea_SWI_ekw.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_saurer"
+		texturefile = "gfx/interface/ideas/idea_SWI_saurer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_oerlikon"
+		texturefile = "gfx/interface/ideas/idea_SWI_oerlikon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_kw"
+		texturefile = "gfx/interface/ideas/idea_SWI_ekw.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_hammerli"
+		texturefile = "gfx/interface/ideas/idea_SWI_hammerli.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_sig"
+		texturefile = "gfx/interface/ideas/idea_SWI_sig.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_waffenfabrik_bern"
+		texturefile = "gfx/interface/ideas/idea_SWI_waffenfabrik_bern.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_saurer_mot"
+		texturefile = "gfx/interface/ideas/idea_SWI_saurer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SWI_bbc"
+		texturefile = "gfx/interface/ideas/idea_SWI_bbc.dds"
 	}
 	
 	### ESTONIA idea
