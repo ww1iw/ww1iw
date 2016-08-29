@@ -58,8 +58,100 @@ create_country_leader = {
 	picture = "Portrait_Canada_Robert_Borden.dds"
 	expire = "1950.1.1"
 	ideology = centrism
-	}
+}
 
+create_field_marshal = {
+	name = "Colin John Mackenzie"
+	picture = "Portrait_Canada_Colin_John_Mackenzie.dds"
+	traits = { thorough_planner }
+	skill = 2
+	id = 11022
+}
+
+create_field_marshal = {
+	name = "Sam Hughes"
+	picture = "Portrait_Canada_Sam_Hughes.dds"
+	traits = { old_guard }
+	skill = 1
+	id = 11023
+}
+
+create_corps_commander = {
+	name = "Edwin Alderson"
+	picture = "Portrait_Canada_Edwin_Alderson.dds"
+	skill = 1
+	id = 11024
+}
+
+create_corps_commander = {
+	name = "Arthur Currie"
+	picture = "Portrait_Canada_Arthur_Currie.dds"
+	traits = { trickster engineer fortress_buster }
+	skill = 4
+	id = 11025
+}
+
+create_corps_commander = {
+	name = "Arthur Currie"
+	picture = "Portrait_Canada_Arthur_Currie.dds"
+	traits = { trickster engineer fortress_buster }
+	skill = 4
+	id = 11026
+}
+
+create_corps_commander = {
+	name = "Archibald Cameron Macdonell"
+	picture = "Portrait_Canada_Archibald_Cameron_Macdonell.dds"
+	traits = { old_guard charismatic }
+	skill = 2
+	id = 11027
+}
+
+create_corps_commander = {
+	name = "Archibald Cameron Macdonell"
+	picture = "Portrait_Canada_Archibald_Cameron_Macdonell.dds"
+	traits = { old_guard charismatic }
+	skill = 2
+	id = 11028
+}
+
+create_corps_commander = {
+	name = "Sam Steele"
+	picture = "Portrait_Canada_Sam_Steele.dds"
+	skill = 1
+	id = 11029
+}
+
+create_corps_commander = {
+	name = "Henry Edward Burstall"
+	picture = "Portrait_Canada_Henry_Edward_Burstall.dds"
+	skill = 2
+	id = 11030
+}
+
+create_corps_commander = {
+	name = "David Watson"
+	picture = "Portrait_Canada_David_Watson.dds"
+	traits = { hill_fighter }
+	skill = 2
+	id = 11031
+}
+
+create_corps_commander = {
+	name = "Louis Lipsett"
+	picture = "Portrait_Canada_Louis_Lipsett.dds"
+	traits = { hill_fighter engineer }
+	skill = 3
+	id = 11032
+}
+
+create_corps_commander = {
+	name = "Malcolm Mercer"
+	picture = "Portrait_Canada_Malcolm_Mercer.dds"
+	traits = { trickster }
+	skill = 3
+	id = 11033
+}
 
 # Starting tech
 set_technology = {
