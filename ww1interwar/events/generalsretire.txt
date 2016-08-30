@@ -1,4 +1,5 @@
 ﻿add_namespace = genretire
+add_namespace = genpromote
 
 # Robert Alexander retires
 news_event = {
@@ -1786,5 +1787,33 @@ news_event = {
 	option = {
 		name = genretire.1.a
 			remove_unit_leader = 10001
+		}
+}
+#George S. Patton promoted
+news_event = {
+	id = genpromote.1
+	fire_only_once = yes
+	title = genpromote.1.t
+	desc = genpromote.1.d
+	picture = GFX_report_event_usa_funeral
+	
+
+	trigger = {
+		tag = USA
+		date > 1940.10.2
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = genpromote.1.a
+			create_corps_commander = {
+			name = "George S. Patton"
+			id = 10085
+			traits = {  trickster panzer_leader }
+			skill = 5
+}
 		}
 }
