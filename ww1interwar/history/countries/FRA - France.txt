@@ -151,7 +151,7 @@ create_country_leader = {
 		desc = "POLITICS_MARCEL_CACHIN_DESC"
 		picture = "Portrait_France_Marcel_Cachin.dds"
 		expire = "1950.10.15"
-		ideology = left_revolutionary
+		ideology = marxism
 		traits = {
 			
 		}

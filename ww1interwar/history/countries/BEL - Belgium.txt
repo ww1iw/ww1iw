@@ -53,6 +53,14 @@ create_country_leader = {
 	ideology = conservatism
 }
 
+create_country_leader = {
+	name = "Leon Degrelle"
+	desc = "LEON_DEGRELLE_DESC"
+	picture = "Portrait_BEL_Leon_Degrelle.dds"
+	expire = "1950.1.1"
+	ideology = nazism
+}
+
 1914.6.1 = {
 oob = "BEL_1914"
 capital = 6
