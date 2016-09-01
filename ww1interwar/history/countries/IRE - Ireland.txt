@@ -41,6 +41,16 @@ capital = 113
 	}
 }
 
+create_country_leader = {
+	name = "Cathal Brugha"
+	desc = "POLITICS_CATHAL_BRUGHA_DESC"
+	picture = "Portrait_Ireland_Cathal_Brugha.dds"
+	expire = "1950.14.2"
+	ideology = centrism
+	traits = {
+	}
+}
+
 # oob = "IRE_1936"
 
 set_research_slots = 3

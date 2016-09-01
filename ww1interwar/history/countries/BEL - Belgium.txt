@@ -58,7 +58,55 @@ create_country_leader = {
 	desc = "LEON_DEGRELLE_DESC"
 	picture = "Portrait_BEL_Leon_Degrelle.dds"
 	expire = "1950.1.1"
+	ideology = fascism_ideology
+}
+
+create_country_leader = {
+	name = "Albert Deveze"
+	desc = "ALBERT_DEVEZE_DESC"
+	picture = "Portrait_BEL_Albert_Deveze.dds"
+	expire = "1950.1.1"
+	ideology = liberalism
+}
+
+create_country_leader = {
+	name = "Julien Lahaut"
+	desc = "JULIEN_LAHAUT_DESC"
+	picture = "Portrait_BEL_Julien_Lahaut.dds"
+	expire = "1950.1.1"
+	ideology = marxism
+}
+
+create_country_leader = {
+	name = "Camille Huysmans"
+	desc = "CAMILLE_HUYSMANS_DESC"
+	picture = "Portrait_BEL_Camille_Huysmans.dds"
+	expire = "1950.1.1"
+	ideology = social_democracy
+}
+
+create_country_leader = {
+	name = "Staf De Clercq"
+	desc = "STAF_DE_CLERCQ_DESC"
+	picture = "Portrait_BEL_Staf_De_Clercq.dds"
+	expire = "1950.1.1"
 	ideology = nazism
+}
+
+create_country_leader = {
+	name = "Joseph Pholien"
+	desc = "JOSEPH_PHOLIEN_DESC"
+	picture = "Portrait_BEL_Joseph_Pholien.dds"
+	expire = "1950.1.1"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "ALBERT_I_DESC"
+	picture = "Portrait_BEL_Albert_I.dds"
+	expire = "1950.1.1"
+	ideology = monarchism
 }
 
 1914.6.1 = {
