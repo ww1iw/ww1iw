@@ -1,0 +1,30 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_report_event_enrico_tellini"
+		texturefile = "gfx/event_pictures/report_event_enrico_tellini.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_italian_utlimatum"
+		texturefile = "gfx/event_pictures/report_event_italian_utlimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_corfu_occupation"
+		texturefile = "gfx/event_pictures/report_event_corfu_occupation.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_corfu_incident"
+		texturefile = "gfx/event_pictures/report_event_corfu_incident.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_italian_mobilization"
+		texturefile = "gfx/event_pictures/report_event_italian_mobilization.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_turkish_mobilization"
+		texturefile = "gfx/event_pictures/report_event_turkish_mobilization.dds"
+	}
+}
+
+
+
