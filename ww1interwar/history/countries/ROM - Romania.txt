@@ -100,25 +100,33 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 20
+		liberal = { 
+			popularity = 37
+		}
+		
+		democratic = {
+		    popularity = 25
+		}
+		
+		conservative = {
+		    popularity = 32
 		}
 
 		fascism = {
-			popularity = 18
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 0
 		}
 		
 		neutrality = { 
-			popularity = 60
+			popularity = 6
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1933.12.20"
+	ruling_party = liberal
+	last_election = "1922.6.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -152,14 +160,38 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Gheorghe Tatarescu"
-	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
+    name = "I. C. Bratianu"
+    desc = "POLITICS_IC_BRATIANU_DESC"
+    picture = "gfx/leaders/ROM/Portrait_Romania_IC_Bratianu.dds"
+    expire = "1927.07.24"
+    ideology = liberalism
+    traits = {
+        #
+    }
+}
+
+1927.07.24 = {
+    create_country_leader = {
+	    name = "Gheorghe Tatarescu"
+	    desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
+	    picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
+	    expire = "1965.1.1"
+	    ideology = liberal
+	    traits = {
+		    #
+	    }
+    }
+}
+
+create_country_leader = {
+    name = "Iuliu Maniu"
+    desc = "POLITICS_IULIU_MANIU_DESC"
+    picture = "gfx/leaders/ROM/Portrait_Romania_Iuliu_Maniu.dds"
+    expire = "1953.2.5"
+    ideology = centrism
+    traits = {
+        #
+    }
 }
 
 create_country_leader = {
@@ -173,15 +205,30 @@ create_country_leader = {
 	}
 }
 
+
+# TODO: figure out why he doesn't appear ingame
 create_country_leader = {
-	name = "Armand Calinescu"
-	desc = "POLITICS_ARMAND_CALINESCU_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
+    name = "Titu Maiorescu"
+    desc = "POLITICS_TITU_MAIORESCU_DESC"
+    picture = gfx/leaders/ROM/Portrait_Romania_Titu_Maiorescu.dds"
+    expire = "1917.5.18"
+    ideology = conservatism
+    traits = {
+        #
+    }
+}
+
+1917.5.18 = {
+    create_country_leader = {
+	    name = "Armand Calinescu"
+	    desc = "POLITICS_ARMAND_CALINESCU_DESC"
+	    picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+	    expire = "1965.1.1"
+	    ideology = conservatism
+	    traits = {
+		    #
+	    }
+    }
 }
 
 create_country_leader = {
