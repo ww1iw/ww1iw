@@ -101,15 +101,15 @@ set_politics = {
 
 	parties = {
 		liberal = { 
-			popularity = 37
+			popularity = 36
 		}
 		
 		democratic = {
-		    popularity = 25
+		    popularity = 24
 		}
 		
 		conservative = {
-		    popularity = 32
+		    popularity = 31
 		}
 
 		fascism = {
@@ -118,6 +118,10 @@ set_politics = {
 		
 		communism = {
 			popularity = 0
+		}
+		
+		autocratic = {
+		    popularity = 3
 		}
 		
 		neutrality = { 
@@ -205,6 +209,51 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Carol I"
+	desc = "POLITICS_CAROL_I_DESC"
+	expire = "1914.10.10"
+	ideology = monarchism
+	traits = {
+		#
+	}
+}
+
+1914.10.10 = {
+    create_country_leader = {
+	    name = "Ferdinand I"
+	    desc = "POLITICS_FERDINAND_I_DESC"
+	    expire = "1927.6.20"
+	    ideology = monarchism
+	    traits = {
+		    #
+	    }
+    }
+}
+
+1927.6.20 = {
+    create_country_leader = {
+	    name = "Carol II"
+	    desc = "POLITICS_CAROL_II_DESC"
+	    expire = "1940.9.6"
+	    ideology = monarchism
+	    traits = {
+		    #
+	    }
+    }
+}
+
+1940.9.6 = {
+    create_country_leader = {
+	    name = "Michael I"
+	    desc = "POLITICS_Michael_I_DESC"
+	    expire = "2020.1.1"
+	    ideology = monarchism
+	    traits = {
+		    #
+	    }
+    }
+}
 
 # TODO: figure out why he doesn't appear ingame
 create_country_leader = {
