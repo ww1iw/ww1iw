@@ -1329,7 +1329,237 @@ spriteTypes = {
 		name = "GFX_idea_opel"
 		texturefile = "gfx/interface/ideas/idea_opel.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_halberstadt"
+		texturefile = "gfx/interface/ideas/idea_GER_halberstadt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_arado"
+		texturefile = "gfx/interface/ideas/idea_GER_arado.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_beucker"
+		texturefile = "gfx/interface/ideas/idea_GER_beucker.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_dfs"
+		texturefile = "gfx/interface/ideas/idea_GER_dfs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fieseler"
+		texturefile = "gfx/interface/ideas/idea_GER_fieseler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_focke_achgelis"
+		texturefile = "gfx/interface/ideas/idea_GER_focke_achgelis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gotha"
+		texturefile = "gfx/interface/ideas/idea_GER_gotha.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_siebel"
+		texturefile = "gfx/interface/ideas/idea_GER_siebel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_albatros"
+		texturefile = "gfx/interface/ideas/idea_GER_albatros.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_henschel_air"
+		texturefile = "gfx/interface/ideas/idea_henschel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_daimler"
+		texturefile = "gfx/interface/ideas/idea_GER_daimler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_daimler_air"
+		texturefile = "gfx/interface/ideas/idea_GER_daimler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_alkett"
+		texturefile = "gfx/interface/ideas/idea_GER_alkett.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wegmann"
+		texturefile = "gfx/interface/ideas/idea_GER_wegmann.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_adler"
+		texturefile = "gfx/interface/ideas/idea_GER_adler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hanomag_tank"
+		texturefile = "gfx/interface/ideas/idea_GER_hanomag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_benz_tank"
+		texturefile = "gfx/interface/ideas/idea_GER_benz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_miag"
+		texturefile = "gfx/interface/ideas/idea_GER_miag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_maybach"
+		texturefile = "gfx/interface/ideas/idea_GER_maybach.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_famo_tank"
+		texturefile = "gfx/interface/ideas/idea_GER_famo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_krupp"
+		texturefile = "gfx/interface/ideas/idea_krupp.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_dwm"
+		texturefile = "gfx/interface/ideas/idea_GER_dwm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_bergmann"
+		texturefile = "gfx/interface/ideas/idea_GER_bergmann.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_sauer"
+		texturefile = "gfx/interface/ideas/idea_GER_sauer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_simson"
+		texturefile = "gfx/interface/ideas/idea_GER_simson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hasag"
+		texturefile = "gfx/interface/ideas/idea_GER_hasag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_walther"
+		texturefile = "gfx/interface/ideas/idea_GER_walther.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_mercedes"
+		texturefile = "gfx/interface/ideas/idea_GER_benz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_borgward"
+		texturefile = "gfx/interface/ideas/idea_GER_borgward.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_man_mot"
+		texturefile = "gfx/interface/ideas/idea_MAN.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nag"
+		texturefile = "gfx/interface/ideas/idea_GER_nag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ehrhardt"
+		texturefile = "gfx/interface/ideas/idea_GER_ehrhardt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hanomag_mot"
+		texturefile = "gfx/interface/ideas/idea_GER_hanomag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_beussing"
+		texturefile = "gfx/interface/ideas/idea_GER_beussing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_famo_mot"
+		texturefile = "gfx/interface/ideas/idea_GER_famo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_dynamit_nobel"
+		texturefile = "gfx/interface/ideas/idea_GER_dynamit_nobel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_zeppelin"
+		texturefile = "gfx/interface/ideas/idea_GER_zeppelin.dds"
+	}
 
+	spriteType = {
+		name = "GFX_idea_mittelwerk"
+		texturefile = "gfx/interface/ideas/idea_GER_mittelwerk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hasag_ind"
+		texturefile = "gfx/interface/ideas/idea_GER_hasag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_aeg"
+		texturefile = "gfx/interface/ideas/idea_GER_aeg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_telefunken"
+		texturefile = "gfx/interface/ideas/idea_GER_telefunken.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_schichau_werke"
+		texturefile = "gfx/interface/ideas/idea_GER_schichau_werke.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ag_weser"
+		texturefile = "gfx/interface/ideas/idea_GER_ag_weser.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wilhelmshaven"
+		texturefile = "gfx/interface/ideas/idea_GER_wilhelmshaven.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_bermer_vulkan"
+		texturefile = "gfx/interface/ideas/idea_GER_bremer_vulcan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_leurssen"
+		texturefile = "gfx/interface/ideas/idea_GER_leurssen.dds"
+	}
+	
 	### USA IDEAS	
 	spriteType = {
 		name = "GFX_idea_earl_browder"
