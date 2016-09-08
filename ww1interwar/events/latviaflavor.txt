@@ -9,7 +9,7 @@ news_event = {
 	id = latvia.1
 	title = latvia.1.t
 	desc = latvia.1.d
-	picture = GFX_news_event_019
+	picture = GFX_report_event_latvian_coup
 
 	trigger = {
 		tag = LAT
@@ -18,7 +18,7 @@ news_event = {
 			has_government = democratic
 			has_government = liberal
 			has_government = conservative
-                        has_government = socialist
+            has_government = socialist
 		}
 	}
 
@@ -37,7 +37,7 @@ news_event = {
 			}
         }
 
-set_politics = {
+    set_politics = {
 			ruling_party = conservatism
                         elections_allowed = no
 }
