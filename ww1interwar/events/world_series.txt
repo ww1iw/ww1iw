@@ -6,7 +6,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.1.t
 	desc = worldseries.1.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1911
 
 	trigger = {
 		tag = USA
@@ -36,7 +36,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.2.t
 	desc = worldseries.2.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1912
 
 	trigger = {
 		tag = USA
@@ -67,7 +67,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.3.t
 	desc = worldseries.3.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1913
 
 	trigger = {
 		tag = USA
@@ -97,7 +97,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.4.t
 	desc = worldseries.4.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1914
 
 	trigger = {
 		tag = USA
@@ -127,7 +127,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.5.t
 	desc = worldseries.5.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1915
 
 	trigger = {
 		tag = USA
@@ -157,7 +157,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.6.t
 	desc = worldseries.6.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1916
 
 	trigger = {
 		tag = USA
@@ -187,7 +187,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.7.t
 	desc = worldseries.7.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1917
 
 	trigger = {
 		tag = USA
@@ -217,7 +217,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.8.t
 	desc = worldseries.8.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1918
 
 	trigger = {
 		tag = USA
@@ -247,7 +247,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.9.t
 	desc = worldseries.9.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1919
 
 	trigger = {
 		tag = USA
@@ -277,7 +277,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.10.t
 	desc = worldseries.10.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_blacksox
 
 	trigger = {
 		tag = USA
@@ -307,7 +307,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.11.t
 	desc = worldseries.11.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_blacksoxtrial
 
 	trigger = {
 		tag = USA
@@ -337,7 +337,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.12.t
 	desc = worldseries.12.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_blacksoxban
 
 	trigger = {
 		tag = USA
@@ -367,7 +367,7 @@ news_event = {
 	fire_only_once = yes
 	title = worldseries.13.t
 	desc = worldseries.13.d
-	picture = GFX_report_event_usa_funeral
+	picture = GFX_report_event_usa_1920
 
 	trigger = {
 		tag = USA
