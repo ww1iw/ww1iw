@@ -3,7 +3,7 @@ add_namespace = worldseries
 #1911 World Series - Philadelphia Athletics
 news_event = {
 	id = worldseries.1
-	 
+	fire_only_once = yes
 	title = worldseries.1.t
 	desc = worldseries.1.d
 	picture = GFX_report_event_usa_funeral
@@ -28,12 +28,12 @@ news_event = {
 	option = {
 		name = worldseries.1.a
 		add_national_unity = 0.01
-}
+}}
 
 #1912 World Series - Boston Red Sox
 news_event = {
 	id = worldseries.2
-	 
+	fire_only_once = yes
 	title = worldseries.2.t
 	desc = worldseries.2.d
 	picture = GFX_report_event_usa_funeral
@@ -59,11 +59,12 @@ news_event = {
 		name = worldseries.2.a
 		add_national_unity = 0.01
 }
+}
 
 #1913 World Series - Philadelphia Athletics
 news_event = {
 	id = worldseries.3
-	 
+	fire_only_once = yes
 	title = worldseries.3.t
 	desc = worldseries.3.d
 	picture = GFX_report_event_usa_funeral
@@ -88,12 +89,12 @@ news_event = {
 	option = {
 		name = worldseries.3.a
 		add_national_unity = 0.01
-}
+}}
 
 #1914 World Series - Boston Braves
 news_event = {
 	id = worldseries.4
-	 
+	fire_only_once = yes
 	title = worldseries.4.t
 	desc = worldseries.4.d
 	picture = GFX_report_event_usa_funeral
@@ -118,12 +119,12 @@ news_event = {
 	option = {
 		name = worldseries.4.a
 		add_national_unity = 0.01
-}
+}}
 
 #1915 World Series - Boston Red Sox
 news_event = {
 	id = worldseries.5
-	 
+	fire_only_once = yes
 	title = worldseries.5.t
 	desc = worldseries.5.d
 	picture = GFX_report_event_usa_funeral
@@ -148,12 +149,12 @@ news_event = {
 	option = {
 		name = worldseries.5.a
 		add_national_unity = 0.01
-}
+}}
 
 #1916 World Series - Boston Red Sox
 news_event = {
 	id = worldseries.6
-	 
+	fire_only_once = yes
 	title = worldseries.6.t
 	desc = worldseries.6.d
 	picture = GFX_report_event_usa_funeral
@@ -178,12 +179,12 @@ news_event = {
 	option = {
 		name = worldseries.6.a
 		add_national_unity = 0.01
-}
+}}
 
 #1917 World Series - Chicago White Sox
 news_event = {
 	id = worldseries.7
-	 
+	fire_only_once = yes
 	title = worldseries.7.t
 	desc = worldseries.7.d
 	picture = GFX_report_event_usa_funeral
@@ -208,12 +209,12 @@ news_event = {
 	option = {
 		name = worldseries.7.a
 		add_national_unity = 0.01
-}
+}}
 
 #1918 World Series - Boston Red Sox
 news_event = {
 	id = worldseries.8
-	 
+	fire_only_once = yes
 	title = worldseries.8.t
 	desc = worldseries.8.d
 	picture = GFX_report_event_usa_funeral
@@ -238,12 +239,12 @@ news_event = {
 	option = {
 		name = worldseries.8.a
 		add_national_unity = 0.01
-}
+}}
 
 #1919 World Series - Cincinnati Reds
 news_event = {
 	id = worldseries.9
-	 
+	fire_only_once = yes
 	title = worldseries.9.t
 	desc = worldseries.9.d
 	picture = GFX_report_event_usa_funeral
@@ -268,12 +269,12 @@ news_event = {
 	option = {
 		name = worldseries.9.a
 		add_national_unity = 0.01
-}
+}}
 
 #The Fixed 1919 World Series - The Grand Jury
 news_event = {
 	id = worldseries.10
-	 
+	fire_only_once = yes
 	title = worldseries.10.t
 	desc = worldseries.10.d
 	picture = GFX_report_event_usa_funeral
@@ -298,12 +299,12 @@ news_event = {
 	option = {
 		name = worldseries.10.a
 		add_national_unity = -0.05
-}
+}}
 
 #The Fixed 1919 World Series - The Trial
 news_event = {
 	id = worldseries.11
-	 
+	fire_only_once = yes
 	title = worldseries.11.t
 	desc = worldseries.11.d
 	picture = GFX_report_event_usa_funeral
@@ -328,12 +329,12 @@ news_event = {
 	option = {
 		name = worldseries.112.a
 		add_national_unity = -0.03
-}
+}}
 
 #The Fixed 1919 World Series - Eight Players Banned
 news_event = {
 	id = worldseries.12
-	 
+	fire_only_once = yes
 	title = worldseries.12.t
 	desc = worldseries.12.d
 	picture = GFX_report_event_usa_funeral
@@ -358,12 +359,12 @@ news_event = {
 	option = {
 		name = worldseries.12.a
 		add_national_unity = 0.02
-}
+}}
 
 #1920 World Series - Cleveland Indians
 news_event = {
 	id = worldseries.13
-	 
+	fire_only_once = yes
 	title = worldseries.13.t
 	desc = worldseries.13.d
 	picture = GFX_report_event_usa_funeral
@@ -388,12 +389,12 @@ news_event = {
 	option = {
 		name = worldseries.13.a
 		add_national_unity = 0.01
-}
+}}
 
 #1921 World Series - New York Giants
 news_event = {
 	id = worldseries.14
-	 
+	fire_only_once = yes
 	title = worldseries.14.t
 	desc = worldseries.14.d
 	picture = GFX_report_event_usa_funeral
@@ -418,12 +419,12 @@ news_event = {
 	option = {
 		name = worldseries.14.a
 		add_national_unity = 0.01
-}
+}}
 
 #1922 World Series - New York Giants
 news_event = {
 	id = worldseries.15
-	 
+	fire_only_once = yes
 	title = worldseries.15.t
 	desc = worldseries.15.d
 	picture = GFX_report_event_usa_funeral
@@ -448,12 +449,12 @@ news_event = {
 	option = {
 		name = worldseries.15.a
 		add_national_unity = 0.01
-}
+}}
 
 #1923 World Series - New York Yankees
 news_event = {
 	id = worldseries.16
-	 
+	fire_only_once = yes
 	title = worldseries.16.t
 	desc = worldseries.16.d
 	picture = GFX_report_event_usa_funeral
@@ -478,12 +479,12 @@ news_event = {
 	option = {
 		name = worldseries.16.a
 		add_national_unity = 0.01
-}
+}}
 
 #1924 World Series - Washington Senators
 news_event = {
 	id = worldseries.17
-	 
+	fire_only_once = yes
 	title = worldseries.17.t
 	desc = worldseries.17.d
 	picture = GFX_report_event_usa_funeral
@@ -508,12 +509,12 @@ news_event = {
 	option = {
 		name = worldseries.17.a
 		add_national_unity = 0.01
-}
+}}
 
 #1925 World Series - Pittsburgh Pirates
 news_event = {
 	id = worldseries.18
-	 
+	fire_only_once = yes
 	title = worldseries.18.t
 	desc = worldseries.18.d
 	picture = GFX_report_event_usa_funeral
@@ -538,12 +539,12 @@ news_event = {
 	option = {
 		name = worldseries.18.a
 		add_national_unity = 0.01
-}
+}}
 
 #1926 World Series - St. Louis Cardinals
 news_event = {
 	id = worldseries.19
-	 
+	fire_only_once = yes
 	title = worldseries.19.t
 	desc = worldseries.19.d
 	picture = GFX_report_event_usa_funeral
@@ -568,12 +569,12 @@ news_event = {
 	option = {
 		name = worldseries.19.a
 		add_national_unity = 0.01
-}
+}}
 
 #1927 World Series - New York Yankees
 news_event = {
 	id = worldseries.20
-	 
+	fire_only_once = yes
 	title = worldseries.20.t
 	desc = worldseries.20.d
 	picture = GFX_report_event_usa_funeral
@@ -598,12 +599,12 @@ news_event = {
 	option = {
 		name = worldseries.20.a
 		add_national_unity = 0.01
-}
+}}
 
 #1928 World Series - New York Yankees
 news_event = {
 	id = worldseries.21
-	 
+	fire_only_once = yes
 	title = worldseries.21.t
 	desc = worldseries.21.d
 	picture = GFX_report_event_usa_funeral
@@ -628,12 +629,12 @@ news_event = {
 	option = {
 		name = worldseries.21.a
 		add_national_unity = 0.01
-}
+}}
 
 #1929 World Series - Philadelphia Athletics
 news_event = {
 	id = worldseries.22
-	 
+	fire_only_once = yes
 	title = worldseries.22.t
 	desc = worldseries.22.d
 	picture = GFX_report_event_usa_funeral
@@ -658,12 +659,12 @@ news_event = {
 	option = {
 		name = worldseries.22.a
 		add_national_unity = 0.01
-}
+}}
 
 #1930 World Series - Philadelphia Athletics
 news_event = {
 	id = worldseries.23
-	 
+	fire_only_once = yes
 	title = worldseries.23.t
 	desc = worldseries.23.d
 	picture = GFX_report_event_usa_funeral
@@ -688,12 +689,12 @@ news_event = {
 	option = {
 		name = worldseries.23.a
 		add_national_unity = 0.01
-}
+}}
 
 #1931 World Series - St. Louis Cardinals
 news_event = {
 	id = worldseries.24
-	 
+	fire_only_once = yes
 	title = worldseries.24.t
 	desc = worldseries.24.d
 	picture = GFX_report_event_usa_funeral
@@ -718,12 +719,12 @@ news_event = {
 	option = {
 		name = worldseries.24.a
 		add_national_unity = 0.01
-}
+}}
 
 #1932 World Series - New York Yankees
 news_event = {
 	id = worldseries.25
-	 
+	fire_only_once = yes
 	title = worldseries.25.t
 	desc = worldseries.25.d
 	picture = GFX_report_event_usa_funeral
@@ -748,12 +749,12 @@ news_event = {
 	option = {
 		name = worldseries.25.a
 		add_national_unity = 0.01
-}
+}}
 
 #1933 World Series - New York Giants
 news_event = {
 	id = worldseries.26
-	 
+	fire_only_once = yes
 	title = worldseries.26.t
 	desc = worldseries.26.d
 	picture = GFX_report_event_usa_funeral
@@ -778,12 +779,12 @@ news_event = {
 	option = {
 		name = worldseries.26.a
 		add_national_unity = 0.01
-}
+}}
 
 #1934 World Series - St. Louis Cardinals
 news_event = {
 	id = worldseries.27
-	 
+	fire_only_once = yes
 	title = worldseries.27.t
 	desc = worldseries.27.d
 	picture = GFX_report_event_usa_funeral
@@ -808,12 +809,12 @@ news_event = {
 	option = {
 		name = worldseries.27.a
 		add_national_unity = 0.01
-}
+}}
 
 #1935 World Series - Detroit Tigers
 news_event = {
 	id = worldseries.28
-	 
+	fire_only_once = yes
 	title = worldseries.28.t
 	desc = worldseries.28.d
 	picture = GFX_report_event_usa_funeral
@@ -838,12 +839,12 @@ news_event = {
 	option = {
 		name = worldseries.28.a
 		add_national_unity = 0.01
-}
+}}
 
 #1936 World Series - New York Yankees
 news_event = {
 	id = worldseries.29
-	 
+	fire_only_once = yes
 	title = worldseries.29.t
 	desc = worldseries.29.d
 	picture = GFX_report_event_usa_funeral
@@ -868,12 +869,12 @@ news_event = {
 	option = {
 		name = worldseries.29.a
 		add_national_unity = 0.01
-}
+}}
 
 #1937 World Series - New York Yankees
 news_event = {
 	id = worldseries.30
-	 
+	fire_only_once = yes
 	title = worldseries.30.t
 	desc = worldseries.30.d
 	picture = GFX_report_event_usa_funeral
@@ -898,12 +899,12 @@ news_event = {
 	option = {
 		name = worldseries.30.a
 		add_national_unity = 0.01
-}
+}}
 
 #1938 World Series - New York Yankees
 news_event = {
 	id = worldseries.31
-	 
+	fire_only_once = yes
 	title = worldseries.31.t
 	desc = worldseries.31.d
 	picture = GFX_report_event_usa_funeral
@@ -928,12 +929,12 @@ news_event = {
 	option = {
 		name = worldseries.31.a
 		add_national_unity = 0.01
-}
+}}
 
 #1939 World Series - New York Yankees
 news_event = {
 	id = worldseries.32
-	 
+	fire_only_once = yes
 	title = worldseries.32.t
 	desc = worldseries.32.d
 	picture = GFX_report_event_usa_funeral
@@ -958,12 +959,12 @@ news_event = {
 	option = {
 		name = worldseries.32.a
 		add_national_unity = 0.01
-}
+}}
 
 #1940 World Series - Cincinnati Reds
 news_event = {
 	id = worldseries.33
-	 
+	fire_only_once = yes
 	title = worldseries.33.t
 	desc = worldseries.33.d
 	picture = GFX_report_event_usa_funeral
@@ -988,12 +989,12 @@ news_event = {
 	option = {
 		name = worldseries.33.a
 		add_national_unity = 0.01
-}
+}}
 
 #1941 World Series - New York Yankees
 news_event = {
 	id = worldseries.34
-	 
+	fire_only_once = yes
 	title = worldseries.34.t
 	desc = worldseries.34.d
 	picture = GFX_report_event_usa_funeral
@@ -1018,11 +1019,11 @@ news_event = {
 	option = {
 		name = worldseries.34.a
 		add_national_unity = 0.01
-}
+}}
 #1942 World Series - St. Louis Cardinals
 news_event = {
 	id = worldseries.35
-	 
+	fire_only_once = yes
 	title = worldseries.35.t
 	desc = worldseries.35.d
 	picture = GFX_report_event_usa_funeral
@@ -1047,12 +1048,12 @@ news_event = {
 	option = {
 		name = worldseries.35.a
 		add_national_unity = 0.01
-}
+}}
 
 #1943 World Series - New York Yankees
 news_event = {
 	id = worldseries.36
-	 
+	fire_only_once = yes
 	title = worldseries.36.t
 	desc = worldseries.36.d
 	picture = GFX_report_event_usa_funeral
@@ -1077,12 +1078,12 @@ news_event = {
 	option = {
 		name = worldseries.36.a
 		add_national_unity = 0.01
-}
+}}
 
 #1944 World Series - St. Louis Cardinals
 news_event = {
 	id = worldseries.37
-	 
+	fire_only_once = yes
 	title = worldseries.37.t
 	desc = worldseries.37.d
 	picture = GFX_report_event_usa_funeral
@@ -1107,12 +1108,12 @@ news_event = {
 	option = {
 		name = worldseries.37.a
 		add_national_unity = 0.01
-}
+}}
 
 #1945 World Series - Detroit Tigers
 news_event = {
 	id = worldseries.38
-	 
+	fire_only_once = yes
 	title = worldseries.38.t
 	desc = worldseries.38.d
 	picture = GFX_report_event_usa_funeral
@@ -1137,12 +1138,12 @@ news_event = {
 	option = {
 		name = worldseries.38.a
 		add_national_unity = 0.01
-}
+}}
 
 #1946 World Series - St. Louis Cardinals
 news_event = {
 	id = worldseries.39
-	 
+	fire_only_once = yes
 	title = worldseries.39.t
 	desc = worldseries.39.d
 	picture = GFX_report_event_usa_funeral
@@ -1167,12 +1168,12 @@ news_event = {
 	option = {
 		name = worldseries.39.a
 		add_national_unity = 0.01
-}
+}}
 
 #1947 World Series - New York Yankees
 news_event = {
 	id = worldseries.40
-	 
+	fire_only_once = yes
 	title = worldseries.40.t
 	desc = worldseries.40.d
 	picture = GFX_report_event_usa_funeral
@@ -1197,12 +1198,12 @@ news_event = {
 	option = {
 		name = worldseries.40.a
 		add_national_unity = 0.01
-}
+}}
 
 #1948 World Series - Cleveland Indians
 news_event = {
 	id = worldseries.41
-	 
+	fire_only_once = yes
 	title = worldseries.41.t
 	desc = worldseries.41.d
 	picture = GFX_report_event_usa_funeral
@@ -1227,12 +1228,12 @@ news_event = {
 	option = {
 		name = worldseries.41.a
 		add_national_unity = 0.01
-}
+}}
 
 #1949 World Series - New York Yankees
 news_event = {
 	id = worldseries.42
-	 
+	fire_only_once = yes
 	title = worldseries.42.t
 	desc = worldseries.42.d
 	picture = GFX_report_event_usa_funeral
@@ -1257,12 +1258,12 @@ news_event = {
 	option = {
 		name = worldseries.42.a
 		add_national_unity = 0.01
-}
+}}
 
 #1950 World Series - New York Yankees
 news_event = {
 	id = worldseries.43
-	 
+	fire_only_once = yes
 	title = worldseries.43.t
 	desc = worldseries.43.d
 	picture = GFX_report_event_usa_funeral
@@ -1287,4 +1288,4 @@ news_event = {
 	option = {
 		name = worldseries.43.a
 		add_national_unity = 0.01
-}
+}}
