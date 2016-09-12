@@ -24,6 +24,62 @@ spriteTypes = {
 		name = "GFX_report_event_turkish_mobilization"
 		texturefile = "gfx/event_pictures/report_event_turkish_mobilization.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_johns_death"
+		texturefile = "gfx/event_pictures/report_event_johns_death.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1911.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1912.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1913.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1914.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1915.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1916.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1917.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1918.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1919.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_1911"
+		texturefile = "gfx/event_pictures/report_event_usa_1920.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_blacksox"
+		texturefile = "gfx/event_pictures/report_event_usa_blacksox.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_blacksoxban"
+		texturefile = "gfx/event_pictures/report_event_usa_blacksoxban.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_usa_blacksoxtrial"
+		texturefile = "gfx/event_pictures/report_event_usa_blacksoxtrial.dds"
+	}
 }
 
 

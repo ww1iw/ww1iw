@@ -1,0 +1,23 @@
+state={
+	id=843
+	name="STATE_843"
+	manpower = 1245000
+		resources={
+		coal=20.000
+	}
+	
+	state_category = town
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			air_base = 10
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		11888 6958 3941 801 6850 3975 7646 7588 10441 6971 4627 7466 9923
+	}
+}
