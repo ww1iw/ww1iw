@@ -1,4 +1,4 @@
-add_namespace = worldseries
+﻿add_namespace = worldseries
 
 #1911 World Series - Philadelphia Athletics
 news_event = {
