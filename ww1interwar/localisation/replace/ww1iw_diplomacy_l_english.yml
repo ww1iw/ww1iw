@@ -1,5 +1,6 @@
 ﻿l_english:
  DIPLOMACY_NO_POLITICAL_POWER:0 "We don't have any Money"
+ #Germany
  ger_befriend_opinion:0 "Germany befriended us"
  ger_region_influence_opinion:0 "German influence in our region"
  ger_meddling_opinion:0 "Germany meddled in our sphere of influence"
@@ -22,3 +23,13 @@
  ger_greek_oe_declines_opinion:0 "The Ottoman Empire did not support the German-Greek deal"
  ger_leaked_zimmermann_opinion:0 "Leaked Zimmermann Telegram"
  ger_zimmermann_opinion:0 "Zimmermann Telegram "
+ 
+ #Corfu Event
+ italy_supported:0 "Italian aggression supported"
+ italy_betrayed:0 "Italian aggression condemned"
+ italy_seriously_betrayed:0 "Mobilized against Italy"
+ greece_supported:0 "Greek cause supported"
+ greece_seriously_supported:0 "Moblizied in support of Greece"
+ greece_abandoned:0 "Greek abandonment"
+ ITA_ultimatum:0 "Italian Ultimatum"
+ ITA_supported_ultimatum:0 "Supported Italian Ultimatum"

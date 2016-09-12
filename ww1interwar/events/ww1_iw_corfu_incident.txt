@@ -28,25 +28,16 @@ country_event = {
 	
 	#Albanian bandits of course.
 	option = {
-		name = corfu.1.a
-		if = {
-			limit = {
+		name = corfu.1.a	
+		ai_chance = {
+			factor = 10
+			modifier = {
+				add = 80
 				OR = {
 					tag = GRE
 					tag = ENG
 					tag = FRA
 				}
-			}
-			ai_chance = {
-				factor = 90
-			}
-		}
-		if = {
-			limit = {
-				tag = ITA
-			}
-			ai_chance = {
-				factor = 10
 			}
 		}
 		set_country_flag = ALB_bandits
@@ -55,24 +46,11 @@ country_event = {
 	#Greek extremists.
 	option = {
 		name = corfu.1.b
-		if = {
-			limit = {
-				OR = {
-					tag = ITA
-				}
-			}
-			ai_chance = {
-				factor = 90
-			}
-		}
-		if = {
-			OR = {
-				tag = GRE
-				tag = ENG
-				tag = FRA
-			}
-			ai_chance = {
-				factor = 10
+		ai_chance = {
+			factor = 10
+			modifier = {
+				add = 80
+				tag = ITA
 			}
 		}
 		set_country_flag = GRE_extremists
@@ -109,7 +87,7 @@ country_event = {
 			factor = 10
 		}
 		add_national_unity = 0.025
-		GRE = { country_event = { id = corfu.3a } }
+		GRE = { country_event = { id = corfu.3 } }
 	}
 	
 	#Enforce entire Ultimatum.
@@ -119,22 +97,23 @@ country_event = {
 			factor = 90
 		}
 		add_national_unity = 0.05
-		GRE = { country_event = { id = corfu.3b } }
+		GRE = { country_event = { id = corfu.5 } }
 	}
 }
 
 #Greek Response to *Weak* Italian Ultimatum
+#3a
 country_event = {
-	id = corfu.3a
-	title = corfu.3a.t
-	desc = corfu.3a.d
+	id = corfu.3
+	title = corfu.3.t
+	desc = corfu.3.d
 	picture = GFX_report_event_italian_utlimatum
 	
 	is_triggered_only = yes
 	
 	#Accept
 	option = {
-		name = corfu.3a.a
+		name = corfu.3.a
 		ai_chance = {
 			factor = 75
 		}
@@ -148,29 +127,30 @@ country_event = {
 	
 	#Reject
 	option = {
-		name = corfu.3a.b
+		name = corfu.3.b
 		ai_chance = {
 			factor = 25
 		}
 		GRE = {
 			add_national_unity = 0.10
 		}
-		ITA = { country_event = { id = corfu.4a } }
+		ITA = { country_event = { id = corfu.4 } }
 	}
 }
 
 #Greece Rejects *Weak* Italian Ultimatum
+#4a
 country_event = {
-	id = corfu.4a
-	title = corfu.4a.t
-	desc = corfu.4a.d
+	id = corfu.4
+	title = corfu.4.t
+	desc = corfu.4.d
 	picture = GFX_report_event_corfu_occupation
 	
 	is_triggered_only = yes
 	
 	#We mean business! (Occupy Corfu)
 	option = {
-		name = corfu.4a.a
+		name = corfu.4.a
 		ai_chance = {
 			factor = 85
 		}
@@ -181,7 +161,7 @@ country_event = {
 	
 	#Withdraw Ultimatum
 	option = {
-		name = corfu.4a.b
+		name = corfu.4.b
 		ai_chance = {
 			factor = 15
 		}
@@ -190,17 +170,18 @@ country_event = {
 }
 
 #Greek Response to **Strong** Italian Ultimatum
+#3b
 country_event = {
-	id = corfu.3b
-	title = corfu.3b.t
-	desc = corfu.3b.d
+	id = corfu.5
+	title = corfu.5.t
+	desc = corfu.5.d
 	picture = GFX_report_event_italian_utlimatum
 	
 	is_triggered_only = yes
 	
 	#Accept
 	option = {
-		name = corfu.3b.a
+		name = corfu.5.a
 		ai_chance = {
 			factor = 5
 		}
@@ -217,29 +198,30 @@ country_event = {
 	
 	#Reject
 	option = {
-		name = corfu.3b.b
+		name = corfu.5.b
 		ai_chance = {
 			factor = 95
 		}
 		GRE = {
 			add_national_unity = 0.20
 		}
-		ITA = { country_event = { id = corfu.4b } }
+		ITA = { country_event = { id = corfu.6 } }
 	}
 }
 
 #Greece Rejects **Strong** Italian Ultimatum
+#4b
 country_event = {
-	id = corfu.4b
-	title = corfu.4b.t
-	desc = corfu.4b.d
+	id = corfu.6
+	title = corfu.6.t
+	desc = corfu.6.d
 	picture = GFX_report_event_corfu_occupation
 	
 	is_triggered_only = yes
 	
 	#That's the last straw! (Occupy Corfu)
 	option = {
-		name = corfu.4b.a
+		name = corfu.6.a
 		ai_chance = {
 			factor = 100
 		}
@@ -250,7 +232,7 @@ country_event = {
 	
 	#Slink away...slwoly.
 	option = {
-		name = corfu.4b.b
+		name = corfu.6.b
 		ai_chance = {
 			factor = 0
 		}
@@ -259,10 +241,11 @@ country_event = {
 }
 
 #French Response to Italian Occupation of Corfu
+#5a
 country_event = {
-	id = corfu.5a
-	title = corfu.5a.t
-	desc = corfu.5a.d
+	id = corfu.7
+	title = corfu.7.t
+	desc = corfu.7.d
 	picture = GFX_report_event_italian_utlimatum
 	
 	fire_only_once = yes
@@ -283,7 +266,7 @@ country_event = {
 	
 	#France supports Greece, diplo solution
 	option = {
-		name = corfu.5a.a
+		name = corfu.7.a
 		ai_chance = {
 			factor = 2.5
 		}
@@ -302,7 +285,7 @@ country_event = {
 	
 	#France supports Greece, declares war on Italy
 	option = {
-		name = corfu.5a.b
+		name = corfu.7.b
 		ai_chance = {
 			factor = 0
 		}
@@ -324,7 +307,7 @@ country_event = {
 	
 	#France supports Italy, diplo solution
 	option = {
-		name = corfu.5a.c
+		name = corfu.7.c
 		ai_chance = {
 			factor = 85
 		}
@@ -343,7 +326,7 @@ country_event = {
 	
 	#France proposes diplo solution
 	option = {
-		name = corfu.5a.e
+		name = corfu.7.e
 		ai_chance = {
 			factor = 12.5
 		}
@@ -353,10 +336,11 @@ country_event = {
 }
 
 #British Response to Italian Occupation of Corfu
+#5b
 country_event = {
-	id = corfu.5b
-	title = corfu.5b.t
-	desc = corfu.5b.d
+	id = corfu.8
+	title = corfu.8.t
+	desc = corfu.8.d
 	picture = GFX_report_event_italian_utlimatum
 	
 	fire_only_once = yes
@@ -377,7 +361,7 @@ country_event = {
 	
 	#Britain supports Greece, diplo solution
 	option = {
-		name = corfu.5b.a
+		name = corfu.8.a
 		ai_chance = {
 			factor = 2.5
 		}
@@ -396,7 +380,7 @@ country_event = {
 	
 	#Britain supports Greece, declares war on Italy
 	option = {
-		name = corfu.5b.b
+		name = corfu.8.b
 		ai_chance = {
 			factor = 0
 		}
@@ -418,7 +402,7 @@ country_event = {
 	
 	#Britain supports Italy, diplo solution
 	option = {
-		name = corfu.5b.c
+		name = corfu.8.c
 		ai_chance = {
 			factor = 12.5
 		}
@@ -437,7 +421,7 @@ country_event = {
 	
 	#Britain proposes diplo solution
 	option = {
-		name = corfu.5b.e
+		name = corfu.8.e
 		ai_chance = {
 			factor = 85
 		}
@@ -448,9 +432,9 @@ country_event = {
 
 #Great Britain and France Propose Diplo Solution
 country_event = {
-	id = corfu.6
-	title = corfu.6.t
-	desc = corfu.6.d
+	id = corfu.9
+	title = corfu.9.t
+	desc = corfu.9.d
 	picture = GFX_report_event_corfu_incident
 	
 	fire_only_once = yes
@@ -471,7 +455,7 @@ country_event = {
 	
 	#Accept the proposal.
 	option = {
-		name = cofu.6.a
+		name = cofu.9.a
 		ai_chance = {
 			factor = 95
 		}
@@ -492,12 +476,12 @@ country_event = {
 	
 	#DDamn the proposal! Reject it again!
 	option = {
-		name = corfu.6.b
+		name = corfu.9.b
 		ai_chance = {
 			factor = 5
 		}
 		add_national_unity = 0.20
-		ITA = { country_event = { id = corfu.7 } }
+		ITA = { country_event = { id = corfu.10 } }
 		hidden_effect = {
 			add_opinion_modifier = { target = ITA modifier = ITA_ultimatum } #-40
 			add_opinion_modifier = { target = FRA modifier = ITA_supported_ultimatum } #-20
@@ -507,34 +491,34 @@ country_event = {
 }
 
 #Italian Response to Greek Rejection of British/French Proposal
-option = {
-	id = corfu.7
-	title = corfu.7.t
-	desc = corfu.7.d
+country_event = {
+	id = corfu.10
+	title = corfu.10.t
+	desc = corfu.10.d
 	picture = GFX_report_event_corfu_incident
 	
 	is_triggered_only = yes
 	
 	#Unleash the Dogs of War!
 	option = {
-		name = corfu.7.a
+		name = corfu.10.a
 		ai_chance = {
-			99.9
+			factor = 99.9
 		}
 		add_national_unity = 0.15
 		declare_war_on = {
 			target = GRE
 			type = annex_everything
 		}
-		SER = { country_event = { id = corfu.8 } }
-		TUR = { country_event = { id = corfu.9 } }
+		SER = { country_event = { id = corfu.11 } }
+		TUR = { country_event = { id = corfu.12 } }
 	}
 	
 	#Meakly slink back to Mommy & Poppy so they can make an acceptable proposal for Greece.
 	option = {
-		name = corfu.7.b
+		name = corfu.10.b
 		ai_chance = {
-			0.01
+			factor = 0.01
 		}
 		add_national_unity = -0.30
 		GRE = {
@@ -545,16 +529,16 @@ option = {
 
 #Serbia Gets in on the Action
 country_event = {
-	id = corfu.8
-	title = corfu.8.t
-	desc = corfu.8.d
+	id = corfu.11
+	title = corfu.11.t
+	desc = corfu.11.d
 	picture = GFX_report_event_italian_mobilization
 	
 	is_triggered_only = yes
 	
 	#Help out Greece!
 	option = {
-		name = corfu.8.a
+		name = corfu.11.a
 		ai_chance = {
 			factor = 90
 		}
@@ -567,35 +551,35 @@ country_event = {
 	
 	#I don't thinks so.
 	option = {
+		name = corfu.11.b
 		ai_chance = {
 			factor = 10
 		}
-		name = corfu.8.b
 		custom_effect_tooltip = SER_nothing
 	}
 }
 
 #Turkey just can't resist, people to subjugate are irresistible
 country_event = {
-	id = corfu.9
-	title = corfu.9.t
-	desc = corfu.9.d
+	id = corfu.12
+	title = corfu.12.t
+	desc = corfu.12.d
 	picture = GFX_report_event_italian_mobilization
 	
 	is_triggered_only = yes
 	
 	#We're just gonna slip in here and take this, don't pay us any mind.
 	option = {
-		name = corfu.9.a
+		name = corfu.12.a
 		ai_chance = {
 			factor = 95
 		}
-		GRE = { country_event = { id = corfu.10 } }
+		GRE = { country_event = { id = corfu.13 } }
 	}
 	
 	#We've done enough fighting.
 	option = {
-		name = corfu.9.b
+		name = corfu.12.b
 		ai_chance = {
 			factor = 5
 		}
@@ -605,16 +589,16 @@ country_event = {
 
 #Turkey politely threatens Greece to surrender Western Trace
 option = {
-	id = corfu.10
-	title = corfu.10.t
-	desc = corfu.10.d
+	id = corfu.13
+	title = corfu.13.t
+	desc = corfu.13.d
 	picture = GFX_report_event_turkish_mobilization
 	
 	is_triggered_only = yes
 	
 	#We'll die before handing land to the Turks!
 	option = {
-		name = corfu.10.a
+		name = corfu.13.a
 		ai_chance = {
 			factor = 1
 		}
@@ -629,7 +613,7 @@ option = {
 	
 	#Fine, take it.
 	option = {
-		name = corfu.10.b
+		name = corfu.13.b
 		ai_chance = {
 			factor = 99
 		}
