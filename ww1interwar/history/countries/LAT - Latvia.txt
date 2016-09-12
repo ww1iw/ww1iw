@@ -104,6 +104,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Pyotr Nikolayevich Wrangel"
+	desc = "POLITICS_PYOTR_NIKOLAYEVICH_WRANGEL_DESC"
+	picture = "Portrait_Latvia_Pyotr_Nikolayevich_Wrangel.dds"
+	expire = "1939.6.2"
+	ideology = monarchism
+	traits = {
+	}
+}
+
 create_field_marshal = {
 	name = "Jānis Balodis"
 	picture = "Portrait_Latvia_Janis_Balodis.dds"
