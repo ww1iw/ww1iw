@@ -1,5 +1,5 @@
 ﻿oob = "basic_test"
-capital = 107
+capital = 818
 
 # oob = "YUG_1936"
 

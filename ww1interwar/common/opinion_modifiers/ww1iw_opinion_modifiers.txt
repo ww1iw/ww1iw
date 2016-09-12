@@ -99,4 +99,60 @@ opinion_modifiers = {
 		value = -60
 	}
 	
+	#Corfu Event
+	italy_supported = {
+		value = 20
+	}
+	
+	italy_betrayed = {
+		value = -20
+	}
+	
+	italy_seriously_betrayed = {
+		value = -40
+	}
+	
+	greece_supported = {
+		value = 20
+	}
+	
+	greece_seriously_supported = {
+		value = 40
+	}
+	
+	greece_abandoned = {
+		value = -20
+	}
+	
+	ITA_ultimatum = {
+		value = -40
+	}
+	
+	ITA_supported_ultimatum = {
+		value = -20
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
