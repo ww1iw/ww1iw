@@ -1,5 +1,5 @@
 ﻿oob = "USA_1914"
-capital = 361
+capital = 844
 set_research_slots = 2
 set_convoys = 50
 set_national_unity = 0.55

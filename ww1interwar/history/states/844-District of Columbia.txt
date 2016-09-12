@@ -1,0 +1,27 @@
+state={
+	id=844
+	name="STATE_844"
+	manpower = 331069
+	
+	state_category = city
+
+	history={
+		owner = USA
+		victory_points = {
+			13245 40 
+		}
+		buildings = {
+			infrastructure = 7
+			13245 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		13245
+	}
+}
