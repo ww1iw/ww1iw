@@ -52,7 +52,7 @@ country_event = {
 		set_country_flag = ALB_bandits
 	}
 	
-	#The Greek extremists.
+	#Greek extremists.
 	option = {
 		name = corfu.1.b
 		if = {
@@ -313,6 +313,10 @@ country_event = {
 		GRE = {
 			add_opinion_modifier = { target = FRA modifier = greece_seriously_supported } #+40
 		}
+		create_wargoal = {
+			target = ITA
+			type = liberate_wargoal
+		}
 		hidden_effect = {
 			add_opinion_modifier = { target = ITA modifier = italy_seriously_betrayed } #-40
 		}
@@ -403,6 +407,10 @@ country_event = {
 		GRE = {
 			add_opinion_modifier = { target = ENG modifier = greece_seriously_supported } #+40
 		}
+		create_wargoal = {
+			target = ITA
+			type = liberate_wargoal
+		}
 		hidden_effect = {
 			add_opinion_modifier = { target = FRA modifier = italy_seriously_betrayed } #-40
 		}
@@ -482,7 +490,7 @@ country_event = {
 		}
 	}
 	
-	#Damn Italy and the proposal to Hell!
+	#DDamn the proposal! Reject it again!
 	option = {
 		name = corfu.6.b
 		ai_chance = {
@@ -585,13 +593,13 @@ country_event = {
 		GRE = { country_event = { id = corfu.10 } }
 	}
 	
-	#Nah, we've done enough.
+	#We've done enough fighting.
 	option = {
 		name = corfu.9.b
 		ai_chance = {
 			factor = 5
 		}
-		custom_effect_tooltip = TUR_nothing
+		custom_effect_tooltip = TUR_nothing_tt
 	}
 } 
 
@@ -604,7 +612,7 @@ option = {
 	
 	is_triggered_only = yes
 	
-	#Hell no!
+	#We'll die before handing land to the Turks!
 	option = {
 		name = corfu.10.a
 		ai_chance = {
@@ -612,9 +620,10 @@ option = {
 		}
 		TUR = {
 			declare_war_on = {
-			target = GRE
-			type = take_state
-			generator = { 184 }
+				target = GRE
+				type = take_state
+				generator = { 184 }
+			}
 		}
 	}
 	
