@@ -4,6 +4,57 @@
 
 add_namespace = corfu
 
+#Preliminary Event
+country_event = {
+	id = corfu.14
+	title = corfu.14.t
+	desc = corfu.14.d
+	picture = GFX_report_event_enrico_tellini
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1923.8.1
+		date < 1923.9.1
+		tag = GRE
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+		every_country = {
+			limit = {
+				OR = {
+					tag = ENG
+					tag = FRA
+					tag = ITA
+				}
+			}
+			country_event = { id = corfu.1 days = 1 }
+		}
+	}
+	
+	#Albanian brigands.
+	option = {
+		name = corfu.1.a	
+		ai_chance = {
+			factor = 90
+		}
+		set_country_flag = ALB_bandits
+	}
+	
+	#Extremists.
+	option = {
+		name = corfu.1.b
+		ai_chance = {
+			factor = 10
+		}
+		set_country_flag = GRE_extremists
+	}
+}
+
 #Assassination of Italian general Enrico Tellini
 country_event = {
 	id = corfu.1
@@ -11,22 +62,9 @@ country_event = {
 	desc = corfu.1.d
 	picture = GFX_report_event_enrico_tellini
 	
-	trigger = {
-		date > 1923.8.27
-		date < 1923.8.29
-		OR = {
-			tag = GRE
-			tag = ITA
-			tag = ENG
-			tag = FRA
-		}
-	}
+	is_triggered_only = yes
 	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	#Albanian bandits of course.
+	#Albanian brigands of course.
 	option = {
 		name = corfu.1.a	
 		ai_chance = {
@@ -34,7 +72,6 @@ country_event = {
 			modifier = {
 				add = 80
 				OR = {
-					tag = GRE
 					tag = ENG
 					tag = FRA
 				}
@@ -77,7 +114,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 5
+		days = 3
 	}
 	
 	#Enforce points 1-4.
@@ -87,7 +124,7 @@ country_event = {
 			factor = 10
 		}
 		add_national_unity = 0.025
-		GRE = { country_event = { id = corfu.3 } }
+		GRE = { country_event = { id = corfu.3 days = 1 } }
 	}
 	
 	#Enforce entire Ultimatum.
@@ -97,7 +134,7 @@ country_event = {
 			factor = 90
 		}
 		add_national_unity = 0.05
-		GRE = { country_event = { id = corfu.5 } }
+		GRE = { country_event = { id = corfu.5 days = 1 } }
 	}
 }
 
@@ -134,7 +171,7 @@ country_event = {
 		GRE = {
 			add_national_unity = 0.10
 		}
-		ITA = { country_event = { id = corfu.4 } }
+		ITA = { country_event = { id = corfu.4 days = 1 } }
 	}
 }
 
@@ -194,6 +231,9 @@ country_event = {
 			add_political_power = -25000
 			give_military_access = ITA
 		}
+		hidden_effect = {
+			news_event = { id = corfunews.1 hours = 6 }
+		}
 	}
 	
 	#Reject
@@ -205,7 +245,7 @@ country_event = {
 		GRE = {
 			add_national_unity = 0.20
 		}
-		ITA = { country_event = { id = corfu.6 } }
+		ITA = { country_event = { id = corfu.6 days = 1 } }
 	}
 }
 
@@ -261,7 +301,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 5
+		days = 3
 	}
 	
 	#France supports Greece, diplo solution
@@ -356,7 +396,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 5
+		days = 3
 	}
 	
 	#Britain supports Greece, diplo solution
@@ -440,7 +480,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-		days = 10
+		days = 3
 	}
 	
 	trigger = {
@@ -471,17 +511,18 @@ country_event = {
 			add_opinion_modifier = { target = ITA modifier = ITA_ultimatum } #-40
 			add_opinion_modifier = { target = FRA modifier = ITA_supported_ultimatum } #-20
 			add_opinion_modifier = { target = ENG modifier = ITA_supported_ultimatum } #-20
+			news_event = { id = corfunews.1 hours = 6 }
 		}
 	}
 	
-	#DDamn the proposal! Reject it again!
+	#Damn the proposal! Reject it again!
 	option = {
 		name = corfu.9.b
 		ai_chance = {
 			factor = 5
 		}
 		add_national_unity = 0.20
-		ITA = { country_event = { id = corfu.10 } }
+		ITA = { country_event = { id = corfu.10 days = 1 } }
 		hidden_effect = {
 			add_opinion_modifier = { target = ITA modifier = ITA_ultimatum } #-40
 			add_opinion_modifier = { target = FRA modifier = ITA_supported_ultimatum } #-20
@@ -510,8 +551,8 @@ country_event = {
 			target = GRE
 			type = annex_everything
 		}
-		SER = { country_event = { id = corfu.11 } }
-		TUR = { country_event = { id = corfu.12 } }
+		YUG = { country_event = { id = corfu.11 days = 1 } }
+		TUR = { country_event = { id = corfu.12 days = 1 } }
 	}
 	
 	#Meakly slink back to Mommy & Poppy so they can make an acceptable proposal for Greece.
@@ -555,7 +596,7 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
-		custom_effect_tooltip = SER_nothing
+		custom_effect_tooltip = YUG_nothing_tt
 	}
 }
 
@@ -574,7 +615,7 @@ country_event = {
 		ai_chance = {
 			factor = 95
 		}
-		GRE = { country_event = { id = corfu.13 } }
+		GRE = { country_event = { id = corfu.13 days = 1 } }
 	}
 	
 	#We've done enough fighting.

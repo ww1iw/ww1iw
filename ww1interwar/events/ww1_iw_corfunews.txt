@@ -1,0 +1,110 @@
+﻿##############################
+# 1923 Corfu News Events 
+##############################
+
+add_namespace = corfunews
+
+#Italian Ultimatum Accepted
+news_event = {
+	id = corfunews.1
+	title = corfunews.1.t
+	desc = corfunews.1.d
+	picture = 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_for_sender = yes
+	
+	#An interesting development
+	option = {
+		name = corfunews.1.a
+		trigger = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = ITA_diplomatic_solution
+					}
+				}
+				OR = {
+					tag = ENG
+					tag = FRA
+				}
+			}
+			OR = {
+				tag = GER
+				tag = HOL
+				tag = BEL
+				tag = SOV
+				tag = SER
+				tag = YUG
+				tag = CRO
+				tag = POR
+				tag = LUX
+				tag = ROM
+				tag = BUL
+				tag = ALB
+				tag = MAC
+				tag = POL
+				tag = UKR
+				tag = IRE
+				tag = DEN
+				tag = NOR
+				tag = SWE
+				tag = FIN
+				tag = AUS
+				tag = HUN
+				tag = CZE
+				tag = LAT
+				tag = LIT
+				tag = EST
+				tag = TUR
+				tag = CRE
+				tag = SWI
+				tag = SLO
+				tag = BAL
+				tag = USA
+				tag = CAN
+				tag = SAF
+				tag = NZL
+				tag = NFL
+				tag = RAJ
+				tag = AST
+				original_tag = SPR
+			}
+		}
+	}
+	
+	#Our nation just went to shit.
+	option = {
+		name = corfunews.1.b
+		trigger = {
+			tag = GRE
+		}
+	}
+	
+	#A job well done.
+	option = {
+		name = corfunews.1.c
+		trigger = {
+			if = {
+				limit = {
+					has_country_flag = ITA_diplomatic_solution
+				}
+				OR = {
+					tag = ENG
+					tag = FRA
+				}
+			}
+		}
+	}
+	
+	#War would've been better.
+	option = {
+		name = corfunews.1.e
+		trigger = {
+			tag = ITA
+		}
+	}
+}
