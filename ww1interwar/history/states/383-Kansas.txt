@@ -17,6 +17,10 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = USA
+		1914.1.1 = { add_manpower = 23000 }
+		1923.1.1 = { add_manpower = 81000 }
+		1931.1.1 = { add_manpower = 70000 }
+		1934.1.1 = { add_manpower = -24000 }
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

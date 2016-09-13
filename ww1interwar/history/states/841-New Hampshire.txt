@@ -11,6 +11,10 @@ state={
 			infrastructure = 5
 		}
 		add_core_of = USA
+		1914.1.1 = { add_manpower = 3755 }
+		1923.1.1 = { add_manpower = 14170 }
+		1931.1.1 = { add_manpower = 18168 }
+		1934.1.1 = { add_manpower = 7872 }
 	}
 
 	provinces={

@@ -36,6 +36,10 @@ state={
 				dockyard = 8
 			}
 		}
+		1914.1.1 = { add_manpower = 316000 }
+		1923.1.1 = { add_manpower = 906000 }
+		1931.1.1 = { add_manpower = 665000 }
+		1934.1.1 = { add_manpower = 81000 }
 
 	}
 

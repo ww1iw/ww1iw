@@ -27,6 +27,10 @@ state={
 				industrial_complex = 4
 			}
 		}
+		1914.1.1 = { add_manpower = 63000 }
+		1923.1.1 = { add_manpower = 216000 }
+		1931.1.1 = { add_manpower = 227000 }
+		1934.1.1 = { add_manpower = 56000 }
 
 	}
 

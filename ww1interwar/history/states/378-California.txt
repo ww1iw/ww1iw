@@ -50,6 +50,10 @@ state={
 				industrial_complex = 7
 			}
 		}
+		1914.1.1 = { add_manpower = 315000 }
+		1923.1.1 = { add_manpower = 1305000 }
+		1931.1.1 = { add_manpower = 1698000 }
+		1934.1.1 = { add_manpower = 369000 }
 	}
 
 	provinces={

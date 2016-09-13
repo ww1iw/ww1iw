@@ -20,6 +20,10 @@ state={
 			}
 		}
 		add_core_of = USA
+		1914.1.1 = { add_manpower = -1000 }
+		1923.1.1 = { add_manpower = 61000 }
+		1931.1.1 = { add_manpower = 171000 }
+		1934.1.1 = { add_manpower = 52000 }
 	}
 
 	provinces={

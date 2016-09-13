@@ -19,6 +19,10 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = USA
+		1914.1.1 = { add_manpower = 9918 }
+		1923.1.1 = { add_manpower = 38720 }
+		1931.1.1 = { add_manpower = 54919 }
+		1934.1.1 = { add_manpower = 32562 }
 	}
 
 	provinces={

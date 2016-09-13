@@ -14,6 +14,10 @@ state={
 			infrastructure = 6
 			air_base = 10
 		}
+		1914.1.1 = { add_manpower = 73000 }
+		1923.1.1 = { add_manpower = 225000 }
+		1931.1.1 = { add_manpower = 203000 }
+		1934.1.1 = { add_manpower = 52000 }
 		add_core_of = USA
 	}
 

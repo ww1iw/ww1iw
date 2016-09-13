@@ -25,6 +25,10 @@ state={
 		victory_points = {
 			7552 10 
 		}
+		1914.1.1 = { add_manpower = 42000 }
+		1923.1.1 = { add_manpower = 176000 }
+		1931.1.1 = { add_manpower = 239000 }
+		1934.1.1 = { add_manpower = 79000 }
 
 	}
 

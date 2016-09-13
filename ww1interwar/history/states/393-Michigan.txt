@@ -28,6 +28,10 @@ state={
 			}
 
 		}
+		1914.1.1 = { add_manpower = 258000 }
+		1923.1.1 = { add_manpower = 867000 }
+		1931.1.1 = { add_manpower = 863000 }
+		1934.1.1 = { add_manpower = 124000 }
 
 	}
 
