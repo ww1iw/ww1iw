@@ -1,4 +1,4 @@
-﻿oob = "USA_1914"
+﻿oob = "USA_1911"
 capital = 844
 set_research_slots = 2
 set_convoys = 50
@@ -8,7 +8,6 @@ add_ideas = {
 	neutrality_ideal
 }
 
-1911.1.1 = {
 set_politics = {
 
 	parties = {
@@ -749,7 +748,6 @@ set_politics = {
 		skill = 4
 	
 	} 
-}
 1914.6.1 = {
 set_politics = {
 
@@ -855,8 +853,7 @@ set_politics = {
 
 	set_research_slots = 3
 	set_national_unity = 0.6
-	add_ideas = {
-		ENG_the_war_to_end_all_wars }
+	add_ideas =
 	set_politics = {
 	
 		parties = {
