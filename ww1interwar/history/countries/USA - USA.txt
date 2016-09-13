@@ -8,23 +8,24 @@ add_ideas = {
 	neutrality_ideal
 }
 
+1911.1.1 = {
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 27.4
+			popularity = 0.74
 		}
 		liberal = {
-			popularity = 41.84
+			popularity = 43.03
 		}
 		conservative = {
-			popularity = 23.17
+			popularity = 51.57
 		}
 		socialist = {
-			popularity = 6.18
+			popularity = 2.83
 		}
 		neutrality = {
-			popularity = 1.41
+			popularity = 1.74
 		}
 		autocratic = {
 			popularity = 0
@@ -33,23 +34,23 @@ set_politics = {
 			popularity = 0
 		}
 		communism = {
-			popularity = 0
+			popularity = 0.09
 		}
 		fascism = {
 			popularity = 0
 		}
 	}
-	ruling_party = liberal
-	last_election = "1912.11.5"
+	ruling_party = conservative
+	last_election = "1908.11.3"
 	election_frequency = 48
 	elections_allowed = yes
-}
-
-	create_country_leader = {
+	}
+	
+		create_country_leader = {
 		name = "Woodrow Wilson"
 		desc = "WOODROW_WILSON_DESC"
 		picture = "Portrait_USA_Woodrow_Wilson.dds"
-		expire = "1924.2.3"
+		expire = "1924.1.1"
 		ideology = liberalism
 	}
 	create_country_leader = {
@@ -747,6 +748,44 @@ set_politics = {
 		traits = { old_guard offensive_doctrine organisational_leader }
 		skill = 4
 	
+	} 
+}
+1914.6.1 = {
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 27.4
+		}
+		liberal = {
+			popularity = 41.84
+		}
+		conservative = {
+			popularity = 23.17
+		}
+		socialist = {
+			popularity = 6.18
+		}
+		neutrality = {
+			popularity = 1.41
+		}
+		autocratic = {
+			popularity = 0
+		}
+		natsoc = {
+			popularity = 0
+		}
+		communism = {
+			popularity = 0
+		}
+		fascism = {
+			popularity = 0
+		}
+	}
+	ruling_party = liberal
+	last_election = "1912.11.5"
+	election_frequency = 48
+	elections_allowed = yes
 	}
 }
 
@@ -813,12 +852,11 @@ set_politics = {
 1922.12.1 = { remove_unit_leader = { id = 10025 }}
 
 1923.1.1 = {
+
 	set_research_slots = 3
 	set_national_unity = 0.6
 	add_ideas = {
-		ENG_the_war_to_end_all_wars
-	}
-	
+		ENG_the_war_to_end_all_wars }
 	set_politics = {
 	
 		parties = {
@@ -862,9 +900,6 @@ set_politics = {
 		picture = "Portrait_USA_Warren_G_Harding.dds"
 		expire = "1923.8.2"
 		ideology = conservatism
-		traits = {
-			
-		}
 	}
 	create_country_leader = {
 		name = "Charles E. Ruthenberg"
