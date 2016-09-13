@@ -9,7 +9,7 @@ news_event = {
 	id = corfunews.1
 	title = corfunews.1.t
 	desc = corfunews.1.d
-	picture = 
+	picture = GFX_corfu_news_event_001
 	
 	major = yes
 	
