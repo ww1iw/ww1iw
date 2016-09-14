@@ -149,6 +149,7 @@ news_event = {
 	trigger = {
 		tag = USA
 		date > 1912.6.27
+		date < 1913.1.1
 		OR = {
 			has_government = democratic
 			has_government = liberal

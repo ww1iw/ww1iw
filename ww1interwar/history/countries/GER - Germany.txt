@@ -14,6 +14,15 @@ add_ideas = {
 create_faction = "Central Powers"
 add_to_faction = GER
 
+set_technology = {
+	infantry_kit = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
+	infantry_hmg = 1
+	infantry_mortar = 1
+	marines = 1
+	tech_mountaineers = 1
+}
 
 set_politics = {
 
@@ -316,6 +325,23 @@ add_ideas = {
 create_faction = "Central Powers"
 add_to_faction = GER
 
+set_technology = {
+	infantry_kit = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
+	infantry_hmg = 1
+	infantry_mortar = 1
+	marines = 1
+	tech_mountaineers = 1
+	support_weapons = 1
+	infantry_kit1 = 1
+	infantry_grenades = 1
+	infantry_optics = 1
+	infantry_lmg = 1
+	infantry_mortar1 = 1
+	tech_sappers = 1
+	tech_mountaineers1 = 1
+}
 
 set_politics = {
 
@@ -459,6 +485,47 @@ create_country_leader = {
 remove_ideas = imperial_ideal
 remove_ideas = general_staff
 remove_ideas = limited_conscription
+
+set_technology = {
+	infantry_kit = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
+	infantry_hmg = 1
+	infantry_mortar = 1
+	marines = 1
+	tech_mountaineers = 1
+	support_weapons = 1
+	infantry_kit1 = 1
+	infantry_grenades = 1
+	infantry_optics = 1
+	infantry_lmg = 1
+	infantry_mortar1 = 1
+	tech_sappers = 1
+	tech_mountaineers1 = 1
+	infantry_kit2 = 1
+	infantry_kit3 = 1
+	infantry_kit4 = 1
+	infantry_kit5 = 1
+	support_weapons1 = 1
+	infantry_armor = 1
+	infantry_camo = 1
+	infantry_flame = 1
+	infantry_grenades2 = 1
+	infantry_smg = 1
+	infantry_rifle2 = 1
+	infantry_atrifle = 1
+	infantry_scope = 1
+	infantry_hmg1 = 1
+	infantry_lmg1 = 1
+	infantry_lmg2 = 1
+	infantry_mortar2 = 1
+	infantry_mortar3 = 1
+	tech_sappers2 = 1
+	tech_shocks = 1
+	tech_shocks2 = 1
+	tech_mountaineers1 = 1
+	marines2 = 1
+}
 
 	add_ideas = { neutrality_ideal sour_loser fascist_assault_divisions communist_revolutionaries }
 	set_national_unity = 0.35
