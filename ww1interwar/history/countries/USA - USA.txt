@@ -1,4 +1,4 @@
-﻿oob = "USA_1911"
+﻿oob = "USA_1914"
 capital = 844
 set_research_slots = 2
 set_convoys = 50
@@ -787,103 +787,33 @@ set_politics = {
 	}
 }
 
-1917.1.1 = { remove_unit_leader = { id = 10069 }}
-1918.1.1 = { remove_unit_leader = { id = 10016 }}
-1918.1.1 = { remove_unit_leader = { id = 10021 }}
-1918.1.1 = { remove_unit_leader = { id = 10026 }}
-1918.1.1 = { remove_unit_leader = { id = 10031 }}
-1918.1.1 = { remove_unit_leader = { id = 10050 }}
-1918.1.1 = { remove_unit_leader = { id = 10075 }}
-1918.1.1 = { remove_unit_leader = { id = 10078 }}
-1918.1.1 = { remove_unit_leader = { id = 10080 }}
-1918.1.1 = { remove_unit_leader = { id = 10084 }}
-1918.2.20 = { remove_unit_leader = { id = 10061 }}
-1919.1.1 = { 
-	remove_unit_leader = { 
-	id = 10004 
-	}
-	remove_unit_leader = {
-	id = 10007
-	}
-	remove_unit_leader = {
-	id = 10030
-	}
-	remove_unit_leader = {
-	id = 10034
-	}
-	remove_unit_leader = {
-	id = 10044
-	}
-	remove_unit_leader = {
-	id = 10045
-	}
-	remove_unit_leader = { 
-	id = 10049
-	}
-	remove_unit_leader = {
-	id = 10082
-	}
-}
-1919.5.1 = { remove_unit_leader = { id = 10068 }}
-1919.10.31 = { remove_unit_leader = { id = 10008 }}
-1919.12.27 = { remove_unit_leader = { id = 10083 }}
-1920.1.1 = { remove_unit_leader = { id = 10037 }}
-1920.1.1 = { remove_unit_leader = { id = 10059 }}
-1920.1.1 = { remove_unit_leader = { id = 10070 }}
-1920.1.1 = { remove_unit_leader = { id = 10071 }}
-1921.1.1 = { remove_unit_leader = { id = 10015 }}
-1921.1.1 = { remove_unit_leader = { id = 10018 }}
-1921.1.1 = { remove_unit_leader = { id = 10051 }}
-1921.1.1 = { remove_unit_leader = { id = 10052 }}
-1921.1.1 = { remove_unit_leader = { id = 10081 }}
-1921.6.1 = { remove_unit_leader = { id = 10011 }}
-1921.6.6 = { remove_unit_leader = { id = 10066 }}
-1922.1.1 = { remove_unit_leader = { id = 10005 }}
-1922.1.1 = { remove_unit_leader = { id = 10023 }}
-1922.1.1 = { remove_unit_leader = { id = 10027 }}
-1922.1.1 = { remove_unit_leader = { id = 10033 }}
-1922.1.1 = { remove_unit_leader = { id = 10035 }}
-1922.1.1 = { remove_unit_leader = { id = 10036 }}
-1922.1.1 = { remove_unit_leader = { id = 10046 }}
-1922.1.1 = { remove_unit_leader = { id = 10055 }}
-1922.6.3 = { remove_unit_leader = { id = 10067 }}
-1922.12.1 = { remove_unit_leader = { id = 10025 }}
-
 1923.1.1 = {
 
 	set_research_slots = 3
 	set_national_unity = 0.6
-	add_ideas =
+	add_ideas = {
+		ENG_the_war_to_end_all_wars }
 	set_politics = {
 	
 		parties = {
 			liberal = {
-				popularity = 30
-			}
+				popularity = 30 }
 			democratic = {
-				popularity = 12
-			}
+				popularity = 12 }
 			conservative = {
-				popularity = 54
-			}
+				popularity = 54 }
 			natsoc = {
-				popularity = 0
-			}
+				popularity = 0 }
 			fascism = {
-				popularity = 1
-			}
+				popularity = 1 }
 			socialist = { 
-				popularity = 2
-			}
+				popularity = 2 }
 			communism = {
-				popularity = 1
-			}
+				popularity = 1 }
 			autocratic = {
-				popularity = 0
-			}
+				popularity = 0 }
 			neutrality = {
-				popularity = 0
-			}
+				popularity = 0 }
 		}
 		ruling_party = conservative
 		last_election = "1920.11.4"
@@ -896,56 +826,43 @@ set_politics = {
 		desc = "POLITICS_WARREN_G_HARDING_DESC"
 		picture = "Portrait_USA_Warren_G_Harding.dds"
 		expire = "1923.8.2"
-		ideology = conservatism
-	}
+		ideology = conservatism }
 	create_country_leader = {
 		name = "Charles E. Ruthenberg"
 		desc = "CE_RUTHENBERG_DESC" #Communist party split into two factions, Ruthenberg and Foster
 		picture = "Portrait_USA_CE_Ruthenberg.dds"
 		expire = "1927.3.1"
-		ideology = marxism
-	}
+		ideology = marxism }
 	create_country_leader = {
 		name = "William Z Foster"
 		desc = "WILLIAM_FOSTER_DESC" #Communist party candidate 1928 
 		picture = "Portrait_USA_William_Foster.dds"
 		expire = "1950.1.1"
-		ideology = stalinism
-	}
+		ideology = stalinism }
 	create_country_leader = {
 		name = "Robert La Follette Sr"
 		desc = "ROBERT_LAFOLLETTE_SR_DESC"
 		picture = "Portrait_USA_Robert_La_Follette_Sr.dds"
 		expire = "1925.6.18"
-		ideology = populism
-	}
+		ideology = populism }
 	create_country_leader = {
 		name = "John Davis"
 		desc = "JOHN_DAVIS_DESC"
 		picture = "Portrait_USA_John_Davis.dds"
 		expire = "1955.3.24"
-		ideology = liberalism
-	}
+		ideology = liberalism }
 	create_country_leader = {
 		name = "Frank T. Johns"
 		desc = "FRANK_JOHNS_DESC"
 		picture = "Portrait_USA_Frank_Johns.dds"
 		expire = "1965.1.1"
-		ideology = marxism
-	}
+		ideology = marxism }
 	create_country_leader = {
 		name = "Gilbert Nations"
 		desc = "GILBERT_NATIONS_DESC"
 		picture = "Portrait_USA_Gilbert_Nations.dds"
 		expire = 1950.1.1
-		ideology = fascism_ideology
-	}
-	remove_unit_leader = {
-		id = 10006
-	}
-	remove_unit_leader = {
-		id = 10073
-	}
+		ideology = fascism_ideology }
 }
 
 1923.1.2 = {
@@ -958,18 +875,6 @@ set_politics = {
 	}
 }
 
-1923.2.14 = { remove_unit_leader = { id = 10020 }}
-1923.12.9 = { remove_unit_leader = { id = 10053 }}
-1924.1.1 = { remove_unit_leader = { id = 10003 }}
-1924.1.1 = { remove_unit_leader = { id = 10014 }}
-1924.1.1 = { remove_unit_leader = { id = 10038 }}
-1924.1.1 = { remove_unit_leader = { id = 10041 }}
-1924.1.1 = { remove_unit_leader = { id = 10001 }}
-1925.1.1 = { remove_unit_leader = { id = 10013 }}
-1925.1.1 = { remove_unit_leader = { id = 10024 }}
-1925.1.1 = { remove_unit_leader = { id = 10064 }}
-1925.6.17 = { remove_unit_leader = { id = 10010 }}
-
 1925.6.18 = {
 		create_country_leader = {
 		name = "Robert La Follette Jr"
@@ -979,18 +884,6 @@ set_politics = {
 		ideology = populism
 	}
 }
-
-1926.1.1 = { remove_unit_leader = { id = 10056 }}
-1926.1.1 = { remove_unit_leader = { id = 10057 }}
-1926.9.19 = { remove_unit_leader = { id = 10043 }}
-1927.1.1 = { remove_unit_leader = { id = 10002 }}
-1927.1.1 = { remove_unit_leader = { id = 10048 }}
-1927.1.1 = { remove_unit_leader = { id = 10079 }}
-1927.8.9 = { remove_unit_leader = { id = 10063 }}
-1927.12.1 = { remove_unit_leader = { id = 10047 }}
-1927.12.12 = { remove_unit_leader = { id = 10062 }}
-1928.1.1 = { remove_unit_leader = { id = 10032 }}
-1928.1.1 = { remove_unit_leader = { id = 10076 }}
 
 1928.1.1 = {
 	create_country_leader = {
@@ -1015,18 +908,6 @@ set_politics = {
 		ideology = socialism
 	}
 }
-
-1929.1.1 = { remove_unit_leader = { id = 10054 }}
-1929.1.1 = { remove_unit_leader = { id = 10065 }}
-1929.11.10 = { remove_unit_leader = { id = 10028 }}
-1931.1.1 = { remove_unit_leader = { id = 10039 }}
-1931.1.1 = { remove_unit_leader = { id = 10074 }}
-1932.1.1 = { remove_unit_leader = { id = 10042 }}
-1932.1.1 = { remove_unit_leader = { id = 10072 }}
-1933.1.1 = { remove_unit_leader = { id = 10077 }}
-1933.11.30 = { remove_unit_leader = { id = 10017 }}
-1935.1.1 = { remove_unit_leader = { id = 10029 }}
-1936.1.1 = { remove_unit_leader = { id = 10012 }}
 
 1936.1.1 = {
 # oob = "USA_1936"
@@ -1591,3 +1472,73 @@ create_equipment_variant = {
 1940.1.1 = { remove_unit_leader = { id = 10009 }}
 1942.1.1 = { remove_unit_leader = { id = 10019 }}
 1947.1.1 = { remove_unit_leader = { id = 10040 }}
+1917.1.1 = { remove_unit_leader = { id = 10069 }}
+1918.1.1 = { remove_unit_leader = { id = 10016 }}
+1918.1.1 = { remove_unit_leader = { id = 10021 }}
+1918.1.1 = { remove_unit_leader = { id = 10026 }}
+1918.1.1 = { remove_unit_leader = { id = 10031 }}
+1918.1.1 = { remove_unit_leader = { id = 10050 }}
+1918.1.1 = { remove_unit_leader = { id = 10075 }}
+1918.1.1 = { remove_unit_leader = { id = 10078 }}
+1918.1.1 = { remove_unit_leader = { id = 10080 }}
+1918.1.1 = { remove_unit_leader = { id = 10084 }}
+1918.2.20 = { remove_unit_leader = { id = 10061 }}
+1919.1.1 = { remove_unit_leader = { id = 10004 } remove_unit_leader = {id = 10007} remove_unit_leader = {id = 10030}  remove_unit_leader = {id = 10034} remove_unit_leader = {id = 10044} remove_unit_leader = {id = 10045} remove_unit_leader = { id = 10049} remove_unit_leader = {id = 10082}}
+1923.1.1 = { remove_unit_leader = {id = 10006 } remove_unit_leader = {id = 10073 } }
+1919.5.1 = { remove_unit_leader = { id = 10068 }}
+1919.10.31 = { remove_unit_leader = { id = 10008 }}
+1919.12.27 = { remove_unit_leader = { id = 10083 }}
+1920.1.1 = { remove_unit_leader = { id = 10037 }}
+1920.1.1 = { remove_unit_leader = { id = 10059 }}
+1920.1.1 = { remove_unit_leader = { id = 10070 }}
+1920.1.1 = { remove_unit_leader = { id = 10071 }}
+1921.1.1 = { remove_unit_leader = { id = 10015 }}
+1921.1.1 = { remove_unit_leader = { id = 10018 }}
+1921.1.1 = { remove_unit_leader = { id = 10051 }}
+1921.1.1 = { remove_unit_leader = { id = 10052 }}
+1921.1.1 = { remove_unit_leader = { id = 10081 }}
+1921.6.1 = { remove_unit_leader = { id = 10011 }}
+1921.6.6 = { remove_unit_leader = { id = 10066 }}
+1922.1.1 = { remove_unit_leader = { id = 10005 }}
+1922.1.1 = { remove_unit_leader = { id = 10023 }}
+1922.1.1 = { remove_unit_leader = { id = 10027 }}
+1922.1.1 = { remove_unit_leader = { id = 10033 }}
+1922.1.1 = { remove_unit_leader = { id = 10035 }}
+1922.1.1 = { remove_unit_leader = { id = 10036 }}
+1922.1.1 = { remove_unit_leader = { id = 10046 }}
+1922.1.1 = { remove_unit_leader = { id = 10055 }}
+1922.6.3 = { remove_unit_leader = { id = 10067 }}
+1922.12.1 = { remove_unit_leader = { id = 10025 }}
+1923.2.14 = { remove_unit_leader = { id = 10020 }}
+1923.12.9 = { remove_unit_leader = { id = 10053 }}
+1924.1.1 = { remove_unit_leader = { id = 10003 }}
+1924.1.1 = { remove_unit_leader = { id = 10014 }}
+1924.1.1 = { remove_unit_leader = { id = 10038 }}
+1924.1.1 = { remove_unit_leader = { id = 10041 }}
+1924.1.1 = { remove_unit_leader = { id = 10001 }}
+1925.1.1 = { remove_unit_leader = { id = 10013 }}
+1925.1.1 = { remove_unit_leader = { id = 10024 }}
+1925.1.1 = { remove_unit_leader = { id = 10064 }}
+1925.6.17 = { remove_unit_leader = { id = 10010 }}
+1929.1.1 = { remove_unit_leader = { id = 10054 }}
+1929.1.1 = { remove_unit_leader = { id = 10065 }}
+1929.11.10 = { remove_unit_leader = { id = 10028 }}
+1931.1.1 = { remove_unit_leader = { id = 10039 }}
+1931.1.1 = { remove_unit_leader = { id = 10074 }}
+1932.1.1 = { remove_unit_leader = { id = 10042 }}
+1932.1.1 = { remove_unit_leader = { id = 10072 }}
+1933.1.1 = { remove_unit_leader = { id = 10077 }}
+1933.11.30 = { remove_unit_leader = { id = 10017 }}
+1935.1.1 = { remove_unit_leader = { id = 10029 }}
+1936.1.1 = { remove_unit_leader = { id = 10012 }}
+1926.1.1 = { remove_unit_leader = { id = 10056 }}
+1926.1.1 = { remove_unit_leader = { id = 10057 }}
+1926.9.19 = { remove_unit_leader = { id = 10043 }}
+1927.1.1 = { remove_unit_leader = { id = 10002 }}
+1927.1.1 = { remove_unit_leader = { id = 10048 }}
+1927.1.1 = { remove_unit_leader = { id = 10079 }}
+1927.8.9 = { remove_unit_leader = { id = 10063 }}
+1927.12.1 = { remove_unit_leader = { id = 10047 }}
+1927.12.12 = { remove_unit_leader = { id = 10062 }}
+1928.1.1 = { remove_unit_leader = { id = 10032 }}
+1928.1.1 = { remove_unit_leader = { id = 10076 }}

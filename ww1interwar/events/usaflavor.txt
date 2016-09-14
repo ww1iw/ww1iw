@@ -74,3 +74,95 @@ news_event = {
 		}
 		
 }
+
+# Warren G. Harding Dies
+news_event = {
+	id = usapol.3
+	title = usapol.3.t
+	desc = usapol.3.d
+	picture = GFX_report_event_harding_funeral
+
+	trigger = {
+		tag = USA
+		date > 1923.8.2
+		date < 1923.8.31
+		OR = {
+			has_government = democratic
+			has_government = liberal
+			has_government = conservative
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = usapol.3.a
+			create_country_leader = {
+			name = "Calvin Coolidge"
+			desc = "CALVIN_COOLIDGE_DESC"
+			picture = "Portrait_USA_Calvin_Coolidge.dds"
+			expire = "1933.1.5"
+			ideology = conservatism
+			}
+		add_national_unity = -0.10
+		set_country_flag = harding_dead
+	}
+}
+
+# Teapot Dome Scandal
+news_event = {
+	id = usapol.4
+	title = usapol.4.t
+	desc = usapol.4.d
+	picture = GFX_report_event_harding_funeral
+
+	trigger = {
+		tag = USA
+		date > 1927.1.1
+		OR = {
+			has_government = democratic
+			has_government = liberal
+			has_government = conservative
+		}
+		has_country_flag = harding_dead
+	}
+
+	mean_time_to_happen = {
+		days = 730
+	}
+	
+	option = {
+		name = usapol.4.a
+		add_national_unity = -0.5
+	}
+}
+
+# T. Roosevelt runs under the Progressive Party
+news_event = {
+	id = usapol.5
+	title = usapol.5.t
+	desc = usapol.5.d
+	picture = GFX_report_event_harding_funeral
+
+	trigger = {
+		tag = USA
+		date > 1912.6.27
+		OR = {
+			has_government = democratic
+			has_government = liberal
+			has_government = conservative
+		}
+		#has_country_flag = taft_gop_candidate
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = usapol.5.a
+		add_popularity = { ideology = democratic popularity = 0.25 }
+	}
+}

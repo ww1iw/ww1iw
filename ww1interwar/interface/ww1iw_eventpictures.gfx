@@ -84,6 +84,10 @@ spriteTypes = {
 		name = "GFX_report_event_usa_blacksoxtrial"
 		texturefile = "gfx/event_pictures/report_event_usa_blacksoxtrial.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_harding_funeral"
+		texturefile = "gfx/event_pictures/report_event_harding_funeral.dds"
+	}
 }
 
 
