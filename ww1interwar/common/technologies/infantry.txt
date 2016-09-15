@@ -83,6 +83,9 @@ technologies = {
 		category_light_infantry = {
 			soft_attack = 0.05
 		}
+		infantry = {
+			defense = 0.05
+		}
 		
 		path = {
 			leads_to_tech = infantry_kit3
