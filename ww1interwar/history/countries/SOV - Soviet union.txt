@@ -12,6 +12,15 @@ add_ideas = {
 }
 give_guarantee = SER
 
+set_technology = {
+	infantry_kit = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
+	infantry_hmg = 1
+	marines = 1
+	tech_mountaineers = 1
+}
+
 set_politics = {
 
 	parties = {
@@ -74,6 +83,22 @@ add_ideas = {
 	communist_revolutionaries 
 }
 give_guarantee = SER
+
+set_technology = {
+	infantry_kit = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
+	infantry_hmg = 1
+	marines = 1
+	tech_mountaineers = 1
+	support_weapons = 1
+	infantry_kit1 = 1
+	infantry_optics = 1
+	infantry_lmg = 1
+	tech_sappers = 1
+	tech_mountaineers1 = 1
+	infantry_grenades = 1
+}
 
 set_politics = {
 

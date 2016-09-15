@@ -247,7 +247,6 @@ create_country_leader = {
 	tech_sappers = 1
 	infantry_kit3 = 1
 	infantry_kit4 = 1
-	infantry_kit5 = 1
 	support_weapons2 = 1
 	infantry_grenades = 1
 	infantry_flame = 1

@@ -504,7 +504,6 @@ set_technology = {
 	infantry_kit2 = 1
 	infantry_kit3 = 1
 	infantry_kit4 = 1
-	infantry_kit5 = 1
 	support_weapons1 = 1
 	infantry_armor = 1
 	infantry_camo = 1
