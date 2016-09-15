@@ -335,7 +335,6 @@ set_technology = {
 	tech_mountaineers = 1
 	support_weapons = 1
 	infantry_kit1 = 1
-	infantry_grenades = 1
 	infantry_optics = 1
 	infantry_lmg = 1
 	infantry_mortar1 = 1
