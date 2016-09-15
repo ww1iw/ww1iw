@@ -17,6 +17,20 @@ add_ideas = {
 	george_v
 }
 
+
+create_faction = "Commonwealth" #British Empire was described as such by Lord Rosebury (later British Prime Minister) while visiting Australia
+add_to_faction = ENG
+add_to_faction = SAF
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = NFL
+puppet = RAJ
+give_military_access = RAJ
+add_to_faction = RAJ		# Must be after puppet
+puppet = OMA 				#Had lots of British influence/British had exclusive rights, a garrison of British soldiers, & other EU countries not allowed to influence
+give_military_access = OMA
+#Purposely did not add Oman to faciton
 	give_guarantee = BEL
 
 set_politics = {

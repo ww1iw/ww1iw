@@ -6,7 +6,7 @@ add_ideas = {
 	limited_conscription
 }
 
-create_faction = Entente
+create_faction = "Entente"
 add_to_faction = FRA
 add_to_faction = SOV
 #add_to_faction = SER
@@ -84,7 +84,7 @@ create_country_leader = {
 		extensive_conscription
 	}
 	
-	create_faction = Entente
+	create_faction = "Entente"
 	add_to_faction = FRA
 	add_to_faction = SOV
 	#add_to_faction = SER
@@ -107,6 +107,7 @@ create_country_leader = {
 	infantry_optics = 1
 	infantry_mortar1 = 1
 	tech_sappers = 1
+}
 	
 	set_politics = {
 	
@@ -264,6 +265,7 @@ create_country_leader = {
 	marines2 = 1
 	infantry_grenades2 = 1
 	infantry_scope = 1
+}
 	
 	set_politics = {
 	
