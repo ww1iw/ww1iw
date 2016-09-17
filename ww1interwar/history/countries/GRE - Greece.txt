@@ -48,7 +48,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Eleftherios Venizelos"
+	name = "Elefthérios Venizélos"
 	desc = "ELEFTHERIOS_VENIZELOS_DESC"
 	picture = "Portrait_GRE_Eleftherios_Venizelos.dds"
 	expire = "1931.12.9"
