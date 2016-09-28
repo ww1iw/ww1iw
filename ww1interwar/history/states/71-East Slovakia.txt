@@ -6,7 +6,8 @@ state={
 	state_category = rural
 	
 	history={
-		owner = AUS
+		owner = KUK
+		add_claim_of = HUN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

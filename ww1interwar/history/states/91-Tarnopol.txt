@@ -4,8 +4,9 @@ state={
 	name="STATE_91"
 
 	history={
-		owner = AUS
+		owner = KUK
 		add_core_of = UKR
+		add_claim_of = AUS
 		1923.1.1 = {
 			owner = POL
 

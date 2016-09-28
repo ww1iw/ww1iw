@@ -18,11 +18,11 @@ news_event = {
 		if = {
 			if = {
 				limit = {
-					AUS = {
+					KUK = {
 						is_in_faction_with = GER
 					}
 				}
-				AUS = {
+				KUK = {
 					country_event = { id = berlin_peace_conference.2 days = 5 }
 				}
 			}
@@ -865,7 +865,7 @@ country_event = {
 		has_global_flag = berlin_french_border
 		has_global_flag = berlin_claims_over
 		tag = GER
-		AUS = {
+		KUK = {
 			is_in_faction_with = GER
 		}
 	}
@@ -877,7 +877,7 @@ country_event = {
 	option = {
 		name = berlin_peace_conference.18.a # Grant the Austro-Hungarian request
 		ai_chance = { factor = 95 }
-		AUS = {
+		KUK = {
 			puppet = SER
 			puppet = MTN
 		}
@@ -888,7 +888,7 @@ country_event = {
 	option = {
 		name = berlin_peace_conference.18.b # Only let them puppet Montenegro
 		ai_chance = { factor = 5 }
-		AUS = {
+		KUK = {
 			puppet = MTN
 		}
 		clr_global_flag = berlin_french_border
@@ -910,7 +910,7 @@ country_event = {
 		has_global_flag = berlin_french_border
 		has_global_flag = berlin_claims_over
 		tag = GER
-		AUS = {
+		KUK = {
 			is_in_faction_with = GER
 		}
 	}
@@ -922,7 +922,7 @@ country_event = {
 	option = {
 		name = berlin_peace_conference.19.a # Grant the Austro-Hungarian request
 		ai_chance = { factor = 56 }
-		AUS = {
+		KUK = {
 			annex_country = { target = MTN transfer_troops = no } 
 			puppet = SER
 		}
@@ -933,7 +933,7 @@ country_event = {
 	option = {
 		name = berlin_peace_conference.19.b # Give Montenegro to Serbia
 		ai_chance = { factor = 22 }
-		AUS = {
+		KUK = {
 			puppet = SER
 		}
 		SER = {
@@ -946,7 +946,7 @@ country_event = {
 	option = {
 		name = berlin_peace_conference.19.c # Maintain Montenegrin sovereignty as a puppet
 		ai_chance = { factor = 22 }
-		AUS = {
+		KUK = {
 			puppet = MTN
 			puppet = SER
 		}
@@ -969,7 +969,7 @@ country_event = {
 		has_global_flag = berlin_french_border
 		has_global_flag = berlin_claims_over
 		tag = GER
-		AUS = {
+		KUK = {
 			is_in_faction_with = GER
 		}
 	}
@@ -981,7 +981,7 @@ country_event = {
 	option = {
 		name = berlin_peace_conference.20.a # Grant the Austro-Hungarian request
 		ai_chance = { factor = 54 }
-		AUS = {
+		KUK = {
 			annex_country = { target = MTN transfer_troops = no } 
 			transfer_state = 818
 			puppet = SER
@@ -993,7 +993,7 @@ country_event = {
 	option = {
 		name = berlin_peace_conference.20.b # Make Belgrade into a demilitarized zone instead
 		ai_chance = { factor = 46 }
-		AUS = {
+		KUK = {
 			annex_country = { target = MTN transfer_troops = no } 
 			puppet = SER
 		}
@@ -1292,7 +1292,7 @@ country_event = {
 		trigger = {
 			has_global_flag = austrian_albania_a
 		}
-		AUS = {
+		KUK = {
 			puppet = ALB
 		}
 		clr_global_flag = ottoman_albania_a
@@ -1653,7 +1653,7 @@ country_event = {
 			has_global_flag = berlin_french_border
 		}
 		tag = GER
-		AUS = {
+		KUK = {
 			is_in_faction_with = GER
 		}
 	}
@@ -1703,7 +1703,7 @@ country_event = {
 			has_global_flag = berlin_french_border
 		}
 		tag = GER
-		AUS = {
+		KUK = {
 			is_in_faction_with = GER
 		}
 	}
@@ -1715,7 +1715,7 @@ country_event = {
 	option = {
 		name = berlin_peace_conference.32.a # Grant the Austro-Hungarian request
 		ai_chance = { factor = 52 }
-		AUS = {
+		KUK = {
 			transfer_state = 160 
 		}
 		clr_global_flag = austrian_isonzo_b

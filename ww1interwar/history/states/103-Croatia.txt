@@ -8,7 +8,7 @@ state={
 
 
 	history={
-		owner = AUS
+		owner = KUK
 		victory_points = {
 			3924 1 
 		}
@@ -23,6 +23,8 @@ state={
 				naval_base = 1
 			}
 		}
+		add_claim_of = HUN
+		add_claim_of = AUS
 		add_core_of = YUG
 		#add_claim_by = ITA #added by focus
 		add_core_of = CRO

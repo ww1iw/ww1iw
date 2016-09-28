@@ -1,0 +1,45 @@
+﻿add_namespace = ah_breakup
+
+# Hungary Independent
+news_event = {
+	id = ah_breakup.1
+	title = ah_breakup.1.t
+	desc = ah_breakup.1.d
+	picture = ah_breakup_001
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	trigger = {
+			tag=KUK
+			HUN = { exists = yes }
+		}
+	
+	option = {
+		name = ah_breakup.1.a # Austria-Hungary is no longer
+		change_tag = AUS
+	}
+}
+
+# Austria Independent
+news_event = {
+	id = ah_breakup.2
+	title = ah_breakup.2.t
+	desc = ah_breakup.2.d
+	picture = ah_breakup_002
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	trigger = {
+			tag=KUK
+			AUS = { exists = yes }
+		}
+	
+	option = {
+		name = ah_breakup.2.a # Austria-Hungary is no longer
+		change_tag = HUN
+	}
+}

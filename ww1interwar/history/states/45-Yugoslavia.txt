@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history = {
-		owner = AUS
+		owner = KUK
 		1923.1.1 = { 
 			owner = YUG 
 		}

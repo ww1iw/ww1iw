@@ -8,10 +8,11 @@ state=
 	
 	history =
 	{
-	 owner = AUS
+	 owner = KUK
 		buildings = {
 			infrastructure = 6
 		}
+		add_claim_of = AUS
 		victory_points = {
 			9627 3 
 		}

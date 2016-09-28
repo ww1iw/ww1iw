@@ -547,7 +547,7 @@ country_event = {
 	        limit = {
 		        AND = {
  	                is_in_faction = no
- 	                tag = AUS
+ 	                tag = KUK
                 }
 	        }
 	
@@ -612,13 +612,13 @@ country_event = {
 	option = {
 		name = germany.wwi24.a
 		ai_chance = { factor = 100 }
-		FRA = { add_to_faction = AUS }
+		FRA = { add_to_faction = KUK }
 	}
 	
 	option = {
 		name = germany.wwi24.b
 		ai_chance = { factor = 0 }
-		AUS = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
+		KUK = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
 	}
 }
 #German-Russian alliance, UK
@@ -866,7 +866,7 @@ country_event = {
 	        limit = {
 		        AND = {
  	                is_in_faction = no
- 	                tag = AUS
+ 	                tag = KUK
                 }
 	        }
 	
@@ -920,13 +920,13 @@ country_event = {
 	option = {
 		name = germany.wwi37.a
 		ai_chance = { factor = 100 }
-		FRA = { add_to_faction = AUS }
+		FRA = { add_to_faction = KUK }
 	}
 	
 	option = {
 		name = germany.wwi37.b
 		ai_chance = { factor = 0 }
-		AUS = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
+		KUK = { add_opinion_modifier = { target = FRA modifier = ger_refuses_alliance_opinion } }
 	}
 }
 

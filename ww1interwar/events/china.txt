@@ -1947,13 +1947,13 @@ country_event = {
 	trigger = {
 		date > 1917.1.1
 		date < 1920.1.1
-		AUS = { has_war_with = SER }
+		KUK = { has_war_with = SER }
 	}
 	
 	immediate = {
 		if = {
 			limit = {
-				GER = { has_war_together_with = AUS }
+				GER = { has_war_together_with = KUK }
 			}
 			BYG = { news_event = { id = ww1_china.38 } }
 		}
@@ -1961,7 +1961,7 @@ country_event = {
 			limit = {
 				AND = {
 					JAP = { has_war_together_with = SER }
-					NOT = { GER = { has_war_together_with = AUS } }
+					NOT = { GER = { has_war_together_with = KUK } }
 				}
 			}
 			BYG = { news_event = { id = ww1_china.39 } } 
@@ -1969,8 +1969,8 @@ country_event = {
 		if = {
 			limit = {
 				AND = {
-					NOT = { GER = { has_war_together_with = AUS } }
-					JAP = { has_war_together_with = AUS }
+					NOT = { GER = { has_war_together_with = KUK } }
+					JAP = { has_war_together_with = KUK }
 				}
 			}
 			BYG = { news_event = { id = ww1_china.38 } }
@@ -1978,8 +1978,8 @@ country_event = {
 		if = {
 			limit = {
 				NOT = { 
-					GER = { has_war_together_with = AUS }
-					JAP = { has_war_together_with = AUS }
+					GER = { has_war_together_with = KUK }
+					JAP = { has_war_together_with = KUK }
 				}
 			}
 			BYG = { news_event = { id = ww1_china.38 } }
@@ -2005,7 +2005,7 @@ country_event = {
 		ai_chance = {
 			factor = 70
 		}
-		add_to_war = { targeted_alliance = SER enemy = AUS }
+		add_to_war = { targeted_alliance = SER enemy = KUK }
 		SIK = { country_event = { days = 2 id = ww1_china.40 } }
 		SHX = { country_event = { days = 2 id = ww1_china.40 } }
 		YUN = { country_event = { days = 2 id = ww1_china.40 } }
@@ -2047,7 +2047,7 @@ country_event = {
 		ai_chance = {
 			factor = 20
 		}
-		add_to_war = { targeted_alliance = AUS enemy = SER }
+		add_to_war = { targeted_alliance = KUK enemy = SER }
 		SIK = { country_event = { days = 2 id = ww1_china.40 } }
 		SHX = { country_event = { days = 2 id = ww1_china.40 } }
 		YUN = { country_event = { days = 2 id = ww1_china.40 } }
@@ -2085,7 +2085,7 @@ country_event = {
 	trigger = {
 		NOT = {
 			has_war_together_with = SER
-			has_war_together_with = AUS
+			has_war_together_with = KUK
 		}
 	}
 	
@@ -2110,13 +2110,13 @@ country_event = {
 			limit = {
 				BYG = { has_war_together_with = SER }
 			}
-			add_to_war = { targeted_alliance = SER enemy = AUS }
+			add_to_war = { targeted_alliance = SER enemy = KUK }
 		}
 		if = {
 			limit = {
-				BYG = { has_war_together_with = AUS }
+				BYG = { has_war_together_with = KUK }
 			}
-			add_to_war = { targeted_alliance = AUS enemy = SER }
+			add_to_war = { targeted_alliance = KUK enemy = SER }
 		}
 	}
 	option = {
@@ -2140,13 +2140,13 @@ country_event = {
 			limit = {
 				BYG = { has_war_together_with = SER }
 			}
-			add_to_war = { targeted_alliance = AUS enemy = SER }
+			add_to_war = { targeted_alliance = KUK enemy = SER }
 		}
 		if = {
 			limit = {
-				BYG = { has_war_together_with = AUS }
+				BYG = { has_war_together_with = KUK }
 			}
-			add_to_war = { targeted_alliance = SER enemy = AUS }
+			add_to_war = { targeted_alliance = SER enemy = KUK }
 		}
 	}
 	option = {
@@ -2284,7 +2284,7 @@ country_event = {
 			limit = { 
 				BYG = { has_country_flag = BYG_Entente_refused }
 			}
-			add_to_war = { targeted_alliance = SER enemy = AUS }
+			add_to_war = { targeted_alliance = SER enemy = KUK }
 			SIK = { country_event = { days = 2 id = ww1_china.40 } }
 			SHX = { country_event = { days = 2 id = ww1_china.40 } }
 			YUN = { country_event = { days = 2 id = ww1_china.40 } }
@@ -2300,7 +2300,7 @@ country_event = {
 			limit = { 
 				BYG = { has_country_flag = BYG_Central_refused }
 			}
-			add_to_war = { targeted_alliance = AUS enemy = SER }
+			add_to_war = { targeted_alliance = KUK enemy = SER }
 			SIK = { country_event = { days = 2 id = ww1_china.40 } }
 			SHX = { country_event = { days = 2 id = ww1_china.40 } }
 			YUN = { country_event = { days = 2 id = ww1_china.40 } }
@@ -2370,7 +2370,7 @@ country_event = {
 			limit = { 
 				BYG = { has_country_flag = BYG_Entente_refused }
 			}
-			add_to_war = { targeted_alliance = AUS enemy = SER }
+			add_to_war = { targeted_alliance = KUK enemy = SER }
 			SIK = { country_event = { days = 2 id = ww1_china.40 } }
 			SHX = { country_event = { days = 2 id = ww1_china.40 } }
 			YUN = { country_event = { days = 2 id = ww1_china.40 } }
@@ -2386,7 +2386,7 @@ country_event = {
 			limit = { 
 				BYG = { has_country_flag = BYG_Central_refused }
 			}
-			add_to_war = { targeted_alliance = SER enemy = AUS }
+			add_to_war = { targeted_alliance = SER enemy = KUK }
 			SIK = { country_event = { days = 2 id = ww1_china.40 } }
 			SHX = { country_event = { days = 2 id = ww1_china.40 } }
 			YUN = { country_event = { days = 2 id = ww1_china.40 } }

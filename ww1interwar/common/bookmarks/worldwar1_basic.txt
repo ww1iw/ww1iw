@@ -39,7 +39,7 @@ bookmarks = {
 			}
 			
 		}
-		AUS = {
+		KUK = {
 			history = AUS_WW1_DESC
 			ideology = autocratic
 			ideas = {

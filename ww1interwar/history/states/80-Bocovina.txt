@@ -4,7 +4,8 @@ state={
 	name="STATE_80"
 
 	history={
-		owner = AUS
+		owner = KUK
+		add_claim_of = AUS
 		1923.1.1 = {
 			owner = ROM
 

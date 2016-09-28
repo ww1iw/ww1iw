@@ -333,7 +333,7 @@ country_event = {
 				transfer_state = 3
 				transfer_state = 765
 			}
-			AUS = {
+			KUK = {
 				transfer_state = 151
 			}
 		}

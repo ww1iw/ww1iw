@@ -10,7 +10,7 @@ country_event = {
 	trigger = {
 		date > 1914.6.1
 		date < 1915.1.1
-		tag = AUS
+		tag = KUK
 		NOT = {
 			OR = {
 				has_country_flag = franz_ferdinand_assassinated
@@ -57,7 +57,7 @@ country_event = {
 	trigger = {
 		date > 1914.6.1
 		date < 1915.1.1
-		tag = AUS
+		tag = KUK
 		NOT = {
 			OR = {
 				has_country_flag = franz_ferdinand_assassinated
@@ -107,7 +107,7 @@ country_event = {
 	trigger = {
 		date > 1914.6.1
 		date < 1915.1.1
-		tag = AUS
+		tag = KUK
 		NOT = {
 			OR = {
 				has_country_flag = franz_ferdinand_assassinated
@@ -166,10 +166,10 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		AUS = {
+		KUK = {
 			country_event = { days = 20 id = world_war_1.6 }
 		}
-		AUS = {
+		KUK = {
 			puppet = ROOT
 		}
 	}
@@ -177,7 +177,7 @@ country_event = {
 	option = {
 		name = world_war_1.4.b	#refuse ultimatum
 		ai_chance = { factor = 90 }
-		AUS = {
+		KUK = {
 			country_event = { days = 20 id = world_war_1.7 }
 		}
 		custom_effect_tooltip = ah_hostility
@@ -198,7 +198,7 @@ country_event = {
 		ai_chance = { 
 			factor = 90
 		}
-		AUS = {
+		KUK = {
 			country_event = { days = 20 id = world_war_1.8 }
 		}
 		political_power = -1000
@@ -207,7 +207,7 @@ country_event = {
 	option = {
 		name = world_war_1.5.b	#refuse demands
 		ai_chance = { factor = 90 }
-		AUS = {
+		KUK = {
 			country_event = { days = 20 id = world_war_1.7 }
 		}
 		custom_effect_tooltip = ah_hostility
@@ -240,7 +240,7 @@ country_event = {
 	
 	option = {
 		name = world_war_1.6.a	#so you want war?
-		AUS = {	
+		KUK = {	
 			create_wargoal = {
 				type = puppet_wargoal_focus
 				target = SER
@@ -274,7 +274,7 @@ country_event = {
 	
 	trigger = {
 		tag = SOV
-		AUS = {
+		KUK = {
 			has_war_with = SER
 		}
 	}
@@ -286,7 +286,7 @@ country_event = {
 	option = {
 		name = world_war_1.9.a	# Demand CP withdrawal
 		ai_chance = { factor = 90 }
-		AUS = {
+		KUK = {
 			country_event = { id = world_war_1.10 }
 		}
 	}
@@ -309,7 +309,7 @@ country_event = {
 	option = {
 		name = world_war_1.10.a	# Spare us!
 		ai_chance = { factor = 10 }
-		AUS = { white_peace = SER }
+		KUK = { white_peace = SER }
 	}
 	
 	option = {

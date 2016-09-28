@@ -5,9 +5,10 @@ state={
 	state_category = city
 
 	history={
-			owner = AUS
+			owner = KUK
 		add_core_of = ITA
 		add_core_of = YUG
+		add_claim_of = AUS
 		buildings = {
 			infrastructure = 2
 			11735 = {

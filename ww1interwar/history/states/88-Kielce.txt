@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = AUS
+		owner = KUK
 		victory_points = {
 			9427 10 
 		}
@@ -20,6 +20,7 @@ state={
 
 		}
 		add_core_of = POL
+		add_claim_of = AUS
 		1923.1.1 = {
 			owner = POL
 

@@ -18,7 +18,7 @@ country_event = {
 				tag = SOV
 			}
 			or = {
-				tag = AUS
+				tag = KUK
 			}
 			or = {
 				tag = TUR
@@ -274,7 +274,7 @@ country_event = {
 					tag = SOV
 				}
 				or = {
-					tag = AUS
+					tag = KUK
 				}
 				or = {
 					tag = TUR
@@ -377,7 +377,7 @@ country_event = {
 			transfer_state = 833
 			transfer_state = 96
 		}
-		AUS = {
+		KUK = {
 			transfer_state = 829
 		}
 		TUR = {
@@ -1136,7 +1136,7 @@ country_event = {
 		UKR = {
 			is_in_faction_with = GER
 		}
-		AUS = {
+		KUK = {
 			controls_state = 91
 		}
 	}
@@ -1147,7 +1147,7 @@ country_event = {
 	
 	option = {
 		name = brest_litovsk.14.a # Ask Austria-Hungary
-		AUS = {
+		KUK = {
 			country_event = { id = brest_litovsk.15 days = 1 }
 		}
 	}
@@ -1170,12 +1170,12 @@ country_event = {
 			modifier = {
 				factor = 1
 				has_opinion = {
-					target = AUS
+					target = KUK
 					value < 15
 				}
 			}
 		}
-		AUS = {
+		KUK = {
 			add_manpower = 80000
 			add_national_unity = 0.10
 		}
@@ -1188,12 +1188,12 @@ country_event = {
 			modifier = {
 				factor = 1
 				has_opinion = {
-					target = AUS
+					target = KUK
 					value < -15
 				}
 			}
 		}
-		AUS = {
+		KUK = {
 			add_national_unity = -0.10
 		}
 	}
@@ -1217,7 +1217,7 @@ country_event = {
 				tag = SOV
 			}
 			or = {
-				tag = AUS
+				tag = KUK
 			}
 			or = {
 				tag = TUR
@@ -1458,7 +1458,7 @@ country_event = {
 					tag = SOV
 				}
 				or = {
-					tag = AUS
+					tag = KUK
 				}
 				or = {
 					tag = TUR
@@ -1486,7 +1486,7 @@ country_event = {
 				tag = SOV
 			}
 			or = {
-				tag = AUS
+				tag = KUK
 			}
 			or = {
 				tag = TUR
@@ -1725,7 +1725,7 @@ country_event = {
 					tag = SOV
 				}
 				or = {
-					tag = AUS
+					tag = KUK
 				}
 				or = {
 					tag = TUR

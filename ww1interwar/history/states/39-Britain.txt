@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = AUS
+		owner = KUK
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
