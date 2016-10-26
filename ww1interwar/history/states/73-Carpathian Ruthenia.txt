@@ -12,7 +12,11 @@ state={
 		}
 		add_core_of = CZE
 		add_claim_by = HUN
+		add_core_of = KUK
 
+		1923.1.1 = {  
+			owner = CZE 
+		}
 		1939.3.14 = {
 			owner = HUN
 			controller = HUN
@@ -20,7 +24,6 @@ state={
 			add_core_of = HUN
 			add_core_of = SLO
 		}
-					1923.1.1 = {  owner = CZE }
 	}
 
 	provinces={

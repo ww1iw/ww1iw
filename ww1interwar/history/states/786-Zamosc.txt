@@ -1,28 +1,27 @@
-
-state={
+state = {
 	id=786
 	name="STATE_786"
+	manpower = 1109070
 
-	history={
+	state_category = town
+	
+	history = {
 		owner = KUK
-		add_claim_of = AUS
-		1923.1.1 = {
-			owner = POL
-
-		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 
 		}
 		add_core_of = POL
+		add_claim_by = AUS
+		add_core_of = KUK
 
+		1923.1.1 = {
+			owner = POL
+		}
 	}
 
 	provinces={
 		466 536 3434 6499 6522 9468 11507 
 	}
-	manpower=1109070
-	buildings_max_level_factor=1.000
-	state_category=town
 }

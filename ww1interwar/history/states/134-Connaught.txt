@@ -1,6 +1,4 @@
-
-state=
-{
+state = {
 	id=134
 	name="STATE_134"
 	manpower = 667100
@@ -10,23 +8,24 @@ state=
 	history = {
 		owner = IRE
 		victory_points = {
-			3396 1
+			3396 5
 		}
-	buildings = {
+		buildings = {
 			infrastructure = 6
 		}
 		add_core_of = IRE
 		
 		1911.1.1 = {
 			owner = ENG
-			add_core_of = ENG
+			add_claim_by = ENG
 		}
 		1921.7.11 = {
 			owner = IRE
+			remove_claim_by = ENG
 		}
 	}
 
-	provinces=
-	{
-337 3396 9255 9303 9321 9369 11238 11287 11371 	}
+	provinces = {
+		337 3396 9255 9303 9321 9369 11238 11287 11371 	
+	}
 }

@@ -12,7 +12,7 @@ state={
 	history={
 		owner = KUK
 		victory_points = {
-			11666 30.0 
+			11666 40
 		}
 		victory_points = {
 			9648 5 
@@ -24,11 +24,15 @@ state={
 			air_base = 6
 		}
 		add_core_of = AUS
+		add_core_of = KUK
+		
 		1920.1.1 = {
 			owner = AUS
 			controller = AUS
+			victory_points = {
+				11666 30 
 			}
-
+		}
 		1938.3.12 = {
 			owner = GER
 			controller = GER

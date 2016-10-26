@@ -1,4 +1,0 @@
-﻿Hello!
-All the localisation files should be Encoded in "UTF-8-BOM" else the game won't read them. So if you're making a new localisation file please always ensure that you're
-checking the Encoding and converting it to "UTF-8-BOM". Thanks! It was causing me quite the headache tonight as I tried to figure out why the localisation files weren't
-working. All the current ones should have the proper encoding, as I went through every single one of them and converted them.

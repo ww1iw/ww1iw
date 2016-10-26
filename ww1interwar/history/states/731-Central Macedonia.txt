@@ -1,12 +1,14 @@
-
-state={
+state = {
 	id=731
 	name="STATE_731"
+	manpower = 756450
+		
+	state_category = town
 
-	history={
+	history = {
 		owner = TUR
 		victory_points = {
-			11818 5 
+			11818 15 
 		}
 		buildings = {
 			infrastructure = 5
@@ -19,8 +21,9 @@ state={
 			}
 
 		}
-		add_core_of = TUR
 		add_core_of = GRE
+		add_core_of = TUR
+		
 		1913.5.30 = {
 			owner = GRE
 			remove_core_of = TUR
@@ -32,7 +35,4 @@ state={
 	provinces={
 		895 936 3936 10163 11818 
 	}
-	manpower=756450
-	buildings_max_level_factor=1.000
-	state_category=town
 }

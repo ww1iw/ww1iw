@@ -2,10 +2,12 @@
 state={
 	id=80
 	name="STATE_80"
+	manpower = 474600
+	
+	state_category = rural
 
 	history={
 		owner = KUK
-		add_claim_of = AUS
 		1923.1.1 = {
 			owner = ROM
 
@@ -16,13 +18,12 @@ state={
 
 		}
 		add_core_of = ROM
+		add_claim_by = AUS
+		add_core_of = KUK
 
 	}
 
 	provinces={
 		577 6761 9548 11689 
 	}
-	manpower=474600
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

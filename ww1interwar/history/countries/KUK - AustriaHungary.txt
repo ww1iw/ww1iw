@@ -78,7 +78,7 @@ capital = 4
 add_ideas ={
 imperial_ideal
 }
-GER = { add_to_faction = AUS }
+GER = { add_to_faction = KUK }
 
 
 set_research_slots = 2

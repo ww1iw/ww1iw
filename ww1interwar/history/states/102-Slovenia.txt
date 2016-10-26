@@ -6,18 +6,21 @@ state=
 	
 	state_category = large_town
 	
-	history =
-	{
-	 owner = KUK
-		buildings = {
-			infrastructure = 6
-		}
-		add_claim_of = AUS
+	history = {
+		owner = KUK
 		victory_points = {
 			9627 3 
 		}
+		buildings = {
+			infrastructure = 6
+		}
 		add_core_of = YUG
-					1923.1.1 = {  owner = YUG }
+		add_claim_by = AUS
+		add_core_of = KUK
+		
+		1923.1.1 = {  
+			owner = YUG 
+		}
 	}
 
 	provinces={

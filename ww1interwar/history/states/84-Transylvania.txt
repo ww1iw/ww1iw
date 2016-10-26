@@ -9,9 +9,8 @@ state={
 	
 	state_category = rural
 
-	history={
+	history = {
 		owner = KUK
-		add_claim_of = HUN
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -21,7 +20,12 @@ state={
 			690 1 
 		}
 		add_core_of = ROM
-								1923.1.1 = {  owner = ROM }
+		add_claim_by = HUN
+		add_core_of = KUK
+		
+		1923.1.1 = {  
+			owner = ROM 
+		}
 	}
 
 	provinces={

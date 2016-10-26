@@ -21,11 +21,12 @@ state={
 			688 10 
 		}
 		add_core_of = AUS
+		add_core_of = KUK
+		
 		1920.1.1 = {
 			owner = AUS
 			controller = AUS
-			}
-
+		}
 		1938.3.12 = {
 			owner = GER
 			controller = GER
