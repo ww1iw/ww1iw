@@ -12,8 +12,6 @@ state={
 
 	history={
 		owner = TUR
-		1923.1.1 = { owner = ENG }
-		1936.1.1 = { owner = IRQ }
 		buildings = {
 			infrastructure = 3
 		}
@@ -21,6 +19,15 @@ state={
 			10106 1 
 		}
 		add_core_of = IRQ
+		add_core_of = TUR
+		
+		1923.1.1 = { 
+			owner = ENG
+			remove_core_of = TUR
+		}
+		1936.1.1 = { 
+			owner = IRQ 
+		}
 	}
 	
 	provinces={

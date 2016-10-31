@@ -7,12 +7,16 @@ state={
 
 	history={
 		owner = TUR
-		1923.1.1 = { owner = FRA }
 		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = SYR
-
+		add_core_of = TUR
+		
+		1923.1.1 = { 
+			owner = FRA
+			remove_core_of = TUR
+		}
 	}
 
 

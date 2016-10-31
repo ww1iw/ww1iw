@@ -8,15 +8,19 @@ state={
 	
 	history={
 		owner = TUR
-		1923.1.1 = { owner = FRA }
 		victory_points = {
-			12473 1 
+			12473 3
 		}
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = SYR
+		add_core_of = TUR
 
+		1923.1.1 = { 
+			owner = FRA
+			remove_core_of = TUR
+		}
 	}
 
 	

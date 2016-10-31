@@ -2,13 +2,12 @@
 state={
 	id=455
 	name="STATE_455"
+	manpower = 605800
+	
+	state_category = rural
 
 	history={
 		owner = TUR
-		1923.1.1 = {
-			owner = ENG
-
-		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -18,13 +17,15 @@ state={
 			7151 1 
 		}
 		add_core_of = JOR
-
+		add_core_of = TUR
+		
+		1923.1.1 = {
+			owner = ENG
+			remove_core_of = TUR
+		}
 	}
 
 	provinces={
 		4017 4115 4574 4591 7001 7151 7170 10089 13207 
 	}
-	manpower=605800
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

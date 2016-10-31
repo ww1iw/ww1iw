@@ -1,10 +1,10 @@
 
 state={
-	id=339
-	name="STATE_339"
-	manpower = 1111755
+	id=49
+	name="STATE_49" # Ankara
+	manpower = 770758
 	resources={
-		chromium=86
+		chromium=16
 	}
 	
 	state_category = town
@@ -13,27 +13,24 @@ state={
 		owner = TUR
 		
 		victory_points = {
-			4112 5 
+			11747 20 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-			air_base = 2
-			4112 = {
-				naval_base = 5
-			}
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
 		}
 		add_core_of = TUR
-		add_core_of = GRE
 		
 		1923.1.1 = {
 			victory_points = {
-				4112 15
+				11747 10 
 			}
 		}
 	}
 
 	provinces={
-		928 3927 4112 6992 7130 9921 9929 10038 11848 11898 
+		804 909 3907 3951 6808 6908 6925 9806 9901 11747 11784 
 	}
 }

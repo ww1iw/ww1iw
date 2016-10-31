@@ -8,14 +8,6 @@ state={
 
 	history={
 		owner = TUR
-		1923.1.1 = {
-			owner = ENG
-
-		}
-		1936.1.1 = {
-			owner = IRQ
-
-		}
 		victory_points = {
 			2097 5 
 		}
@@ -37,7 +29,15 @@ state={
 
 		}
 		add_core_of = IRQ
-
+		add_core_of = TUR
+		
+		1923.1.1 = {
+			owner = ENG
+			remove_core_of = TUR
+		}
+		1936.1.1 = {
+			owner = IRQ
+		}
 	}
 
 	provinces={

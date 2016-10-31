@@ -8,7 +8,6 @@ state={
 
 	history={
 		owner = TUR
-		1923.1.1 = { owner = ENG }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -18,13 +17,19 @@ state={
 			}
 		}
 		victory_points = {
-			1086 1 
+			1086 3 
 		}
 		victory_points = {
 			4206 1 
 		}
 		add_core_of = PAL
 		add_core_of = ISR
+		add_core_of = TUR
+		
+		1923.1.1 = { 
+			owner = ENG
+			remove_core_of = TUR
+		}
 	}
 
 	provinces={
