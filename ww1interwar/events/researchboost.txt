@@ -1,0 +1,128 @@
+﻿
+add_namespace = researchboost
+
+country_event = {
+	id = researchboost.50
+	picture = GFX_report_event_physics_lab_01
+	hidden = yes
+	fire_only_once = no
+	trigger = { 
+		has_idea = research_law_1
+	}
+	mean_time_to_happen = {
+		days = 50		
+	}
+	option = { 
+		name = researchboost.24b
+		random_list = { 
+			10 = {
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = industry
+				}
+			}
+
+			10 = {
+				add_tech_bonus = {
+					name = infantry_tech_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = infantry_tech
+					category = para_tech
+					category = marine_tech
+					category = infantry_weapons
+									
+				}	
+			}
+
+			10 = {
+				add_tech_bonus = {
+					name = infantry_tech_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = artillery
+									
+				}	
+			}			
+			10 = {
+				add_tech_bonus = {
+					name = air_equipment_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = air_equipment
+				}	
+			}
+			10 = {
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = electronics
+					category = nuclear
+					category = rocketry
+					category = jet_technology
+				}	
+			}
+			10 = {
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = electronics
+				}	
+			}			
+			10 = {
+				add_tech_bonus = {
+					name = naval_equipment_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = naval_equipment
+				}
+
+			}	
+			10 = {
+				add_tech_bonus = {
+					name = land_doctrine_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = land_doctrine
+					category = naval_doctrine
+					category = air_doctrine
+				}
+
+			}	
+			10 = {
+				add_tech_bonus = {
+					name = land_doctrine_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = armor	
+					category = motorized_equipment
+				}
+
+			}				
+			10 = {
+				add_tech_bonus = {
+					name = support_tech_bonus
+					bonus = 0.5
+					ahead_reduction = 0.5
+					uses = 1
+					category = support_tech
+				}
+
+			}															
+																											
+		}				
+	}
+}
