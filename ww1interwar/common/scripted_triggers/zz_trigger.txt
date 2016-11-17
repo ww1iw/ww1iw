@@ -1,0 +1,38 @@
+conference_vote = { 
+	if = { 
+		limit = { 
+			IRE = { exists = yes }	
+		}
+		has_country_flag = ire_vote
+	}
+	if = { 
+		limit = { 
+			AST = { exists = yes }	
+		}
+		has_country_flag = aus_vote
+	}
+	if = { 
+		limit = { 
+			CAN = { exists = yes }	
+		}
+		has_country_flag = can_vote
+	}
+	if = { 
+		limit = { 
+			RAJ = { exists = yes }	
+		}
+		has_country_flag = raj_vote
+	}
+	if = { 
+		limit = { 
+			NZL = { exists = yes }	
+		}
+		has_country_flag = nzl_vote
+	}
+	if = { 
+		limit = { 
+			SAF = { exists = yes }	
+		}
+		has_country_flag = saf_vote
+	}					
+}

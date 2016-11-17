@@ -1,0 +1,246 @@
+ideas = {
+	resource_extraction = {
+		law = yes
+		resource_extraction_1 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -0.1	
+				local_resources_factor = 0.20
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}
+		resource_extraction_2 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -0.2	
+				local_resources_factor = 0.4
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}
+		resource_extraction_3 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -0.3	
+				local_resources_factor = 0.6
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}
+		resource_extraction_4 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -0.4	
+				local_resources_factor = 0.8
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}
+		resource_extraction_5 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -0.5	
+				local_resources_factor = 1
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}
+		resource_extraction_6 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -0.6	
+				local_resources_factor = 1.2
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}
+		resource_extraction_7 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -0.7	
+				local_resources_factor = 1.4
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}
+		resource_extraction_8 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -0.8	
+				local_resources_factor = 1.6
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}
+		resource_extraction_9 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -0.9	
+				local_resources_factor = 1.8
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}
+		resource_extraction_10 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}			
+			
+			cost = 150
+			removal_cost = 0
+			modifier = {
+				political_power_gain = -1
+				local_resources_factor = 2
+			}			
+			cancel_if_invalid = no
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 2
+					
+					is_major = yes
+				}
+   			}
+
+		}																		
+	}
+
+}
