@@ -1,0 +1,140 @@
+﻿add_namespace = buildingslot
+country_event = {
+	id = buildingslot.50
+	title = buildingslot.50.t
+	desc = buildingslot.50.d
+	picture = GFX_report_event_physics_lab_01
+	hidden = yes
+	fire_only_once = no
+	trigger = { 
+		or = {
+			has_idea = industry_law_1
+			has_idea = industry_law_2
+			has_idea = industry_law_3
+		}
+	}
+	mean_time_to_happen = {
+		days = 35	
+	}
+	option = { 
+		name = buildingslot.24b
+		if = { 
+			limit = { 
+				has_idea = industry_law_1
+			}
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}
+		}
+		if = { 
+			limit = { 
+				has_idea = industry_law_2
+			}
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}			
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}	
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+					is_in_home_area = yes
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}	
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+					is_in_home_area = yes
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}									
+		}
+		if = { 
+			limit = { 
+				has_idea = industry_law_3
+			}
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+					is_in_home_area = yes
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}			
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+					is_in_home_area = yes
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}	
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+					is_in_home_area = yes
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}				
+			random_owned_state = { 
+				limit = { 
+					is_core_of = root 
+					is_in_home_area = yes
+				}	
+				add_extra_state_shared_building_slots = 1					
+			}	
+		}				
+	}
+
+
+}
+
+
+
+
+

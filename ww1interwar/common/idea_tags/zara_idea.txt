@@ -1,0 +1,43 @@
+idea_categories = {
+	productivity_priority = {
+		slot = production_priorities
+		slot = infantry_production
+		slot = air_production
+		slot = armour_production
+		slot = naval_production
+		slot = production_tooling								
+	}
+	econ_laws = { 
+		slot = research_rate
+		slot = working_laws
+		slot = social_welfare		
+		slot = resource_extraction	
+		slot = ministry_of_information
+		cost = 150
+		removal_cost = 0
+	}	
+	war_laws = {
+		slot = espionage
+		slot = war_ideology
+		slot = war_government
+		slot = war_puppet
+		slot = war_threat
+		slot = war_volunteers
+		cost = 50
+		removal_cost = 0
+	}	
+	mechanics_manipulation = { 
+		slot = war_tension
+		slot = justification_speed
+		slot = espionage_boosting				
+		slot = lend_lease	
+		slot = volunteers	
+	}
+	mechanics_trigger = { 
+		slot = integration_laws
+		slot = industrialization_laws
+		slot = resource_exploitation_laws
+		slot = research_laws
+		slot = political_acts		
+	}	
+}

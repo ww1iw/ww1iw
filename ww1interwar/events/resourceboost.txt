@@ -1,0 +1,93 @@
+﻿add_namespace = resourcegain
+
+country_event = {
+	id = resourcegain.50
+	title = resourcegain.50.t
+	desc = resourcegain.50.d
+	picture = GFX_report_event_physics_lab_01
+	hidden = yes
+	fire_only_once = no
+	trigger = { 
+		or = {
+			has_idea = resource_law_1
+			has_idea = resource_law_2
+			has_idea = resource_law_3			
+		}
+	}
+	mean_time_to_happen = {
+		days = 200	
+	}
+	option = { 
+		name = resourcegain.24b
+		if = { 
+			limit = {
+				has_idea = resource_law_1
+			}				
+			random_owned_state = { 
+				z_add_resource = yes
+					
+			}
+		}
+		if = { 
+			limit = {
+				has_idea = resource_law_2
+			}
+			random_owned_state = { 
+				z_add_resource = yes
+					
+			}				
+			random_owned_state = { 
+				z_add_resource = yes
+					
+			}
+			random_owned_state = { 
+				z_add_resource = yes		
+			}			
+		}
+		if = { 
+			limit = {
+				has_idea = resource_law_3
+			}				
+			random_owned_state = { 
+
+				z_add_resource = yes
+					
+			}
+			random_owned_state = { 
+				z_add_resource = yes
+					
+			}
+			random_owned_state = { 
+				z_add_resource = yes
+					
+			}
+			random_owned_state = { 
+				z_add_resource = yes
+					
+			}
+			random_owned_state = { 
+				z_add_resource = yes
+					
+			}						
+		}
+
+	}
+}
+
+
+country_event = {
+	id = resourcegain.99
+	hidden = yes
+	fire_only_once = no
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 200	
+	}
+	option = { 
+		name = resourcegain.24b		
+		remove_ideas = political_act_801
+		set_country_flag = persiaoil
+		add_resource = { type = oil amount = 200 state = 413 }	
+				
+	}
+}
