@@ -8,12 +8,16 @@ state={
 
 	history={
 		owner = KUK
+		
+		victory_points = {
+			6647 3 #Osijek
+		}
+		victory_points = {
+			11581 5 #Zagreb 
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
-		}
-		victory_points = {
-			11581 3 
 		}
 		add_core_of = CRO
 		add_core_of = YUG

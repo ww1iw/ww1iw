@@ -41,9 +41,15 @@
  KUK_Research_Slot_II:0 "Research Slot II"
  KUK_Research_Slot_II_desc:0 ""
  KUK_Fortify_Against_Russia:0 "Fortify Against Russia"
+ KUK_Fortify_Against_Russia_desc:0 ""
+ KUK_Fortify_Against_Russia_tt:0 "Fortify the major cities along our front with Russia."
  KUK_Balkan_Fortification:0 "Balkan Fortification"
+ KUK_Balkan_Fortification_desc:0 ""
+ KUK_Balkan_Fortification_tt:0 "Fortify the major cities along our front with the Balkan states."
  
+ #Army Section
  KUK_Landstreitkrafte_Focus:0 "Landstreitkräfte Focus"
+ KUK_Landstreitkrafte_Focus_desc:0 ""
  KUK_Stellungskrieg:0 "Stellungskrieg"
  KUK_Defensive_Measures:0 "Defensive Measures"
  KUK_Offensive_Measures:0 "Offensive Measures"

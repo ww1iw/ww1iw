@@ -12,8 +12,12 @@ state={
 
 	history={
 		owner = KUK
+		
 		victory_points = {
-			11899 5 
+			9894 1 #Mostar
+		}
+		victory_points = {
+			11899 10 #Sarajevo 
 		}
 		buildings = {
 			infrastructure = 5

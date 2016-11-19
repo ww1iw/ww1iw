@@ -11,6 +11,10 @@ state={
 
 	history = {
 		owner = KUK
+		
+		victory_points = {
+			6679 3 #Hermannstadt
+		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

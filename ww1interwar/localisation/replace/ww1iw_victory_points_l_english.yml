@@ -17,7 +17,9 @@
  VICTORY_POINTS_3914:0 "Ioannina"
  VICTORY_POINTS_5034:0 "Nouakchott"
  VICTORY_POINTS_5037:0 "Mecca"
+ VICTORY_POINTS_6647:0 "Osijek"
  VICTORY_POINTS_6474:0 "Yuzovka"
+ VICTORY_POINTS_6679:0 "Hermannstadt" #German, Romanina: Sibiu
  VICTORY_POINTS_6900:0 "Korçë"
  VICTORY_POINTS_6950:0 "Sivas"
  VICTORY_POINTS_6998:0 "Kragujevac"
@@ -26,8 +28,10 @@
  VICTORY_POINTS_9303:0 "Galway"
  VICTORY_POINTS_9503:0 "Strossburi" #Alsatian, German: Straßburg, French: Strasbourg
  VICTORY_POINTS_9548:0 "Chernivtsi"
+ VICTORY_POINTS_9606:0 "Temesvár" #Hungarian, Romanian: Timișoara
  VICTORY_POINTS_9809:0 "Cetinje"
- VICTORY_POINTA_9893:0 "Mersin"
+ VICTORY_POINTS_9893:0 "Mersin"
+ VICTORY_POINTS_9894:0 "Mostar"
  VICTORY_POINTS_10835:0 "Medina"
  VICTORY_POINTS_11411:0 "Stanislau" #German, Ukranian: Ivano-Frankivsk
  VICTORY_POINTS_11479:0 "Lemberg" #German, Ukranian: Lviv, Vanilla: Lwow
