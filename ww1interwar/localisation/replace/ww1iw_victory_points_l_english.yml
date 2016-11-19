@@ -8,6 +8,7 @@
  VICTORY_POINTS_921:0 "Kayseri"
  VICTORY_POINTS_2057:0 "Ha'il"
  VICTORY_POINTS_3151:0 "Petrograd"
+ VICTORY_POINTS_3434:0 "Przemyśl"
  VICTORY_POINTS_3529:0 "Tsaritsyn"
  VICTORY_POINTS_3530:0 "Karlsruhe"
  VICTORY_POINTS_3865:0 "Kruševo"
@@ -24,9 +25,12 @@
  VICTORY_POINTS_7977:0 "Kut"
  VICTORY_POINTS_9303:0 "Galway"
  VICTORY_POINTS_9503:0 "Strossburi" #Alsatian, German: Straßburg, French: Strasbourg
+ VICTORY_POINTS_9548:0 "Chernivtsi"
  VICTORY_POINTS_9809:0 "Cetinje"
  VICTORY_POINTA_9893:0 "Mersin"
  VICTORY_POINTS_10835:0 "Medina"
+ VICTORY_POINTS_11411:0 "Stanislau" #German, Ukranian: Ivano-Frankivsk
+ VICTORY_POINTS_11479:0 "Lemberg" #German, Ukranian: Lviv, Vanilla: Lwow
  VICTORY_POINTS_11535:0 "Caen"
  VICTORY_POINTS_11547:0 "Kaiserslautern"
  VICTORY_POINTS_11842:0 "Edirne"

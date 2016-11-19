@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = KUK
+		
+		victory_points = {
+			9548 5 #Chernivtsi
+		}
 		1923.1.1 = {
 			owner = ROM
 
