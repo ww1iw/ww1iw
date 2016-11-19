@@ -1,0 +1,244 @@
+﻿add_namespace = imperial_conference
+country_event = {
+	id = imperial_conference.1
+	title = imperial_conference.1.t
+	desc = imperial_conference.1.d
+	picture = GFX_report_event_physics_lab_01
+	hidden = yes
+	is_triggered_only = yes
+	immediate = { 
+		remove_ideas = political_act_1
+		country_event = { id = imperial_conference.1000 days = 3650}
+		set_country_flag = conference
+		country_event = imperial_conference.2
+	}	
+}
+
+country_event = {
+	id = imperial_conference.2
+	title = imperial_conference.2.t
+	desc = imperial_conference.2.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	immediate = { 
+		#set_variable = { which = "votecount" value = 0}
+		CAN = { 
+			set_country_flag = commonwealth
+		}
+		CAN = { 
+			set_country_flag = commonwealth
+		}
+		NZL = { 
+			set_country_flag = commonwealth
+		}
+		SAF = { 
+			set_country_flag = commonwealth
+		}
+		RAJ = { 
+			set_country_flag = commonwealth
+		}
+		AST = { 
+			set_country_flag = commonwealth
+		}
+		every_country = { 
+			limit = { 
+				is_puppet_of = ROOT
+			}
+			set_country_flag = commonwealth
+		}
+
+	}
+	option = {
+		name = imperial_conference.2.a#discuss limited automony
+		country_event = imperial_conference.10
+	}
+	option = {
+		name = imperial_conference.2.b#discuss responsible government
+		country_event = imperial_conference.20
+	}			
+}
+
+
+country_event = {
+	id = imperial_conference.10
+	title = imperial_conference.10.t
+	desc = imperial_conference.10.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	option = {
+		name = imperial_conference.10.a#Can
+		every_country = {
+			limit = { 
+				has_country_flag = commonwealth
+			}
+			country_event = imperial_conference.100
+			clr_country_flag = conference_vote
+		}
+		country_event = { id = imperial_conference.107 days = 100}
+	}		
+}
+
+country_event = {
+	id = imperial_conference.100
+	title = imperial_conference.101.t
+	desc = imperial_conference.101.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name = imperial_conference.101.a#Surrender to Puppet
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 2
+				has_opinion = {
+					target = ENG
+					value > 75
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = ENG
+					value < -10
+				}
+			}
+		}		
+		
+			#change_variable = { which = "votecount" value = 1}
+		set_country_flag = conference_vote
+	}
+	option = {
+		name = imperial_conference.101.b#fight against puppet
+	}	
+
+}
+
+
+country_event = {
+	id = imperial_conference.107
+	title = imperial_conference.107.t
+	desc = imperial_conference.107.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name = imperial_conference.107.a#Surrender to Puppet
+		trigger = { 
+			any_country = {
+				has_country_flag = commonwealth
+				has_country_flag = conference_vote
+			}
+		}		
+			every_country = {
+				limit = {
+					has_country_flag = commonwealth
+					has_country_flag = conference_vote
+				}
+				ROOT = {
+					puppet = PREV
+				}
+			}									
+			ROOT = { 			
+				country_event = imperial_conference.99
+			}
+	}
+	option = {
+		name = britainempire.106.b#fight against puppet
+		ROOT = {
+			country_event = imperial_conference.99
+		}
+	}	
+}
+
+
+
+
+country_event = {
+	id = imperial_conference.20
+	title = imperial_conference.20.t
+	desc = imperial_conference.20.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	option = {
+		name = imperial_conference.20.a	
+		every_country = {
+			limit = { 
+				has_country_flag = commonwealth
+			}
+			country_event = imperial_conference.100
+			clr_country_flag = conference_vote
+		}
+
+		country_event = { id = imperial_conference.207 days = 100}
+	}
+}
+
+
+country_event = {
+	id = imperial_conference.207
+	title = imperial_conference.207.t
+	desc = imperial_conference.207.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name = imperial_conference.207.a#Surrender to Puppet
+		trigger = { 
+			any_country = {
+				has_country_flag = commonwealth
+				has_country_flag = conference_vote
+			}			
+			#check_variable = { which = "votecount" value = 6}
+		}	
+		every_country = {
+			limit ={
+				has_country_flag = commonwealth
+				has_country_flag = conference_vote
+			}	
+			ROOT = { 
+				annex_country = { target = PREV transfer_troops = yes }
+				country_event = imperial_conference.99
+			}
+		}
+	}
+	option = {
+		name = britainempire.206.b#fight against puppet
+		country_event = imperial_conference.99
+	}	
+}
+
+
+country_event = { 
+	id = imperial_conference.99
+	title = imperial_conference.99.t
+	desc = imperial_conference.99.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes	
+	option = { 
+		country_event = imperial_conference.2
+	}
+	option = { 
+	}
+
+}
+
+country_event = { 
+	id = imperial_conference.1000
+	hidden = yes
+
+	option = { 
+		clr_country_flag = conference
+	}
+
+}
