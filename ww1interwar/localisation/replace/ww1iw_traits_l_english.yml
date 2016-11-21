@@ -9,3 +9,7 @@
  autocratic_soldier_desc:0 "Seeing the current government as a system that is paralyzed and not capably responding to threats, this politician will attempt to open up a return to the old ways of monarchism or military dictatorship."
  national_socialist_agitator:0 "National Socialist Agitator"
  national_socialist_agitator_desc:0 "Under the impression his people are being infiltrated by another, this politician calls for extreme nationalist rhetoric and returning the country to power."
+ 
+ #Military Traits
+ defensive_strategist:0 "Defensive Strategist"
+ defensive_strategist_desc:0 "A master in the art of defense, this commander can easily setup their troops in the most advantageous positions to hold out against even the most numerically superior enemies."
