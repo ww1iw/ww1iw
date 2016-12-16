@@ -34,11 +34,26 @@ spriteTypes = {
 	#Austro-Hungarian Focus Tree Sprites
 	SpriteType = {
 		name = "GFX_goal_ahcrown"
-		texturefile = "gfx/interface/goals/goal_ahcrown.dds"			
+		texturefile = "gfx/interface/goals/goal_ahcrown.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_goal_ahcrown_broken"
-		texturefile = "gfx/interface/goals/goal_ahcrown_broken.dds"			
-	}	
+		texturefile = "gfx/interface/goals/goal_ahcrown_broken.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ahcrown_halfed"
+		texturefile = "gfx/interface/goals/goal_ahcrown_halfed.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ah_disestablishment"
+		texturefile = "gfx/interface/goals/goal_ah_disestablishment.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_usga"
+		texturefile = "gfx/interface/goals/goal_usga.dds"
+	}
 }
